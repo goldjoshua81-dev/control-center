@@ -3,8 +3,8 @@
     "title": "Fresh $$ Control Center",
     "owner": "Joshua",
     "assistant": "Fresh $$",
-    "last_updated": "2026-10-01T11:05:53-07:00",
-    "status_note": "Nothing is live yet. Every number is a real 0 until the first shop opens. No estimates are shown as results."
+    "last_updated": "2026-10-01T15:18:33-07:00",
+    "status_note": "PrintPlz and HostFees are live. Revenue is $0 so far; all zeros below are actuals, not estimates. PrintPlz ornaments are next, while the HostFees affiliate links await program approvals."
   },
   "budget": {
     "starting_capital": 1000,
@@ -30,25 +30,49 @@
         "amount": 250
       }
     ],
-    "ledger": []
+    "ledger": [
+      {
+        "date": "2026-10-01",
+        "what": "HostFees domain (hostfees.com, 1 year)",
+        "lane": "HostFees",
+        "amount": 10.46
+      },
+      {
+        "date": "2026-10-01",
+        "what": "Etsy listing fees (2 PrintPlz listings)",
+        "lane": "Print-on-demand shops",
+        "amount": 0.4
+      }
+    ]
   },
   "shops": [
     {
       "id": "printplz",
       "name": "PrintPlz",
-      "type": "Custom-everything print-on-demand gifts: Car & Bike, Kids, Funny, Holidays, Pets, Family",
-      "platform": "Etsy + Printify",
-      "status": "building",
-      "status_note": "Rebranded from Honk Twice (Oct 1). 54 listings drafted: 28 Car & Bike + 26 new-section concepts. 42 are designed with mockups and ready to publish; 12 are concepts. Not published yet.",
-      "url": "",
+      "type": "For-moms print-on-demand gifts: mom shirts, teacher shirts, kids stickers, holiday party items, ornaments",
+      "platform": "Etsy + Printful",
+      "status": "live",
+      "status_note": "OPEN as PrintPlzShop. Printful is connected. New focus: the for-moms store (mom shirts, teacher shirts, kids stickers, holiday party items, ornaments). Car & Bike moves to future store WrapperDelight. Run by the PrintPlz bot.",
+      "url": "https://www.etsy.com/shop/PrintPlzShop",
       "orders": 0,
       "revenue": 0,
       "profit": 0,
       "views": 0,
       "visits": 0,
-      "listings_live": 0,
-      "listings_drafted": 54,
-      "top_products": []
+      "listings_live": 2,
+      "listings_drafted": 0,
+      "top_products": [
+        {
+          "name": "Little Ghosts car magnet",
+          "price": "$14.99",
+          "url": "https://www.etsy.com/listing/4586652265"
+        },
+        {
+          "name": "Personalized Halloween tote",
+          "price": "$32.99",
+          "url": "https://www.etsy.com/listing/4586660855"
+        }
+      ]
     },
     {
       "id": "shop-2",
@@ -56,7 +80,7 @@
       "type": "Later: car-wrap designs and motorcycle-heavy items (moves out of PrintPlz)",
       "platform": "Etsy + Printify",
       "status": "planned",
-      "status_note": "Name parked; not started. Re-screen trademark before launch.",
+      "status_note": "Future store for Car & Bike designs; not started. PrintPlz Car & Bike moves here later.",
       "url": "",
       "orders": 0,
       "revenue": 0,
@@ -267,46 +291,56 @@
   },
   "needs_joshua": [
     {
-      "task": "Open the Etsy shop and finish ID + selfie verification",
-      "why": "Only you can verify identity. Etsy may charge a one-time setup fee (~$15 to $29).",
-      "priority": "high",
-      "done": false
-    },
-    {
-      "task": "Create a free Printify account and connect it to Etsy",
-      "why": "Needed before any listing can go live.",
-      "priority": "high",
-      "done": false
-    },
-    {
-      "task": "Approve 1 to 2 sample orders (~$15 to $25)",
-      "why": "Check print quality before selling.",
+      "task": "Approve 1 to 2 PrintPlz sample orders",
+      "why": "Check print quality before broader selling.",
       "priority": "medium",
       "done": false
     },
     {
-      "task": "Approve a hosting login for this dashboard",
-      "why": "So it can go live for free (GitHub Pages or similar).",
-      "priority": "medium",
-      "done": true
-    },
-    {
-      "task": "Decide whether to look closer at Marble Tracks ($700)",
-      "why": "It's the only watchlist deal under the $1,000 budget. Due diligence needs a free Flippa account.",
-      "priority": "low",
-      "done": false
-    },
-    {
-      "task": "Confirm the Etsy shop name PrintPlz during signup",
-      "why": "Etsy only confirms name availability in its signup flow. Backups: PrintPlzCo, PrintPlzShop.",
+      "task": "Set up PayPal Business and complete the W-9 for HostFees",
+      "why": "Required before monetization and affiliate payouts.",
       "priority": "high",
       "done": false
     },
     {
-      "task": "Decide whether to register printplz.com (~$10-20/yr)",
-      "why": "It was unregistered at the Oct 1 check. Buying it is your call.",
-      "priority": "low",
+      "task": "Create a Pinterest business account for HostFees",
+      "why": "Needed before publishing the prepared pins.",
+      "priority": "high",
       "done": false
+    },
+    {
+      "task": "Submit HostFees affiliate applications",
+      "why": "Apply to Hospitable, Turno, Lodgify, Hostaway, and Amazon after the business setup steps.",
+      "priority": "medium",
+      "done": false
+    }
+  ],
+  "projects": [
+    {
+      "id": "hostfees",
+      "name": "HostFees",
+      "type": "Short-term-rental fee calculators, explainers, and gift guides",
+      "status": "live",
+      "url": "https://hostfees.com",
+      "status_note": "LIVE at hostfees.com: 21 pages (5 calculators, 3 gift guides, 5 fee explainers) and 20 pins ready. Affiliate links are pending program approvals. Next: PayPal Business + W-9, Pinterest business, then Hospitable, Turno, Lodgify, Hostaway, and Amazon applications. Run by the HostSums bot.",
+      "pages": 21,
+      "calculators": 5,
+      "gift_guides": 3,
+      "fee_explainers": 5,
+      "pins_ready": 20,
+      "revenue": 0,
+      "profit": 0
+    },
+    {
+      "id": "deal-scout",
+      "name": "Deal Scout",
+      "type": "Business acquisition research",
+      "status": "research only",
+      "url": "",
+      "status_note": "Research only: daily hunt for one business priced up to $5,000. No acquisition made.",
+      "budget_limit": "$5,000",
+      "revenue": 0,
+      "profit": 0
     }
   ]
 }

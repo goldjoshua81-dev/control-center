@@ -40,7 +40,7 @@ function render(D) {
 
   $("shops").innerHTML = shops.map(s => {
     const conv = s.visits ? pct(s.orders / s.visits) : "n/a";
-    const top = s.top_products?.length ? "<ol>" + s.top_products.map(p => `<li>${esc(p.name)}${p.orders != null ? ` (${p.orders} orders)` : ""}</li>`).join("") + "</ol>" : `<p class="empty">No sales yet</p>`;
+    const top = s.top_products?.length ? "<ol>" + s.top_products.map(p => `<li>${p.url ? `<a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.name)}</a>` : esc(p.name)}${p.price ? ` · ${esc(p.price)}` : ""}${p.orders != null ? ` (${p.orders} orders)` : ""}</li>`).join("") + "</ol>" : `<p class="empty">No sales yet</p>`;
     return `<div class="card shop"><div class="row between"><h3>${esc(s.name)}</h3>${pill(s.status === "live" ? "live" : s.status)}</div>
       <div class="t">${esc(s.type)} · ${esc(s.platform)}${s.url ? ` · <a href="${esc(s.url)}" target="_blank" rel="noopener">open</a>` : ""}</div>
       <div class="muted">${esc(s.status_note || "")}</div>
@@ -48,6 +48,13 @@ function render(D) {
       <div><b>${(s.views||0).toLocaleString()}</b><small>Views</small></div><div><b>${(s.visits||0).toLocaleString()}</b><small>Visits</small></div><div><b>${conv}</b><small>Conversion</small></div></div>
       <div class="muted">Listings: ${s.listings_live} live / ${s.listings_drafted} drafted</div><b style="font-size:13px">Top products</b>${top}</div>`;
   }).join("");
+
+  const projects = D.projects || [];
+  $("projects").innerHTML = projects.map(p => `<div class="card shop"><div class="row between"><h3>${esc(p.name)}</h3>${pill(p.status)}</div>
+    <div class="t">${esc(p.type)}${p.url ? ` · <a href="${esc(p.url)}" target="_blank" rel="noopener">open</a>` : ""}</div>
+    <div class="muted">${esc(p.status_note || "")}</div>
+    ${p.pages != null ? `<div class="stats"><div><b>${p.pages}</b><small>Pages</small></div><div><b>${p.calculators}</b><small>Calculators</small></div><div><b>${p.gift_guides}</b><small>Gift guides</small></div><div><b>${p.fee_explainers}</b><small>Fee explainers</small></div><div><b>${p.pins_ready}</b><small>Pins ready</small></div></div>` : ""}
+    ${p.budget_limit ? `<div class="muted">Daily research budget: ${esc(p.budget_limit)}</div>` : ""}</div>`).join("");
 
   table("ads", [["Channel", r => esc(r.channel)], ["Status", r => pill(r.status)], ["Spend", r => usd(r.spend)], ["Revenue", r => usd(r.attributed_revenue)], ["Orders", r => r.orders], ["ROAS", r => r.spend ? (r.attributed_revenue / r.spend).toFixed(2) + "x" : "n/a"]], ads, "No ad channels yet");
   table("exps", [["Niche / test", r => `<b>${esc(r.name)}</b><div class="muted">${esc(r.note)}</div>`], ["Shop", r => esc(r.shop)], ["Listings", r => r.listings], ["Status", r => pill(r.status)], ["Result", r => r.result ? esc(r.result) : '<span class="empty">no data yet</span>']], D.experiments, "No experiments yet");
