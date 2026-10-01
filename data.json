@@ -3,7 +3,7 @@
     "title": "Fresh $$ Control Center",
     "owner": "Joshua",
     "assistant": "Fresh $$",
-    "last_updated": "2026-10-01T15:18:33-07:00",
+    "last_updated": "2026-10-01T15:20:16-07:00",
     "status_note": "PrintPlz and HostFees are live. Revenue is $0 so far; all zeros below are actuals, not estimates. PrintPlz ornaments are next, while the HostFees affiliate links await program approvals."
   },
   "budget": {
@@ -322,7 +322,7 @@
       "type": "Short-term-rental fee calculators, explainers, and gift guides",
       "status": "live",
       "url": "https://hostfees.com",
-      "status_note": "LIVE at hostfees.com: 21 pages (5 calculators, 3 gift guides, 5 fee explainers) and 20 pins ready. Affiliate links are pending program approvals. Next: PayPal Business + W-9, Pinterest business, then Hospitable, Turno, Lodgify, Hostaway, and Amazon applications. Run by the HostSums bot.",
+      "status_note": "Renamed from HostSums. LIVE at hostfees.com: 21 pages (5 calculators, 3 gift guides, 5 fee explainers) and 20 pins ready. Affiliate links are pending program approvals. Next: PayPal Business + W-9, Pinterest business, then Hospitable, Turno, Lodgify, Hostaway, and Amazon applications. Run by the HostSums bot.",
       "pages": 21,
       "calculators": 5,
       "gift_guides": 3,
