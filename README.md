@@ -19,12 +19,12 @@ A static, free-to-host dashboard for Joshua's money-making projects: POD shops, 
 ```bash
 cd /workspace/control-center
 python3 update.py show                                   # summary
-python3 update.py set shops.honk-twice.status live
-python3 update.py set shops.honk-twice.orders 3
-python3 update.py set shops.honk-twice.revenue 44.97
-python3 update.py set shops.honk-twice.profit 15.09      # after Printify cost, Etsy fees, and ad spend
-python3 update.py set shops.honk-twice.visits 412
-python3 update.py set shops.honk-twice.top_products '[{"name":"Student Driver Magnet","orders":2}]'
+python3 update.py set shops.printplz.status live
+python3 update.py set shops.printplz.orders 3
+python3 update.py set shops.printplz.revenue 44.97
+python3 update.py set shops.printplz.profit 15.09      # after Printify cost, Etsy fees, and ad spend
+python3 update.py set shops.printplz.visits 412
+python3 update.py set shops.printplz.top_products '[{"name":"Student Driver Magnet","orders":2}]'
 python3 update.py set "ads.Etsy Ads.status" on
 python3 update.py set "ads.Etsy Ads.spend" 10
 python3 update.py set experiments.0.status winner         # winner | loser | testing | not live

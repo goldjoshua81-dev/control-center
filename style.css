@@ -1,4 +1,4 @@
-/* Honk Twice palette: Asphalt #17161A · Cream #FFF4DF · Hazard Yellow #FFC531 · Signal Orange #FF5F1F · Brake Red #E8382E · Retro Teal #0FA3A3 */
+/* PrintPlz palette: Asphalt #17161A · Cream #FFF4DF · Hazard Yellow #FFC531 · Signal Orange #FF5F1F · Brake Red #E8382E · Retro Teal #0FA3A3 */
 :root{
   --asphalt:#17161A;--cream:#FFF4DF;--yellow:#FFC531;--orange:#FF5F1F;--red:#E8382E;--teal:#0FA3A3;--mint:#BFE6E3;
   /* darker text-safe variants (≥4.5:1 on white/cream) */

@@ -3,8 +3,8 @@
 
 Examples:
   python3 update.py show
-  python3 update.py set shops.honk-twice.orders 3          # shops/ads/experiments addressable by id/name prefix or index
-  python3 update.py set shops.honk-twice.status live
+  python3 update.py set shops.printplz.orders 3          # shops/ads/experiments addressable by id/name prefix or index
+  python3 update.py set shops.printplz.status live
   python3 update.py set "ads.Etsy Ads.spend" 12.50
   python3 update.py set experiments.0.status winner         # winner | loser | testing | not live
   python3 update.py spend 15 "Etsy shop setup fee" --lane "Print-on-demand shops"

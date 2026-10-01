@@ -3,7 +3,7 @@
     "title": "Fresh $$ Control Center",
     "owner": "Joshua",
     "assistant": "Fresh $$",
-    "last_updated": "2026-09-30T21:27:47-07:00",
+    "last_updated": "2026-10-01T11:05:53-07:00",
     "status_note": "Nothing is live yet. Every number is a real 0 until the first shop opens. No estimates are shown as results."
   },
   "budget": {
@@ -34,12 +34,12 @@
   },
   "shops": [
     {
-      "id": "honk-twice",
-      "name": "HONK TWICE",
-      "type": "Print-on-demand stickers, magnets & ornaments for cars and bikes",
+      "id": "printplz",
+      "name": "PrintPlz",
+      "type": "Custom-everything print-on-demand gifts: Car & Bike, Kids, Funny, Holidays, Pets, Family",
       "platform": "Etsy + Printify",
       "status": "building",
-      "status_note": "28 listings drafted across 7 niches. Not published yet.",
+      "status_note": "Rebranded from Honk Twice (Oct 1). 54 listings drafted: 28 Car & Bike + 26 new-section concepts. 42 are designed with mockups and ready to publish; 12 are concepts. Not published yet.",
       "url": "",
       "orders": 0,
       "revenue": 0,
@@ -47,16 +47,16 @@
       "views": 0,
       "visits": 0,
       "listings_live": 0,
-      "listings_drafted": 28,
+      "listings_drafted": 54,
       "top_products": []
     },
     {
       "id": "shop-2",
-      "name": "Shop #2 (TBD)",
-      "type": "Second POD shop, only if shop #1 shows traction",
+      "name": "WrapperDelight",
+      "type": "Later: car-wrap designs and motorcycle-heavy items (moves out of PrintPlz)",
       "platform": "Etsy + Printify",
       "status": "planned",
-      "status_note": "Not started.",
+      "status_note": "Name parked; not started. Re-screen trademark before launch.",
       "url": "",
       "orders": 0,
       "revenue": 0,
@@ -110,60 +110,108 @@
   ],
   "experiments": [
     {
-      "name": "A · New & Student Driver magnets",
-      "shop": "HONK TWICE",
+      "name": "A · Car & Bike: New & Student Driver magnets",
+      "shop": "PrintPlz",
       "listings": 4,
       "status": "not live",
       "result": "",
       "note": "Magnet 10x3, $14.99"
     },
     {
-      "name": "B · Personalized decals/magnets",
-      "shop": "HONK TWICE",
+      "name": "B · Car & Bike: Personalized decals/magnets",
+      "shop": "PrintPlz",
       "listings": 4,
       "status": "not live",
       "result": "",
       "note": "$7.49 to $16.99"
     },
     {
-      "name": "C · Funny bumper stickers",
-      "shop": "HONK TWICE",
+      "name": "C · Car & Bike: Funny bumper stickers",
+      "shop": "PrintPlz",
       "listings": 4,
       "status": "not live",
       "result": "",
-      "note": "Thin margin (~$1.84/sale)"
+      "note": "Thinnest margin (~$2.73/sale after audit)"
     },
     {
-      "name": "D · Car culture kiss-cut stickers",
-      "shop": "HONK TWICE",
+      "name": "D · Car & Bike: Car culture kiss-cut stickers",
+      "shop": "PrintPlz",
       "listings": 4,
       "status": "not live",
       "result": "",
       "note": "$5.99"
     },
     {
-      "name": "E · Dog on board",
-      "shop": "HONK TWICE",
+      "name": "E · Car & Bike: Dog on board",
+      "shop": "PrintPlz",
       "listings": 4,
       "status": "not live",
       "result": "",
       "note": "Mixed products"
     },
     {
-      "name": "F · Two-wheel (bike/moto)",
-      "shop": "HONK TWICE",
+      "name": "F · Car & Bike: Two-wheel (bike/moto)",
+      "shop": "PrintPlz",
       "listings": 4,
       "status": "not live",
       "result": "",
       "note": "Bumper + kiss-cut"
     },
     {
-      "name": "G · Holiday car-lover ornaments",
-      "shop": "HONK TWICE",
+      "name": "G · Car & Bike: Holiday car-lover ornaments",
+      "shop": "PrintPlz",
       "listings": 4,
       "status": "not live",
       "result": "",
       "note": "Q4 seasonal, $21.99 to $23.99"
+    },
+    {
+      "name": "X · Holidays: Christmas personalized (ornaments, stocking, gift tags)",
+      "shop": "PrintPlz",
+      "listings": 8,
+      "status": "not live",
+      "result": "",
+      "note": "6 designed; ornaments $21.99-23.99, stocking $39.99"
+    },
+    {
+      "name": "W · Holidays: Halloween (candy tote, ghost magnet)",
+      "shop": "PrintPlz",
+      "listings": 3,
+      "status": "not live",
+      "result": "",
+      "note": "2 designed; last order date ~Oct 20"
+    },
+    {
+      "name": "K · Kids (name sticker, birthday tee)",
+      "shop": "PrintPlz",
+      "listings": 5,
+      "status": "not live",
+      "result": "",
+      "note": "2 designed; $7.49-22.99"
+    },
+    {
+      "name": "P · Pets (pet ornament, memorial, mug)",
+      "shop": "PrintPlz",
+      "listings": 4,
+      "status": "not live",
+      "result": "",
+      "note": "3 designed"
+    },
+    {
+      "name": "M · Family (first home ornament, grandparent, Est. mug)",
+      "shop": "PrintPlz",
+      "listings": 3,
+      "status": "not live",
+      "result": "",
+      "note": "1 designed"
+    },
+    {
+      "name": "U · Funny (mugs, sticker)",
+      "shop": "PrintPlz",
+      "listings": 3,
+      "status": "not live",
+      "result": "",
+      "note": "concepts only"
     }
   ],
   "acquisitions": {
@@ -245,6 +293,18 @@
     {
       "task": "Decide whether to look closer at Marble Tracks ($700)",
       "why": "It's the only watchlist deal under the $1,000 budget. Due diligence needs a free Flippa account.",
+      "priority": "low",
+      "done": false
+    },
+    {
+      "task": "Confirm the Etsy shop name PrintPlz during signup",
+      "why": "Etsy only confirms name availability in its signup flow. Backups: PrintPlzCo, PrintPlzShop.",
+      "priority": "high",
+      "done": false
+    },
+    {
+      "task": "Decide whether to register printplz.com (~$10-20/yr)",
+      "why": "It was unregistered at the Oct 1 check. Buying it is your call.",
       "priority": "low",
       "done": false
     }
