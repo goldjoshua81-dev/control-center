@@ -3,7 +3,7 @@
     "title": "Fresh $$ Control Center",
     "owner": "Joshua",
     "assistant": "Fresh $$",
-    "last_updated": "2026-09-30T20:50:31-07:00",
+    "last_updated": "2026-09-30T21:27:47-07:00",
     "status_note": "Nothing is live yet. Every number is a real 0 until the first shop opens. No estimates are shown as results."
   },
   "budget": {
@@ -240,7 +240,7 @@
       "task": "Approve a hosting login for this dashboard",
       "why": "So it can go live for free (GitHub Pages or similar).",
       "priority": "medium",
-      "done": false
+      "done": true
     },
     {
       "task": "Decide whether to look closer at Marble Tracks ($700)",
