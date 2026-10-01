@@ -5,29 +5,34 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
 <title>Fresh $$ Control Center</title>
-<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@400;600;700;800&family=Shrikhand&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=2">
 </head>
 <body>
 <header class="top">
+  <div class="stripes" aria-hidden="true"><i></i><i></i><i></i></div>
   <div class="wrap">
     <div class="brand"><span class="logo">$$</span><div><h1 id="title">Fresh $$ Control Center</h1><p class="sub" id="updated">Loading…</p></div></div>
     <div class="banner" id="statusNote" hidden></div>
   </div>
+  <div class="checker" aria-hidden="true"></div>
 </header>
 <main class="wrap">
-  <section><h2>Overview</h2><div class="kpis" id="kpis"></div>
+  <section class="sec c-yellow"><h2><span class="ico" aria-hidden="true">🏁</span>Overview</h2><div class="kpis" id="kpis"></div>
     <div class="card"><div class="row between"><b>Capital deployed vs budget</b><span id="capLabel"></span></div>
       <div class="bar"><span id="capBar"></span></div>
       <div class="alloc" id="alloc"></div></div>
   </section>
-  <section><h2>🙋 Needs Joshua</h2><div class="card list" id="needs"></div></section>
-  <section><h2>Shops</h2><div class="grid" id="shops"></div></section>
-  <section><h2>Ad spend &amp; return</h2><div class="card"><table id="ads"></table></div></section>
-  <section><h2>Experiments / niches</h2><div class="card"><table id="exps"></table></div></section>
-  <section><h2>Acquisition watchlist</h2><p class="muted" id="acqNote"></p><div class="card"><table id="acq"></table></div></section>
-  <section><h2>Spending ledger</h2><div class="card"><table id="ledger"></table></div></section>
+  <section class="sec c-red"><h2><span class="ico" aria-hidden="true">🙋</span>Needs Joshua</h2><div class="card list" id="needs"></div></section>
+  <section class="sec c-teal"><h2><span class="ico" aria-hidden="true">🛍️</span>Shops</h2><div class="grid" id="shops"></div></section>
+  <section class="sec c-orange"><h2><span class="ico" aria-hidden="true">📣</span>Ad spend &amp; return</h2><div class="card"><table id="ads"></table></div></section>
+  <section class="sec c-yellow"><h2><span class="ico" aria-hidden="true">🧪</span>Experiments / niches</h2><div class="card"><table id="exps"></table></div></section>
+  <section class="sec c-teal"><h2><span class="ico" aria-hidden="true">🔭</span>Acquisition watchlist</h2><p class="muted" id="acqNote"></p><div class="card"><table id="acq"></table></div></section>
+  <section class="sec c-red"><h2><span class="ico" aria-hidden="true">🧾</span>Spending ledger</h2><div class="card"><table id="ledger"></table></div></section>
 </main>
 <footer class="wrap muted">Data: <code>data.json</code> · Updated by Fresh $$ · Zeros are real zeros, not placeholders.</footer>
-<script src="app.js"></script>
+<script src="app.js?v=2"></script>
 </body>
 </html>

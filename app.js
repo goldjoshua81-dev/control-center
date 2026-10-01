@@ -8,7 +8,7 @@ const table = (el, cols, rows, empty) => {
   if (!rows.length) { $(el).innerHTML = `<tr><td class="empty">${empty}</td></tr>`; return; }
   $(el).className = "stack";
   $(el).innerHTML = `<thead><tr>${cols.map(c => `<th>${c[0]}</th>`).join("")}</tr></thead><tbody>` +
-    rows.map(r => `<tr>${cols.map(c => `<td data-l="${c[0]}">${c[1](r)}</td>`).join("")}</tr>`).join("") + "</tbody>";
+    rows.map(r => `<tr>${cols.map(c => `<td data-l="${c[0]}"><span class="cv">${c[1](r)}</span></td>`).join("")}</tr>`).join("") + "</tbody>";
 };
 function fmtPT(iso) {
   const d = new Date(iso);
@@ -32,7 +32,8 @@ function render(D) {
     ["Ad ROAS", adSpend ? (adRev / adSpend).toFixed(2) + "x" : "n/a", `${usd(adSpend)} spent`],
     ["Shops live", `${live} / ${shops.length}`, live ? "" : "not live yet"],
   ];
-  $("kpis").innerHTML = k.map(([l, v, s]) => `<div class="kpi"><div class="l">${l}</div><div class="v">${v}</div><div class="s">${esc(s)}</div></div>`).join("");
+  const kc = [["k-yellow", "💵"], ["k-teal", "📈"], ["k-orange", "🚀"], ["k-asphalt", "🏦"], ["k-red", "🎯"], ["k-mint", "🏪"]];
+  $("kpis").innerHTML = k.map(([l, v, s], i) => `<div class="kpi ${kc[i][0]}"><div class="l"><span class="ki" aria-hidden="true">${kc[i][1]}</span>${l}</div><div class="v">${v}</div><div class="s">${esc(s)}</div></div>`).join("");
   $("capLabel").textContent = `${usd(deployed)} / ${usd(budget)} (${pct(deployed / budget)})`;
   $("capBar").style.width = Math.min(100, deployed / budget * 100) + "%";
   $("alloc").innerHTML = "Planned split: " + D.budget.planned_allocation.map(a => `<span>${esc(a.lane)}: <b>${usd(a.amount)}</b></span>`).join("");
