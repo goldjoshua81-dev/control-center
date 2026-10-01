@@ -1,0 +1,252 @@
+{
+  "meta": {
+    "title": "Fresh $$ Control Center",
+    "owner": "Joshua",
+    "assistant": "Fresh $$",
+    "last_updated": "2026-09-30T20:50:31-07:00",
+    "status_note": "Nothing is live yet. Every number is a real 0 until the first shop opens. No estimates are shown as results."
+  },
+  "budget": {
+    "starting_capital": 1000,
+    "planned_allocation": [
+      {
+        "lane": "Print-on-demand shops",
+        "amount": 300
+      },
+      {
+        "lane": "Digital products",
+        "amount": 250
+      },
+      {
+        "lane": "Micro-SaaS (later)",
+        "amount": 150
+      },
+      {
+        "lane": "Pinterest / content",
+        "amount": 50
+      },
+      {
+        "lane": "Held in reserve",
+        "amount": 250
+      }
+    ],
+    "ledger": []
+  },
+  "shops": [
+    {
+      "id": "honk-twice",
+      "name": "HONK TWICE",
+      "type": "Print-on-demand stickers, magnets & ornaments for cars and bikes",
+      "platform": "Etsy + Printify",
+      "status": "building",
+      "status_note": "28 listings drafted across 7 niches. Not published yet.",
+      "url": "",
+      "orders": 0,
+      "revenue": 0,
+      "profit": 0,
+      "views": 0,
+      "visits": 0,
+      "listings_live": 0,
+      "listings_drafted": 28,
+      "top_products": []
+    },
+    {
+      "id": "shop-2",
+      "name": "Shop #2 (TBD)",
+      "type": "Second POD shop, only if shop #1 shows traction",
+      "platform": "Etsy + Printify",
+      "status": "planned",
+      "status_note": "Not started.",
+      "url": "",
+      "orders": 0,
+      "revenue": 0,
+      "profit": 0,
+      "views": 0,
+      "visits": 0,
+      "listings_live": 0,
+      "listings_drafted": 0,
+      "top_products": []
+    },
+    {
+      "id": "digital",
+      "name": "Digital Products (later)",
+      "type": "Spreadsheet trackers and templates",
+      "platform": "Etsy / Gumroad",
+      "status": "planned",
+      "status_note": "Not started.",
+      "url": "",
+      "orders": 0,
+      "revenue": 0,
+      "profit": 0,
+      "views": 0,
+      "visits": 0,
+      "listings_live": 0,
+      "listings_drafted": 0,
+      "top_products": []
+    }
+  ],
+  "ads": [
+    {
+      "channel": "Etsy Ads",
+      "status": "off",
+      "spend": 0,
+      "attributed_revenue": 0,
+      "orders": 0
+    },
+    {
+      "channel": "Etsy Offsite Ads",
+      "status": "off",
+      "spend": 0,
+      "attributed_revenue": 0,
+      "orders": 0
+    },
+    {
+      "channel": "Pinterest (organic)",
+      "status": "off",
+      "spend": 0,
+      "attributed_revenue": 0,
+      "orders": 0
+    }
+  ],
+  "experiments": [
+    {
+      "name": "A · New & Student Driver magnets",
+      "shop": "HONK TWICE",
+      "listings": 4,
+      "status": "not live",
+      "result": "",
+      "note": "Magnet 10x3, $14.99"
+    },
+    {
+      "name": "B · Personalized decals/magnets",
+      "shop": "HONK TWICE",
+      "listings": 4,
+      "status": "not live",
+      "result": "",
+      "note": "$7.49 to $16.99"
+    },
+    {
+      "name": "C · Funny bumper stickers",
+      "shop": "HONK TWICE",
+      "listings": 4,
+      "status": "not live",
+      "result": "",
+      "note": "Thin margin (~$1.84/sale)"
+    },
+    {
+      "name": "D · Car culture kiss-cut stickers",
+      "shop": "HONK TWICE",
+      "listings": 4,
+      "status": "not live",
+      "result": "",
+      "note": "$5.99"
+    },
+    {
+      "name": "E · Dog on board",
+      "shop": "HONK TWICE",
+      "listings": 4,
+      "status": "not live",
+      "result": "",
+      "note": "Mixed products"
+    },
+    {
+      "name": "F · Two-wheel (bike/moto)",
+      "shop": "HONK TWICE",
+      "listings": 4,
+      "status": "not live",
+      "result": "",
+      "note": "Bumper + kiss-cut"
+    },
+    {
+      "name": "G · Holiday car-lover ornaments",
+      "shop": "HONK TWICE",
+      "listings": 4,
+      "status": "not live",
+      "result": "",
+      "note": "Q4 seasonal, $21.99 to $23.99"
+    }
+  ],
+  "acquisitions": {
+    "note": "Watch only. Figures are as listed by sellers on Sep 30, 2026 and are not verified by us. No bids, offers, or contact made.",
+    "source": "Deal Scout run 2026-09-30",
+    "watchlist": [
+      {
+        "name": "Marble Tracks (3D-printable STL store)",
+        "price": "$700",
+        "listed_profit": "$274/mo (Flippa Vetted)",
+        "status": "watching",
+        "closes": "Classified",
+        "fits_budget": true,
+        "url": "https://flippa.com/13871730"
+      },
+      {
+        "name": "Mixup Recipes (recipe site + social)",
+        "price": "Reserve $2,500",
+        "listed_profit": "$438/mo",
+        "status": "watching",
+        "closes": "~Oct 12",
+        "fits_budget": false,
+        "url": "https://flippa.com/14265493"
+      },
+      {
+        "name": "Vehicle Tax Calculator",
+        "price": "Bid $605, reserve hidden",
+        "listed_profit": "$333/mo (Flippa Vetted)",
+        "status": "watching",
+        "closes": "~Oct 28",
+        "fits_budget": false,
+        "url": "https://flippa.com/14277870"
+      },
+      {
+        "name": "donporque.com (Spanish explainers)",
+        "price": "$3,419 bid, reserve met",
+        "listed_profit": "€321/mo",
+        "status": "watching",
+        "closes": "~Oct 4",
+        "fits_budget": false,
+        "url": "https://flippa.com/14240344"
+      },
+      {
+        "name": "bottes-presso.fr (FR affiliate)",
+        "price": "$4,547",
+        "listed_profit": "€1,342/mo (Vetted, may be paused)",
+        "status": "watching",
+        "closes": "Classified",
+        "fits_budget": false,
+        "url": "https://flippa.com/12826968"
+      }
+    ]
+  },
+  "needs_joshua": [
+    {
+      "task": "Open the Etsy shop and finish ID + selfie verification",
+      "why": "Only you can verify identity. Etsy may charge a one-time setup fee (~$15 to $29).",
+      "priority": "high",
+      "done": false
+    },
+    {
+      "task": "Create a free Printify account and connect it to Etsy",
+      "why": "Needed before any listing can go live.",
+      "priority": "high",
+      "done": false
+    },
+    {
+      "task": "Approve 1 to 2 sample orders (~$15 to $25)",
+      "why": "Check print quality before selling.",
+      "priority": "medium",
+      "done": false
+    },
+    {
+      "task": "Approve a hosting login for this dashboard",
+      "why": "So it can go live for free (GitHub Pages or similar).",
+      "priority": "medium",
+      "done": false
+    },
+    {
+      "task": "Decide whether to look closer at Marble Tracks ($700)",
+      "why": "It's the only watchlist deal under the $1,000 budget. Due diligence needs a free Flippa account.",
+      "priority": "low",
+      "done": false
+    }
+  ]
+}
