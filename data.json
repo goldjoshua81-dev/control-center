@@ -3,8 +3,8 @@
     "title": "Fresh $$ Control Center",
     "owner": "Joshua",
     "assistant": "Fresh $$",
-    "last_updated": "2026-10-01T15:20:16-07:00",
-    "status_note": "PrintPlz and HostFees are live. Revenue is $0 so far; all zeros below are actuals, not estimates. PrintPlz ornaments are next, while the HostFees affiliate links await program approvals."
+    "last_updated": "2026-10-01T22:48:23-07:00",
+    "status_note": "Refresh at 10:48 PM PT Oct 1, 2026. PrintPlz still has 2 live listings confirmed by the known state; new catalog files are not evidence of new Etsy-live listings. HostFees is live, with 3 Pinterest pins confirmed published and Hospitable as the only live affiliate link. Revenue remains $0; all zeros below are actuals, not estimates."
   },
   "budget": {
     "starting_capital": 1000,
@@ -52,7 +52,7 @@
       "type": "For-moms print-on-demand gifts: mom shirts, teacher shirts, kids stickers, holiday party items, ornaments",
       "platform": "Etsy + Printful",
       "status": "live",
-      "status_note": "OPEN as PrintPlzShop. Printful is connected. New focus: the for-moms store (mom shirts, teacher shirts, kids stickers, holiday party items, ornaments). Car & Bike moves to future store WrapperDelight. Run by the PrintPlz bot.",
+      "status_note": "OPEN as PrintPlzShop with 2 live listings confirmed from the known state: Little Ghosts magnet and personalized Halloween tote. Printful is connected. Latest files add ready-to-list/local catalog work for X3, X7, P3, TB1, TG1, TF1 and K1, plus newer tee assets; none is confirmed live on Etsy. Ornaments remain in build/listing stages. Printful billing-card confirmation is not present in the latest files and remains amber. For-moms focus continues; Car & Bike remains in future WrapperDelight. Offsite Ads off; free US shipping. Run by the PrintPlz bot.",
       "url": "https://www.etsy.com/shop/PrintPlzShop",
       "orders": 0,
       "revenue": 0,
@@ -239,78 +239,84 @@
     }
   ],
   "acquisitions": {
-    "note": "Watch only. Figures are as listed by sellers on Sep 30, 2026 and are not verified by us. No bids, offers, or contact made.",
-    "source": "Deal Scout run 2026-09-30",
+    "note": "Watch only. Figures are seller/listing claims or research notes, not verified by us. No accounts, bids, offers, seller contact, purchases or acquisitions.",
+    "source": "Deal Scout Oct 1, 2026 run plus research notes through 4:50 PM PT",
     "watchlist": [
+      {
+        "name": "bottes-presso.fr (FR affiliate)",
+        "price": "$4,547",
+        "listed_profit": "€1,342/mo (Vetted; may be paused)",
+        "status": "watching",
+        "closes": "Classified",
+        "fits_budget": true,
+        "url": "https://flippa.com/12826968"
+      },
+      {
+        "name": "Mixup Recipes (recipe site + social)",
+        "price": "Reserve $2,500",
+        "listed_profit": "$438/mo (claimed)",
+        "status": "watching",
+        "closes": "~Oct 12",
+        "fits_budget": true,
+        "url": "https://flippa.com/14265493"
+      },
       {
         "name": "Marble Tracks (3D-printable STL store)",
         "price": "$700",
-        "listed_profit": "$274/mo (Flippa Vetted)",
+        "listed_profit": "$274/mo (Vetted; claimed)",
         "status": "watching",
         "closes": "Classified",
         "fits_budget": true,
         "url": "https://flippa.com/13871730"
       },
       {
-        "name": "Mixup Recipes (recipe site + social)",
-        "price": "Reserve $2,500",
-        "listed_profit": "$438/mo",
-        "status": "watching",
-        "closes": "~Oct 12",
-        "fits_budget": false,
-        "url": "https://flippa.com/14265493"
-      },
-      {
-        "name": "Vehicle Tax Calculator",
-        "price": "Bid $605, reserve hidden",
-        "listed_profit": "$333/mo (Flippa Vetted)",
-        "status": "watching",
-        "closes": "~Oct 28",
-        "fits_budget": false,
-        "url": "https://flippa.com/14277870"
-      },
-      {
-        "name": "donporque.com (Spanish explainers)",
-        "price": "$3,419 bid, reserve met",
-        "listed_profit": "€321/mo",
-        "status": "watching",
-        "closes": "~Oct 4",
-        "fits_budget": false,
-        "url": "https://flippa.com/14240344"
-      },
-      {
-        "name": "bottes-presso.fr (FR affiliate)",
-        "price": "$4,547",
-        "listed_profit": "€1,342/mo (Vetted, may be paused)",
+        "name": "Letras Bonitas Hub",
+        "price": "$1,600",
+        "listed_profit": "$200/mo (GA only; claimed)",
         "status": "watching",
         "closes": "Classified",
-        "fits_budget": false,
-        "url": "https://flippa.com/12826968"
+        "fits_budget": true,
+        "url": "https://flippa.com/13822230"
+      },
+      {
+        "name": "The Rookie Jurist",
+        "price": "$4,000",
+        "listed_profit": "$338/mo (GA only; claimed)",
+        "status": "watching",
+        "closes": "Classified",
+        "fits_budget": true,
+        "url": "https://flippa.com/13674307"
       }
     ]
   },
   "needs_joshua": [
     {
-      "task": "Approve 1 to 2 PrintPlz sample orders",
-      "why": "Check print quality before broader selling.",
+      "task": "Verify the Printful billing card and approve sample orders",
+      "why": "The latest files confirm build work but not billing-card readiness or sample quality.",
+      "priority": "high",
+      "done": false
+    },
+    {
+      "task": "Approve/publish the next PrintPlz ready-to-list products",
+      "why": "Local files show ready-to-list work, but no new Etsy-live listing is confirmed.",
+      "priority": "high",
+      "done": false
+    },
+    {
+      "task": "Deploy the built HostFees fixes and ping IndexNow",
+      "why": "The live audit found 2 embed-calculators overflow errors; source fixes are ready but the current live deploy still needs the owner-controlled deploy step.",
+      "priority": "high",
+      "done": false
+    },
+    {
+      "task": "Confirm Pinterest account/claim and publish the remaining approved pins",
+      "why": "Three pins are confirmed published; the rest are not confirmed published in the latest log.",
       "priority": "medium",
       "done": false
     },
     {
-      "task": "Set up PayPal Business and complete the W-9 for HostFees",
-      "why": "Required before monetization and affiliate payouts.",
-      "priority": "high",
-      "done": false
-    },
-    {
-      "task": "Create a Pinterest business account for HostFees",
-      "why": "Needed before publishing the prepared pins.",
-      "priority": "high",
-      "done": false
-    },
-    {
-      "task": "Submit HostFees affiliate applications",
-      "why": "Apply to Hospitable, Turno, Lodgify, Hostaway, and Amazon after the business setup steps.",
+      "task": "Complete HostFees W-9 and affiliate applications",
+      "why": "Personal PayPal is done; the W-9 and OwnerRez, Hostaway, Turno, Lodgify and Amazon steps remain pending. Hospitable is the only live link.",
       "priority": "medium",
       "done": false
     }
@@ -322,14 +328,15 @@
       "type": "Short-term-rental fee calculators, explainers, and gift guides",
       "status": "live",
       "url": "https://hostfees.com",
-      "status_note": "Renamed from HostSums. LIVE at hostfees.com: 21 pages (5 calculators, 3 gift guides, 5 fee explainers) and 20 pins ready. Affiliate links are pending program approvals. Next: PayPal Business + W-9, Pinterest business, then Hospitable, Turno, Lodgify, Hostaway, and Amazon applications. Run by the HostSums bot.",
-      "pages": 21,
+      "status_note": "Renamed from HostSums. LIVE at hostfees.com (HTTP 200). Latest live audit records 27 pages: 5 calculators, 3 gift guides and 10 fee explainers. The audit found 2 embed-calculators overflow errors on the live deploy; source fixes are built but not deployed. 49 pin assets exist; 3 Pinterest pins are confirmed published. Hospitable is the only live affiliate link; OwnerRez, Hostaway, Turno, Lodgify and Amazon remain placeholders/pending. Personal PayPal is confirmed done; W-9, remaining account/application steps and payout activation await Joshua. Run by the HostSums bot.",
+      "pages": 27,
       "calculators": 5,
       "gift_guides": 3,
-      "fee_explainers": 5,
-      "pins_ready": 20,
+      "fee_explainers": 10,
+      "pins_ready": 49,
       "revenue": 0,
-      "profit": 0
+      "profit": 0,
+      "pins_published": 3
     },
     {
       "id": "deal-scout",
@@ -337,7 +344,7 @@
       "type": "Business acquisition research",
       "status": "research only",
       "url": "",
-      "status_note": "Research only: daily hunt for one business priced up to $5,000. No acquisition made.",
+      "status_note": "Research only: latest Oct 1 work expanded the shortlist with affiliate-tool and HostFees-clone research. No accounts, buying, bids, offers, seller contact or acquisition are recorded.",
       "budget_limit": "$5,000",
       "revenue": 0,
       "profit": 0
