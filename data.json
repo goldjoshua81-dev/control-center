@@ -243,49 +243,35 @@
     "source": "Deal Scout Oct 1, 2026 run plus research notes through 4:50 PM PT",
     "watchlist": [
       {
-        "name": "bottes-presso.fr (FR affiliate)",
+        "name": "bottes-presso.fr",
         "price": "$4,547",
-        "listed_profit": "€1,342/mo (Vetted; may be paused)",
+        "listed_profit": "€1,342/mo (listed; may be paused)",
         "status": "watching",
-        "closes": "Classified",
-        "fits_budget": true,
-        "url": "https://flippa.com/12826968"
+        "fits_budget": true
       },
       {
-        "name": "Mixup Recipes (recipe site + social)",
+        "name": "Mixup Recipes",
         "price": "Reserve $2,500",
-        "listed_profit": "$438/mo (claimed)",
         "status": "watching",
-        "closes": "~Oct 12",
-        "fits_budget": true,
-        "url": "https://flippa.com/14265493"
+        "fits_budget": true
       },
       {
-        "name": "Marble Tracks (3D-printable STL store)",
+        "name": "Rewired iOS app",
+        "price": "$6,500 stretch",
+        "status": "stretch",
+        "fits_budget": false
+      },
+      {
+        "name": "Marble Tracks",
         "price": "$700",
-        "listed_profit": "$274/mo (Vetted; claimed)",
         "status": "watching",
-        "closes": "Classified",
-        "fits_budget": true,
-        "url": "https://flippa.com/13871730"
+        "fits_budget": true
       },
       {
         "name": "Letras Bonitas Hub",
         "price": "$1,600",
-        "listed_profit": "$200/mo (GA only; claimed)",
         "status": "watching",
-        "closes": "Classified",
-        "fits_budget": true,
-        "url": "https://flippa.com/13822230"
-      },
-      {
-        "name": "The Rookie Jurist",
-        "price": "$4,000",
-        "listed_profit": "$338/mo (GA only; claimed)",
-        "status": "watching",
-        "closes": "Classified",
-        "fits_budget": true,
-        "url": "https://flippa.com/13674307"
+        "fits_budget": true
       }
     ]
   },
