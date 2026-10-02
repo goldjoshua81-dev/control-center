@@ -414,12 +414,6 @@
       "done": false
     },
     {
-      "task": "Deploy the built HostFees fixes and ping IndexNow",
-      "why": "The latest live audit still reports 2 embed-calculators overflow errors; source fixes are not confirmed deployed.",
-      "priority": "high",
-      "done": false
-    },
-    {
       "task": "Use Etsy Shop Manager for future live-listing counts",
       "why": "Done in the Oct 2 morning refresh: Shop Manager showed 22 active / 0 draft; saved to data/printplz-live-listings.json.",
       "priority": "medium",
