@@ -3,8 +3,8 @@
     "title": "Fresh $$ Control Center",
     "owner": "Joshua",
     "assistant": "Fresh $$",
-    "last_updated": "2026-10-01T22:48:23-07:00",
-    "status_note": "Refresh at 10:48 PM PT Oct 1, 2026. PrintPlz still has 2 live listings confirmed by the known state; new catalog files are not evidence of new Etsy-live listings. HostFees is live, with 3 Pinterest pins confirmed published and Hospitable as the only live affiliate link. Revenue remains $0; all zeros below are actuals, not estimates."
+    "last_updated": "2026-10-02T06:21:23-07:00",
+    "status_note": "Refresh at 6:21 AM PT Oct 2, 2026. Latest PrintPlz catalog files confirm 4 Etsy listings with listing IDs; they do not confirm overnight orders, sales, or revenue, so actual revenue remains $0. HostFees remains live with 3 Pinterest pins confirmed published and Hospitable as the only live affiliate link. Local source files are not treated as live or as sales."
   },
   "budget": {
     "starting_capital": 1000,
@@ -52,25 +52,32 @@
       "type": "For-moms print-on-demand gifts: mom shirts, teacher shirts, kids stickers, holiday party items, ornaments",
       "platform": "Etsy + Printful",
       "status": "live",
-      "status_note": "OPEN as PrintPlzShop with 2 live listings confirmed from the known state: Little Ghosts magnet and personalized Halloween tote. Printful is connected. Latest files add ready-to-list/local catalog work for X3, X7, P3, TB1, TG1, TF1 and K1, plus newer tee assets; none is confirmed live on Etsy. Ornaments remain in build/listing stages. Printful billing-card confirmation is not present in the latest files and remains amber. For-moms focus continues; Car & Bike remains in future WrapperDelight. Offsite Ads off; free US shipping. Run by the PrintPlz bot.",
+      "status_note": "OPEN as PrintPlzShop with 4 current catalog rows marked live on Etsy and carrying Etsy listing IDs: P3 pet mug, TB1 Dadcula Little Fang, TG1 Mama Boo, and TF1 Monster Family. The latest catalog has 69 records (28 moved to the future car store); local ready-to-list/build files are not counted as live. TG2/TF2 are inconsistently marked live at the catalog level but their nested Printful metadata says files/photos are not uploaded, so they are excluded. No overnight order, sale, or revenue file is confirmed; dashboard actuals stay $0. Printful billing-card confirmation remains absent. Ornaments remain in build/listing stages. Offsite Ads off; free US shipping; Car & Bike remains in future WrapperDelight.",
       "url": "https://www.etsy.com/shop/PrintPlzShop",
       "orders": 0,
       "revenue": 0,
       "profit": 0,
       "views": 0,
       "visits": 0,
-      "listings_live": 2,
+      "listings_live": 4,
       "listings_drafted": 0,
       "top_products": [
         {
-          "name": "Little Ghosts car magnet",
-          "price": "$14.99",
-          "url": "https://www.etsy.com/listing/4586652265"
+          "name": "Personalized Pet Name mug (P3)",
+          "price": "$21.99",
+          "url": "https://www.etsy.com/listing/4586863386"
         },
         {
-          "name": "Personalized Halloween tote",
-          "price": "$32.99",
-          "url": "https://www.etsy.com/listing/4586660855"
+          "name": "Dadcula Little Fang matching shirts (TB1)",
+          "url": "https://www.etsy.com/listing/4586871127"
+        },
+        {
+          "name": "Mama Boo matching shirts (TG1)",
+          "url": "https://www.etsy.com/listing/4586885520"
+        },
+        {
+          "name": "Monster Family matching shirts (TF1)",
+          "url": "https://www.etsy.com/listing/4586893709"
         }
       ]
     },
@@ -240,7 +247,7 @@
   ],
   "acquisitions": {
     "note": "Watch only. Figures are seller/listing claims or research notes, not verified by us. No accounts, bids, offers, seller contact, purchases or acquisitions.",
-    "source": "Deal Scout Oct 1, 2026 run plus research notes through 4:50 PM PT",
+    "source": "Deal Scout 2026-10-01 run and shortlist; files refreshed Oct 2, 2026 ~5:04 AM PT",
     "watchlist": [
       {
         "name": "bottes-presso.fr",
@@ -278,31 +285,31 @@
   "needs_joshua": [
     {
       "task": "Verify the Printful billing card and approve sample orders",
-      "why": "The latest files confirm build work but not billing-card readiness or sample quality.",
+      "why": "Latest files confirm catalog/build work but not billing readiness, samples, or overnight sales.",
       "priority": "high",
       "done": false
     },
     {
-      "task": "Approve/publish the next PrintPlz ready-to-list products",
-      "why": "Local files show ready-to-list work, but no new Etsy-live listing is confirmed.",
+      "task": "Reconcile the current Etsy catalog and approve the next PrintPlz publications",
+      "why": "Four catalog rows have Etsy IDs; remaining local files are not confirmed live, and TG2/TF2 need status reconciliation.",
       "priority": "high",
       "done": false
     },
     {
       "task": "Deploy the built HostFees fixes and ping IndexNow",
-      "why": "The live audit found 2 embed-calculators overflow errors; source fixes are ready but the current live deploy still needs the owner-controlled deploy step.",
+      "why": "The latest live audit still reports 2 embed-calculators overflow errors; source fixes are not confirmed deployed.",
       "priority": "high",
       "done": false
     },
     {
-      "task": "Confirm Pinterest account/claim and publish the remaining approved pins",
-      "why": "Three pins are confirmed published; the rest are not confirmed published in the latest log.",
+      "task": "Confirm Pinterest account/claim and publish any remaining approved pins",
+      "why": "Three pins are confirmed published; no overnight additions or full claim confirmation is recorded.",
       "priority": "medium",
       "done": false
     },
     {
-      "task": "Complete HostFees W-9 and affiliate applications",
-      "why": "Personal PayPal is done; the W-9 and OwnerRez, Hostaway, Turno, Lodgify and Amazon steps remain pending. Hospitable is the only live link.",
+      "task": "Complete HostFees W-9 and remaining affiliate applications",
+      "why": "Personal PayPal is done; Hospitable is the only live affiliate link and other programs remain placeholders/pending.",
       "priority": "medium",
       "done": false
     }
@@ -314,7 +321,7 @@
       "type": "Short-term-rental fee calculators, explainers, and gift guides",
       "status": "live",
       "url": "https://hostfees.com",
-      "status_note": "Renamed from HostSums. LIVE at hostfees.com (HTTP 200). Latest live audit records 27 pages: 5 calculators, 3 gift guides and 10 fee explainers. The audit found 2 embed-calculators overflow errors on the live deploy; source fixes are built but not deployed. 49 pin assets exist; 3 Pinterest pins are confirmed published. Hospitable is the only live affiliate link; OwnerRez, Hostaway, Turno, Lodgify and Amazon remain placeholders/pending. Personal PayPal is confirmed done; W-9, remaining account/application steps and payout activation await Joshua. Run by the HostSums bot.",
+      "status_note": "Renamed from HostSums. LIVE at hostfees.com (HTTP 200). Latest live audit records 27 pages: 5 calculators, 3 gift guides and 10 fee explainers. No overnight deploy or new affiliate approval is confirmed: Hospitable remains the only live affiliate link; OwnerRez, Hostaway, Turno, Lodgify, PriceLabs and Amazon remain placeholders/pending. Three Pinterest pins remain explicitly confirmed published; source assets are prepared but not equivalent to posts. The live audit still reports 2 embed-calculators overflow errors; source fixes are not confirmed deployed. Personal PayPal is done; W-9 and remaining account/application steps await Joshua. Revenue remains $0.",
       "pages": 27,
       "calculators": 5,
       "gift_guides": 3,
@@ -330,7 +337,7 @@
       "type": "Business acquisition research",
       "status": "research only",
       "url": "",
-      "status_note": "Research only: latest Oct 1 work expanded the shortlist with affiliate-tool and HostFees-clone research. No accounts, buying, bids, offers, seller contact or acquisition are recorded.",
+      "status_note": "Research only. The Oct 1 run refreshed 305 Flippa cards and ranked 17 candidates; current top slate remains bottes-presso, Mixup Recipes, Rewired (stretch), Marble Tracks and Letras Bonitas Hub. No accounts, buying, bids, offers, seller contact or acquisition are recorded.",
       "budget_limit": "$5,000",
       "revenue": 0,
       "profit": 0
