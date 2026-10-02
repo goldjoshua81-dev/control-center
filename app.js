@@ -18,6 +18,14 @@ function render(D) {
   document.title = D.meta.title; $("title").textContent = D.meta.title;
   $("updated").textContent = "Last updated: " + fmtPT(D.meta.last_updated) + " · run by " + D.meta.assistant;
   if (D.meta.status_note) { $("statusNote").hidden = false; $("statusNote").textContent = D.meta.status_note; }
+  if (D.key_dates) {
+    table("keyDates", [
+      ["Date", r => `<b>${esc(r.date_display)}</b>`],
+      ["Milestone", r => esc(r.event)],
+      ["Details", r => `${esc(r.details)}<div class="muted">Source: ${esc(r.source || "PrintPlz README.md")}</div>`]
+    ], D.key_dates.slice().sort((a, b) => a.date.localeCompare(b.date)), "No key dates recorded");
+  }
+
   const shops = D.shops, ads = D.ads, budget = D.budget.starting_capital;
   const deployed = sum(D.budget.ledger, "amount");
   const rev = sum(shops, "revenue"), profit = sum(shops, "profit"), orders = sum(shops, "orders");
@@ -70,7 +78,7 @@ function render(D) {
     ${p.pages != null ? `<div class="stats"><div><b>${p.pages}</b><small>Pages</small></div><div><b>${p.calculators}</b><small>Calculators</small></div><div><b>${p.gift_guides}</b><small>Gift guides</small></div><div><b>${p.fee_explainers}</b><small>Fee explainers</small></div><div><b>${p.pins_ready}</b><small>Pins ready</small></div>${p.pins_published != null ? `<div><b>${p.pins_published}</b><small>Pins published</small></div>` : ""}</div>` : ""}
     ${p.budget_limit ? `<div class="muted">Daily research budget: ${esc(p.budget_limit)}</div>` : ""}</div>`).join("");
 
-  table("ads", [["Channel", r => esc(r.channel)], ["Status", r => pill(r.status)], ["Spend", r => usd(r.spend)], ["Revenue", r => usd(r.attributed_revenue)], ["Orders", r => r.orders], ["ROAS", r => r.spend ? (r.attributed_revenue / r.spend).toFixed(2) + "x" : "n/a"]], ads, "No ad channels yet");
+  table("ads", [["Channel", r => esc(r.channel)], ["Status", r => pill(r.status)], ["Spend", r => usd(r.spend)], ["Revenue", r => usd(r.attributed_revenue)], ["Orders", r => r.orders], ["ROAS", r => r.spend ? (r.attributed_revenue / r.spend).toFixed(2) + "x" : "n/a"], ["Plan / note", r => esc(r.plan || "")]], ads, "No ad channels yet");
   table("exps", [["Niche / test", r => `<b>${esc(r.name)}</b><div class="muted">${esc(r.note)}</div>`], ["Shop", r => esc(r.shop)], ["Listings", r => r.listings], ["Status", r => pill(r.status)], ["Result", r => r.result ? esc(r.result) : '<span class="empty">no data yet</span>']], D.experiments, "No experiments yet");
   $("acqNote").textContent = D.acquisitions.note + " Source: " + D.acquisitions.source + ".";
   table("acq", [["Asset", r => r.url ? `<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.name)}</a>` : esc(r.name)], ["Price", r => esc(r.price)], ["Listed profit", r => esc(r.listed_profit)], ["Closes", r => esc(r.closes)], ["Fits $5k?", r => r.fits_budget ? "✅ yes" : "no"], ["Status", r => pill(r.status)]], D.acquisitions.watchlist, "Watchlist empty");

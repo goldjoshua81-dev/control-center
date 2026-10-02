@@ -3,8 +3,8 @@
     "title": "Fresh $$ Control Center",
     "owner": "Joshua",
     "assistant": "Fresh $$",
-    "last_updated": "2026-10-02T07:52:16-07:00",
-    "status_note": "Morning Control Center refresh 7:52 AM PT Oct 2, 2026. PrintPlz live set is 22 active listings confirmed in Etsy Shop Manager (box browser); draft/expired/inactive all 0. New since the prior 20-listing dashboard: Sugar Cookie Crew (4587100460) and Christmas Family Shirts (4587113847). Orders 0, revenue $0, last-7-day views 11 and visits 4. hostfees.com returned HTTP 200. Margin estimates use lowest variant prices; actual revenue remains $0."
+    "last_updated": "2026-10-02T12:34:00-07:00",
+    "status_note": "Control Center refresh 12:34 PM PT Oct 2, 2026. PrintPlz has 22 active listings confirmed in Etsy Shop Manager (box browser); draft/expired/inactive all 0. Etsy Ads are planned to start Fri Oct 16 after the new-shop wait, with about $3/day and a Joshua-approved $100/month cap; $0 spent so far. Key dates are sourced from PrintPlz README.md. HostFees: hostfees.com Pinterest claim verified, 3 of 49 pins live with a daily 10:06 AM PT routine; Turno approved and its affiliate link is being added; Hospitable live; Hostaway declined for now and will be revisited in 4–6 weeks with traffic numbers. Actual revenue remains $0."
   },
   "budget": {
     "starting_capital": 1000,
@@ -234,24 +234,27 @@
   "ads": [
     {
       "channel": "Etsy Ads",
-      "status": "off",
+      "status": "planned",
       "spend": 0,
       "attributed_revenue": 0,
-      "orders": 0
+      "orders": 0,
+      "plan": "Starts Fri Oct 16; ~$3/day; $100/month approved cap; Halloween excluded; $0 spent."
     },
     {
       "channel": "Etsy Offsite Ads",
       "status": "off",
       "spend": 0,
       "attributed_revenue": 0,
-      "orders": 0
+      "orders": 0,
+      "plan": "No spend; remains off."
     },
     {
       "channel": "Pinterest (organic)",
-      "status": "off",
+      "status": "live",
       "spend": 0,
       "attributed_revenue": 0,
-      "orders": 0
+      "orders": 0,
+      "plan": "hostfees.com claimed; 3 of 49 pins live; daily routine posts 3 each morning at 10:06 AM PT; $0 spent."
     }
   ],
   "experiments": [
@@ -417,22 +420,40 @@
       "done": false
     },
     {
-      "task": "Confirm Pinterest account/claim and publish any remaining approved pins",
-      "why": "Three pins are confirmed published; no overnight additions or full claim confirmation is recorded.",
-      "priority": "medium",
-      "done": false
-    },
-    {
-      "task": "Complete remaining HostFees affiliate applications",
-      "why": "Personal PayPal is done. Hospitable is the only live link; Turno, Lodgify, Hostaway, OwnerRez and Amazon still need applications. W-9 only if a program asks.",
-      "priority": "medium",
-      "done": false
-    },
-    {
       "task": "Use Etsy Shop Manager for future live-listing counts",
       "why": "Done in the Oct 2 morning refresh: Shop Manager showed 22 active / 0 draft; saved to data/printplz-live-listings.json.",
       "priority": "medium",
       "done": true
+    },
+    {
+      "task": "Create a free beehiiv account for HostFees email alerts",
+      "why": "Enables email alerts for the live HostFees operating loop.",
+      "priority": "medium",
+      "done": false
+    },
+    {
+      "task": "Get a P.O. Box for HostFees",
+      "why": "Provides a separate mailing address for site and affiliate operations.",
+      "priority": "medium",
+      "done": false
+    },
+    {
+      "task": "Change the Turno temporary password",
+      "why": "Turno is approved; secure the account before the affiliate link goes live.",
+      "priority": "high",
+      "done": false
+    },
+    {
+      "task": "Add bank details in Hospitable Invoice Settings",
+      "why": "Hospitable is live; payout/invoice setup still needs the bank details entered.",
+      "priority": "high",
+      "done": false
+    },
+    {
+      "task": "Optionally rename the Pinterest username to hostfees",
+      "why": "The hostfees.com claim is verified; username cleanup is optional, not a blocker.",
+      "priority": "low",
+      "done": false
     }
   ],
   "projects": [
@@ -442,7 +463,7 @@
       "type": "Short-term-rental fee calculators, explainers, and gift guides",
       "status": "live",
       "url": "https://hostfees.com",
-      "status_note": "Renamed from HostSums. LIVE at hostfees.com (HTTP 200 confirmed morning of Oct 2, 2026). Latest live audit still records 27 pages: 5 calculators, 3 gift guides and 10 fee explainers. No overnight deploy or new affiliate approval confirmed: Hospitable remains the only live affiliate link; OwnerRez, Hostaway, Turno, Lodgify, PriceLabs and Amazon remain placeholders/pending. Three Pinterest pins remain explicitly confirmed published. Live audit still reports 2 embed-calculators overflow errors; source fixes not confirmed deployed. Personal PayPal is done (Business not required for now). W-9 only when a program asks. Revenue remains $0.",
+      "status_note": "Renamed from HostSums. LIVE at hostfees.com (HTTP 200 confirmed morning of Oct 2, 2026). Latest live audit records 27 pages: 5 calculators, 3 gift guides and 10 fee explainers. hostfees.com is claimed on Pinterest (verified); 3 of 49 pins are live and a daily routine posts 3 each morning at 10:06 AM PT. Hospitable is live. Turno is APPROVED and its affiliate link is being added to the site. Hostaway declined for now; revisit in 4–6 weeks with traffic numbers. OwnerRez, Lodgify, PriceLabs and Amazon remain placeholders/pending. Live audit still reports 2 embed-calculators overflow errors; source fixes are not confirmed deployed. Personal PayPal is done (Business not required for now). W-9 only when a program asks. Revenue remains $0.",
       "pages": 27,
       "calculators": 5,
       "gift_guides": 3,
@@ -450,7 +471,11 @@
       "pins_ready": 49,
       "revenue": 0,
       "profit": 0,
-      "pins_published": 3
+      "pins_published": 3,
+      "pin_routine": "3 each morning at 10:06 AM PT",
+      "pinterest_claimed": true,
+      "turno_status": "approved; affiliate link being added",
+      "hostaway_status": "declined for now; revisit in 4–6 weeks with traffic numbers"
     },
     {
       "id": "deal-scout",
@@ -929,5 +954,42 @@
     }
   ],
   "printplz_margin_note": "Estimates use the lowest variant price (range shown when variants exist). Formula: gross item price plus buyer shipping charged, minus Printful product cost, minus Printful US first-item shipping when Etsy offers free shipping, minus Etsy fees (6.5% transaction on item + shipping charged, 3% processing + $0.25, and $0.20 listing). Excludes ads, Offsite Ads, sales-tax handling and Printful billing-currency effects. Tee product/shipping costs are marked est. because the workspace source notes explicitly assume youth/toddler shipping.",
-  "printplz_margin_under_3": []
+  "printplz_margin_under_3": [],
+  "key_dates": [
+    {
+      "date": "2026-10-05",
+      "date_display": "Mon Oct 5, 2026",
+      "event": "Batch 2 build target",
+      "details": "W4 and TC1 live by Oct 5; then N1/N2, X9, X11, TC5, TC3, X12, and TC4.",
+      "source": "/workspace/pod-shops/printplz/README.md · Key dates and ads plan"
+    },
+    {
+      "date": "2026-10-16",
+      "date_display": "Fri Oct 16, 2026",
+      "event": "Etsy Ads start + Halloween order-by",
+      "details": "New shops wait 14 days. Planned budget ~$3/day, capped at $100/month (approved by Joshua). Halloween listings excluded from ads; this is also the Halloween last order-by date.",
+      "source": "/workspace/pod-shops/printplz/README.md · Key dates and ads plan"
+    },
+    {
+      "date": "2026-11-01",
+      "date_display": "Sun Nov 1, 2026 · recurring monthly",
+      "event": "Etsy billing date",
+      "details": "Etsy bills on the 1st of each month; Joshua reminder scheduled 3 days before (Oct 29 for this occurrence).",
+      "source": "/workspace/pod-shops/printplz/README.md · Key dates and ads plan"
+    },
+    {
+      "date": "2026-11-11",
+      "date_display": "Wed Nov 11, 2026",
+      "event": "Thanksgiving order-by",
+      "details": "Last recommended order-by date for Thanksgiving delivery.",
+      "source": "/workspace/pod-shops/printplz/README.md · Key dates and ads plan"
+    },
+    {
+      "date": "2026-12-09",
+      "date_display": "Wed Dec 9, 2026",
+      "event": "Christmas order-by",
+      "details": "Last recommended order-by date for Christmas delivery.",
+      "source": "/workspace/pod-shops/printplz/README.md · Key dates and ads plan"
+    }
+  ]
 }
