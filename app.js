@@ -49,6 +49,20 @@ function render(D) {
       <div class="muted">Listings: ${s.listings_live} live / ${s.listings_drafted} drafted</div><b style="font-size:13px">${s.id === "printplz" ? "Active Etsy listings (Shop Manager)" : "Top products"}</b>${top}</div>`;
   }).join("");
 
+  if (D.printplz_margins) {
+    $("marginNote").textContent = D.printplz_margin_note || "Estimates only; see table sources.";
+    table("margins", [
+      ["Item", r => `${r.url ? `<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.item)}</a>` : esc(r.item)}<div class="muted">${esc(r.concept_id)} · ${esc(r.section)}</div>`],
+      ["Price", r => esc(r.price_display)],
+      ["Printful cost", r => esc(r.printful_cost_display)],
+      ["Shipping absorbed", r => usd(r.shipping_absorbed)],
+      ["Etsy fees", r => usd(r.etsy_fees)],
+      ["Est. profit", r => usd(r.est_profit)],
+      ["Margin", r => (+r.margin_pct).toFixed(1) + "%"],
+      ["Cost source", r => esc(r.cost_source_short || "see source notes")]
+    ], D.printplz_margins, "No margin estimates yet");
+  }
+
   const projects = D.projects || [];
   $("projects").innerHTML = projects.map(p => `<div class="card shop"><div class="row between"><h3>${esc(p.name)}</h3>${pill(p.status)}</div>
     <div class="t">${esc(p.type)}${p.url ? ` · <a href="${esc(p.url)}" target="_blank" rel="noopener">open</a>` : ""}</div>
