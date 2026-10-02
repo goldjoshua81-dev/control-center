@@ -3,8 +3,8 @@
     "title": "Fresh $$ Control Center",
     "owner": "Joshua",
     "assistant": "Fresh $$",
-    "last_updated": "2026-10-02T06:21:23-07:00",
-    "status_note": "Refresh at 6:21 AM PT Oct 2, 2026. Latest PrintPlz catalog files confirm 4 Etsy listings with listing IDs; they do not confirm overnight orders, sales, or revenue, so actual revenue remains $0. HostFees remains live with 3 Pinterest pins confirmed published and Hospitable as the only live affiliate link. Local source files are not treated as live or as sales."
+    "last_updated": "2026-10-02T06:28:48-07:00",
+    "status_note": "Correction refreshed from Etsy Shop Manager checked live at 6:27 AM PT Oct 2, 2026: PrintPlz has 19 Active, 1 Draft, and 0 inactive/expired/sold out. The 19 active listing URLs and sections are recorded in data/printplz-live-listings.json. Etsy listing fees are estimated at 19 × $0.20 = $3.80; renewals are not counted. No orders, sales, or revenue are confirmed, so actual revenue remains $0. Future live-listing counts must come from Etsy Shop Manager in the box browser via a computerUse check, not workspace files."
   },
   "budget": {
     "starting_capital": 1000,
@@ -38,10 +38,10 @@
         "amount": 10.46
       },
       {
-        "date": "2026-10-01",
-        "what": "Etsy listing fees (2 PrintPlz listings)",
+        "date": "2026-10-02",
+        "what": "Etsy listing fees (19 active PrintPlz listings; estimate, renewals not counted)",
         "lane": "Print-on-demand shops",
-        "amount": 0.4
+        "amount": 3.8
       }
     ]
   },
@@ -52,32 +52,129 @@
       "type": "For-moms print-on-demand gifts: mom shirts, teacher shirts, kids stickers, holiday party items, ornaments",
       "platform": "Etsy + Printful",
       "status": "live",
-      "status_note": "OPEN as PrintPlzShop with 4 current catalog rows marked live on Etsy and carrying Etsy listing IDs: P3 pet mug, TB1 Dadcula Little Fang, TG1 Mama Boo, and TF1 Monster Family. The latest catalog has 69 records (28 moved to the future car store); local ready-to-list/build files are not counted as live. TG2/TF2 are inconsistently marked live at the catalog level but their nested Printful metadata says files/photos are not uploaded, so they are excluded. No overnight order, sale, or revenue file is confirmed; dashboard actuals stay $0. Printful billing-card confirmation remains absent. Ornaments remain in build/listing stages. Offsite Ads off; free US shipping; Car & Bike remains in future WrapperDelight.",
+      "status_note": "OPEN as PrintPlzShop. Etsy Shop Manager live check at 6:27 AM PT Oct 2 confirms 19 Active, 1 Draft, and 0 inactive/expired/sold out. The complete active list with links, prices and sections is in data/printplz-live-listings.json and is shown below. Etsy listing fees: 19 × $0.20 = $3.80 estimate; renewals not counted. No orders, sales, or revenue are confirmed; dashboard actuals remain $0. Printful billing-card confirmation remains absent. Offsite Ads off; free US shipping; Car & Bike remains in future WrapperDelight.",
       "url": "https://www.etsy.com/shop/PrintPlzShop",
       "orders": 0,
       "revenue": 0,
       "profit": 0,
       "views": 0,
       "visits": 0,
-      "listings_live": 4,
-      "listings_drafted": 0,
+      "listings_live": 19,
+      "listings_drafted": 1,
       "top_products": [
         {
-          "name": "Personalized Pet Name mug (P3)",
-          "price": "$21.99",
-          "url": "https://www.etsy.com/listing/4586863386"
+          "name": "Family Thanksgiving Shirts",
+          "price": "$25.99–31.99",
+          "section": "Holidays",
+          "url": "https://www.etsy.com/listing/4586952770"
         },
         {
-          "name": "Dadcula Little Fang matching shirts (TB1)",
-          "url": "https://www.etsy.com/listing/4586871127"
+          "name": "Thankful Mama Shirt",
+          "price": "$25.99–31.99",
+          "section": "Holidays",
+          "url": "https://www.etsy.com/listing/4586932761"
         },
         {
-          "name": "Mama Boo matching shirts (TG1)",
+          "name": "Official Pie Inspector Shirt",
+          "price": "$25.99–31.99",
+          "section": "Holidays",
+          "url": "https://www.etsy.com/listing/4586925176"
+        },
+        {
+          "name": "Personalized Kids Name Labels",
+          "price": "$13.99",
+          "section": "Kids",
+          "url": "https://www.etsy.com/listing/4586906120"
+        },
+        {
+          "name": "Monster Family Halloween Shirts",
+          "price": "$25.99–31.99",
+          "section": "Holidays",
+          "url": "https://www.etsy.com/listing/4586893709"
+        },
+        {
+          "name": "Mama Boo Matching Halloween Shirts",
+          "price": "$25.99–31.99",
+          "section": "Holidays",
           "url": "https://www.etsy.com/listing/4586885520"
         },
         {
-          "name": "Monster Family matching shirts (TF1)",
-          "url": "https://www.etsy.com/listing/4586893709"
+          "name": "Dadcula Little Fang",
+          "price": "$26.99–31.99",
+          "section": "Holidays",
+          "url": "https://www.etsy.com/listing/4586871127"
+        },
+        {
+          "name": "Personalized Pet Name Mug",
+          "price": "$21.99",
+          "section": "Pets",
+          "url": "https://www.etsy.com/listing/4586863386"
+        },
+        {
+          "name": "Personalized Christmas Gift Tag Stickers",
+          "price": "$13.99",
+          "section": "Holidays",
+          "url": "https://www.etsy.com/listing/4586852171"
+        },
+        {
+          "name": "Personalized Christmas Stocking",
+          "price": "$39.99",
+          "section": "Holidays",
+          "url": "https://www.etsy.com/listing/4586843780"
+        },
+        {
+          "name": "Funny Kids Christmas Ornament 2026",
+          "price": "$21.99",
+          "section": "Holidays",
+          "url": "https://www.etsy.com/listing/4586735738"
+        },
+        {
+          "name": "Personalized First Home Ornament 2026",
+          "price": "$21.99",
+          "section": "Family",
+          "url": "https://www.etsy.com/listing/4586723835"
+        },
+        {
+          "name": "Personalized Dog Christmas Ornament",
+          "price": "$21.99",
+          "section": "No section",
+          "url": "https://www.etsy.com/listing/4586706133"
+        },
+        {
+          "name": "Personalized Pet Memorial Ornament",
+          "price": "$23.99",
+          "section": "Pets",
+          "url": "https://www.etsy.com/listing/4586708521"
+        },
+        {
+          "name": "Our First Christmas Ornament 2026",
+          "price": "$21.99",
+          "section": "Holidays",
+          "url": "https://www.etsy.com/listing/4586704522"
+        },
+        {
+          "name": "Personalized Baby's First Christmas Ornament",
+          "price": "$21.99",
+          "section": "Holidays",
+          "url": "https://www.etsy.com/listing/4586693153"
+        },
+        {
+          "name": "Personalized Family Christmas Ornament",
+          "price": "$23.99",
+          "section": "Holidays",
+          "url": "https://www.etsy.com/listing/4586688180"
+        },
+        {
+          "name": "Personalized Halloween Candy Tote",
+          "price": "$32.99",
+          "section": "Holidays",
+          "url": "https://www.etsy.com/listing/4586660855"
+        },
+        {
+          "name": "Little Ghosts On Board Halloween Car Magnet",
+          "price": "$14.99",
+          "section": "Holidays",
+          "url": "https://www.etsy.com/listing/4586652265"
         }
       ]
     },
@@ -310,6 +407,12 @@
     {
       "task": "Complete HostFees W-9 and remaining affiliate applications",
       "why": "Personal PayPal is done; Hospitable is the only live affiliate link and other programs remain placeholders/pending.",
+      "priority": "medium",
+      "done": false
+    },
+    {
+      "task": "Use Etsy Shop Manager for future live-listing counts",
+      "why": "Workspace catalogs can lag or contain inconsistent status labels; the source of truth is the live Shop Manager check via computerUse.",
       "priority": "medium",
       "done": false
     }

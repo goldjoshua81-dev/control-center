@@ -1,0 +1,150 @@
+{
+  "source": "Etsy Shop Manager (live box-browser check)",
+  "checked_at": "2026-10-02T06:27:00-07:00",
+  "checked_at_pt": "Oct 2, 2026 6:27 AM PT",
+  "active_count": 19,
+  "draft_count": 1,
+  "inactive_expired_sold_out_count": 0,
+  "listing_fee_estimate": {
+    "active_count": 19,
+    "fee_each_usd": 0.2,
+    "total_usd": 3.8,
+    "note": "Estimate; renewals not counted."
+  },
+  "active_listings": [
+    {
+      "title": "Family Thanksgiving Shirts",
+      "price": "$25.99–31.99",
+      "section": "Holidays",
+      "listing_id": "4586952770",
+      "url": "https://www.etsy.com/listing/4586952770"
+    },
+    {
+      "title": "Thankful Mama Shirt",
+      "price": "$25.99–31.99",
+      "section": "Holidays",
+      "listing_id": "4586932761",
+      "url": "https://www.etsy.com/listing/4586932761"
+    },
+    {
+      "title": "Official Pie Inspector Shirt",
+      "price": "$25.99–31.99",
+      "section": "Holidays",
+      "listing_id": "4586925176",
+      "url": "https://www.etsy.com/listing/4586925176"
+    },
+    {
+      "title": "Personalized Kids Name Labels",
+      "price": "$13.99",
+      "section": "Kids",
+      "listing_id": "4586906120",
+      "url": "https://www.etsy.com/listing/4586906120"
+    },
+    {
+      "title": "Monster Family Halloween Shirts",
+      "price": "$25.99–31.99",
+      "section": "Holidays",
+      "listing_id": "4586893709",
+      "url": "https://www.etsy.com/listing/4586893709"
+    },
+    {
+      "title": "Mama Boo Matching Halloween Shirts",
+      "price": "$25.99–31.99",
+      "section": "Holidays",
+      "listing_id": "4586885520",
+      "url": "https://www.etsy.com/listing/4586885520"
+    },
+    {
+      "title": "Dadcula Little Fang",
+      "price": "$26.99–31.99",
+      "section": "Holidays",
+      "listing_id": "4586871127",
+      "url": "https://www.etsy.com/listing/4586871127"
+    },
+    {
+      "title": "Personalized Pet Name Mug",
+      "price": "$21.99",
+      "section": "Pets",
+      "listing_id": "4586863386",
+      "url": "https://www.etsy.com/listing/4586863386"
+    },
+    {
+      "title": "Personalized Christmas Gift Tag Stickers",
+      "price": "$13.99",
+      "section": "Holidays",
+      "listing_id": "4586852171",
+      "url": "https://www.etsy.com/listing/4586852171"
+    },
+    {
+      "title": "Personalized Christmas Stocking",
+      "price": "$39.99",
+      "section": "Holidays",
+      "listing_id": "4586843780",
+      "url": "https://www.etsy.com/listing/4586843780"
+    },
+    {
+      "title": "Funny Kids Christmas Ornament 2026",
+      "price": "$21.99",
+      "section": "Holidays",
+      "listing_id": "4586735738",
+      "url": "https://www.etsy.com/listing/4586735738"
+    },
+    {
+      "title": "Personalized First Home Ornament 2026",
+      "price": "$21.99",
+      "section": "Family",
+      "listing_id": "4586723835",
+      "url": "https://www.etsy.com/listing/4586723835"
+    },
+    {
+      "title": "Personalized Dog Christmas Ornament",
+      "price": "$21.99",
+      "section": "No section",
+      "listing_id": "4586706133",
+      "url": "https://www.etsy.com/listing/4586706133"
+    },
+    {
+      "title": "Personalized Pet Memorial Ornament",
+      "price": "$23.99",
+      "section": "Pets",
+      "listing_id": "4586708521",
+      "url": "https://www.etsy.com/listing/4586708521"
+    },
+    {
+      "title": "Our First Christmas Ornament 2026",
+      "price": "$21.99",
+      "section": "Holidays",
+      "listing_id": "4586704522",
+      "url": "https://www.etsy.com/listing/4586704522"
+    },
+    {
+      "title": "Personalized Baby's First Christmas Ornament",
+      "price": "$21.99",
+      "section": "Holidays",
+      "listing_id": "4586693153",
+      "url": "https://www.etsy.com/listing/4586693153"
+    },
+    {
+      "title": "Personalized Family Christmas Ornament",
+      "price": "$23.99",
+      "section": "Holidays",
+      "listing_id": "4586688180",
+      "url": "https://www.etsy.com/listing/4586688180"
+    },
+    {
+      "title": "Personalized Halloween Candy Tote",
+      "price": "$32.99",
+      "section": "Holidays",
+      "listing_id": "4586660855",
+      "url": "https://www.etsy.com/listing/4586660855"
+    },
+    {
+      "title": "Little Ghosts On Board Halloween Car Magnet",
+      "price": "$14.99",
+      "section": "Holidays",
+      "listing_id": "4586652265",
+      "url": "https://www.etsy.com/listing/4586652265"
+    }
+  ],
+  "refresh_rule": "Future live-listing counts must come from Etsy Shop Manager in the box browser via a computerUse check, not workspace files."
+}

@@ -40,13 +40,13 @@ function render(D) {
 
   $("shops").innerHTML = shops.map(s => {
     const conv = s.visits ? pct(s.orders / s.visits) : "n/a";
-    const top = s.top_products?.length ? "<ol>" + s.top_products.map(p => `<li>${p.url ? `<a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.name)}</a>` : esc(p.name)}${p.price ? ` · ${esc(p.price)}` : ""}${p.orders != null ? ` (${p.orders} orders)` : ""}</li>`).join("") + "</ol>" : `<p class="empty">No sales yet</p>`;
+    const top = s.top_products?.length ? "<ol>" + s.top_products.map(p => `<li>${p.url ? `<a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.name)}</a>` : esc(p.name)}${p.price ? ` · ${esc(p.price)}` : ""}${p.orders != null ? ` (${p.orders} orders)` : ""}${p.section ? ` · ${esc(p.section)}` : ""}</li>`).join("") + "</ol>" : `<p class="empty">No sales yet</p>`;
     return `<div class="card shop"><div class="row between"><h3>${esc(s.name)}</h3>${pill(s.status === "live" ? "live" : s.status)}</div>
       <div class="t">${esc(s.type)} · ${esc(s.platform)}${s.url ? ` · <a href="${esc(s.url)}" target="_blank" rel="noopener">open</a>` : ""}</div>
       <div class="muted">${esc(s.status_note || "")}</div>
       <div class="stats"><div><b>${s.orders}</b><small>Orders</small></div><div><b>${usd(s.revenue)}</b><small>Revenue</small></div><div><b>${usd(s.profit)}</b><small>Profit</small></div>
       <div><b>${(s.views||0).toLocaleString()}</b><small>Views</small></div><div><b>${(s.visits||0).toLocaleString()}</b><small>Visits</small></div><div><b>${conv}</b><small>Conversion</small></div></div>
-      <div class="muted">Listings: ${s.listings_live} live / ${s.listings_drafted} drafted</div><b style="font-size:13px">Top products</b>${top}</div>`;
+      <div class="muted">Listings: ${s.listings_live} live / ${s.listings_drafted} drafted</div><b style="font-size:13px">${s.id === "printplz" ? "Active Etsy listings (Shop Manager)" : "Top products"}</b>${top}</div>`;
   }).join("");
 
   const projects = D.projects || [];
