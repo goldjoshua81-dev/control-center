@@ -9,10 +9,11 @@ A static, free-to-host dashboard for Joshua's money-making projects: POD shops, 
 ## Files
 | File | Purpose |
 |---|---|
-| `index.html`, `style.css`, `app.js` | The page (no build step, no dependencies) |
+| `index.html`, `flowchart.html`, `improvements.html`, `style.css`, `pages.css`, `app.js` | Dashboard and focused operating pages (no build step) |
 | `data.json` | **The only file to edit** |
 | `update.py` | CLI to edit `data.json` safely (bumps `last_updated` to now in PT, validates) and publish |
 | `screenshot.py` | Headless Chromium render to `screenshots/*.png` |
+| `shots/` | Release screenshots for the flowchart and improvements pages |
 | `.nojekyll` | Tells GitHub Pages to serve files as-is |
 
 ## Refreshing stats
