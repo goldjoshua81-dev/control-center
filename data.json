@@ -3,8 +3,8 @@
     "title": "Fresh $$ Control Center",
     "owner": "Joshua",
     "assistant": "Fresh $$",
-    "last_updated": "2026-10-02T07:12:26-07:00",
-    "status_note": "Refresh at 7:12 AM PT Oct 2, 2026. The authoritative PrintPlz live set now has 20 listings from live-listings.csv plus listings.json (status=live and Etsy listing IDs), including Mostly Nice (4586991352). The Dog Christmas Ornament (4586706133) is in Pets. The new margin table uses lowest variant prices, Printful costs/shipping, and the stated Etsy fee formula; all values are estimates and actual revenue remains $0."
+    "last_updated": "2026-10-02T07:52:16-07:00",
+    "status_note": "Morning Control Center refresh 7:52 AM PT Oct 2, 2026. PrintPlz live set is 22 active listings confirmed in Etsy Shop Manager (box browser); draft/expired/inactive all 0. New since the prior 20-listing dashboard: Sugar Cookie Crew (4587100460) and Christmas Family Shirts (4587113847). Orders 0, revenue $0, last-7-day views 11 and visits 4. hostfees.com returned HTTP 200. Margin estimates use lowest variant prices; actual revenue remains $0."
   },
   "budget": {
     "starting_capital": 1000,
@@ -39,9 +39,9 @@
       },
       {
         "date": "2026-10-02",
-        "what": "Etsy listing fees (20 active PrintPlz listings; estimate, renewals not counted)",
+        "what": "Etsy listing fees (22 active PrintPlz listings; estimate, renewals not counted)",
         "lane": "Print-on-demand shops",
-        "amount": 4.0
+        "amount": 4.4
       }
     ]
   },
@@ -52,111 +52,27 @@
       "type": "For-moms print-on-demand gifts: mom shirts, teacher shirts, kids stickers, holiday party items, ornaments",
       "platform": "Etsy + Printful",
       "status": "live",
-      "status_note": "OPEN as PrintPlzShop. Authoritative live set: 20 listings from live-listings.csv plus listings.json rows with status=live and Etsy listing IDs; Mostly Nice (4586991352) was added at 6:35 AM PT. The Dog Christmas Ornament (4586706133) is moving to Pets. The dashboard margin table uses the lowest variant price and shows ranges for variant listings. Profit estimates exclude ads, Offsite Ads, sales-tax handling and Printful billing-currency effects. No orders, sales, or revenue are confirmed; actuals remain $0. Printful billing-card confirmation remains absent.",
+      "status_note": "OPEN as PrintPlzShop. Live count from Etsy Shop Manager (morning refresh): 22 active, 0 draft, 0 expired, 0 inactive. Newly live overnight vs prior dashboard: Sugar Cookie Crew (4587100460) and Christmas Family Shirts (4587113847). Dog Ornament (4586706133) is in Pets in workspace sections. Last 7 days: 11 views, 4 visits, 0 orders, $0 revenue. Printful billing-card confirmation remains absent. Margin table estimates exclude ads/Offsite Ads.",
       "url": "https://www.etsy.com/shop/PrintPlzShop",
       "orders": 0,
       "revenue": 0,
       "profit": 0,
-      "views": 0,
-      "visits": 0,
-      "listings_live": 20,
-      "listings_drafted": 1,
+      "views": 11,
+      "visits": 4,
+      "listings_live": 22,
+      "listings_drafted": 0,
       "top_products": [
         {
-          "name": "Personalized Christmas Stocking with Name, Retro Tree Family Mantel Decor",
-          "price": "$39.99 free shipping",
-          "section": "Holidays",
-          "url": "https://www.etsy.com/listing/4586843780"
-        },
-        {
-          "name": "Personalized Christmas Gift Tag Stickers, Retro From Name Label Sheet",
-          "price": "$13.99 + $3.49 buyer shipping",
-          "section": "Holidays",
-          "url": "https://www.etsy.com/listing/4586852171"
-        },
-        {
-          "name": "Personalized Kids Name Labels, School Lunchbox Water Bottle Sticker Sheet, Daycare Supplies",
-          "price": "$13.99 + $3.49 buyer shipping",
-          "section": "Kids",
-          "url": "https://www.etsy.com/listing/4586906120"
-        },
-        {
-          "name": "Family Christmas Ornament 2026, Personalized Family Name Ornament, Custom Last Name Keepsake, Retro House Christmas Gift",
-          "price": "$23.99 free shipping",
-          "section": "Holidays",
-          "url": "https://www.etsy.com/listing/4586688180"
-        },
-        {
-          "name": "Pet Memorial Ornament, Personalized Always By My Side Christmas Ornament, Dog or Cat Loss Keepsake, Pet Sympathy Gift",
-          "price": "$23.99 free shipping",
-          "section": "Pets",
-          "url": "https://www.etsy.com/listing/4586708521"
-        },
-        {
-          "name": "Personalized Trick or Treat Bag With Name, Kids Halloween Candy Haul Tote, Custom Name Halloween Bag, Reusable Candy Bag",
-          "price": "$32.99 free shipping",
-          "section": "Holidays",
-          "url": "https://www.etsy.com/listing/4586660855"
-        },
-        {
-          "name": "Baby's First Christmas Ornament 2026, Personalized Baby Name Ornament, Custom New Baby Keepsake, Retro Pink Christmas Gift",
-          "price": "$21.99 free shipping",
-          "section": "Holidays",
-          "url": "https://www.etsy.com/listing/4586693153"
-        },
-        {
-          "name": "Funny Kids Christmas Ornament 2026, Mostly Nice Personalized Name Ornament, Custom Kid Ornament, Stocking Stuffer Gift",
-          "price": "$21.99 free shipping",
-          "section": "Holidays",
-          "url": "https://www.etsy.com/listing/4586735738"
-        },
-        {
-          "name": "Our First Christmas Ornament 2026, Personalized Couple Names Ornament, Newlywed or Engaged Keepsake, Christmas Gift for Couple",
-          "price": "$21.99 free shipping",
-          "section": "Holidays",
-          "url": "https://www.etsy.com/listing/4586704522"
-        },
-        {
-          "name": "Our First Home Ornament 2026, Personalized New Home Christmas Ornament, Housewarming Keepsake, Closing Gift for Homeowners",
-          "price": "$21.99 free shipping",
-          "section": "Family",
-          "url": "https://www.etsy.com/listing/4586723835"
-        },
-        {
-          "name": "Personalized Dog Christmas Ornament 2026, Custom Pet Name Ornament, Retro Paw Bauble Keepsake, Dog Mom or Dog Dad Gift",
-          "price": "$21.99 free shipping",
-          "section": "Pets",
-          "url": "https://www.etsy.com/listing/4586706133"
-        },
-        {
-          "name": "Personalized Pet Name Mug, Favorite Human Dog Mom Coffee Cup Gift",
-          "price": "$21.99 free shipping",
-          "section": "Pets",
-          "url": "https://www.etsy.com/listing/4586863386"
-        },
-        {
-          "name": "Dadcula Little Fang Matching Halloween Shirts, Personalized Dad and Son Vampire Tee Set",
+          "name": "Christmas Family Shirts Personalized, Matching Last Name Tees 2026, Cozy Cabin Red Truck",
           "price": "$25.99–$31.99 (estimate uses toddler 2T–5T)",
           "section": "Holidays",
-          "url": "https://www.etsy.com/listing/4586871127"
+          "url": "https://www.etsy.com/listing/4587113847"
         },
         {
-          "name": "Family Thanksgiving Shirts Personalized, Matching Turkey Carver Pie Queen Gravy Taster Tees",
+          "name": "Sugar Cookie Crew Shirt, Personalized Mommy and Me Christmas Tee, Matching Mom Daughter",
           "price": "$25.99–$31.99 (estimate uses toddler 2T–5T)",
           "section": "Holidays",
-          "url": "https://www.etsy.com/listing/4586952770"
-        },
-        {
-          "name": "Mama Boo Matching Halloween Shirts, Personalized Mommy and Me Pink Ghost Tee Set",
-          "price": "$25.99–$31.99 (estimate uses toddler 2T–5T)",
-          "section": "Holidays",
-          "url": "https://www.etsy.com/listing/4586885520"
-        },
-        {
-          "name": "Monster Family Halloween Shirts, Personalized Matching Dadcula Momster Kids Name Tee Set",
-          "price": "$25.99–$31.99 (estimate uses toddler 2T–5T)",
-          "section": "Holidays",
-          "url": "https://www.etsy.com/listing/4586893709"
+          "url": "https://www.etsy.com/listing/4587100460"
         },
         {
           "name": "Mostly Nice Christmas Shirt Personalized, Dad and Son Matching Tees, Kids Name Santa",
@@ -165,10 +81,10 @@
           "url": "https://www.etsy.com/listing/4586991352"
         },
         {
-          "name": "Official Pie Inspector Shirt, Personalized Thanksgiving Dad and Son Matching Tee, Kids Name",
+          "name": "Family Thanksgiving Shirts Personalized, Matching Turkey Carver Pie Queen Gravy Taster Tees",
           "price": "$25.99–$31.99 (estimate uses toddler 2T–5T)",
           "section": "Holidays",
-          "url": "https://www.etsy.com/listing/4586925176"
+          "url": "https://www.etsy.com/listing/4586952770"
         },
         {
           "name": "Thankful Mama Shirt, Personalized Mommy and Me Thanksgiving Tee, Matching Mom Daughter Fall",
@@ -177,7 +93,103 @@
           "url": "https://www.etsy.com/listing/4586932761"
         },
         {
-          "name": "Little Ghosts On Board Halloween Car Magnet, Cute Ghost Kids in Car Bumper Magnet, Removable Spooky Season Car Decor",
+          "name": "Official Pie Inspector Shirt, Personalized Thanksgiving Dad and Son Matching Tee, Kids Name",
+          "price": "$25.99–$31.99 (estimate uses toddler 2T–5T)",
+          "section": "Holidays",
+          "url": "https://www.etsy.com/listing/4586925176"
+        },
+        {
+          "name": "Personalized Kids Name Labels, School Lunchbox Water Bottle Sticker Sheet, Daycare Supplies",
+          "price": "$13.99 + $3.49 buyer shipping",
+          "section": "Kids",
+          "url": "https://www.etsy.com/listing/4586906120"
+        },
+        {
+          "name": "Monster Family Halloween Shirts, Personalized Matching Dadcula Momster Kids Name Tee Set",
+          "price": "$25.99–$31.99 (estimate uses toddler 2T–5T)",
+          "section": "Holidays",
+          "url": "https://www.etsy.com/listing/4586893709"
+        },
+        {
+          "name": "Mama Boo Matching Halloween Shirts, Personalized Mommy and Me Pink Ghost Tee Set",
+          "price": "$25.99–$31.99 (estimate uses toddler 2T–5T)",
+          "section": "Holidays",
+          "url": "https://www.etsy.com/listing/4586885520"
+        },
+        {
+          "name": "Dadcula Little Fang Matching Halloween Shirts, Personalized Dad and Son Vampire Tee Set",
+          "price": "$26.99–$31.99 (estimate uses toddler 2T–5T)",
+          "section": "Holidays",
+          "url": "https://www.etsy.com/listing/4586871127"
+        },
+        {
+          "name": "Personalized Pet Name Mug, Favorite Human Dog Mom Coffee Cup Gift",
+          "price": "$21.99 free shipping",
+          "section": "Pets",
+          "url": "https://www.etsy.com/listing/4586863386"
+        },
+        {
+          "name": "Personalized Christmas Gift Tag Stickers, Retro From Name Label Sheet",
+          "price": "$13.99 + $3.49 buyer shipping",
+          "section": "Holidays",
+          "url": "https://www.etsy.com/listing/4586852171"
+        },
+        {
+          "name": "Personalized Christmas Stocking with Name, Retro Tree Family Mantel Decor",
+          "price": "$39.99 free shipping",
+          "section": "Holidays",
+          "url": "https://www.etsy.com/listing/4586843780"
+        },
+        {
+          "name": "Funny Kids Christmas Ornament 2026, Mostly Nice Personalized Name Gift",
+          "price": "$21.99 free shipping",
+          "section": "Holidays",
+          "url": "https://www.etsy.com/listing/4586735738"
+        },
+        {
+          "name": "Personalized First Home Ornament 2026, New Home Housewarming Keepsake",
+          "price": "$21.99 free shipping",
+          "section": "Family",
+          "url": "https://www.etsy.com/listing/4586723835"
+        },
+        {
+          "name": "Personalized Dog Christmas Ornament 2026, Custom Pet Name Keepsake",
+          "price": "$21.99 free shipping",
+          "section": "Pets",
+          "url": "https://www.etsy.com/listing/4586706133"
+        },
+        {
+          "name": "Personalized Pet Memorial Ornament, Always By My Side Pet Loss Keepsake",
+          "price": "$23.99 free shipping",
+          "section": "Pets",
+          "url": "https://www.etsy.com/listing/4586708521"
+        },
+        {
+          "name": "Our First Christmas Ornament 2026, Personalized Couple Names Keepsake",
+          "price": "$21.99 free shipping",
+          "section": "Holidays",
+          "url": "https://www.etsy.com/listing/4586704522"
+        },
+        {
+          "name": "Personalized Baby's First Christmas Ornament 2026, Baby Name Keepsake",
+          "price": "$21.99 free shipping",
+          "section": "Holidays",
+          "url": "https://www.etsy.com/listing/4586693153"
+        },
+        {
+          "name": "Personalized Family Christmas Ornament 2026, Last Name Keepsake",
+          "price": "$23.99 free shipping",
+          "section": "Holidays",
+          "url": "https://www.etsy.com/listing/4586688180"
+        },
+        {
+          "name": "Personalized Halloween Candy Tote, Custom Name Trick or Treat Bag",
+          "price": "$32.99 free shipping",
+          "section": "Holidays",
+          "url": "https://www.etsy.com/listing/4586660855"
+        },
+        {
+          "name": "Little Ghosts On Board Halloween Car Magnet, Cute Spooky Season Decor",
           "price": "$14.99 free shipping",
           "section": "Holidays",
           "url": "https://www.etsy.com/listing/4586652265"
@@ -350,7 +362,7 @@
   ],
   "acquisitions": {
     "note": "Watch only. Figures are seller/listing claims or research notes, not verified by us. No accounts, bids, offers, seller contact, purchases or acquisitions.",
-    "source": "Deal Scout 2026-10-01 run and shortlist; files refreshed Oct 2, 2026 ~5:04 AM PT",
+    "source": "Deal Scout 2026-10-01 run and shortlist; files on disk Oct 2, 2026; no new overnight run",
     "watchlist": [
       {
         "name": "bottes-presso.fr",
@@ -393,8 +405,8 @@
       "done": false
     },
     {
-      "task": "Reconcile the current Etsy catalog and approve the next PrintPlz publications",
-      "why": "Four catalog rows have Etsy IDs; remaining local files are not confirmed live, and TG2/TF2 need status reconciliation.",
+      "task": "Approve the next PrintPlz publications (6 ready-to-list still local)",
+      "why": "Shop Manager confirms 22 live. Six workspace rows remain ready-to-list (files + photos) and are not on Etsy yet.",
       "priority": "high",
       "done": false
     },
@@ -411,16 +423,16 @@
       "done": false
     },
     {
-      "task": "Complete HostFees W-9 and remaining affiliate applications",
-      "why": "Personal PayPal is done; Hospitable is the only live affiliate link and other programs remain placeholders/pending.",
+      "task": "Complete remaining HostFees affiliate applications",
+      "why": "Personal PayPal is done. Hospitable is the only live link; Turno, Lodgify, Hostaway, OwnerRez and Amazon still need applications. W-9 only if a program asks.",
       "priority": "medium",
       "done": false
     },
     {
       "task": "Use Etsy Shop Manager for future live-listing counts",
-      "why": "Workspace catalogs can lag or contain inconsistent status labels; the source of truth is the live Shop Manager check via computerUse.",
+      "why": "Done in the Oct 2 morning refresh: Shop Manager showed 22 active / 0 draft; saved to data/printplz-live-listings.json.",
       "priority": "medium",
-      "done": false
+      "done": true
     }
   ],
   "projects": [
@@ -430,7 +442,7 @@
       "type": "Short-term-rental fee calculators, explainers, and gift guides",
       "status": "live",
       "url": "https://hostfees.com",
-      "status_note": "Renamed from HostSums. LIVE at hostfees.com (HTTP 200). Latest live audit records 27 pages: 5 calculators, 3 gift guides and 10 fee explainers. No overnight deploy or new affiliate approval is confirmed: Hospitable remains the only live affiliate link; OwnerRez, Hostaway, Turno, Lodgify, PriceLabs and Amazon remain placeholders/pending. Three Pinterest pins remain explicitly confirmed published; source assets are prepared but not equivalent to posts. The live audit still reports 2 embed-calculators overflow errors; source fixes are not confirmed deployed. Personal PayPal is done; W-9 and remaining account/application steps await Joshua. Revenue remains $0.",
+      "status_note": "Renamed from HostSums. LIVE at hostfees.com (HTTP 200 confirmed morning of Oct 2, 2026). Latest live audit still records 27 pages: 5 calculators, 3 gift guides and 10 fee explainers. No overnight deploy or new affiliate approval confirmed: Hospitable remains the only live affiliate link; OwnerRez, Hostaway, Turno, Lodgify, PriceLabs and Amazon remain placeholders/pending. Three Pinterest pins remain explicitly confirmed published. Live audit still reports 2 embed-calculators overflow errors; source fixes not confirmed deployed. Personal PayPal is done (Business not required for now). W-9 only when a program asks. Revenue remains $0.",
       "pages": 27,
       "calculators": 5,
       "gift_guides": 3,
@@ -520,7 +532,7 @@
       "concept_id": "X1",
       "listing_id": "4586688180",
       "url": "https://www.etsy.com/listing/4586688180",
-      "item": "Family Christmas Ornament 2026, Personalized Family Name Ornament, Custom Last Name Keepsake, Retro House Christmas Gift",
+      "item": "Personalized Family Christmas Ornament 2026, Last Name Keepsake",
       "section": "Holidays",
       "price_low": 23.99,
       "price_high": 23.99,
@@ -541,7 +553,7 @@
       "concept_id": "P2",
       "listing_id": "4586708521",
       "url": "https://www.etsy.com/listing/4586708521",
-      "item": "Pet Memorial Ornament, Personalized Always By My Side Christmas Ornament, Dog or Cat Loss Keepsake, Pet Sympathy Gift",
+      "item": "Personalized Pet Memorial Ornament, Always By My Side Pet Loss Keepsake",
       "section": "Pets",
       "price_low": 23.99,
       "price_high": 23.99,
@@ -562,7 +574,7 @@
       "concept_id": "W1",
       "listing_id": "4586660855",
       "url": "https://www.etsy.com/listing/4586660855",
-      "item": "Personalized Trick or Treat Bag With Name, Kids Halloween Candy Haul Tote, Custom Name Halloween Bag, Reusable Candy Bag",
+      "item": "Personalized Halloween Candy Tote, Custom Name Trick or Treat Bag",
       "section": "Holidays",
       "price_low": 32.99,
       "price_high": 32.99,
@@ -580,31 +592,10 @@
       "margin_pct": 26.8
     },
     {
-      "concept_id": "X2",
-      "listing_id": "4586693153",
-      "url": "https://www.etsy.com/listing/4586693153",
-      "item": "Baby's First Christmas Ornament 2026, Personalized Baby Name Ornament, Custom New Baby Keepsake, Retro Pink Christmas Gift",
-      "section": "Holidays",
-      "price_low": 21.99,
-      "price_high": 21.99,
-      "price_display": "$21.99 free shipping",
-      "buyer_shipping_charged": 0.0,
-      "printful_product_cost": 6.34,
-      "printful_shipping": 5.49,
-      "shipping_absorbed": 5.49,
-      "printful_cost_display": "$6.34 product",
-      "printful_cost_note": "Ceramic Ornament, Circle 2.76 in, glossy, 1-side (Printful #881, variant 22782 Circle); Printful first-item US shipping is absorbed because Etsy offers free shipping.",
-      "cost_source": "api.printful.com/products/881 + printful.com/shipping (US, first item), Oct 1 2026",
-      "cost_source_short": "listings.json / Printful API + shipping",
-      "etsy_fees": 2.54,
-      "est_profit": 7.62,
-      "margin_pct": 34.7
-    },
-    {
       "concept_id": "X5",
       "listing_id": "4586735738",
       "url": "https://www.etsy.com/listing/4586735738",
-      "item": "Funny Kids Christmas Ornament 2026, Mostly Nice Personalized Name Ornament, Custom Kid Ornament, Stocking Stuffer Gift",
+      "item": "Funny Kids Christmas Ornament 2026, Mostly Nice Personalized Name Gift",
       "section": "Holidays",
       "price_low": 21.99,
       "price_high": 21.99,
@@ -625,7 +616,7 @@
       "concept_id": "X4",
       "listing_id": "4586704522",
       "url": "https://www.etsy.com/listing/4586704522",
-      "item": "Our First Christmas Ornament 2026, Personalized Couple Names Ornament, Newlywed or Engaged Keepsake, Christmas Gift for Couple",
+      "item": "Our First Christmas Ornament 2026, Personalized Couple Names Keepsake",
       "section": "Holidays",
       "price_low": 21.99,
       "price_high": 21.99,
@@ -643,11 +634,11 @@
       "margin_pct": 34.7
     },
     {
-      "concept_id": "M3",
-      "listing_id": "4586723835",
-      "url": "https://www.etsy.com/listing/4586723835",
-      "item": "Our First Home Ornament 2026, Personalized New Home Christmas Ornament, Housewarming Keepsake, Closing Gift for Homeowners",
-      "section": "Family",
+      "concept_id": "X2",
+      "listing_id": "4586693153",
+      "url": "https://www.etsy.com/listing/4586693153",
+      "item": "Personalized Baby's First Christmas Ornament 2026, Baby Name Keepsake",
+      "section": "Holidays",
       "price_low": 21.99,
       "price_high": 21.99,
       "price_display": "$21.99 free shipping",
@@ -667,8 +658,29 @@
       "concept_id": "P1",
       "listing_id": "4586706133",
       "url": "https://www.etsy.com/listing/4586706133",
-      "item": "Personalized Dog Christmas Ornament 2026, Custom Pet Name Ornament, Retro Paw Bauble Keepsake, Dog Mom or Dog Dad Gift",
+      "item": "Personalized Dog Christmas Ornament 2026, Custom Pet Name Keepsake",
       "section": "Pets",
+      "price_low": 21.99,
+      "price_high": 21.99,
+      "price_display": "$21.99 free shipping",
+      "buyer_shipping_charged": 0.0,
+      "printful_product_cost": 6.34,
+      "printful_shipping": 5.49,
+      "shipping_absorbed": 5.49,
+      "printful_cost_display": "$6.34 product",
+      "printful_cost_note": "Ceramic Ornament, Circle 2.76 in, glossy, 1-side (Printful #881, variant 22782 Circle); Printful first-item US shipping is absorbed because Etsy offers free shipping.",
+      "cost_source": "api.printful.com/products/881 + printful.com/shipping (US, first item), Oct 1 2026",
+      "cost_source_short": "listings.json / Printful API + shipping",
+      "etsy_fees": 2.54,
+      "est_profit": 7.62,
+      "margin_pct": 34.7
+    },
+    {
+      "concept_id": "M3",
+      "listing_id": "4586723835",
+      "url": "https://www.etsy.com/listing/4586723835",
+      "item": "Personalized First Home Ornament 2026, New Home Housewarming Keepsake",
+      "section": "Family",
       "price_low": 21.99,
       "price_high": 21.99,
       "price_display": "$21.99 free shipping",
@@ -704,6 +716,27 @@
       "etsy_fees": 2.54,
       "est_profit": 6.69,
       "margin_pct": 30.4
+    },
+    {
+      "price_low": 25.99,
+      "price_high": 31.99,
+      "price_display": "$25.99–$31.99 (estimate uses toddler 2T–5T)",
+      "buyer_shipping_charged": 0.0,
+      "printful_product_cost": 13.0,
+      "printful_shipping": 4.69,
+      "shipping_absorbed": 4.69,
+      "printful_cost_display": "$13.00 product (toddler 2T–5T; est.)",
+      "printful_cost_note": "Lowest-price variant: Bella+Canvas 3001T toddler 2T–5T; $13.00 product + $4.69 US shipping. Shipping is marked assumed in listings.json cost_source and tee-concepts.md.",
+      "cost_source": "workspace/pod-shops/printplz/tee-concepts.md + listings.json; toddler shipping assumption",
+      "cost_source_short": "tee-concepts.md + listings.json (toddler shipping est.)",
+      "etsy_fees": 2.92,
+      "est_profit": 5.38,
+      "margin_pct": 20.7,
+      "concept_id": "TF4",
+      "listing_id": "4587113847",
+      "url": "https://www.etsy.com/listing/4587113847",
+      "item": "Christmas Family Shirts Personalized, Matching Last Name Tees 2026, Cozy Cabin Red Truck",
+      "section": "Holidays"
     },
     {
       "concept_id": "TB1",
@@ -832,6 +865,27 @@
       "margin_pct": 20.7
     },
     {
+      "price_low": 25.99,
+      "price_high": 31.99,
+      "price_display": "$25.99–$31.99 (estimate uses toddler 2T–5T)",
+      "buyer_shipping_charged": 0.0,
+      "printful_product_cost": 13.0,
+      "printful_shipping": 4.69,
+      "shipping_absorbed": 4.69,
+      "printful_cost_display": "$13.00 product (toddler 2T–5T; est.)",
+      "printful_cost_note": "Lowest-price variant: Bella+Canvas 3001T toddler 2T–5T; $13.00 product + $4.69 US shipping. Shipping is marked assumed in listings.json cost_source and tee-concepts.md.",
+      "cost_source": "workspace/pod-shops/printplz/tee-concepts.md + listings.json; toddler shipping assumption",
+      "cost_source_short": "tee-concepts.md + listings.json (toddler shipping est.)",
+      "etsy_fees": 2.92,
+      "est_profit": 5.38,
+      "margin_pct": 20.7,
+      "concept_id": "TG3",
+      "listing_id": "4587100460",
+      "url": "https://www.etsy.com/listing/4587100460",
+      "item": "Sugar Cookie Crew Shirt, Personalized Mommy and Me Christmas Tee, Matching Mom Daughter",
+      "section": "Holidays"
+    },
+    {
       "concept_id": "TG2",
       "listing_id": "4586932761",
       "url": "https://www.etsy.com/listing/4586932761",
@@ -856,7 +910,7 @@
       "concept_id": "W2",
       "listing_id": "4586652265",
       "url": "https://www.etsy.com/listing/4586652265",
-      "item": "Little Ghosts On Board Halloween Car Magnet, Cute Ghost Kids in Car Bumper Magnet, Removable Spooky Season Car Decor",
+      "item": "Little Ghosts On Board Halloween Car Magnet, Cute Spooky Season Decor",
       "section": "Holidays",
       "price_low": 14.99,
       "price_high": 14.99,
