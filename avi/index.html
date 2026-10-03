@@ -4,199 +4,586 @@
 <meta name="robots" content="noindex, nofollow">
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="theme-color" content="#0c2340" />
 <title>Avi's Fun Page</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M16 2 30 8v10c0 8-14 14-14 14S2 26 2 18V8L16 2z' fill='%230c2340' stroke='%23f5c518' stroke-width='2'/%3E%3Ccircle cx='17' cy='15' r='5' fill='%23f7f8fb'/%3E%3Cpath d='M21 13h8l-5 3 4 2h-7z' fill='%23f5c518'/%3E%3Ccircle cx='18' cy='14' r='1.4' fill='%23d0122d'/%3E%3C/svg%3E" />
 <style>
   :root {
-    --yellow: #ffe14a;
-    --ink: #1b1430;
-    --card: #fffdf6;
-    --blue: #3d6bff;
-    --pink: #ff5fa2;
-    --green: #1faf6a;
+    --red: #d0122d;
+    --red-dark: #8e0c1f;
+    --navy: #0c2340;
+    --navy-2: #16355c;
+    --gold: #f5c518;
+    --cream: #f4efe6;
+    --card: #fffdf8;
+    --ink: #140c12;
+    --muted: #3e4a5a;
+    --green: #0d7a45;
+    --purple: #5b2a86;
+    --spurs: #132257;
   }
   * { box-sizing: border-box; }
   body {
     margin: 0;
     min-height: 100vh;
-    font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+    font-family: "Trebuchet MS", "Segoe UI", Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 1.45;
     color: var(--ink);
-    background:
-      radial-gradient(circle at 10% 10%, #fff3a8 0, transparent 36%),
-      radial-gradient(circle at 90% 0%, #ffd0ea 0, transparent 32%),
-      radial-gradient(circle at 80% 90%, #c9d7ff 0, transparent 34%),
-      #f7f4ff;
+    background-color: var(--cream);
+    background-image:
+      radial-gradient(circle at 0 0, rgba(208, 18, 45, .1), transparent 34%),
+      radial-gradient(circle at 100% 0, rgba(12, 35, 64, .1), transparent 30%),
+      repeating-linear-gradient(-45deg, transparent, transparent 18px, rgba(208, 18, 45, .04) 18px, rgba(208, 18, 45, .04) 19px);
+    overflow-x: hidden;
   }
-  button, input { font: inherit; }
-  .wrap { max-width: 980px; margin: 0 auto; padding: 28px 18px 64px; }
+  button, input, summary { font: inherit; color: inherit; }
+  button { cursor: pointer; }
+  :focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; }
+  .wrap { max-width: 1100px; margin: 0 auto; padding: 0 16px 72px; }
   .hidden { display: none !important; }
+  .tiny { color: var(--muted); font-size: 16px; }
+  .kicker {
+    display: inline-block;
+    margin: 0 0 6px;
+    background: var(--red);
+    color: white;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: .12em;
+    padding: 4px 8px;
+    border-radius: 999px;
+  }
+  h1, h2, h3 { line-height: 1.15; }
+  .eagle { width: 76px; height: 76px; display: block; transform-origin: 50% 80%; animation: bob 2.6s ease-in-out infinite alternate; }
+  @keyframes bob { from { transform: rotate(-3deg); } to { transform: rotate(3deg); } }
+  .egg-mark {
+    display: inline-block;
+    background: var(--gold);
+    color: var(--navy);
+    font-weight: 900;
+    font-size: 28px;
+    letter-spacing: -1px;
+    padding: 4px 10px 2px;
+    border-radius: 12px;
+    border: 3px solid var(--navy);
+    transform: rotate(-6deg);
+  }
+  .nameplate {
+    display: inline-block;
+    margin: 8px 0;
+    background: var(--red);
+    color: white;
+    font-weight: 900;
+    letter-spacing: .2em;
+    padding: 4px 12px 4px 16px;
+    border: 2px solid var(--gold);
+    box-shadow: 3px 3px 0 var(--gold);
+  }
   .gate {
     min-height: 100vh;
     display: grid;
     place-items: center;
-    padding: 24px;
+    padding: 24px 16px;
   }
   .gate-card {
-    width: min(420px, 100%);
+    width: min(440px, 100%);
     background: var(--card);
-    border: 3px solid var(--ink);
+    border: 3px solid var(--navy);
     border-radius: 28px;
-    padding: 28px 24px 22px;
-    box-shadow: 8px 8px 0 var(--ink);
+    padding: 26px 22px 22px;
+    box-shadow: 8px 8px 0 var(--red);
     text-align: center;
   }
-  .egg-mark {
-    display: inline-block;
-    background: var(--yellow);
-    color: var(--ink);
-    font-weight: 900;
-    font-size: 42px;
-    letter-spacing: -1px;
-    padding: 6px 16px 2px;
-    border-radius: 16px;
-    border: 3px solid var(--ink);
-    transform: rotate(-6deg);
-  }
-  h1 { font-size: 34px; margin: 14px 0 4px; letter-spacing: -0.5px; }
-  .sub { margin: 0 0 18px; color: #5c5470; }
-  label { display: block; text-align: left; font-weight: 700; margin: 10px 0 4px; }
+  .gate-brand, .hero-brand { display: flex; align-items: center; gap: 10px; }
+  .gate-brand { justify-content: center; }
+  .gate h1 { color: var(--navy); font-size: clamp(32px, 8vw, 40px); margin: 8px 0 4px; }
+  .sub { margin: 0 0 16px; color: var(--muted); }
+  label { display: block; text-align: left; font-weight: 800; margin: 10px 0 4px; }
   input[type="text"], input[type="password"] {
     width: 100%;
-    border: 2px solid var(--ink);
+    border: 2px solid var(--navy);
     border-radius: 12px;
-    padding: 10px 12px;
-    background: #fff;
-  }
-  .go {
-    margin-top: 16px;
-    width: 100%;
-    background: var(--yellow);
-    border: 3px solid var(--ink);
-    border-radius: 14px;
     padding: 12px;
-    font-weight: 800;
-    cursor: pointer;
-    box-shadow: 4px 4px 0 var(--ink);
+    min-height: 52px;
+    background: white;
+    font-size: 18px;
   }
-  .go:active { transform: translate(2px, 2px); box-shadow: 2px 2px 0 var(--ink); }
-  .nope { min-height: 1.2em; color: #c4235a; font-weight: 700; }
-  header.top {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    gap: 12px;
-    margin-bottom: 18px;
+  .big, .check, .chip, .tab, .month, .gem-chip, .quiz-opt, .out, .aim-row button, .suggest button, .promo button {
+    min-height: 48px;
   }
-  header.top h1 { margin: 0; font-size: 40px; }
-  .who { font-weight: 800; }
-  .out {
-    background: #fff;
-    border: 2px solid var(--ink);
+  .big {
+    background: var(--red);
+    color: white;
+    border: 3px solid var(--navy);
+    border-radius: 14px;
+    padding: 12px 16px;
+    font-weight: 900;
+    box-shadow: 4px 4px 0 var(--navy);
+  }
+  .big.gold { background: var(--gold); color: var(--navy); }
+  .big.navy { background: var(--navy); color: white; }
+  .big:active, .check:active, .chip:active { transform: translate(2px, 2px); }
+  .wide { width: 100%; margin-top: 16px; }
+  .nope { min-height: 1.3em; color: var(--red); font-weight: 800; }
+  .hero {
+    margin: 0 -16px;
+    padding: 18px 16px 16px;
+    background:
+      linear-gradient(180deg, rgba(208, 18, 45, .2), transparent 42%),
+      var(--navy);
+    color: white;
+  }
+  .hero-top { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+  .hero h1 { margin: 0; font-size: clamp(34px, 8vw, 56px); color: white; text-shadow: 3px 3px 0 var(--red); }
+  .who { margin: 6px 0 0; color: var(--gold); font-weight: 800; }
+  .hero-sub { margin: 6px 0 0; color: #f7f1e4; }
+  .hero .out {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
     border-radius: 999px;
-    padding: 6px 12px;
-    cursor: pointer;
-    font-weight: 700;
+    padding: 8px 14px;
+    font-weight: 800;
   }
-  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
-  .card {
+  .bands { display: flex; height: 12px; margin: 0 -16px 16px; }
+  .bands span { flex: 1; }
+  .bands span:nth-child(1) { background: var(--red); }
+  .bands span:nth-child(2) { background: white; }
+  .bands span:nth-child(3) { background: var(--navy); }
+  .bands span:nth-child(4) { background: var(--gold); }
+  .jump {
+    position: sticky;
+    top: 0;
+    z-index: 8;
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    padding: 10px 0;
+    background: rgba(244, 239, 230, .96);
+    border-bottom: 3px solid var(--red);
+  }
+  .jump a {
+    flex: 0 0 auto;
+    min-height: 48px;
+    display: inline-flex;
+    align-items: center;
+    padding: 0 14px;
+    border-radius: 999px;
+    background: var(--navy);
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+  }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; margin-top: 16px; }
+  .card, .panel {
     background: var(--card);
-    border: 3px solid var(--ink);
+    border: 3px solid var(--navy);
     border-radius: 22px;
     padding: 16px;
-    box-shadow: 6px 6px 0 var(--ink);
+    box-shadow: 6px 6px 0 var(--red);
+    scroll-margin-top: 72px;
   }
-  .card h2 { margin: 0 0 8px; font-size: 22px; }
-  .math-row, .sport-row { display: flex; flex-wrap: wrap; gap: 8px; }
-  .chip, .check {
-    border: 2px solid var(--ink);
-    background: #fff;
+  .panel { margin-top: 16px; }
+  .card h2, .panel h2 { margin: 0 0 8px; font-size: 26px; color: var(--navy); }
+  .math-row, .sport-row, .row-wrap { display: flex; flex-wrap: wrap; gap: 8px; }
+  .chip, .check, .tab, .month, .gem-chip {
+    border: 2px solid var(--navy);
+    background: white;
     border-radius: 999px;
-    padding: 6px 12px;
-    cursor: pointer;
+    padding: 8px 14px;
     font-weight: 800;
+    color: var(--navy);
   }
-  .chip.on { background: var(--yellow); }
-  .problem { font-size: 32px; font-weight: 900; margin: 10px 0; }
-  .answer { width: 120px; border: 2px solid var(--ink); border-radius: 12px; padding: 8px; }
+  .chip.on, .month.on { background: var(--red); color: white; }
+  .check { background: var(--red); color: white; border-radius: 12px; }
+  .problem { font-size: clamp(28px, 6vw, 36px); font-weight: 900; margin: 10px 0; color: var(--navy); }
+  .answer { width: min(160px, 100%); border: 2px solid var(--navy); border-radius: 12px; padding: 8px 12px; min-height: 52px; font-size: 22px; font-weight: 800; }
+  .math-line { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
   .ok { color: var(--green); font-weight: 800; }
   .dog-stage { text-align: center; padding: 8px 0 4px; }
   .dog {
-    width: 140px; height: 110px; margin: 0 auto; position: relative; cursor: pointer;
+    width: 180px; height: 140px; margin: 8px auto 18px; position: relative; cursor: pointer;
+    transform: scale(1.05);
   }
-  .body {
-    position: absolute; left: 28px; top: 36px; width: 84px; height: 52px;
+  .dog .body {
+    position: absolute; left: 28px; top: 42px; width: 92px; height: 56px;
     background: #f4c07a; border: 3px solid var(--ink); border-radius: 40px 46px 30px 36px;
   }
-  .head {
-    position: absolute; left: 78px; top: 18px; width: 52px; height: 48px;
+  .dog .head {
+    position: absolute; left: 86px; top: 22px; width: 58px; height: 52px;
     background: #f4c07a; border: 3px solid var(--ink); border-radius: 46% 46% 42% 42%;
   }
-  .ear {
+  .dog .ear {
     position: absolute; width: 18px; height: 28px; background: #e09a55;
     border: 3px solid var(--ink); border-radius: 12px 12px 6px 6px; top: -16px;
   }
-  .ear.l { left: 4px; transform: rotate(-18deg); }
-  .ear.r { right: 4px; transform: rotate(18deg); }
-  .eye {
-    position: absolute; top: 16px; width: 7px; height: 7px; background: var(--ink); border-radius: 50%;
-  }
-  .eye.l { left: 12px; } .eye.r { right: 12px; }
-  .nose {
-    position: absolute; left: 20px; top: 28px; width: 12px; height: 8px;
-    background: #1b1430; border-radius: 6px;
-  }
-  .tail {
-    position: absolute; left: 8px; top: 28px; width: 28px; height: 10px;
+  .dog .ear.l { left: 4px; transform: rotate(-18deg); }
+  .dog .ear.r { right: 4px; transform: rotate(18deg); }
+  .dog .eye { position: absolute; top: 16px; width: 7px; height: 7px; background: var(--ink); border-radius: 50%; }
+  .dog .eye.l { left: 14px; }
+  .dog .eye.r { right: 14px; }
+  .dog .nose { position: absolute; left: 22px; top: 30px; width: 12px; height: 8px; background: var(--ink); border-radius: 6px; }
+  .dog .tail {
+    position: absolute; left: 6px; top: 34px; width: 30px; height: 10px;
     background: #e09a55; border: 3px solid var(--ink); border-radius: 10px;
     transform-origin: right center;
   }
-  .dog.wag .tail { animation: wag 0.18s infinite alternate; }
+  .dog .collar {
+    position: absolute; left: 8px; right: 10px; bottom: 8px; height: 8px;
+    background: var(--red); border-radius: 4px; z-index: 2;
+  }
+  .dog .collar::after {
+    content: ""; position: absolute; left: 50%; top: 6px; width: 8px; height: 8px;
+    background: var(--gold); border: 2px solid var(--ink); border-radius: 50%; transform: translateX(-50%);
+  }
+  .dog.wag .tail { animation: wag .18s infinite alternate; }
   @keyframes wag { from { transform: rotate(18deg); } to { transform: rotate(-28deg); } }
   .scorebug {
-    display: flex; justify-content: space-between; align-items: center;
-    background: #1b1430; color: white; border-radius: 14px; padding: 10px 12px; margin-top: 10px;
+    display: flex; justify-content: space-between; align-items: center; gap: 8px;
+    background: var(--navy); color: white; border-radius: 14px; padding: 10px 12px; margin-top: 10px;
+    border-bottom: 4px solid var(--red);
   }
-  .scorebug b { color: var(--yellow); font-size: 22px; }
+  .scorebug b { color: var(--gold); font-size: 28px; letter-spacing: 1px; }
   .call { min-height: 3.2em; font-weight: 700; }
   .bot {
-    background: linear-gradient(160deg, #fff7c2, #ffe14a);
+    background: linear-gradient(165deg, #fff 0%, #fff4d2 45%, #ffd0d6 100%);
+    border-color: var(--red);
+  }
+  .beam-stage {
+    position: relative;
+    height: 280px;
+    border-radius: 18px;
+    overflow: hidden;
+    background: linear-gradient(#07060f, #1a1030 68%, #2a1848);
+    border: 3px solid #140c22;
+  }
+  .beam-stage::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image:
+      radial-gradient(1.5px 1.5px at 12% 22%, #fff, transparent),
+      radial-gradient(1.5px 1.5px at 28% 14%, #fff, transparent),
+      radial-gradient(1px 1px at 46% 28%, #fff, transparent),
+      radial-gradient(1.5px 1.5px at 70% 18%, #fff, transparent),
+      radial-gradient(1px 1px at 84% 32%, #fff, transparent),
+      radial-gradient(1.5px 1.5px at 62% 40%, #fff, transparent);
+  }
+  .skyline {
+    position: absolute; left: 0; right: 0; bottom: 0; height: 70px;
+    background:
+      linear-gradient(#241433, #241433) 8% 100% / 10% 46% no-repeat,
+      linear-gradient(#3a2158, #3a2158) 22% 100% / 8% 70% no-repeat,
+      linear-gradient(#241433, #241433) 36% 100% / 14% 40% no-repeat,
+      linear-gradient(#4c2a72, #4c2a72) 54% 100% / 7% 78% no-repeat,
+      linear-gradient(#241433, #241433) 68% 100% / 12% 52% no-repeat,
+      linear-gradient(#3a2158, #3a2158) 84% 100% / 9% 64% no-repeat,
+      linear-gradient(#120a1c, #120a1c);
+  }
+  .hoop {
+    position: absolute; top: 36px; left: 50%; transform: translateX(-50%);
+    width: 78px; height: 16px; border: 5px solid var(--gold); border-bottom: none; border-radius: 10px 10px 0 0;
+    z-index: 2;
+  }
+  .net {
+    position: absolute; top: 50px; left: 50%; transform: translateX(-50%);
+    width: 68px; height: 40px; z-index: 2;
+    background:
+      repeating-linear-gradient(90deg, transparent 0 7px, rgba(255,255,255,.55) 7px 8px),
+      repeating-linear-gradient(0deg, transparent 0 7px, rgba(255,255,255,.35) 7px 8px);
+    clip-path: polygon(0 0, 100% 0, 78% 100%, 22% 100%);
+  }
+  .beam {
+    position: absolute; left: 50%; bottom: 0; width: 110px; height: 100%;
+    transform: translateX(-50%) scaleY(0); transform-origin: bottom center;
+    background: linear-gradient(to top, rgba(168, 85, 247, .05), rgba(192, 132, 252, .75) 28%, #f6edff);
+    clip-path: polygon(38% 100%, 62% 100%, 100% 0, 0 0);
+    transition: transform .45s ease;
+    z-index: 1;
+  }
+  .beam-stage.lit .beam { transform: translateX(-50%) scaleY(1); }
+  .beam-label {
+    position: absolute; left: 12px; right: 12px; bottom: 78px; text-align: center;
+    color: white; font-weight: 900; text-shadow: 0 2px 0 #000; z-index: 3;
+  }
+  .legend-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 12px; }
+  .flip {
+    display: block; width: 100%; padding: 0; border: 0; background: transparent;
+    text-align: left; color: inherit; perspective: 900px; min-height: 0;
+  }
+  .flip-inner { display: grid; min-height: 176px; transform-style: preserve-3d; transition: transform .45s ease; }
+  .flip.on .flip-inner { transform: rotateY(180deg); }
+  .face {
+    grid-area: 1 / 1;
+    backface-visibility: hidden;
+    border: 3px solid var(--navy);
+    border-radius: 16px;
+    padding: 12px;
+  }
+  .face.front { background: #140c22; color: white; }
+  .face.back { background: var(--card); color: var(--ink); transform: rotateY(180deg); border-color: var(--purple); }
+  .badge {
+    display: inline-block; background: var(--gold); color: var(--navy);
+    font-weight: 900; border-radius: 999px; padding: 2px 8px; margin-bottom: 6px;
+  }
+  .face h3 { margin: 0 0 6px; font-size: 20px; }
+  .face p { margin: 0; }
+  .scarf {
+    height: 18px; border-radius: 9px; margin-bottom: 8px;
+    background: repeating-linear-gradient(90deg, var(--spurs) 0 18px, #fff 18px 30px);
+    border: 2px solid var(--spurs);
+  }
+  .soccer-layout, .gem-layout, .chess-top { display: grid; gap: 16px; }
+  @media (min-width: 860px) {
+    .soccer-layout { grid-template-columns: 1.15fr .85fr; }
+    .gem-layout { grid-template-columns: minmax(0, 1fr) minmax(280px, 380px); align-items: start; }
+  }
+  .pitch {
+    position: relative; height: 300px; border-radius: 16px; overflow: hidden;
+    border: 3px solid white;
+    background: repeating-linear-gradient(90deg, #1e7a3a 0 32px, #229445 32px 64px);
+    box-shadow: inset 0 0 0 3px var(--spurs);
+  }
+  .pitch::before {
+    content: ""; position: absolute; left: 50%; top: 0; transform: translateX(-50%);
+    width: 58%; height: 100px; border: 2px solid rgba(255,255,255,.85); border-top: none;
+  }
+  .goal-frame {
+    position: absolute; top: 6px; left: 50%; transform: translateX(-50%);
+    width: 48%; height: 78px; border: 4px solid white; border-top: none;
+    background: repeating-linear-gradient(90deg, rgba(255,255,255,.18) 0 8px, transparent 8px 16px);
+  }
+  .keeper {
+    position: absolute; bottom: 108px; left: 50%; width: 36px; height: 48px; margin-left: -18px;
+    background: var(--spurs); border: 2px solid white; border-radius: 12px 12px 6px 6px;
+    transition: left .25s ease; z-index: 2;
+  }
+  .keeper::before {
+    content: ""; position: absolute; width: 16px; height: 16px; background: #f3c7a6;
+    border: 2px solid var(--spurs); border-radius: 50%; top: -14px; left: 8px;
+  }
+  .keeper::after {
+    content: ""; position: absolute; width: 26px; height: 8px; background: var(--gold);
+    left: 3px; top: 16px; border-radius: 4px;
+  }
+  .ball {
+    position: absolute; left: 50%; bottom: 16px; width: 32px; height: 32px; margin-left: -16px;
+    border-radius: 50%; border: 2px solid #111; z-index: 3;
+    transition: left .4s ease, bottom .4s ease;
+    background:
+      radial-gradient(circle at 35% 35%, #fff 0 18%, transparent 19%),
+      conic-gradient(from 20deg, #111 0 40deg, #fff 0 80deg, #111 0 130deg, #fff 0 180deg, #111 0 230deg, #fff 0 280deg, #111 0 320deg, #fff 0 360deg);
+  }
+  .aim-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; margin-top: 8px; }
+  .aim-row button {
+    background: var(--spurs); color: white; border: 3px solid white; border-radius: 14px; font-weight: 900;
+    box-shadow: 0 4px 0 #070e22;
+  }
+  .aim-row button:disabled { opacity: .5; }
+  .fact-card {
+    background: white; border: 3px solid var(--spurs); border-radius: 16px; padding: 12px; margin-bottom: 10px;
+  }
+  .fact-card h3 { margin: 0 0 6px; color: var(--spurs); }
+  .tabs { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
+  .tab.on { background: var(--navy); color: white; }
+  .board-with-coords {
+    display: grid;
+    grid-template-columns: 22px minmax(0, 1fr);
+    grid-template-rows: minmax(0, 1fr) 22px;
+    width: min(100%, 540px);
+    margin: 0 auto;
+  }
+  .ranks { grid-column: 1; grid-row: 1; display: flex; flex-direction: column; height: 100%; }
+  .files { grid-column: 2; grid-row: 2; display: flex; }
+  .ranks span, .files span { flex: 1; display: grid; place-items: center; font-size: 12px; font-weight: 800; color: var(--navy); }
+  .board {
+    grid-column: 2; grid-row: 1;
+    display: grid; grid-template-columns: repeat(8, minmax(0, 1fr));
+    width: 100%; aspect-ratio: 1;
+    border: 3px solid var(--navy); border-radius: 6px; overflow: hidden;
+    touch-action: manipulation;
+  }
+  .sq {
+    position: relative; display: grid; place-items: center;
+    padding: 0; margin: 0; border: 0; border-radius: 0; min-height: 0; min-width: 0;
+    aspect-ratio: 1;
+  }
+  .sq.light { background: #f6efe2; }
+  .sq.dark { background: #1f4b86; }
+  .sq.sel { outline: 4px solid var(--red); outline-offset: -4px; z-index: 1; }
+  .sq.last { box-shadow: inset 0 0 0 999px rgba(245, 197, 24, .38); }
+  .sq.check { background: #e85a6b !important; }
+  .sq.reveal { outline: 4px dashed var(--gold); outline-offset: -6px; z-index: 1; }
+  .sq.dot::after, .sq.cap::after {
+    content: ""; position: absolute; z-index: 2; pointer-events: none;
+  }
+  .sq.dot::after {
+    width: 24%; height: 24%; border-radius: 50%; background: var(--gold);
+    box-shadow: 0 0 0 2px rgba(12, 35, 64, .35);
+  }
+  .sq.cap::after {
+    width: 74%; height: 74%; border-radius: 50%; border: 4px solid var(--gold); box-sizing: border-box;
+  }
+  .piece { width: 84%; height: 84%; display: block; pointer-events: none; }
+  .piece path, .piece circle { fill: var(--fill); stroke: var(--stroke); stroke-width: 1.5; stroke-linejoin: round; }
+  .piece.pw { --fill: #fffdf8; --stroke: #0c2340; }
+  .piece.pb { --fill: #22170f; --stroke: #f5c518; }
+  .piece .ink { fill: var(--stroke); stroke: none; }
+  .piece .cut { fill: none; stroke: var(--stroke); stroke-width: 2; }
+  .promo { margin-top: 10px; padding: 10px; border: 3px dashed var(--red); border-radius: 14px; background: #fff6f7; }
+  .learn-pieces { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 10px; }
+  .learn-pieces .chip, .promo button { display: inline-flex; align-items: center; gap: 6px; }
+  .learn-pieces .piece, .promo .piece { width: 28px; height: 28px; }
+  .gem-search { display: flex; flex-wrap: wrap; gap: 8px; }
+  .gem-search input { flex: 1 1 220px; }
+  .suggest { display: flex; flex-direction: column; gap: 6px; margin-top: 8px; }
+  .suggest button { text-align: left; background: white; border: 2px solid var(--navy); border-radius: 12px; padding: 8px 12px; font-weight: 800; }
+  .suggest button.on, .month.on { background: var(--gold); }
+  .gem-card {
+    border: 3px solid var(--navy); border-radius: 18px; padding: 12px; background: white; min-height: 180px;
+  }
+  .gem-art { width: min(220px, 80%); height: auto; display: block; margin: 0 auto 8px; }
+  .gem-art.opal { animation: hue 3.5s linear infinite alternate; }
+  @keyframes hue { from { filter: hue-rotate(0deg); } to { filter: hue-rotate(35deg); } }
+  .gem-art .shine { animation: glint 2.4s ease-in-out infinite; }
+  @keyframes glint { 50% { opacity: .35; } }
+  .mohs { display: grid; grid-template-columns: repeat(10, 1fr); gap: 3px; margin: 6px 0; }
+  .mohs span { display: block; height: 16px; border-radius: 4px; background: #e6e0d6; }
+  .mohs .full { background: var(--gem, var(--red)); }
+  .mohs .part { background: linear-gradient(90deg, var(--gem, var(--red)) 55%, #e6e0d6 55%); }
+  .fact-line { margin: 8px 0; }
+  .fact-line b { display: block; color: var(--red-dark); }
+  details summary { font-weight: 900; min-height: 48px; display: flex; align-items: center; cursor: pointer; }
+  .steps, .safety, .quiz-choices { display: grid; gap: 8px; }
+  .steps { grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); margin: 10px 0; }
+  .step {
+    background: var(--navy); color: white; border-radius: 16px; padding: 12px; min-height: 120px;
+  }
+  .step b { display: block; color: var(--gold); margin-bottom: 4px; }
+  .safety { grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); }
+  .safety div, .lesson-card {
+    background: white; border: 3px solid var(--navy); border-radius: 16px; padding: 12px;
+  }
+  .safety .stop { border-color: var(--red); }
+  .safety .go-share { border-color: var(--green); }
+  .lesson-card { margin: 10px 0; }
+  .lesson-card h3 { margin: 0 0 6px; color: var(--navy); }
+  .quiz-choices { grid-template-columns: 1fr; }
+  .quiz-opt {
+    text-align: left; background: white; border: 3px solid var(--navy); border-radius: 14px;
+    padding: 10px 12px; font-weight: 800;
+  }
+  .quiz-opt.good { background: #d9ffe8; }
+  .quiz-opt.bad { background: #ffe0e6; }
+  .quiz-opt:disabled { cursor: default; }
+  .better {
+    background: #fff8d8; border: 3px solid var(--navy); border-radius: 14px; padding: 12px; font-weight: 800; min-height: 3.2em;
+  }
+  .weak {
+    display: inline-block; background: #eee; border-radius: 8px; padding: 2px 8px; font-weight: 900;
   }
   .dad-note {
-    margin-top: 16px;
-    background: #fff;
-    border: 3px dashed var(--ink);
-    border-radius: 18px;
-    padding: 14px 16px;
+    margin-top: 16px; background: white; border: 3px dashed var(--navy); border-radius: 18px; padding: 14px 16px;
+    scroll-margin-top: 72px;
   }
-  .tiny { color: #5c5470; font-size: 14px; }
+  .footer-note { text-align: center; color: var(--muted); font-weight: 700; margin: 18px 0 0; }
+  .highfive {
+    position: fixed; left: 50%; bottom: 22px; transform: translateX(-50%);
+    background: var(--gold); color: var(--navy); border: 3px solid var(--navy);
+    border-radius: 999px; padding: 10px 18px; font-weight: 900; font-size: 26px;
+    z-index: 25; box-shadow: 4px 4px 0 var(--red); pointer-events: none;
+  }
+  .highfive.pop { animation: pop .35s ease; }
+  @keyframes pop { from { transform: translateX(-50%) scale(.7); } to { transform: translateX(-50%) scale(1); } }
+  #confetti { position: fixed; inset: 0; pointer-events: none; overflow: hidden; z-index: 24; }
+  #confetti i {
+    position: absolute; top: -16px; width: 10px; height: 14px; border-radius: 2px;
+    animation: fall 1.15s ease-in forwards;
+  }
+  @keyframes fall { to { top: 110%; transform: rotate(200deg); } }
+  @media (max-width: 640px) {
+    .scorebug span { font-size: 14px; }
+    .hero .egg-mark { font-size: 22px; }
+    .eagle { width: 64px; height: 64px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation: none !important;
+      transition: none !important;
+    }
+  }
 </style>
 </head>
 <body>
   <section id="gate" class="gate">
     <form class="gate-card" id="login-form">
-      <div class="egg-mark">$$</div>
+      <div class="gate-brand">
+        <svg class="eagle" viewBox="0 0 88 88" aria-hidden="true">
+          <path fill="#0c2340" stroke="#f5c518" stroke-width="3.5" d="M44 4 80 18v24c0 22-36 42-36 42S8 64 8 42V18L44 4z"/>
+          <path fill="#d0122d" d="M16 48c14-2 22 6 22 16-14 2-24-4-26-12 0-2 2-4 4-4z"/>
+          <path fill="#f5c518" d="M18 58c8 1 14 5 16 9-10 1-16-1-18-5 0-2 1-4 2-4z"/>
+          <circle cx="46" cy="38" r="15" fill="#f7f8fb" stroke="#0c2340" stroke-width="2"/>
+          <polygon points="56,33 80,40 56,49" fill="#f5c518" stroke="#0c2340" stroke-width="1.6" stroke-linejoin="round"/>
+          <circle cx="49" cy="35" r="3.5" fill="#0c2340"/>
+          <circle cx="50.2" cy="33.8" r="1.4" fill="#d0122d"/>
+          <path d="M34 30c8-6 18-5 22 2" fill="none" stroke="#0c2340" stroke-width="2.2" stroke-linecap="round"/>
+        </svg>
+        <div class="egg-mark">$$</div>
+      </div>
+      <div class="nameplate">EAGLES</div>
       <h1>Avi's Fun Page</h1>
       <p class="sub">Secret door. Who's coming in?</p>
       <label for="user">Name</label>
       <input id="user" name="user" type="text" autocomplete="username" required />
       <label for="pass">Password</label>
       <input id="pass" name="pass" type="password" autocomplete="current-password" required />
-      <button class="go" type="submit">Open the door</button>
+      <button class="big wide" type="submit">Open the door</button>
       <p class="nope" id="nope" role="status"></p>
     </form>
   </section>
 
   <main id="app" class="wrap hidden">
-    <header class="top">
-      <div>
-        <div class="egg-mark">$$</div>
-        <h1>Avi's Fun Page</h1>
-        <p class="who" id="hello"></p>
+    <header class="hero">
+      <div class="hero-top">
+        <div class="hero-brand">
+          <svg class="eagle" viewBox="0 0 88 88" aria-hidden="true">
+            <path fill="#0c2340" stroke="#f5c518" stroke-width="3.5" d="M44 4 80 18v24c0 22-36 42-36 42S8 64 8 42V18L44 4z"/>
+            <path fill="#d0122d" d="M16 48c14-2 22 6 22 16-14 2-24-4-26-12 0-2 2-4 4-4z"/>
+            <path fill="#f5c518" d="M18 58c8 1 14 5 16 9-10 1-16-1-18-5 0-2 1-4 2-4z"/>
+            <circle cx="46" cy="38" r="15" fill="#f7f8fb" stroke="#0c2340" stroke-width="2"/>
+            <polygon points="56,33 80,40 56,49" fill="#f5c518" stroke="#0c2340" stroke-width="1.6" stroke-linejoin="round"/>
+            <circle cx="49" cy="35" r="3.5" fill="#0c2340"/>
+            <circle cx="50.2" cy="33.8" r="1.4" fill="#d0122d"/>
+            <path d="M34 30c8-6 18-5 22 2" fill="none" stroke="#0c2340" stroke-width="2.2" stroke-linecap="round"/>
+          </svg>
+          <div class="egg-mark">$$</div>
+        </div>
+        <button class="out" id="out" type="button">Log out</button>
       </div>
-      <button class="out" id="out" type="button">Log out</button>
+      <div class="nameplate">EAGLES</div>
+      <h1>Avi's Fun Page</h1>
+      <p class="who" id="hello"></p>
+      <p class="hero-sub">Eagles spirit in red, navy, and gold. Math, sports, chess, gems, and one very silly dog.</p>
     </header>
+    <div class="bands" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+
+    <nav class="jump" aria-label="Page sections">
+      <a href="#lab">Number lab</a>
+      <a href="#dogpen">Dog</a>
+      <a href="#sports">Sports</a>
+      <a href="#bot">Your bot</a>
+      <a href="#kings">Kings</a>
+      <a href="#soccer">Soccer</a>
+      <a href="#chess">Chess</a>
+      <a href="#gems">Gems</a>
+      <a href="#ai">AI</a>
+      <a href="#dad-note" id="dad-jump" class="hidden">Dad desk</a>
+    </nav>
 
     <div class="grid">
-      <section class="card">
+      <section class="card" id="lab">
+        <p class="kicker">LAB</p>
         <h2>Number lab</h2>
         <p class="tiny">You pick the heat. I make the problem.</p>
         <div class="math-row" id="levels">
@@ -205,20 +592,21 @@
           <button class="chip" type="button" data-level="silly">Silly big</button>
         </div>
         <p class="problem" id="problem">?</p>
-        <form id="math-form">
-          <input class="answer" id="answer" inputmode="numeric" autocomplete="off" />
+        <form id="math-form" class="math-line">
+          <input class="answer" id="answer" aria-label="Your answer" inputmode="numeric" autocomplete="off" />
           <button class="check" type="submit">Check</button>
         </form>
-        <p id="math-msg"></p>
+        <p id="math-msg" aria-live="polite"></p>
         <p class="tiny">Streak: <b id="streak">0</b></p>
       </section>
 
-      <section class="card">
+      <section class="card" id="dogpen">
+        <p class="kicker">DOG</p>
         <h2>Dog pen</h2>
         <div class="dog-stage">
           <div class="dog" id="dog" title="Pet the dog">
             <div class="tail"></div>
-            <div class="body"></div>
+            <div class="body"><div class="collar"></div></div>
             <div class="head">
               <div class="ear l"></div>
               <div class="ear r"></div>
@@ -230,13 +618,14 @@
         </div>
         <p id="pets" class="tiny">Pets today: 0. Click the dog.</p>
         <label for="dog-name">What do you call your dog?</label>
-        <input id="dog-name" type="text" maxlength="24" placeholder="Type a name" />
+        <input id="dog-name" type="text" maxlength="24" placeholder="Type a name" autocomplete="off" />
       </section>
 
-      <section class="card">
+      <section class="card" id="sports">
+        <p class="kicker">BOOTH</p>
         <h2>Sports booth</h2>
         <p class="tiny">Toy game. Not a real score.</p>
-        <div class="sport-row" id="sports">
+        <div class="sport-row" id="sports-row">
           <button class="chip" type="button" data-sport="baseball">Baseball</button>
           <button class="chip" type="button" data-sport="basketball">Basketball</button>
           <button class="chip" type="button" data-sport="soccer">Soccer</button>
@@ -251,19 +640,275 @@
         <p class="call" id="call">Pick a sport. The announcer is extremely unserious.</p>
       </section>
 
-      <section class="card bot">
+      <section class="card bot" id="bot">
+        <p class="kicker">BOT</p>
         <h2>Your bot</h2>
         <p>This spot is yours. A separate helper, just for Avi, that you can point at whatever you dream up: math, the dog, sports, or something silly nobody has named yet.</p>
         <p class="tiny">It's ON! 🎉 Ask Dad to open <b>Avi Bot</b> in the Grok Bot app and say hi. Try: "give me a hard math puzzle" or "tell me a dog joke."</p>
       </section>
     </div>
 
+    <section class="panel" id="kings">
+      <p class="kicker">KINGS</p>
+      <h2>Light the beam</h2>
+      <p>When the Sacramento Kings win, the sky gets a purple beam. This one is pretend. Under that, tap a legend card. Stories only — no photos, no logos.</p>
+      <div class="beam-stage" id="beam-stage">
+        <div class="beam"></div>
+        <div class="hoop" aria-hidden="true"></div>
+        <div class="net" aria-hidden="true"></div>
+        <div class="skyline" aria-hidden="true"></div>
+        <p class="beam-label" id="beam-label">The sky is quiet.</p>
+      </div>
+      <p><button class="big" id="beam-btn" type="button">Light the beam</button></p>
+      <p id="beam-count" class="tiny">Beams lit this visit: 0</p>
+      <h3>NBA legends</h3>
+      <p class="tiny">Tap a card to flip it.</p>
+      <div class="legend-grid" id="legends">
+        <button class="flip" type="button" aria-expanded="false">
+          <span class="flip-inner">
+            <span class="face front"><span class="badge">6 titles</span><h3>Michael Jordan</h3><p>Tap for the story</p></span>
+            <span class="face back"><h3>Michael Jordan</h3><p>Six championships with the Chicago Bulls and five MVP awards. He practiced like the game had already started, and his fadeaway jumper became famous.</p></span>
+          </span>
+        </button>
+        <button class="flip" type="button" aria-expanded="false">
+          <span class="flip-inner">
+            <span class="face front"><span class="badge">scoring king</span><h3>LeBron James</h3><p>Tap for the story</p></span>
+            <span class="face back"><h3>LeBron James</h3><p>He became the NBA's all-time leading scorer. Four championships with more than one team. He scores, passes, and keeps playing at a high level for a long time.</p></span>
+          </span>
+        </button>
+        <button class="flip" type="button" aria-expanded="false">
+          <span class="flip-inner">
+            <span class="face front"><span class="badge">6 MVPs</span><h3>Kareem Abdul-Jabbar</h3><p>Tap for the story</p></span>
+            <span class="face back"><h3>Kareem Abdul-Jabbar</h3><p>The skyhook was one of the hardest shots to block. Six championships, and six MVP awards — still the most MVPs.</p></span>
+          </span>
+        </button>
+        <button class="flip" type="button" aria-expanded="false">
+          <span class="flip-inner">
+            <span class="face front"><span class="badge">5 titles</span><h3>Magic Johnson</h3><p>Tap for the story</p></span>
+            <span class="face back"><h3>Magic Johnson</h3><p>A Lakers star famous for no-look passes. Five championships. As a rookie he even filled in at center in the Finals and played brilliantly.</p></span>
+          </span>
+        </button>
+        <button class="flip" type="button" aria-expanded="false">
+          <span class="flip-inner">
+            <span class="face front"><span class="badge">3 titles</span><h3>Larry Bird</h3><p>Tap for the story</p></span>
+            <span class="face back"><h3>Larry Bird</h3><p>Celtics forward with three championships. He could pass, rebound, and shoot, and he loved the biggest moments.</p></span>
+          </span>
+        </button>
+        <button class="flip" type="button" aria-expanded="false">
+          <span class="flip-inner">
+            <span class="face front"><span class="badge">11 titles</span><h3>Bill Russell</h3><p>Tap for the story</p></span>
+            <span class="face back"><h3>Bill Russell</h3><p>Eleven championships in thirteen seasons. Nobody has more. He won with defense, rebounds, and teamwork.</p></span>
+          </span>
+        </button>
+        <button class="flip" type="button" aria-expanded="false">
+          <span class="flip-inner">
+            <span class="face front"><span class="badge">100 points</span><h3>Wilt Chamberlain</h3><p>Tap for the story</p></span>
+            <span class="face back"><h3>Wilt Chamberlain</h3><p>On March 2, 1962, he scored 100 points in one game. One season he averaged 50.4 points a night.</p></span>
+          </span>
+        </button>
+        <button class="flip" type="button" aria-expanded="false">
+          <span class="flip-inner">
+            <span class="face front"><span class="badge">from deep</span><h3>Stephen Curry</h3><p>Tap for the story</p></span>
+            <span class="face back"><h3>Stephen Curry</h3><p>He stretched the court with long three-pointers. Four championships with the Golden State Warriors. In 2016 every MVP voter picked him — a first.</p></span>
+          </span>
+        </button>
+        <button class="flip" type="button" aria-expanded="false">
+          <span class="flip-inner">
+            <span class="face front"><span class="badge">5 titles</span><h3>Kobe Bryant</h3><p>Tap for the story</p></span>
+            <span class="face back"><h3>Kobe Bryant</h3><p>Five championships with the Lakers. Mamba Mentality means doing the hard work even when nobody is clapping yet.</p></span>
+          </span>
+        </button>
+        <button class="flip" type="button" aria-expanded="false">
+          <span class="flip-inner">
+            <span class="face front"><span class="badge">4 titles</span><h3>Shaquille O'Neal</h3><p>Tap for the story</p></span>
+            <span class="face back"><h3>Shaquille O'Neal</h3><p>A powerful center with four championships. He dunked through defenses and still made room for jokes.</p></span>
+          </span>
+        </button>
+      </div>
+    </section>
+
+    <section class="panel" id="soccer">
+      <p class="kicker">SPURS</p>
+      <h2>Penalty spot</h2>
+      <p>Navy and white, Tottenham style. Pretend penalties — not a real match. Then two legends with different styles: Ronaldo and Messi. You can like both.</p>
+      <div class="soccer-layout">
+        <div>
+          <div class="scarf" aria-hidden="true"></div>
+          <div class="pitch" id="pitch">
+            <div class="goal-frame" aria-hidden="true"></div>
+            <div class="keeper" id="keeper"></div>
+            <div class="ball" id="ball"></div>
+          </div>
+          <p class="problem" id="shot-score" aria-live="polite">Avi 0 – Keeper 0</p>
+          <p id="shot-msg">Five pretend penalties. Pick a side.</p>
+          <div class="aim-row" id="aim-row">
+            <button type="button" data-aim="left">Left</button>
+            <button type="button" data-aim="middle">Middle</button>
+            <button type="button" data-aim="right">Right</button>
+          </div>
+          <p><button class="big navy" id="shootout-reset" type="button">Reset shootout</button></p>
+        </div>
+        <div>
+          <article class="fact-card">
+            <h3>Cristiano Ronaldo</h3>
+            <p id="ronaldo-meta" class="tiny"></p>
+            <p id="ronaldo-fact"></p>
+            <button class="check" id="ronaldo-next" type="button">Next Ronaldo fact</button>
+          </article>
+          <article class="fact-card">
+            <h3>Lionel Messi</h3>
+            <p id="messi-meta" class="tiny"></p>
+            <p id="messi-fact"></p>
+            <button class="check" id="messi-next" type="button">Next Messi fact</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel" id="chess">
+      <p class="kicker">CHESS</p>
+      <h2>Chess corner</h2>
+      <p>Learn the pieces, solve a mate in one, or play a whole game. You move both colors. Gold dots are legal moves.</p>
+      <div class="tabs" role="tablist">
+        <button class="tab on" type="button" data-tab="play" role="tab" aria-selected="true">Play</button>
+        <button class="tab" type="button" data-tab="learn" role="tab" aria-selected="false">Meet the pieces</button>
+        <button class="tab" type="button" data-tab="puzzles" role="tab" aria-selected="false">Puzzles</button>
+      </div>
+
+      <div id="tab-play" class="tab-panel">
+        <p id="play-msg" aria-live="polite">White to move. Tap a piece, then a gold dot.</p>
+        <div id="play-box"></div>
+        <div id="promo" class="promo hidden">
+          <p>Your pawn reached the end. Pick an upgrade.</p>
+          <div class="row-wrap" id="promo-row"></div>
+        </div>
+        <p class="row-wrap">
+          <button class="check" id="undo-btn" type="button">Undo</button>
+          <button class="big navy" id="new-btn" type="button">New game</button>
+        </p>
+      </div>
+
+      <div id="tab-learn" class="tab-panel hidden">
+        <div class="learn-pieces" id="learn-pieces"></div>
+        <h3 id="learn-name">King</h3>
+        <p id="learn-text"></p>
+        <div id="learn-box"></div>
+        <p><button class="big" id="learn-block" type="button">Put a piece in the way</button></p>
+      </div>
+
+      <div id="tab-puzzles" class="tab-panel hidden">
+        <div class="row-wrap" id="puzzle-picks"></div>
+        <h3 id="puzzle-title"></h3>
+        <p id="puzzle-blurb"></p>
+        <p class="tiny">You are White. Find checkmate in one move.</p>
+        <p id="puzzle-msg" aria-live="polite"></p>
+        <div id="puzzle-box"></div>
+        <p id="puzzle-hint" class="tiny"></p>
+        <p class="row-wrap">
+          <button class="check" id="hint-btn" type="button">Hint</button>
+          <button class="big navy" id="puzzle-reset" type="button">Reset puzzle</button>
+        </p>
+      </div>
+    </section>
+
+    <section class="panel" id="gems">
+      <p class="kicker">GEMS</p>
+      <h2>Gem explorer</h2>
+      <p>Type a gem, tap a birthstone month, or meet a random one. Rocks stay on the screen — don't put real ones in your mouth, and ask a grown-up before you collect any.</p>
+      <div class="gem-layout">
+        <div>
+          <div class="gem-search">
+            <div style="flex:1 1 220px">
+              <label for="gem-q">Gem name</label>
+              <input id="gem-q" type="text" maxlength="40" autocomplete="off" spellcheck="false" placeholder="Try ruby, jade, opal…" />
+            </div>
+            <button class="big gold" id="gem-random" type="button">Random gem</button>
+          </div>
+          <div class="suggest" id="gem-suggest" role="listbox"></div>
+          <p id="gem-msg" aria-live="polite"></p>
+          <h3>Birthstone months</h3>
+          <div class="months" id="gem-months"></div>
+          <details>
+            <summary>See every gem</summary>
+            <div class="months" id="gem-all"></div>
+          </details>
+        </div>
+        <div class="gem-card" id="gem-card">
+          <p>Your gem card will land here. Hardness, color, where it is found, and a cool fact.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel" id="ai">
+      <p class="kicker">AI LAB</p>
+      <h2>How AI and bots work</h2>
+      <p>A short lesson for a curious kid. Then build a better request, and take a tiny quiz.</p>
+
+      <div class="lesson-card">
+        <h3>What is AI?</h3>
+        <p>AI means artificial intelligence. People built it. It is not a kid, not a grown-up, and not magic. It is good at spotting patterns — like noticing that the word "goal" shows up in soccer stories — and using those patterns to help with a task.</p>
+      </div>
+      <div class="lesson-card">
+        <h3>How a chatbot answers</h3>
+        <p>A chatbot reads your message, looks for clues, and guesses a helpful reply from examples it learned. It can sound friendly. It still does not know your life, and it is not your friend.</p>
+        <div class="steps">
+          <div class="step"><b>1. You type</b><span>A question or a job for the bot.</span></div>
+          <div class="step"><b>2. Clues</b><span>It notices the topic, the task, and how hard you want it.</span></div>
+          <div class="step"><b>3. A guess</b><span>It builds a reply one piece at a time from patterns.</span></div>
+          <div class="step"><b>4. You decide</b><span>Use it, ask a follow-up, or check with a grown-up.</span></div>
+        </div>
+      </div>
+      <div class="lesson-card">
+        <h3>Write a good request</h3>
+        <p>Clear and specific beats one mystery word. Say what you want, add details you care about, and ask a follow-up if the first answer is too easy, too long, or confusing.</p>
+        <p>Try: "Give me a hard multiplication puzzle about basketball. Wait for my answer, then tell me if I got it."</p>
+      </div>
+      <div class="lesson-card">
+        <h3>Bots can be wrong</h3>
+        <p>A bot can sound sure and still be wrong. It can mix up a score, invent a fact, or use old news. If it matters — homework, safety, a real rule — check it and ask a grown-up. You are the captain. The bot is a helper.</p>
+      </div>
+
+      <h3>Online safety</h3>
+      <div class="safety">
+        <div class="stop">Never share your full name with a bot or a website.</div>
+        <div class="stop">Never share your address.</div>
+        <div class="stop">Never share your school.</div>
+        <div class="stop">Never share passwords. Not even "just to check."</div>
+        <div class="go-share">Favorites are fine: dogs, sports, colors, math, jokes.</div>
+        <div class="stop">If a page asks for a secret, stop and tell a grown-up.</div>
+      </div>
+
+      <div class="lesson-card" id="prompt-lab">
+        <h3>Make your prompt better</h3>
+        <p>This request is too tiny: <span class="weak" id="weak-prompt">dog</span></p>
+        <p class="tiny">Tap the upgrades. They snap into a strong order.</p>
+        <div class="row-wrap" id="prompt-parts"></div>
+        <p class="better" id="better-prompt" aria-live="polite"></p>
+        <p><button class="big navy" id="prompt-next" type="button">Try another weak prompt</button></p>
+      </div>
+
+      <div class="lesson-card" id="quiz">
+        <h3>Bot quiz</h3>
+        <p id="quiz-progress" class="tiny"></p>
+        <p id="quiz-q" class="problem"></p>
+        <div class="quiz-choices" id="quiz-choices"></div>
+        <p id="quiz-why" aria-live="polite"></p>
+        <button class="check hidden" id="quiz-next" type="button">Next</button>
+        <p id="quiz-score"></p>
+        <button class="big gold hidden" id="quiz-restart" type="button">Try the quiz again</button>
+      </div>
+    </section>
+
     <section class="dad-note hidden" id="dad-note">
       <h2>Dad desk</h2>
       <p>Avi Bot is created (Oct 3). It lives in your Grok Bot app sidebar, kid-safe, no purchases or messages. This page is just the fun display.</p>
       <p class="tiny">The yellow $$ on every Control Center page opens this page.</p>
     </section>
+    <p class="footer-note">Toy scores and pretend games. Nothing you type here is sent anywhere.</p>
   </main>
+
+  <div id="highfive" class="highfive hidden" aria-live="polite">High five!</div>
+  <div id="confetti" aria-hidden="true"></div>
 
 <script>
 const USERS = {
@@ -288,6 +933,7 @@ function showApp(role) {
     ? "Hi Dad. Avi's side is the same. Your note is at the bottom."
     : "Hi Avi. Math, your dog, every sport, and one very silly booth.";
   document.getElementById("dad-note").classList.toggle("hidden", role !== "dad");
+  document.getElementById("dad-jump").classList.toggle("hidden", role !== "dad");
   sessionStorage.setItem("avi-fun-role", role);
   nextProblem();
   loadDog();
@@ -311,6 +957,7 @@ document.getElementById("out").addEventListener("click", () => {
   app.classList.add("hidden");
   gate.classList.remove("hidden");
   document.getElementById("pass").value = "";
+  window.scrollTo(0, 0);
 });
 
 let level = "warm";
@@ -354,9 +1001,10 @@ document.getElementById("math-form").addEventListener("submit", (e) => {
   const msg = document.getElementById("math-msg");
   if (got === answer) {
     streak += 1;
+    nextProblem();
     msg.textContent = "Yes. That's the one.";
     msg.className = "ok";
-    nextProblem();
+    if (streak % 5 === 0) showHighFive();
   } else {
     streak = 0;
     msg.textContent = "Not yet. The number is still hiding.";
@@ -396,14 +1044,1232 @@ const calls = {
   football: ["Touchdown. The dog would have caught that.", "Fourth and silly. They go for it. Of course they do.", "The kick is up, the kick is good, the announcer is not calm."],
   hockey: ["He roofs it. The lamp is on.", "The Giggles take a penalty for excessive giggling.", "Wraparound goal. The net is embarrassed."]
 };
-document.getElementById("sports").addEventListener("click", (e) => {
+document.getElementById("sports-row").addEventListener("click", (e) => {
   const btn = e.target.closest("button");
   if (!btn) return;
+  document.querySelectorAll("#sports-row .chip").forEach(b => b.classList.toggle("on", b === btn));
   const lines = calls[btn.dataset.sport];
   const a = rand(9) + 1, b = rand(7);
   document.getElementById("score").textContent = a + "–" + b;
   document.getElementById("call").textContent = lines[rand(lines.length)];
 });
+
+function showHighFive(text) {
+  const el = document.getElementById("highfive");
+  el.textContent = text || "🙌 High five!";
+  el.classList.remove("hidden");
+  el.classList.remove("pop");
+  void el.offsetWidth;
+  el.classList.add("pop");
+  clearTimeout(showHighFive._t);
+  showHighFive._t = setTimeout(() => el.classList.add("hidden"), 1600);
+}
+function confetti() {
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  const box = document.getElementById("confetti");
+  const colors = ["#d0122d", "#f5c518", "#0c2340", "#ffffff", "#1f7a3a"];
+  for (let i = 0; i < 26; i++) {
+    const d = document.createElement("i");
+    d.style.left = Math.random() * 100 + "%";
+    d.style.background = colors[i % colors.length];
+    d.style.animationDelay = (Math.random() * 0.15) + "s";
+    box.appendChild(d);
+    setTimeout(() => d.remove(), 1300);
+  }
+}
+
+let beams = 0;
+let beamTimer = 0;
+document.getElementById("beam-btn").addEventListener("click", () => {
+  const stage = document.getElementById("beam-stage");
+  stage.classList.add("lit");
+  beams += 1;
+  document.getElementById("beam-count").textContent = "Beams lit this visit: " + beams;
+  document.getElementById("beam-label").textContent = "BEAM! Purple light for a pretend Kings win.";
+  clearTimeout(beamTimer);
+  beamTimer = setTimeout(() => {
+    stage.classList.remove("lit");
+    document.getElementById("beam-label").textContent = "The sky is quiet. Light it again?";
+  }, 4200);
+});
+function syncFlip(btn) {
+  const on = btn.classList.contains("on");
+  btn.setAttribute("aria-expanded", on ? "true" : "false");
+  const front = btn.querySelector(".front");
+  const back = btn.querySelector(".back");
+  if (front) front.setAttribute("aria-hidden", on ? "true" : "false");
+  if (back) back.setAttribute("aria-hidden", on ? "false" : "true");
+}
+document.querySelectorAll(".flip").forEach(syncFlip);
+document.getElementById("legends").addEventListener("click", (e) => {
+  const btn = e.target.closest(".flip");
+  if (!btn) return;
+  btn.classList.toggle("on");
+  syncFlip(btn);
+});
+
+const RONALDO = [
+  "Cristiano Ronaldo is famous for treating practice like a real game. He works on shooting, jumping, and fitness over and over.",
+  "He has played in Portugal, England, Spain, and Italy, and he scores with both feet and his head.",
+  "He plays for Portugal and is known for powerful shots. Fans often spot him in a number 7 shirt.",
+  "He and Messi have different styles. Liking Ronaldo does not mean you have to argue about who is better."
+];
+const MESSI = [
+  "Lionel Messi is famous for close control. He dribbles through tiny gaps and keeps the ball near his foot.",
+  "He grew up as a star in Spain, then also played in France and the United States.",
+  "In 2022 he helped Argentina win the World Cup. Fans often see him in a number 10 shirt.",
+  "He is a passer as well as a scorer. Sometimes the smart play is the quiet pass."
+];
+let ronaldoI = 0, messiI = 0;
+function showStar(id, meta, facts, i) {
+  document.getElementById(id).textContent = facts[i];
+  document.getElementById(meta).textContent = "Fact " + (i + 1) + " of " + facts.length;
+}
+showStar("ronaldo-fact", "ronaldo-meta", RONALDO, 0);
+showStar("messi-fact", "messi-meta", MESSI, 0);
+document.getElementById("ronaldo-next").addEventListener("click", () => {
+  ronaldoI = (ronaldoI + 1) % RONALDO.length;
+  showStar("ronaldo-fact", "ronaldo-meta", RONALDO, ronaldoI);
+});
+document.getElementById("messi-next").addEventListener("click", () => {
+  messiI = (messiI + 1) % MESSI.length;
+  showStar("messi-fact", "messi-meta", MESSI, messiI);
+});
+
+const shotState = { n: 0, goals: 0, saves: 0, busy: false };
+const goalLines = [
+  "Goal! The keeper guessed the other way.",
+  "Top corner. The pretend net does a little dance.",
+  "Buried. The scarf is very proud."
+];
+const saveLines = [
+  "Save! The keeper guessed right.",
+  "Denied. The ball wants a rematch.",
+  "Not this time. Line up another one."
+];
+function paintShoot() {
+  document.getElementById("shot-score").textContent = "Avi " + shotState.goals + " – Keeper " + shotState.saves;
+}
+function resetBall() {
+  const ball = document.getElementById("ball");
+  const keeper = document.getElementById("keeper");
+  ball.style.left = "50%";
+  ball.style.bottom = "16px";
+  keeper.style.left = "50%";
+}
+document.getElementById("aim-row").addEventListener("click", (e) => {
+  const btn = e.target.closest("button");
+  if (!btn || shotState.busy || shotState.n >= 5) return;
+  shotState.busy = true;
+  document.querySelectorAll("#aim-row button").forEach(b => { b.disabled = true; });
+  const aim = btn.dataset.aim;
+  const sides = ["left", "middle", "right"];
+  const dive = sides[rand(3)];
+  const saved = dive === aim;
+  const spots = { left: "22%", middle: "50%", right: "78%" };
+  document.getElementById("keeper").style.left = spots[dive];
+  const ball = document.getElementById("ball");
+  if (saved) {
+    ball.style.left = spots[dive];
+    ball.style.bottom = "124px";
+    shotState.saves += 1;
+    document.getElementById("shot-msg").textContent = saveLines[rand(saveLines.length)];
+  } else {
+    ball.style.left = spots[aim];
+    ball.style.bottom = "196px";
+    shotState.goals += 1;
+    document.getElementById("shot-msg").textContent = goalLines[rand(goalLines.length)];
+  }
+  shotState.n += 1;
+  paintShoot();
+  setTimeout(() => {
+    if (shotState.n >= 5) {
+      const g = shotState.goals;
+      document.getElementById("shot-msg").textContent = g >= 4
+        ? "Shootout over. " + g + " goals. The pretend bench is loud."
+        : "Shootout over. Avi " + g + ", keeper " + shotState.saves + ". Run it back if you want.";
+      if (g >= 3) { showHighFive(); confetti(); }
+      shotState.busy = false;
+      return;
+    }
+    resetBall();
+    document.getElementById("shot-msg").textContent = "Shot " + (shotState.n + 1) + " of 5. Pick a side.";
+    document.querySelectorAll("#aim-row button").forEach(b => { b.disabled = false; });
+    shotState.busy = false;
+  }, 800);
+});
+document.getElementById("shootout-reset").addEventListener("click", () => {
+  shotState.n = 0; shotState.goals = 0; shotState.saves = 0; shotState.busy = false;
+  paintShoot();
+  resetBall();
+  document.getElementById("shot-msg").textContent = "Five pretend penalties. Pick a side.";
+  document.querySelectorAll("#aim-row button").forEach(b => { b.disabled = false; });
+});
+
+const FILES = "abcdefgh";
+function inBounds(r, c) { return r >= 0 && r < 8 && c >= 0 && c < 8; }
+function rcToSq(r, c) { return FILES[c] + (8 - r); }
+function sqToRc(sq) { return [8 - Number(sq[1]), FILES.indexOf(sq[0])]; }
+function cloneState(s) {
+  return {
+    board: s.board.map(row => row.map(p => p ? { t: p.t, c: p.c } : null)),
+    turn: s.turn,
+    castle: { wK: s.castle.wK, wQ: s.castle.wQ, bK: s.castle.bK, bQ: s.castle.bQ },
+    ep: s.ep ? { r: s.ep.r, c: s.ep.c } : null
+  };
+}
+function emptyState() {
+  return {
+    board: Array.from({ length: 8 }, () => Array(8).fill(null)),
+    turn: "w",
+    castle: { wK: false, wQ: false, bK: false, bQ: false },
+    ep: null
+  };
+}
+function newGame() {
+  const s = emptyState();
+  s.castle = { wK: true, wQ: true, bK: true, bQ: true };
+  const back = ["r", "n", "b", "q", "k", "b", "n", "r"];
+  for (let c = 0; c < 8; c++) {
+    s.board[0][c] = { t: back[c], c: "b" };
+    s.board[1][c] = { t: "p", c: "b" };
+    s.board[6][c] = { t: "p", c: "w" };
+    s.board[7][c] = { t: back[c], c: "w" };
+  }
+  return s;
+}
+function place(state, sq, code) {
+  const [r, c] = sqToRc(sq);
+  state.board[r][c] = code ? { c: code[0], t: code[1].toLowerCase() } : null;
+}
+function findKing(board, color) {
+  for (let r = 0; r < 8; r++) for (let c = 0; c < 8; c++) {
+    const p = board[r][c];
+    if (p && p.t === "k" && p.c === color) return [r, c];
+  }
+  return null;
+}
+function firstPiece(board, r, c, dr, dc) {
+  let rr = r + dr, cc = c + dc;
+  while (inBounds(rr, cc)) {
+    if (board[rr][cc]) return board[rr][cc];
+    rr += dr; cc += dc;
+  }
+  return null;
+}
+function squareAttacked(board, r, c, friendColor) {
+  const enemy = friendColor === "w" ? "b" : "w";
+  const pr = enemy === "w" ? r + 1 : r - 1;
+  for (const dc of [-1, 1]) {
+    if (inBounds(pr, c + dc)) {
+      const p = board[pr][c + dc];
+      if (p && p.c === enemy && p.t === "p") return true;
+    }
+  }
+  for (const [dr, dc] of [[2, 1], [2, -1], [-2, 1], [-2, -1], [1, 2], [1, -2], [-1, 2], [-1, -2]]) {
+    const rr = r + dr, cc = c + dc;
+    if (!inBounds(rr, cc)) continue;
+    const p = board[rr][cc];
+    if (p && p.c === enemy && p.t === "n") return true;
+  }
+  for (const [dr, dc] of [[1, 0], [-1, 0], [0, 1], [0, -1], [1, 1], [1, -1], [-1, 1], [-1, -1]]) {
+    const rr = r + dr, cc = c + dc;
+    if (!inBounds(rr, cc)) continue;
+    const p = board[rr][cc];
+    if (p && p.c === enemy && p.t === "k") return true;
+  }
+  for (const [dr, dc] of [[1, 1], [1, -1], [-1, 1], [-1, -1]]) {
+    const p = firstPiece(board, r, c, dr, dc);
+    if (p && p.c === enemy && (p.t === "b" || p.t === "q")) return true;
+  }
+  for (const [dr, dc] of [[1, 0], [-1, 0], [0, 1], [0, -1]]) {
+    const p = firstPiece(board, r, c, dr, dc);
+    if (p && p.c === enemy && (p.t === "r" || p.t === "q")) return true;
+  }
+  return false;
+}
+function inCheck(board, color) {
+  const k = findKing(board, color);
+  if (!k) return false;
+  return squareAttacked(board, k[0], k[1], color);
+}
+function pseudoMoves(board, r, c, state) {
+  const p = board[r][c];
+  const color = p.c;
+  const moves = [];
+  const push = (rr, cc) => {
+    if (!inBounds(rr, cc)) return;
+    const t = board[rr][cc];
+    if (!t || t.c !== color) moves.push([rr, cc]);
+  };
+  if (p.t === "p") {
+    const dir = color === "w" ? -1 : 1;
+    const nr = r + dir;
+    if (inBounds(nr, c) && !board[nr][c]) {
+      moves.push([nr, c]);
+      const start = color === "w" ? 6 : 1;
+      const nr2 = r + 2 * dir;
+      if (r === start && !board[nr2][c]) moves.push([nr2, c]);
+    }
+    for (const dc of [-1, 1]) {
+      const nc = c + dc;
+      if (!inBounds(nr, nc)) continue;
+      const t = board[nr][nc];
+      if (t && t.c !== color) moves.push([nr, nc]);
+      if (state.ep && state.ep.r === nr && state.ep.c === nc) moves.push([nr, nc]);
+    }
+  } else if (p.t === "n") {
+    for (const [dr, dc] of [[2, 1], [2, -1], [-2, 1], [-2, -1], [1, 2], [1, -2], [-1, 2], [-1, -2]]) push(r + dr, c + dc);
+  } else if (p.t === "k") {
+    for (const [dr, dc] of [[1, 0], [-1, 0], [0, 1], [0, -1], [1, 1], [1, -1], [-1, 1], [-1, -1]]) push(r + dr, c + dc);
+    if (!squareAttacked(board, r, c, color)) {
+      const rookAt = (file) => {
+        const q = board[r][file];
+        return q && q.t === "r" && q.c === color;
+      };
+      const kingSide = color === "w" ? state.castle.wK : state.castle.bK;
+      if (kingSide && rookAt(7) && !board[r][5] && !board[r][6] && !squareAttacked(board, r, 5, color) && !squareAttacked(board, r, 6, color)) {
+        moves.push([r, 6]);
+      }
+      const queenSide = color === "w" ? state.castle.wQ : state.castle.bQ;
+      if (queenSide && rookAt(0) && !board[r][1] && !board[r][2] && !board[r][3] && !squareAttacked(board, r, 2, color) && !squareAttacked(board, r, 3, color)) {
+        moves.push([r, 2]);
+      }
+    }
+  } else {
+    const dirs = [];
+    if (p.t !== "r") dirs.push([1, 1], [1, -1], [-1, 1], [-1, -1]);
+    if (p.t !== "b") dirs.push([1, 0], [-1, 0], [0, 1], [0, -1]);
+    for (const [dr, dc] of dirs) {
+      let rr = r + dr, cc = c + dc;
+      while (inBounds(rr, cc)) {
+        const t = board[rr][cc];
+        if (!t) moves.push([rr, cc]);
+        else { if (t.c !== color) moves.push([rr, cc]); break; }
+        rr += dr; cc += dc;
+      }
+    }
+  }
+  return moves;
+}
+function applyMove(state, from, to, promo) {
+  const [fr, fc] = from;
+  const [tr, tc] = to;
+  const next = cloneState(state);
+  const board = next.board;
+  const moving = { t: board[fr][fc].t, c: board[fr][fc].c };
+  if (moving.t === "p" && next.ep && tr === next.ep.r && tc === next.ep.c && !board[tr][tc]) {
+    const capR = moving.c === "w" ? tr + 1 : tr - 1;
+    board[capR][tc] = null;
+  }
+  board[fr][fc] = null;
+  board[tr][tc] = moving;
+  if (moving.t === "k" && Math.abs(tc - fc) === 2) {
+    if (tc === 6) { board[fr][5] = board[fr][7]; board[fr][7] = null; }
+    else if (tc === 2) { board[fr][3] = board[fr][0]; board[fr][0] = null; }
+  }
+  if (moving.t === "p" && (tr === 0 || tr === 7)) board[tr][tc] = { t: promo || "q", c: moving.c };
+  const castle = next.castle;
+  if (moving.t === "k" && moving.c === "w") { castle.wK = false; castle.wQ = false; }
+  if (moving.t === "k" && moving.c === "b") { castle.bK = false; castle.bQ = false; }
+  const rookLoss = (r, c) => {
+    if (r === 7 && c === 0) castle.wQ = false;
+    if (r === 7 && c === 7) castle.wK = false;
+    if (r === 0 && c === 0) castle.bQ = false;
+    if (r === 0 && c === 7) castle.bK = false;
+  };
+  rookLoss(fr, fc);
+  rookLoss(tr, tc);
+  next.ep = (moving.t === "p" && Math.abs(tr - fr) === 2) ? { r: (fr + tr) / 2, c: fc } : null;
+  next.turn = moving.c === "w" ? "b" : "w";
+  return next;
+}
+function legalMovesFrom(state, r, c) {
+  const p = state.board[r][c];
+  if (!p || p.c !== state.turn) return [];
+  const out = [];
+  for (const dest of pseudoMoves(state.board, r, c, state)) {
+    const next = applyMove(state, [r, c], dest, "q");
+    if (!inCheck(next.board, p.c)) out.push(dest);
+  }
+  return out;
+}
+function anyLegal(state) {
+  for (let r = 0; r < 8; r++) for (let c = 0; c < 8; c++) {
+    const p = state.board[r][c];
+    if (p && p.c === state.turn && legalMovesFrom(state, r, c).length) return true;
+  }
+  return false;
+}
+function statusOf(state) {
+  const check = inCheck(state.board, state.turn);
+  const moves = anyLegal(state);
+  if (!moves && check) return "mate";
+  if (!moves) return "stalemate";
+  if (check) return "check";
+  return "ok";
+}
+
+function pieceSVG(type, color) {
+  const paths = {
+    k: '<path d="M8 33h24v3.5H8z"/><path d="M11 29h18l-1.5 4h-15z"/><path d="M13 29c.4-7 3-11 7-12 4 1 6.6 5 7 12z"/><path class="ink" d="M18 4h4v4h4v3.5h-4V15h-4v-3.5h-4V8h4z"/>',
+    q: '<path d="M8 33h24v3.5H8z"/><path d="M10 31L6 15l8 7 6-10 6 10 8-7-4 16z"/><circle class="ink" cx="20" cy="8.5" r="2"/><circle class="ink" cx="6.2" cy="14" r="1.5"/><circle class="ink" cx="33.8" cy="14" r="1.5"/>',
+    r: '<path d="M9 33h22v3.5H9z"/><path d="M12 18h16v15H12z"/><path d="M9 13h5v5h3.5v-5h5v5H26v-5h5v8H9z"/>',
+    b: '<path d="M11 33h18v3.5H11z"/><path d="M14.5 31c.8-8 2.8-14 5.5-17 2.7 3 4.7 9 5.5 17z"/><circle cx="20" cy="10" r="4.2"/><path class="cut" d="M20 7.2v5.2"/>',
+    n: '<path d="M11 35h16v-3c.6-3 .4-5 2.4-7 3-1.2 6.2-4 6.2-8.2 0-3.2-2.2-6-5.4-7l-.6 3.2c-1.6-.2-2.6-2-4.8-2-3.6.2-6.4 2.4-7.2 6-1.8.6-3.6 3.2-3.6 6.4 0 2.6.8 4.4-.2 7.2L11 35z"/><circle class="ink" cx="24" cy="15" r="1.3"/>',
+    p: '<circle cx="20" cy="12" r="6"/><path d="M12 33h16v3.5H12z"/><path d="M14.5 32c.8-6 2-9 5.5-10 3.5 1 4.7 4 5.5 10z"/>'
+  };
+  return '<svg class="piece ' + (color === "w" ? "pw" : "pb") + '" viewBox="0 0 40 40" aria-hidden="true">' + paths[type] + "</svg>";
+}
+const PIECE_NAMES = { k: "king", q: "queen", r: "rook", b: "bishop", n: "knight", p: "pawn" };
+
+function makeBoardBox(hostId, boardId) {
+  const host = document.getElementById(hostId);
+  host.innerHTML = '<div class="board-with-coords"><div class="ranks" aria-hidden="true">' +
+    [8, 7, 6, 5, 4, 3, 2, 1].map(n => "<span>" + n + "</span>").join("") +
+    '</div><div class="board" id="' + boardId + '"></div><div class="files" aria-hidden="true">' +
+    "abcdefgh".split("").map(f => "<span>" + f + "</span>").join("") + "</div></div>";
+}
+makeBoardBox("play-box", "play-board");
+makeBoardBox("learn-box", "learn-board");
+makeBoardBox("puzzle-box", "puzzle-board");
+
+function drawBoard(container, view) {
+  container.innerHTML = "";
+  const board = view.state.board;
+  const kingPos = inCheck(board, view.state.turn) ? findKing(board, view.state.turn) : null;
+  for (let r = 0; r < 8; r++) {
+    for (let c = 0; c < 8; c++) {
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "sq " + ((r + c) % 2 === 0 ? "light" : "dark");
+      const sq = rcToSq(r, c);
+      btn.setAttribute("aria-label", sq);
+      if (view.selected && view.selected[0] === r && view.selected[1] === c) btn.classList.add("sel");
+      if (view.last && view.last.some(p => p[0] === r && p[1] === c)) btn.classList.add("last");
+      if (kingPos && kingPos[0] === r && kingPos[1] === c) btn.classList.add("check");
+      const tgt = (view.targets || []).find(t => t.r === r && t.c === c);
+      if (tgt) btn.classList.add(tgt.cap ? "cap" : "dot");
+      if (view.reveal && view.reveal.some(p => p[0] === r && p[1] === c)) btn.classList.add("reveal");
+      const piece = board[r][c];
+      if (piece) {
+        btn.innerHTML = pieceSVG(piece.t, piece.c);
+        const who = piece.c === "w" ? "White" : "Black";
+        btn.setAttribute("aria-label", sq + ", " + who + " " + PIECE_NAMES[piece.t]);
+      }
+      if (view.onSquare) btn.addEventListener("click", () => view.onSquare(r, c));
+      container.appendChild(btn);
+    }
+  }
+}
+
+const play = { state: newGame(), history: [], selected: null, targets: [], last: null, over: false, pending: null };
+function playStatusText() {
+  const st = statusOf(play.state);
+  if (st === "mate") return (play.state.turn === "w" ? "Black" : "White") + " wins. Checkmate. High five!";
+  if (st === "stalemate") return "Stalemate. Nobody can move, and nobody wins. That happens.";
+  const who = play.state.turn === "w" ? "White" : "Black";
+  if (st === "check") return "Check! " + who + " to move. The king is under attack.";
+  return who + " to move. Tap a piece, then a gold dot.";
+}
+function renderPlay() {
+  drawBoard(document.getElementById("play-board"), {
+    state: play.state,
+    selected: play.selected,
+    targets: play.targets,
+    last: play.last,
+    onSquare: onPlaySquare
+  });
+  document.getElementById("play-msg").textContent = playStatusText();
+}
+function showPromo(on) {
+  document.getElementById("promo").classList.toggle("hidden", !on);
+}
+function commitPlay(from, to, promo) {
+  const mover = play.state.board[from[0]][from[1]];
+  const dest = play.state.board[to[0]][to[1]];
+  const epCap = mover.t === "p" && play.state.ep && to[0] === play.state.ep.r && to[1] === play.state.ep.c && !dest;
+  const castle = mover.t === "k" && Math.abs(to[1] - from[1]) === 2;
+  play.history.push(cloneState(play.state));
+  play.state = applyMove(play.state, from, to, promo || "q");
+  play.last = [from, to];
+  play.selected = null;
+  play.targets = [];
+  play.pending = null;
+  showPromo(false);
+  const st = statusOf(play.state);
+  play.over = st === "mate" || st === "stalemate";
+  if (st === "mate") { showHighFive(); confetti(); }
+  let extra = "";
+  if (castle) extra = (mover.c === "w" ? "White" : "Black") + " castled. ";
+  else extra = (mover.c === "w" ? "White" : "Black") + "'s " + PIECE_NAMES[mover.t] + " went to " + rcToSq(to[0], to[1]) + (dest || epCap ? " and grabbed a piece. " : ". ");
+  renderPlay();
+  if (st === "ok") document.getElementById("play-msg").textContent = extra + playStatusText();
+}
+function onPlaySquare(r, c) {
+  if (play.over) return;
+  const st = play.state;
+  const piece = st.board[r][c];
+  if (play.selected) {
+    const hit = play.targets.find(t => t.r === r && t.c === c);
+    if (hit) {
+      const mover = st.board[play.selected[0]][play.selected[1]];
+      if (mover.t === "p" && (r === 0 || r === 7)) {
+        play.pending = { from: play.selected.slice(), to: [r, c] };
+        showPromo(true);
+        return;
+      }
+      commitPlay(play.selected.slice(), [r, c], null);
+      return;
+    }
+  }
+  if (piece && piece.c === st.turn) {
+    if (play.selected && play.selected[0] === r && play.selected[1] === c) {
+      play.selected = null;
+      play.targets = [];
+    } else {
+      play.selected = [r, c];
+      play.targets = legalMovesFrom(st, r, c).map(([rr, cc]) => {
+        const occ = st.board[rr][cc];
+        const ep = st.ep && st.ep.r === rr && st.ep.c === cc;
+        return { r: rr, c: cc, cap: !!(occ || ep) };
+      });
+    }
+  } else {
+    play.selected = null;
+    play.targets = [];
+  }
+  showPromo(false);
+  renderPlay();
+}
+document.getElementById("promo-row").innerHTML = ["q", "r", "b", "n"].map(t =>
+  '<button type="button" class="chip" data-promo="' + t + '">' + pieceSVG(t, "w") + " " + PIECE_NAMES[t] + "</button>"
+).join("");
+document.getElementById("promo-row").addEventListener("click", (e) => {
+  const btn = e.target.closest("button");
+  if (!btn || !play.pending) return;
+  commitPlay(play.pending.from, play.pending.to, btn.dataset.promo);
+});
+document.getElementById("undo-btn").addEventListener("click", () => {
+  const prev = play.history.pop();
+  if (!prev) return;
+  play.state = prev;
+  play.over = false;
+  play.selected = null;
+  play.targets = [];
+  play.last = null;
+  play.pending = null;
+  showPromo(false);
+  renderPlay();
+});
+document.getElementById("new-btn").addEventListener("click", () => {
+  play.state = newGame();
+  play.history = [];
+  play.selected = null;
+  play.targets = [];
+  play.last = null;
+  play.over = false;
+  play.pending = null;
+  showPromo(false);
+  renderPlay();
+});
+renderPlay();
+
+const LESSONS = {
+  k: { name: "King", sq: "e4", blocks: ["e5"], text: "The king steps one square in any direction. He is the piece you must protect. If he is attacked and cannot get safe, that is checkmate.", blockedText: "An enemy on a neighbor square can be captured if that square is safe. The king still only steps one square." },
+  q: { name: "Queen", sq: "d4", blocks: ["d6"], text: "The queen slides any number of squares in a straight line: sideways, forward, back, or diagonal. She is the strongest piece. She cannot jump.", blockedText: "The pawn blocks that file. The queen can capture it and must stop there. Every other direction stays open." },
+  r: { name: "Rook", sq: "d4", blocks: ["d6"], text: "The rook slides any number of squares up, down, left, or right. Think of a plus sign. Rooks love an open file.", blockedText: "Straight ahead is an opponent. The rook can capture that pawn and then stops. It still cannot leap over." },
+  b: { name: "Bishop", sq: "c4", blocks: ["e6"], text: "The bishop slides any number of squares on a diagonal. A bishop stays on one square color for the whole game.", blockedText: "The pawn blocks one diagonal. The bishop can capture it and stop. It cannot switch to the other color." },
+  n: { name: "Knight", sq: "d4", blocks: ["d5", "e5"], text: "The knight jumps in an L: two squares one way, then one to the side. It is the only piece that jumps over others.", blockedText: "Pawns are sitting nearby, and the knight still has the same jumps. Pieces in between do not block a knight." },
+  p: { name: "Pawn", sq: "e2", blocks: ["d3", "f3"], text: "A white pawn steps forward one square, or two squares on its first move. It does not capture straight ahead.", blockedText: "The side squares light up when an opponent is there. Pawns capture diagonally. Reach the last rank and the pawn promotes, usually to a queen." }
+};
+let lessonKey = "k";
+let lessonBlocked = false;
+function renderLesson() {
+  const L = LESSONS[lessonKey];
+  const st = emptyState();
+  place(st, L.sq, "w" + lessonKey.toUpperCase());
+  if (lessonBlocked) L.blocks.forEach(sq => place(st, sq, "bP"));
+  const [r, c] = sqToRc(L.sq);
+  const targets = legalMovesFrom(st, r, c).map(([rr, cc]) => ({
+    r: rr, c: cc, cap: !!st.board[rr][cc]
+  }));
+  drawBoard(document.getElementById("learn-board"), {
+    state: st, selected: [r, c], targets, last: null, onSquare: null
+  });
+  document.getElementById("learn-name").textContent = L.name;
+  document.getElementById("learn-text").textContent = lessonBlocked ? L.blockedText : L.text;
+  const blockBtn = document.getElementById("learn-block");
+  if (lessonKey === "p") blockBtn.textContent = lessonBlocked ? "Hide the captures" : "Show how it captures";
+  else if (lessonKey === "n") blockBtn.textContent = lessonBlocked ? "Clear the nearby pawns" : "Put pieces nearby";
+  else blockBtn.textContent = lessonBlocked ? "Clear the piece" : "Put a piece in the way";
+  document.querySelectorAll("#learn-pieces .chip").forEach(b => b.classList.toggle("on", b.dataset.piece === lessonKey));
+}
+document.getElementById("learn-pieces").innerHTML = ["k", "q", "r", "b", "n", "p"].map(t =>
+  '<button type="button" class="chip" data-piece="' + t + '">' + pieceSVG(t, "w") + PIECE_NAMES[t] + "</button>"
+).join("");
+document.getElementById("learn-pieces").addEventListener("click", (e) => {
+  const btn = e.target.closest("button");
+  if (!btn) return;
+  lessonKey = btn.dataset.piece;
+  lessonBlocked = false;
+  renderLesson();
+});
+document.getElementById("learn-block").addEventListener("click", () => {
+  lessonBlocked = !lessonBlocked;
+  renderLesson();
+});
+renderLesson();
+
+const PUZZLES = [
+  {
+    title: "Back-rank surprise",
+    blurb: "The black king is stuck behind his own pawns. Find checkmate in one move.",
+    hints: ["Rooks slide in straight lines, as far as the path is clear.", "Send the rook from a1 all the way to a8."],
+    from: "a1", to: "a8",
+    pieces: [["g1", "wK"], ["a1", "wR"], ["g8", "bK"], ["f7", "bP"], ["g7", "bP"], ["h7", "bP"]]
+  },
+  {
+    title: "Queen steps in",
+    blurb: "Your king is already close. One queen move ends the game.",
+    hints: ["The queen can slide one square and land right beside the king.", "Move the queen from d7 to b7. Your king protects her."],
+    from: "d7", to: "b7",
+    pieces: [["b6", "wK"], ["d7", "wQ"], ["a8", "bK"]]
+  },
+  {
+    title: "Jumping knight",
+    blurb: "The king is boxed in by his own team. A knight can still hop in.",
+    hints: ["Knights jump in an L. Pieces in the way do not block them.", "Jump the knight from g5 to f7."],
+    from: "g5", to: "f7",
+    pieces: [["g1", "wK"], ["g5", "wN"], ["h8", "bK"], ["g8", "bR"], ["g7", "bP"], ["h7", "bP"]]
+  },
+  {
+    title: "Beside the king",
+    blurb: "Slide the queen until she stands right next to the king, with your king watching her.",
+    hints: ["Queens can run along a rank, a file, or a diagonal.", "Slide the queen from c7 to h7."],
+    from: "c7", to: "h7",
+    pieces: [["g6", "wK"], ["c7", "wQ"], ["h8", "bK"]]
+  }
+];
+function setupPuzzle(puz) {
+  const s = emptyState();
+  puz.pieces.forEach(([sq, code]) => place(s, sq, code));
+  s.turn = "w";
+  return s;
+}
+const puzzle = { i: 0, state: null, selected: null, targets: [], last: null, locked: false, hints: 0, reveal: null };
+function loadPuzzle(i, keepHint) {
+  puzzle.i = i;
+  puzzle.state = setupPuzzle(PUZZLES[i]);
+  puzzle.selected = null;
+  puzzle.targets = [];
+  puzzle.last = null;
+  puzzle.locked = false;
+  if (!keepHint) { puzzle.hints = 0; puzzle.reveal = null; }
+  document.getElementById("puzzle-title").textContent = "Puzzle " + (i + 1) + ": " + PUZZLES[i].title;
+  document.getElementById("puzzle-blurb").textContent = PUZZLES[i].blurb;
+  document.getElementById("puzzle-msg").textContent = "White to move.";
+  document.getElementById("puzzle-hint").textContent = puzzle.hints ? PUZZLES[i].hints[puzzle.hints - 1] : "Need a nudge? Tap Hint.";
+  document.querySelectorAll("#puzzle-picks .chip").forEach((b, idx) => b.classList.toggle("on", idx === i));
+  renderPuzzle();
+}
+function renderPuzzle() {
+  drawBoard(document.getElementById("puzzle-board"), {
+    state: puzzle.state,
+    selected: puzzle.selected,
+    targets: puzzle.targets,
+    last: puzzle.last,
+    reveal: puzzle.reveal,
+    onSquare: onPuzzleSquare
+  });
+}
+function onPuzzleSquare(r, c) {
+  if (puzzle.locked) return;
+  const st = puzzle.state;
+  const piece = st.board[r][c];
+  if (puzzle.selected) {
+    const hit = puzzle.targets.find(t => t.r === r && t.c === c);
+    if (hit) {
+      const from = puzzle.selected.slice();
+      const next = applyMove(st, from, [r, c], "q");
+      if (statusOf(next) === "mate") {
+        puzzle.state = next;
+        puzzle.last = [from, [r, c]];
+        puzzle.selected = null;
+        puzzle.targets = [];
+        puzzle.locked = true;
+        document.getElementById("puzzle-msg").textContent = "Checkmate! High five! You found it.";
+        showHighFive();
+        confetti();
+        renderPuzzle();
+      } else {
+        const gaveCheck = inCheck(next.board, "b");
+        document.getElementById("puzzle-msg").textContent = gaveCheck
+          ? "That checks the king, but there is still a way out. Puzzle set back up."
+          : "Not checkmate yet. Puzzle set back up. Look for a move the king cannot escape.";
+        loadPuzzle(puzzle.i, true);
+      }
+      return;
+    }
+  }
+  if (piece && piece.c === "w") {
+    puzzle.selected = [r, c];
+    puzzle.targets = legalMovesFrom(st, r, c).map(([rr, cc]) => ({
+      r: rr, c: cc, cap: !!st.board[rr][cc]
+    }));
+  } else {
+    puzzle.selected = null;
+    puzzle.targets = [];
+  }
+  renderPuzzle();
+}
+document.getElementById("puzzle-picks").innerHTML = PUZZLES.map((p, i) =>
+  '<button type="button" class="chip" data-i="' + i + '">' + (i + 1) + ". " + p.title + "</button>"
+).join("");
+document.getElementById("puzzle-picks").addEventListener("click", (e) => {
+  const btn = e.target.closest("button");
+  if (!btn) return;
+  loadPuzzle(Number(btn.dataset.i), false);
+});
+document.getElementById("hint-btn").addEventListener("click", () => {
+  const puz = PUZZLES[puzzle.i];
+  puzzle.hints = Math.min(puz.hints.length, puzzle.hints + 1);
+  document.getElementById("puzzle-hint").textContent = puz.hints[puzzle.hints - 1];
+  if (puzzle.hints === puz.hints.length) puzzle.reveal = [sqToRc(puz.from), sqToRc(puz.to)];
+  renderPuzzle();
+});
+document.getElementById("puzzle-reset").addEventListener("click", () => loadPuzzle(puzzle.i, false));
+loadPuzzle(0, false);
+
+document.querySelector(".tabs").addEventListener("click", (e) => {
+  const btn = e.target.closest(".tab");
+  if (!btn) return;
+  document.querySelectorAll(".tab").forEach(t => {
+    const on = t === btn;
+    t.classList.toggle("on", on);
+    t.setAttribute("aria-selected", on ? "true" : "false");
+  });
+  ["play", "learn", "puzzles"].forEach(name => {
+    document.getElementById("tab-" + name).classList.toggle("hidden", name !== btn.dataset.tab);
+  });
+  if (btn.dataset.tab === "learn") renderLesson();
+  if (btn.dataset.tab === "puzzles") renderPuzzle();
+  if (btn.dataset.tab === "play") renderPlay();
+});
+
+const GEMS = [
+  { id: "ruby", name: "Ruby", aliases: ["ruby"], color: "#c8102e", colors: "Red", mohs: 9, where: "Myanmar, Mozambique, and Thailand", birth: "July", fact: "A ruby is the same mineral as a sapphire. Chromium turns it red. Any other color of that mineral is called sapphire." },
+  { id: "garnet", name: "Garnet", aliases: ["garnet"], color: "#9b1b30", colors: "Red, orange, and even green", mohs: [6.5, 7.5], where: "Lots of places, including India, Africa, and the United States", birth: "January", fact: "The name comes from a Latin word for pomegranate, because red crystals looked like the seeds." },
+  { id: "diamond", name: "Diamond", aliases: ["diamond"], color: "#d5e4f2", colors: "Colorless, yellow, blue, pink, and more", mohs: 10, where: "Botswana, Russia, Canada, South Africa, and other deep mines", birth: "April", fact: "Diamond is carbon, the same element in pencil graphite, locked in a different pattern. It is the hardest natural mineral on the Mohs scale." },
+  { id: "emerald", name: "Emerald", aliases: ["emerald"], color: "#0e8a43", colors: "Green", mohs: [7.5, 8], where: "Colombia, Zambia, and Brazil", birth: "May", fact: "Emerald is green beryl, a cousin of aquamarine. Tiny natural marks inside are nicknamed the garden." },
+  { id: "sapphire", name: "Sapphire", aliases: ["sapphire"], color: "#0f4c9a", colors: "Blue, and almost every color except red", mohs: 9, where: "Sri Lanka, Madagascar, and Montana in the United States", birth: "September", fact: "Sapphire and ruby are both corundum. If the stone is red, it is a ruby. Every other color is a sapphire." },
+  { id: "amethyst", name: "Amethyst", aliases: ["amethyst"], color: "#7b3fa1", colors: "Purple", mohs: 7, where: "Brazil, Uruguay, and Zambia", birth: "February", fact: "Amethyst is purple quartz. Iron inside the crystal, plus a little natural radiation in the rock, makes the color." },
+  { id: "opal", name: "Opal", aliases: ["opal"], color: "#f2b6d4", colors: "A pale base with flashes of many colors", mohs: [5, 6.5], where: "Australia and Ethiopia", birth: "October", fact: "Opal flashes because tiny spheres of silica split the light. It can hold a little water, so baking heat is a bad idea." },
+  { id: "topaz", name: "Topaz", aliases: ["topaz"], color: "#f0b429", colors: "Golden, pink, blue, or clear", mohs: 8, where: "Brazil, Russia, and the United States", birth: "November", fact: "Golden-orange crystals are nicknamed imperial topaz. Blue topaz in shops is often pale topaz that was treated to look bluer." },
+  { id: "quartz", name: "Quartz", aliases: ["quartz", "rock crystal"], color: "#f4f1ea", colors: "Clear, and a whole family of other colors", mohs: 7, where: "All over the world", birth: "", fact: "Quartz is one of the most common minerals on Earth. A lot of sand started as quartz. Amethyst, citrine, and rose quartz are in this family." },
+  { id: "jade", name: "Jade", aliases: ["jade", "jadeite", "nephrite"], color: "#1f8a4c", colors: "Green, white, and sometimes lavender", mohs: [6, 7], where: "Myanmar, Guatemala, China, and New Zealand", birth: "", fact: "Two different minerals share the name: jadeite and nephrite. People have carved jade for thousands of years." },
+  { id: "turquoise", name: "Turquoise", aliases: ["turquoise"], color: "#1aa6a6", colors: "Blue-green, often with dark veins", mohs: [5, 6], where: "Iran, the southwestern United States, and Mexico", birth: "December", fact: "Traders carried it through Turkey, and the name grew from that trip. The French words meant Turkish stone." },
+  { id: "peridot", name: "Peridot", aliases: ["peridot"], color: "#8db82e", colors: "Olive green", mohs: [6.5, 7], where: "Arizona, Pakistan, and even some meteorites", birth: "August", fact: "Peridot basically comes in one color: green. A few crystals arrived inside meteorites. Most grew inside the Earth." },
+  { id: "aquamarine", name: "Aquamarine", aliases: ["aquamarine"], color: "#7fd4e4", colors: "Light blue to blue-green", mohs: [7.5, 8], where: "Brazil, Pakistan, and Nigeria", birth: "March", fact: "The name means seawater. It is a type of beryl, like emerald. Old sailors told stories that it protected them. That part is a story, not science." },
+  { id: "tourmaline", name: "Tourmaline", aliases: ["tourmaline", "watermelon tourmaline"], color: "#ef4f8e", colors: "Almost every color, including watermelon pink and green", mohs: [7, 7.5], where: "Brazil, Afghanistan, and Maine in the United States", alsoBirth: ["October"], fact: "One crystal can be pink in the middle and green outside. People call that watermelon tourmaline." },
+  { id: "moonstone", name: "Moonstone", aliases: ["moonstone"], color: "#e7e2d8", colors: "White or gray with a blue-white glow", mohs: [6, 6.5], where: "Sri Lanka and India", alsoBirth: ["June"], fact: "Tilt it and a soft light seems to float across the surface. Scientists call that adularescence. You can call it moon glow." },
+  { id: "pearl", name: "Pearl", aliases: ["pearl"], color: "#f4d5de", colors: "White, cream, pink, or dark", mohs: [2.5, 4.5], where: "Oceans and rivers around the world", birth: "June", fact: "A pearl is not a rock crystal. An oyster or mussel builds it from smooth layers. That is why it is softer than most gems." },
+  { id: "citrine", name: "Citrine", aliases: ["citrine"], color: "#f2c14e", colors: "Yellow to orange", mohs: 7, where: "Brazil and other quartz deposits", alsoBirth: ["November"], fact: "Citrine is the golden member of the quartz family. Natural citrine is less common than amethyst." },
+  { id: "tanzanite", name: "Tanzanite", aliases: ["tanzanite"], color: "#5b3a9a", colors: "Blue-violet", mohs: [6, 7], where: "Tanzania, and so far nowhere else", alsoBirth: ["December"], fact: "Gem miners found it in one small part of Tanzania. Look at it from another angle and the color can shift." },
+  { id: "alexandrite", name: "Alexandrite", aliases: ["alexandrite"], color: "#0f8a45", colors: "Green in daylight, reddish in warm lamp light", mohs: 8.5, where: "Russia, Brazil, and Sri Lanka", alsoBirth: ["June"], fact: "Alexandrite is a color-change gem. Daylight makes it look greenish. A warm indoor lamp pulls out the red." },
+  { id: "lapis", name: "Lapis lazuli", aliases: ["lapis", "lapis lazuli"], color: "#1d3d8f", colors: "Deep blue with gold flecks", mohs: [5, 5.5], where: "Afghanistan, and a few other places", birth: "", fact: "The gold dots are pyrite. Long ago, people ground lapis into a famous blue paint called ultramarine." },
+  { id: "onyx", name: "Onyx", aliases: ["onyx"], color: "#2a2a2a", colors: "Black, or black and white bands", mohs: [6.5, 7], where: "Many places, including Brazil and India", birth: "", fact: "Onyx is banded chalcedony, a quartz cousin. The layers can look like stacked stripes." },
+  { id: "amber", name: "Amber", aliases: ["amber"], color: "#f5a623", colors: "Golden orange, sometimes darker", mohs: [2, 2.5], where: "The Baltic region, the Dominican Republic, and Myanmar", birth: "", fact: "Amber is fossilized tree resin, not a crystal grown in rock. Sometimes an ancient insect is stuck inside." },
+  { id: "obsidian", name: "Obsidian", aliases: ["obsidian"], color: "#1c1c1c", colors: "Usually black, like glass", mohs: [5, 5.5], where: "Volcanic places such as Mexico and Iceland", birth: "", fact: "Obsidian is volcanic glass. Lava cooled so fast that crystals did not grow. It can break into sharp edges, so it is for looking, not for play." },
+  { id: "malachite", name: "Malachite", aliases: ["malachite"], color: "#0e8f55", colors: "Banded green", mohs: [3.5, 4], where: "The Congo, Russia, and Arizona", birth: "", fact: "Those green bands formed with copper. It is pretty to look at. Do not sand it or taste it." },
+  { id: "fluorite", name: "Fluorite", aliases: ["fluorite"], color: "#7a4cae", colors: "Purple, green, yellow, and mixed", mohs: 4, where: "China, Mexico, and the United States", birth: "", fact: "Fluorite can glow under ultraviolet light. The word fluorescence comes from fluorite." },
+  { id: "hematite", name: "Hematite", aliases: ["hematite"], color: "#5c6168", colors: "Metallic gray or black", mohs: [5.5, 6.5], where: "Many places, including Brazil and England", birth: "", fact: "Rub it on a rough white plate and the powder is red. The name comes from the Greek word for blood." },
+  { id: "tigers-eye", name: "Tiger's eye", aliases: ["tigers eye", "tiger eye", "tigers-eye"], color: "#c47a2c", colors: "Golden brown with a moving stripe", mohs: [6.5, 7], where: "South Africa and Australia", birth: "", fact: "A silky stripe of light seems to slide across the stone. People call that a cat's-eye shine." },
+  { id: "rose-quartz", name: "Rose quartz", aliases: ["rose quartz", "rosequartz"], color: "#f4b6c6", colors: "Pink", mohs: 7, where: "Brazil and Madagascar", birth: "", fact: "Rose quartz is pink quartz. The color comes from tiny bits of other minerals inside the crystal." },
+  { id: "labradorite", name: "Labradorite", aliases: ["labradorite"], color: "#2c3444", colors: "Gray with flashes of blue and green", mohs: [6, 6.5], where: "Canada, Finland, and Madagascar", birth: "", fact: "Tilt a piece and sheets of blue or green can flash on. That flash is called labradorescence." },
+  { id: "spinel", name: "Spinel", aliases: ["spinel"], color: "#e23b6a", colors: "Red, pink, blue, and more", mohs: 8, where: "Myanmar, Vietnam, and Tanzania", alsoBirth: ["August"], fact: "A famous red stone in the British crown jewels was called a ruby for a long time. It is actually a spinel." },
+  { id: "zircon", name: "Zircon", aliases: ["zircon"], color: "#3aa0c8", colors: "Many colors; blue is popular in jewelry", mohs: [6.5, 7.5], where: "Australia, Cambodia, and other places", alsoBirth: ["December"], fact: "Zircon is a natural gem. Some crystals are billions of years old. Cubic zirconia is a different, lab-made lookalike." },
+  { id: "agate", name: "Agate", aliases: ["agate"], color: "#c4472e", colors: "Banded, in lots of colors", mohs: [6.5, 7], where: "Brazil, the United States, and worldwide", birth: "", fact: "Agate often forms in bubbles in volcanic rock. The bands are layers of quartz that filled the bubble." },
+  { id: "bloodstone", name: "Bloodstone", aliases: ["bloodstone"], color: "#1e6b45", colors: "Dark green with red spots", mohs: [6.5, 7], where: "India", alsoBirth: ["March"], fact: "The red spots are iron minerals in green chalcedony. It is a traditional March birthstone beside aquamarine." },
+  { id: "kunzite", name: "Kunzite", aliases: ["kunzite"], color: "#f3a6c8", colors: "Pink to lilac", mohs: [6.5, 7], where: "Afghanistan, Brazil, and California", birth: "", fact: "Kunzite is a pink kind of spodumene. Strong sunlight can fade the color, so collectors keep it out of a bright window." },
+  { id: "iolite", name: "Iolite", aliases: ["iolite"], color: "#4a4e9a", colors: "Violet-blue", mohs: [7, 7.5], where: "India, Sri Lanka, and Brazil", birth: "", fact: "Iolite can look blue from one direction and gray-yellow from another. The crystal really does change with the angle." },
+  { id: "pyrite", name: "Pyrite", aliases: ["pyrite", "fools gold", "fool's gold"], color: "#e1b423", colors: "Brassy yellow, metallic", mohs: [6, 6.5], where: "Many places, including Spain, Peru, and the United States", birth: "", fact: "People call it fool's gold because the color tricks the eye. The name means fire: struck with steel, it can spark. It is for looking, not for hitting." },
+  { id: "sunstone", name: "Sunstone", aliases: ["sunstone"], color: "#e8782f", colors: "Orange, red, or green with glitter", mohs: [6, 6.5], where: "Oregon, India, and Norway", birth: "", fact: "Tiny copper or iron bits inside flash like glitter. Oregon is famous for it. That sparkle is called aventurescence." },
+  { id: "amazonite", name: "Amazonite", aliases: ["amazonite"], color: "#4fb8a8", colors: "Green to blue-green", mohs: [6, 6.5], where: "Colorado, Russia, and Brazil", birth: "", fact: "The name points at the Amazon, but the famous deposits are in other places, including Colorado. Names in science sometimes take a scenic route." }
+];
+
+const MONTHS = [
+  ["January", "Garnet"], ["February", "Amethyst"], ["March", "Aquamarine"], ["April", "Diamond"],
+  ["May", "Emerald"], ["June", "Pearl"], ["July", "Ruby"], ["August", "Peridot"],
+  ["September", "Sapphire"], ["October", "Opal"], ["November", "Topaz"], ["December", "Turquoise"]
+];
+let gemLamp = false;
+let sugIndex = -1;
+function norm(s) {
+  return String(s || "").toLowerCase().replace(/['’.]/g, "").replace(/\s+/g, " ").trim();
+}
+function findGem(q) {
+  const n = norm(q);
+  if (!n) return null;
+  return GEMS.find(g => norm(g.name) === n || (g.aliases || []).some(a => norm(a) === n)) || null;
+}
+function matchGems(q) {
+  const n = norm(q);
+  if (!n) return [];
+  return GEMS.filter(g => [g.name, ...(g.aliases || [])].some(a => norm(a).includes(n)));
+}
+function hexToRgb(hex) {
+  const h = hex.replace("#", "");
+  return [parseInt(h.slice(0, 2), 16), parseInt(h.slice(2, 4), 16), parseInt(h.slice(4, 6), 16)];
+}
+function mix(hex, other, amt) {
+  const a = hexToRgb(hex), b = hexToRgb(other);
+  const m = a.map((v, i) => Math.round(v + (b[i] - v) * amt));
+  return "#" + m.map(v => v.toString(16).padStart(2, "0")).join("");
+}
+function gemSVG(gem) {
+  const gid = "g-" + gem.id;
+  let stops;
+  if (gem.id === "opal") stops = [["0%", "#e7fbff"], ["30%", "#ff7ad9"], ["55%", "#6fffd2"], ["78%", "#ffe566"], ["100%", "#8eb6ff"]];
+  else if (gem.id === "alexandrite") stops = gemLamp
+    ? [["0%", "#ffd0d8"], ["45%", "#d0122d"], ["100%", "#5a0714"]]
+    : [["0%", "#d9ffe8"], ["45%", "#0f8a45"], ["100%", "#06331c"]];
+  else if (gem.id === "tourmaline") stops = [["0%", "#f6f6f6"], ["32%", "#ef4f8e"], ["52%", "#fff"], ["100%", "#1c9a52"]];
+  else if (gem.id === "labradorite") stops = [["0%", "#2c3444"], ["42%", "#2c3444"], ["50%", "#3ddec8"], ["56%", "#e4e2ff"], ["66%", "#2c3444"], ["100%", "#2c3444"]];
+  else if (gem.id === "fluorite") stops = [["0%", "#7a4cae"], ["50%", "#3eac55"], ["100%", "#f0e08a"]];
+  else if (gem.id === "agate") stops = [["0%", "#f6e6c8"], ["18%", "#f6e6c8"], ["18%", "#c4472e"], ["36%", "#c4472e"], ["36%", "#e2b85a"], ["54%", "#e2b85a"], ["54%", "#f6e6c8"], ["72%", "#f6e6c8"], ["72%", "#7d3428"], ["100%", "#7d3428"]];
+  else if (gem.id === "moonstone") stops = [["0%", "#f7f4ee"], ["40%", "#fbfaf6"], ["52%", "#c5d8ff"], ["64%", "#fff"], ["100%", "#ebe6dc"]];
+  else if (gem.id === "pearl") stops = [["0%", "#fff"], ["40%", "#fff6f8"], ["100%", "#f0c9d4"]];
+  else if (gem.id === "amber") stops = [["0%", "#ffe7a3"], ["50%", "#f5a623"], ["100%", "#c45b12"]];
+  else stops = [["0%", mix(gem.color, "#ffffff", 0.45)], ["50%", gem.color], ["100%", mix(gem.color, "#000000", 0.35)]];
+  const stopTags = stops.map(([o, col]) => '<stop offset="' + o + '" stop-color="' + col + '"/>').join("");
+  let shape;
+  if (gem.id === "pearl") {
+    shape = '<circle cx="60" cy="64" r="40" fill="url(#' + gid + ')" stroke="#140c12" stroke-width="3"/><ellipse cx="46" cy="48" rx="14" ry="8" fill="rgba(255,255,255,.8)"/>';
+  } else if (gem.id === "amber") {
+    shape = '<path d="M60 16c20 4 34 22 32 40-4 26-20 44-36 42S18 90 20 62C22 38 40 12 60 16z" fill="url(#' + gid + ')" stroke="#140c12" stroke-width="3"/><ellipse cx="48" cy="44" rx="10" ry="6" fill="rgba(255,255,255,.45)"/>';
+  } else {
+    shape = '<polygon points="60,8 108,40 92,110 28,110 12,40" fill="url(#' + gid + ')" stroke="#140c12" stroke-width="3"/>' +
+      '<polygon points="60,8 108,40 60,52 12,40" fill="rgba(255,255,255,.38)"/>' +
+      '<polygon points="60,52 92,110 28,110" fill="rgba(0,0,0,.12)"/>' +
+      '<polygon class="shine" points="46,22 64,20 58,40 40,36" fill="rgba(255,255,255,.75)"/>';
+  }
+  const cls = gem.id === "opal" ? "gem-art opal" : "gem-art";
+  return '<svg class="' + cls + '" viewBox="0 0 120 120" aria-hidden="true"><defs><linearGradient id="' + gid + '" x1="0" y1="0" x2="1" y2="1">' + stopTags + "</linearGradient></defs>" + shape + "</svg>";
+}
+function mohsLabel(mohs) { return Array.isArray(mohs) ? mohs[0] + "–" + mohs[1] : String(mohs); }
+function hardnessTalk(mohs) {
+  const max = Array.isArray(mohs) ? mohs[1] : mohs;
+  if (max <= 2.5) return "Very soft. A fingernail is about 2.5 and can scratch this.";
+  if (max <= 4.5) return "Softer than a steel knife. A knife is about 5.5.";
+  if (max <= 6.5) return "Around the toughness of a steel knife, which is about 5.5.";
+  if (max < 8) return "Hard. Quartz is 7 and can scratch glass. This lives in that tough zone.";
+  if (max < 10) return "Super hard. Only a few minerals can scratch it.";
+  return "The top of the scale. Diamond can scratch every other natural mineral.";
+}
+function birthLine(gem) {
+  const months = [];
+  if (gem.birth) months.push(gem.birth);
+  if (gem.alsoBirth) months.push(...gem.alsoBirth);
+  if (!months.length) return "Not a birthstone — still awesome.";
+  const friends = GEMS.filter(g => g !== gem && months.some(m => g.birth === m || (g.alsoBirth || []).includes(m))).map(g => g.name);
+  let line = months.join(" and ") + " birthstone.";
+  if (friends.length) line += " Same month: " + friends.join(", ") + ".";
+  return line;
+}
+function renderGemCard(gem) {
+  const card = document.getElementById("gem-card");
+  card.replaceChildren();
+  const art = document.createElement("div");
+  art.innerHTML = gemSVG(gem);
+  card.appendChild(art);
+  const h = document.createElement("h3");
+  h.textContent = gem.name;
+  card.appendChild(h);
+  const rows = [
+    ["Colors", gem.colors],
+    ["Hardness", null],
+    ["Found", gem.where],
+    ["Birthstone", birthLine(gem)],
+    ["Cool fact", gem.fact]
+  ];
+  for (const [label, value] of rows) {
+    const line = document.createElement("div");
+    line.className = "fact-line";
+    const b = document.createElement("b");
+    b.textContent = label;
+    line.appendChild(b);
+    if (label === "Hardness") {
+      const num = document.createElement("span");
+      num.textContent = mohsLabel(gem.mohs) + " on the Mohs scale (1 soft, 10 hardest).";
+      line.appendChild(num);
+      const min = Array.isArray(gem.mohs) ? gem.mohs[0] : gem.mohs;
+      const max = Array.isArray(gem.mohs) ? gem.mohs[1] : gem.mohs;
+      const bar = document.createElement("div");
+      bar.className = "mohs";
+      bar.style.setProperty("--gem", gem.color);
+      for (let i = 1; i <= 10; i++) {
+        const cell = document.createElement("span");
+        if (i <= min) cell.className = "full";
+        else if (i <= max) cell.className = "part";
+        bar.appendChild(cell);
+      }
+      line.appendChild(bar);
+      const talk = document.createElement("span");
+      talk.textContent = hardnessTalk(gem.mohs);
+      line.appendChild(talk);
+    } else {
+      line.appendChild(document.createTextNode(value));
+    }
+    card.appendChild(line);
+  }
+  if (gem.id === "alexandrite") {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "big";
+    btn.dataset.lamp = "1";
+    btn.textContent = gemLamp ? "Switch to sunlight" : "Switch to a warm lamp";
+    const note = document.createElement("p");
+    note.className = "tiny";
+    note.textContent = gemLamp ? "Warm lamp: the stone looks reddish." : "Daylight: the stone looks greenish.";
+    card.appendChild(note);
+    card.appendChild(btn);
+  }
+}
+function showGem(gem) {
+  gemLamp = false;
+  renderGemCard(gem);
+  document.getElementById("gem-q").value = gem.name;
+  document.getElementById("gem-suggest").replaceChildren();
+  document.getElementById("gem-msg").textContent = "";
+  sugIndex = -1;
+}
+function renderSuggestions(list) {
+  const box = document.getElementById("gem-suggest");
+  box.replaceChildren();
+  sugIndex = -1;
+  list.slice(0, 8).forEach(gem => {
+    const b = document.createElement("button");
+    b.type = "button";
+    b.textContent = gem.name;
+    b.addEventListener("click", () => showGem(gem));
+    box.appendChild(b);
+  });
+}
+function submitGemQuery() {
+  const q = document.getElementById("gem-q").value;
+  const n = norm(q);
+  if (!n) {
+    document.getElementById("gem-msg").textContent = "Type a gem name, or tap Random gem.";
+    return;
+  }
+  if (n === "cubic zirconia" || n === "cz") {
+    document.getElementById("gem-card").replaceChildren();
+    document.getElementById("gem-suggest").replaceChildren();
+    document.getElementById("gem-msg").textContent = "Cubic zirconia is a lab-made sparkle, not the mineral zircon. Try zircon.";
+    return;
+  }
+  const exact = findGem(q);
+  if (exact) { showGem(exact); return; }
+  const hits = matchGems(q);
+  if (hits.length === 1) { showGem(hits[0]); return; }
+  if (!hits.length) {
+    document.getElementById("gem-card").replaceChildren();
+    document.getElementById("gem-suggest").replaceChildren();
+    document.getElementById("gem-msg").textContent = "Not found yet. Try another — ruby, opal, or moonstone.";
+    return;
+  }
+  renderSuggestions(hits);
+  document.getElementById("gem-msg").textContent = "A few gems match. Tap one.";
+}
+document.getElementById("gem-q").addEventListener("input", () => {
+  const q = document.getElementById("gem-q").value;
+  if (!norm(q)) {
+    document.getElementById("gem-suggest").replaceChildren();
+    document.getElementById("gem-msg").textContent = "";
+    return;
+  }
+  renderSuggestions(matchGems(q));
+});
+document.getElementById("gem-q").addEventListener("keydown", (e) => {
+  const buttons = [...document.querySelectorAll("#gem-suggest button")];
+  if (e.key === "ArrowDown" && buttons.length) {
+    e.preventDefault();
+    sugIndex = (sugIndex + 1) % buttons.length;
+    buttons.forEach((b, i) => b.classList.toggle("on", i === sugIndex));
+  } else if (e.key === "ArrowUp" && buttons.length) {
+    e.preventDefault();
+    sugIndex = (sugIndex - 1 + buttons.length) % buttons.length;
+    buttons.forEach((b, i) => b.classList.toggle("on", i === sugIndex));
+  } else if (e.key === "Enter") {
+    e.preventDefault();
+    if (sugIndex >= 0 && buttons[sugIndex]) buttons[sugIndex].click();
+    else submitGemQuery();
+  } else if (e.key === "Escape") {
+    document.getElementById("gem-suggest").replaceChildren();
+  }
+});
+document.getElementById("gem-random").addEventListener("click", () => {
+  showGem(GEMS[rand(GEMS.length)]);
+});
+document.getElementById("gem-card").addEventListener("click", (e) => {
+  if (!e.target.closest("[data-lamp]")) return;
+  gemLamp = !gemLamp;
+  renderGemCard(GEMS.find(g => g.id === "alexandrite"));
+});
+const monthBox = document.getElementById("gem-months");
+MONTHS.forEach(([month, name]) => {
+  const b = document.createElement("button");
+  b.type = "button";
+  b.className = "month";
+  b.textContent = month.slice(0, 3) + " · " + name;
+  b.addEventListener("click", () => showGem(GEMS.find(g => g.name === name)));
+  monthBox.appendChild(b);
+});
+const allBox = document.getElementById("gem-all");
+GEMS.forEach(gem => {
+  const b = document.createElement("button");
+  b.type = "button";
+  b.className = "gem-chip";
+  b.textContent = gem.name;
+  b.addEventListener("click", () => showGem(gem));
+  allBox.appendChild(b);
+});
+
+const PROMPTS = [
+  {
+    weak: "dog",
+    parts: [
+      ["Say what you want", "Tell me a joke"],
+      ["Add something you love", "about a goofy dog who plays soccer."],
+      ["Say how it should sound", "Use easy words and make it silly."],
+      ["Ask a follow-up", "Then ask if I want another one."]
+    ]
+  },
+  {
+    weak: "math",
+    parts: [
+      ["Say what you want", "Give me one multiplication problem"],
+      ["Be specific", "with numbers bigger than 10,"],
+      ["Add your world", "and make it about basketball points."],
+      ["Ask a follow-up", "Wait for my answer, then tell me if I got it."]
+    ]
+  },
+  {
+    weak: "help",
+    parts: [
+      ["Say what you want", "Explain how a knight moves in chess"],
+      ["Say who it is for", "like I am 8,"],
+      ["Ask for an example", "and give one example."],
+      ["Ask a follow-up", "Then quiz me with one question."]
+    ]
+  }
+];
+let promptRound = 0;
+let picked = [false, false, false, false];
+let promptCelebrated = false;
+function renderPrompt() {
+  const round = PROMPTS[promptRound];
+  document.getElementById("weak-prompt").textContent = round.weak;
+  const box = document.getElementById("prompt-parts");
+  box.replaceChildren();
+  round.parts.forEach((part, i) => {
+    const b = document.createElement("button");
+    b.type = "button";
+    b.className = "chip" + (picked[i] ? " on" : "");
+    b.textContent = part[0];
+    b.addEventListener("click", () => {
+      picked[i] = !picked[i];
+      const done = picked.every(Boolean);
+      renderPrompt();
+      if (done && !promptCelebrated) {
+        promptCelebrated = true;
+        showHighFive();
+        confetti();
+      }
+      if (!done) promptCelebrated = false;
+    });
+    box.appendChild(b);
+  });
+  const built = round.parts.filter((_, i) => picked[i]).map(p => p[1]);
+  document.getElementById("better-prompt").textContent = built.length
+    ? built.join(" ")
+    : "Tap the upgrades. The better request will land here.";
+}
+renderPrompt();
+document.getElementById("prompt-next").addEventListener("click", () => {
+  promptRound = (promptRound + 1) % PROMPTS.length;
+  picked = [false, false, false, false];
+  promptCelebrated = false;
+  renderPrompt();
+});
+
+const QUIZ = [
+  {
+    q: "What is a chatbot?",
+    choices: [
+      ["A real person hiding in the computer", false],
+      ["A tool that guesses a helpful reply from patterns", true],
+      ["Magic that is always right", false]
+    ],
+    why: "A chatbot is a tool. It guesses a reply from patterns. It is not a person, and it is not magic."
+  },
+  {
+    q: "Which request will get a better answer?",
+    choices: [
+      ["dog", false],
+      ["Tell me a silly dog joke for a kid, then ask if I want another.", true],
+      ["Answer, but do not use any words.", false]
+    ],
+    why: "Clear and specific wins. Say the job, add a detail, and you can always ask a follow-up."
+  },
+  {
+    q: "A bot sounds sure about a surprising fact. What now?",
+    choices: [
+      ["Believe it because it sounded confident", false],
+      ["Check it, and ask a grown-up if it matters", true],
+      ["Send your password so it can prove the fact", false]
+    ],
+    why: "Bots can be wrong even when they sound sure. You are the captain. Check, and ask a grown-up."
+  },
+  {
+    q: "Which one is okay to tell a bot?",
+    choices: [
+      ["Your home address", false],
+      ["Your school's name", false],
+      ["Your favorite sport", true],
+      ["Your password", false]
+    ],
+    why: "Favorites are fine. Full name, address, school, and passwords stay private."
+  }
+];
+const quiz = { i: 0, score: 0, locked: false };
+function renderQuiz() {
+  const item = QUIZ[quiz.i];
+  document.getElementById("quiz-progress").textContent = "Question " + (quiz.i + 1) + " of " + QUIZ.length;
+  document.getElementById("quiz-q").textContent = item.q;
+  document.getElementById("quiz-why").textContent = "";
+  document.getElementById("quiz-next").classList.add("hidden");
+  const box = document.getElementById("quiz-choices");
+  box.replaceChildren();
+  item.choices.forEach(([text, ok]) => {
+    const b = document.createElement("button");
+    b.type = "button";
+    b.className = "quiz-opt";
+    b.textContent = text;
+    b.addEventListener("click", () => {
+      if (quiz.locked) return;
+      quiz.locked = true;
+      box.querySelectorAll("button").forEach(btn => { btn.disabled = true; });
+      if (ok) {
+        quiz.score += 1;
+        b.classList.add("good");
+        showHighFive();
+      } else {
+        b.classList.add("bad");
+        [...box.children].forEach((btn, idx) => { if (item.choices[idx][1]) btn.classList.add("good"); });
+      }
+      document.getElementById("quiz-why").textContent = item.why;
+      const next = document.getElementById("quiz-next");
+      next.textContent = quiz.i === QUIZ.length - 1 ? "See my score" : "Next";
+      next.classList.remove("hidden");
+    });
+    box.appendChild(b);
+  });
+}
+document.getElementById("quiz-next").addEventListener("click", () => {
+  if (quiz.i === QUIZ.length - 1) {
+    const perfect = quiz.score === QUIZ.length;
+    document.getElementById("quiz-score").textContent = perfect
+      ? quiz.score + " of " + QUIZ.length + ". You checked the bots and the secrets. Huge high five."
+      : quiz.score + " of " + QUIZ.length + ". The misses are part of learning. Run it back if you want.";
+    if (perfect) { showHighFive("🙌 Huge high five!"); confetti(); }
+    document.getElementById("quiz-q").textContent = "Quiz complete.";
+    document.getElementById("quiz-choices").replaceChildren();
+    document.getElementById("quiz-why").textContent = "";
+    document.getElementById("quiz-next").classList.add("hidden");
+    document.getElementById("quiz-progress").textContent = "";
+    document.getElementById("quiz-restart").classList.remove("hidden");
+    return;
+  }
+  quiz.i += 1;
+  quiz.locked = false;
+  renderQuiz();
+});
+document.getElementById("quiz-restart").addEventListener("click", () => {
+  quiz.i = 0; quiz.score = 0; quiz.locked = false;
+  document.getElementById("quiz-score").textContent = "";
+  document.getElementById("quiz-restart").classList.add("hidden");
+  renderQuiz();
+});
+renderQuiz();
+
+function runChessSelfTest() {
+  const fails = [];
+  const expect = (cond, msg) => { if (!cond) fails.push(msg); };
+  const st = newGame();
+  const e2 = legalMovesFrom(st, 6, 4).map(m => rcToSq(m[0], m[1])).sort().join();
+  expect(e2 === "e3,e4", "e2 " + e2);
+  const b1 = legalMovesFrom(st, 7, 1).map(m => rcToSq(m[0], m[1])).sort().join();
+  expect(b1 === "a3,c3", "b1 " + b1);
+  PUZZLES.forEach(puz => {
+    const s = setupPuzzle(puz);
+    expect(!inCheck(s.board, "w"), puz.title + " white check");
+    expect(!inCheck(s.board, "b"), puz.title + " already check");
+    const from = sqToRc(puz.from);
+    const tos = legalMovesFrom(s, from[0], from[1]).map(m => rcToSq(m[0], m[1]));
+    expect(tos.includes(puz.to), puz.title + " illegal " + tos.join(" "));
+    const next = applyMove(s, from, sqToRc(puz.to), "q");
+    expect(statusOf(next) === "mate", puz.title + " status " + statusOf(next));
+  });
+  const pin = emptyState();
+  place(pin, "e1", "wK");
+  place(pin, "e2", "wN");
+  place(pin, "e8", "bR");
+  place(pin, "a8", "bK");
+  const e2n = sqToRc("e2");
+  expect(legalMovesFrom(pin, e2n[0], e2n[1]).length === 0, "pinned knight");
+  const castle = emptyState();
+  castle.castle = { wK: true, wQ: true, bK: false, bQ: false };
+  place(castle, "e1", "wK");
+  place(castle, "h1", "wR");
+  place(castle, "a1", "wR");
+  place(castle, "e8", "bK");
+  let km = legalMovesFrom(castle, 7, 4).map(m => rcToSq(m[0], m[1]));
+  expect(km.includes("g1") && km.includes("c1"), "castle " + km.join());
+  place(castle, "f8", "bR");
+  km = legalMovesFrom(castle, 7, 4).map(m => rcToSq(m[0], m[1]));
+  expect(!km.includes("g1") && km.includes("c1"), "through check " + km.join());
+  const ep = emptyState();
+  place(ep, "e1", "wK");
+  place(ep, "e8", "bK");
+  place(ep, "e5", "wP");
+  place(ep, "d5", "bP");
+  ep.ep = { r: sqToRc("d6")[0], c: sqToRc("d6")[1] };
+  const em = legalMovesFrom(ep, ...sqToRc("e5")).map(m => rcToSq(m[0], m[1]));
+  expect(em.includes("d6"), "ep " + em.join());
+  const after = applyMove(ep, sqToRc("e5"), sqToRc("d6"));
+  expect(!after.board[sqToRc("d5")[0]][sqToRc("d5")[1]], "ep capture");
+  const pr = emptyState();
+  place(pr, "a7", "wP");
+  place(pr, "h1", "wK");
+  place(pr, "h8", "bK");
+  const promoted = applyMove(pr, sqToRc("a7"), sqToRc("a8"), "n");
+  expect(promoted.board[0][0].t === "n", "promo");
+  const sm = emptyState();
+  sm.turn = "b";
+  place(sm, "a8", "bK");
+  place(sm, "a6", "wK");
+  place(sm, "b6", "wQ");
+  expect(statusOf(sm) === "stalemate", "stalemate " + statusOf(sm));
+  expect(GEMS.length >= 30, "gems " + GEMS.length);
+  return fails;
+}
+
+window.__avi = {
+  newGame, emptyState, place, legalMovesFrom, applyMove, statusOf, inCheck,
+  sqToRc, rcToSq, setupPuzzle, PUZZLES, GEMS, runChessSelfTest, showGem, findGem
+};
 
 const saved = sessionStorage.getItem("avi-fun-role");
 if (saved === "avi" || saved === "dad") showApp(saved);
