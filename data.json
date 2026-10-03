@@ -3,7 +3,7 @@
     "title": "Fresh $$ Control Center",
     "owner": "Joshua",
     "assistant": "Fresh $$",
-    "last_updated": "2026-10-03T07:49:44-07:00",
+    "last_updated": "2026-10-03T13:11:23-07:00",
     "status_note": "Morning Control Center refresh Oct 3, 2026 7:49 AM PT. PrintPlz Shop Manager: 48 active / 1 draft / 2 inactive; +26 overnight; 0 orders / $0 revenue; 28 views / 12 visits (7d). Printful card + samples confirmed; fulfillment green. HostFees: hostfees.com HTTP 200; Turno affiliate link live; pins 6/49; Hospitable bank + Turno password done. Amazon Associates still pending. Etsy Ads still planned Fri Oct 16 (~$3/day, $100/mo cap); $0 spend. Deal Scout research only; no overnight run. Actual revenue remains $0."
   },
   "budget": {
@@ -1153,5 +1153,178 @@
       "details": "Last recommended order-by date for Christmas delivery.",
       "source": "/workspace/pod-shops/printplz/README.md · Key dates and ads plan"
     }
-  ]
+  ],
+  "other_account": {
+    "label": "Other account (Grok Bot)",
+    "as_of": "Oct 3, 2026 ~1pm PT, relayed manually",
+    "source_note": "Joshua's second Grok Bot account (main coordinator: Grok Bot) can't see this dashboard's computer. Everything below was copied from two reports Joshua pasted to Scott Bot on Oct 3, 2026 (~1:03pm and ~1:10pm PT). It is not live-synced and goes stale until the next relay. Trading lanes are paper only; none of these numbers count toward the totals above.",
+    "shops": [
+      {
+        "name": "MoonletterMira",
+        "status": "live",
+        "type": "Etsy digital readings",
+        "url": "https://www.etsy.com/shop/MoonletterMira",
+        "note": "Live Etsy shop. Readings site readings.moonlettermira.com (Cloudflare Pages) and email delivery via Resend are live. Etsy Complete is still manual. Make.com not connected. Instagram not live. Public page: 1 sale, 1 admirer, 0 reviews. That 1 sale is a friend/demo order, not revenue.",
+        "listings": [
+          "ML-01 Same-Hour Love: $8.88",
+          "ML-02: $9.99",
+          "ML-03: $24",
+          "ML-04: $11",
+          "ML-05 Mini Love Spark: $1"
+        ]
+      },
+      {
+        "name": "The Family Gem Shop",
+        "status": "vacation",
+        "type": "Loose gemstones on Etsy",
+        "url": "https://www.etsy.com/shop/TheFamilyGemShop",
+        "note": "Slug TheFamilyGemShop (renamed from GemPathway Oct 2). Vacation mode ON. 0 live listings. SF-001 (1.19 ct heart tsavorite, Kenya, $425) copy and 4 photos approved, not posted. Planned domain thefamilygems.com not purchased.",
+        "listings": []
+      },
+      {
+        "name": "Help4U",
+        "status": "not open",
+        "type": "Planned Etsy shop: digital listing-help files (Etsy-only, so it doesn't compete with WebsitePlz)",
+        "url": "",
+        "note": "Designed, not opened. No spend. Name (older label For You) not confirmed free. Stays closed until Joshua says publish.",
+        "listings": []
+      }
+    ],
+    "paper_lanes_note": "Paper trading only, research bankroll, not live money. Weekly summary per lane, not every trade. No live orders on any lane.",
+    "paper_lanes": [
+      {
+        "lane": "Sports Edge",
+        "bankroll": "$1,000 paper",
+        "equity": "$1,000",
+        "note": "0 fills. Quiet Oct 2."
+      },
+      {
+        "lane": "Politics Edge",
+        "bankroll": "$1,000 paper",
+        "equity": "~$910.98 (Oct 2, 9:19am PT)",
+        "note": "Week mark ends Sat Oct 3 ~4:13pm PT."
+      },
+      {
+        "lane": "Stocks Edge",
+        "bankroll": "$1,000 paper",
+        "equity": "$998.99",
+        "note": "Holds ZS and TWLO. No live Robinhood orders."
+      },
+      {
+        "lane": "Stocks Edge (Moon sleeve)",
+        "bankroll": "$1,000 paper",
+        "equity": "$1,002.75",
+        "note": "Holds SQQQ."
+      },
+      {
+        "lane": "Polymarket Edge",
+        "bankroll": "$1,000 paper",
+        "equity": "not reported",
+        "note": "8 resting paper locks, 0 live orders, 0 observed fills."
+      },
+      {
+        "lane": "Combined (Edge Desk)",
+        "bankroll": "$5,000 paper",
+        "equity": "~$4,913 (Oct 2 evening)",
+        "note": "Combined paper week about -$87."
+      }
+    ],
+    "deadlines": [
+      {
+        "date": "Sat Oct 3 ~4:13pm PT",
+        "event": "Politics Edge paper week wrap",
+        "details": "Paper only."
+      },
+      {
+        "date": "Mon Oct 5",
+        "event": "Markets reopen",
+        "details": "Stocks hunts resume; Polymarket hunt ~8:13am PT; rogue-agent scan 8:19am PT."
+      },
+      {
+        "date": "~Oct 11, 2026",
+        "event": "Optional Etsy Ads on ML-01 only (~$5/day)",
+        "details": "Not enabled. Do not start early."
+      },
+      {
+        "date": "No date",
+        "event": "Help4U stays closed",
+        "details": "Opens only when Joshua says publish."
+      }
+    ],
+    "bills": [
+      {
+        "item": "Etsy setup fee, The Family Gem Shop",
+        "amount": "$29",
+        "when": "Paid Oct 2 (one-time)"
+      },
+      {
+        "item": "moonlettermira.com (Namecheap)",
+        "amount": "unknown",
+        "when": "Renewal date unknown"
+      },
+      {
+        "item": "Resend and Cloudflare plans",
+        "amount": "unknown",
+        "when": "In use; plan price and renewal not recorded"
+      },
+      {
+        "item": "thefamilygems.com",
+        "amount": "n/a",
+        "when": "Not purchased"
+      },
+      {
+        "item": "Recurring bills with known amount and date",
+        "amount": "none",
+        "when": "None known on this account"
+      }
+    ],
+    "needs_joshua": [
+      {
+        "task": "Claim Instagram @moonlettermira and post day one",
+        "why": "feed-01, feed-03 and story-01 are ready.",
+        "optional": false
+      },
+      {
+        "task": "Family Gem: send shop icon and banner, and say when to post SF-001",
+        "why": "Then vacation goes off and a USPS tracked/insured shipping note is added.",
+        "optional": false
+      },
+      {
+        "task": "Help4U: confirm the name is free and review the catalog",
+        "why": "Don't publish until you say so.",
+        "optional": false
+      },
+      {
+        "task": "Delete the empty 'New Bot' from the sidebar",
+        "why": "Only you can delete it.",
+        "optional": false
+      },
+      {
+        "task": "Check the Etsy login for MoonletterMira and TheFamilyGemShop",
+        "why": "In each shop's Etsy account settings. Tells you whether all four Etsy shops (incl. PrintPlzShop) share one Etsy identity, so a problem with one could hit all.",
+        "optional": false
+      },
+      {
+        "task": "Optional: confirm a public host for Doom Index",
+        "why": "Local board, parked.",
+        "optional": true
+      },
+      {
+        "task": "Optional: deploy Edge Desk Fly",
+        "why": "Phone package, not deployed.",
+        "optional": true
+      },
+      {
+        "task": "Optional: buy thefamilygems.com",
+        "why": "Planned domain, not purchased.",
+        "optional": true
+      },
+      {
+        "task": "Optional: Mira coupon",
+        "why": "Not set up.",
+        "optional": true
+      }
+    ],
+    "combined_ads_note": "Combined Etsy Ads (both accounts): PrintPlz ~$3/day from Fri Oct 16, capped at $100/month, plus ML-01 ~$5/day from ~Oct 11 if enabled (currently off). Together roughly $240/month if both run all month."
+  }
 }
