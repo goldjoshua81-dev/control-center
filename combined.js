@@ -44,4 +44,39 @@ loadData(D => {
   const bills = (D.recurring_bills || []).map(b => ({...b, who: "This account"})).concat(O ? O.bills.map(b => ({...b, who: "Other bots"})) : []);
   $("bills").innerHTML = bills.length ? bills.map(r => `<div class="item"><div style="flex:1"><div class="x"><b>${esc(r.item)}</b> <span class="muted">· ${esc(r.who)}</span></div><div class="w">${esc(r.amount)} · ${esc(r.when)}</div></div></div>`).join("") : `<p class="empty">No bills recorded</p>`;
   if (O && O.combined_ads_note) $("adsNote").textContent = O.combined_ads_note;
+
+  // Traffic tiles (views / visits / impressions) from traffic_sources + traffic_history
+  const TS = D.traffic_sources || [], TH = D.traffic_history || [];
+  if (TS.length) {
+    const shortDate = iso => new Date(iso).toLocaleString("en-US", {timeZone: "America/Los_Angeles", month: "short", day: "numeric", hour: "numeric", minute: "2-digit"}) + " PT";
+    const series = (id, m) => TH.filter(r => r.source === id && r.metric === m).sort((a, b) => a.date.localeCompare(b.date));
+    const delta = s => s.length > 1 ? s[s.length - 1].value - s[s.length - 2].value : null;
+    const dtxt = (v, s) => v == null ? "first reading" : `${v > 0 ? "▲ +" : v < 0 ? "▼ " : "± "}${v.toLocaleString()} vs ${shortDate(s[s.length - 2].date)}`;
+    const spark = s => {
+      if (s.length < 2) return "";
+      const w = 90, h = 24, vals = s.map(r => +r.value), lo = Math.min(...vals), hi = Math.max(...vals), span = hi - lo || 1;
+      const pts = vals.map((v, i) => `${(i / (vals.length - 1) * w).toFixed(1)},${(h - 2 - (v - lo) / span * (h - 4)).toFixed(1)}`).join(" ");
+      return `<svg class="spark" viewBox="0 0 ${w} ${h}" width="${w}" height="${h}" aria-hidden="true"><polyline points="${pts}" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+    };
+    let total = 0, totalPrev = 0, totalHasPrev = false, inc = 0;
+    const colors = ["k-teal", "k-mint", "k-yellow", "k-orange", "k-asphalt", "k-red"];
+    const tiles = TS.map((s, i) => {
+      const p = series(s.id, s.primary), q = s.secondary ? series(s.id, s.secondary) : [];
+      const head = `<div class="l">${esc(s.name)}</div>`;
+      if (!p.length) return `<div class="kpi ${colors[i % colors.length]} tr-off">${head}<div class="v tr-na">${esc(s.status === "relayed manually" ? "no data yet" : "not tracked yet")}</div><div class="s">${esc(s.account)}${s.status === "relayed manually" ? " · relayed manually" : ""}</div></div>`;
+      const last = p[p.length - 1], d = delta(p);
+      inc++; total += +last.value; if (d != null) { totalPrev += +p[p.length - 2].value; totalHasPrev = true; } else totalPrev += +last.value;
+      const sec = q.length ? `<div class="s">${(+q[q.length - 1].value).toLocaleString()} ${esc(s.secondary)}${delta(q) != null ? ` (${delta(q) >= 0 ? "+" : ""}${delta(q)})` : ""}</div>` : "";
+      return `<div class="kpi ${colors[i % colors.length]}">${head}<div class="v">${(+last.value).toLocaleString()} <small class="tr-m">${esc(s.primary)} · ${esc(last.window)}</small></div>
+        <div class="s">${dtxt(d, p)}</div>${sec}${spark(p)}<div class="s tr-asof">as of ${shortDate(last.date)}</div></div>`;
+    });
+    const tdelta = totalHasPrev ? total - totalPrev : null;
+    const totalTile = `<div class="kpi k-asphalt"><div class="l">🌐 Combined total</div><div class="v">${total.toLocaleString()}</div>
+      <div class="s">${tdelta == null ? "" : (tdelta > 0 ? "▲ +" : tdelta < 0 ? "▼ " : "± ") + tdelta.toLocaleString() + " vs previous"}</div>
+      <div class="s">Includes ${inc} of ${TS.length} sources (each source's main metric)</div></div>`;
+    $("traffic").innerHTML = totalTile + tiles.join("");
+    const miss = TS.filter(s => !series(s.id, s.primary).length);
+    $("trafficMissing").innerHTML = miss.length ? `<details class="more"><summary>Not tracked yet (${miss.length})</summary>${miss.map(s => `<div class="item"><div style="flex:1"><div class="x"><b>${esc(s.name)}</b> <span class="muted">· ${esc(s.account)}</span></div><div class="w">${esc(s.needs)}</div></div></div>`).join("")}</details>` : "";
+    $("trafficNote").textContent = "Rolling-window readings (e.g. Etsy views over the last 7 days), recorded only when actually read. Change compares each reading to the one before it.";
+  }
 });

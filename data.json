@@ -3,7 +3,7 @@
     "title": "Fresh $$ Control Center",
     "owner": "Joshua",
     "assistant": "Fresh $$",
-    "last_updated": "2026-10-03T14:07:27-07:00",
+    "last_updated": "2026-10-03T14:33:59-07:00",
     "status_note": "Morning Control Center refresh Oct 3, 2026 7:49 AM PT. PrintPlz Shop Manager: 48 active / 1 draft / 2 inactive; +26 overnight; 0 orders / $0 revenue; 28 views / 12 visits (7d). Printful card + samples confirmed; fulfillment green. HostFees: hostfees.com HTTP 200; Turno affiliate link live; pins 6/49; Hospitable bank + Turno password done. Amazon Associates still pending. Etsy Ads still planned Fri Oct 16 (~$3/day, $100/mo cap); $0 spend. Deal Scout research only; no overnight run. Actual revenue remains $0."
   },
   "budget": {
@@ -419,7 +419,7 @@
       "spend": 0,
       "attributed_revenue": 0,
       "orders": 0,
-      "plan": "hostfees.com claimed; 6 of 49 pins live; daily routine posts 3 each morning at 10:06 AM PT; $0 spent."
+      "plan": "hostfees.com claimed; 9 of 49 pins live (posted-pins log, Oct 3); daily routine posts 3 each morning at 10:06 AM PT; $0 spent."
     }
   ],
   "experiments": [
@@ -645,7 +645,7 @@
       "type": "Short-term-rental fee calculators, explainers, and gift guides",
       "status": "live",
       "url": "https://hostfees.com",
-      "status_note": "Renamed from HostSums. LIVE at hostfees.com (HTTP 200 confirmed morning of Oct 3, 2026). Latest live audit records 27 pages: 5 calculators, 3 gift guides and 10 fee explainers. hostfees.com is claimed on Pinterest (verified); 6 of 49 pins are live and a daily routine posts 3 each morning at 10:06 AM PT. Hospitable is live; Joshua added bank details in Hospitable Invoice Settings (confirmed Oct 2). Turno affiliate link LIVE on hostfees.com (https://share.turno.com/69pllwz); Turno temp password changed (confirmed Oct 2). Hostaway declined for now; revisit in 4–6 weeks with traffic numbers. OwnerRez, Lodgify, PriceLabs remain placeholders/pending. Amazon Associates application still not done. Personal PayPal is done (Business not required for now). W-9 only when a program asks. Revenue remains $0.",
+      "status_note": "Renamed from HostSums. LIVE at hostfees.com (HTTP 200 confirmed morning of Oct 3, 2026). Latest live audit records 27 pages: 5 calculators, 3 gift guides and 10 fee explainers. hostfees.com is claimed on Pinterest (verified); 9 of 49 pins are live (Oct 3) and a daily routine posts 3 each morning at 10:06 AM PT. Hospitable is live; Joshua added bank details in Hospitable Invoice Settings (confirmed Oct 2). Turno affiliate link LIVE on hostfees.com (https://share.turno.com/69pllwz); Turno temp password changed (confirmed Oct 2). Hostaway declined; reapply Nov 1–15 with real traffic numbers. OwnerRez, Lodgify, PriceLabs remain placeholders/pending. Amazon Associates application still not done. Personal PayPal is done (Business not required for now). W-9 only when a program asks. Revenue remains $0.",
       "pages": 27,
       "calculators": 5,
       "gift_guides": 3,
@@ -653,12 +653,12 @@
       "pins_ready": 49,
       "revenue": 0,
       "profit": 0,
-      "pins_published": 6,
+      "pins_published": 9,
       "pin_routine": "3 each morning at 10:06 AM PT",
       "pinterest_claimed": true,
       "turno_status": "live; affiliate link on hostfees.com (https://share.turno.com/69pllwz)",
       "hostaway_status": "declined for now; revisit in 4–6 weeks with traffic numbers",
-      "one_liner": "Live at hostfees.com · Turno link live · Amazon Associates pending · $0 revenue"
+      "one_liner": "Live at hostfees.com · 9 of 49 pins · Turno link live · Amazon Associates pending · $0 revenue"
     },
     {
       "id": "deal-scout",
@@ -1420,6 +1420,104 @@
       "item": "websiteplz.com domain",
       "amount": "unknown",
       "when": "Renewal date not recorded"
+    }
+  ],
+  "traffic_sources": [
+    {
+      "id": "printplz",
+      "name": "PrintPlzShop",
+      "venture": "Etsy shop",
+      "account": "This account",
+      "primary": "views",
+      "secondary": "visits",
+      "status": "tracked",
+      "needs": "Collected from the Etsy Shop Manager stats read during the morning refresh (box browser login)."
+    },
+    {
+      "id": "hostfees-site",
+      "name": "HostFees site",
+      "venture": "hostfees.com",
+      "account": "This account",
+      "primary": "visits",
+      "secondary": "views",
+      "status": "not tracked yet",
+      "cf_host": "hostfees.com",
+      "needs": "Cloudflare Web Analytics is on for hostfees.com, but the box's Cloudflare API token can't read analytics. Add the permission Account › Account Analytics › Read to that token."
+    },
+    {
+      "id": "hostfees-pinterest",
+      "name": "HostFees Pinterest",
+      "venture": "Pinterest",
+      "account": "This account",
+      "primary": "impressions",
+      "secondary": "outbound clicks",
+      "status": "not tracked yet",
+      "needs": "No Pinterest analytics numbers are saved on the box. Needs a read of Pinterest Analytics (analytics.pinterest.com, last 30 days) in the logged-in box browser during the morning pin routine."
+    },
+    {
+      "id": "websiteplz-site",
+      "name": "WebsitePlz site",
+      "venture": "websiteplz.com",
+      "account": "This account",
+      "primary": "visits",
+      "secondary": "views",
+      "status": "not tracked yet",
+      "cf_host": "websiteplz.com",
+      "needs": "No analytics on websiteplz.com yet. Turn on Cloudflare Web Analytics for websiteplz.com (Cloudflare › Analytics & Logs › Web Analytics › Add site, automatic setup), plus the same token permission as HostFees."
+    },
+    {
+      "id": "moonlettermira",
+      "name": "MoonletterMira",
+      "venture": "Etsy shop",
+      "account": "Other bots",
+      "primary": "views",
+      "secondary": "visits",
+      "status": "relayed manually",
+      "needs": "Other account; no traffic numbers relayed yet. Ask its bot for Etsy Shop Manager views/visits (7d) with the date read."
+    },
+    {
+      "id": "familygem",
+      "name": "The Family Gem Shop",
+      "venture": "Etsy shop",
+      "account": "Other bots",
+      "primary": "views",
+      "secondary": "visits",
+      "status": "relayed manually",
+      "needs": "Other account; vacation on, 0 listings; no traffic numbers relayed yet."
+    }
+  ],
+  "traffic_history": [
+    {
+      "date": "2026-10-02T07:52:16-07:00",
+      "source": "printplz",
+      "metric": "views",
+      "value": 11,
+      "window": "7d",
+      "method": "Etsy Shop Manager stats (snapshot data/printplz-live-listings.json, commit b444706)"
+    },
+    {
+      "date": "2026-10-03T07:49:10-07:00",
+      "source": "printplz",
+      "metric": "views",
+      "value": 28,
+      "window": "7d",
+      "method": "Etsy Shop Manager stats (snapshot data/printplz-live-listings.json)"
+    },
+    {
+      "date": "2026-10-02T07:52:16-07:00",
+      "source": "printplz",
+      "metric": "visits",
+      "value": 4,
+      "window": "7d",
+      "method": "Etsy Shop Manager stats (snapshot data/printplz-live-listings.json, commit b444706)"
+    },
+    {
+      "date": "2026-10-03T07:49:10-07:00",
+      "source": "printplz",
+      "metric": "visits",
+      "value": 12,
+      "window": "7d",
+      "method": "Etsy Shop Manager stats (snapshot data/printplz-live-listings.json)"
     }
   ]
 }
