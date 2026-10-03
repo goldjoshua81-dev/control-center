@@ -17,6 +17,7 @@ Usage:
 A reading is skipped if the same source+metric+date already exists, so collect is safe to run repeatedly.
 """
 import argparse, datetime, json, os, sys, urllib.request, urllib.error
+sys.dont_write_bytecode = True
 from pathlib import Path
 from zoneinfo import ZoneInfo
 sys.path.insert(0, str(Path(__file__).resolve().parent))
