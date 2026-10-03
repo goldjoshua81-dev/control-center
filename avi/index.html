@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="robots" content="noindex, nofollow">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Avi's Fun Page</title>
+<style>
+  :root {
+    --yellow: #ffe14a;
+    --ink: #1b1430;
+    --card: #fffdf6;
+    --blue: #3d6bff;
+    --pink: #ff5fa2;
+    --green: #1faf6a;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+    color: var(--ink);
+    background:
+      radial-gradient(circle at 10% 10%, #fff3a8 0, transparent 36%),
+      radial-gradient(circle at 90% 0%, #ffd0ea 0, transparent 32%),
+      radial-gradient(circle at 80% 90%, #c9d7ff 0, transparent 34%),
+      #f7f4ff;
+  }
+  button, input { font: inherit; }
+  .wrap { max-width: 980px; margin: 0 auto; padding: 28px 18px 64px; }
+  .hidden { display: none !important; }
+  .gate {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    padding: 24px;
+  }
+  .gate-card {
+    width: min(420px, 100%);
+    background: var(--card);
+    border: 3px solid var(--ink);
+    border-radius: 28px;
+    padding: 28px 24px 22px;
+    box-shadow: 8px 8px 0 var(--ink);
+    text-align: center;
+  }
+  .egg-mark {
+    display: inline-block;
+    background: var(--yellow);
+    color: var(--ink);
+    font-weight: 900;
+    font-size: 42px;
+    letter-spacing: -1px;
+    padding: 6px 16px 2px;
+    border-radius: 16px;
+    border: 3px solid var(--ink);
+    transform: rotate(-6deg);
+  }
+  h1 { font-size: 34px; margin: 14px 0 4px; letter-spacing: -0.5px; }
+  .sub { margin: 0 0 18px; color: #5c5470; }
+  label { display: block; text-align: left; font-weight: 700; margin: 10px 0 4px; }
+  input[type="text"], input[type="password"] {
+    width: 100%;
+    border: 2px solid var(--ink);
+    border-radius: 12px;
+    padding: 10px 12px;
+    background: #fff;
+  }
+  .go {
+    margin-top: 16px;
+    width: 100%;
+    background: var(--yellow);
+    border: 3px solid var(--ink);
+    border-radius: 14px;
+    padding: 12px;
+    font-weight: 800;
+    cursor: pointer;
+    box-shadow: 4px 4px 0 var(--ink);
+  }
+  .go:active { transform: translate(2px, 2px); box-shadow: 2px 2px 0 var(--ink); }
+  .nope { min-height: 1.2em; color: #c4235a; font-weight: 700; }
+  header.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 12px;
+    margin-bottom: 18px;
+  }
+  header.top h1 { margin: 0; font-size: 40px; }
+  .who { font-weight: 800; }
+  .out {
+    background: #fff;
+    border: 2px solid var(--ink);
+    border-radius: 999px;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-weight: 700;
+  }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+  .card {
+    background: var(--card);
+    border: 3px solid var(--ink);
+    border-radius: 22px;
+    padding: 16px;
+    box-shadow: 6px 6px 0 var(--ink);
+  }
+  .card h2 { margin: 0 0 8px; font-size: 22px; }
+  .math-row, .sport-row { display: flex; flex-wrap: wrap; gap: 8px; }
+  .chip, .check {
+    border: 2px solid var(--ink);
+    background: #fff;
+    border-radius: 999px;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-weight: 800;
+  }
+  .chip.on { background: var(--yellow); }
+  .problem { font-size: 32px; font-weight: 900; margin: 10px 0; }
+  .answer { width: 120px; border: 2px solid var(--ink); border-radius: 12px; padding: 8px; }
+  .ok { color: var(--green); font-weight: 800; }
+  .dog-stage { text-align: center; padding: 8px 0 4px; }
+  .dog {
+    width: 140px; height: 110px; margin: 0 auto; position: relative; cursor: pointer;
+  }
+  .body {
+    position: absolute; left: 28px; top: 36px; width: 84px; height: 52px;
+    background: #f4c07a; border: 3px solid var(--ink); border-radius: 40px 46px 30px 36px;
+  }
+  .head {
+    position: absolute; left: 78px; top: 18px; width: 52px; height: 48px;
+    background: #f4c07a; border: 3px solid var(--ink); border-radius: 46% 46% 42% 42%;
+  }
+  .ear {
+    position: absolute; width: 18px; height: 28px; background: #e09a55;
+    border: 3px solid var(--ink); border-radius: 12px 12px 6px 6px; top: -16px;
+  }
+  .ear.l { left: 4px; transform: rotate(-18deg); }
+  .ear.r { right: 4px; transform: rotate(18deg); }
+  .eye {
+    position: absolute; top: 16px; width: 7px; height: 7px; background: var(--ink); border-radius: 50%;
+  }
+  .eye.l { left: 12px; } .eye.r { right: 12px; }
+  .nose {
+    position: absolute; left: 20px; top: 28px; width: 12px; height: 8px;
+    background: #1b1430; border-radius: 6px;
+  }
+  .tail {
+    position: absolute; left: 8px; top: 28px; width: 28px; height: 10px;
+    background: #e09a55; border: 3px solid var(--ink); border-radius: 10px;
+    transform-origin: right center;
+  }
+  .dog.wag .tail { animation: wag 0.18s infinite alternate; }
+  @keyframes wag { from { transform: rotate(18deg); } to { transform: rotate(-28deg); } }
+  .scorebug {
+    display: flex; justify-content: space-between; align-items: center;
+    background: #1b1430; color: white; border-radius: 14px; padding: 10px 12px; margin-top: 10px;
+  }
+  .scorebug b { color: var(--yellow); font-size: 22px; }
+  .call { min-height: 3.2em; font-weight: 700; }
+  .bot {
+    background: linear-gradient(160deg, #fff7c2, #ffe14a);
+  }
+  .dad-note {
+    margin-top: 16px;
+    background: #fff;
+    border: 3px dashed var(--ink);
+    border-radius: 18px;
+    padding: 14px 16px;
+  }
+  .tiny { color: #5c5470; font-size: 14px; }
+</style>
+</head>
+<body>
+  <section id="gate" class="gate">
+    <form class="gate-card" id="login-form">
+      <div class="egg-mark">$$</div>
+      <h1>Avi's Fun Page</h1>
+      <p class="sub">Secret door. Who's coming in?</p>
+      <label for="user">Name</label>
+      <input id="user" name="user" type="text" autocomplete="username" required />
+      <label for="pass">Password</label>
+      <input id="pass" name="pass" type="password" autocomplete="current-password" required />
+      <button class="go" type="submit">Open the door</button>
+      <p class="nope" id="nope" role="status"></p>
+    </form>
+  </section>
+
+  <main id="app" class="wrap hidden">
+    <header class="top">
+      <div>
+        <div class="egg-mark">$$</div>
+        <h1>Avi's Fun Page</h1>
+        <p class="who" id="hello"></p>
+      </div>
+      <button class="out" id="out" type="button">Log out</button>
+    </header>
+
+    <div class="grid">
+      <section class="card">
+        <h2>Number lab</h2>
+        <p class="tiny">You pick the heat. I make the problem.</p>
+        <div class="math-row" id="levels">
+          <button class="chip on" type="button" data-level="warm">Warm</button>
+          <button class="chip" type="button" data-level="hot">Hot</button>
+          <button class="chip" type="button" data-level="silly">Silly big</button>
+        </div>
+        <p class="problem" id="problem">?</p>
+        <form id="math-form">
+          <input class="answer" id="answer" inputmode="numeric" autocomplete="off" />
+          <button class="check" type="submit">Check</button>
+        </form>
+        <p id="math-msg"></p>
+        <p class="tiny">Streak: <b id="streak">0</b></p>
+      </section>
+
+      <section class="card">
+        <h2>Dog pen</h2>
+        <div class="dog-stage">
+          <div class="dog" id="dog" title="Pet the dog">
+            <div class="tail"></div>
+            <div class="body"></div>
+            <div class="head">
+              <div class="ear l"></div>
+              <div class="ear r"></div>
+              <div class="eye l"></div>
+              <div class="eye r"></div>
+              <div class="nose"></div>
+            </div>
+          </div>
+        </div>
+        <p id="pets" class="tiny">Pets today: 0. Click the dog.</p>
+        <label for="dog-name">What do you call your dog?</label>
+        <input id="dog-name" type="text" maxlength="24" placeholder="Type a name" />
+      </section>
+
+      <section class="card">
+        <h2>Sports booth</h2>
+        <p class="tiny">Toy game. Not a real score.</p>
+        <div class="sport-row" id="sports">
+          <button class="chip" type="button" data-sport="baseball">Baseball</button>
+          <button class="chip" type="button" data-sport="basketball">Basketball</button>
+          <button class="chip" type="button" data-sport="soccer">Soccer</button>
+          <button class="chip" type="button" data-sport="football">Football</button>
+          <button class="chip" type="button" data-sport="hockey">Hockey</button>
+        </div>
+        <div class="scorebug">
+          <span>Avi's Squad</span>
+          <b id="score">0–0</b>
+          <span>The Giggles</span>
+        </div>
+        <p class="call" id="call">Pick a sport. The announcer is extremely unserious.</p>
+      </section>
+
+      <section class="card bot">
+        <h2>Your bot</h2>
+        <p>This spot is yours. A separate helper, just for Avi, that you can point at whatever you dream up: math, the dog, sports, or something silly nobody has named yet.</p>
+        <p class="tiny">It is not switched on yet. Dad turns the room on when you say go.</p>
+      </section>
+    </div>
+
+    <section class="dad-note hidden" id="dad-note">
+      <h2>Dad desk</h2>
+      <p>Avi's own agent is not created yet. This page is only the fun display. Say the word and the separate bot gets made.</p>
+      <p class="tiny">The yellow $$ on Fresh $$ still has to be linked by Scott. This file is the page it should open.</p>
+    </section>
+  </main>
+
+<script>
+const USERS = {
+  avi: "bbad8acbd88fbf45e729f18d007f5f16630a3dba6425dbb7a352989752b4cfa9",
+  dad: "ab93b284d7d71db5f78f6d0e2ac29d49d326e6377ffda8e14a9309cc25140747"
+};
+
+async function digest(text) {
+  const bytes = new TextEncoder().encode(text);
+  const buf = await crypto.subtle.digest("SHA-256", bytes);
+  return [...new Uint8Array(buf)].map(b => b.toString(16).padStart(2, "0")).join("");
+}
+
+const gate = document.getElementById("gate");
+const app = document.getElementById("app");
+const nope = document.getElementById("nope");
+
+function showApp(role) {
+  gate.classList.add("hidden");
+  app.classList.remove("hidden");
+  document.getElementById("hello").textContent = role === "dad"
+    ? "Hi Dad. Avi's side is the same. Your note is at the bottom."
+    : "Hi Avi. Math, your dog, every sport, and one very silly booth.";
+  document.getElementById("dad-note").classList.toggle("hidden", role !== "dad");
+  sessionStorage.setItem("avi-fun-role", role);
+  nextProblem();
+  loadDog();
+}
+
+document.getElementById("login-form").addEventListener("submit", async (e) => {
+  e.preventDefault();
+  const name = document.getElementById("user").value.trim().toLowerCase();
+  const pass = document.getElementById("pass").value;
+  const hash = await digest(pass);
+  if (USERS[name] && USERS[name] === hash) {
+    nope.textContent = "";
+    showApp(name);
+  } else {
+    nope.textContent = "Nope. That door stayed shut.";
+  }
+});
+
+document.getElementById("out").addEventListener("click", () => {
+  sessionStorage.removeItem("avi-fun-role");
+  app.classList.add("hidden");
+  gate.classList.remove("hidden");
+  document.getElementById("pass").value = "";
+});
+
+let level = "warm";
+let answer = 0;
+let streak = Number(localStorage.getItem("avi-streak") || 0);
+document.getElementById("streak").textContent = streak;
+
+document.getElementById("levels").addEventListener("click", (e) => {
+  const btn = e.target.closest("button");
+  if (!btn) return;
+  level = btn.dataset.level;
+  document.querySelectorAll("#levels .chip").forEach(b => b.classList.toggle("on", b === btn));
+  nextProblem();
+});
+
+function rand(n) { return Math.floor(Math.random() * n); }
+
+function nextProblem() {
+  let text = "?";
+  if (level === "warm") {
+    const a = rand(12) + 1, b = rand(12) + 1;
+    answer = a * b;
+    text = a + " × " + b;
+  } else if (level === "hot") {
+    const a = rand(40) + 10, b = rand(40) + 10;
+    answer = a + b;
+    text = a + " + " + b;
+  } else {
+    const a = rand(20) + 2, b = rand(9) + 2, c = rand(9) + 1;
+    answer = a * b + c;
+    text = a + " × " + b + " + " + c;
+  }
+  document.getElementById("problem").textContent = text;
+  document.getElementById("answer").value = "";
+  document.getElementById("math-msg").textContent = "";
+}
+
+document.getElementById("math-form").addEventListener("submit", (e) => {
+  e.preventDefault();
+  const got = Number(document.getElementById("answer").value);
+  const msg = document.getElementById("math-msg");
+  if (got === answer) {
+    streak += 1;
+    msg.textContent = "Yes. That's the one.";
+    msg.className = "ok";
+    nextProblem();
+  } else {
+    streak = 0;
+    msg.textContent = "Not yet. The number is still hiding.";
+    msg.className = "";
+  }
+  localStorage.setItem("avi-streak", String(streak));
+  document.getElementById("streak").textContent = streak;
+});
+
+const dog = document.getElementById("dog");
+let pets = Number(localStorage.getItem("avi-pets") || 0);
+function paintPets() {
+  const name = (localStorage.getItem("avi-dog-name") || "").trim();
+  const who = name ? name : "the dog";
+  document.getElementById("pets").textContent = "Pets today: " + pets + ". " + who + " is into it.";
+}
+function loadDog() {
+  document.getElementById("dog-name").value = localStorage.getItem("avi-dog-name") || "";
+  paintPets();
+}
+dog.addEventListener("click", () => {
+  pets += 1;
+  localStorage.setItem("avi-pets", String(pets));
+  dog.classList.add("wag");
+  setTimeout(() => dog.classList.remove("wag"), 700);
+  paintPets();
+});
+document.getElementById("dog-name").addEventListener("input", (e) => {
+  localStorage.setItem("avi-dog-name", e.target.value);
+  paintPets();
+});
+
+const calls = {
+  baseball: ["It's a moon shot into the giggle zone.", "The pitcher just threw a meatball. Avi's Squad ate it.", "Strike three, and the Giggles argue with the umpire's hat."],
+  basketball: ["From the logo. Nothing but yes.", "The Giggles traveled, then traveled again, then sat down.", "And-one, and the bench is doing a very serious dance."],
+  soccer: ["Top corner. The keeper was tying a shoe.", "Avi's Squad strings six passes and the crowd does math.", "Goal. The Giggles blame the grass."],
+  football: ["Touchdown. The dog would have caught that.", "Fourth and silly. They go for it. Of course they do.", "The kick is up, the kick is good, the announcer is not calm."],
+  hockey: ["He roofs it. The lamp is on.", "The Giggles take a penalty for excessive giggling.", "Wraparound goal. The net is embarrassed."]
+};
+document.getElementById("sports").addEventListener("click", (e) => {
+  const btn = e.target.closest("button");
+  if (!btn) return;
+  const lines = calls[btn.dataset.sport];
+  const a = rand(9) + 1, b = rand(7);
+  document.getElementById("score").textContent = a + "–" + b;
+  document.getElementById("call").textContent = lines[rand(lines.length)];
+});
+
+const saved = sessionStorage.getItem("avi-fun-role");
+if (saved === "avi" || saved === "dad") showApp(saved);
+</script>
+</body>
+</html>
