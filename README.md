@@ -11,6 +11,9 @@ A static, free-to-host dashboard for Joshua's money-making projects: POD shops, 
 |---|---|
 | `index.html`, `flowchart.html`, `improvements.html`, `style.css`, `pages.css`, `app.js` | Dashboard and focused operating pages (no build step) |
 | `data.json` | **The only file to edit** |
+| `other-bots.html`, `other.js` | "Other bots" page: Joshua's second Grok Bot account, from `data.json → other_account` (relayed manually; keep `as_of` current) |
+| `combined.html`, `combined.js` | Phone-friendly combined view across both accounts (money, next 14 days, to-dos, shop one-liners, recurring bills) |
+| `cc-common.js` | Shared helpers for the two pages above (index.html still uses app.js only) |
 | `update.py` | CLI to edit `data.json` safely (bumps `last_updated` to now in PT, validates) and publish |
 | `screenshot.py` | Headless Chromium render to `screenshots/*.png` |
 | `shots/` | Release screenshots for the flowchart and improvements pages |

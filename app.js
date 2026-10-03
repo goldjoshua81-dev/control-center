@@ -86,22 +86,6 @@ function render(D) {
 
   const needs = D.needs_joshua.slice().sort((a, b) => a.done - b.done);
   $("needs").innerHTML = needs.length ? needs.map(n => `<div class="item ${n.done ? "done" : ""}"><div>${n.done ? "✅" : "⬜"}</div><div style="flex:1"><div class="x"><b>${esc(n.task)}</b></div><div class="w">${esc(n.why)}</div></div><div>${pill(n.done ? "done" : n.priority)}</div></div>`).join("") : `<p class="empty">Nothing needed right now 🎉</p>`;
-  const O = D.other_account;
-  if (O) {
-    $("otherAccount").hidden = false;
-    $("oaTitle").textContent = O.label;
-    $("oaAsOf").textContent = "⚠️ Data as of " + O.as_of + ". Not live-synced.";
-    $("oaNote").textContent = O.source_note || "";
-    $("oaShops").innerHTML = O.shops.map(s => `<div class="card shop"><div class="row between"><h3>${esc(s.name)}</h3>${pill(s.status)}</div>
-      <div class="t">${esc(s.type)}${s.url ? ` · <a href="${esc(s.url)}" target="_blank" rel="noopener">open</a>` : ""}</div>
-      <div class="muted">${esc(s.note)}</div>${s.listings.length ? "<ol>" + s.listings.map(l => `<li>${esc(l)}</li>`).join("") + "</ol>" : `<p class="empty">No live listings</p>`}</div>`).join("");
-    $("oaNeeds").innerHTML = O.needs_joshua.map(n => `<div class="item"><div>⬜</div><div style="flex:1"><div class="x"><b>${esc(n.task)}</b></div><div class="w">${esc(n.why)}</div></div><div>${pill(n.optional ? "low" : "medium")}</div></div>`).join("");
-    $("oaLanesNote").textContent = O.paper_lanes_note || "";
-    table("oaLanes", [["Lane", r => `<b>${esc(r.lane)}</b>`], ["Bankroll", r => esc(r.bankroll)], ["Equity", r => esc(r.equity)], ["Note", r => esc(r.note)]], O.paper_lanes, "No lanes reported");
-    table("oaDeadlines", [["Date", r => `<b>${esc(r.date)}</b>`], ["Milestone", r => esc(r.event)], ["Details", r => esc(r.details)]], O.deadlines, "No deadlines reported");
-    table("oaBills", [["Item", r => esc(r.item)], ["Amount", r => esc(r.amount)], ["When", r => esc(r.when)]], O.bills, "No bills reported");
-    $("oaAds").textContent = O.combined_ads_note || "";
-  }
 }
 fetch("data.json?t=" + Date.now()).then(r => r.json()).then(render).catch(e => {
   $("updated").textContent = "Could not load data.json. Open via a web server (python3 -m http.server), not file://";

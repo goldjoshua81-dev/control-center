@@ -3,7 +3,7 @@
     "title": "Fresh $$ Control Center",
     "owner": "Joshua",
     "assistant": "Fresh $$",
-    "last_updated": "2026-10-03T13:11:23-07:00",
+    "last_updated": "2026-10-03T14:07:27-07:00",
     "status_note": "Morning Control Center refresh Oct 3, 2026 7:49 AM PT. PrintPlz Shop Manager: 48 active / 1 draft / 2 inactive; +26 overnight; 0 orders / $0 revenue; 28 views / 12 visits (7d). Printful card + samples confirmed; fulfillment green. HostFees: hostfees.com HTTP 200; Turno affiliate link live; pins 6/49; Hospitable bank + Turno password done. Amazon Associates still pending. Etsy Ads still planned Fri Oct 16 (~$3/day, $100/mo cap); $0 spend. Deal Scout research only; no overnight run. Actual revenue remains $0."
   },
   "budget": {
@@ -58,14 +58,14 @@
       "type": "For-moms print-on-demand gifts: mom shirts, teacher shirts, kids stickers, holiday party items, ornaments",
       "platform": "Etsy + Printful",
       "status": "live",
-      "status_note": "OPEN as PrintPlzShop. Live count from Etsy Shop Manager (morning refresh Oct 3): 48 active, 1 draft, 0 expired, 2 inactive, 0 sold out. +26 newly active overnight vs prior dashboard (22 active @ Oct 2 7:52 AM PT); prior 22 all still present. Last 7 days: 28 views, 12 visits, 0 orders, $0 revenue. Joshua confirmed Printful billing card added and PrintPlz samples ordered (Oct 2); fulfillment path green. Order-readiness 48/48 PASS; remaining blocked Printful variants are bot sync work, not Joshua approval. Margin table still covers the prior 22 with estimates; newer listings use Shop Manager titles without invented prices.",
+      "status_note": "Update Oct 3, 2026 ~2pm PT (Scott Bot): PrintPlzShop at 66 live listings, 0 orders. OPEN as PrintPlzShop. Live count from Etsy Shop Manager (morning refresh Oct 3): 48 active, 1 draft, 0 expired, 2 inactive, 0 sold out. +26 newly active overnight vs prior dashboard (22 active @ Oct 2 7:52 AM PT); prior 22 all still present. Last 7 days: 28 views, 12 visits, 0 orders, $0 revenue. Joshua confirmed Printful billing card added and PrintPlz samples ordered (Oct 2); fulfillment path green. Order-readiness 48/48 PASS; remaining blocked Printful variants are bot sync work, not Joshua approval. Margin table still covers the prior 22 with estimates; newer listings use Shop Manager titles without invented prices.",
       "url": "https://www.etsy.com/shop/PrintPlzShop",
       "orders": 0,
       "revenue": 0,
       "profit": 0,
       "views": 28,
       "visits": 12,
-      "listings_live": 48,
+      "listings_live": 66,
       "listings_drafted": 1,
       "top_products": [
         {
@@ -356,7 +356,8 @@
           "url": "https://www.etsy.com/listing/4586652265",
           "price": "$14.99 free shipping"
         }
-      ]
+      ],
+      "one_liner": "Live on Etsy · 66 listings · 0 orders · Halloween order-by Oct 16"
     },
     {
       "id": "shop-2",
@@ -373,7 +374,8 @@
       "visits": 0,
       "listings_live": 0,
       "listings_drafted": 0,
-      "top_products": []
+      "top_products": [],
+      "one_liner": "Planned · Car & Bike store, not started"
     },
     {
       "id": "digital",
@@ -390,7 +392,8 @@
       "visits": 0,
       "listings_live": 0,
       "listings_drafted": 0,
-      "top_products": []
+      "top_products": [],
+      "one_liner": "Planned · not started"
     }
   ],
   "ads": [
@@ -538,8 +541,8 @@
       },
       {
         "name": "Mixup Recipes",
-        "price": "Reserve $2,500",
-        "status": "watching",
+        "price": "Sold $1,300 (no longer watching)",
+        "status": "sold",
         "fits_budget": true
       },
       {
@@ -573,7 +576,8 @@
       "task": "Sync remaining blocked Printful variants / catalog polish (bot work)",
       "why": "Overnight publishes brought Shop Manager to 48 active (+26). Order-readiness 48/48 PASS. Remaining blocked variants are bot sync/catalog polish, not Joshua publish approval.",
       "priority": "low",
-      "done": false
+      "done": false,
+      "bot_work": true
     },
     {
       "task": "Use Etsy Shop Manager for future live-listing counts",
@@ -585,13 +589,15 @@
       "task": "Create a free beehiiv account for HostFees email alerts",
       "why": "Enables email alerts for the live HostFees operating loop.",
       "priority": "medium",
-      "done": false
+      "done": false,
+      "optional": true
     },
     {
       "task": "Get a P.O. Box for HostFees",
       "why": "Provides a separate mailing address for site and affiliate operations.",
       "priority": "medium",
-      "done": false
+      "done": false,
+      "optional": true
     },
     {
       "task": "Change the Turno temporary password",
@@ -609,13 +615,27 @@
       "task": "Optionally rename the Pinterest username to hostfees",
       "why": "The hostfees.com claim is verified; username cleanup is optional, not a blocker.",
       "priority": "low",
-      "done": false
+      "done": false,
+      "optional": true
     },
     {
       "task": "Complete the Amazon Associates application",
       "why": "Still not done as of Oct 2 confirmation; needed for HostFees gift-guide affiliate links.",
       "priority": "high",
       "done": false
+    },
+    {
+      "task": "Create Fiverr and Contra seller accounts for WebsitePlz",
+      "why": "Send the profile links to WebsitePlz; the site's Fiverr/Contra buttons stay hidden until then. Gig descriptions are already written.",
+      "priority": "high",
+      "done": false
+    },
+    {
+      "task": "Optional: apply to Lodgify and OwnerRez affiliate programs",
+      "why": "HostFees placeholders; after Amazon Associates.",
+      "priority": "low",
+      "done": false,
+      "optional": true
     }
   ],
   "projects": [
@@ -637,7 +657,8 @@
       "pin_routine": "3 each morning at 10:06 AM PT",
       "pinterest_claimed": true,
       "turno_status": "live; affiliate link on hostfees.com (https://share.turno.com/69pllwz)",
-      "hostaway_status": "declined for now; revisit in 4–6 weeks with traffic numbers"
+      "hostaway_status": "declined for now; revisit in 4–6 weeks with traffic numbers",
+      "one_liner": "Live at hostfees.com · Turno link live · Amazon Associates pending · $0 revenue"
     },
     {
       "id": "deal-scout",
@@ -648,7 +669,17 @@
       "status_note": "Research only. The Oct 1 run refreshed 305 Flippa cards and ranked 17 candidates; current top slate remains bottes-presso, Mixup Recipes, Rewired (stretch), Marble Tracks and Letras Bonitas Hub. No overnight Deal Scout run recorded for Oct 2–3. No accounts, buying, bids, offers, seller contact or acquisition.",
       "budget_limit": "$5,000",
       "revenue": 0,
-      "profit": 0
+      "profit": 0,
+      "one_liner": "Research only · watching Objectif Évasion + Crypto Dist (end ~Oct 9)"
+    },
+    {
+      "id": "websiteplz",
+      "name": "WebsitePlz",
+      "type": "One-page websites for local businesses",
+      "status": "live",
+      "url": "https://websiteplz.com",
+      "status_note": "websiteplz.com is live (confirmed Oct 3, 2026). Fiverr and Contra seller accounts still needed from Joshua; gig descriptions are written and the site's Fiverr/Contra buttons stay hidden until the profile links exist.",
+      "one_liner": "Live at websiteplz.com · waiting on Fiverr + Contra seller accounts"
     }
   ],
   "printplz_margins": [
@@ -1152,6 +1183,27 @@
       "event": "Christmas order-by",
       "details": "Last recommended order-by date for Christmas delivery.",
       "source": "/workspace/pod-shops/printplz/README.md · Key dates and ads plan"
+    },
+    {
+      "date": "2026-10-08",
+      "date_display": "Thu Oct 8, 2026",
+      "event": "Grok usage resets",
+      "details": "Usage limit resets.",
+      "source": "Scott Bot (Oct 3)"
+    },
+    {
+      "date": "2026-10-09",
+      "date_display": "~Fri Oct 9, 2026",
+      "event": "Objectif Évasion + Crypto Dist auctions end",
+      "details": "Deal Scout watching; research only, nothing to buy yet.",
+      "source": "Deal Scout (Flippa)"
+    },
+    {
+      "date": "2026-11-01",
+      "date_display": "Nov 1–15, 2026",
+      "event": "Hostaway affiliate reapply window",
+      "details": "Reapply or reply with real HostFees traffic metrics only.",
+      "source": "/workspace/affiliate/commission-tracker.md"
     }
   ],
   "other_account": {
@@ -1171,7 +1223,8 @@
           "ML-03: $24",
           "ML-04: $11",
           "ML-05 Mini Love Spark: $1"
-        ]
+        ],
+        "one_liner": "Live · 5 listings · 1 friend/demo sale (not revenue)"
       },
       {
         "name": "The Family Gem Shop",
@@ -1179,7 +1232,8 @@
         "type": "Loose gemstones on Etsy",
         "url": "https://www.etsy.com/shop/TheFamilyGemShop",
         "note": "Slug TheFamilyGemShop (renamed from GemPathway Oct 2). Vacation mode ON. 0 live listings. SF-001 (1.19 ct heart tsavorite, Kenya, $425) copy and 4 photos approved, not posted. Planned domain thefamilygems.com not purchased.",
-        "listings": []
+        "listings": [],
+        "one_liner": "Vacation on · 0 listings · SF-001 ready to post"
       },
       {
         "name": "Help4U",
@@ -1187,7 +1241,8 @@
         "type": "Planned Etsy shop: digital listing-help files (Etsy-only, so it doesn't compete with WebsitePlz)",
         "url": "",
         "note": "Designed, not opened. No spend. Name (older label For You) not confirmed free. Stays closed until Joshua says publish.",
-        "listings": []
+        "listings": [],
+        "one_liner": "Not open · waiting on your review"
       }
     ],
     "paper_lanes_note": "Paper trading only, research bankroll, not live money. Weekly summary per lane, not every trade. No live orders on any lane.",
@@ -1233,22 +1288,26 @@
       {
         "date": "Sat Oct 3 ~4:13pm PT",
         "event": "Politics Edge paper week wrap",
-        "details": "Paper only."
+        "details": "Paper only.",
+        "date_iso": "2026-10-03"
       },
       {
         "date": "Mon Oct 5",
         "event": "Markets reopen",
-        "details": "Stocks hunts resume; Polymarket hunt ~8:13am PT; rogue-agent scan 8:19am PT."
+        "details": "Stocks hunts resume; Polymarket hunt ~8:13am PT; rogue-agent scan 8:19am PT.",
+        "date_iso": "2026-10-05"
       },
       {
         "date": "~Oct 11, 2026",
         "event": "Optional Etsy Ads on ML-01 only (~$5/day)",
-        "details": "Not enabled. Do not start early."
+        "details": "Not enabled. Do not start early.",
+        "date_iso": "2026-10-11"
       },
       {
         "date": "No date",
         "event": "Help4U stays closed",
-        "details": "Opens only when Joshua says publish."
+        "details": "Opens only when Joshua says publish.",
+        "date_iso": ""
       }
     ],
     "bills": [
@@ -1282,49 +1341,85 @@
       {
         "task": "Claim Instagram @moonlettermira and post day one",
         "why": "feed-01, feed-03 and story-01 are ready.",
-        "optional": false
+        "optional": false,
+        "done": false
       },
       {
         "task": "Family Gem: send shop icon and banner, and say when to post SF-001",
         "why": "Then vacation goes off and a USPS tracked/insured shipping note is added.",
-        "optional": false
+        "optional": false,
+        "done": false
       },
       {
         "task": "Help4U: confirm the name is free and review the catalog",
         "why": "Don't publish until you say so.",
-        "optional": false
+        "optional": false,
+        "done": false
       },
       {
         "task": "Delete the empty 'New Bot' from the sidebar",
         "why": "Only you can delete it.",
-        "optional": false
+        "optional": false,
+        "done": false
       },
       {
-        "task": "Check the Etsy login for MoonletterMira and TheFamilyGemShop",
-        "why": "In each shop's Etsy account settings. Tells you whether all four Etsy shops (incl. PrintPlzShop) share one Etsy identity, so a problem with one could hit all.",
-        "optional": false
+        "task": "Check the Etsy logins for MoonletterMira and TheFamilyGemShop",
+        "why": "Done Oct 3: MoonletterMira, TheFamilyGemShop and PrintPlzShop are on three separate Etsy logins, so the shops don't share one Etsy identity.",
+        "optional": false,
+        "done": true
       },
       {
         "task": "Optional: confirm a public host for Doom Index",
         "why": "Local board, parked.",
-        "optional": true
+        "optional": true,
+        "done": false
       },
       {
         "task": "Optional: deploy Edge Desk Fly",
         "why": "Phone package, not deployed.",
-        "optional": true
+        "optional": true,
+        "done": false
       },
       {
         "task": "Optional: buy thefamilygems.com",
         "why": "Planned domain, not purchased.",
-        "optional": true
+        "optional": true,
+        "done": false
       },
       {
         "task": "Optional: Mira coupon",
         "why": "Not set up.",
-        "optional": true
+        "optional": true,
+        "done": false
       }
     ],
-    "combined_ads_note": "Combined Etsy Ads (both accounts): PrintPlz ~$3/day from Fri Oct 16, capped at $100/month, plus ML-01 ~$5/day from ~Oct 11 if enabled (currently off). Together roughly $240/month if both run all month."
-  }
+    "combined_ads_note": "Combined Etsy Ads (both accounts): PrintPlz ~$3/day from Fri Oct 16, capped at $100/month, plus ML-01 ~$5/day from ~Oct 11 if enabled (currently off). Together roughly $240/month if both run all month.",
+    "as_of_date": "2026-10-03",
+    "revenue": 0,
+    "spend_total": 29,
+    "paper_pnl": -87,
+    "paper_pnl_note": "~-$87 combined paper week on ~$4,913 of $5,000 (as of Oct 2 evening)"
+  },
+  "recurring_bills": [
+    {
+      "item": "Etsy monthly bill (PrintPlzShop)",
+      "amount": "varies (listing/transaction fees)",
+      "when": "1st of each month · next Nov 1"
+    },
+    {
+      "item": "Etsy Ads (PrintPlz, planned)",
+      "amount": "~$3/day, cap $100/mo",
+      "when": "Starts Fri Oct 16"
+    },
+    {
+      "item": "hostfees.com domain",
+      "amount": "$10.46/yr",
+      "when": "Bought Oct 1, 2026 · renews ~Oct 2027"
+    },
+    {
+      "item": "websiteplz.com domain",
+      "amount": "unknown",
+      "when": "Renewal date not recorded"
+    }
+  ]
 }
