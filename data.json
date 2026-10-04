@@ -3,8 +3,8 @@
     "title": "Fresh $$ Control Center",
     "owner": "Joshua",
     "assistant": "Fresh $$",
-    "last_updated": "2026-10-03T21:13:45-07:00",
-    "status_note": "Wrap-up Oct 3, 2026 evening PT. PrintPlzShop: 76 live, 0 orders; Halloween price raises 23/24 (TB1 pending); M12 + X27 ready, X28 in progress. websiteplz.com live. HostFees live, 9 of 49 pins. Mixup Recipes sold ($1,300). Other account: thefamilygems.com bought; Stocks Edge continues week 2; Sports Edge removed. Etsy Ads planned Fri Oct 16 (~$3/day, $100/mo cap); $0 ad spend. Actual revenue remains $0. Joshua's Oct 4 order: 1) Fiverr + Contra for WebsitePlz, 2) Amazon Associates, 3) unlock traffic tiles."
+    "last_updated": "2026-10-04T08:13:32-07:00",
+    "status_note": "Morning refresh Oct 4, 2026 ~8:02 AM PT. PrintPlzShop: 79 live (Shop Manager; +3 overnight vs Oct 3 evening 76; +31 vs Oct 3 morning 48), 1 draft, 3 inactive, 0 orders / $0 revenue; last 7d 38 views / 16 visits. Local Progress note (not live count): P9/X25/X26/P10/M12/X27/X28 published; X29 inactive; K6/K7 HOLD; Halloween price raises 23/24 (TB1 pending); Etsy Ads planned Oct 16. hostfees.com HTTP 200; websiteplz.com HTTP 200; HostFees pins still 9 of 49 (morning drip ~10:06 AM not yet). Deal Scout: no Oct 4 run; research only. Actual revenue remains $0. Joshua's priority order unchanged: 1) Fiverr + Contra for WebsitePlz, 2) Amazon Associates, 3) unlock traffic tiles."
   },
   "budget": {
     "starting_capital": 1000,
@@ -48,6 +48,12 @@
         "what": "Etsy listing fees (estimate for +26 newly active PrintPlz listings overnight; 26×$0.20=$5.20; total 48×$0.20=$9.60 estimate)",
         "lane": "Print-on-demand shops",
         "amount": 5.2
+      },
+      {
+        "date": "2026-10-04",
+        "what": "Etsy listing fees (estimate for +3 newly active PrintPlz listings overnight; 3×$0.20=$0.60; Shop Manager 79 active vs Oct 3 evening 76)",
+        "lane": "Print-on-demand shops",
+        "amount": 0.6
       }
     ]
   },
@@ -58,16 +64,202 @@
       "type": "For-moms print-on-demand gifts: mom shirts, teacher shirts, kids stickers, holiday party items, ornaments",
       "platform": "Etsy + Printful",
       "status": "live",
-      "status_note": "Wrap-up Oct 3, 2026 evening PT: PrintPlzShop at 76 live listings, 0 orders. Halloween price raises 23 of 24 done (TB1 pending). M12 and X27 ready; X28 in progress. Earlier: OPEN as PrintPlzShop. Live count from Etsy Shop Manager (morning refresh Oct 3): 48 active, 1 draft, 0 expired, 2 inactive, 0 sold out. +26 newly active overnight vs prior dashboard (22 active @ Oct 2 7:52 AM PT); prior 22 all still present. Last 7 days: 28 views, 12 visits, 0 orders, $0 revenue. Joshua confirmed Printful billing card added and PrintPlz samples ordered (Oct 2); fulfillment path green. Order-readiness 48/48 PASS; remaining blocked Printful variants are bot sync work, not Joshua approval. Margin table still covers the prior 22 with estimates; newer listings use Shop Manager titles without invented prices.",
+      "status_note": "Morning Oct 4, 2026 ~8:02 AM PT: PrintPlzShop Shop Manager 79 active / 1 draft / 0 expired / 3 inactive / 0 sold out; 0 orders / $0. Last 7d dashboard: 38 views / 16 visits. +3 overnight vs Oct 3 evening wrap-up (76); +31 vs Oct 3 morning (48). Local note: P9/X25/X26/P10/M12/X27/X28 published; X29 inactive; K6/K7 HOLD; Halloween price raises 23/24 (TB1 pending); Etsy Ads planned Oct 16. Offsite Ads off.",
       "url": "https://www.etsy.com/shop/PrintPlzShop",
       "orders": 0,
       "revenue": 0,
       "profit": 0,
-      "views": 28,
-      "visits": 12,
-      "listings_live": 76,
+      "views": 38,
+      "visits": 16,
+      "listings_live": 79,
       "listings_drafted": 1,
       "top_products": [
+        {
+          "name": "Ultrasound Ornament Pregnancy Announcement, Personalized Acrylic Baby Arriving Keepsake",
+          "section": "Family",
+          "url": "https://www.etsy.com/listing/4588143178",
+          "price": "see listing"
+        },
+        {
+          "name": "Grandma Christmas Ornament with Grandkids Names, Personalized Glass Keepsake Gift 2026",
+          "section": "Family",
+          "url": "https://www.etsy.com/listing/4588142244",
+          "price": "see listing"
+        },
+        {
+          "name": "Personalized Golf Towel for Grandpa, Custom Grandkids Names Caddies Gift, Dad Est Year",
+          "section": "Family",
+          "url": "https://www.etsy.com/listing/4588140048",
+          "price": "see listing"
+        },
+        {
+          "name": "Personalized Pet Christmas Stocking, Custom Dog Photo and Name, Cat Lover Mantel Decor Gift",
+          "section": "Pets",
+          "url": "https://www.etsy.com/listing/4588123752",
+          "price": "see listing"
+        },
+        {
+          "name": "Pickleball Ornament 2026, Personalized Christmas Gift for Player, Coach or Couple with Name",
+          "section": "Holidays",
+          "url": "https://www.etsy.com/listing/4588118266",
+          "price": "see listing"
+        },
+        {
+          "name": "Memorial Photo Ornament, Personalized Glass Christmas Keepsake with Name and Years, Sympathy Gift",
+          "section": "Holidays",
+          "url": "https://www.etsy.com/listing/4588113199",
+          "price": "see listing"
+        },
+        {
+          "name": "Custom Pet Face Socks, Personalized Dog Photo Christmas Stocking Stuffer with Name",
+          "section": "Pets",
+          "url": "https://www.etsy.com/listing/4588112663",
+          "price": "see listing"
+        },
+        {
+          "name": "Grandma's Story Memory Book, Personalized Hardcover Journal with Prompts, Christmas Gift from Grandkids",
+          "section": "Family",
+          "url": "https://www.etsy.com/listing/4587965861",
+          "price": "see listing"
+        },
+        {
+          "name": "Personalized Family Recipe Book, Custom Hardcover Cookbook to Fill In, Grandma Christmas Gift Keepsake",
+          "section": "Family",
+          "url": "https://www.etsy.com/listing/4587961897",
+          "price": "see listing"
+        },
+        {
+          "name": "Personalized 2027 Family Birthday Calendar with Photos and Names, Grandma Christmas Gift, Wall Decor",
+          "section": "Family",
+          "url": "https://www.etsy.com/listing/4587956335",
+          "price": "see listing"
+        },
+        {
+          "name": "Custom Photo Puzzle with Name, Personalized Family Christmas Gift, 500 1000 Piece Jigsaw Tin",
+          "section": "Family",
+          "url": "https://www.etsy.com/listing/4587953633",
+          "price": "see listing"
+        },
+        {
+          "name": "Personalized Christmas Tree Skirt with Family Name, Custom Fleece Holiday Decor, Heirloom 44 Inch",
+          "section": "Family",
+          "url": "https://www.etsy.com/listing/4587954204",
+          "price": "see listing"
+        },
+        {
+          "name": "Custom Pet Pillow Shaped Like Your Dog or Cat, Photo Name Keepsake, Christmas Gift",
+          "section": "Family",
+          "url": "https://www.etsy.com/listing/4587953034",
+          "price": "see listing"
+        },
+        {
+          "name": "Family Photo Christmas Ornament 2026, Personalized Last Name Wood Keepsake, Custom Picture Gift",
+          "section": "Family",
+          "url": "https://www.etsy.com/listing/4587869944",
+          "price": "see listing"
+        },
+        {
+          "name": "Baby's First Christmas Photo Ornament 2026, Personalized Wood Keepsake, New Parents Gift",
+          "section": "Family",
+          "url": "https://www.etsy.com/listing/4587863257",
+          "price": "see listing"
+        },
+        {
+          "name": "Pet Memorial Photo Ornament, Custom Dog Loss Keepsake, Always By My Side Wood Gift",
+          "section": "Pets",
+          "url": "https://www.etsy.com/listing/4587868050",
+          "price": "see listing"
+        },
+        {
+          "name": "Sibling Christmas Shirts 2026, Personalized Big Sis Middle Bro Little Name Tee, Matching Kids",
+          "section": "Holidays",
+          "url": "https://www.etsy.com/listing/4587860480",
+          "price": "see listing"
+        },
+        {
+          "name": "Pet Paw Ornament Personalized, Metal Dog Name Christmas 2026 Keepsake, Plaid Cat Lover Gift",
+          "section": "Pets",
+          "url": "https://www.etsy.com/listing/4587853994",
+          "price": "see listing"
+        },
+        {
+          "name": "Mushroom Name Ornament, Woodland Kids Christmas 2026, Personalized Wooden Toadstool Keepsake Stocking Gift",
+          "section": "Kids",
+          "url": "https://www.etsy.com/listing/4587847337",
+          "price": "see listing"
+        },
+        {
+          "name": "Celestial Family Ornament 2026, Personalized Names Moon Stars Christmas Keepsake, Navy Silver Gift",
+          "section": "Family",
+          "url": "https://www.etsy.com/listing/4587843933",
+          "price": "see listing"
+        },
+        {
+          "name": "First Christmas in Our New Home Ornament 2026, Personalized Housewarming Keepsake, Family Name Gift",
+          "section": "Family",
+          "url": "https://www.etsy.com/listing/4587843281",
+          "price": "see listing"
+        },
+        {
+          "name": "Running on Cocoa and Chaos Sweatshirt, Funny Christmas Crewneck, Hot Chocolate Mom Pullover",
+          "section": "Holidays",
+          "url": "https://www.etsy.com/listing/4587847930",
+          "price": "see listing"
+        },
+        {
+          "name": "Dog Dad Mug Personalized, Pet Names Coffee Cup, Christmas Gift for Him, Black Inside",
+          "section": "Pets",
+          "url": "https://www.etsy.com/listing/4587839377",
+          "price": "see listing"
+        },
+        {
+          "name": "Our First Christmas Married Ornament 2026, Personalized Names Mr Mrs Keepsake, Newlywed Wedding Gift",
+          "section": "Family",
+          "url": "https://www.etsy.com/listing/4587837229",
+          "price": "see listing"
+        },
+        {
+          "name": "New Grandparents Ornament 2026, Personalized Est. Christmas Keepsake, Pregnancy Announcement Gift Grandma Grandpa",
+          "section": "Family",
+          "url": "https://www.etsy.com/listing/4587836833",
+          "price": "see listing"
+        },
+        {
+          "name": "Teacher Reward Stickers Personalized, Christmas Classroom Labels, Great Job Holiday Sheet for Students",
+          "section": "Teacher",
+          "url": "https://www.etsy.com/listing/4587839010",
+          "price": "see listing"
+        },
+        {
+          "name": "Grandma Christmas Sweatshirt 2026, Grandkids Names on Sleeve, Personalized Holly Crewneck, Gift from Kids",
+          "section": "Kids",
+          "url": "https://www.etsy.com/listing/4587838322",
+          "price": "see listing"
+        },
+        {
+          "name": "Glass Christmas Ornament 2026, Personalized Family Crest Monogram, Heirloom Keepsake, Last Name Est Year",
+          "section": "Family",
+          "url": "https://www.etsy.com/listing/4587836966",
+          "price": "see listing"
+        },
+        {
+          "name": "Wood Family Christmas Ornament 2026, Personalized Names Tree Keepsake, Hinoki Cypress Heirloom Gift",
+          "section": "Family",
+          "url": "https://www.etsy.com/listing/4587826369",
+          "price": "see listing"
+        },
+        {
+          "name": "Baby's First Christmas Ornament 2026, Personalized Celestial Moon Stars Name, Two-Sided Ceramic Keepsake Gift",
+          "section": "Family",
+          "url": "https://www.etsy.com/listing/4587831880",
+          "price": "see listing"
+        },
+        {
+          "name": "Our First Christmas Engaged Ornament 2026, Personalized Couple Names, Engagement Gift Keepsake, Fiance Present",
+          "section": "Family",
+          "url": "https://www.etsy.com/listing/4587829408",
+          "price": "see listing"
+        },
         {
           "name": "Dog Christmas Gift Tag Stickers, Personalized Love Pet Name Labels, Wrapping Paw Print Sheet",
           "section": "Pets",
@@ -228,136 +420,136 @@
           "name": "Christmas Family Shirts Personalized, Matching Last Name Tees 2026, Cozy Cabin Red Truck",
           "section": "Holidays",
           "url": "https://www.etsy.com/listing/4587113847",
-          "price": "$25.99–$31.99 (estimate uses toddler 2T–5T)"
+          "price": "see listing"
         },
         {
           "name": "Sugar Cookie Crew Shirt, Personalized Mommy and Me Christmas Tee, Matching Mom Daughter",
           "section": "Holidays",
           "url": "https://www.etsy.com/listing/4587100460",
-          "price": "$25.99–$31.99 (estimate uses toddler 2T–5T)"
+          "price": "see listing"
         },
         {
           "name": "Mostly Nice Christmas Shirt Personalized, Dad and Son Matching Tees, Kids Name Santa",
           "section": "Holidays",
           "url": "https://www.etsy.com/listing/4586991352",
-          "price": "$25.99–$31.99 (estimate uses toddler 2T–5T)"
+          "price": "see listing"
         },
         {
           "name": "Family Thanksgiving Shirts Personalized, Matching Turkey Carver Pie Queen Gravy Taster Tees",
           "section": "Holidays",
           "url": "https://www.etsy.com/listing/4586952770",
-          "price": "$25.99–$31.99 (estimate uses toddler 2T–5T)"
+          "price": "see listing"
         },
         {
           "name": "Thankful Mama Shirt, Personalized Mommy and Me Thanksgiving Tee, Matching Mom Daughter Fall",
           "section": "Holidays",
           "url": "https://www.etsy.com/listing/4586932761",
-          "price": "$25.99–$31.99 (estimate uses toddler 2T–5T)"
+          "price": "see listing"
         },
         {
           "name": "Official Pie Inspector Shirt, Personalized Thanksgiving Dad and Son Matching Tee, Kids Name",
           "section": "Holidays",
           "url": "https://www.etsy.com/listing/4586925176",
-          "price": "$25.99–$31.99 (estimate uses toddler 2T–5T)"
+          "price": "see listing"
         },
         {
           "name": "Personalized Kids Name Labels, School Lunchbox Water Bottle Sticker Sheet, Daycare Supplies",
           "section": "Kids",
           "url": "https://www.etsy.com/listing/4586906120",
-          "price": "$13.99 + $3.49 buyer shipping"
+          "price": "see listing"
         },
         {
           "name": "Monster Family Halloween Shirts, Personalized Matching Dadcula Momster Kids Name Tee Set",
           "section": "Holidays",
           "url": "https://www.etsy.com/listing/4586893709",
-          "price": "$25.99–$31.99 (estimate uses toddler 2T–5T)"
+          "price": "see listing"
         },
         {
           "name": "Mama Boo Matching Halloween Shirts, Personalized Mommy and Me Pink Ghost Tee Set",
           "section": "Holidays",
           "url": "https://www.etsy.com/listing/4586885520",
-          "price": "$25.99–$31.99 (estimate uses toddler 2T–5T)"
+          "price": "see listing"
         },
         {
           "name": "Dadcula Little Fang Matching Halloween Shirts, Personalized Dad and Son Vampire Tee Set",
           "section": "Holidays",
           "url": "https://www.etsy.com/listing/4586871127",
-          "price": "$26.99–$31.99 (estimate uses toddler 2T–5T)"
+          "price": "see listing"
         },
         {
           "name": "Personalized Pet Name Mug, Favorite Human Dog Mom Coffee Cup Gift",
           "section": "Pets",
           "url": "https://www.etsy.com/listing/4586863386",
-          "price": "$21.99 free shipping"
+          "price": "see listing"
         },
         {
           "name": "Personalized Christmas Gift Tag Stickers, Retro From Name Label Sheet",
           "section": "Holidays",
           "url": "https://www.etsy.com/listing/4586852171",
-          "price": "$13.99 + $3.49 buyer shipping"
+          "price": "see listing"
         },
         {
           "name": "Personalized Christmas Stocking with Name, Retro Tree Family Mantel Decor",
           "section": "Holidays",
           "url": "https://www.etsy.com/listing/4586843780",
-          "price": "$39.99 free shipping"
+          "price": "see listing"
         },
         {
           "name": "Funny Kids Christmas Ornament 2026, Mostly Nice Personalized Name Gift",
           "section": "Holidays",
           "url": "https://www.etsy.com/listing/4586735738",
-          "price": "$21.99 free shipping"
+          "price": "see listing"
         },
         {
           "name": "Our First Home Ornament 2026, Personalized New House Christmas Keepsake, Housewarming Closing Gift",
           "section": "Family",
           "url": "https://www.etsy.com/listing/4586723835",
-          "price": "$21.99 free shipping"
+          "price": "see listing"
         },
         {
           "name": "Personalized Dog Christmas Ornament 2026, Custom Pet Name Keepsake",
           "section": "Pets",
           "url": "https://www.etsy.com/listing/4586706133",
-          "price": "$21.99 free shipping"
+          "price": "see listing"
         },
         {
           "name": "Pet Memorial Ornament, Personalized Always By My Side Keepsake, Dog or Cat Loss Gift",
           "section": "Pets",
           "url": "https://www.etsy.com/listing/4586708521",
-          "price": "$23.99 free shipping"
+          "price": "see listing"
         },
         {
           "name": "Our First Christmas Ornament 2026, Personalized Couple Names Keepsake",
           "section": "Holidays",
           "url": "https://www.etsy.com/listing/4586704522",
-          "price": "$21.99 free shipping"
+          "price": "see listing"
         },
         {
-          "name": "Personalized Baby's First Christmas Ornament 2026, Baby Name Keepsake",
+          "name": "Baby's First Christmas Ornament 2026, Personalized Name Keepsake, Newborn Gift",
           "section": "Holidays",
           "url": "https://www.etsy.com/listing/4586693153",
-          "price": "$21.99 free shipping"
+          "price": "see listing"
         },
         {
           "name": "Personalized Family Christmas Ornament 2026, Last Name Keepsake",
           "section": "Holidays",
           "url": "https://www.etsy.com/listing/4586688180",
-          "price": "$23.99 free shipping"
+          "price": "see listing"
         },
         {
           "name": "Personalized Trick or Treat Bag with Name, Kids Halloween Candy Haul Cotton Tote",
           "section": "Holidays",
           "url": "https://www.etsy.com/listing/4586660855",
-          "price": "$32.99 free shipping"
+          "price": "see listing"
         },
         {
           "name": "Little Ghosts On Board Halloween Car Magnet, Spooky Season Decor",
           "section": "Holidays",
           "url": "https://www.etsy.com/listing/4586652265",
-          "price": "$14.99 free shipping"
+          "price": "see listing"
         }
       ],
-      "one_liner": "Live · 76 listings · 0 orders · price raises 23/24 (TB1 pending) · Halloween order-by Oct 16"
+      "one_liner": "Live · 79 listings (Shop Manager) · 0 orders · 38 views / 16 visits 7d · price raises 23/24 (TB1 pending) · Ads planned Oct 16"
     },
     {
       "id": "shop-2",
@@ -529,8 +721,8 @@
     }
   ],
   "acquisitions": {
-    "note": "Watch only. Figures are seller/listing claims or research notes, not verified by us. No accounts, bids, offers, seller contact, purchases or acquisitions. Shortlist unchanged: bottes-presso, Mixup, Rewired stretch, Marble Tracks, Letras Bonitas.",
-    "source": "Deal Scout 2026-10-01 run and shortlist; files on disk Oct 3, 2026; no new overnight Deal Scout run Oct 2–3",
+    "note": "Watch only. Figures are seller/listing claims or research notes, not verified by us. No accounts, bids, offers, seller contact, purchases or acquisitions. Shortlist unchanged: bottes-presso, Mixup (sold), Rewired stretch, Marble Tracks, Letras Bonitas.",
+    "source": "Deal Scout 2026-10-01 run and shortlist; files on disk; no Oct 4 Deal Scout run; no new overnight Deal Scout run Oct 2–4",
     "watchlist": [
       {
         "name": "bottes-presso.fr",
@@ -654,7 +846,7 @@
       "type": "Short-term-rental fee calculators, explainers, and gift guides",
       "status": "live",
       "url": "https://hostfees.com",
-      "status_note": "Renamed from HostSums. LIVE at hostfees.com (HTTP 200 confirmed morning of Oct 3, 2026). Latest live audit records 27 pages: 5 calculators, 3 gift guides and 10 fee explainers. hostfees.com is claimed on Pinterest (verified); 9 of 49 pins are live (Oct 3) and a daily routine posts 3 each morning at 10:06 AM PT. Hospitable is live; Joshua added bank details in Hospitable Invoice Settings (confirmed Oct 2). Turno affiliate link LIVE on hostfees.com (https://share.turno.com/69pllwz); Turno temp password changed (confirmed Oct 2). Hostaway declined; reapply Nov 1–15 with real traffic numbers. OwnerRez, Lodgify, PriceLabs remain placeholders/pending. Amazon Associates application still not done. Personal PayPal is done (Business not required for now). W-9 only when a program asks. Revenue remains $0.",
+      "status_note": "Renamed from HostSums. LIVE at hostfees.com (HTTP 200 reconfirmed morning of Oct 4, 2026). Latest live audit records 27 pages: 5 calculators, 3 gift guides and 10 fee explainers. hostfees.com is claimed on Pinterest (verified); 9 of 49 pins are live (morning drip ~10:06 AM PT not yet as of ~8:02 AM). Turno affiliate link live; Amazon Associates still not done; traffic tiles still locked (no invented HostFees visit numbers).",
       "pages": 27,
       "calculators": 5,
       "gift_guides": 3,
@@ -667,7 +859,7 @@
       "pinterest_claimed": true,
       "turno_status": "live; affiliate link on hostfees.com (https://share.turno.com/69pllwz)",
       "hostaway_status": "declined for now; revisit in 4–6 weeks with traffic numbers",
-      "one_liner": "Live at hostfees.com · 9 of 49 pins · Turno link live · Amazon Associates pending · $0 revenue"
+      "one_liner": "Live at hostfees.com (HTTP 200 Oct 4 AM) · 9 of 49 pins · Turno link live · Amazon Associates pending · $0 revenue"
     },
     {
       "id": "deal-scout",
@@ -675,11 +867,11 @@
       "type": "Business acquisition research",
       "status": "research only",
       "url": "",
-      "status_note": "Research only. The Oct 1 run refreshed 305 Flippa cards and ranked 17 candidates; current top slate remains bottes-presso, Mixup Recipes, Rewired (stretch), Marble Tracks and Letras Bonitas Hub. No overnight Deal Scout run recorded for Oct 2–3. No accounts, buying, bids, offers, seller contact or acquisition.",
+      "status_note": "Research only. No Oct 4 Deal Scout run. The Oct 1 run refreshed 305 Flippa cards and ranked 17 candidates; current top slate remains bottes-presso, Mixup Recipes (sold), Rewired (stretch), Marble Tracks and Letras Bonitas Hub. No overnight Deal Scout run recorded for Oct 2–4. No accounts, bids, offers, seller contact, or purchases.",
       "budget_limit": "$5,000",
       "revenue": 0,
       "profit": 0,
-      "one_liner": "Research only · watching Objectif Évasion + Crypto Dist (end ~Oct 9)"
+      "one_liner": "Research only · no Oct 4 run · watching Objectif Évasion + Crypto Dist (end ~Oct 9)"
     },
     {
       "id": "websiteplz",
@@ -687,8 +879,8 @@
       "type": "One-page websites for local businesses",
       "status": "live",
       "url": "https://websiteplz.com",
-      "status_note": "websiteplz.com is live (confirmed Oct 3, 2026). Fiverr and Contra seller accounts still needed from Joshua; gig descriptions are written and the site's Fiverr/Contra buttons stay hidden until the profile links exist.",
-      "one_liner": "Live at websiteplz.com · waiting on Fiverr + Contra seller accounts"
+      "status_note": "websiteplz.com is live (HTTP 200 reconfirmed morning of Oct 4, 2026). Fiverr and Contra seller accounts still waiting on Joshua; gig descriptions are written and the site's Fiverr/Contra buttons stay hidden until the profile links exist.",
+      "one_liner": "Live at websiteplz.com (HTTP 200 Oct 4 AM) · waiting on Fiverr + Contra seller accounts"
     }
   ],
   "printplz_margins": [
@@ -1517,6 +1709,22 @@
       "value": 12,
       "window": "7d",
       "method": "Etsy Shop Manager stats (snapshot data/printplz-live-listings.json)"
+    },
+    {
+      "date": "2026-10-04T08:02:00-07:00",
+      "source": "printplz",
+      "metric": "views",
+      "value": 38,
+      "window": "7d",
+      "method": "Etsy Shop Manager dashboard snapshot (Last 7 days; data/printplz-live-listings.json + morning-etsy-report.json)"
+    },
+    {
+      "date": "2026-10-04T08:02:00-07:00",
+      "source": "printplz",
+      "metric": "visits",
+      "value": 16,
+      "window": "7d",
+      "method": "Etsy Shop Manager dashboard snapshot (Last 7 days; data/printplz-live-listings.json + morning-etsy-report.json)"
     }
   ]
 }
