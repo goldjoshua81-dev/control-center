@@ -15,7 +15,7 @@ loadData(D => {
   $("kpis").innerHTML = k.map(([l, v, s, c, i]) => `<div class="kpi ${c}"><div class="l"><span class="ki" aria-hidden="true">${i}</span>${l}</div><div class="v">${v}</div><div class="s">${esc(s)}</div></div>`).join("");
 
   // Deadlines
-  const all = (D.key_dates || []).map(x => ({date: x.date, disp: x.date_display, event: x.event, who: "This account"}))
+  const all = (D.key_dates || []).filter(x => !x.account).map(x => ({date: x.date, disp: x.date_display, event: x.event, who: "This account"}))
     .concat(O ? O.deadlines.filter(x => x.date_iso).map(x => ({date: x.date_iso, disp: x.date, event: x.event + (x.details ? " — " + x.details : ""), who: "Other bots"})) : [])
     .sort((a, b) => a.date.localeCompare(b.date));
   const soon = all.filter(x => x.date >= todayPT && x.date <= horizon), later = all.filter(x => x.date > horizon);

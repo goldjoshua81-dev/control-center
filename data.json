@@ -3,8 +3,8 @@
     "title": "Fresh $$ Control Center",
     "owner": "Joshua",
     "assistant": "Fresh $$",
-    "last_updated": "2026-10-04T08:13:32-07:00",
-    "status_note": "Morning refresh Oct 4, 2026 ~8:02 AM PT. PrintPlzShop: 79 live (Shop Manager; +3 overnight vs Oct 3 evening 76; +31 vs Oct 3 morning 48), 1 draft, 3 inactive, 0 orders / $0 revenue; last 7d 38 views / 16 visits. Local Progress note (not live count): P9/X25/X26/P10/M12/X27/X28 published; X29 inactive; K6/K7 HOLD; Halloween price raises 23/24 (TB1 pending); Etsy Ads planned Oct 16. hostfees.com HTTP 200; websiteplz.com HTTP 200; HostFees pins still 9 of 49 (morning drip ~10:06 AM not yet). Deal Scout: no Oct 4 run; research only. Actual revenue remains $0. Joshua's priority order unchanged: 1) Fiverr + Contra for WebsitePlz, 2) Amazon Associates, 3) unlock traffic tiles."
+    "last_updated": "2026-10-04T08:19:27-07:00",
+    "status_note": "Morning refresh Oct 4, 2026 ~8:02 AM PT. PrintPlzShop: 79 live (Shop Manager; +3 overnight vs Oct 3 evening 76; +31 vs Oct 3 morning 48), 1 draft, 3 inactive, 0 orders / $0 revenue; last 7d 38 views / 16 visits. Local Progress note (not live count): P9/X25/X26/P10/M12/X27/X28 published; X29 inactive; K6/K7 HOLD; Halloween price raises 23/24 (TB1 pending); Etsy Ads planned Oct 16. hostfees.com HTTP 200; websiteplz.com HTTP 200; HostFees pins still 9 of 49 (morning drip ~10:06 AM not yet). Deal Scout: no Oct 4 run; research only. Actual revenue remains $0. Joshua's priority order unchanged: 1) Fiverr + Contra for WebsitePlz, 2) Amazon Associates, 3) unlock traffic tiles. Chief of Staff Oct 3 roll-up added: WebsitePlz details, websiteplz.com + sitesplz.com spend/renewals, decisions pending, ordered waiting-on list."
   },
   "budget": {
     "starting_capital": 1000,
@@ -50,6 +50,18 @@
         "amount": 5.2
       },
       {
+        "date": "2026-10-03",
+        "what": "websiteplz.com domain (1 year, Cloudflare at cost; card ending 6030)",
+        "lane": "WebsitePlz",
+        "amount": 10.46
+      },
+      {
+        "date": "2026-10-03",
+        "what": "sitesplz.com domain (1 year, Cloudflare at cost; card ending 6030)",
+        "lane": "WebsitePlz",
+        "amount": 10.46
+      },
+      {
         "date": "2026-10-04",
         "what": "Etsy listing fees (estimate for +3 newly active PrintPlz listings overnight; 3×$0.20=$0.60; Shop Manager 79 active vs Oct 3 evening 76)",
         "lane": "Print-on-demand shops",
@@ -64,7 +76,7 @@
       "type": "For-moms print-on-demand gifts: mom shirts, teacher shirts, kids stickers, holiday party items, ornaments",
       "platform": "Etsy + Printful",
       "status": "live",
-      "status_note": "Morning Oct 4, 2026 ~8:02 AM PT: PrintPlzShop Shop Manager 79 active / 1 draft / 0 expired / 3 inactive / 0 sold out; 0 orders / $0. Last 7d dashboard: 38 views / 16 visits. +3 overnight vs Oct 3 evening wrap-up (76); +31 vs Oct 3 morning (48). Local note: P9/X25/X26/P10/M12/X27/X28 published; X29 inactive; K6/K7 HOLD; Halloween price raises 23/24 (TB1 pending); Etsy Ads planned Oct 16. Offsite Ads off.",
+      "status_note": "Morning Oct 4, 2026 ~8:02 AM PT: PrintPlzShop Shop Manager 79 active / 1 draft / 0 expired / 3 inactive / 0 sold out; 0 orders / $0. Last 7d dashboard: 38 views / 16 visits. +3 overnight vs Oct 3 evening wrap-up (76); +31 vs Oct 3 morning (48). Local note: P9/X25/X26/P10/M12/X27/X28 published; X29 inactive; K6/K7 HOLD; Halloween price raises 23/24 (TB1 pending); Etsy Ads planned Oct 16. Offsite Ads off. Chief of Staff Oct 3 roll-up: audit and price raises are live; X29 deactivated; new builds ON HOLD per Joshua.",
       "url": "https://www.etsy.com/shop/PrintPlzShop",
       "orders": 0,
       "revenue": 0,
@@ -721,7 +733,7 @@
     }
   ],
   "acquisitions": {
-    "note": "Watch only. Figures are seller/listing claims or research notes, not verified by us. No accounts, bids, offers, seller contact, purchases or acquisitions. Shortlist unchanged: bottes-presso, Mixup (sold), Rewired stretch, Marble Tracks, Letras Bonitas.",
+    "note": "Watch only. Figures are seller/listing claims or research notes, not verified by us. No accounts, bids, offers, seller contact, purchases or acquisitions. Shortlist unchanged: bottes-presso, Mixup (sold), Rewired stretch, Marble Tracks, Letras Bonitas. About 380 listings reviewed (Chief of Staff, Oct 3); bottes-presso.fr is still the top pick.",
     "source": "Deal Scout 2026-10-01 run and shortlist; files on disk; no Oct 4 Deal Scout run; no new overnight Deal Scout run Oct 2–4",
     "watchlist": [
       {
@@ -782,14 +794,16 @@
       "why": "Enables email alerts for the live HostFees operating loop.",
       "priority": "medium",
       "done": false,
-      "optional": true
+      "optional": true,
+      "rank": 7
     },
     {
       "task": "Get a P.O. Box for HostFees",
       "why": "Provides a separate mailing address for site and affiliate operations.",
       "priority": "medium",
       "done": false,
-      "optional": true
+      "optional": true,
+      "rank": 8
     },
     {
       "task": "Change the Turno temporary password",
@@ -825,18 +839,46 @@
       "rank": 1
     },
     {
-      "task": "Optional: apply to Lodgify and OwnerRez affiliate programs",
-      "why": "HostFees placeholders; after Amazon Associates.",
+      "task": "Optional: apply to the OwnerRez affiliate program",
+      "why": "HostFees placeholder; Lodgify application already submitted and pending (Oct 3).",
       "priority": "low",
       "done": false,
       "optional": true
     },
     {
       "task": "Unlock the traffic tiles",
-      "why": "Add the permission Account › Account Analytics › Read to the box's Cloudflare API token (HostFees visits), and turn on Cloudflare Web Analytics for websiteplz.com (automatic setup). Pinterest impressions need a browser read by a bot.",
+      "why": "Add the permission Account › Account Analytics › Read to the box's Cloudflare API token (HostFees visits), turn on Cloudflare Web Analytics for websiteplz.com (automatic setup), plus Pinterest impressions and other-account shop views.",
       "priority": "high",
       "done": false,
       "rank": 3
+    },
+    {
+      "task": "Set up Stripe for WebsitePlz checkout",
+      "why": "WebsitePlz checkout uses Stripe Payment Links (being set up). Chief of Staff list, Oct 3.",
+      "priority": "medium",
+      "done": false,
+      "rank": 4
+    },
+    {
+      "task": "Add Workers Scripts Edit to the Cloudflare token",
+      "why": "Lets the WebsitePlz contact-form mailer Worker be deployed (the form answers 503 until then).",
+      "priority": "medium",
+      "done": false,
+      "rank": 5
+    },
+    {
+      "task": "Relay $300 for PrintPlz",
+      "why": "On Chief of Staff's waiting-on-Joshua list (Oct 3).",
+      "priority": "medium",
+      "done": false,
+      "rank": 6
+    },
+    {
+      "task": "Set up an inbox for hello@websiteplz.com",
+      "why": "Contact address for WebsitePlz buyers. Chief of Staff list, Oct 3.",
+      "priority": "medium",
+      "done": false,
+      "rank": 9
     }
   ],
   "projects": [
@@ -846,7 +888,7 @@
       "type": "Short-term-rental fee calculators, explainers, and gift guides",
       "status": "live",
       "url": "https://hostfees.com",
-      "status_note": "Renamed from HostSums. LIVE at hostfees.com (HTTP 200 reconfirmed morning of Oct 4, 2026). Latest live audit records 27 pages: 5 calculators, 3 gift guides and 10 fee explainers. hostfees.com is claimed on Pinterest (verified); 9 of 49 pins are live (morning drip ~10:06 AM PT not yet as of ~8:02 AM). Turno affiliate link live; Amazon Associates still not done; traffic tiles still locked (no invented HostFees visit numbers).",
+      "status_note": "Renamed from HostSums. LIVE at hostfees.com (HTTP 200 reconfirmed morning of Oct 4, 2026). Latest live audit records 27 pages: 5 calculators, 3 gift guides and 10 fee explainers. hostfees.com is claimed on Pinterest (verified); 9 of 49 pins are live (morning drip ~10:06 AM PT not yet as of ~8:02 AM). Turno affiliate link live; Amazon Associates still not done; traffic tiles still locked (no invented HostFees visit numbers). Lodgify affiliate application pending (Chief of Staff, Oct 3).",
       "pages": 27,
       "calculators": 5,
       "gift_guides": 3,
@@ -859,7 +901,7 @@
       "pinterest_claimed": true,
       "turno_status": "live; affiliate link on hostfees.com (https://share.turno.com/69pllwz)",
       "hostaway_status": "declined for now; revisit in 4–6 weeks with traffic numbers",
-      "one_liner": "Live at hostfees.com (HTTP 200 Oct 4 AM) · 9 of 49 pins · Turno link live · Amazon Associates pending · $0 revenue"
+      "one_liner": "Live at hostfees.com (HTTP 200 Oct 4 AM) · 9 of 49 pins · Turno link live · Amazon Associates pending · Lodgify pending · $0 revenue"
     },
     {
       "id": "deal-scout",
@@ -867,20 +909,36 @@
       "type": "Business acquisition research",
       "status": "research only",
       "url": "",
-      "status_note": "Research only. No Oct 4 Deal Scout run. The Oct 1 run refreshed 305 Flippa cards and ranked 17 candidates; current top slate remains bottes-presso, Mixup Recipes (sold), Rewired (stretch), Marble Tracks and Letras Bonitas Hub. No overnight Deal Scout run recorded for Oct 2–4. No accounts, bids, offers, seller contact, or purchases.",
+      "status_note": "Research only. No Oct 4 Deal Scout run. The Oct 1 run refreshed 305 Flippa cards and ranked 17 candidates; current top slate remains bottes-presso, Mixup Recipes (sold), Rewired (stretch), Marble Tracks and Letras Bonitas Hub. No overnight Deal Scout run recorded for Oct 2–4. No accounts, bids, offers, seller contact, or purchases. Chief of Staff Oct 3 roll-up: about 380 listings reviewed so far; bottes-presso.fr is still the top pick; Mixup Recipes sold for $1,300.",
       "budget_limit": "$5,000",
       "revenue": 0,
       "profit": 0,
-      "one_liner": "Research only · no Oct 4 run · watching Objectif Évasion + Crypto Dist (end ~Oct 9)"
+      "one_liner": "Research only · ~380 listings reviewed · top pick bottes-presso.fr · Mixup sold $1,300 · watching Objectif Évasion + Crypto Dist (end ~Oct 9)"
     },
     {
       "id": "websiteplz",
       "name": "WebsitePlz",
-      "type": "One-page websites for local businesses",
+      "type": "Websites for local trades (HVAC, plumbing, electric, pressure washing, house cleaning)",
       "status": "live",
       "url": "https://websiteplz.com",
-      "status_note": "websiteplz.com is live (HTTP 200 reconfirmed morning of Oct 4, 2026). Fiverr and Contra seller accounts still waiting on Joshua; gig descriptions are written and the site's Fiverr/Contra buttons stay hidden until the profile links exist.",
-      "one_liner": "Live at websiteplz.com (HTTP 200 Oct 4 AM) · waiting on Fiverr + Contra seller accounts"
+      "status_note": "websiteplz.com is live (HTTP 200 reconfirmed morning of Oct 4, 2026); sitesplz.com redirects to it. 5 trade pages and 5 blog guides live. Google Search Console verified. Link check: 0 of 821 links broken. Lighthouse 97–100. Fiverr and Contra seller accounts still waiting on Joshua; gig descriptions are written and the site's Fiverr/Contra buttons stay hidden until the profile links exist. $0 revenue.",
+      "one_liner": "Live at websiteplz.com (sitesplz.com redirects) · 5 trade pages + 5 guides · Lighthouse 97–100 · waiting on Fiverr + Contra · $0 revenue",
+      "bot": "WebsitePlz",
+      "bot_id": "e58826be-250d-4953-b472-9f0e1836bd42",
+      "trade_pages": 5,
+      "blog_guides": 5,
+      "links_checked": 821,
+      "broken_links": 0,
+      "lighthouse": "97–100",
+      "gsc_verified": true,
+      "redirects": [
+        "sitesplz.com"
+      ],
+      "demo_url": "https://goldjoshua81-dev.github.io/contractor-samples/",
+      "pricing": "Fiverr tiers $249 / $1,125 / $1,495",
+      "care_plans": "Care plans $99/mo · $249/qtr · $990/yr",
+      "revenue": 0,
+      "profit": 0
     }
   ],
   "printplz_margins": [
@@ -1354,7 +1412,7 @@
       "date": "2026-10-05",
       "date_display": "Mon Oct 5, 2026",
       "event": "Batch 2 build target",
-      "details": "W4 and TC1 live by Oct 5; then N1/N2, X9, X11, TC5, TC3, X12, and TC4.",
+      "details": "W4 and TC1 live by Oct 5; then N1/N2, X9, X11, TC5, TC3, X12, and TC4. May slip while the PrintPlz build hold is on (Chief of Staff, Oct 3).",
       "source": "/workspace/pod-shops/printplz/README.md · Key dates and ads plan"
     },
     {
@@ -1405,6 +1463,14 @@
       "event": "Hostaway affiliate reapply window",
       "details": "Reapply or reply with real HostFees traffic metrics only.",
       "source": "/workspace/affiliate/commission-tracker.md"
+    },
+    {
+      "date": "2026-10-07",
+      "date_display": "~Wed Oct 7, 2026",
+      "event": "Stocks Moon week 1 ends",
+      "details": "Other account, paper only (holds SQQQ).",
+      "source": "Other account relay / Chief of Staff (Oct 3)",
+      "account": "Other bots"
     }
   ],
   "other_account": {
@@ -1609,8 +1675,13 @@
     },
     {
       "item": "websiteplz.com domain",
-      "amount": "unknown",
-      "when": "Renewal date not recorded"
+      "amount": "$10.46/yr",
+      "when": "Bought Oct 3, 2026 · renews Oct 3, 2027 (auto-renew on, card ending 6030)"
+    },
+    {
+      "item": "sitesplz.com domain (redirects to websiteplz.com)",
+      "amount": "$10.46/yr",
+      "when": "Bought Oct 3, 2026 · renews Oct 3, 2027 (auto-renew on, card ending 6030)"
     }
   ],
   "traffic_sources": [
@@ -1726,5 +1797,33 @@
       "window": "7d",
       "method": "Etsy Shop Manager dashboard snapshot (Last 7 days; data/printplz-live-listings.json + morning-etsy-report.json)"
     }
-  ]
+  ],
+  "decisions_pending": [
+    {
+      "decision": "Contra pricing",
+      "lane": "WebsitePlz",
+      "note": "Contra/outreach range on file is $900–1,200; final number not set."
+    },
+    {
+      "decision": "Gig extras",
+      "lane": "WebsitePlz",
+      "note": "Which add-ons to offer on the Fiverr gig."
+    },
+    {
+      "decision": "Package name for the cleaning and pressure-washing sites",
+      "lane": "WebsitePlz",
+      "note": ""
+    },
+    {
+      "decision": "When to lift the PrintPlz build hold",
+      "lane": "PrintPlz",
+      "note": "New builds are ON HOLD per Joshua; batch 2 (Oct 5) may slip."
+    },
+    {
+      "decision": "Whether to dig into bottes-presso.fr",
+      "lane": "Deal Scout",
+      "note": "Top pick; full due diligence only if you say go. Research only."
+    }
+  ],
+  "decisions_source": "Chief of Staff nightly roll-up, Sat Oct 3, 2026"
 }

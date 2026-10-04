@@ -76,6 +76,10 @@ function render(D) {
     <div class="t">${esc(p.type)}${p.url ? ` · <a href="${esc(p.url)}" target="_blank" rel="noopener">open</a>` : ""}</div>
     <div class="muted">${esc(p.status_note || "")}</div>
     ${p.pages != null ? `<div class="stats"><div><b>${p.pages}</b><small>Pages</small></div><div><b>${p.calculators}</b><small>Calculators</small></div><div><b>${p.gift_guides}</b><small>Gift guides</small></div><div><b>${p.fee_explainers}</b><small>Fee explainers</small></div><div><b>${p.pins_ready}</b><small>Pins ready</small></div>${p.pins_published != null ? `<div><b>${p.pins_published}</b><small>Pins published</small></div>` : ""}</div>` : ""}
+    ${p.trade_pages != null ? `<div class="stats"><div><b>${p.trade_pages}</b><small>Trade pages</small></div><div><b>${p.blog_guides}</b><small>Blog guides</small></div><div><b>${p.broken_links}/${p.links_checked}</b><small>Broken links</small></div><div><b>${esc(p.lighthouse)}</b><small>Lighthouse</small></div><div><b>${p.gsc_verified ? "✅" : "no"}</b><small>Search Console</small></div><div><b>${usd(p.revenue)}</b><small>Revenue</small></div></div>` : ""}
+    ${p.pricing ? `<div class="muted">${esc(p.pricing)} · ${esc(p.care_plans || "")}</div>` : ""}
+    ${p.demo_url ? `<div class="muted">Demo sites: <a href="${esc(p.demo_url)}" target="_blank" rel="noopener">${esc(p.demo_url.replace(/^https?:\/\//, ""))}</a>${p.redirects ? ` · ${esc(p.redirects.join(", "))} redirects here` : ""}</div>` : ""}
+    ${p.bot_id ? `<div class="muted">Run by ${esc(p.bot)} bot · id <code>${esc(p.bot_id)}</code></div>` : ""}
     ${p.budget_limit ? `<div class="muted">Daily research budget: ${esc(p.budget_limit)}</div>` : ""}</div>`).join("");
 
   table("ads", [["Channel", r => esc(r.channel)], ["Status", r => pill(r.status)], ["Spend", r => usd(r.spend)], ["Revenue", r => usd(r.attributed_revenue)], ["Orders", r => r.orders], ["ROAS", r => r.spend ? (r.attributed_revenue / r.spend).toFixed(2) + "x" : "n/a"], ["Plan / note", r => esc(r.plan || "")]], ads, "No ad channels yet");
@@ -84,6 +88,10 @@ function render(D) {
   table("acq", [["Asset", r => r.url ? `<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.name)}</a>` : esc(r.name)], ["Price", r => esc(r.price)], ["Listed profit", r => esc(r.listed_profit)], ["Closes", r => esc(r.closes)], ["Fits $5k?", r => r.fits_budget ? "✅ yes" : "no"], ["Status", r => pill(r.status)]], D.acquisitions.watchlist, "Watchlist empty");
   table("ledger", [["Date", r => esc(r.date)], ["What", r => esc(r.what)], ["Lane", r => esc(r.lane || "")], ["Amount", r => usd(r.amount)]], D.budget.ledger, "$0 spent so far");
 
+  if (D.decisions_pending) {
+    $("decisionsNote").textContent = "Source: " + (D.decisions_source || "roll-up") + ". Nothing changes until Joshua decides.";
+    $("decisions").innerHTML = D.decisions_pending.map(x => `<div class="item"><div>🤔</div><div style="flex:1"><div class="x"><b>${esc(x.decision)}</b></div><div class="w">${esc(x.note || "")}</div></div><div>${pill(x.lane)}</div></div>`).join("");
+  }
   const needs = D.needs_joshua.slice().sort((a, b) => (a.done - b.done) || ((a.rank || 99) - (b.rank || 99)));
   $("needs").innerHTML = needs.length ? needs.map(n => `<div class="item ${n.done ? "done" : ""}"><div>${n.done ? "✅" : "⬜"}</div><div style="flex:1"><div class="x"><b>${n.rank && !n.done ? `#${n.rank} · ` : ""}${esc(n.task)}</b></div><div class="w">${esc(n.why)}</div></div><div>${pill(n.done ? "done" : n.priority)}</div></div>`).join("") : `<p class="empty">Nothing needed right now 🎉</p>`;
 }
