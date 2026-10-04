@@ -3,7 +3,7 @@ loadData(D => {
   $("updated").textContent = "Data as of " + O.as_of + " · page built from data.json (last saved " + fmtPT(D.meta.last_updated) + ")";
   $("oaAsOf").textContent = "Data as of " + O.as_of + ". Not live-synced; it changes only when Joshua relays a new report.";
   $("oaNote").textContent = O.source_note || "";
-  const k = [["Revenue", usd(O.revenue), "friend/demo sale excluded", "k-yellow", "💵"], ["Spent", usd(O.spend_total), "one-time Etsy setup fee", "k-orange", "🚀"],
+  const k = [["Revenue", usd(O.revenue), "friend/demo sale excluded", "k-yellow", "💵"], ["Spent", usd(O.spend_total), O.spend_note || "", "k-orange", "🚀"],
              ["Paper P&L", usd(O.paper_pnl), "combined week (approx.)", "k-red", "🎯"], ["Shops live", `${O.shops.filter(s => s.status === "live").length} / ${O.shops.length}`, "", "k-mint", "🏪"]];
   $("oaKpis").innerHTML = k.map(([l, v, s, c, i]) => `<div class="kpi ${c}"><div class="l"><span class="ki" aria-hidden="true">${i}</span>${l}</div><div class="v">${v}</div><div class="s">${esc(s)}</div></div>`).join("");
   $("oaShops").innerHTML = O.shops.map(s => `<div class="card shop"><div class="row between"><h3>${esc(s.name)}</h3>${pill(s.status)}</div>
