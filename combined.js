@@ -27,9 +27,10 @@ loadData(D => {
   const mine = D.needs_joshua.filter(n => !n.bot_work).map(n => ({...n, who: "This account"}));
   const theirs = O ? O.needs_joshua.map(n => ({...n, who: "Other bots"})) : [];
   const open = mine.concat(theirs).filter(n => !n.done);
-  const core = open.filter(n => !n.optional).sort((a, b) => ({high: 0, medium: 1, low: 2}[a.priority || "medium"] - {high: 0, medium: 1, low: 2}[b.priority || "medium"]));
+  const pr = {high: 0, medium: 1, low: 2};
+  const core = open.filter(n => !n.optional).sort((a, b) => ((a.rank || 99) - (b.rank || 99)) || (pr[a.priority || "medium"] - pr[b.priority || "medium"]));
   const opt = open.filter(n => n.optional);
-  const td = n => `<div class="item"><div>⬜</div><div style="flex:1"><div class="x"><b>${esc(n.task.replace(/^Optional(ly)?:?\s*/i, ""))}</b></div><div class="w">${esc(n.who)}</div></div></div>`;
+  const td = n => `<div class="item"><div>⬜</div><div style="flex:1"><div class="x"><b>${n.rank ? `#${n.rank} · ` : ""}${esc(n.task.replace(/^Optional(ly)?:?\s*/i, ""))}</b></div><div class="w">${esc(n.who)}</div></div></div>`;
   $("todos").innerHTML = (core.length ? core.map(td).join("") : `<p class="empty">No core to-dos 🎉</p>`) +
     (opt.length ? `<details class="more"><summary>Optional (${opt.length})</summary>${opt.map(td).join("")}</details>` : "");
 

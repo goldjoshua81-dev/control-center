@@ -3,8 +3,8 @@
     "title": "Fresh $$ Control Center",
     "owner": "Joshua",
     "assistant": "Fresh $$",
-    "last_updated": "2026-10-03T21:10:54-07:00",
-    "status_note": "Morning Control Center refresh Oct 3, 2026 7:49 AM PT. PrintPlz Shop Manager: 48 active / 1 draft / 2 inactive; +26 overnight; 0 orders / $0 revenue; 28 views / 12 visits (7d). Printful card + samples confirmed; fulfillment green. HostFees: hostfees.com HTTP 200; Turno affiliate link live; pins 6/49; Hospitable bank + Turno password done. Amazon Associates still pending. Etsy Ads still planned Fri Oct 16 (~$3/day, $100/mo cap); $0 spend. Deal Scout research only; no overnight run. Actual revenue remains $0."
+    "last_updated": "2026-10-03T21:13:45-07:00",
+    "status_note": "Wrap-up Oct 3, 2026 evening PT. PrintPlzShop: 76 live, 0 orders; Halloween price raises 23/24 (TB1 pending); M12 + X27 ready, X28 in progress. websiteplz.com live. HostFees live, 9 of 49 pins. Mixup Recipes sold ($1,300). Other account: thefamilygems.com bought; Stocks Edge continues week 2; Sports Edge removed. Etsy Ads planned Fri Oct 16 (~$3/day, $100/mo cap); $0 ad spend. Actual revenue remains $0. Joshua's Oct 4 order: 1) Fiverr + Contra for WebsitePlz, 2) Amazon Associates, 3) unlock traffic tiles."
   },
   "budget": {
     "starting_capital": 1000,
@@ -58,14 +58,14 @@
       "type": "For-moms print-on-demand gifts: mom shirts, teacher shirts, kids stickers, holiday party items, ornaments",
       "platform": "Etsy + Printful",
       "status": "live",
-      "status_note": "Update Oct 3, 2026 ~2pm PT (Scott Bot): PrintPlzShop at 66 live listings, 0 orders. OPEN as PrintPlzShop. Live count from Etsy Shop Manager (morning refresh Oct 3): 48 active, 1 draft, 0 expired, 2 inactive, 0 sold out. +26 newly active overnight vs prior dashboard (22 active @ Oct 2 7:52 AM PT); prior 22 all still present. Last 7 days: 28 views, 12 visits, 0 orders, $0 revenue. Joshua confirmed Printful billing card added and PrintPlz samples ordered (Oct 2); fulfillment path green. Order-readiness 48/48 PASS; remaining blocked Printful variants are bot sync work, not Joshua approval. Margin table still covers the prior 22 with estimates; newer listings use Shop Manager titles without invented prices.",
+      "status_note": "Wrap-up Oct 3, 2026 evening PT: PrintPlzShop at 76 live listings, 0 orders. Halloween price raises 23 of 24 done (TB1 pending). M12 and X27 ready; X28 in progress. Earlier: OPEN as PrintPlzShop. Live count from Etsy Shop Manager (morning refresh Oct 3): 48 active, 1 draft, 0 expired, 2 inactive, 0 sold out. +26 newly active overnight vs prior dashboard (22 active @ Oct 2 7:52 AM PT); prior 22 all still present. Last 7 days: 28 views, 12 visits, 0 orders, $0 revenue. Joshua confirmed Printful billing card added and PrintPlz samples ordered (Oct 2); fulfillment path green. Order-readiness 48/48 PASS; remaining blocked Printful variants are bot sync work, not Joshua approval. Margin table still covers the prior 22 with estimates; newer listings use Shop Manager titles without invented prices.",
       "url": "https://www.etsy.com/shop/PrintPlzShop",
       "orders": 0,
       "revenue": 0,
       "profit": 0,
       "views": 28,
       "visits": 12,
-      "listings_live": 66,
+      "listings_live": 76,
       "listings_drafted": 1,
       "top_products": [
         {
@@ -357,7 +357,7 @@
           "price": "$14.99 free shipping"
         }
       ],
-      "one_liner": "Live on Etsy · 66 listings · 0 orders · Halloween order-by Oct 16"
+      "one_liner": "Live · 76 listings · 0 orders · price raises 23/24 (TB1 pending) · Halloween order-by Oct 16"
     },
     {
       "id": "shop-2",
@@ -622,13 +622,15 @@
       "task": "Complete the Amazon Associates application",
       "why": "Still not done as of Oct 2 confirmation; needed for HostFees gift-guide affiliate links.",
       "priority": "high",
-      "done": false
+      "done": false,
+      "rank": 2
     },
     {
       "task": "Create Fiverr and Contra seller accounts for WebsitePlz",
       "why": "Send the profile links to WebsitePlz; the site's Fiverr/Contra buttons stay hidden until then. Gig descriptions are already written.",
       "priority": "high",
-      "done": false
+      "done": false,
+      "rank": 1
     },
     {
       "task": "Optional: apply to Lodgify and OwnerRez affiliate programs",
@@ -636,6 +638,13 @@
       "priority": "low",
       "done": false,
       "optional": true
+    },
+    {
+      "task": "Unlock the traffic tiles",
+      "why": "Add the permission Account › Account Analytics › Read to the box's Cloudflare API token (HostFees visits), and turn on Cloudflare Web Analytics for websiteplz.com (automatic setup). Pinterest impressions need a browser read by a bot.",
+      "priority": "high",
+      "done": false,
+      "rank": 3
     }
   ],
   "projects": [
