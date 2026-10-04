@@ -507,6 +507,82 @@
     .hero .egg-mark { font-size: 22px; }
     .eagle { width: 64px; height: 64px; }
   }
+  .kings-board {
+    background: #120c1c;
+    color: white;
+    border: 3px solid #6d28a8;
+    border-radius: 18px;
+    padding: 14px;
+    margin: 12px 0;
+    box-shadow: inset 0 0 0 2px rgba(245, 197, 24, .4);
+  }
+  .kings-board h3 { margin: 0 0 8px; color: var(--gold); font-size: 16px; letter-spacing: .14em; }
+  .board-block + .board-block { margin-top: 12px; padding-top: 10px; border-top: 2px solid rgba(255,255,255,.15); }
+  .board-kicker { margin: 0; font-weight: 900; letter-spacing: .08em; color: #ffb4c4; font-size: 14px; }
+  .board-kicker.live { color: #ff5a7a; }
+  .board-match { margin: 2px 0; font-size: 26px; font-weight: 900; }
+  .board-score { margin: 0; font-size: 42px; font-weight: 900; color: var(--gold); letter-spacing: 1px; }
+  .board-meta, .kings-board .nap { margin: 4px 0 0; }
+  .win-beams {
+    position: fixed;
+    inset: 0;
+    z-index: 40;
+    pointer-events: none;
+    overflow: hidden;
+    background: rgba(10, 6, 24, .22);
+  }
+  #beam-canvas { position: absolute; inset: 0; width: 100%; height: 100%; }
+  .win-banner {
+    position: absolute;
+    left: 50%;
+    top: 12%;
+    transform: translateX(-50%);
+    margin: 0;
+    width: min(960px, 94vw);
+    text-align: center;
+    font-weight: 900;
+    font-size: clamp(36px, 8vw, 84px);
+    letter-spacing: .04em;
+    color: white;
+    text-shadow:
+      0 0 10px #fff,
+      3px 0 0 #ff2d55,
+      -3px 0 0 #3d8bff,
+      0 3px 0 #ffe14a,
+      0 -3px 0 #3dff8a,
+      0 0 24px #b56bff;
+  }
+  .win-note {
+    position: absolute;
+    left: 50%;
+    top: calc(12% + 96px);
+    transform: translateX(-50%);
+    margin: 0;
+    color: white;
+    font-weight: 800;
+    text-align: center;
+    text-shadow: 0 2px 0 #140c22;
+    width: min(640px, 92vw);
+  }
+  .tuck-beams {
+    position: absolute;
+    right: 12px;
+    bottom: 12px;
+    pointer-events: auto;
+    min-height: 48px;
+    background: white;
+    color: var(--navy);
+    border: 3px solid var(--navy);
+    border-radius: 999px;
+    padding: 10px 14px;
+    font-weight: 900;
+    box-shadow: 4px 4px 0 var(--red);
+  }
+  .win-banner { animation: beam-glow 2.4s ease-in-out infinite alternate; }
+  @keyframes beam-glow {
+    from { transform: translateX(-50%) scale(1); }
+    to { transform: translateX(-50%) scale(1.04); }
+  }
   @media (prefers-reduced-motion: reduce) {
     *, *::before, *::after {
       animation: none !important;
@@ -651,7 +727,16 @@
     <section class="panel" id="kings">
       <p class="kicker">KINGS</p>
       <h2>Light the beam</h2>
-      <p>When the Sacramento Kings win, the sky gets a purple beam. This one is pretend. Under that, tap a legend card. Stories only — no photos, no logos.</p>
+      <p>Real Kings score up here. When they win, rainbow beams stay until morning. The purple button is a practice beam you can light anytime. Legend cards are stories only — no photos, no logos.</p>
+      <div class="kings-board" id="kings-score" aria-live="polite">
+        <h3>KINGS SCOREBOARD</h3>
+        <p class="board-meta">Checking the Kings…</p>
+      </div>
+      <p id="dad-beam-demo" class="hidden">
+        <button class="check" id="dad-beam-demo-btn" type="button">Preview the win beams</button>
+        <span class="tiny">Dad only. A preview, not a saved win.</span>
+      </p>
+      <p id="show-beams-row" class="hidden"><button class="check" id="show-beams" type="button">Show the beams</button></p>
       <div class="beam-stage" id="beam-stage">
         <div class="beam"></div>
         <div class="hoop" aria-hidden="true"></div>
@@ -907,6 +992,12 @@
     <p class="footer-note">Toy scores and pretend games. Nothing you type here is sent anywhere.</p>
   </main>
 
+  <div id="win-beams" class="win-beams hidden" aria-hidden="true">
+    <canvas id="beam-canvas"></canvas>
+    <p class="win-banner">LIGHT THE BEAM</p>
+    <p class="win-note" id="win-note"></p>
+    <button class="tuck-beams" id="tuck-beams" type="button">Tuck the beams away</button>
+  </div>
   <div id="highfive" class="highfive hidden" aria-live="polite">High five!</div>
   <div id="confetti" aria-hidden="true"></div>
 
@@ -934,9 +1025,14 @@ function showApp(role) {
     : "Hi Avi. Math, your dog, every sport, and one very silly booth.";
   document.getElementById("dad-note").classList.toggle("hidden", role !== "dad");
   document.getElementById("dad-jump").classList.toggle("hidden", role !== "dad");
+  document.getElementById("dad-beam-demo").classList.toggle("hidden", role !== "dad");
+  if (role !== "dad") demoOn = false;
   sessionStorage.setItem("avi-fun-role", role);
   nextProblem();
   loadDog();
+  restoreWin();
+  if (!kingsStarted) { kingsStarted = true; loadKings(); }
+  syncCelebration();
 }
 
 document.getElementById("login-form").addEventListener("submit", async (e) => {
@@ -957,6 +1053,8 @@ document.getElementById("out").addEventListener("click", () => {
   app.classList.add("hidden");
   gate.classList.remove("hidden");
   document.getElementById("pass").value = "";
+  demoOn = false;
+  syncCelebration();
   window.scrollTo(0, 0);
 });
 
@@ -2266,9 +2364,415 @@ function runChessSelfTest() {
   return fails;
 }
 
+const KINGS_ID = "23";
+const KINGS_SCOREBOARD = "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard";
+const KINGS_SCHEDULE = "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/23/schedule";
+const WIN_KEY = "avi-kings-win";
+let demoOn = false;
+let tucked = false;
+let realWinActive = false;
+let kingsStarted = false;
+let kingsTimer = 0;
+let lastSeasonGames = null;
+let stopBeams = null;
+let sunriseTimer = 0;
+
+function pacificParts(date) {
+  const fmt = new Intl.DateTimeFormat("en-US", {
+    timeZone: "America/Los_Angeles",
+    year: "numeric", month: "2-digit", day: "2-digit",
+    hour: "2-digit", minute: "2-digit", hourCycle: "h23"
+  });
+  const out = {};
+  fmt.formatToParts(date).forEach(p => { if (p.type !== "literal") out[p.type] = p.value; });
+  return { y: +out.year, m: +out.month, d: +out.day, h: +out.hour, mi: +out.minute };
+}
+function addDaysYmd(ymd, n) {
+  const utc = new Date(Date.UTC(ymd.y, ymd.m - 1, ymd.d + n));
+  return { y: utc.getUTCFullYear(), m: utc.getUTCMonth() + 1, d: utc.getUTCDate() };
+}
+function zonedToDate(y, m, d, h, mi) {
+  let utc = Date.UTC(y, m - 1, d, h + 8, mi);
+  for (let i = 0; i < 4; i++) {
+    const got = pacificParts(new Date(utc));
+    const delta = Date.UTC(y, m - 1, d, h, mi) - Date.UTC(got.y, got.m - 1, got.d, got.h, got.mi);
+    if (delta === 0) break;
+    utc += delta;
+  }
+  return new Date(utc);
+}
+function dayOfYear(y, m, d) {
+  return Math.round((Date.UTC(y, m - 1, d) - Date.UTC(y, 0, 0)) / 86400000);
+}
+function sunriseOnPacificDate(ymd) {
+  try {
+    const n = dayOfYear(ymd.y, ymd.m, ymd.d);
+    const decl = 0.4093 * Math.sin((2 * Math.PI / 365) * (n - 81));
+    const lat = 38.5816 * Math.PI / 180;
+    const zen = 90.833 * Math.PI / 180;
+    const cosH = Math.cos(zen) / (Math.cos(lat) * Math.cos(decl)) - Math.tan(lat) * Math.tan(decl);
+    if (cosH > 1 || cosH < -1) return zonedToDate(ymd.y, ymd.m, ymd.d, 7, 0);
+    const H = Math.acos(cosH);
+    const b = 2 * Math.PI * (n - 81) / 364;
+    const eq = 9.87 * Math.sin(2 * b) - 7.53 * Math.cos(b) - 1.5 * Math.sin(b);
+    const lng = -121.4944;
+    const riseHours = 12 - lng / 15 - eq / 60 - (H * 180 / Math.PI) / 15;
+    if (!isFinite(riseHours)) return zonedToDate(ymd.y, ymd.m, ymd.d, 7, 0);
+    return new Date(Date.UTC(ymd.y, ymd.m - 1, ymd.d) + riseHours * 3600000);
+  } catch (e) {
+    return zonedToDate(ymd.y, ymd.m, ymd.d, 7, 0);
+  }
+}
+function nextSunriseAfter(ms) {
+  const ymd = pacificParts(new Date(ms));
+  let rise = sunriseOnPacificDate(ymd);
+  if (!(rise instanceof Date) || !isFinite(rise.getTime()) || rise.getTime() <= ms) {
+    const next = addDaysYmd(ymd, 1);
+    rise = sunriseOnPacificDate(next);
+  }
+  if (!(rise instanceof Date) || !isFinite(rise.getTime()) || rise.getTime() <= ms) {
+    const day = rise && rise.getTime() <= ms ? addDaysYmd(ymd, 1) : ymd;
+    return zonedToDate(day.y, day.m, day.d, 7, 0);
+  }
+  return rise;
+}
+function pacificDate(ms) {
+  return new Intl.DateTimeFormat("en-US", {
+    timeZone: "America/Los_Angeles", weekday: "short", month: "short", day: "numeric"
+  }).format(new Date(ms));
+}
+function pacificTime(ms) {
+  return new Intl.DateTimeFormat("en-US", {
+    timeZone: "America/Los_Angeles", hour: "numeric", minute: "2-digit"
+  }).format(new Date(ms));
+}
+function formatPacific(ms) {
+  return pacificDate(ms) + ", " + pacificTime(ms) + " Pacific";
+}
+function espnSeasonYear(date) {
+  const p = pacificParts(date);
+  return p.m >= 9 ? p.y + 1 : p.y;
+}
+function rawScore(comp) {
+  const s = comp && comp.score;
+  if (s == null) return { n: null, text: "" };
+  if (typeof s === "object") {
+    const n = s.value == null ? null : Number(s.value);
+    const text = s.displayValue != null ? String(s.displayValue) : (isFinite(n) ? String(Math.round(n)) : "");
+    return { n: isFinite(n) ? n : null, text };
+  }
+  const n = Number(s);
+  return { n: isFinite(n) ? n : null, text: String(s) };
+}
+function parseKingsEvent(raw) {
+  const comp = raw && raw.competitions && raw.competitions[0];
+  if (!comp) return null;
+  const teams = comp.competitors || [];
+  const kings = teams.find(t => t.team && (String(t.team.id) === KINGS_ID || t.team.abbreviation === "SAC"));
+  const opp = teams.find(t => t !== kings);
+  if (!kings || !opp) return null;
+  const type = (comp.status && comp.status.type) || {};
+  const state = type.state || "pre";
+  const statusName = String(type.name || "");
+  const skipped = /POSTPON|CANCEL|SUSPEND/.test(statusName);
+  const time = Date.parse(raw.date);
+  const ks = rawScore(kings);
+  const os = rawScore(opp);
+  let kingsWon = false;
+  if (state === "post" && type.completed && !skipped) {
+    if (kings.winner === true) kingsWon = true;
+    else if (kings.winner === false) kingsWon = false;
+    else if (ks.n != null && os.n != null) kingsWon = ks.n > os.n;
+  }
+  let clock = type.shortDetail || type.detail || "";
+  if (state === "in") {
+    const period = comp.status.period;
+    const clk = comp.status.displayClock;
+    if ((!clock || clock === "In Progress") && period && clk && clk !== "0.0") {
+      const q = period <= 4 ? "Q" + period : (period === 5 ? "OT" : "OT" + (period - 4));
+      clock = q + " · " + clk;
+    }
+  }
+  if (state === "post" && !clock) clock = "Final";
+  return {
+    id: String(raw.id),
+    state,
+    time,
+    completed: !!type.completed,
+    skipped,
+    kingsWon,
+    kingsScore: ks.text,
+    oppScore: os.text,
+    opp: opp.team.shortDisplayName || opp.team.displayName || "Opponent",
+    where: kings.homeAway === "home" ? "vs" : "@",
+    clock
+  };
+}
+function readWin() {
+  try {
+    const data = JSON.parse(localStorage.getItem(WIN_KEY) || "null");
+    if (!data || !data.gameId || !data.expiresAt) return null;
+    return data;
+  } catch (e) {
+    return null;
+  }
+}
+function restoreWin() {
+  const saved = readWin();
+  realWinActive = !!(saved && Date.now() < saved.expiresAt);
+  clearTimeout(sunriseTimer);
+  if (realWinActive) {
+    const wait = Math.max(0, saved.expiresAt - Date.now());
+    sunriseTimer = setTimeout(() => {
+      realWinActive = false;
+      syncCelebration();
+    }, Math.min(wait, 2147483647));
+  }
+}
+function armWin(game) {
+  const saved = readWin();
+  if (!saved || saved.gameId !== game.id) {
+    try {
+      localStorage.setItem(WIN_KEY, JSON.stringify({
+        gameId: game.id,
+        expiresAt: nextSunriseAfter(game.time).getTime()
+      }));
+    } catch (e) { /* private mode can block storage */ }
+  }
+  restoreWin();
+  syncCelebration();
+}
+function startBeams() {
+  const canvas = document.getElementById("beam-canvas");
+  const ctx = canvas.getContext("2d");
+  if (!ctx) return function () {};
+  const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  let raf = 0;
+  let running = true;
+  function resize() {
+    const dpr = Math.min(window.devicePixelRatio || 1, 2);
+    canvas.width = Math.floor(window.innerWidth * dpr);
+    canvas.height = Math.floor(window.innerHeight * dpr);
+  }
+  function frame(t) {
+    if (!running) return;
+    const w = canvas.width, h = canvas.height;
+    ctx.clearRect(0, 0, w, h);
+    ctx.save();
+    ctx.globalCompositeOperation = "lighter";
+    const ox = w * 0.5, oy = h * 1.02;
+    for (let i = 0; i < 9; i++) {
+      const sweep = reduce ? 0 : Math.sin(t / 700 + i * 0.7) * 0.42;
+      const ang = -Math.PI / 2 + (i - 4) * 0.16 + sweep;
+      const hue = (t / 18 + i * 36) % 360;
+      ctx.save();
+      ctx.translate(ox, oy);
+      ctx.rotate(ang);
+      const grad = ctx.createLinearGradient(0, 0, 0, -h);
+      grad.addColorStop(0, "hsla(" + hue + ", 100%, 62%, 0)");
+      grad.addColorStop(0.12, "hsla(" + hue + ", 100%, 64%, 0.85)");
+      grad.addColorStop(1, "hsla(" + ((hue + 50) % 360) + ", 100%, 70%, 0)");
+      ctx.fillStyle = grad;
+      ctx.beginPath();
+      ctx.moveTo(-10, 0);
+      ctx.lineTo(10, 0);
+      ctx.lineTo(w * 0.11, -h);
+      ctx.lineTo(-w * 0.11, -h);
+      ctx.closePath();
+      ctx.fill();
+      ctx.strokeStyle = "hsla(" + hue + ", 100%, 96%, 0.9)";
+      ctx.lineWidth = Math.max(3, w * 0.004);
+      ctx.beginPath();
+      ctx.moveTo(0, 0);
+      ctx.lineTo(0, -h);
+      ctx.stroke();
+      ctx.restore();
+    }
+    ctx.restore();
+    if (!reduce && !document.hidden) raf = requestAnimationFrame(frame);
+  }
+  function onResize() { resize(); if (reduce) frame(0); }
+  resize();
+  window.addEventListener("resize", onResize);
+  if (reduce) frame(0);
+  else raf = requestAnimationFrame(frame);
+  function onVis() {
+    if (!running || reduce) return;
+    if (!document.hidden) raf = requestAnimationFrame(frame);
+  }
+  document.addEventListener("visibilitychange", onVis);
+  return function () {
+    running = false;
+    cancelAnimationFrame(raf);
+    window.removeEventListener("resize", onResize);
+    document.removeEventListener("visibilitychange", onVis);
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+  };
+}
+function syncCelebration() {
+  const open = !app.classList.contains("hidden");
+  const armed = demoOn || realWinActive;
+  const show = open && !tucked && armed;
+  const layer = document.getElementById("win-beams");
+  layer.classList.toggle("hidden", !show);
+  layer.setAttribute("aria-hidden", show ? "false" : "true");
+  document.getElementById("win-note").textContent = realWinActive
+    ? "The Kings won. Rainbow beams stay until morning."
+    : "Preview. This is the rainbow party for a Kings win.";
+  document.getElementById("show-beams-row").classList.toggle("hidden", !(open && tucked && armed));
+  const demoBtn = document.getElementById("dad-beam-demo-btn");
+  if (demoBtn) demoBtn.textContent = demoOn ? "Hide the beam preview" : "Preview the win beams";
+  if (show && !stopBeams) stopBeams = startBeams();
+  if (!show && stopBeams) { stopBeams(); stopBeams = null; }
+}
+function renderNap() {
+  const root = document.getElementById("kings-score");
+  root.replaceChildren();
+  const h = document.createElement("h3");
+  h.textContent = "KINGS SCOREBOARD";
+  const p = document.createElement("p");
+  p.className = "nap";
+  p.textContent = "Scores are taking a nap. Try again in a bit.";
+  root.append(h, p);
+}
+function renderScore(games) {
+  const root = document.getElementById("kings-score");
+  root.replaceChildren();
+  const h = document.createElement("h3");
+  h.textContent = "KINGS SCOREBOARD";
+  root.appendChild(h);
+  const now = Date.now();
+  const live = games.find(g => g.state === "in");
+  const past = games.filter(g => g.state === "post" && isFinite(g.time)).sort((a, b) => b.time - a.time);
+  const upcoming = games.filter(g => g.state === "pre" && isFinite(g.time) && g.time >= now - 30 * 60 * 1000).sort((a, b) => a.time - b.time);
+  const featured = live || past[0] || upcoming[0] || null;
+  const next = upcoming.find(g => !featured || g.id !== featured.id) || null;
+  if (!featured && !next) {
+    const p = document.createElement("p");
+    p.className = "board-meta";
+    p.textContent = "No Kings game on the board yet.";
+    root.appendChild(p);
+    return;
+  }
+  if (featured) {
+    const block = document.createElement("div");
+    block.className = "board-block";
+    const kicker = document.createElement("p");
+    kicker.className = "board-kicker" + (featured.state === "in" ? " live" : "");
+    kicker.textContent = featured.state === "in" ? "LIVE" : (featured.state === "post" ? "LAST GAME" : "UP NEXT");
+    const match = document.createElement("p");
+    match.className = "board-match";
+    match.textContent = "Kings " + featured.where + " " + featured.opp;
+    block.append(kicker, match);
+    if (featured.state === "in" || featured.state === "post") {
+      const score = document.createElement("p");
+      score.className = "board-score";
+      score.textContent = (featured.kingsScore || "–") + "–" + (featured.oppScore || "–");
+      block.appendChild(score);
+    }
+    const meta = document.createElement("p");
+    meta.className = "board-meta";
+    if (featured.state === "pre") meta.textContent = formatPacific(featured.time);
+    else meta.textContent = (featured.clock || "Final") + " · " + pacificDate(featured.time);
+    block.appendChild(meta);
+    root.appendChild(block);
+  }
+  if (next) {
+    const block = document.createElement("div");
+    block.className = "board-block";
+    const kicker = document.createElement("p");
+    kicker.className = "board-kicker";
+    kicker.textContent = "NEXT GAME";
+    const match = document.createElement("p");
+    match.className = "board-match";
+    match.textContent = "Kings " + next.where + " " + next.opp;
+    const meta = document.createElement("p");
+    meta.className = "board-meta";
+    meta.textContent = formatPacific(next.time);
+    block.append(kicker, match, meta);
+    root.appendChild(block);
+  }
+}
+function dedupeGames(rawEvents) {
+  const byId = new Map();
+  rawEvents.forEach(raw => {
+    const game = parseKingsEvent(raw);
+    if (!game || !game.id) return;
+    const prev = byId.get(game.id);
+    if (!prev || game.state === "in" || (prev.state !== "in" && game.state === "post")) byId.set(game.id, game);
+  });
+  return [...byId.values()];
+}
+async function fetchJson(url) {
+  const res = await fetch(url, { cache: "no-store", credentials: "omit", referrerPolicy: "no-referrer" });
+  if (!res.ok) throw new Error("status " + res.status);
+  return res.json();
+}
+function scheduleKings(ms) {
+  clearTimeout(kingsTimer);
+  kingsTimer = setTimeout(loadKings, ms);
+}
+async function loadKings() {
+  let board = null;
+  let sched = null;
+  try {
+    const pair = await Promise.all([
+      fetchJson(KINGS_SCOREBOARD).catch(() => null),
+      fetchJson(KINGS_SCHEDULE).catch(() => null)
+    ]);
+    board = pair[0];
+    sched = pair[1];
+    if (!board && !sched) throw new Error("unreachable");
+    let raw = [];
+    if (sched && sched.events) raw = raw.concat(sched.events);
+    if (board && board.events) raw = raw.concat(board.events);
+    let games = dedupeGames(raw);
+    const needsHistory = !games.some(g => g.state === "post" || g.state === "in");
+    if (needsHistory) {
+      if (!lastSeasonGames) {
+        try {
+          const year = (board && board.season && board.season.year) || espnSeasonYear(new Date());
+          const hist = await fetchJson(KINGS_SCHEDULE + "?season=" + (year - 1) + "&seasontype=2");
+          lastSeasonGames = dedupeGames(hist.events || []);
+        } catch (err) {
+          lastSeasonGames = null;
+        }
+      }
+      if (lastSeasonGames && lastSeasonGames.length) {
+        const merged = new Map(games.map(g => [g.id, g]));
+        lastSeasonGames.forEach(g => { if (!merged.has(g.id)) merged.set(g.id, g); });
+        games = [...merged.values()];
+      }
+    }
+    renderScore(games);
+    const latest = games.filter(g => g.state === "post" && g.completed && !g.skipped && isFinite(g.time)).sort((a, b) => b.time - a.time)[0];
+    if (latest && latest.kingsWon) armWin(latest);
+    else { restoreWin(); syncCelebration(); }
+    const live = games.some(g => g.state === "in");
+    scheduleKings(live ? 45000 : 5 * 60 * 1000);
+  } catch (e) {
+    renderNap();
+    scheduleKings(60000);
+  }
+}
+document.getElementById("dad-beam-demo-btn").addEventListener("click", () => {
+  demoOn = !demoOn;
+  if (demoOn) tucked = false;
+  syncCelebration();
+});
+document.getElementById("tuck-beams").addEventListener("click", () => {
+  tucked = true;
+  syncCelebration();
+});
+document.getElementById("show-beams").addEventListener("click", () => {
+  tucked = false;
+  syncCelebration();
+});
+
 window.__avi = {
   newGame, emptyState, place, legalMovesFrom, applyMove, statusOf, inCheck,
-  sqToRc, rcToSq, setupPuzzle, PUZZLES, GEMS, runChessSelfTest, showGem, findGem
+  sqToRc, rcToSq, setupPuzzle, PUZZLES, GEMS, runChessSelfTest, showGem, findGem,
+  nextSunriseAfter, parseKingsEvent, formatPacific, pacificDate, pacificTime
 };
 
 const saved = sessionStorage.getItem("avi-fun-role");
