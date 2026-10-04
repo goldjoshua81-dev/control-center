@@ -3,7 +3,7 @@
     "title": "Fresh $$ Control Center",
     "owner": "Joshua",
     "assistant": "Fresh $$",
-    "last_updated": "2026-10-04T08:19:27-07:00",
+    "last_updated": "2026-10-04T08:21:21-07:00",
     "status_note": "Morning refresh Oct 4, 2026 ~8:02 AM PT. PrintPlzShop: 79 live (Shop Manager; +3 overnight vs Oct 3 evening 76; +31 vs Oct 3 morning 48), 1 draft, 3 inactive, 0 orders / $0 revenue; last 7d 38 views / 16 visits. Local Progress note (not live count): P9/X25/X26/P10/M12/X27/X28 published; X29 inactive; K6/K7 HOLD; Halloween price raises 23/24 (TB1 pending); Etsy Ads planned Oct 16. hostfees.com HTTP 200; websiteplz.com HTTP 200; HostFees pins still 9 of 49 (morning drip ~10:06 AM not yet). Deal Scout: no Oct 4 run; research only. Actual revenue remains $0. Joshua's priority order unchanged: 1) Fiverr + Contra for WebsitePlz, 2) Amazon Associates, 3) unlock traffic tiles. Chief of Staff Oct 3 roll-up added: WebsitePlz details, websiteplz.com + sitesplz.com spend/renewals, decisions pending, ordered waiting-on list."
   },
   "budget": {
@@ -51,13 +51,13 @@
       },
       {
         "date": "2026-10-03",
-        "what": "websiteplz.com domain (1 year, Cloudflare at cost; card ending 6030)",
+        "what": "websiteplz.com domain (1 year, Cloudflare at cost; Cloudflare card on file)",
         "lane": "WebsitePlz",
         "amount": 10.46
       },
       {
         "date": "2026-10-03",
-        "what": "sitesplz.com domain (1 year, Cloudflare at cost; card ending 6030)",
+        "what": "sitesplz.com domain (1 year, Cloudflare at cost; Cloudflare card on file)",
         "lane": "WebsitePlz",
         "amount": 10.46
       },
@@ -1676,12 +1676,12 @@
     {
       "item": "websiteplz.com domain",
       "amount": "$10.46/yr",
-      "when": "Bought Oct 3, 2026 · renews Oct 3, 2027 (auto-renew on, card ending 6030)"
+      "when": "Bought Oct 3, 2026 · renews Oct 3, 2027 (auto-renew on, Cloudflare card on file)"
     },
     {
       "item": "sitesplz.com domain (redirects to websiteplz.com)",
       "amount": "$10.46/yr",
-      "when": "Bought Oct 3, 2026 · renews Oct 3, 2027 (auto-renew on, card ending 6030)"
+      "when": "Bought Oct 3, 2026 · renews Oct 3, 2027 (auto-renew on, Cloudflare card on file)"
     }
   ],
   "traffic_sources": [
