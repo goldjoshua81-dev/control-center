@@ -3,8 +3,8 @@
     "title": "Fresh $$ Control Center",
     "owner": "Joshua",
     "assistant": "Fresh $$",
-    "last_updated": "2026-10-04T08:21:21-07:00",
-    "status_note": "Morning refresh Oct 4, 2026 ~8:02 AM PT. PrintPlzShop: 79 live (Shop Manager; +3 overnight vs Oct 3 evening 76; +31 vs Oct 3 morning 48), 1 draft, 3 inactive, 0 orders / $0 revenue; last 7d 38 views / 16 visits. Local Progress note (not live count): P9/X25/X26/P10/M12/X27/X28 published; X29 inactive; K6/K7 HOLD; Halloween price raises 23/24 (TB1 pending); Etsy Ads planned Oct 16. hostfees.com HTTP 200; websiteplz.com HTTP 200; HostFees pins still 9 of 49 (morning drip ~10:06 AM not yet). Deal Scout: no Oct 4 run; research only. Actual revenue remains $0. Joshua's priority order unchanged: 1) Fiverr + Contra for WebsitePlz, 2) Amazon Associates, 3) unlock traffic tiles. Chief of Staff Oct 3 roll-up added: WebsitePlz details, websiteplz.com + sitesplz.com spend/renewals, decisions pending, ordered waiting-on list."
+    "last_updated": "2026-10-04T18:14:25-07:00",
+    "status_note": "Morning refresh Oct 4, 2026 ~8:02 AM PT. PrintPlzShop: 79 live (Shop Manager; +3 overnight vs Oct 3 evening 76; +31 vs Oct 3 morning 48), 1 draft, 3 inactive, 0 orders / $0 revenue; last 7d 38 views / 16 visits. Local Progress note (not live count): P9/X25/X26/P10/M12/X27/X28 published; X29 reactivated 9:45 AM PT (PrintPlz polish log; 79 is the 8:02 AM Shop Manager count, not re-read since); K6/K7 HOLD; Halloween price raises 23/24 (TB1 pending); Etsy Ads planned Oct 16. hostfees.com HTTP 200; websiteplz.com HTTP 200; HostFees pins 12 of 49 (posted-pins log; 3 more posted Oct 4 AM). Deal Scout ran Oct 2, 3 and 4; latest run Sun Oct 4 (~8:01–8:25 AM PT, ~390 listings), top pick bottes-presso.fr; research only. Actual revenue remains $0. Joshua's priority order unchanged: 1) Fiverr + Contra for WebsitePlz, 2) Amazon Associates, 3) unlock traffic tiles. Chief of Staff Oct 3 roll-up added: WebsitePlz details, websiteplz.com + sitesplz.com spend/renewals, decisions pending, ordered waiting-on list. Evening fix Oct 4 ~6 PM PT: lane files rechecked; PrintPlz order check 1:43 PM PT found 0 orders."
   },
   "budget": {
     "starting_capital": 1000,
@@ -76,7 +76,7 @@
       "type": "For-moms print-on-demand gifts: mom shirts, teacher shirts, kids stickers, holiday party items, ornaments",
       "platform": "Etsy + Printful",
       "status": "live",
-      "status_note": "Morning Oct 4, 2026 ~8:02 AM PT: PrintPlzShop Shop Manager 79 active / 1 draft / 0 expired / 3 inactive / 0 sold out; 0 orders / $0. Last 7d dashboard: 38 views / 16 visits. +3 overnight vs Oct 3 evening wrap-up (76); +31 vs Oct 3 morning (48). Local note: P9/X25/X26/P10/M12/X27/X28 published; X29 inactive; K6/K7 HOLD; Halloween price raises 23/24 (TB1 pending); Etsy Ads planned Oct 16. Offsite Ads off. Chief of Staff Oct 3 roll-up: audit and price raises are live; X29 deactivated; new builds ON HOLD per Joshua.",
+      "status_note": "Morning Oct 4, 2026 ~8:02 AM PT: PrintPlzShop Shop Manager 79 active / 1 draft / 0 expired / 3 inactive / 0 sold out; 0 orders / $0. Last 7d dashboard: 38 views / 16 visits. +3 overnight vs Oct 3 evening wrap-up (76); +31 vs Oct 3 morning (48). Local note: P9/X25/X26/P10/M12/X27/X28 published; X29 reactivated 9:45 AM PT with new photos (polish log; Shop Manager not re-read since 8:02 AM); K6/K7 HOLD; Halloween price raises 23/24 (TB1 pending); Etsy Ads planned Oct 16. Offsite Ads off. Chief of Staff Oct 3 roll-up: audit and price raises are live; X29 since reactivated (Oct 4 9:45 AM PT); new builds ON HOLD per Joshua. Order check Oct 4 1:43 PM PT: 0 Etsy orders, 0 Printful drafts/attention.",
       "url": "https://www.etsy.com/shop/PrintPlzShop",
       "orders": 0,
       "revenue": 0,
@@ -623,7 +623,7 @@
       "spend": 0,
       "attributed_revenue": 0,
       "orders": 0,
-      "plan": "hostfees.com claimed; 9 of 49 pins live (posted-pins log, Oct 3); daily routine posts 3 each morning at 10:06 AM PT; $0 spent."
+      "plan": "hostfees.com claimed; 12 of 49 pins live (posted-pins log, Oct 4); daily routine posts 3 each morning at 10:06 AM PT; $0 spent."
     }
   ],
   "experiments": [
@@ -733,8 +733,8 @@
     }
   ],
   "acquisitions": {
-    "note": "Watch only. Figures are seller/listing claims or research notes, not verified by us. No accounts, bids, offers, seller contact, purchases or acquisitions. Shortlist unchanged: bottes-presso, Mixup (sold), Rewired stretch, Marble Tracks, Letras Bonitas. About 380 listings reviewed (Chief of Staff, Oct 3); bottes-presso.fr is still the top pick.",
-    "source": "Deal Scout 2026-10-01 run and shortlist; files on disk; no Oct 4 Deal Scout run; no new overnight Deal Scout run Oct 2–4",
+    "note": "Watch only. Figures are seller/listing claims or research notes, not verified by us. No accounts, bids, offers, seller contact, purchases or acquisitions. Latest Deal Scout run Sun Oct 4: top pick bottes-presso.fr (unchanged), then Marble Tracks, Rewired (stretch), Letras Bonitas Hub; Mixup sold.",
+    "source": "Deal Scout run files 2026-10-02, 10-03 and 10-04 (latest: 2026-10-04-run.md, ~8:01–8:25 AM PT)",
     "watchlist": [
       {
         "name": "bottes-presso.fr",
@@ -751,7 +751,7 @@
       },
       {
         "name": "Rewired iOS app",
-        "price": "$6,500 stretch",
+        "price": "$6,500 stretch (12 offers; 30d revenue $733, Oct 4)",
         "status": "stretch",
         "fits_budget": false
       },
@@ -888,7 +888,7 @@
       "type": "Short-term-rental fee calculators, explainers, and gift guides",
       "status": "live",
       "url": "https://hostfees.com",
-      "status_note": "Renamed from HostSums. LIVE at hostfees.com (HTTP 200 reconfirmed morning of Oct 4, 2026). Latest live audit records 27 pages: 5 calculators, 3 gift guides and 10 fee explainers. hostfees.com is claimed on Pinterest (verified); 9 of 49 pins are live (morning drip ~10:06 AM PT not yet as of ~8:02 AM). Turno affiliate link live; Amazon Associates still not done; traffic tiles still locked (no invented HostFees visit numbers). Lodgify affiliate application pending (Chief of Staff, Oct 3).",
+      "status_note": "Renamed from HostSums. LIVE at hostfees.com (HTTP 200 reconfirmed morning of Oct 4, 2026). Latest live audit records 27 pages: 5 calculators, 3 gift guides and 10 fee explainers. hostfees.com is claimed on Pinterest (verified); 12 of 49 pins are live (posted-pins log; 3 posted each day Oct 1–4, latest Oct 4 AM). Turno affiliate link live; Amazon Associates still not done; traffic tiles still locked (no invented HostFees visit numbers). Lodgify affiliate application pending (Chief of Staff, Oct 3).",
       "pages": 27,
       "calculators": 5,
       "gift_guides": 3,
@@ -896,12 +896,12 @@
       "pins_ready": 49,
       "revenue": 0,
       "profit": 0,
-      "pins_published": 9,
+      "pins_published": 12,
       "pin_routine": "3 each morning at 10:06 AM PT",
       "pinterest_claimed": true,
       "turno_status": "live; affiliate link on hostfees.com (https://share.turno.com/69pllwz)",
       "hostaway_status": "declined for now; revisit in 4–6 weeks with traffic numbers",
-      "one_liner": "Live at hostfees.com (HTTP 200 Oct 4 AM) · 9 of 49 pins · Turno link live · Amazon Associates pending · Lodgify pending · $0 revenue"
+      "one_liner": "Live at hostfees.com (HTTP 200 Oct 4 AM) · 12 of 49 pins · Turno link live · Amazon Associates pending · Lodgify pending · $0 revenue"
     },
     {
       "id": "deal-scout",
@@ -909,11 +909,11 @@
       "type": "Business acquisition research",
       "status": "research only",
       "url": "",
-      "status_note": "Research only. No Oct 4 Deal Scout run. The Oct 1 run refreshed 305 Flippa cards and ranked 17 candidates; current top slate remains bottes-presso, Mixup Recipes (sold), Rewired (stretch), Marble Tracks and Letras Bonitas Hub. No overnight Deal Scout run recorded for Oct 2–4. No accounts, bids, offers, seller contact, or purchases. Chief of Staff Oct 3 roll-up: about 380 listings reviewed so far; bottes-presso.fr is still the top pick; Mixup Recipes sold for $1,300.",
+      "status_note": "Research only. Daily runs on disk: Oct 2 (~8:10 AM PT), Oct 3 (~7:59 AM PT) and Oct 4 (~8:14 AM PT). Latest run Sun Oct 4 (~8:01–8:25 AM PT): ~390 listings reviewed (305 Flippa cards; 14 new, 8 gone), 19 ranked. Top pick: bottes-presso.fr ($4,547 ask, €1,342/mo listed, score 4.05, unchanged), then Marble Tracks, Rewired (stretch), Letras Bonitas Hub and SEO Supremacy. New this run: jobzsa.net (#7) and AllRadio.net (#12). Mixup Recipes sold for $1,300. No alert-worthy listing closing within 48 hours. No accounts, bids, offers, seller contact, or purchases.",
       "budget_limit": "$5,000",
       "revenue": 0,
       "profit": 0,
-      "one_liner": "Research only · ~380 listings reviewed · top pick bottes-presso.fr · Mixup sold $1,300 · watching Objectif Évasion + Crypto Dist (end ~Oct 9)"
+      "one_liner": "Research only · latest run Oct 4 (~390 listings) · top pick bottes-presso.fr · watching Objectif Évasion + Crypto Dist (end ~Oct 9)"
     },
     {
       "id": "websiteplz",
