@@ -1,18 +1,25 @@
 {
   "source": "Etsy Shop Manager (box browser computerUse) https://www.etsy.com/your/shops/me/tools/listings + orders/sold + dashboard",
-  "checked_at": "2026-10-04T08:02:00-07:00",
-  "checked_at_pt": "Oct 4, 2026 8:02 AM PT",
+  "checked_at": "2026-10-05T09:00:00-07:00",
+  "checked_at_pt": "Oct 5, 2026 ~8:56-9:00 AM PT",
   "shop": "PrintPlzShop",
-  "active_count": 79,
+  "active_count": 80,
   "draft_count": 1,
   "expired_count": 0,
-  "inactive_count": 3,
+  "inactive_count": 2,
   "orders": 0,
   "revenue": 0,
-  "views_7d": 38,
-  "visits_7d": 16,
-  "note": "Shop Manager: 79 active / 1 draft / 0 expired / 3 inactive / 0 sold out. Orders page empty (0). Dashboard last 7 days: 38 views / 16 visits. vs Oct 3 evening wrap-up 76 live: +3 overnight. vs Oct 3 morning Shop Manager 48: +31. Actual revenue $0.",
+  "views_7d": 30,
+  "visits_7d": 23,
+  "note": "Shop Manager Oct 5 ~9:00 AM PT: 80 active / 1 draft / 0 expired / 2 inactive / 0 sold out. Orders: 0 new, 0 completed (last 30 days), 0 unread messages. Stats last 7 days (Sep 29 - Oct 5): 30 listing views / 23 visits, 0 orders, $0. vs Oct 4 8:02 AM Shop Manager 79 active: +1 (X29 relisted Oct 4 9:45 AM PT), matching the 80 in the Oct 4 roll-up. Inactive 3 -> 2. Visits by day Oct 1-5: 1, 7, 7, 6, 2. 0 visits from Etsy Search yet. Actual revenue $0.",
   "active_listings": [
+    {
+      "concept_id": "X29",
+      "listing_id": "4588141985",
+      "url": "https://www.etsy.com/listing/4588141985",
+      "title": "Nurse Ornament Personalized Wood Heart, Custom Name Credential Christmas Keepsake",
+      "section": "Holidays"
+    },
     {
       "concept_id": "X28",
       "listing_id": "4588143178",
@@ -565,6 +572,30 @@
       "url": "https://www.etsy.com/listing/4586652265",
       "title": "Little Ghosts On Board Halloween Car Magnet, Spooky Season Decor",
       "section": "Holidays"
+    }
+  ],
+  "sold_out_count": 0,
+  "stats_window": "Last 7 Days: Sep 29 - Oct 5 (Etsy says refreshed ~7 hours before the read)",
+  "visits_today": 2,
+  "traffic_sources_7d": {
+    "direct_referral": 14,
+    "etsy_app_pages": 8,
+    "social": 1,
+    "etsy_search": 0,
+    "etsy_ads": 0
+  },
+  "top_viewed": [
+    {
+      "title": "Pet Name Mug",
+      "views": 7
+    },
+    {
+      "title": "From Santa gift tag stickers",
+      "views": 5
+    },
+    {
+      "title": "Our First Christmas ornament",
+      "views": 3
     }
   ]
 }
