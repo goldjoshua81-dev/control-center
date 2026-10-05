@@ -3,8 +3,8 @@
     "title": "Fresh $$ Control Center",
     "owner": "Joshua",
     "assistant": "Fresh $$",
-    "last_updated": "2026-10-04T21:16:44-07:00",
-    "status_note": "Morning refresh Oct 4, 2026 ~8:02 AM PT. PrintPlzShop: 79 live (Shop Manager; +3 overnight vs Oct 3 evening 76; +31 vs Oct 3 morning 48), 1 draft, 3 inactive, 0 orders / $0 revenue; last 7d 38 views / 16 visits. Local Progress note (not live count): P9/X25/X26/P10/M12/X27/X28 published; X29 reactivated 9:45 AM PT (PrintPlz polish log; 79 is the 8:02 AM Shop Manager count, not re-read since); K6/K7 HOLD; Halloween price raises 23/24 (TB1 pending); Etsy Ads planned Oct 16. hostfees.com HTTP 200; websiteplz.com HTTP 200; HostFees pins 12 of 49 (posted-pins log; 3 more posted Oct 4 AM). Deal Scout ran Oct 2, 3 and 4; latest run Sun Oct 4 (~8:01–8:25 AM PT, ~390 listings), top pick bottes-presso.fr; research only. Actual revenue remains $0. Joshua's priority order unchanged: 1) Fiverr + Contra for WebsitePlz, 2) Amazon Associates, 3) unlock traffic tiles. Chief of Staff Oct 3 roll-up added: WebsitePlz details, websiteplz.com + sitesplz.com spend/renewals, decisions pending, ordered waiting-on list. Evening fix Oct 4 ~6 PM PT: lane files rechecked; PrintPlz order check 1:43 PM PT found 0 orders."
+    "last_updated": "2026-10-04T21:44:47-07:00",
+    "status_note": "Nightly update Oct 4, 2026 ~9:45 PM PT (Chief of Staff Oct 4 roll-up + lane files). PrintPlz: 80 live per roll-up (Shop Manager recheck in the morning refresh), 0 orders, both audits passed, build hold on. WebsitePlz: sales upgrade live (See-It-First, 50% deposits, legal pages); \"Booking-ready\" package name decided. HostFees: 12 of 49 pins (posted-pins log), Lodgify pending, weekly check-up Mon 8:47 AM. Deal Scout: latest run Oct 4, ~390 listings, top pick bottes-presso.fr, nothing alert-worthy. Actual revenue $0. Joshua's order: 1) Fiverr + Contra, 2) Amazon Associates, 3) traffic tiles; then Stripe deposit links, legal-page review, Relay $300, beehiiv, P.O. box, hello@ inbox."
   },
   "budget": {
     "starting_capital": 1000,
@@ -76,14 +76,14 @@
       "type": "For-moms print-on-demand gifts: mom shirts, teacher shirts, kids stickers, holiday party items, ornaments",
       "platform": "Etsy + Printful",
       "status": "live",
-      "status_note": "Morning Oct 4, 2026 ~8:02 AM PT: PrintPlzShop Shop Manager 79 active / 1 draft / 0 expired / 3 inactive / 0 sold out; 0 orders / $0. Last 7d dashboard: 38 views / 16 visits. +3 overnight vs Oct 3 evening wrap-up (76); +31 vs Oct 3 morning (48). Local note: P9/X25/X26/P10/M12/X27/X28 published; X29 reactivated 9:45 AM PT with new photos (polish log; Shop Manager not re-read since 8:02 AM); K6/K7 HOLD; Halloween price raises 23/24 (TB1 pending); Etsy Ads planned Oct 16. Offsite Ads off. Chief of Staff Oct 3 roll-up: audit and price raises are live; X29 since reactivated (Oct 4 9:45 AM PT); new builds ON HOLD per Joshua. Order check Oct 4 1:43 PM PT: 0 Etsy orders, 0 Printful drafts/attention.",
+      "status_note": "80 live per Oct 4 roll-up (not re-read in Shop Manager tonight; morning refresh will verify). Shop Manager last read Oct 4 ~8:02 AM PT: 79 active / 1 draft / 3 inactive; X29 was redesigned and relisted 9:45 AM PT, which makes 80. 0 orders / $0 (order check 6:51 PM PT: 0 Etsy orders, 0 Printful drafts). Both audits passed (PM loop: 54/54 Printful sync OK; public spot-check PASS on X29, M7, M8, TC10). New photos on the family photo puzzle (M8) and tree skirt (M7). Build hold still on (no new listings; K6/K7 unpublished). Last 7d (8:02 AM): 38 views / 16 visits. Halloween price raises 23/24 (TB1 pending); Etsy Ads planned Oct 16. Offsite Ads off.",
       "url": "https://www.etsy.com/shop/PrintPlzShop",
       "orders": 0,
       "revenue": 0,
       "profit": 0,
       "views": 38,
       "visits": 16,
-      "listings_live": 79,
+      "listings_live": 80,
       "listings_drafted": 1,
       "top_products": [
         {
@@ -561,7 +561,7 @@
           "price": "see listing"
         }
       ],
-      "one_liner": "Live · 79 listings (Shop Manager) · 0 orders · 38 views / 16 visits 7d · price raises 23/24 (TB1 pending) · Ads planned Oct 16"
+      "one_liner": "Live · 80 listings (per Oct 4 roll-up; Shop Manager recheck AM) · 0 orders · both audits passed · build hold on · Ads planned Oct 16"
     },
     {
       "id": "shop-2",
@@ -847,24 +847,17 @@
     },
     {
       "task": "Unlock the traffic tiles",
-      "why": "Add the permission Account › Account Analytics › Read to the box's Cloudflare API token (HostFees visits), turn on Cloudflare Web Analytics for websiteplz.com (automatic setup), plus Pinterest impressions and other-account shop views.",
+      "why": "Cloudflare token: add Account › Account Analytics › Read (HostFees visits) and Workers Scripts Edit (WebsitePlz contact-form mailer). Turn on Cloudflare Web Analytics for websiteplz.com. Plus Pinterest impressions and other-account shop views.",
       "priority": "high",
       "done": false,
       "rank": 3
     },
     {
-      "task": "Set up Stripe for WebsitePlz checkout",
-      "why": "WebsitePlz checkout uses Stripe Payment Links (being set up). Chief of Staff list, Oct 3.",
+      "task": "Create the 3 Stripe deposit links for WebsitePlz ($124.50 / $562.50 / $747.50)",
+      "why": "50% deposits are live on the site; buttons switch to \"Pay $X to start\" once the links are pasted in. Also 3 Care links and the customer portal (WebsitePlz README).",
       "priority": "medium",
       "done": false,
       "rank": 4
-    },
-    {
-      "task": "Add Workers Scripts Edit to the Cloudflare token",
-      "why": "Lets the WebsitePlz contact-form mailer Worker be deployed (the form answers 503 until then).",
-      "priority": "medium",
-      "done": false,
-      "rank": 5
     },
     {
       "task": "Relay $300 for PrintPlz",
@@ -879,6 +872,13 @@
       "priority": "medium",
       "done": false,
       "rank": 9
+    },
+    {
+      "task": "Review the WebsitePlz legal pages (Terms, Privacy, Refunds)",
+      "why": "Plain-English drafts are live at websiteplz.com/terms, /privacy and /refunds. Review before Stripe goes live (Stripe's terms checkbox points at /terms/).",
+      "priority": "high",
+      "done": false,
+      "rank": 5
     }
   ],
   "projects": [
@@ -888,7 +888,7 @@
       "type": "Short-term-rental fee calculators, explainers, and gift guides",
       "status": "live",
       "url": "https://hostfees.com",
-      "status_note": "Renamed from HostSums. LIVE at hostfees.com (HTTP 200 reconfirmed morning of Oct 4, 2026). Latest live audit records 27 pages: 5 calculators, 3 gift guides and 10 fee explainers. hostfees.com is claimed on Pinterest (verified); 12 of 49 pins are live (posted-pins log; 3 posted each day Oct 1–4, latest Oct 4 AM). Turno affiliate link live; Amazon Associates still not done; traffic tiles still locked (no invented HostFees visit numbers). Lodgify affiliate application pending (Chief of Staff, Oct 3).",
+      "status_note": "Renamed from HostSums. LIVE at hostfees.com (HTTP 200 reconfirmed morning of Oct 4, 2026). Latest live audit records 27 pages: 5 calculators, 3 gift guides and 10 fee explainers. hostfees.com is claimed on Pinterest (verified); 12 of 49 pins are live (posted-pins log; 3 posted each day Oct 1–4, latest Oct 4 AM). Turno affiliate link live; Amazon Associates still not done; traffic tiles still locked (no invented HostFees visit numbers). Lodgify affiliate application pending (Chief of Staff, Oct 3). Weekly check-up Mon Oct 5, 8:47 AM PT.",
       "pages": 27,
       "calculators": 5,
       "gift_guides": 3,
@@ -921,8 +921,8 @@
       "type": "Websites for local trades (HVAC, plumbing, electric, pressure washing, house cleaning)",
       "status": "live",
       "url": "https://websiteplz.com",
-      "status_note": "websiteplz.com is live (HTTP 200 reconfirmed morning of Oct 4, 2026); sitesplz.com redirects to it. 5 trade pages and 5 blog guides live. Google Search Console verified. Link check: 0 of 821 links broken. Lighthouse 97–100. Fiverr and Contra seller accounts still waiting on Joshua; gig descriptions are written and the site's Fiverr/Contra buttons stay hidden until the profile links exist. $0 revenue.",
-      "one_liner": "Live at websiteplz.com (sitesplz.com redirects) · 5 trade pages + 5 guides · Lighthouse 97–100 · waiting on Fiverr + Contra · $0 revenue",
+      "status_note": "websiteplz.com is live; sitesplz.com redirects to it. Sales upgrade live Oct 4: See-It-First Guarantee, 50% deposits, $1,495 includes 6 months of Care, Terms/Privacy/Refunds pages, and private mockup links (noindex). Cleaning and pressure-washing package name decided: \"Booking-ready\". Psych model skill saved. 5 trade pages and 5 blog guides live; Google Search Console verified; 0 of 821 links broken; Lighthouse 97–100. Waiting on Joshua: Fiverr and Contra seller accounts, Stripe deposit links ($124.50 / $562.50 / $747.50) and a review of the legal pages before Stripe goes live. $0 revenue.",
+      "one_liner": "Live · sales upgrade (See-It-First, 50% deposits, legal pages) · Stripe deposit links + legal review waiting on Joshua · Fiverr + Contra waiting · $0 revenue",
       "bot": "WebsitePlz",
       "bot_id": "e58826be-250d-4953-b472-9f0e1836bd42",
       "trade_pages": 5,
@@ -935,10 +935,13 @@
         "sitesplz.com"
       ],
       "demo_url": "https://goldjoshua81-dev.github.io/contractor-samples/",
-      "pricing": "Fiverr tiers $249 / $1,125 / $1,495",
+      "pricing": "Fiverr tiers $249 / $1,125 / $1,495 · 50% deposit to start ($124.50 / $562.50 / $747.50) · $1,495 includes 6 months of Care",
       "care_plans": "Care plans $99/mo · $249/qtr · $990/yr",
       "revenue": 0,
-      "profit": 0
+      "profit": 0,
+      "package_names": {
+        "cleaning_pressure_washing": "Booking-ready"
+      }
     }
   ],
   "printplz_margins": [
@@ -1471,6 +1474,28 @@
       "details": "Other account, paper only (holds SQQQ).",
       "source": "Other account relay / Chief of Staff (Oct 3)",
       "account": "Other bots"
+    },
+    {
+      "date": "2026-10-05",
+      "date_display": "Mon Oct 5, 2026 · 8:47 AM PT",
+      "event": "HostFees weekly check-up",
+      "details": "Weekly HostFees routine.",
+      "source": "Chief of Staff Oct 4 roll-up"
+    },
+    {
+      "date": "2026-10-05",
+      "date_display": "Oct 5–8, 2026",
+      "event": "Pending-delete domain drops",
+      "details": "Names on the pending-delete sample drop Oct 5–8 (e.g. homelawncare.com by Oct 6 04:45 PT). Watch only; nothing bought.",
+      "source": "/workspace/domain-research/GAME_PLAN.md · pending_delete_sample.csv"
+    },
+    {
+      "date": "2026-10-11",
+      "date_display": "~Sun Oct 11, 2026",
+      "event": "MoonletterMira Etsy Ads (~$5/day)",
+      "details": "Other account; earliest start, not enabled yet.",
+      "source": "Other account relay / Chief of Staff Oct 4 roll-up",
+      "account": "Other bots"
     }
   ],
   "other_account": {
@@ -1860,11 +1885,6 @@
       "note": "Which add-ons to offer on the Fiverr gig."
     },
     {
-      "decision": "Package name for the cleaning and pressure-washing sites",
-      "lane": "WebsitePlz",
-      "note": ""
-    },
-    {
       "decision": "When to lift the PrintPlz build hold",
       "lane": "PrintPlz",
       "note": "New builds are ON HOLD per Joshua; batch 2 (Oct 5) may slip."
@@ -1873,7 +1893,18 @@
       "decision": "Whether to dig into bottes-presso.fr",
       "lane": "Deal Scout",
       "note": "Top pick; full due diligence only if you say go. Research only."
+    },
+    {
+      "decision": "Domain test: $120–170 for 10 names before the Nov 1 .com price rise",
+      "lane": "Domain research",
+      "note": "Plan in /workspace/domain-research/GAME_PLAN.md (estimate). Needs your budget OK, registrar and pick of 10. Nothing bought."
+    },
+    {
+      "decision": "Package name for the cleaning and pressure-washing sites",
+      "lane": "WebsitePlz",
+      "note": "Decided Oct 4: \"Booking-ready\" (approved).",
+      "done": true
     }
   ],
-  "decisions_source": "Chief of Staff nightly roll-up, Sat Oct 3, 2026"
+  "decisions_source": "Chief of Staff nightly roll-ups, Oct 3 and Oct 4, 2026"
 }
