@@ -3,7 +3,7 @@
     "title": "Fresh $$ Control Center",
     "owner": "Joshua",
     "assistant": "Fresh $$",
-    "last_updated": "2026-10-05T09:05:00-07:00",
+    "last_updated": "2026-10-05T10:08:52-07:00",
     "status_note": "Morning refresh Mon Oct 5, 2026 ~9:00 AM PT. PrintPlz: Shop Manager confirms 80 active / 1 draft / 2 inactive, 0 orders, $0; last 7 days (Sep 29 - Oct 5) 30 views / 23 visits; AM audit loop passed (54/54 Printful sync, Halloween spot-check PASS), build hold on. Deal Scout: ran Oct 5 (~365 listings), top pick still bottes-presso.fr, nothing new beats it. HostFees: 12 of 49 pins (today's 3 post ~10:06 AM PT, in progress); weekly check-up today. WebsitePlz: no change overnight. Actual revenue $0. Joshua's order: 1) Fiverr + Contra, 2) Amazon Associates, 3) traffic tiles; then Stripe deposit links, legal-page review, Relay $300, beehiiv, P.O. box, hello@ inbox."
   },
   "budget": {
@@ -1425,32 +1425,26 @@
       "source": "/workspace/pod-shops/printplz/README.md · Key dates and ads plan"
     },
     {
-      "date": "2026-10-16",
-      "date_display": "Fri Oct 16, 2026",
-      "event": "Etsy Ads start + Halloween order-by",
-      "details": "New shops wait 14 days. Planned budget ~$3/day, capped at $100/month (approved by Joshua). Halloween listings excluded from ads; this is also the Halloween last order-by date.",
-      "source": "/workspace/pod-shops/printplz/README.md · Key dates and ads plan"
+      "date": "2026-10-05",
+      "date_display": "Mon Oct 5, 2026 · 8:47 AM PT",
+      "event": "HostFees weekly check-up",
+      "details": "Weekly HostFees routine.",
+      "source": "Chief of Staff Oct 4 roll-up"
     },
     {
-      "date": "2026-11-01",
-      "date_display": "Sun Nov 1, 2026 · recurring monthly",
-      "event": "Etsy billing date",
-      "details": "Etsy bills on the 1st of each month; Joshua reminder scheduled 3 days before (Oct 29 for this occurrence).",
-      "source": "/workspace/pod-shops/printplz/README.md · Key dates and ads plan"
+      "date": "2026-10-05",
+      "date_display": "Oct 5–8, 2026",
+      "event": "Pending-delete domain drops",
+      "details": "Names on the pending-delete sample drop Oct 5–8 (e.g. homelawncare.com by Oct 6 04:45 PT). Watch only; nothing bought.",
+      "source": "/workspace/domain-research/GAME_PLAN.md · pending_delete_sample.csv"
     },
     {
-      "date": "2026-11-11",
-      "date_display": "Wed Nov 11, 2026",
-      "event": "Thanksgiving order-by",
-      "details": "Last recommended order-by date for Thanksgiving delivery.",
-      "source": "/workspace/pod-shops/printplz/README.md · Key dates and ads plan"
-    },
-    {
-      "date": "2026-12-09",
-      "date_display": "Wed Dec 9, 2026",
-      "event": "Christmas order-by",
-      "details": "Last recommended order-by date for Christmas delivery.",
-      "source": "/workspace/pod-shops/printplz/README.md · Key dates and ads plan"
+      "date": "2026-10-07",
+      "date_display": "~Wed Oct 7, 2026",
+      "event": "Stocks Moon week 1 ends",
+      "details": "Other account, paper only (holds SQQQ).",
+      "source": "Other account relay / Chief of Staff (Oct 3)",
+      "account": "Other bots"
     },
     {
       "date": "2026-10-08",
@@ -1467,6 +1461,28 @@
       "source": "Deal Scout (Flippa)"
     },
     {
+      "date": "2026-10-11",
+      "date_display": "~Sun Oct 11, 2026",
+      "event": "MoonletterMira Etsy Ads (~$5/day)",
+      "details": "Other account; earliest start, not enabled yet.",
+      "source": "Other account relay / Chief of Staff Oct 4 roll-up",
+      "account": "Other bots"
+    },
+    {
+      "date": "2026-10-16",
+      "date_display": "Fri Oct 16, 2026",
+      "event": "Etsy Ads start + Halloween order-by",
+      "details": "New shops wait 14 days. Planned budget ~$3/day, capped at $100/month (approved by Joshua). Halloween listings excluded from ads; this is also the Halloween last order-by date.",
+      "source": "/workspace/pod-shops/printplz/README.md · Key dates and ads plan"
+    },
+    {
+      "date": "2026-11-01",
+      "date_display": "Sun Nov 1, 2026 · recurring monthly",
+      "event": "Etsy billing date",
+      "details": "Etsy bills on the 1st of each month; Joshua reminder scheduled 3 days before (Oct 29 for this occurrence).",
+      "source": "/workspace/pod-shops/printplz/README.md · Key dates and ads plan"
+    },
+    {
       "date": "2026-11-01",
       "date_display": "Nov 1–15, 2026",
       "event": "Hostaway affiliate reapply window",
@@ -1474,34 +1490,25 @@
       "source": "/workspace/affiliate/commission-tracker.md"
     },
     {
-      "date": "2026-10-07",
-      "date_display": "~Wed Oct 7, 2026",
-      "event": "Stocks Moon week 1 ends",
-      "details": "Other account, paper only (holds SQQQ).",
-      "source": "Other account relay / Chief of Staff (Oct 3)",
-      "account": "Other bots"
+      "date": "2026-11-11",
+      "date_display": "Wed Nov 11, 2026",
+      "event": "Thanksgiving order-by",
+      "details": "Last recommended order-by date for Thanksgiving delivery.",
+      "source": "/workspace/pod-shops/printplz/README.md · Key dates and ads plan"
     },
     {
-      "date": "2026-10-05",
-      "date_display": "Mon Oct 5, 2026 · 8:47 AM PT",
-      "event": "HostFees weekly check-up",
-      "details": "Weekly HostFees routine.",
-      "source": "Chief of Staff Oct 4 roll-up"
+      "date": "2026-11-23",
+      "date_display": "Mon Nov 23 – Tue Dec 1, 2026",
+      "event": "Etsy Cyber Week (PrintPlzShop)",
+      "details": "Etsy's Cyber Week sale window. Plan holiday offers and listings before it starts; Etsy also suggests a 'bring shoppers back' offer to people already engaging with listings.",
+      "source": "Etsy Sellers email 'PrintPlzShop: Start the week', Oct 5, 2026 9:39 AM PT"
     },
     {
-      "date": "2026-10-05",
-      "date_display": "Oct 5–8, 2026",
-      "event": "Pending-delete domain drops",
-      "details": "Names on the pending-delete sample drop Oct 5–8 (e.g. homelawncare.com by Oct 6 04:45 PT). Watch only; nothing bought.",
-      "source": "/workspace/domain-research/GAME_PLAN.md · pending_delete_sample.csv"
-    },
-    {
-      "date": "2026-10-11",
-      "date_display": "~Sun Oct 11, 2026",
-      "event": "MoonletterMira Etsy Ads (~$5/day)",
-      "details": "Other account; earliest start, not enabled yet.",
-      "source": "Other account relay / Chief of Staff Oct 4 roll-up",
-      "account": "Other bots"
+      "date": "2026-12-09",
+      "date_display": "Wed Dec 9, 2026",
+      "event": "Christmas order-by",
+      "details": "Last recommended order-by date for Christmas delivery.",
+      "source": "/workspace/pod-shops/printplz/README.md · Key dates and ads plan"
     }
   ],
   "other_account": {
