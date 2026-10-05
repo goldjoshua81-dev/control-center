@@ -3,7 +3,7 @@
     "title": "Fresh $$ Control Center",
     "owner": "Joshua",
     "assistant": "Fresh $$",
-    "last_updated": "2026-10-04T18:14:25-07:00",
+    "last_updated": "2026-10-04T21:16:44-07:00",
     "status_note": "Morning refresh Oct 4, 2026 ~8:02 AM PT. PrintPlzShop: 79 live (Shop Manager; +3 overnight vs Oct 3 evening 76; +31 vs Oct 3 morning 48), 1 draft, 3 inactive, 0 orders / $0 revenue; last 7d 38 views / 16 visits. Local Progress note (not live count): P9/X25/X26/P10/M12/X27/X28 published; X29 reactivated 9:45 AM PT (PrintPlz polish log; 79 is the 8:02 AM Shop Manager count, not re-read since); K6/K7 HOLD; Halloween price raises 23/24 (TB1 pending); Etsy Ads planned Oct 16. hostfees.com HTTP 200; websiteplz.com HTTP 200; HostFees pins 12 of 49 (posted-pins log; 3 more posted Oct 4 AM). Deal Scout ran Oct 2, 3 and 4; latest run Sun Oct 4 (~8:01–8:25 AM PT, ~390 listings), top pick bottes-presso.fr; research only. Actual revenue remains $0. Joshua's priority order unchanged: 1) Fiverr + Contra for WebsitePlz, 2) Amazon Associates, 3) unlock traffic tiles. Chief of Staff Oct 3 roll-up added: WebsitePlz details, websiteplz.com + sitesplz.com spend/renewals, decisions pending, ordered waiting-on list. Evening fix Oct 4 ~6 PM PT: lane files rechecked; PrintPlz order check 1:43 PM PT found 0 orders."
   },
   "budget": {
@@ -1475,15 +1475,15 @@
   ],
   "other_account": {
     "label": "Other account (Grok Bot)",
-    "as_of": "Oct 3, 2026 evening PT, relayed manually",
-    "source_note": "Joshua's second Grok Bot account can't see this dashboard's computer. Everything below comes from reports Joshua relayed by hand on Oct 3, 2026 (latest: Sat evening PT). It is not live-synced. Trading lanes are paper only; none of these numbers count toward this account's totals.",
+    "as_of": "Oct 4, 8:50 PM PT (relayed)",
+    "source_note": "Joshua's second Grok Bot account can't see this dashboard's computer. Everything below comes from that account's Grok Bot, relayed by Joshua (latest: Sun Oct 4, 2026, 8:50 PM PT). Paper only: nothing was traded, published or turned on. Not live-synced; none of these numbers count toward this account's totals.",
     "shops": [
       {
         "name": "MoonletterMira",
         "status": "live",
         "type": "Etsy digital readings",
         "url": "https://www.etsy.com/shop/MoonletterMira",
-        "note": "Live Etsy shop, 5 listings. The 1 public sale is a friend/demo order, not revenue; no new paid order today. Readings site and email delivery are live. Instagram not confirmed. Ads off (ML-01 ~$5/day not before ~Oct 11).",
+        "note": "Live Etsy shop, 5 listings. No new orders or listings on file (Oct 4). The 1 public sale is a friend/demo order, not revenue. Instagram not confirmed. Ads off; not before ~Oct 11.",
         "listings": [
           "ML-01 Same-Hour Love: $8.88",
           "ML-02: $9.99",
@@ -1491,14 +1491,14 @@
           "ML-04: $11",
           "ML-05 Mini Love Spark: $1"
         ],
-        "one_liner": "Live · 5 listings · 0 paid orders (1 friend/demo) · ads off"
+        "one_liner": "Live · 5 listings · 0 paid orders · no change Oct 4 · ads off"
       },
       {
         "name": "The Family Gem Shop",
         "status": "vacation",
         "type": "Loose gemstones on Etsy",
         "url": "https://www.etsy.com/shop/TheFamilyGemShop",
-        "note": "Live slug TheFamilyGemShop. Vacation mode ON (as of Oct 2). 0 live listings. SF-001 (1.19 ct heart tsavorite, $425) ready, not posted. thefamilygems.com bought Oct 3, not pointed at a site yet.",
+        "note": "Live slug TheFamilyGemShop. Vacation mode ON. 0 live listings; no new orders or listings on file (Oct 4). SF-001 (1.19 ct heart tsavorite, $425) ready, not posted. thefamilygems.com bought Oct 3, not pointed at a site yet.",
         "listings": [],
         "one_liner": "Vacation on · 0 listings · SF-001 ($425) ready to post"
       },
@@ -1507,45 +1507,71 @@
         "status": "not open",
         "type": "Planned Etsy shop: digital listing-help files (Etsy-only, so it doesn't compete with WebsitePlz)",
         "url": "",
-        "note": "Not opened. $0 spent. Etsy-only listing-help files. Don't publish until Joshua says so. Logo still says ForYou.",
+        "note": "Still unopened (Oct 4). $0 spent. Etsy-only listing-help files. Don't publish until Joshua says so. Logo still says ForYou.",
         "listings": [],
         "one_liner": "Not open · $0 · waiting on your catalog review"
       }
     ],
-    "paper_lanes_note": "Paper trading only (research bankroll, not live money). Week ending Sat Oct 3. Dollar-lanes total ≈ -$82 (Polymarket has no $ P&L, so it's excluded). Sports Edge removed Oct 3 (shut down; can be re-added later; it was $0 for the week).",
+    "paper_lanes_note": "Paper trading only (research bankroll, not live money). Weekly P&L as relayed Oct 4, 8:50 PM PT. Paper total = Politics + Stocks Edge + Moon = -$79.42. Polymarket has no $ P&L (excluded). Sports Edge removed Oct 3 ($0, empty book).",
     "paper_lanes": [
       {
         "lane": "Politics Edge",
         "bankroll": "$1,000 paper",
-        "equity": "$916.37 (week -$83.63)",
-        "note": "5 open positions."
+        "equity": "$918.84 (week -$81.16, -8.12%)",
+        "note": "Week closed Oct 3. New paper week waits on Joshua's decision.",
+        "start_balance": 1000,
+        "current_balance": 918.84,
+        "week_pnl": -81.16,
+        "open_positions": null
       },
       {
         "lane": "Stocks Edge",
         "bankroll": "$1,000 paper",
-        "equity": "$998.99 (week -$1.01)",
-        "note": "Holds ZS and TWLO. Week 2: continue (Joshua decided Oct 3)."
+        "equity": "$998.99 Friday close (week -$1.01)",
+        "note": "Holds ZS and TWLO. Week 2 continues. TWLO index inclusion Oct 6; not adding.",
+        "start_balance": 1000,
+        "current_balance": 998.99,
+        "week_pnl": -1.01,
+        "open_positions": 2
       },
       {
         "lane": "Stocks Edge (Moon sleeve)",
         "bankroll": "$1,000 paper",
-        "equity": "$1,002.75 (week +$2.75)",
-        "note": "Holds SQQQ. Week one runs through ~Oct 7."
+        "equity": "$1,002.75 Friday close (week +$2.75)",
+        "note": "Holds SQQQ. Week one runs through ~Oct 7.",
+        "start_balance": 1000,
+        "current_balance": 1002.75,
+        "week_pnl": 2.75,
+        "open_positions": 1
       },
       {
         "lane": "Polymarket Edge",
         "bankroll": "$1,000 paper",
         "equity": "no $ P&L",
-        "note": "8 paper locks, 0 fills."
+        "note": "8 paper locks, 0 live fills.",
+        "start_balance": 1000,
+        "current_balance": null,
+        "week_pnl": null,
+        "open_positions": null
       },
       {
-        "lane": "Dollar lanes total",
+        "lane": "Paper total (3 dollar lanes)",
         "bankroll": "$3,000 paper",
-        "equity": "≈ -$82 week",
-        "note": "Politics + Stocks Edge + Moon; Polymarket excluded (no $ P&L)."
+        "equity": "-$79.42 week (paper)",
+        "note": "-81.16 - 1.01 + 2.75. Polymarket excluded; Sports Edge removed Oct 3.",
+        "start_balance": 3000,
+        "current_balance": 2920.58,
+        "week_pnl": -79.42,
+        "open_positions": null
       }
     ],
     "deadlines": [
+      {
+        "date": "Tue Oct 6",
+        "date_iso": "2026-10-06",
+        "event": "TWLO index inclusion",
+        "details": "Stocks Edge holds TWLO on paper; not adding."
+      },
       {
         "date": "~Wed Oct 7",
         "date_iso": "2026-10-07",
@@ -1555,8 +1581,8 @@
       {
         "date": "~Oct 11, 2026",
         "date_iso": "2026-10-11",
-        "event": "Optional Etsy Ads on ML-01 (~$5/day)",
-        "details": "Not enabled. Not before ~Oct 11."
+        "event": "MoonletterMira Etsy Ads earliest start (ML-01 ~$5/day)",
+        "details": "Not enabled. Do not turn on before ~Oct 11."
       },
       {
         "date": "Open",
@@ -1580,7 +1606,7 @@
       {
         "item": "thefamilygems.com domain",
         "amount": "$11.48 first year · renewal quoted ~$18.48/yr",
-        "when": "Bought Oct 3, 2026 · renews ~Oct 2027 (no exact date on file) · not pointed at a site yet"
+        "when": "Bought Oct 3, 2026 · no invoice date on file (renews ~Oct 2027) · not pointed at a site yet"
       },
       {
         "item": "moonlettermira.com domain",
@@ -1588,7 +1614,12 @@
         "when": "Renewal date unknown"
       },
       {
-        "item": "Resend and Cloudflare plans",
+        "item": "Resend",
+        "amount": "unknown",
+        "when": "Renewal date unknown"
+      },
+      {
+        "item": "Cloudflare",
         "amount": "unknown",
         "when": "In use; plan price and renewal not recorded"
       }
@@ -1650,12 +1681,31 @@
       }
     ],
     "combined_ads_note": "Combined Etsy Ads (both accounts): PrintPlz ~$3/day from Fri Oct 16, capped at $100/month, plus ML-01 ~$5/day from ~Oct 11 if enabled (currently off). Together roughly $240/month if both run all month.",
-    "as_of_date": "2026-10-03",
+    "as_of_date": "2026-10-04",
     "revenue": 0,
     "spend_total": 40.48,
-    "paper_pnl": -82,
-    "paper_pnl_note": "≈ -$82 paper, week ending Oct 3 (Politics, Stocks Edge, Moon; Polymarket excluded; Sports Edge removed Oct 3)",
-    "spend_note": "$29 Etsy setup + $11.48 thefamilygems.com"
+    "paper_pnl": -79.42,
+    "paper_pnl_note": "Paper, week ending Oct 3: Politics -$81.16, Stocks Edge -$1.01, Moon +$2.75 (relayed Oct 4, 8:50 PM PT)",
+    "spend_note": "$29 Etsy setup + $11.48 thefamilygems.com",
+    "decisions_pending": [
+      {
+        "decision": "Whether Politics Edge starts a new paper week",
+        "lane": "Politics Edge (paper)",
+        "note": "Last week closed Oct 3 at $918.84 (-$81.16)."
+      }
+    ],
+    "cross_account_items": [
+      {
+        "item": "Send the Control Center field list",
+        "owner": "Scott Bot",
+        "status": "Paste-ready list written Oct 4; Scott sends it via Joshua."
+      },
+      {
+        "item": "Avi page file to Scott",
+        "owner": "Other account",
+        "status": "Not needed: Avi's Fun Page is already live at control-center/avi/. Send only if there's a newer file."
+      }
+    ]
   },
   "recurring_bills": [
     {
