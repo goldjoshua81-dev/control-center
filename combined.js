@@ -12,6 +12,7 @@ loadData(D => {
   const k = [["Revenue (both)", usd(rev), `${sum(D.shops, "orders")} real orders`, "k-yellow", "💵"],
              ["Spent (both)", usd(spendA + spendB), `this ${usd(spendA)} · other ${usd(spendB)}`, "k-orange", "🚀"],
              ["Paper P&L (paper only)", O ? usd(O.paper_pnl) : "n/a", O ? (O.paper_pnl_note || "") : "", "k-red", "🎯"]];
+  if (D.business_costs) k.splice(2, 0, ["Monthly burn (both)", usd(D.business_costs.monthly_total) + "/mo", D.business_costs.items.map(x => `${usd(x.monthly)} ${x.item.replace(/^Grok Bot /, "").replace(/ plan/, "")}`).join(" + ") + ` · vs ${usd(rev)} revenue`, "k-red", "🔥"]);
   $("kpis").innerHTML = k.map(([l, v, s, c, i]) => `<div class="kpi ${c}"><div class="l"><span class="ki" aria-hidden="true">${i}</span>${l}</div><div class="v">${v}</div><div class="s">${esc(s)}</div></div>`).join("");
 
   // Deadlines

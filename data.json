@@ -3,8 +3,8 @@
     "title": "Fresh $$ Control Center",
     "owner": "Joshua",
     "assistant": "Fresh $$",
-    "last_updated": "2026-10-05T19:31:52-07:00",
-    "status_note": "Morning refresh Mon Oct 5, 2026 ~9:00 AM PT. PrintPlz: Shop Manager confirms 80 active / 1 draft / 2 inactive, 0 orders, $0; last 7 days (Sep 29 - Oct 5) 30 views / 23 visits; AM audit loop passed (54/54 Printful sync, Halloween spot-check PASS), build hold on. Deal Scout: ran Oct 5 (~365 listings), top pick still bottes-presso.fr, nothing new beats it. HostFees: 15 of 49 pins (posted-pins log; today's 3 posted Oct 5 AM); weekly check-up today. WebsitePlz: no change overnight. Actual revenue $0. Joshua's order: 1) Fiverr + Contra, 2) Amazon Associates, 3) traffic tiles; then Stripe deposit links, legal-page review, Relay $300, beehiiv, P.O. box, hello@ inbox."
+    "last_updated": "2026-10-05T21:54:25-07:00",
+    "status_note": "Nightly update Mon Oct 5, 2026 ~9:55 PM PT (Chief of Staff Mon Oct 5 roll-up + lane files). Revenue $0 in every lane; no new spend. Recurring plan costs $260/month (Grok Bot Ultra $200 + Pro+ $60). PrintPlz: 80 active, 0 orders, Batch 2 all live, audits clean (54/54 sync), Cyber Week + Christmas plans set; build-hold lift approved for build/list only, not used yet. HostFees: weekly check-up clean, 15 of 49 pins; Vrbo wording updated but redeploy BLOCKED until Joshua signs in to Cloudflare + GitHub on the box (before Oct 13). WebsitePlz: speed fix (98/99), Fiverr assets ready. Cat Bundle: earn-in path, SSM 4.2/10 (4.8 as earn-in); follow-up Wed Oct 7 9:01 AM. Scott Bot: Million-Dollar Plan, profile backups, Gold HQ Sync, Family Gem site live. Other account: LATE roll-up (Oct 5, 9:23 PM PT), verified."
   },
   "budget": {
     "starting_capital": 1000,
@@ -82,7 +82,7 @@
       "type": "For-moms print-on-demand gifts: mom shirts, teacher shirts, kids stickers, holiday party items, ornaments",
       "platform": "Etsy + Printful",
       "status": "live",
-      "status_note": "Shop Manager Oct 5 ~9:00 AM PT: 80 active / 1 draft / 0 expired / 2 inactive (+1 active vs Oct 4 morning: X29 relisted). 0 orders / $0, 0 unread messages. Last 7 days (Sep 29 - Oct 5): 30 views / 23 visits; visits came from direct/referral 14, Etsy app/pages 8, social 1, Etsy Search 0. Most viewed: Pet Name Mug (7), From Santa gift tags (5). AM audit loop Oct 5 passed: 54/54 Printful sync OK, Halloween spot-check PASS (W1, TB1, TF1), photo-ornament personalization wording confirmed. Batch 2 items all live. Build hold still on (K6/K7 unpublished). Etsy Ads planned Oct 16. Offsite Ads off.",
+      "status_note": "Shop Manager Oct 5 ~9:00 AM PT: 80 active / 1 draft / 0 expired / 2 inactive (+1 active vs Oct 4 morning: X29 relisted). 0 orders / $0, 0 unread messages. Last 7 days (Sep 29 - Oct 5): 30 views / 23 visits; visits came from direct/referral 14, Etsy app/pages 8, social 1, Etsy Search 0. Most viewed: Pet Name Mug (7), From Santa gift tags (5). AM audit loop Oct 5 passed: 54/54 Printful sync OK, Halloween spot-check PASS (W1, TB1, TF1), photo-ornament personalization wording confirmed. Batch 2 items all live. Build hold still on (K6/K7 unpublished). Etsy Ads planned Oct 16. Offsite Ads off. Chief of Staff Mon Oct 5 roll-up: Batch 2 all live; audits clean (54/54 sync); Cyber Week and Christmas plans set; build-hold lift approved by Joshua for build/list only, not used yet. $0 revenue, no new spend.",
       "url": "https://www.etsy.com/shop/PrintPlzShop",
       "orders": 0,
       "revenue": 0,
@@ -567,7 +567,7 @@
           "price": "see listing"
         }
       ],
-      "one_liner": "80 live · 0 orders · 30 views / 23 visits (7d) · build hold on"
+      "one_liner": "80 live · 0 orders · Batch 2 all live · audits clean · Cyber Week + Christmas plans set · hold lift approved (build/list only, not used)"
     },
     {
       "id": "shop-2",
@@ -800,8 +800,7 @@
       "why": "Enables email alerts for the live HostFees operating loop.",
       "priority": "medium",
       "done": false,
-      "optional": true,
-      "rank": 7
+      "optional": true
     },
     {
       "task": "Get a P.O. Box for HostFees",
@@ -809,7 +808,7 @@
       "priority": "medium",
       "done": false,
       "optional": true,
-      "rank": 8
+      "rank": 9
     },
     {
       "task": "Change the Turno temporary password",
@@ -863,28 +862,28 @@
       "why": "50% deposits are live on the site; buttons switch to \"Pay $X to start\" once the links are pasted in. Also 3 Care links and the customer portal (WebsitePlz README).",
       "priority": "medium",
       "done": false,
-      "rank": 4
+      "rank": 7
     },
     {
       "task": "Relay $300 for PrintPlz",
       "why": "On Chief of Staff's waiting-on-Joshua list (Oct 3).",
       "priority": "medium",
       "done": false,
-      "rank": 6
+      "rank": 10
     },
     {
       "task": "Set up an inbox for hello@websiteplz.com",
       "why": "Contact address for WebsitePlz buyers. Chief of Staff list, Oct 3.",
       "priority": "medium",
       "done": false,
-      "rank": 9
+      "rank": 8
     },
     {
       "task": "Review the WebsitePlz legal pages (Terms, Privacy, Refunds)",
       "why": "Plain-English drafts are live at websiteplz.com/terms, /privacy and /refunds. Review before Stripe goes live (Stripe's terms checkbox points at /terms/).",
       "priority": "high",
       "done": false,
-      "rank": 5
+      "rank": 6
     },
     {
       "task": "Oct 7: send the Cat Bundle follow-up in Flippa (Deal Scout drafts)",
@@ -892,6 +891,20 @@
       "priority": "high",
       "done": false,
       "pinned": true
+    },
+    {
+      "task": "Sign in to Cloudflare and GitHub in the box browser (HostFees redeploy)",
+      "why": "The weekly check-up rebuilt HostFees with the Vrbo wording fix, but the Cloudflare session expired and GitHub sign-in fails. Needed before Oct 13 (Airbnb EEA/Switzerland deadline).",
+      "priority": "high",
+      "done": false,
+      "rank": 4
+    },
+    {
+      "task": "Paste PASTE-TO-OTHER-ACCOUNT.md into the other account",
+      "why": "Starts Gold HQ Sync on the other account so roll-ups land as files instead of copy-paste.",
+      "priority": "high",
+      "done": false,
+      "rank": 5
     }
   ],
   "projects": [
@@ -901,7 +914,7 @@
       "type": "Short-term-rental fee calculators, explainers, and gift guides",
       "status": "live",
       "url": "https://hostfees.com",
-      "status_note": "Renamed from HostSums. LIVE at hostfees.com (HTTP 200 reconfirmed morning of Oct 4, 2026). Latest live audit records 27 pages: 5 calculators, 3 gift guides and 10 fee explainers. hostfees.com is claimed on Pinterest (verified); 15 of 49 pins are live (posted-pins log; 3 posted each day Oct 1–5, latest Oct 5 AM). Turno affiliate link live; Amazon Associates still not done; traffic tiles still locked (no invented HostFees visit numbers). Lodgify affiliate application pending (Chief of Staff, Oct 3). Weekly check-up running today (Mon Oct 5, 8:47 AM PT). Today's 3 pins post ~10:06 AM PT (in progress).",
+      "status_note": "Renamed from HostSums. LIVE at hostfees.com (HTTP 200 reconfirmed morning of Oct 4, 2026). Latest live audit records 27 pages: 5 calculators, 3 gift guides and 10 fee explainers. hostfees.com is claimed on Pinterest (verified); 15 of 49 pins are live (posted-pins log; 3 posted each day Oct 1–5, latest Oct 5 AM). Turno affiliate link live; Amazon Associates still not done; traffic tiles still locked (no invented HostFees visit numbers). Lodgify affiliate application pending (Chief of Staff, Oct 3). Weekly check-up running today (Mon Oct 5, 8:47 AM PT). Today's 3 pins post ~10:06 AM PT (in progress). Weekly check-up Mon Oct 5 clean (live audit 0 errors; Lighthouse mobile 99/100/100/100 on 4 pages). Vrbo changed its help page, so the wording on 3 pages + the Fee Index was updated in the rebuilt site files. Redeploy BLOCKED: the box browser's Cloudflare session expired and GitHub sign-in fails; Joshua must sign in on the box before Oct 13 (Airbnb EEA/Switzerland deadline), so the Vrbo update is not live yet.",
       "pages": 27,
       "calculators": 5,
       "gift_guides": 3,
@@ -914,7 +927,7 @@
       "pinterest_claimed": true,
       "turno_status": "live; affiliate link on hostfees.com (https://share.turno.com/69pllwz)",
       "hostaway_status": "declined for now; revisit in 4–6 weeks with traffic numbers",
-      "one_liner": "Live at hostfees.com (HTTP 200 Oct 4 AM) · 15 of 49 pins · Turno link live · Amazon Associates pending · Lodgify pending · $0 revenue"
+      "one_liner": "Live · 15 of 49 pins · weekly check-up clean · Vrbo update built, redeploy BLOCKED until Joshua's box sign-in (before Oct 13) · $0 revenue"
     },
     {
       "id": "deal-scout",
@@ -934,8 +947,8 @@
       "type": "Websites for local trades (HVAC, plumbing, electric, pressure washing, house cleaning)",
       "status": "live",
       "url": "https://websiteplz.com",
-      "status_note": "websiteplz.com is live; sitesplz.com redirects to it. Sales upgrade live Oct 4: See-It-First Guarantee, 50% deposits, $1,495 includes 6 months of Care, Terms/Privacy/Refunds pages, and private mockup links (noindex). Cleaning and pressure-washing package name decided: \"Booking-ready\". Psych model skill saved. 5 trade pages and 5 blog guides live; Google Search Console verified; 0 of 821 links broken; Lighthouse 97–100. Waiting on Joshua: Fiverr and Contra seller accounts, Stripe deposit links ($124.50 / $562.50 / $747.50) and a review of the legal pages before Stripe goes live. $0 revenue.",
-      "one_liner": "Live · sales upgrade (See-It-First, 50% deposits, legal pages) · Stripe deposit links + legal review waiting on Joshua · Fiverr + Contra waiting · $0 revenue",
+      "status_note": "websiteplz.com is live; sitesplz.com redirects to it. Sales upgrade live Oct 4: See-It-First Guarantee, 50% deposits, $1,495 includes 6 months of Care, Terms/Privacy/Refunds pages, and private mockup links (noindex). Cleaning and pressure-washing package name decided: \"Booking-ready\". Psych model skill saved. 5 trade pages and 5 blog guides live; Google Search Console verified; 0 of 821 links broken; Lighthouse 97–100. Waiting on Joshua: Fiverr and Contra seller accounts, Stripe deposit links ($124.50 / $562.50 / $747.50) and a review of the legal pages before Stripe goes live. $0 revenue. Chief of Staff Mon Oct 5 roll-up: speed fix live (98/99); Fiverr assets ready (accounts still waiting on Joshua).",
+      "one_liner": "Live · speed fix (98/99) · Fiverr assets ready · Fiverr + Contra accounts, Stripe deposit links, legal review waiting on Joshua · $0 revenue",
       "bot": "WebsitePlz",
       "bot_id": "e58826be-250d-4953-b472-9f0e1836bd42",
       "trade_pages": 5,
@@ -1447,18 +1460,18 @@
     },
     {
       "date": "2026-10-07",
-      "date_display": "~Wed Oct 7, 2026",
-      "event": "Stocks Moon week 1 ends",
-      "details": "Other account, paper only (holds SQQQ).",
-      "source": "Other account relay / Chief of Staff (Oct 3)",
+      "date_display": "Wed Oct 7, 2026 · 6 PM PT",
+      "event": "Stocks Moon week 1 ends + verdict",
+      "details": "Other account, paper only: conservative-vs-aggressive verdict.",
+      "source": "Incubator roll-up 2026-10-05_2123 (late)",
       "account": "Other bots"
     },
     {
       "date": "2026-10-08",
       "date_display": "Thu Oct 8, 2026",
-      "event": "Grok usage resets",
-      "details": "Usage limit resets.",
-      "source": "Scott Bot (Oct 3)"
+      "event": "Grok Bot weekly usage resets (weekly, likely Thursdays; confirm in Settings, Usage & Billing)",
+      "details": "Weekly reset; exact day and time not confirmed.",
+      "source": "/workspace/org/USAGE-OPTIMIZATION-2026-10-05.md"
     },
     {
       "date": "2026-10-09",
@@ -1471,7 +1484,7 @@
       "date": "2026-10-11",
       "date_display": "~Sun Oct 11, 2026",
       "event": "MoonletterMira Etsy Ads (~$5/day)",
-      "details": "Other account; earliest start, not enabled yet.",
+      "details": "Other account; earliest start (~$5/day ML-01), only if Joshua enables.",
       "source": "Other account relay / Chief of Staff Oct 4 roll-up",
       "account": "Other bots"
     },
@@ -1523,54 +1536,93 @@
       "event": "PRIORITY: Cat Bundle follow-up (Flippa #13421685)",
       "details": "Deal Scout delivers the earn-in-to-buyout follow-up; Joshua sends it in Flippa.",
       "source": "Deal Scout + Joshua"
+    },
+    {
+      "date": "2026-10-06",
+      "date_display": "Tue Oct 6, 2026",
+      "event": "TWLO joins the S&P index (paper)",
+      "details": "Stocks Edge holds TWLO on paper; not adding.",
+      "source": "Incubator roll-up 2026-10-05_2123 (late)",
+      "account": "Other bots"
+    },
+    {
+      "date": "2026-10-06",
+      "date_display": "Tue Oct 6 – Wed Oct 7, 2026",
+      "event": "Family Gem moves to the main account",
+      "details": "Planned migration of The Family Gem Shop from the other account.",
+      "source": "Chief of Staff Mon Oct 5 roll-up",
+      "account": "Other bots"
+    },
+    {
+      "date": "2026-10-10",
+      "date_display": "Fri Oct 10, 2026",
+      "event": "Stocks Edge week 2 ends (paper)",
+      "details": "Other account, paper only.",
+      "source": "Incubator roll-up 2026-10-05_2123 (late)",
+      "account": "Other bots"
+    },
+    {
+      "date": "2026-10-13",
+      "date_display": "Tue Oct 13, 2026",
+      "event": "HostFees redeploy deadline + Airbnb EEA/Switzerland fee change",
+      "details": "Airbnb's deadline for EEA/Swiss hosts to reprice for the single fee. HostFees needs Joshua's box sign-in to Cloudflare + GitHub to redeploy before then.",
+      "source": "Chief of Staff Mon Oct 5 roll-up · /workspace/affiliate/fee-sources.md"
+    },
+    {
+      "date": "2026-12-17",
+      "date_display": "Thu Dec 17, 2026",
+      "event": "USPS Ground Advantage Christmas send-by (lower 48)",
+      "details": "Other account (Family Gem); published by USPS Sep 22.",
+      "source": "Incubator roll-up 2026-10-05_2123 (late)",
+      "account": "Other bots"
     }
   ],
   "other_account": {
     "label": "Other account (Grok Bot)",
-    "as_of": "Oct 4, 8:50 PM PT (relayed)",
-    "source_note": "Joshua's second Grok Bot account can't see this dashboard's computer. Everything below comes from that account's Grok Bot, relayed by Joshua (latest: Sun Oct 4, 2026, 8:50 PM PT). Paper only: nothing was traded, published or turned on. Not live-synced; none of these numbers count toward this account's totals.",
+    "as_of": "LATE: Oct 5, 9:23 PM PT (built 8:56 PM)",
+    "source_note": "From the verified box copy of the other account's nightly roll-up: 2026-10-05_2123_incubator_rollup.md (body_sha256 bbe50a62a27f…, verified on the box). Built 8:56 PM PT and landed in Gold HQ Sync late, at 9:23 PM PT. Real numbers only; \"unknown\" means not verified. Paper lanes are paper only. Nothing was traded, published, spent, or turned on. None of these numbers count toward this account's totals.",
     "shops": [
       {
         "name": "MoonletterMira",
         "status": "live",
         "type": "Etsy digital readings",
         "url": "https://www.etsy.com/shop/MoonletterMira",
-        "note": "Live Etsy shop, 5 listings. No new orders or listings on file (Oct 4). The 1 public sale is a friend/demo order, not revenue. Instagram not confirmed. Ads off; not before ~Oct 11.",
+        "note": "5 listings (ML-01 to ML-05) per shop files last changed Oct 2; Etsy not rechecked live tonight. No new orders on file. The only sale ever was a friend/demo order, not real revenue. Real revenue to date: $0 known. Etsy Ads off (not before ~Oct 11). Spend to date: unknown in full.",
         "listings": [
-          "ML-01 Same-Hour Love: $8.88",
-          "ML-02: $9.99",
-          "ML-03: $24",
-          "ML-04: $11",
-          "ML-05 Mini Love Spark: $1"
+          "ML-01",
+          "ML-02",
+          "ML-03",
+          "ML-04",
+          "ML-05"
         ],
-        "one_liner": "Live · 5 listings · 0 paid orders · no change Oct 4 · ads off"
+        "one_liner": "Live · 5 listings · $0 known real revenue · ads off"
       },
       {
         "name": "The Family Gem Shop",
         "status": "vacation",
         "type": "Loose gemstones on Etsy",
         "url": "https://www.etsy.com/shop/TheFamilyGemShop",
-        "note": "Live slug TheFamilyGemShop. Vacation mode ON. 0 live listings; no new orders or listings on file (Oct 4). SF-001 (1.19 ct heart tsavorite, $425) ready, not posted. thefamilygems.com bought Oct 3, not pointed at a site yet.",
+        "note": "Vacation mode ON, 0 live listings, 0 orders, $0 revenue, no logo/banner. SF-001 (1.19 ct tsavorite) photographed, NOT listed (don't list until Joshua says so; no price on file). Spend to date $40.48 ($29 Etsy setup + $11.48 domain). Planned move to the main account Oct 6–7.",
         "listings": [],
-        "one_liner": "Vacation on · 0 listings · SF-001 ($425) ready to post"
+        "one_liner": "Vacation on · 0 listings · $40.48 spent to date · moving to main account Oct 6–7"
       },
       {
         "name": "Help4U",
         "status": "not open",
-        "type": "Planned Etsy shop: digital listing-help files (Etsy-only, so it doesn't compete with WebsitePlz)",
+        "type": "Planned Etsy shop: digital listing-help files",
         "url": "",
-        "note": "Still unopened (Oct 4). $0 spent. Etsy-only listing-help files. Don't publish until Joshua says so. Logo still says ForYou.",
+        "note": "Not open, no shop login, $0 spend; catalog waiting on Joshua's review.",
         "listings": [],
-        "one_liner": "Not open · $0 · waiting on your catalog review"
+        "one_liner": "Not open · $0 spent · catalog waiting on Joshua"
       }
     ],
-    "paper_lanes_note": "Paper trading only (research bankroll, not live money). Weekly P&L as relayed Oct 4, 8:50 PM PT. Paper total = Politics + Stocks Edge + Moon = -$79.42. Polymarket has no $ P&L (excluded). Sports Edge removed Oct 3 ($0, empty book).",
+    "paper_lanes_note": "Paper only, no real money. Numbers as read for the 8:56 PM PT roll-up; desk week reset Mon Oct 5. Stocks Edge/Moon files changed again at 9:00–9:01 PM PT and weren't re-read.",
     "paper_lanes": [
       {
-        "lane": "Politics Edge",
+        "lane": "Politics",
         "bankroll": "$1,000 paper",
-        "equity": "$918.84 (week -$81.16, -8.12%)",
-        "note": "Week closed Oct 3. New paper week waits on Joshua's decision.",
+        "equity": "$918.84 (-$81.16)",
+        "note": "Week ended Oct 3; no new week started.",
         "start_balance": 1000,
         "current_balance": 918.84,
         "week_pnl": -81.16,
@@ -1579,41 +1631,51 @@
       {
         "lane": "Stocks Edge",
         "bankroll": "$1,000 paper",
-        "equity": "$998.99 Friday close (week -$1.01)",
-        "note": "Holds ZS and TWLO. Week 2 continues. TWLO index inclusion Oct 6; not adding.",
+        "equity": "$1,003.58 (+$3.58)",
+        "note": "Open: ZS, TWLO. Realized -$8.23, unrealized +$11.81. Week two started Oct 5.",
         "start_balance": 1000,
-        "current_balance": 998.99,
-        "week_pnl": -1.01,
+        "current_balance": 1003.58,
+        "week_pnl": 3.58,
         "open_positions": 2
       },
       {
-        "lane": "Stocks Edge (Moon sleeve)",
+        "lane": "Stocks Moon",
         "bankroll": "$1,000 paper",
-        "equity": "$1,002.75 Friday close (week +$2.75)",
-        "note": "Holds SQQQ. Week one runs through ~Oct 7.",
+        "equity": "$1,000.24 (+$0.24 since Sep 30 seed)",
+        "note": "23 paper clips closed today, day -$2.51.",
         "start_balance": 1000,
-        "current_balance": 1002.75,
-        "week_pnl": 2.75,
-        "open_positions": 1
-      },
-      {
-        "lane": "Polymarket Edge",
-        "bankroll": "$1,000 paper",
-        "equity": "no $ P&L",
-        "note": "8 paper locks, 0 live fills.",
-        "start_balance": 1000,
-        "current_balance": null,
-        "week_pnl": null,
+        "current_balance": 1000.24,
+        "week_pnl": 0.24,
         "open_positions": null
       },
       {
-        "lane": "Paper total (3 dollar lanes)",
-        "bankroll": "$3,000 paper",
-        "equity": "-$79.42 week (paper)",
-        "note": "-81.16 - 1.01 + 2.75. Polymarket excluded; Sports Edge removed Oct 3.",
-        "start_balance": 3000,
-        "current_balance": 2920.58,
-        "week_pnl": -79.42,
+        "lane": "Sports",
+        "bankroll": "paper",
+        "equity": "$0",
+        "note": "Empty book.",
+        "start_balance": 0,
+        "current_balance": 0,
+        "week_pnl": 0,
+        "open_positions": 0
+      },
+      {
+        "lane": "Polymarket",
+        "bankroll": "$1,000 paper",
+        "equity": "$1,000.00 ($0)",
+        "note": "8 paper locks resting, 0 fills, 0 live orders.",
+        "start_balance": 1000,
+        "current_balance": 1000,
+        "week_pnl": 0,
+        "open_positions": 0
+      },
+      {
+        "lane": "Desk total",
+        "bankroll": "$5,000 paper",
+        "equity": "$4,922.66 (-$77.34)",
+        "note": "All paper lanes.",
+        "start_balance": 5000,
+        "current_balance": 4922.66,
+        "week_pnl": -77.34,
         "open_positions": null
       }
     ],
@@ -1621,44 +1683,56 @@
       {
         "date": "Tue Oct 6",
         "date_iso": "2026-10-06",
-        "event": "TWLO index inclusion",
-        "details": "Stocks Edge holds TWLO on paper; not adding."
+        "event": "TWLO joins the S&P index",
+        "details": "Stocks Edge holds TWLO on paper; no adding."
       },
       {
-        "date": "~Wed Oct 7",
+        "date": "Oct 6–7",
+        "date_iso": "2026-10-06",
+        "event": "Family Gem move to the main account",
+        "details": "Planned."
+      },
+      {
+        "date": "Wed Oct 7, 6 PM PT",
         "date_iso": "2026-10-07",
         "event": "Stocks Moon week one ends",
-        "details": "Paper sleeve, holds SQQQ."
+        "details": "Conservative-vs-aggressive verdict Wednesday (paper)."
       },
       {
-        "date": "~Oct 11, 2026",
+        "date": "Fri Oct 10",
+        "date_iso": "2026-10-10",
+        "event": "Stocks Edge week two ends",
+        "details": "Paper."
+      },
+      {
+        "date": "~Oct 11",
         "date_iso": "2026-10-11",
-        "event": "MoonletterMira Etsy Ads earliest start (ML-01 ~$5/day)",
-        "details": "Not enabled. Do not turn on before ~Oct 11."
+        "event": "Earliest MoonletterMira Etsy Ads (~$5/day ML-01)",
+        "details": "Only if Joshua turns them on."
       },
       {
-        "date": "Open",
-        "date_iso": "",
-        "event": "MoonletterMira Instagram day one",
-        "details": "Waiting on Joshua."
+        "date": "Thu Dec 17",
+        "date_iso": "2026-12-17",
+        "event": "USPS Ground Advantage Christmas send-by (lower 48)",
+        "details": "Published Sep 22."
       },
       {
-        "date": "No date",
-        "date_iso": "",
-        "event": "Help4U stays closed",
-        "details": "Opens only when Joshua says publish."
+        "date": "Oct 3, 2027",
+        "date_iso": "2027-10-03",
+        "event": "thefamilygems.com renewal",
+        "details": "~$18.48/yr."
       }
     ],
     "bills": [
       {
+        "item": "thefamilygems.com domain",
+        "amount": "$11.48 first year (Oct 3, 2026) · renewal ~$18.48/yr",
+        "when": "Renews 2027-10-03 (registry expiry, checked Oct 5) · DNS on parking defaults, not pointed anywhere yet"
+      },
+      {
         "item": "Etsy setup fee, The Family Gem Shop",
         "amount": "$29",
         "when": "Paid Oct 2 (one-time)"
-      },
-      {
-        "item": "thefamilygems.com domain",
-        "amount": "$11.48 first year · renewal quoted ~$18.48/yr",
-        "when": "Bought Oct 3, 2026 · no invoice date on file (renews ~Oct 2027) · not pointed at a site yet"
       },
       {
         "item": "moonlettermira.com domain",
@@ -1668,94 +1742,93 @@
       {
         "item": "Resend",
         "amount": "unknown",
-        "when": "Renewal date unknown"
+        "when": "Plan/renewal date unknown"
       },
       {
         "item": "Cloudflare",
         "amount": "unknown",
-        "when": "In use; plan price and renewal not recorded"
+        "when": "Renewal unknown"
       }
     ],
     "needs_joshua": [
       {
-        "task": "Post MoonletterMira Instagram day one",
-        "why": "feed-01, feed-03 and story-01 are ready; IG not confirmed yet.",
+        "task": "Supreme Sales to-dos (13 open)",
+        "why": "Connector sign-ins, free API keys, tool tier decisions (per the 8:56 PM roll-up).",
         "optional": false,
         "done": false
       },
       {
-        "task": "Family Gem: say when to post SF-001 and turn vacation off",
-        "why": "SF-001 ($425) is ready.",
+        "task": "Family Gem open tasks",
+        "why": "Listed in OPEN-TASKS.md in the Family Gem migration packet.",
         "optional": false,
         "done": false
       },
       {
-        "task": "Family Gem: send shop icon/logo and banner",
-        "why": "The USPS tracked/insured shipping note is blocked while vacation mode is on.",
+        "task": "Help4U: review the catalog",
+        "why": "Shop stays closed until you say publish.",
         "optional": false,
-        "done": false
-      },
-      {
-        "task": "Help4U: review the catalog and confirm the name is free",
-        "why": "Logo still says ForYou. Don't publish until you say so.",
-        "optional": false,
-        "done": false
-      },
-      {
-        "task": "Delete the empty 'New Bot' from the sidebar",
-        "why": "Only you can delete it.",
-        "optional": false,
-        "done": false
-      },
-      {
-        "task": "Check the Etsy logins for MoonletterMira and TheFamilyGemShop",
-        "why": "Done Oct 3: MoonletterMira, TheFamilyGemShop and PrintPlzShop are on three separate Etsy logins, so the shops don't share one Etsy identity.",
-        "optional": false,
-        "done": true
-      },
-      {
-        "task": "Optional: confirm a public host for Doom Index",
-        "why": "Local board, parked.",
-        "optional": true,
-        "done": false
-      },
-      {
-        "task": "Optional: deploy Edge Desk Fly",
-        "why": "Phone package, not deployed.",
-        "optional": true,
-        "done": false
-      },
-      {
-        "task": "Optional: Mira coupon",
-        "why": "Not set up.",
-        "optional": true,
         "done": false
       }
     ],
-    "combined_ads_note": "Combined Etsy Ads (both accounts): PrintPlz ~$3/day from Fri Oct 16, capped at $100/month, plus ML-01 ~$5/day from ~Oct 11 if enabled (currently off). Together roughly $240/month if both run all month.",
-    "as_of_date": "2026-10-04",
+    "combined_ads_note": "Combined Etsy Ads (both accounts): PrintPlz ~$3/day from Fri Oct 16, capped at $100/month, plus ML-01 ~$5/day from ~Oct 11 only if Joshua enables it (off now).",
+    "as_of_date": "2026-10-05",
     "revenue": 0,
     "spend_total": 40.48,
-    "paper_pnl": -79.42,
-    "paper_pnl_note": "Paper, week ending Oct 3: Politics -$81.16, Stocks Edge -$1.01, Moon +$2.75 (relayed Oct 4, 8:50 PM PT)",
-    "spend_note": "$29 Etsy setup + $11.48 thefamilygems.com",
+    "paper_pnl": -77.34,
+    "paper_pnl_note": "Paper desk $4,922.66 of $5,000 (as read for the 8:56 PM PT Oct 5 roll-up)",
+    "spend_note": "Family Gem $40.48 ($29 Etsy setup + $11.48 domain); MoonletterMira unknown in full; Help4U $0; today $0",
     "decisions_pending": [
       {
-        "decision": "Whether Politics Edge starts a new paper week",
-        "lane": "Politics Edge (paper)",
-        "note": "Last week closed Oct 3 at $918.84 (-$81.16)."
+        "decision": "Whether Politics starts a new paper week",
+        "lane": "Politics (paper)",
+        "note": "Open since Oct 3."
+      },
+      {
+        "decision": "When SF-001 may be listed, and its price",
+        "lane": "Family Gem",
+        "note": "No price on file."
+      },
+      {
+        "decision": "Approve the thefamilygems.com DNS change",
+        "lane": "Family Gem",
+        "note": "Once the main account's GitHub Pages records are sent (sent Oct 5)."
+      },
+      {
+        "decision": "Move the nightly roll-up from 8:56 PM to ~8:30 PM PT",
+        "lane": "Other account",
+        "note": "So it lands before the 8:40 PM Drive deadline."
+      },
+      {
+        "decision": "One Etsy-help store or two",
+        "lane": "Help4U",
+        "note": "Help4U vs audit4u/For You overlap."
       }
     ],
     "cross_account_items": [
       {
-        "item": "Send the Control Center field list",
-        "owner": "Scott Bot",
-        "status": "Paste-ready list written Oct 4; Scott sends it via Joshua."
+        "item": "Gold HQ Sync",
+        "owner": "Both accounts",
+        "status": "Adopted on the other account Oct 5."
       },
       {
-        "item": "Avi page file to Scott",
+        "item": "Family Gem migration packet",
         "owner": "Other account",
-        "status": "Not needed: Avi's Fun Page is already live at control-center/avi/. Send only if there's a newer file."
+        "status": "Sent Oct 5."
+      },
+      {
+        "item": "MoonletterMira and Help4U migration packets",
+        "owner": "Other account",
+        "status": "Next."
+      },
+      {
+        "item": "GitHub Pages DNS records for thefamilygems.com",
+        "owner": "Scott Bot",
+        "status": "Sent Oct 5; DNS waits on Joshua's yes + sign-in on the other account."
+      },
+      {
+        "item": "Daily roll-up to Drive by 8:40 PM PT",
+        "owner": "Other account",
+        "status": "Starts Oct 6."
       }
     ]
   },
@@ -1784,6 +1857,16 @@
       "item": "sitesplz.com domain (redirects to websiteplz.com)",
       "amount": "$10.46/yr",
       "when": "Bought Oct 3, 2026 · renews Oct 3, 2027 (auto-renew on, Cloudflare card on file)"
+    },
+    {
+      "item": "Grok Bot Ultra plan (main account)",
+      "amount": "$200/month",
+      "when": "Billing date TBD; usage resets weekly"
+    },
+    {
+      "item": "Grok Bot Pro+ plan (other account)",
+      "amount": "$60/month",
+      "when": "Plan name pending confirmation; billing date TBD; usage resets weekly"
     }
   ],
   "traffic_sources": [
@@ -1918,50 +2001,109 @@
   ],
   "decisions_pending": [
     {
-      "decision": "Contra pricing",
+      "decision": "Contra: $900 intro price",
       "lane": "WebsitePlz",
-      "note": "Contra/outreach range on file is $900–1,200; final number not set."
+      "recommended": "Yes",
+      "note": "Contra/outreach range on file is $900–1,200."
     },
     {
-      "decision": "Gig extras",
+      "decision": "Add the Fiverr gig extras",
       "lane": "WebsitePlz",
-      "note": "Which add-ons to offer on the Fiverr gig."
+      "recommended": "Yes",
+      "note": ""
     },
     {
-      "decision": "When to lift the PrintPlz build hold",
-      "lane": "PrintPlz",
-      "note": "New builds are ON HOLD per Joshua; batch 2 is already all live (Shop Manager, Oct 5)."
-    },
-    {
-      "decision": "Whether to dig into bottes-presso.fr",
+      "decision": "Dig into bottes-presso.fr (full due diligence)",
       "lane": "Deal Scout",
-      "note": "Top pick; full due diligence only if you say go. Research only."
+      "recommended": "Yes",
+      "note": "Top pick; research only until you say go."
     },
     {
       "decision": "Domain test: $120–170 for 10 names before the Nov 1 .com price rise",
       "lane": "Domain research",
-      "note": "Plan in /workspace/domain-research/GAME_PLAN.md (estimate). Needs your budget OK, registrar and pick of 10. Nothing bought."
+      "recommended": "No",
+      "note": "Plan in /workspace/domain-research/GAME_PLAN.md (estimate). Nothing bought."
+    },
+    {
+      "decision": "Raise the $5K acquisition cap",
+      "lane": "Deal Scout",
+      "recommended": "No",
+      "note": ""
+    },
+    {
+      "decision": "Move the other account's nightly roll-up to ~8:30 PM PT",
+      "lane": "Other account",
+      "recommended": "Yes",
+      "note": "So it lands before the 8:40 PM Drive deadline."
+    },
+    {
+      "decision": "Approve the thefamilygems.com DNS change",
+      "lane": "Other account",
+      "recommended": "Yes, once the records are sent",
+      "note": "GitHub Pages records were sent tonight; needs your yes plus a sign-in on the other account."
+    },
+    {
+      "decision": "One Etsy-help store instead of two (Help4U vs audit4u/For You)",
+      "lane": "Other account",
+      "recommended": "Yes",
+      "note": ""
+    },
+    {
+      "decision": "Start a new Politics paper week",
+      "lane": "Other account (paper)",
+      "recommended": "Yes",
+      "note": "Open since Oct 3; last week closed at $918.84 (-$81.16)."
+    },
+    {
+      "decision": "SF-001 listing and price",
+      "lane": "Other account",
+      "recommended": "Hold; no price yet",
+      "note": "Photographed, not listed; no price on file."
     },
     {
       "decision": "Package name for the cleaning and pressure-washing sites",
       "lane": "WebsitePlz",
       "note": "Decided Oct 4: \"Booking-ready\" (approved).",
       "done": true
+    },
+    {
+      "decision": "When to lift the PrintPlz build hold",
+      "lane": "PrintPlz",
+      "note": "Approved Oct 5 for build/list only; not used yet.",
+      "done": true
     }
   ],
-  "decisions_source": "Chief of Staff nightly roll-ups, Oct 3 and Oct 4, 2026",
+  "decisions_source": "Chief of Staff nightly roll-up, Mon Oct 5, 2026 (recommended defaults are Chief of Staff's; nothing changes until Joshua decides)",
   "priority_projects": [
     {
       "id": "cat-bundle",
       "name": "Cat Bundle ops partnership (Flippa #13421685, Marlenespetshop)",
       "owner": "Deal Scout + Joshua",
-      "status": "waiting",
+      "status": "earn-in path",
       "flippa_id": "13421685",
       "url": "https://flippa.com/13421685",
-      "status_note": "Broker (Jared) sent the seller Q&A on Mon Oct 5 (Flippa chat): $15M TTM revenue (seller claim, unverified), ~10% average margin, 95% paid traffic, mostly Meta ads; the owners want out. Joshua sent a thank-you holding reply Oct 5.",
-      "next_step": "Wed Oct 7, 2026, 9:01 AM PT: Deal Scout delivers the earn-in-to-buyout follow-up; Joshua sends it in Flippa.",
+      "status_note": "Broker (Jared) sent the seller Q&A on Mon Oct 5: $15M TTM revenue (seller claim, unverified), ~10% average margin, 95% paid traffic (mostly Meta ads); the owners want out. Joshua sent a thank-you holding reply Oct 5. Now on the earn-in path: WebsitePlz's SSM scored it 4.2/10 (4.8/10 as an earn-in). Public traffic estimates (~$2.5–4.5M/yr, down ~72% in 6 months) don't support the $15M claim. Gaming Desk Mat is backup only. Deal Scout is preparing letters for 8 smaller earn-in targets.",
+      "next_step": "Wed Oct 7, 2026, 9:01 AM PT: Deal Scout delivers the follow-up asking for a verified recent P&L and tying any earn-in to trailing-3-month profit; Joshua sends it in Flippa.",
       "next_date": "2026-10-07T09:01:00-07:00",
-      "source": "/workspace/acquisitions/deal-scout/cat-bundle-13421685/seller-qa-summary.md"
+      "source": "/workspace/acquisitions/deal-scout/cat-bundle-13421685/seller-qa-summary.md",
+      "score": "4.2/10 (4.8/10 as an earn-in)"
     }
-  ]
+  ],
+  "business_costs": {
+    "items": [
+      {
+        "item": "Grok Bot Ultra plan (main account)",
+        "monthly": 200,
+        "note": "Billing date TBD; usage resets weekly"
+      },
+      {
+        "item": "Grok Bot Pro+ plan (other account)",
+        "monthly": 60,
+        "note": "Plan name pending confirmation; billing date TBD; usage resets weekly"
+      }
+    ],
+    "monthly_total": 260,
+    "source": "Joshua (real figures), /workspace/org/USAGE-OPTIMIZATION-2026-10-05.md section 1",
+    "note": "Recurring tool costs, not in the $1,000 capital ledger. Revenue is $0 in every lane, so monthly burn is $260/month."
+  }
 }

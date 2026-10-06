@@ -40,8 +40,16 @@ function render(D) {
     ["Ad ROAS", adSpend ? (adRev / adSpend).toFixed(2) + "x" : "n/a", `${usd(adSpend)} spent`],
     ["Shops live", `${live} / ${shops.length}`, live ? "" : "not live yet"],
   ];
-  const kc = [["k-yellow", "💵"], ["k-teal", "📈"], ["k-orange", "🚀"], ["k-asphalt", "🏦"], ["k-red", "🎯"], ["k-mint", "🏪"]];
+  const BC = D.business_costs;
+  if (BC) k.push(["Monthly burn", usd(BC.monthly_total) + "/mo", `plan costs vs ${usd(rev)} revenue`]);
+  const kc = [["k-yellow", "💵"], ["k-teal", "📈"], ["k-orange", "🚀"], ["k-asphalt", "🏦"], ["k-red", "🎯"], ["k-mint", "🏪"], ["k-red", "🔥"]];
   $("kpis").innerHTML = k.map(([l, v, s], i) => `<div class="kpi ${kc[i][0]}"><div class="l"><span class="ki" aria-hidden="true">${kc[i][1]}</span>${l}</div><div class="v">${v}</div><div class="s">${esc(s)}</div></div>`).join("");
+  if (BC) {
+    $("burn").hidden = false;
+    $("burn").innerHTML = `<div class="row between"><b>Recurring business costs</b><span><b>${usd(BC.monthly_total)}/month</b> burn vs <b>${usd(rev)}</b> revenue</span></div>` +
+      `<ul>${BC.items.map(x => `<li><b>${esc(x.item)}</b>: ${usd(x.monthly)}/month · <span class="muted">${esc(x.note)}</span></li>`).join("")}</ul>` +
+      `<div class="muted">${esc(BC.note)} Source: ${esc(BC.source)}.</div>`;
+  }
   $("capLabel").textContent = `${usd(deployed)} / ${usd(budget)} (${pct(deployed / budget)})`;
   $("capBar").style.width = Math.min(100, deployed / budget * 100) + "%";
   $("alloc").innerHTML = "Planned split: " + D.budget.planned_allocation.map(a => `<span>${esc(a.lane)}: <b>${usd(a.amount)}</b></span>`).join("");
@@ -96,7 +104,7 @@ function render(D) {
   }
   if (D.decisions_pending) {
     $("decisionsNote").textContent = "Source: " + (D.decisions_source || "roll-up") + ". Nothing changes until Joshua decides.";
-    $("decisions").innerHTML = D.decisions_pending.map(x => `<div class="item ${x.done ? "done" : ""}"><div>${x.done ? "✅" : "🤔"}</div><div style="flex:1"><div class="x"><b>${esc(x.decision)}</b></div><div class="w">${esc(x.note || "")}</div></div><div>${pill(x.done ? "done" : x.lane)}</div></div>`).join("");
+    $("decisions").innerHTML = D.decisions_pending.map(x => `<div class="item ${x.done ? "done" : ""}"><div>${x.done ? "✅" : "🤔"}</div><div style="flex:1"><div class="x"><b>${esc(x.decision)}</b></div><div class="w">${x.recommended && !x.done ? `<b>Recommended: ${esc(x.recommended)}</b>${x.note ? " · " : ""}` : ""}${esc(x.note || "")}</div></div><div>${pill(x.done ? "done" : x.lane)}</div></div>`).join("");
   }
   const needs = D.needs_joshua.slice().sort((a, b) => (a.done - b.done) || ((b.pinned ? 1 : 0) - (a.pinned ? 1 : 0)) || ((a.rank || 99) - (b.rank || 99)));
   $("needs").innerHTML = needs.length ? needs.map(n => `<div class="item ${n.done ? "done" : ""}"><div>${n.done ? "✅" : "⬜"}</div><div style="flex:1"><div class="x"><b>${n.pinned && !n.done ? "⭐ " : ""}${n.rank && !n.done ? `#${n.rank} · ` : ""}${esc(n.task)}</b></div><div class="w">${esc(n.why)}</div></div><div>${pill(n.done ? "done" : n.priority)}</div></div>`).join("") : `<p class="empty">Nothing needed right now 🎉</p>`;

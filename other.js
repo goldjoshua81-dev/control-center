@@ -1,7 +1,7 @@
 loadData(D => {
   const O = D.other_account;
   $("updated").textContent = "Data as of " + O.as_of + " · page built from data.json (last saved " + fmtPT(D.meta.last_updated) + ")";
-  $("oaAsOf").textContent = "Data as of " + O.as_of + ". Not live-synced; it changes only when Joshua relays a new report.";
+  $("oaAsOf").textContent = "Data as of " + O.as_of + ". Not live-synced; it changes only when a new verified roll-up lands (Gold HQ Sync) or Joshua relays one.";
   $("oaNote").textContent = O.source_note || "";
   const k = [["Revenue", usd(O.revenue), "friend/demo sale excluded", "k-yellow", "💵"], ["Spent", usd(O.spend_total), O.spend_note || "", "k-orange", "🚀"],
              ["Paper P&L (paper only)", usd(O.paper_pnl), O.paper_pnl_note || "", "k-red", "🎯"], ["Shops live", `${O.shops.filter(s => s.status === "live").length} / ${O.shops.length}`, "", "k-mint", "🏪"]];
