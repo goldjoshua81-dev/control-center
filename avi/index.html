@@ -771,6 +771,77 @@
     .avatar { width: 84px; height: 84px; }
     .hero-main { align-items: flex-start; }
   }
+  .topic-tag {
+    display: inline-block; font-size: 13px; font-weight: 900; letter-spacing: .04em;
+    background: rgba(255, 45, 74, .18); color: #ffb4c4; border: 1px solid rgba(255, 45, 74, .55);
+    border-radius: 999px; padding: 4px 10px; margin: 8px 0 2px;
+  }
+  .sawyer-shot { cursor: pointer; }
+  .sawyer-shot img { cursor: pointer; }
+  .sawyer-shot.wag img { animation: bounce .22s infinite alternate; transform-origin: center bottom; }
+  @keyframes bounce { from { transform: translateY(0); } to { transform: translateY(-6px); } }
+  .helper-lab, .friends-panel {
+    margin-top: 16px; scroll-margin-top: 72px;
+    background: rgba(14, 20, 38, .78); color: #f4f1ea;
+    border: 1px solid rgba(255, 255, 255, .14); border-radius: 22px; padding: 16px;
+    box-shadow: 0 16px 40px rgba(0, 0, 0, .35), 0 0 0 1px rgba(255, 45, 74, .22);
+  }
+  .helper-lab h2, .friends-panel h2, .hl-wizard h3, .hl-mine h3 { color: white; margin: 0 0 8px; }
+  .hl-label { font-weight: 900; margin: 12px 0 6px; }
+  .hl-tag {
+    display: inline-block; background: var(--red); color: white; border-radius: 999px;
+    padding: 2px 10px; font-weight: 900; font-size: 12px; letter-spacing: .08em; margin-bottom: 8px;
+  }
+  .hl-starters { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; }
+  .hl-card, .hl-tool, .hl-chip, .hl-saved, .hl-blurb, .hl-wizard, .guest-row {
+    background: rgba(255, 255, 255, .06); color: #f4f1ea; border: 2px solid rgba(255, 255, 255, .18);
+  }
+  .hl-card {
+    border-radius: 18px; padding: 12px 10px; text-align: center; cursor: pointer; min-height: 48px;
+  }
+  .hl-card.on, .hl-tool.on, .hl-chip.on { background: var(--gold); color: #140c12; border-color: var(--gold); }
+  .hl-card .ico { font-size: 28px; line-height: 1; }
+  .hl-card .ttl { font-weight: 900; margin: 4px 0 2px; }
+  .hl-card .one { font-size: 13px; font-weight: 700; min-height: 2.4em; color: inherit; }
+  .hl-card .go-mini, .hl-go, .guest-revoke {
+    min-height: 48px; font-weight: 900; cursor: pointer; border-radius: 12px;
+    border: 2px solid rgba(255, 255, 255, .3);
+  }
+  .hl-card .go-mini, .hl-go { background: var(--red); color: white; padding: 8px 14px; }
+  .hl-tools, .hl-chips, .hl-mine-row, .guest-form-row { display: flex; flex-wrap: wrap; gap: 8px; }
+  .hl-tool, .hl-chip, .hl-saved { border-radius: 999px; padding: 8px 14px; font-weight: 900; cursor: pointer; min-height: 48px; }
+  .hl-blurb, .hl-chat, .hl-wizard {
+    border-radius: 14px; padding: 10px 12px; margin: 8px 0;
+  }
+  .hl-chat { max-height: 280px; overflow-y: auto; background: #0c1222; }
+  .hl-bubble { margin: 0 0 8px; padding: 10px 12px; border-radius: 14px; font-weight: 700; white-space: pre-wrap; }
+  .hl-bubble.avi { background: #24345c; color: white; }
+  .hl-bubble.bot { background: #3a2410; color: #fff6df; }
+  .hl-bubble.sys { background: #1c2438; color: #c5d0e0; font-size: 15px; }
+  .hl-compose { display: flex; gap: 8px; align-items: stretch; }
+  .hl-compose textarea, #hl-helper-name, .guest-form-row input {
+    flex: 1; min-height: 52px; border-radius: 14px; padding: 10px 12px;
+    background: #0c1222; color: white; border: 2px solid rgba(245, 197, 24, .55); font: inherit; font-weight: 700;
+  }
+  .hl-mine { margin-top: 12px; padding-top: 10px; border-top: 2px dashed rgba(255, 255, 255, .2); }
+  .hl-empty { color: #c5d0e0; font-weight: 700; }
+  .guest-form-row { margin-top: 8px; }
+  .guest-form-row input { width: auto; min-width: 0; }
+  .guest-row {
+    display: flex; align-items: center; justify-content: space-between; gap: 8px;
+    border-radius: 12px; padding: 8px 10px; margin: 6px 0; font-weight: 800;
+  }
+  .guest-revoke { background: #ffd0ea; color: #140c12; }
+  .tongue-flash { display: inline-block; font-size: 28px; animation: tonguePulse .35s ease-in-out 4; }
+  @keyframes tonguePulse {
+    0%, 100% { transform: scale(1) rotate(0deg); }
+    50% { transform: scale(1.25) rotate(-8deg); }
+  }
+  .nope-flash { color: #ff8aa0 !important; font-weight: 900; }
+  @media (max-width: 640px) {
+    .guest-form-row { flex-direction: column; }
+    .guest-form-row input, .guest-form-row .big { width: 100%; }
+  }
   @media (prefers-reduced-motion: reduce) {
     *, *::before, *::after {
       animation: none !important;
@@ -826,7 +897,7 @@
         <button class="out" id="out" type="button">Log out</button>
       </div>
       <div class="hero-main">
-        <img class="avatar" src="photos/avi-portrait.jpg" alt="Avi smiling" />
+        <img class="avatar" src="photos/hero/avi-school-portrait.jpg" alt="Avi smiling" />
         <div>
           <div class="nameplate">CLUBHOUSE</div>
           <h1>Avi's Fun Page</h1>
@@ -849,15 +920,16 @@
         <a href="#calendar">This day</a>
       </nav>
       <div class="hero-photos">
-        <figure><img src="photos/avi-portrait.jpg" alt="Avi smiling" /><figcaption>Avi</figcaption></figure>
-        <figure><img src="photos/avi-kings-mascot.jpg" alt="Avi with a Kings drummer mascot" /><figcaption>Kings night</figcaption></figure>
-        <figure><img src="photos/avi-kings-flexcam.jpg" alt="Avi on the court in a Kings jersey" /><figcaption>Courtside</figcaption></figure>
-        <figure><img src="photos/avi-soccer-trophy.jpg" alt="Avi holding a soccer trophy" /><figcaption>Soccer champ</figcaption></figure>
-        <figure><img src="photos/avi-beach.jpg" alt="Avi smiling at the beach" /><figcaption>Beach day</figcaption></figure>
-        <figure><img src="photos/avi-champ.jpg" alt="Avi holding up a toy championship belt" /><figcaption>Champ pose</figcaption></figure>
-        <figure><img src="photos/avi-backpack.jpg" alt="Avi with a red backpack, ready for the day" /><figcaption>Ready for the day</figcaption></figure>
-        <figure><img src="photos/sawyer-portrait.jpg" alt="Sawyer, a fluffy dog" /><figcaption>Sawyer</figcaption></figure>
-        <figure><img src="photos/avi-and-sawyer.jpg" alt="Avi and Sawyer being silly together" /><figcaption>Avi + Sawyer</figcaption></figure>
+        <figure><img src="photos/hero/avi-school-portrait.jpg" alt="Avi smiling" /><figcaption>Avi</figcaption></figure>
+        <figure><img src="photos/sports/avi-kings-mascot.jpg" alt="Avi with a Kings drummer mascot" /><figcaption>Kings night</figcaption></figure>
+        <figure><img src="photos/sports/avi-kings-flexcam.jpg" alt="Avi on the court in a Kings jersey" /><figcaption>Courtside</figcaption></figure>
+        <figure><img src="photos/sports/avi-soccer-trophy.jpg" alt="Avi holding a soccer trophy" /><figcaption>Soccer champ</figcaption></figure>
+        <figure><img src="photos/fun/avi-beach-smile.jpg" alt="Avi smiling at the beach" /><figcaption>Beach day</figcaption></figure>
+        <figure><img src="photos/fun/avi-wwe-champ.jpg" alt="Avi holding up a toy championship belt" /><figcaption>Champ pose</figcaption></figure>
+        <figure><img src="photos/fun/avi-first-day-3rd-grade.jpg" alt="Avi with a red backpack, ready for the day" /><figcaption>Ready for the day</figcaption></figure>
+        <figure><img src="photos/fun/avi-flex-mirror.jpg" alt="Avi flexing in a mirror" /><figcaption>Mirror flex</figcaption></figure>
+        <figure><img src="photos/sawyer/sawyer-portrait.jpg" alt="Sawyer, a fluffy dog" /><figcaption>Sawyer</figcaption></figure>
+        <figure><img src="photos/sawyer/avi-and-sawyer-silly.jpg" alt="Avi and Sawyer being silly together" /><figcaption>Avi + Sawyer</figcaption></figure>
       </div>
     </header>
     <div class="bands" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
@@ -874,6 +946,8 @@
       <a href="#chess">Chess</a>
       <a href="#gems">Gems</a>
       <a href="#ai">AI</a>
+      <a href="#helper-lab">Helper Lab</a>
+      <a href="#friends-panel" id="friends-jump" class="hidden">Friends</a>
       <a href="#dad-note" id="dad-jump" class="hidden">Dad desk</a>
     </nav>
 
@@ -881,12 +955,14 @@
       <section class="card" id="lab">
         <p class="kicker">LAB</p>
         <h2>Number lab</h2>
-        <p class="tiny">You pick the heat. I make the problem.</p>
+        <p class="tiny">You pick the heat. I learn what you're great at.</p>
         <div class="math-row" id="levels">
           <button class="chip on" type="button" data-level="warm">Warm</button>
           <button class="chip" type="button" data-level="hot">Hot</button>
           <button class="chip" type="button" data-level="silly">Silly big</button>
+          <button class="chip" type="button" data-level="boss">Boss</button>
         </div>
+        <span class="topic-tag" id="topic-tag">warmup</span>
         <p class="problem" id="problem">?</p>
         <form id="math-form" class="math-line">
           <input class="answer" id="answer" aria-label="Your answer" inputmode="numeric" autocomplete="off" />
@@ -900,8 +976,11 @@
         <p class="kicker">DOG</p>
         <h2>Sawyer's pen</h2>
         <div class="dog-photos">
-          <figure><img src="photos/sawyer-portrait.jpg" alt="Sawyer, a fluffy dog" /><figcaption>Sawyer</figcaption></figure>
-          <figure><img src="photos/avi-and-sawyer.jpg" alt="Avi and Sawyer being silly together" /><figcaption>Avi + Sawyer</figcaption></figure>
+          <figure class="sawyer-shot" id="sawyer-photo" title="Pet Sawyer">
+            <img src="photos/sawyer/sawyer-portrait.jpg" alt="Sawyer, a fluffy dog" />
+            <figcaption>Sawyer</figcaption>
+          </figure>
+          <figure><img src="photos/sawyer/avi-and-sawyer-silly.jpg" alt="Avi and Sawyer being silly together" /><figcaption>Avi + Sawyer</figcaption></figure>
         </div>
         <div class="dog-stage">
           <div class="dog" id="dog" title="Pet the dog">
@@ -916,7 +995,7 @@
             </div>
           </div>
         </div>
-        <p id="pets" class="tiny">Pets today: 0. Click the dog.</p>
+        <p id="pets" class="tiny">Pets today: 0. Click Sawyer.</p>
         <label for="dog-name">Name on the tag</label>
         <input id="dog-name" type="text" maxlength="24" placeholder="Sawyer" autocomplete="off" />
         <p class="tiny">Sawyer is the starter name. Type a new one anytime.</p>
@@ -944,7 +1023,7 @@
       <section class="card bot" id="bot">
         <p class="kicker">BOT</p>
         <h2>Your bot</h2>
-        <p>This spot is yours. A separate helper, just for Avi, that you can point at whatever you dream up: math, the dog, sports, or something silly nobody has named yet.</p>
+        <p>This spot is yours. A separate helper, just for Avi, that you can point at whatever you dream up: math, the dog, sports, or something silly nobody has named yet. On this page, open <b>Helper Lab</b> and tap a starter.</p>
         <p class="tiny">It's ON! 🎉 Ask Dad to open <b>Avi Bot</b> in the Grok Bot app and say hi. Try: "give me a hard math puzzle" or "tell me a dog joke."</p>
       </section>
     </div>
@@ -999,8 +1078,8 @@
       <p class="kicker">KINGS</p>
       <h2>Light the beam</h2>
       <div class="moment-row">
-        <figure><img src="photos/avi-kings-mascot.jpg" alt="Avi with a Kings drummer mascot" /><figcaption>Kings night</figcaption></figure>
-        <figure><img src="photos/avi-kings-flexcam.jpg" alt="Avi on the court in a Kings jersey" /><figcaption>Courtside</figcaption></figure>
+        <figure><img src="photos/sports/avi-kings-mascot.jpg" alt="Avi with a Kings drummer mascot" /><figcaption>Kings night</figcaption></figure>
+        <figure><img src="photos/sports/avi-kings-flexcam.jpg" alt="Avi on the court in a Kings jersey" /><figcaption>Courtside</figcaption></figure>
       </div>
       <p>Real Kings score up here. When they win, rainbow beams stay until morning. The purple button is a practice beam you can light anytime. Legend cards are stories only — no photos, no logos.</p>
       <div class="kings-board" id="kings-score" aria-live="polite">
@@ -1091,7 +1170,7 @@
       <p class="kicker">SPURS</p>
       <h2>Penalty spot</h2>
       <p>Navy and white, Tottenham style. Pretend penalties — not a real match. Then two legends with different styles: Ronaldo and Messi. You can like both.</p>
-      <figure class="solo-photo"><img class="inline-photo" src="photos/avi-soccer-trophy.jpg" alt="Avi holding a soccer trophy" /><figcaption>Soccer champ</figcaption></figure>
+      <figure class="solo-photo"><img class="inline-photo" src="photos/sports/avi-soccer-trophy.jpg" alt="Avi holding a soccer trophy" /><figcaption>Soccer champ</figcaption></figure>
       <div class="soccer-layout">
         <div>
           <div class="scarf" aria-hidden="true"></div>
@@ -1260,9 +1339,69 @@
       </div>
     </section>
 
+    <section class="helper-lab" id="helper-lab" aria-label="Helper Lab">
+      <span class="hl-tag">LAB</span>
+      <h2>Helper Lab</h2>
+      <p class="tiny">Build tiny helpers. Tap a card. Hit <b>Go</b>. Magic first — reading later.</p>
+      <p class="hl-label">Try one now</p>
+      <div class="hl-starters" id="hl-starters"></div>
+      <p class="hl-label">Tools</p>
+      <div class="hl-tools" id="hl-tools" role="toolbar" aria-label="Helper tools"></div>
+      <p class="hl-blurb" id="hl-blurb" role="status">Tap a tool to see how it works.</p>
+      <div class="hl-chat" id="hl-chat" aria-live="polite">
+        <p class="hl-bubble sys">Pick a starter card up top. The first idea is already ready — just tap Go.</p>
+      </div>
+      <div class="hl-compose">
+        <textarea id="hl-input" maxlength="500" placeholder="Your idea goes here…" aria-label="Helper message"></textarea>
+        <button class="hl-go" id="hl-go" type="button">Go</button>
+      </div>
+      <div class="hl-chips" id="hl-chips"></div>
+      <div class="hl-wizard hidden" id="hl-wizard">
+        <h3>Build your own helper</h3>
+        <div class="hl-wiz-step" id="hl-wiz-job">
+          <label>1. Job — what should it help with?</label>
+          <div class="hl-chips" id="hl-job-chips"></div>
+        </div>
+        <div class="hl-wiz-step" id="hl-wiz-rules">
+          <label>2. Rules — pick up to 3</label>
+          <div class="hl-chips" id="hl-rule-chips"></div>
+        </div>
+        <div class="hl-wiz-step" id="hl-wiz-name">
+          <label for="hl-helper-name">3. Name — silly is best</label>
+          <div class="hl-compose">
+            <input id="hl-helper-name" type="text" maxlength="24" placeholder="Stomp Bot" />
+            <button class="hl-go" id="hl-save-helper" type="button">Save</button>
+          </div>
+        </div>
+      </div>
+      <div class="hl-mine" id="hl-mine">
+        <h3>My Helpers</h3>
+        <div class="hl-mine-row" id="hl-mine-row">
+          <span class="hl-empty">None yet. Finish a starter, then Save.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="friends-panel hidden" id="friends-panel" aria-label="Friend logins">
+      <p class="kicker">AVI ONLY</p>
+      <h2>Friend logins</h2>
+      <p class="tiny">Avi only. Make a login for a friend. They see the fun page — not Dad stuff.</p>
+      <form id="guest-form">
+        <div class="guest-form-row">
+          <input id="guest-user" type="text" maxlength="16" placeholder="friend name" autocomplete="off" required />
+          <input id="guest-pass" type="password" maxlength="32" placeholder="fun password" autocomplete="new-password" required />
+          <button class="big" type="submit">Add friend</button>
+        </div>
+        <p class="nope" id="guest-msg" role="status"></p>
+      </form>
+      <div id="guest-list"></div>
+    </section>
+
     <section class="dad-note hidden" id="dad-note">
       <h2>Dad desk</h2>
       <p>Avi Bot is created (Oct 3). It lives in your Grok Bot app sidebar, kid-safe, no purchases or messages. This page is just the fun display.</p>
+      <p class="tiny" id="dad-math-summary">Number lab adapts by topic (add, subtract, multiply, divide, mix).</p>
+      <p class="tiny" id="dad-helper-note">Helper Lab events are stored locally for later digest.</p>
       <p class="tiny">The yellow $$ on every Control Center page opens this page.</p>
     </section>
     <p class="footer-note">Toy scores and pretend games. Nothing you type here is sent anywhere.</p>
@@ -1292,23 +1431,35 @@ async function digest(text) {
 const gate = document.getElementById("gate");
 const app = document.getElementById("app");
 const nope = document.getElementById("nope");
+let sessionWarmupsLeft = 2;
 
-function showApp(role) {
+function showApp(role, guestName) {
   gate.classList.add("hidden");
   app.classList.remove("hidden");
-  document.getElementById("hello").textContent = role === "dad"
-    ? "Hi Dad. Avi's side is the same. Your note is at the bottom."
-    : "Hi Avi. Math, your dog, every sport, and one very silly booth.";
+  if (role === "dad") {
+    document.getElementById("hello").textContent = "Hi Dad. Avi's side is the same. Your note is at the bottom.";
+  } else if (role === "guest") {
+    document.getElementById("hello").textContent = "Hi " + (guestName || "friend") + "! Welcome to Avi's Fun Page.";
+  } else {
+    document.getElementById("hello").textContent = "Hi Avi. Math, Sawyer, every sport, Helper Lab, and one very silly booth.";
+  }
   document.getElementById("dad-note").classList.toggle("hidden", role !== "dad");
   document.getElementById("dad-jump").classList.toggle("hidden", role !== "dad");
   document.getElementById("dad-beam-demo").classList.toggle("hidden", role !== "dad");
+  document.getElementById("friends-panel").classList.toggle("hidden", role !== "avi");
+  document.getElementById("friends-jump").classList.toggle("hidden", role !== "avi");
   if (role !== "dad") demoOn = false;
   sessionStorage.setItem("avi-fun-role", role);
+  if (role === "guest" && guestName) sessionStorage.setItem("avi-fun-guest", guestName);
+  else sessionStorage.removeItem("avi-fun-guest");
+  sessionWarmupsLeft = 2;
   nextProblem();
   loadDog();
   restoreWin();
   if (!kingsStarted) { kingsStarted = true; loadKings(); }
   syncCelebration();
+  if (role === "dad") paintDadMathSummary();
+  if (role === "avi" && window.__aviPaintGuests) window.__aviPaintGuests();
 }
 
 document.getElementById("login-form").addEventListener("submit", async (e) => {
@@ -1319,13 +1470,22 @@ document.getElementById("login-form").addEventListener("submit", async (e) => {
   if (USERS[name] && USERS[name] === hash) {
     nope.textContent = "";
     showApp(name);
-  } else {
-    nope.textContent = "Nope. That door stayed shut.";
+    return;
   }
+  if (window.__aviFindGuest) {
+    const guest = await window.__aviFindGuest(name, pass);
+    if (guest) {
+      nope.textContent = "";
+      showApp("guest", guest.user);
+      return;
+    }
+  }
+  nope.textContent = "Nope. That door stayed shut.";
 });
 
 document.getElementById("out").addEventListener("click", () => {
   sessionStorage.removeItem("avi-fun-role");
+  sessionStorage.removeItem("avi-fun-guest");
   app.classList.add("hidden");
   gate.classList.remove("hidden");
   document.getElementById("pass").value = "";
@@ -1334,83 +1494,238 @@ document.getElementById("out").addEventListener("click", () => {
   window.scrollTo(0, 0);
 });
 
+const TOPICS = ["add", "subtract", "multiply", "divide", "mix"];
+const TOPIC_LABELS = {
+  add: "adding",
+  subtract: "subtracting",
+  multiply: "multiplying",
+  divide: "dividing",
+  mix: "mix-ups"
+};
+const DEFAULT_SKILL = () => ({
+  add: { level: 1, streak: 0, misses: 0, correct: 0 },
+  subtract: { level: 1, streak: 0, misses: 0, correct: 0 },
+  multiply: { level: 1, streak: 0, misses: 0, correct: 0 },
+  divide: { level: 1, streak: 0, misses: 0, correct: 0 },
+  mix: { level: 1, streak: 0, misses: 0, correct: 0 }
+});
+function loadSkills() {
+  try {
+    const raw = localStorage.getItem("avi-math-skills");
+    if (!raw) return DEFAULT_SKILL();
+    const parsed = JSON.parse(raw);
+    const base = DEFAULT_SKILL();
+    for (const t of TOPICS) {
+      if (parsed[t]) base[t] = { ...base[t], ...parsed[t] };
+    }
+    return base;
+  } catch (e) {
+    return DEFAULT_SKILL();
+  }
+}
+function saveSkills() {
+  localStorage.setItem("avi-math-skills", JSON.stringify(skills));
+}
+let skills = loadSkills();
 let level = "warm";
 let answer = 0;
+let currentTopic = "multiply";
+let mathBusy = false;
 let streak = Number(localStorage.getItem("avi-streak") || 0);
 document.getElementById("streak").textContent = streak;
 
 document.getElementById("levels").addEventListener("click", (e) => {
   const btn = e.target.closest("button");
-  if (!btn) return;
+  if (!btn || mathBusy) return;
   level = btn.dataset.level;
   document.querySelectorAll("#levels .chip").forEach(b => b.classList.toggle("on", b === btn));
   nextProblem();
 });
 
 function rand(n) { return Math.floor(Math.random() * n); }
+function clamp(n, lo, hi) { return Math.max(lo, Math.min(hi, n)); }
 
-function nextProblem() {
-  let text = "?";
-  if (level === "warm") {
-    const a = rand(12) + 1, b = rand(12) + 1;
-    answer = a * b;
-    text = a + " × " + b;
-  } else if (level === "hot") {
-    const a = rand(40) + 10, b = rand(40) + 10;
-    answer = a + b;
-    text = a + " + " + b;
-  } else {
-    const a = rand(20) + 2, b = rand(9) + 2, c = rand(9) + 1;
-    answer = a * b + c;
-    text = a + " × " + b + " + " + c;
+function pickTopic() {
+  if (sessionWarmupsLeft > 0) {
+    sessionWarmupsLeft -= 1;
+    const ranked = [...TOPICS].sort((a, b) => {
+      const sa = skills[a].correct - skills[a].misses + skills[a].level;
+      const sb = skills[b].correct - skills[b].misses + skills[b].level;
+      return sb - sa;
+    });
+    return ranked[0];
   }
-  document.getElementById("problem").textContent = text;
-  document.getElementById("answer").value = "";
-  document.getElementById("math-msg").textContent = "";
+  const scored = TOPICS.map(t => {
+    const s = skills[t];
+    const weakness = (s.misses + 1) / (s.correct + 1) + (4 - s.level) * 0.35;
+    return { t, weakness: weakness + Math.random() * 0.15 };
+  }).sort((a, b) => b.weakness - a.weakness);
+  return scored[0].t;
 }
-
+function makeProblem(topic, heat, skillLevel) {
+  const L = clamp(skillLevel, 1, 4);
+  const heatBoost = { warm: 0, hot: 1, silly: 2, boss: 3 }[heat] || 0;
+  const tier = clamp(L + heatBoost, 1, 7);
+  if (topic === "add") {
+    const max = 9 + tier * 8;
+    const a = rand(max) + 1, b = rand(max) + 1;
+    return { text: a + " + " + b, answer: a + b };
+  }
+  if (topic === "subtract") {
+    const max = 9 + tier * 8;
+    let a = rand(max) + 5, b = rand(Math.min(a, max)) + 1;
+    if (b > a) { const t = a; a = b; b = t; }
+    return { text: a + " − " + b, answer: a - b };
+  }
+  if (topic === "multiply") {
+    const maxA = 5 + Math.min(tier, 7);
+    const maxB = 5 + Math.min(tier, 9);
+    const a = rand(maxA) + 1, b = rand(maxB) + 1;
+    return { text: a + " × " + b, answer: a * b };
+  }
+  if (topic === "divide") {
+    const b = rand(2 + Math.min(tier, 9)) + 2;
+    const q = rand(2 + Math.min(tier, 9)) + 1;
+    return { text: (b * q) + " ÷ " + b, answer: q };
+  }
+  if (tier <= 3) {
+    const a = rand(8) + 2, b = rand(8) + 2, c = rand(9) + 1;
+    return { text: a + " × " + b + " + " + c, answer: a * b + c };
+  }
+  if (tier <= 5) {
+    const a = rand(10) + 3, b = rand(8) + 2, c = rand(9) + 1;
+    return { text: a + " × " + b + " − " + c, answer: a * b - c };
+  }
+  const a = rand(12) + 4, b = rand(9) + 2, c = rand(8) + 2;
+  return { text: "(" + a + " + " + b + ") × " + c, answer: (a + b) * c };
+}
+function nextProblem() {
+  currentTopic = pickTopic();
+  const p = makeProblem(currentTopic, level, skills[currentTopic].level);
+  answer = p.answer;
+  document.getElementById("topic-tag").textContent = TOPIC_LABELS[currentTopic];
+  document.getElementById("problem").textContent = p.text;
+  document.getElementById("answer").value = "";
+  const msg = document.getElementById("math-msg");
+  msg.textContent = "";
+  msg.className = "";
+  mathBusy = false;
+}
+function bumpSkill(topic, correct) {
+  const s = skills[topic];
+  if (correct) {
+    s.correct += 1;
+    s.streak += 1;
+    s.misses = Math.max(0, s.misses - 1);
+    if (s.streak >= 3) {
+      s.level = clamp(s.level + 1, 1, 4);
+      s.streak = 0;
+    }
+  } else {
+    s.misses += 1;
+    s.streak = 0;
+    if (s.misses >= 2) {
+      s.level = clamp(s.level - 1, 1, 4);
+      s.misses = 0;
+    }
+  }
+  saveSkills();
+}
+function paintDadMathSummary() {
+  const el = document.getElementById("dad-math-summary");
+  if (!el) return;
+  const bits = TOPICS.map(t => {
+    const s = skills[t];
+    const vibe = s.correct >= s.misses + 2 && s.level >= 2 ? "strong"
+      : s.misses > s.correct ? "needs practice"
+      : "building";
+    return TOPIC_LABELS[t] + ": " + vibe + " (lvl " + s.level + ")";
+  });
+  el.textContent = "Number lab adapts by topic — " + bits.join(" · ");
+}
 document.getElementById("math-form").addEventListener("submit", (e) => {
   e.preventDefault();
+  if (mathBusy) return;
   const got = Number(document.getElementById("answer").value);
   const msg = document.getElementById("math-msg");
   if (got === answer) {
     streak += 1;
-    nextProblem();
     msg.textContent = "Yes. That's the one.";
     msg.className = "ok";
+    bumpSkill(currentTopic, true);
+    mathBusy = true;
+    localStorage.setItem("avi-streak", String(streak));
+    document.getElementById("streak").textContent = streak;
     if (streak % 5 === 0) showHighFive();
+    if (sessionStorage.getItem("avi-fun-role") === "dad") paintDadMathSummary();
+    setTimeout(() => { nextProblem(); }, 1400);
   } else {
     streak = 0;
     msg.textContent = "Not yet. The number is still hiding.";
     msg.className = "";
+    bumpSkill(currentTopic, false);
+    localStorage.setItem("avi-streak", String(streak));
+    document.getElementById("streak").textContent = streak;
+    if (sessionStorage.getItem("avi-fun-role") === "dad") paintDadMathSummary();
   }
-  localStorage.setItem("avi-streak", String(streak));
-  document.getElementById("streak").textContent = streak;
 });
 
-const dog = document.getElementById("dog");
-let pets = Number(localStorage.getItem("avi-pets") || 0);
-function dogName() {
-  const stored = localStorage.getItem("avi-dog-name");
-  if (stored == null) return "Sawyer";
-  const trimmed = stored.trim();
-  return trimmed || "the dog";
+function todayKey() {
+  try {
+    return new Intl.DateTimeFormat("en-CA", {
+      timeZone: "America/Los_Angeles",
+      year: "numeric", month: "2-digit", day: "2-digit"
+    }).format(new Date());
+  } catch (e) {
+    const d = new Date();
+    return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
+  }
 }
+function loadPetsState() {
+  const today = todayKey();
+  const storedDay = localStorage.getItem("avi-pets-day");
+  let count = Number(localStorage.getItem("avi-pets") || 0);
+  if (storedDay !== today) {
+    count = 0;
+    localStorage.setItem("avi-pets", "0");
+    localStorage.setItem("avi-pets-day", today);
+  }
+  return count;
+}
+let pets = loadPetsState();
+const DEFAULT_DOG = "Sawyer";
 function paintPets() {
-  document.getElementById("pets").textContent = "Pets today: " + pets + ". " + dogName() + " is into it.";
+  const name = (localStorage.getItem("avi-dog-name") || DEFAULT_DOG).trim() || DEFAULT_DOG;
+  document.getElementById("pets").textContent = "Pets today: " + pets + ". " + name + " is into it.";
 }
 function loadDog() {
-  const stored = localStorage.getItem("avi-dog-name");
-  document.getElementById("dog-name").value = stored == null ? "Sawyer" : stored;
+  const savedName = localStorage.getItem("avi-dog-name");
+  if (savedName === null || savedName === "") {
+    localStorage.setItem("avi-dog-name", DEFAULT_DOG);
+    document.getElementById("dog-name").value = DEFAULT_DOG;
+  } else {
+    document.getElementById("dog-name").value = savedName;
+  }
+  pets = loadPetsState();
   paintPets();
 }
-dog.addEventListener("click", () => {
+function petSawyer() {
+  pets = loadPetsState();
   pets += 1;
   localStorage.setItem("avi-pets", String(pets));
-  dog.classList.add("wag");
-  setTimeout(() => dog.classList.remove("wag"), 700);
+  localStorage.setItem("avi-pets-day", todayKey());
+  const shot = document.getElementById("sawyer-photo");
+  const dog = document.getElementById("dog");
+  if (shot) shot.classList.add("wag");
+  if (dog) dog.classList.add("wag");
+  setTimeout(() => {
+    if (shot) shot.classList.remove("wag");
+    if (dog) dog.classList.remove("wag");
+  }, 700);
   paintPets();
-});
+}
+document.getElementById("sawyer-photo").addEventListener("click", petSawyer);
+document.getElementById("dog").addEventListener("click", petSawyer);
 document.getElementById("dog-name").addEventListener("input", (e) => {
   localStorage.setItem("avi-dog-name", e.target.value);
   paintPets();
@@ -1420,7 +1735,7 @@ const calls = {
   baseball: ["It's a moon shot into the giggle zone.", "The pitcher just threw a meatball. Avi's Squad ate it.", "Strike three, and the Giggles argue with the umpire's hat."],
   basketball: ["From the logo. Nothing but yes.", "The Giggles traveled, then traveled again, then sat down.", "And-one, and the bench is doing a very serious dance."],
   soccer: ["Top corner. The keeper was tying a shoe.", "Avi's Squad strings six passes and the crowd does math.", "Goal. The Giggles blame the grass."],
-  football: ["Touchdown. The dog would have caught that.", "Fourth and silly. They go for it. Of course they do.", "The kick is up, the kick is good, the announcer is not calm."],
+  football: ["Touchdown. Sawyer would have caught that.", "Fourth and silly. They go for it. Of course they do.", "The kick is up, the kick is good, the announcer is not calm."],
   hockey: ["He roofs it. The lamp is on.", "The Giggles take a penalty for excessive giggling.", "Wraparound goal. The net is embarrassed."]
 };
 document.getElementById("sports-row").addEventListener("click", (e) => {
@@ -3672,8 +3987,597 @@ window.__avi = {
   factsForDate, jokeForDate, mixTitle, mixRules, toyKind, MIX_SPORTS, MIX_TWISTS
 };
 
+/* ---- Helper Lab ---- */
+(function () {
+  const STARTERS = [
+    { id: "robot", icon: "🤖", name: "Robot Designer", one: "Invent cool robots.", prompt: "Help me design a robot that can play soccer with Sawyer. Give it a name, 3 parts, and one silly power.", chips: ["Make it sillier", "Add math", "New robot"], topic: "robots" },
+    { id: "plane", icon: "✈️", name: "Paper Airplane Coach", one: "Fold ideas + fly tips.", prompt: "Give me an easy paper airplane to fold in 4 steps. Then one tip so it flies farther.", chips: ["Make it sillier", "Add math", "New plane"], topic: "planes" },
+    { id: "soccer", icon: "⚽", name: "Soccer Playbook", one: "Fun drills and team plays.", prompt: "Make a 3-move soccer play for kids my age. Name the play something awesome.", chips: ["Make it sillier", "Add math", "New play"], topic: "soccer" },
+    { id: "kings", icon: "👑", name: "Kings Trivia Buddy", one: "Easy Sacramento Kings quiz.", prompt: "Ask me 3 easy Sacramento Kings trivia questions. Cheer like a fan when I try.", chips: ["Make it sillier", "Add math", "New quiz"], topic: "kings" },
+    { id: "sawyer", icon: "🐕", name: "Sawyer Adventure Writer", one: "Stories starring Sawyer.", prompt: "Write a short adventure where Sawyer finds a magic tennis ball. Keep it funny and kind.", chips: ["Make it sillier", "Add math", "New story"], topic: "sawyer" },
+    { id: "truck", icon: "🚛", name: "Monster Truck Garage", one: "Build wild trucks.", prompt: "Help me build a monster truck. Name it, pick its color, and give it one crazy upgrade.", chips: ["Make it sillier", "Add math", "New truck"], topic: "trucks" },
+    { id: "game", icon: "🎲", name: "Game Idea Lab", one: "Invent simple games.", prompt: "Invent a 5-minute game I can play with one ball and Sawyer watching. Rules in 3 short lines.", chips: ["Make it sillier", "Add math", "New game"], topic: "games" }
+  ];
+
+  const TOOLS = [
+    { id: "ask", label: "Ask", blurb: "Type a question. Your helper answers with kid-safe ideas." },
+    { id: "ideas", label: "Ideas", blurb: "Stuck? Tap this. Get 3 fun ideas you can try next." },
+    { id: "plan", label: "Plan", blurb: "Make a simple step list. Step 1, Step 2, Step 3." },
+    { id: "find", label: "Find", blurb: "Search only inside Helper Lab. No websites outside." },
+    { id: "save", label: "Save", blurb: "Keep this helper. Give it a silly name." },
+    { id: "retry", label: "Retry", blurb: "Same job, new try. Change one rule and Go." },
+    { id: "new", label: "New", blurb: "Start fresh. Pick a starter or build your own." }
+  ];
+
+  const FIND_CARDS = [
+    { q: "robot", title: "Robot tip", body: "Name the head, the legs, and one silly button. Robots love soccer too." },
+    { q: "plane", title: "Plane tip", body: "Fold sharp creases. Point the nose slightly up. Soft throws fly farther." },
+    { q: "soccer", title: "Soccer tip", body: "Pass, move, shoot. Keep the ball on the ground for kid-size goals." },
+    { q: "kings", title: "Kings tip", body: "Sacramento Kings play basketball. Purple and black. Light the Beam energy!" },
+    { q: "beam", title: "Light the Beam", body: "When the Kings win at home, fans say Light the Beam. Purple vibes." },
+    { q: "sawyer", title: "Sawyer tip", body: "Sawyer is a tan short-haired dog with floppy ears. He loves tennis balls and silly faces." },
+    { q: "truck", title: "Truck tip", body: "Big wheels, loud name, one crazy upgrade. Keep races fun, not scary." },
+    { q: "game", title: "Game tip", body: "Short rules. One ball. Someone laughs. That is a five-star kid game." },
+    { q: "math", title: "Math bonus", body: "Count goals, folds, or truck jumps. Numbers can be silly helpers too." },
+    { q: "king", title: "Kings colors", body: "Think purple, black, and silver. Cheer loud. Stay kind to the other team." }
+  ];
+
+  const JOB_CHIPS = ["robots", "planes", "soccer", "Kings", "Sawyer", "trucks", "games", "math", "other"];
+  const RULE_CHIPS = ["Be silly", "Use short steps", "Cheer me on", "Add Sawyer", "Keep it kind", "Use big words sparingly"];
+
+  const BLOCK = [
+    /\bhttps?:\/\//i, /\bwww\./i, /\.com\b/i, /\.net\b/i, /\.org\b/i,
+    /\bbuy\b/i, /\bsubscribe\b/i, /\bpassword\b/i, /\bcredit card\b/i,
+    /\baddress\b/i, /\bphone number\b/i, /\bschool name\b/i,
+    /\bkill\b/i, /\bmurder\b/i, /\bgore\b/i, /\bweapon\b/i, /\bgun\b/i,
+    /\bdrug\b/i, /\bbeer\b/i, /\bwine\b/i, /\balcohol\b/i,
+    /\bdating\b/i, /\bkiss\b/i, /\bgirlfriend\b/i, /\bboyfriend\b/i,
+    /\bpolitic\b/i, /\belection\b/i,
+    /\bsuicide\b/i, /\bhurt myself\b/i
+  ];
+  const ASK_DAD = [/\bsick\b/i, /\bhurt\b/i, /\bstranger\b/i, /\bscared\b/i, /\bupset\b/i, /\bblood\b/i, /\bmedicine\b/i];
+
+  let activeStarter = null;
+  let activeTool = "ask";
+  let starterSuccess = false;
+  let sessionStart = Date.now();
+  let selectedJob = null;
+  let selectedRules = [];
+
+  const elStarters = document.getElementById("hl-starters");
+  const elTools = document.getElementById("hl-tools");
+  const elBlurb = document.getElementById("hl-blurb");
+  const elChat = document.getElementById("hl-chat");
+  const elInput = document.getElementById("hl-input");
+  const elGo = document.getElementById("hl-go");
+  const elChips = document.getElementById("hl-chips");
+  const elWizard = document.getElementById("hl-wizard");
+  const elMine = document.getElementById("hl-mine-row");
+  const elJob = document.getElementById("hl-job-chips");
+  const elRules = document.getElementById("hl-rule-chips");
+  const elName = document.getElementById("hl-helper-name");
+  const elSave = document.getElementById("hl-save-helper");
+
+  if (!elStarters) return;
+
+  function pick(arr) { return arr[Math.floor(Math.random() * arr.length)]; }
+
+  function logEvent(type, extra) {
+    try {
+      const key = "avi-helper-lab-events";
+      const raw = localStorage.getItem(key);
+      const list = raw ? JSON.parse(raw) : [];
+      const mins = (Date.now() - sessionStart) / 60000;
+      const bucket = mins < 5 ? "<5m" : mins < 15 ? "5-15m" : "15m+";
+      const row = {
+        t: new Date().toISOString(),
+        type: type,
+        starter: (extra && extra.starter) || null,
+        tool: (extra && extra.tool) || null,
+        helperName: (extra && extra.helperName) || null,
+        topic: (extra && extra.topic) || null,
+        sessionBucket: bucket,
+        mathBonus: (extra && extra.mathBonus) || null
+      };
+      list.push(row);
+      while (list.length > 200) list.shift();
+      localStorage.setItem(key, JSON.stringify(list));
+    } catch (_) {}
+  }
+
+  function safetyCheck(text) {
+    const t = String(text || "");
+    for (const re of BLOCK) { if (re.test(t)) return { ok: false, kind: "block" }; }
+    for (const re of ASK_DAD) { if (re.test(t)) return { ok: false, kind: "dad" }; }
+    return { ok: true };
+  }
+
+  function bubble(who, text) {
+    const p = document.createElement("p");
+    p.className = "hl-bubble " + who;
+    p.textContent = text;
+    elChat.appendChild(p);
+    elChat.scrollTop = elChat.scrollHeight;
+  }
+
+  function clearChips() { elChips.innerHTML = ""; }
+
+  function showChips(list) {
+    clearChips();
+    list.forEach(label => {
+      const b = document.createElement("button");
+      b.type = "button";
+      b.className = "hl-chip";
+      b.textContent = label;
+      b.addEventListener("click", () => onChip(label));
+      elChips.appendChild(b);
+    });
+  }
+
+  function setTool(id) {
+    activeTool = id;
+    elTools.querySelectorAll(".hl-tool").forEach(b => b.classList.toggle("on", b.dataset.tool === id));
+    const t = TOOLS.find(x => x.id === id);
+    elBlurb.textContent = t ? t.blurb : "";
+    logEvent("tool", { tool: id, starter: activeStarter && activeStarter.id, topic: activeStarter && activeStarter.topic });
+  }
+
+  function robotReply(mode) {
+    const names = ["Goalbot 3000", "Sawyer-Pass Prime", "Kicktronic", "Wiggle Wire FC"];
+    const parts = [
+      ["springy soccer feet", "a radar nose for tennis balls", "a cheer speaker"],
+      ["cushion hands", "spinny balance tail", "glow-in-the-dark stripes"],
+      ["turbo ankles", "a high-five pad", "a water-bottle backpack"]
+    ];
+    const powers = [
+      "can turn any miss into a silly victory dance",
+      "sneezes confetti when Sawyer scores",
+      "speaks only in sports announcer voice",
+      "makes the ball smell like peanut butter (Sawyer approved)"
+    ];
+    const name = pick(names);
+    const p = pick(parts);
+    if (mode === "silly") return "SILLIER MODE unlocked!\nName: " + name + " (now with googly eyes)\nParts: " + p.join(", ") + ", plus a hat that says BORK.\nSilly power: " + pick(powers) + "\nBonus: it high-fives Sawyer after every pass.";
+    if (mode === "math") return "Math bonus! If Goalbot makes 4 passes and Sawyer makes 3, that is " + (4+3) + " awesome team touches.\nRobot: " + name + "\nParts: 1) " + p[0] + " 2) " + p[1] + " 3) " + p[2] + "\nPower: " + pick(powers);
+    return "Beep-boop! Meet " + name + "!\n3 parts:\n1) " + p[0] + "\n2) " + p[1] + "\n3) " + p[2] + "\nSilly power: " + pick(powers) + "\nReady to play soccer with Sawyer. Yes please.";
+  }
+
+  function planeReply(mode) {
+    if (mode === "math") return "Math bonus! If your plane flies 10 feet, then 3 more tries add about 2 feet each… that is 10 + 2 + 2 + 2 = 16 feet of practice power.\nStill fold:\n1) Fold paper hot-dog style, crease, open.\n2) Fold top corners to the middle line.\n3) Fold the sides in again for a skinny dart.\n4) Fold in half and make the wings.\nTip: throw soft, nose a little up.";
+    if (mode === "silly") return "SILLY PLANE: name it Captain Floop.\n1) Fold like a taco.\n2) Fold the nose into a tiny bird beak.\n3) Wings out like a flying toast.\n4) Draw a smile on the wing.\nTip: whisper GO to it. Soft throws help most.";
+    return "Easy flyer (4 steps):\n1) Fold the paper in half the long way. Crease. Open it.\n2) Fold the top two corners down to the middle crease.\n3) Fold those edges in again toward the middle.\n4) Fold in half and fold each wing down.\nTip: throw gently with the nose tilted slightly up — soft throws often go farther than hard ones.";
+  }
+
+  function soccerReply(mode) {
+    const plays = ["Thunder Banana", "Sawyer Sweep", "Purple Lightning", "Giggle Give-and-Go"];
+    const name = pick(plays);
+    if (mode === "math") return "Play name: " + name + "\nMath bonus: 3 moves × 2 kids = 6 touches before the shot. Count them out loud!\n1) Pass to the left.\n2) Sprint into space.\n3) One soft shot on goal.\nAwesome. High five.";
+    if (mode === "silly") return "Play name: " + name + " (extra silly)\n1) Fake left with a ridiculous face.\n2) Pass through Sawyer's imaginary tunnel.\n3) Shoot while yelling BANANA KICK.\nKeep it kind. No real tackling. Just laughs.";
+    return "Play name: " + name + "!\n3 moves:\n1) Pass to your teammate and call for it back.\n2) Take two touches into open grass.\n3) Soft shot toward the corner of the goal.\nYou have a playbook now. Coach energy: ON.";
+  }
+
+  function kingsReply(mode) {
+    if (mode === "math") return "Math bonus + Kings cheer!\nIf you make 2 free throws and miss 1, you scored 2 points of practice pride.\nQuick Q: How many points is a regular basket usually worth? (Hint: not 100.)\nYOU GOT THIS. Light that imaginary Beam!";
+    if (mode === "silly") return "SILLY QUIZ TIME!\n1) If a King wore a banana jersey, would it still be purple? (Debate kindly.)\n2) Can Sawyer be honorary bench mascot for one play? (Yes.)\n3) What sound does a winning Beam make? (YOU decide.)\nCheer: LET'S GOOOOO!";
+    return "Kings Trivia Buddy here. Let's GO!\n1) What city do the Sacramento Kings play in?\n2) What sport do the Kings play?\n3) What do fans love to say when the Kings win at home?\nType your guesses anytime. I will cheer like a wild fan either way.\nAnswers (peek if you want): Sacramento! · Basketball! · Light the Beam!";
+  }
+
+  function sawyerReply(mode) {
+    if (mode === "math") return "Sawyer Adventure + math!\nSawyer finds 1 magic tennis ball. He bounces it 5 times. That is 1 × 5 = 5 magic bounces.\nStory: The ball whispers, \"Fetch… but make it fair.\" Sawyer shares with Avi. Everyone wins. Kindness score: 10/10.";
+    if (mode === "silly") return "Sawyer found a tennis ball that hiccups glitter.\nHe sneezed. Glitter. He barked. More glitter.\nAvi said, \"Maybe outside?\" Sawyer agreed, then hid the ball under a sock for later.\nThe end. (Sock is now a national treasure.)";
+    return "Sawyer Adventure!\nSawyer sniffed the yard and found a tennis ball that glowed like a tiny sun. It bounced once — boing — and whispered, \"Want a quest?\"\nSawyer barked yes (politely). Together they chased the ball around the grass, shared a water break, and invited Avi to the victory dance.\nFunny. Kind. Zero scary stuff. Sawyer is a legend.";
+  }
+
+  function truckReply(mode) {
+    const names = ["Mud Banana", "Stomp Rocket", "Purple Squish", "Sawyer Crusher (gentle mode)"];
+    const colors = ["neon lime", "galaxy purple", "sunset orange", "lightning yellow"];
+    const ups = ["cupholder for tennis balls", "trampoline suspension", "confetti exhaust (paper only)", "megaphone that only says LET'S GO"];
+    const n = pick(names), c = pick(colors), u = pick(ups);
+    if (mode === "math") return "Truck: " + n + "\nColor: " + c + "\nUpgrade: " + u + "\nMath bonus: If it jumps 3 ramps and each jump is 2 points of cool, that is 3 × 2 = 6 cool points. Epic.";
+    if (mode === "silly") return "Truck: " + n + " wearing a tiny party hat.\nColor: " + c + " with polka dots.\nCrazy upgrade: " + u + " AND googly-eye headlights.\nRace rule: winner does a silly bow. Loser still gets a snack cheer.";
+    return "Garage build complete!\nName: " + n + "\nColor: " + c + "\nCrazy upgrade: " + u + "\nReady for a backyard (imaginary) race. Keep it playful — big air, bigger laughs.";
+  }
+
+  function gameReply(mode) {
+    if (mode === "math") return "Game: Sawyer Score Chase\nRules:\n1) Roll or toss the ball to a spot.\n2) Run to it before you count to 8.\n3) Every success = 1 point. First to 5 wins.\nMath: 5 points × 1 smile each = 5 smiles. Sawyer watches and judges fairly.";
+    if (mode === "silly") return "Game: Banana Ball Ballet\nRules:\n1) Bounce the ball while saying a fruit name.\n2) If you laugh, Sawyer gets a free point.\n3) Stop after 5 minutes and crown a Kindness Champ.\nPure chaos. Pure fun.";
+    return "Game: One-Ball Sawyer Watch\nRules (3 short lines):\n1) Stand across from a partner (or a wall) with one ball.\n2) Pass or bounce 10 times without dropping — Sawyer is the official watcher.\n3) If it drops, do 3 silly jumps and reset the count.\nFive minutes. Big grins. Done.";
+  }
+
+  function baseReply(starter, mode) {
+    switch (starter.id) {
+      case "robot": return robotReply(mode);
+      case "plane": return planeReply(mode);
+      case "soccer": return soccerReply(mode);
+      case "kings": return kingsReply(mode);
+      case "sawyer": return sawyerReply(mode);
+      case "truck": return truckReply(mode);
+      case "game": return gameReply(mode);
+      default: return "Let's make something fun and kind. Tap a starter card!";
+    }
+  }
+
+  function ideasReply(starter) {
+    const map = {
+      robot: ["Give your robot a Kings jersey number.", "Add a Sawyer tennis-ball launcher (soft foam only).", "Draw the robot's victory dance steps."],
+      plane: ["Race two planes and measure with footsteps.", "Decorate the wings with a purple beam.", "Try one soft throw and one medium throw."],
+      soccer: ["Invent a celebration dance for goals.", "Make a 1-minute warm-up stretch.", "Name your team something ridiculous."],
+      kings: ["Draw a Beam made of stickers.", "Make a 3-question quiz for Dad.", "Cheer practice: whisper, then loud."],
+      sawyer: ["Write chapter 2: the sock fortress.", "Draw Sawyer with the magic ball.", "Add a kind squirrel sidekick."],
+      truck: ["Design a friendly rival truck.", "Build a paper ramp.", "Invent a pit-stop snack rule."],
+      game: ["Add a quiet round for whisper passes.", "Make a trophy from paper.", "Invite Sawyer as referee (tail wags = yes)."]
+    };
+    const id = starter ? starter.id : "game";
+    const ideas = map[id] || map.game;
+    return "3 fun ideas:\n1) " + ideas[0] + "\n2) " + ideas[1] + "\n3) " + ideas[2];
+  }
+
+  function planReply(starter) {
+    const name = starter ? starter.name : "your helper";
+    return "Simple plan for " + name + ":\nStep 1: Say the goal in one short sentence.\nStep 2: Do the first tiny action (fold, pass, draw, or write).\nStep 3: Cheer, then decide the next tiny action.\nYou are already coaching yourself. Nice.";
+  }
+
+  function findReply(query) {
+    const q = (query || "").toLowerCase();
+    const hits = FIND_CARDS.filter(c => q.includes(c.q) || c.title.toLowerCase().includes(q));
+    const helpers = loadHelpers();
+    const first = (q.split(/\s+/)[0] || "");
+    const hHits = helpers.filter(h => (h.name + " " + (h.job || "")).toLowerCase().includes(first));
+    if (!q.trim()) return "Find looks inside Helper Lab only.\nTry words like: robot, plane, soccer, Kings, Sawyer, truck, game, math.\nNo websites. Just our cards.";
+    let out = "Find results (in-lab only):\n";
+    if (hits.length) hits.slice(0, 3).forEach((h, i) => { out += (i + 1) + ") " + h.title + " — " + h.body + "\n"; });
+    else out += "No card matched exactly. Here is a safe starter tip: keep it silly, kind, and short.\n";
+    if (hHits.length) out += "Your helpers: " + hHits.map(h => h.name).join(", ") + "\n";
+    out += "Still no outside links. On purpose.";
+    return out;
+  }
+
+  function customReply(helper, text) {
+    const job = (helper.job || "fun").toLowerCase();
+    const rules = (helper.rules || []).join(", ") || "Be silly";
+    return helper.name + " reporting!\nJob: " + job + "\nRules I follow: " + rules + "\n\nYou said: \"" + text.slice(0, 120) + "\"\nIdea: Let's do one tiny step right now — keep it kind, short, and a little silly. Sawyer would approve.";
+  }
+
+  function genericAsk(text, starter) {
+    const low = text.toLowerCase();
+    if (low.includes("math") || low.includes("add") || low.includes("multiply")) {
+      return "Math came to play!\nQuick one: 6 + 7 = 13. Your turn — invent a problem with soccer goals or truck jumps.\nI will cheer either way.";
+    }
+    if (starter && !starter.custom) return baseReply(starter, "normal") + "\n\n(Also heard you: I'll keep helping with " + starter.name + ".)";
+    if (starter && starter.custom) return customReply(starter, text);
+    return "Cool idea. Let's keep it kid-safe and fun.\nTry a starter card, or tell me: robots, planes, soccer, Kings, Sawyer, trucks, or games.\nI am ready when you tap Go.";
+  }
+
+  function replyFor(text) {
+    const safe = safetyCheck(text);
+    if (!safe.ok && safe.kind === "block") return "Let's steer back to fun workshop stuff — robots, Sawyer, soccer, planes, trucks, Kings, or games. Pick a starter and we go silly again!";
+    if (!safe.ok && safe.kind === "dad") return "That sounds like a grown-up help moment. Ask Dad about that one. Meanwhile, want a Sawyer story or a soccer play?";
+    if (activeTool === "ideas") return ideasReply(activeStarter);
+    if (activeTool === "plan") return planReply(activeStarter);
+    if (activeTool === "find") return findReply(text);
+    if (activeTool === "retry" && activeStarter && !activeStarter.custom) return baseReply(activeStarter, "normal");
+    if (activeStarter && !activeStarter.custom && text.trim() === activeStarter.prompt) return baseReply(activeStarter, "normal");
+    if (activeStarter && activeStarter.custom) return customReply(activeStarter, text);
+    return genericAsk(text, activeStarter);
+  }
+
+  function onChip(label) {
+    const low = label.toLowerCase();
+    if (low.includes("math")) {
+      logEvent("math_bonus", { starter: activeStarter && activeStarter.id, topic: activeStarter && activeStarter.topic, mathBonus: "accepted" });
+      const msg = (activeStarter && !activeStarter.custom) ? baseReply(activeStarter, "math") : "Math bonus: 4 + 5 = 9. Invent a problem about Sawyer's tennis balls!";
+      bubble("bot", msg);
+      return;
+    }
+    if (low.includes("sillier") || low.includes("silly")) {
+      const msg = (activeStarter && !activeStarter.custom) ? baseReply(activeStarter, "silly") : "Sillifier engaged. Add googly eyes to whatever you are making.";
+      bubble("bot", msg);
+      return;
+    }
+    if (low.startsWith("new ")) {
+      if (activeStarter && !activeStarter.custom) { elInput.value = activeStarter.prompt; doGo(); }
+      return;
+    }
+    elInput.value = label;
+    doGo();
+  }
+
+  function doGo() {
+    const text = elInput.value.trim();
+    if (!text) { bubble("sys", "Type something or tap a starter first."); return; }
+    bubble("avi", text);
+    const answer = replyFor(text);
+    bubble("bot", answer);
+    starterSuccess = true;
+    if (activeStarter) {
+      showChips(activeStarter.chips || ["Make it sillier", "Add math", "New idea"]);
+      logEvent("go", { starter: activeStarter.id, tool: activeTool, topic: activeStarter.topic });
+    } else {
+      showChips(["Make it sillier", "Add math", "New idea"]);
+      logEvent("go", { tool: activeTool });
+    }
+    maybeShowWizard();
+    if (activeTool === "retry") setTool("ask");
+  }
+
+  function maybeShowWizard() {
+    if (starterSuccess) elWizard.classList.remove("hidden");
+  }
+
+  function loadHelpers() {
+    try { const raw = localStorage.getItem("avi-my-helpers"); return raw ? JSON.parse(raw) : []; }
+    catch (_) { return []; }
+  }
+  function saveHelpers(list) { localStorage.setItem("avi-my-helpers", JSON.stringify(list)); }
+
+  function paintMine() {
+    const list = loadHelpers();
+    elMine.innerHTML = "";
+    if (!list.length) { elMine.innerHTML = '<span class="hl-empty">None yet. Finish a starter, then Save.</span>'; return; }
+    list.forEach((h, idx) => {
+      const b = document.createElement("button");
+      b.type = "button";
+      b.className = "hl-saved";
+      const ico = document.createElement("span");
+      ico.className = "ico";
+      ico.textContent = h.icon || "⭐";
+      b.append(ico, document.createTextNode(" " + h.name));
+      b.addEventListener("click", () => {
+        activeStarter = { id: "custom-" + idx, name: h.name, icon: h.icon, topic: h.job, custom: true, job: h.job, rules: h.rules, chips: ["Make it sillier", "Add math", "New idea"], prompt: "Help me with " + (h.job || "fun") + " using these rules: " + (h.rules || []).join(", ") };
+        elInput.value = activeStarter.prompt;
+        bubble("sys", "Loaded " + h.name + ". Hit Go!");
+        setTool("ask");
+        logEvent("load_helper", { helperName: h.name, topic: h.job });
+      });
+      elMine.appendChild(b);
+    });
+  }
+
+  function selectStarter(s, autoGo) {
+    activeStarter = s;
+    document.querySelectorAll(".hl-card").forEach(c => c.classList.toggle("on", c.dataset.id === s.id));
+    elInput.value = s.prompt;
+    elBlurb.textContent = "First idea is ready. Tap Go!";
+    setTool("ask");
+    logEvent("starter", { starter: s.id, topic: s.topic });
+    if (autoGo) doGo();
+  }
+
+  STARTERS.forEach(s => {
+    const card = document.createElement("div");
+    card.className = "hl-card";
+    card.dataset.id = s.id;
+    card.tabIndex = 0;
+    card.innerHTML = '<div class="ico">' + s.icon + '</div><div class="ttl">' + s.name + '</div><div class="one">' + s.one + '</div><button type="button" class="go-mini">Go</button>';
+    card.addEventListener("click", (e) => { const go = e.target.classList.contains("go-mini"); selectStarter(s, go); });
+    card.addEventListener("keydown", (e) => { if (e.key === "Enter") selectStarter(s, true); });
+    elStarters.appendChild(card);
+  });
+
+  TOOLS.forEach(t => {
+    const b = document.createElement("button");
+    b.type = "button";
+    b.className = "hl-tool" + (t.id === "ask" ? " on" : "");
+    b.dataset.tool = t.id;
+    b.textContent = t.label;
+    b.addEventListener("click", () => {
+      setTool(t.id);
+      if (t.id === "new") {
+        activeStarter = null;
+        document.querySelectorAll(".hl-card").forEach(c => c.classList.remove("on"));
+        elInput.value = "";
+        clearChips();
+        bubble("sys", "Fresh start! Pick a starter or build your own below.");
+        elWizard.classList.remove("hidden");
+        return;
+      }
+      if (t.id === "save") { elWizard.classList.remove("hidden"); elName.focus(); bubble("sys", "Name your helper and tap Save."); return; }
+      if (t.id === "ideas" || t.id === "plan") { elInput.value = activeStarter ? activeStarter.prompt : "ideas"; doGo(); return; }
+      if (t.id === "find") { elInput.value = activeStarter ? activeStarter.topic : "Sawyer"; elInput.focus(); bubble("sys", "Find is ready. Type a word like robot or Kings, then Go."); return; }
+      if (t.id === "retry") {
+        if (activeStarter) { elInput.value = activeStarter.prompt; doGo(); }
+        else bubble("sys", "Pick a starter first, then Retry.");
+      }
+    });
+    b.addEventListener("mouseenter", () => { elBlurb.textContent = t.blurb; });
+    elTools.appendChild(b);
+  });
+
+  JOB_CHIPS.forEach(j => {
+    const b = document.createElement("button");
+    b.type = "button";
+    b.className = "hl-chip";
+    b.textContent = j;
+    b.addEventListener("click", () => {
+      selectedJob = j;
+      elJob.querySelectorAll(".hl-chip").forEach(x => x.classList.toggle("on", x === b));
+      logEvent("topic_chip", { topic: j });
+    });
+    elJob.appendChild(b);
+  });
+  RULE_CHIPS.forEach(r => {
+    const b = document.createElement("button");
+    b.type = "button";
+    b.className = "hl-chip";
+    b.textContent = r;
+    b.addEventListener("click", () => {
+      if (selectedRules.includes(r)) { selectedRules = selectedRules.filter(x => x !== r); b.classList.remove("on"); }
+      else if (selectedRules.length < 3) { selectedRules.push(r); b.classList.add("on"); }
+    });
+    elRules.appendChild(b);
+  });
+
+  elSave.addEventListener("click", () => {
+    const name = (elName.value || "").trim();
+    if (!name) { bubble("sys", "Give it a silly name first."); return; }
+    if (!selectedJob) { bubble("sys", "Pick a job chip first."); return; }
+    const iconMap = { robots: "🤖", planes: "✈️", soccer: "⚽", Kings: "👑", Sawyer: "🐕", trucks: "🚛", games: "🎲", math: "🔢", other: "⭐" };
+    const helper = { name: name.slice(0, 24), job: selectedJob, rules: selectedRules.slice(0, 3), icon: iconMap[selectedJob] || "⭐", savedAt: new Date().toISOString() };
+    const list = loadHelpers();
+    list.push(helper);
+    saveHelpers(list);
+    paintMine();
+    logEvent("save", { helperName: helper.name, topic: helper.job, tool: "save" });
+    bubble("bot", "Saved! " + helper.name + " is in My Helpers. Tap it anytime.");
+    elName.value = "";
+  });
+
+  elGo.addEventListener("click", doGo);
+  elInput.addEventListener("keydown", (e) => {
+    if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); doGo(); }
+  });
+
+  paintMine();
+  logEvent("session_start", {});
+})();
+
+/* ---- Friend guest accounts (Avi-created only) ---- */
+(function () {
+  const RESERVED = new Set(["avi", "dad", "mom", "joshua", "josh", "admin", "root", "owner", "scott", "sister"]);
+  const GUEST_KEY = "avi-fun-guests";
+
+  // Kid-safe password blocklist (substring match, lowercased)
+  const BAD_WORDS = [
+    "fuck","shit","asshole","bitch","bastard","damn","crap","piss","dick","cock","pussy","cunt",
+    "sex","sexy","porn","nude","naked","boob","penis","vagina","rape","molest",
+    "nigger","nigga","faggot","retard","slut","whore","hitler","nazi",
+    "kill","murder","suicide","diehard","gun","weapon","bomb","terror",
+    "hate","racist"
+  ];
+
+  function loadGuests() {
+    try {
+      const raw = localStorage.getItem(GUEST_KEY);
+      const list = raw ? JSON.parse(raw) : [];
+      return Array.isArray(list) ? list : [];
+    } catch (_) { return []; }
+  }
+  function saveGuests(list) {
+    localStorage.setItem(GUEST_KEY, JSON.stringify(list));
+  }
+
+  function looksLikePhone(s) {
+    const digits = String(s).replace(/\D/g, "");
+    return digits.length >= 10 && digits.length <= 15;
+  }
+  function looksLikeAddress(s) {
+    return /\d{1,5}\s+\w+/.test(s) && /\b(st|street|ave|avenue|rd|road|blvd|lane|ln|dr|drive)\b/i.test(s);
+  }
+  function passwordOk(pass) {
+    const p = String(pass || "");
+    if (p.length < 4) return { ok: false, reason: "short" };
+    if (p.length > 32) return { ok: false, reason: "long" };
+    const low = p.toLowerCase();
+    for (const w of BAD_WORDS) {
+      if (low.includes(w)) return { ok: false, reason: "word" };
+    }
+    if (looksLikePhone(p)) return { ok: false, reason: "phone" };
+    if (looksLikeAddress(p)) return { ok: false, reason: "address" };
+    // block obvious full-name style: two+ capitalized words mashed
+    if (/\b(school|password|address|phone)\b/i.test(p)) return { ok: false, reason: "secret" };
+    return { ok: true };
+  }
+  function usernameOk(name) {
+    const n = String(name || "").trim().toLowerCase();
+    if (!/^[a-z][a-z0-9_]{2,15}$/.test(n)) return { ok: false, reason: "format" };
+    if (RESERVED.has(n)) return { ok: false, reason: "reserved" };
+    if (USERS[n]) return { ok: false, reason: "reserved" };
+    const guests = loadGuests();
+    if (guests.some(g => g.user === n)) return { ok: false, reason: "taken" };
+    for (const w of BAD_WORDS) {
+      if (n.includes(w)) return { ok: false, reason: "word" };
+    }
+    return { ok: true };
+  }
+
+  window.__aviLoadGuests = loadGuests;
+  window.__aviFindGuest = async function (name, pass) {
+    const n = String(name || "").trim().toLowerCase();
+    const hash = await digest(pass);
+    const g = loadGuests().find(x => x.user === n && x.hash === hash);
+    return g || null;
+  };
+
+  function flashTongue(el) {
+    if (!el) return;
+    el.innerHTML = '<span class="tongue-flash" aria-hidden="true">😛</span> Be a good boy and try a fun password instead!';
+    el.classList.add("nope-flash");
+    setTimeout(() => el.classList.remove("nope-flash"), 1800);
+  }
+
+  function paintGuestList() {
+    const box = document.getElementById("guest-list");
+    if (!box) return;
+    const list = loadGuests();
+    box.innerHTML = "";
+    if (!list.length) {
+      box.innerHTML = '<span class="hl-empty">No friend logins yet.</span>';
+      return;
+    }
+    list.forEach(g => {
+      const row = document.createElement("div");
+      row.className = "guest-row";
+      row.innerHTML = '<span class="guest-name">' + g.user + '</span>';
+      const rev = document.createElement("button");
+      rev.type = "button";
+      rev.className = "guest-revoke";
+      rev.textContent = "Revoke";
+      rev.addEventListener("click", () => {
+        const next = loadGuests().filter(x => x.user !== g.user);
+        saveGuests(next);
+        paintGuestList();
+      });
+      row.appendChild(rev);
+      box.appendChild(row);
+    });
+  }
+
+  window.__aviPaintGuests = paintGuestList;
+  window.__aviFlashTongue = flashTongue;
+  window.__aviPasswordOk = passwordOk;
+  window.__aviUsernameOk = usernameOk;
+
+  const form = document.getElementById("guest-form");
+  if (form) {
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const msg = document.getElementById("guest-msg");
+      const role = sessionStorage.getItem("avi-fun-role");
+      if (role !== "avi") {
+        msg.textContent = "Only Avi can invite friends.";
+        return;
+      }
+      const user = document.getElementById("guest-user").value.trim().toLowerCase();
+      const pass = document.getElementById("guest-pass").value;
+      const uOk = usernameOk(user);
+      if (!uOk.ok) {
+        if (uOk.reason === "reserved") msg.textContent = "That name is saved for family. Pick a friend nickname.";
+        else if (uOk.reason === "taken") msg.textContent = "That friend name is already used. Try another.";
+        else msg.textContent = "Friend name: start with a letter, 3–16 letters/numbers.";
+        return;
+      }
+      const pOk = passwordOk(pass);
+      if (!pOk.ok) {
+        flashTongue(msg);
+        return;
+      }
+      const hash = await digest(pass);
+      const list = loadGuests();
+      list.push({ user: user, hash: hash, createdAt: new Date().toISOString() });
+      saveGuests(list);
+      document.getElementById("guest-user").value = "";
+      document.getElementById("guest-pass").value = "";
+      msg.textContent = "Friend login ready: " + user + ". Tell them the password in person.";
+      msg.classList.remove("nope-flash");
+      paintGuestList();
+    });
+  }
+})();
+
 const saved = sessionStorage.getItem("avi-fun-role");
+const savedGuest = sessionStorage.getItem("avi-fun-guest");
 if (saved === "avi" || saved === "dad") showApp(saved);
+else if (saved === "guest") showApp("guest", savedGuest || "friend");
 </script>
 </body>
 </html>

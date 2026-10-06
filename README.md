@@ -37,11 +37,14 @@ python3 update.py set experiments.0.result "3 sales / 400 visits"
 python3 update.py spend 15 "Etsy shop setup fee" --lane "Print-on-demand shops"
 python3 update.py need "Approve sample order" "Check print quality" --priority high
 python3 update.py done 0                                   # tick off needs_joshua item #0
+python3 update.py lanes                                  # REQUIRED before any "no run today" / pin-count wording
 python3 update.py publish -m "stats Oct 1"                 # git commit + push → Pages redeploys in ~1 min
 ```
 Shops, ads, and experiments can be addressed by `id`, `name`/`channel` (or a unique prefix), or list index. You can also hand-edit `data.json` directly. Then run `python3 update.py touch` to bump the timestamp.
 
 **Definitions:** *Capital deployed* is the sum of `budget.ledger` (setup fees, samples, subscriptions, acquisitions). *Cash reserve* is budget − deployed + net profit. *Conversion* is orders ÷ visits.
+
+**Morning refresh rule:** run `python3 update.py lanes` first and take each lane's status from its newest dated file (Deal Scout `acquisitions/deal-scout/YYYY-MM-DD-run.md`, HostFees pins `affiliate/pins/posted.md`, PrintPlz `audit/order-checks/` and `audit/loop/`, WebsitePlz site files). Never write "no run" from an earlier wrap-up; if a lane's run is still in progress, say "in progress" and recheck later. `publish` refuses to push when the pages say "no … Deal Scout run" for a date that has a run file, or when a pin count differs from `posted.md` (`--force` overrides).
 
 ## Preview locally
 `python3 -m http.server 8000`, then open http://localhost:8000. Opening `index.html` via `file://` won't load the JSON.

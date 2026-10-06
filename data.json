@@ -3,8 +3,8 @@
     "title": "Fresh $$ Control Center",
     "owner": "Joshua",
     "assistant": "Fresh $$",
-    "last_updated": "2026-10-03T14:33:59-07:00",
-    "status_note": "Morning Control Center refresh Oct 3, 2026 7:49 AM PT. PrintPlz Shop Manager: 48 active / 1 draft / 2 inactive; +26 overnight; 0 orders / $0 revenue; 28 views / 12 visits (7d). Printful card + samples confirmed; fulfillment green. HostFees: hostfees.com HTTP 200; Turno affiliate link live; pins 6/49; Hospitable bank + Turno password done. Amazon Associates still pending. Etsy Ads still planned Fri Oct 16 (~$3/day, $100/mo cap); $0 spend. Deal Scout research only; no overnight run. Actual revenue remains $0."
+    "last_updated": "2026-10-06T13:01:18-07:00",
+    "status_note": "Cat Bundle (Flippa #13421685) PASSED / closed Oct 6, 2026 (Joshua — too many obstacles, unverified income; no offer). Next Deal Scout focus: Quiet Light cosmetics/Amazon FBA shortlist refresh. Traffic tiles update Tue Oct 6, 2026 ~10:51 AM PT. HostFees Cloudflare last 7d: 399 visits / 412 views; WebsitePlz Cloudflare last 7d: 796 visits / 802 views (Account Analytics Read unlocked ~10:49 PT; collected via traffic.py). PrintPlz: 80 active / 1 draft / 2 inactive, 0 orders, 34 views / 27 visits last 7 days (Shop Manager 8:38 AM PT). Family Gem (other account): 0 visits last 7 days as of Oct 6 8:37 PT; Mira traffic still pending Etsy sign-in. HostFees Pinterest impressions still not tracked. Revenue $0 in every lane; recurring plan costs $260/month (Grok Bot Ultra $200 + Pro+ $60). HostFees redeploy still BLOCKED until Joshua signs in to Cloudflare + GitHub on the box (before Oct 13). WebsitePlz: Fiverr + Contra accounts created Oct 5; profiles + first gig next."
   },
   "budget": {
     "starting_capital": 1000,
@@ -48,6 +48,30 @@
         "what": "Etsy listing fees (estimate for +26 newly active PrintPlz listings overnight; 26×$0.20=$5.20; total 48×$0.20=$9.60 estimate)",
         "lane": "Print-on-demand shops",
         "amount": 5.2
+      },
+      {
+        "date": "2026-10-03",
+        "what": "websiteplz.com domain (1 year, Cloudflare at cost; Cloudflare card on file)",
+        "lane": "WebsitePlz",
+        "amount": 10.46
+      },
+      {
+        "date": "2026-10-03",
+        "what": "sitesplz.com domain (1 year, Cloudflare at cost; Cloudflare card on file)",
+        "lane": "WebsitePlz",
+        "amount": 10.46
+      },
+      {
+        "date": "2026-10-04",
+        "what": "Etsy listing fees (estimate for +3 newly active PrintPlz listings overnight; 3×$0.20=$0.60; Shop Manager 79 active vs Oct 3 evening 76)",
+        "lane": "Print-on-demand shops",
+        "amount": 0.6
+      },
+      {
+        "date": "2026-10-04",
+        "what": "Etsy listing fee (estimate: X29 relisted Oct 4 9:45 AM PT, $0.20; Shop Manager 80 active Oct 5)",
+        "lane": "Print-on-demand shops",
+        "amount": 0.2
       }
     ]
   },
@@ -58,16 +82,202 @@
       "type": "For-moms print-on-demand gifts: mom shirts, teacher shirts, kids stickers, holiday party items, ornaments",
       "platform": "Etsy + Printful",
       "status": "live",
-      "status_note": "Update Oct 3, 2026 ~2pm PT (Scott Bot): PrintPlzShop at 66 live listings, 0 orders. OPEN as PrintPlzShop. Live count from Etsy Shop Manager (morning refresh Oct 3): 48 active, 1 draft, 0 expired, 2 inactive, 0 sold out. +26 newly active overnight vs prior dashboard (22 active @ Oct 2 7:52 AM PT); prior 22 all still present. Last 7 days: 28 views, 12 visits, 0 orders, $0 revenue. Joshua confirmed Printful billing card added and PrintPlz samples ordered (Oct 2); fulfillment path green. Order-readiness 48/48 PASS; remaining blocked Printful variants are bot sync work, not Joshua approval. Margin table still covers the prior 22 with estimates; newer listings use Shop Manager titles without invented prices.",
+      "status_note": "Shop Manager Oct 6 ~8:38 AM PT: 80 active / 1 draft / 0 expired / 2 inactive (unchanged vs Oct 5). 0 orders / $0, 0 unread messages. Last 7 days (Sep 30 - Oct 6): 34 views / 27 visits (up from 30 / 23 for Sep 29 - Oct 5); visits came from direct/referral 18, Etsy app/pages 8, social 1, Etsy Search 0. Most viewed: Pet Name Mug (7), From Santa gift tags (5), Thankful for Coffee mug (3), Our First Christmas ornament (3). AM audit loop Oct 6 passed: 54/54 Printful sync OK, listing lint clean; X1/X2/X3 personalization now asks buyers to type names capitalized as they want them printed (verified live). Order check 8:38 AM: 0 Etsy orders, 0 Printful drafts. Build hold still on (K6/K7 unpublished). Etsy Ads planned Oct 16. Offsite Ads off. $0 revenue, no new spend.",
       "url": "https://www.etsy.com/shop/PrintPlzShop",
       "orders": 0,
       "revenue": 0,
       "profit": 0,
-      "views": 28,
-      "visits": 12,
-      "listings_live": 66,
+      "views": 34,
+      "visits": 27,
+      "listings_live": 80,
       "listings_drafted": 1,
       "top_products": [
+        {
+          "name": "Ultrasound Ornament Pregnancy Announcement, Personalized Acrylic Baby Arriving Keepsake",
+          "section": "Family",
+          "url": "https://www.etsy.com/listing/4588143178",
+          "price": "see listing"
+        },
+        {
+          "name": "Grandma Christmas Ornament with Grandkids Names, Personalized Glass Keepsake Gift 2026",
+          "section": "Family",
+          "url": "https://www.etsy.com/listing/4588142244",
+          "price": "see listing"
+        },
+        {
+          "name": "Personalized Golf Towel for Grandpa, Custom Grandkids Names Caddies Gift, Dad Est Year",
+          "section": "Family",
+          "url": "https://www.etsy.com/listing/4588140048",
+          "price": "see listing"
+        },
+        {
+          "name": "Personalized Pet Christmas Stocking, Custom Dog Photo and Name, Cat Lover Mantel Decor Gift",
+          "section": "Pets",
+          "url": "https://www.etsy.com/listing/4588123752",
+          "price": "see listing"
+        },
+        {
+          "name": "Pickleball Ornament 2026, Personalized Christmas Gift for Player, Coach or Couple with Name",
+          "section": "Holidays",
+          "url": "https://www.etsy.com/listing/4588118266",
+          "price": "see listing"
+        },
+        {
+          "name": "Memorial Photo Ornament, Personalized Glass Christmas Keepsake with Name and Years, Sympathy Gift",
+          "section": "Holidays",
+          "url": "https://www.etsy.com/listing/4588113199",
+          "price": "see listing"
+        },
+        {
+          "name": "Custom Pet Face Socks, Personalized Dog Photo Christmas Stocking Stuffer with Name",
+          "section": "Pets",
+          "url": "https://www.etsy.com/listing/4588112663",
+          "price": "see listing"
+        },
+        {
+          "name": "Grandma's Story Memory Book, Personalized Hardcover Journal with Prompts, Christmas Gift from Grandkids",
+          "section": "Family",
+          "url": "https://www.etsy.com/listing/4587965861",
+          "price": "see listing"
+        },
+        {
+          "name": "Personalized Family Recipe Book, Custom Hardcover Cookbook to Fill In, Grandma Christmas Gift Keepsake",
+          "section": "Family",
+          "url": "https://www.etsy.com/listing/4587961897",
+          "price": "see listing"
+        },
+        {
+          "name": "Personalized 2027 Family Birthday Calendar with Photos and Names, Grandma Christmas Gift, Wall Decor",
+          "section": "Family",
+          "url": "https://www.etsy.com/listing/4587956335",
+          "price": "see listing"
+        },
+        {
+          "name": "Custom Photo Puzzle with Name, Personalized Family Christmas Gift, 500 1000 Piece Jigsaw Tin",
+          "section": "Family",
+          "url": "https://www.etsy.com/listing/4587953633",
+          "price": "see listing"
+        },
+        {
+          "name": "Personalized Christmas Tree Skirt with Family Name, Custom Fleece Holiday Decor, Heirloom 44 Inch",
+          "section": "Family",
+          "url": "https://www.etsy.com/listing/4587954204",
+          "price": "see listing"
+        },
+        {
+          "name": "Custom Pet Pillow Shaped Like Your Dog or Cat, Photo Name Keepsake, Christmas Gift",
+          "section": "Family",
+          "url": "https://www.etsy.com/listing/4587953034",
+          "price": "see listing"
+        },
+        {
+          "name": "Family Photo Christmas Ornament 2026, Personalized Last Name Wood Keepsake, Custom Picture Gift",
+          "section": "Family",
+          "url": "https://www.etsy.com/listing/4587869944",
+          "price": "see listing"
+        },
+        {
+          "name": "Baby's First Christmas Photo Ornament 2026, Personalized Wood Keepsake, New Parents Gift",
+          "section": "Family",
+          "url": "https://www.etsy.com/listing/4587863257",
+          "price": "see listing"
+        },
+        {
+          "name": "Pet Memorial Photo Ornament, Custom Dog Loss Keepsake, Always By My Side Wood Gift",
+          "section": "Pets",
+          "url": "https://www.etsy.com/listing/4587868050",
+          "price": "see listing"
+        },
+        {
+          "name": "Sibling Christmas Shirts 2026, Personalized Big Sis Middle Bro Little Name Tee, Matching Kids",
+          "section": "Holidays",
+          "url": "https://www.etsy.com/listing/4587860480",
+          "price": "see listing"
+        },
+        {
+          "name": "Pet Paw Ornament Personalized, Metal Dog Name Christmas 2026 Keepsake, Plaid Cat Lover Gift",
+          "section": "Pets",
+          "url": "https://www.etsy.com/listing/4587853994",
+          "price": "see listing"
+        },
+        {
+          "name": "Mushroom Name Ornament, Woodland Kids Christmas 2026, Personalized Wooden Toadstool Keepsake Stocking Gift",
+          "section": "Kids",
+          "url": "https://www.etsy.com/listing/4587847337",
+          "price": "see listing"
+        },
+        {
+          "name": "Celestial Family Ornament 2026, Personalized Names Moon Stars Christmas Keepsake, Navy Silver Gift",
+          "section": "Family",
+          "url": "https://www.etsy.com/listing/4587843933",
+          "price": "see listing"
+        },
+        {
+          "name": "First Christmas in Our New Home Ornament 2026, Personalized Housewarming Keepsake, Family Name Gift",
+          "section": "Family",
+          "url": "https://www.etsy.com/listing/4587843281",
+          "price": "see listing"
+        },
+        {
+          "name": "Running on Cocoa and Chaos Sweatshirt, Funny Christmas Crewneck, Hot Chocolate Mom Pullover",
+          "section": "Holidays",
+          "url": "https://www.etsy.com/listing/4587847930",
+          "price": "see listing"
+        },
+        {
+          "name": "Dog Dad Mug Personalized, Pet Names Coffee Cup, Christmas Gift for Him, Black Inside",
+          "section": "Pets",
+          "url": "https://www.etsy.com/listing/4587839377",
+          "price": "see listing"
+        },
+        {
+          "name": "Our First Christmas Married Ornament 2026, Personalized Names Mr Mrs Keepsake, Newlywed Wedding Gift",
+          "section": "Family",
+          "url": "https://www.etsy.com/listing/4587837229",
+          "price": "see listing"
+        },
+        {
+          "name": "New Grandparents Ornament 2026, Personalized Est. Christmas Keepsake, Pregnancy Announcement Gift Grandma Grandpa",
+          "section": "Family",
+          "url": "https://www.etsy.com/listing/4587836833",
+          "price": "see listing"
+        },
+        {
+          "name": "Teacher Reward Stickers Personalized, Christmas Classroom Labels, Great Job Holiday Sheet for Students",
+          "section": "Teacher",
+          "url": "https://www.etsy.com/listing/4587839010",
+          "price": "see listing"
+        },
+        {
+          "name": "Grandma Christmas Sweatshirt 2026, Grandkids Names on Sleeve, Personalized Holly Crewneck, Gift from Kids",
+          "section": "Kids",
+          "url": "https://www.etsy.com/listing/4587838322",
+          "price": "see listing"
+        },
+        {
+          "name": "Glass Christmas Ornament 2026, Personalized Family Crest Monogram, Heirloom Keepsake, Last Name Est Year",
+          "section": "Family",
+          "url": "https://www.etsy.com/listing/4587836966",
+          "price": "see listing"
+        },
+        {
+          "name": "Wood Family Christmas Ornament 2026, Personalized Names Tree Keepsake, Hinoki Cypress Heirloom Gift",
+          "section": "Family",
+          "url": "https://www.etsy.com/listing/4587826369",
+          "price": "see listing"
+        },
+        {
+          "name": "Baby's First Christmas Ornament 2026, Personalized Celestial Moon Stars Name, Two-Sided Ceramic Keepsake Gift",
+          "section": "Family",
+          "url": "https://www.etsy.com/listing/4587831880",
+          "price": "see listing"
+        },
+        {
+          "name": "Our First Christmas Engaged Ornament 2026, Personalized Couple Names, Engagement Gift Keepsake, Fiance Present",
+          "section": "Family",
+          "url": "https://www.etsy.com/listing/4587829408",
+          "price": "see listing"
+        },
         {
           "name": "Dog Christmas Gift Tag Stickers, Personalized Love Pet Name Labels, Wrapping Paw Print Sheet",
           "section": "Pets",
@@ -228,136 +438,136 @@
           "name": "Christmas Family Shirts Personalized, Matching Last Name Tees 2026, Cozy Cabin Red Truck",
           "section": "Holidays",
           "url": "https://www.etsy.com/listing/4587113847",
-          "price": "$25.99–$31.99 (estimate uses toddler 2T–5T)"
+          "price": "see listing"
         },
         {
           "name": "Sugar Cookie Crew Shirt, Personalized Mommy and Me Christmas Tee, Matching Mom Daughter",
           "section": "Holidays",
           "url": "https://www.etsy.com/listing/4587100460",
-          "price": "$25.99–$31.99 (estimate uses toddler 2T–5T)"
+          "price": "see listing"
         },
         {
           "name": "Mostly Nice Christmas Shirt Personalized, Dad and Son Matching Tees, Kids Name Santa",
           "section": "Holidays",
           "url": "https://www.etsy.com/listing/4586991352",
-          "price": "$25.99–$31.99 (estimate uses toddler 2T–5T)"
+          "price": "see listing"
         },
         {
           "name": "Family Thanksgiving Shirts Personalized, Matching Turkey Carver Pie Queen Gravy Taster Tees",
           "section": "Holidays",
           "url": "https://www.etsy.com/listing/4586952770",
-          "price": "$25.99–$31.99 (estimate uses toddler 2T–5T)"
+          "price": "see listing"
         },
         {
           "name": "Thankful Mama Shirt, Personalized Mommy and Me Thanksgiving Tee, Matching Mom Daughter Fall",
           "section": "Holidays",
           "url": "https://www.etsy.com/listing/4586932761",
-          "price": "$25.99–$31.99 (estimate uses toddler 2T–5T)"
+          "price": "see listing"
         },
         {
           "name": "Official Pie Inspector Shirt, Personalized Thanksgiving Dad and Son Matching Tee, Kids Name",
           "section": "Holidays",
           "url": "https://www.etsy.com/listing/4586925176",
-          "price": "$25.99–$31.99 (estimate uses toddler 2T–5T)"
+          "price": "see listing"
         },
         {
           "name": "Personalized Kids Name Labels, School Lunchbox Water Bottle Sticker Sheet, Daycare Supplies",
           "section": "Kids",
           "url": "https://www.etsy.com/listing/4586906120",
-          "price": "$13.99 + $3.49 buyer shipping"
+          "price": "see listing"
         },
         {
           "name": "Monster Family Halloween Shirts, Personalized Matching Dadcula Momster Kids Name Tee Set",
           "section": "Holidays",
           "url": "https://www.etsy.com/listing/4586893709",
-          "price": "$25.99–$31.99 (estimate uses toddler 2T–5T)"
+          "price": "see listing"
         },
         {
           "name": "Mama Boo Matching Halloween Shirts, Personalized Mommy and Me Pink Ghost Tee Set",
           "section": "Holidays",
           "url": "https://www.etsy.com/listing/4586885520",
-          "price": "$25.99–$31.99 (estimate uses toddler 2T–5T)"
+          "price": "see listing"
         },
         {
           "name": "Dadcula Little Fang Matching Halloween Shirts, Personalized Dad and Son Vampire Tee Set",
           "section": "Holidays",
           "url": "https://www.etsy.com/listing/4586871127",
-          "price": "$26.99–$31.99 (estimate uses toddler 2T–5T)"
+          "price": "see listing"
         },
         {
           "name": "Personalized Pet Name Mug, Favorite Human Dog Mom Coffee Cup Gift",
           "section": "Pets",
           "url": "https://www.etsy.com/listing/4586863386",
-          "price": "$21.99 free shipping"
+          "price": "see listing"
         },
         {
           "name": "Personalized Christmas Gift Tag Stickers, Retro From Name Label Sheet",
           "section": "Holidays",
           "url": "https://www.etsy.com/listing/4586852171",
-          "price": "$13.99 + $3.49 buyer shipping"
+          "price": "see listing"
         },
         {
           "name": "Personalized Christmas Stocking with Name, Retro Tree Family Mantel Decor",
           "section": "Holidays",
           "url": "https://www.etsy.com/listing/4586843780",
-          "price": "$39.99 free shipping"
+          "price": "see listing"
         },
         {
           "name": "Funny Kids Christmas Ornament 2026, Mostly Nice Personalized Name Gift",
           "section": "Holidays",
           "url": "https://www.etsy.com/listing/4586735738",
-          "price": "$21.99 free shipping"
+          "price": "see listing"
         },
         {
           "name": "Our First Home Ornament 2026, Personalized New House Christmas Keepsake, Housewarming Closing Gift",
           "section": "Family",
           "url": "https://www.etsy.com/listing/4586723835",
-          "price": "$21.99 free shipping"
+          "price": "see listing"
         },
         {
           "name": "Personalized Dog Christmas Ornament 2026, Custom Pet Name Keepsake",
           "section": "Pets",
           "url": "https://www.etsy.com/listing/4586706133",
-          "price": "$21.99 free shipping"
+          "price": "see listing"
         },
         {
           "name": "Pet Memorial Ornament, Personalized Always By My Side Keepsake, Dog or Cat Loss Gift",
           "section": "Pets",
           "url": "https://www.etsy.com/listing/4586708521",
-          "price": "$23.99 free shipping"
+          "price": "see listing"
         },
         {
           "name": "Our First Christmas Ornament 2026, Personalized Couple Names Keepsake",
           "section": "Holidays",
           "url": "https://www.etsy.com/listing/4586704522",
-          "price": "$21.99 free shipping"
+          "price": "see listing"
         },
         {
-          "name": "Personalized Baby's First Christmas Ornament 2026, Baby Name Keepsake",
+          "name": "Baby's First Christmas Ornament 2026, Personalized Name Keepsake, Newborn Gift",
           "section": "Holidays",
           "url": "https://www.etsy.com/listing/4586693153",
-          "price": "$21.99 free shipping"
+          "price": "see listing"
         },
         {
           "name": "Personalized Family Christmas Ornament 2026, Last Name Keepsake",
           "section": "Holidays",
           "url": "https://www.etsy.com/listing/4586688180",
-          "price": "$23.99 free shipping"
+          "price": "see listing"
         },
         {
           "name": "Personalized Trick or Treat Bag with Name, Kids Halloween Candy Haul Cotton Tote",
           "section": "Holidays",
           "url": "https://www.etsy.com/listing/4586660855",
-          "price": "$32.99 free shipping"
+          "price": "see listing"
         },
         {
           "name": "Little Ghosts On Board Halloween Car Magnet, Spooky Season Decor",
           "section": "Holidays",
           "url": "https://www.etsy.com/listing/4586652265",
-          "price": "$14.99 free shipping"
+          "price": "see listing"
         }
       ],
-      "one_liner": "Live on Etsy · 66 listings · 0 orders · Halloween order-by Oct 16"
+      "one_liner": "Live · 80 active · 0 orders · 34 views / 27 visits (7d) · audits clean Oct 6"
     },
     {
       "id": "shop-2",
@@ -419,7 +629,7 @@
       "spend": 0,
       "attributed_revenue": 0,
       "orders": 0,
-      "plan": "hostfees.com claimed; 9 of 49 pins live (posted-pins log, Oct 3); daily routine posts 3 each morning at 10:06 AM PT; $0 spent."
+      "plan": "hostfees.com claimed; 18 of 49 pins live (posted-pins log, Oct 6); daily routine posts 3 each morning at 10:06 AM PT; $0 spent."
     }
   ],
   "experiments": [
@@ -529,8 +739,8 @@
     }
   ],
   "acquisitions": {
-    "note": "Watch only. Figures are seller/listing claims or research notes, not verified by us. No accounts, bids, offers, seller contact, purchases or acquisitions. Shortlist unchanged: bottes-presso, Mixup, Rewired stretch, Marble Tracks, Letras Bonitas.",
-    "source": "Deal Scout 2026-10-01 run and shortlist; files on disk Oct 3, 2026; no new overnight Deal Scout run Oct 2–3",
+    "note": "Watch only. Figures are seller/listing claims or research notes, not verified by us. No accounts, bids, offers, seller contact, purchases or acquisitions. Latest Deal Scout run Mon Oct 5: top pick bottes-presso.fr (unchanged), then Marble Tracks, Rewired (stretch), Letras Bonitas Hub. Cat Bundle (Flippa #13421685) PASSED Oct 6, 2026 — Joshua declined (too many obstacles, unverified income); no offer made. Research-only watchlist continues.",
+    "source": "Deal Scout run files 2026-10-01 to 10-05 (latest: 2026-10-05-run.md, ~8:07-8:25 AM PT)",
     "watchlist": [
       {
         "name": "bottes-presso.fr",
@@ -547,7 +757,7 @@
       },
       {
         "name": "Rewired iOS app",
-        "price": "$6,500 stretch",
+        "price": "$6,500 stretch (14 offers; 30d revenue $714, Oct 5)",
         "status": "stretch",
         "fits_budget": false
       },
@@ -597,7 +807,8 @@
       "why": "Provides a separate mailing address for site and affiliate operations.",
       "priority": "medium",
       "done": false,
-      "optional": true
+      "optional": true,
+      "rank": 9
     },
     {
       "task": "Change the Turno temporary password",
@@ -622,20 +833,84 @@
       "task": "Complete the Amazon Associates application",
       "why": "Still not done as of Oct 2 confirmation; needed for HostFees gift-guide affiliate links.",
       "priority": "high",
-      "done": false
+      "done": false,
+      "rank": 2
     },
     {
-      "task": "Create Fiverr and Contra seller accounts for WebsitePlz",
-      "why": "Send the profile links to WebsitePlz; the site's Fiverr/Contra buttons stay hidden until then. Gig descriptions are already written.",
+      "task": "Finish the Fiverr and Contra profiles and publish the first WebsitePlz gig",
+      "why": "Both seller accounts were created Mon Oct 5. Gig copy and images are ready from WebsitePlz; send the profile links to WebsitePlz so the site's Fiverr/Contra buttons can go live.",
       "priority": "high",
-      "done": false
+      "done": false,
+      "rank": 1
     },
     {
-      "task": "Optional: apply to Lodgify and OwnerRez affiliate programs",
-      "why": "HostFees placeholders; after Amazon Associates.",
+      "task": "Optional: apply to the OwnerRez affiliate program",
+      "why": "HostFees placeholder; Lodgify application already submitted and pending (Oct 3).",
       "priority": "low",
       "done": false,
       "optional": true
+    },
+    {
+      "task": "Unlock the traffic tiles",
+      "why": "HostFees + WebsitePlz Cloudflare visits are in (Account Analytics Read unlocked Oct 6; HostFees 399 visits / 412 views last 7d; WebsitePlz 796 visits / 802 views last 7d, collected ~10:51 PT). Still needed: MoonletterMira Etsy sign-in on the other account (or paste) for Mira views/visits; Pinterest Analytics impressions for HostFees. Family Gem visits already tracked (0 last 7 days as of Oct 6 8:37 PT).",
+      "priority": "high",
+      "done": false,
+      "rank": 3
+    },
+    {
+      "task": "Create the 3 Stripe deposit links for WebsitePlz ($124.50 / $562.50 / $747.50)",
+      "why": "50% deposits are live on the site; buttons switch to \"Pay $X to start\" once the links are pasted in. Also 3 Care links and the customer portal (WebsitePlz README).",
+      "priority": "medium",
+      "done": false,
+      "rank": 7
+    },
+    {
+      "task": "Relay $300 for PrintPlz",
+      "why": "On Chief of Staff's waiting-on-Joshua list (Oct 3).",
+      "priority": "medium",
+      "done": false,
+      "rank": 10
+    },
+    {
+      "task": "Set up an inbox for hello@websiteplz.com",
+      "why": "Contact address for WebsitePlz buyers. Chief of Staff list, Oct 3.",
+      "priority": "medium",
+      "done": false,
+      "rank": 8
+    },
+    {
+      "task": "Review the WebsitePlz legal pages (Terms, Privacy, Refunds)",
+      "why": "Plain-English drafts are live at websiteplz.com/terms, /privacy and /refunds. Review before Stripe goes live (Stripe's terms checkbox points at /terms/).",
+      "priority": "high",
+      "done": false,
+      "rank": 6
+    },
+    {
+      "task": "CANCELLED: Cat Bundle Flippa follow-up (PASSED Oct 6)",
+      "why": "Joshua passed Oct 6, 2026 — too many obstacles, unverified income. No offer made. Closed; no Wed Oct 7 follow-up.",
+      "priority": "high",
+      "done": true,
+      "pinned": false
+    },
+    {
+      "task": "Sign in to Cloudflare and GitHub in the box browser (HostFees redeploy)",
+      "why": "The weekly check-up rebuilt HostFees with the Vrbo wording fix, but the Cloudflare session expired and GitHub sign-in fails. Needed before Oct 13 (Airbnb EEA/Switzerland deadline).",
+      "priority": "high",
+      "done": false,
+      "rank": 4
+    },
+    {
+      "task": "Paste PASTE-TO-OTHER-ACCOUNT.md into the other account",
+      "why": "Starts Gold HQ Sync on the other account so roll-ups land as files instead of copy-paste.",
+      "priority": "high",
+      "done": false,
+      "rank": 5
+    },
+    {
+      "task": "Review Deal Scout Quiet Light cosmetics/Amazon FBA shortlist when ready",
+      "why": "Cat Bundle PASSED Oct 6. Deal Scout is rebuilding the live shortlist for Quiet Light cosmetics/Amazon FBA (modest ask, clean numbers).",
+      "priority": "medium",
+      "done": false
     }
   ],
   "projects": [
@@ -645,7 +920,7 @@
       "type": "Short-term-rental fee calculators, explainers, and gift guides",
       "status": "live",
       "url": "https://hostfees.com",
-      "status_note": "Renamed from HostSums. LIVE at hostfees.com (HTTP 200 confirmed morning of Oct 3, 2026). Latest live audit records 27 pages: 5 calculators, 3 gift guides and 10 fee explainers. hostfees.com is claimed on Pinterest (verified); 9 of 49 pins are live (Oct 3) and a daily routine posts 3 each morning at 10:06 AM PT. Hospitable is live; Joshua added bank details in Hospitable Invoice Settings (confirmed Oct 2). Turno affiliate link LIVE on hostfees.com (https://share.turno.com/69pllwz); Turno temp password changed (confirmed Oct 2). Hostaway declined; reapply Nov 1–15 with real traffic numbers. OwnerRez, Lodgify, PriceLabs remain placeholders/pending. Amazon Associates application still not done. Personal PayPal is done (Business not required for now). W-9 only when a program asks. Revenue remains $0.",
+      "status_note": "Renamed from HostSums. LIVE at hostfees.com (HTTP 200 reconfirmed morning of Oct 4, 2026). Latest live audit records 27 pages: 5 calculators, 3 gift guides and 10 fee explainers. hostfees.com is claimed on Pinterest (verified); 18 of 49 pins are live (posted-pins log; 3 posted each day Oct 1–6, latest Oct 6 AM). Turno affiliate link live; Amazon Associates still not done; Cloudflare visits tracked (399 visits / 412 views last 7d as of Oct 6 ~10:51 PT). Lodgify affiliate application pending (Chief of Staff, Oct 3). Weekly check-up Mon Oct 5 clean (live audit 0 errors; Lighthouse mobile 99/100/100/100 on 4 pages). Vrbo changed its help page, so the wording on 3 pages + the Fee Index was updated in the rebuilt site files. Redeploy BLOCKED: the box browser's Cloudflare session expired and GitHub sign-in fails; Joshua must sign in on the box before Oct 13 (Airbnb EEA/Switzerland deadline), so the Vrbo update is not live yet. Oct 6 morning: hostfees.com HTTP 200; today's 3 pins posted ~10:06 AM PT (posted.md Oct 6); redeploy still blocked on the box sign-in. Google Search Console started collecting hostfees.com search data Oct 2 (Google email Oct 5).",
       "pages": 27,
       "calculators": 5,
       "gift_guides": 3,
@@ -653,12 +928,12 @@
       "pins_ready": 49,
       "revenue": 0,
       "profit": 0,
-      "pins_published": 9,
+      "pins_published": 18,
       "pin_routine": "3 each morning at 10:06 AM PT",
       "pinterest_claimed": true,
       "turno_status": "live; affiliate link on hostfees.com (https://share.turno.com/69pllwz)",
       "hostaway_status": "declined for now; revisit in 4–6 weeks with traffic numbers",
-      "one_liner": "Live at hostfees.com · 9 of 49 pins · Turno link live · Amazon Associates pending · $0 revenue"
+      "one_liner": "Live · 18 of 49 pins (today's 3 posted ~10:06 AM) · Vrbo update built, redeploy BLOCKED until Joshua's box sign-in (before Oct 13) · CF visits 399/7d · $0 revenue"
     },
     {
       "id": "deal-scout",
@@ -666,20 +941,39 @@
       "type": "Business acquisition research",
       "status": "research only",
       "url": "",
-      "status_note": "Research only. The Oct 1 run refreshed 305 Flippa cards and ranked 17 candidates; current top slate remains bottes-presso, Mixup Recipes, Rewired (stretch), Marble Tracks and Letras Bonitas Hub. No overnight Deal Scout run recorded for Oct 2–3. No accounts, buying, bids, offers, seller contact or acquisition.",
+      "status_note": "Research only. Daily runs on disk Oct 1-6. Latest run Tue Oct 6 (~8:05-8:35 AM PT): ~470 items reviewed (314 Flippa cards, 13 new, 10 gone; TrustMRR, Investors Club, Quiet Light). Top pick still bottes-presso.fr ($4,547 ask, EUR 1,342/mo listed), then Marble Tracks, Rewired (stretch; 30d $798, down 49.9%), SEO Supremacy. Two ranked listings sold (Letras Bonitas Hub, Dutch Bros Menu). No ranked candidate closes within 48 hours; Objectif Evasion, Crypto Dist and Vehicle Tax end ~Fri Oct 9. New Track B standout: a 20-year men's wallets & belts Amazon brand on Quiet Light (listing 13546165, accepting offers; $942,119 revenue / $12,703 income as listed; about half its SKUs out of stock; owners focused elsewhere). Brand is anonymized, so Best Sellers Rank can't be read until an NDA summary. Structure note: Amazon's Aug 24, 2026 seller-agreement change rules out account handovers or claims on payouts, so any earn-in should be equity or a services deal with the owning company (verify with counsel). No bids, offers or purchases. Cat Bundle (Flippa #13421685) PASSED Oct 6, 2026 (Joshua — obstacles / unverified income; no offer). Next focus: Quiet Light cosmetics/Amazon FBA shortlist refresh (modest ask, clean numbers); Deal Scout rebuilding live shortlist.",
       "budget_limit": "$5,000",
       "revenue": 0,
       "profit": 0,
-      "one_liner": "Research only · watching Objectif Évasion + Crypto Dist (end ~Oct 9)"
+      "one_liner": "Cat Bundle PASSED Oct 6 · next Quiet Light cosmetics/Amazon FBA shortlist refresh · Ran Oct 6 · top pick bottes-presso.fr · wallets & belts Track B standout"
     },
     {
       "id": "websiteplz",
       "name": "WebsitePlz",
-      "type": "One-page websites for local businesses",
+      "type": "Websites for local trades (HVAC, plumbing, electric, pressure washing, house cleaning)",
       "status": "live",
       "url": "https://websiteplz.com",
-      "status_note": "websiteplz.com is live (confirmed Oct 3, 2026). Fiverr and Contra seller accounts still needed from Joshua; gig descriptions are written and the site's Fiverr/Contra buttons stay hidden until the profile links exist.",
-      "one_liner": "Live at websiteplz.com · waiting on Fiverr + Contra seller accounts"
+      "status_note": "websiteplz.com is live; sitesplz.com redirects to it. Sales upgrade live Oct 4: See-It-First Guarantee, 50% deposits, $1,495 includes 6 months of Care, Terms/Privacy/Refunds pages, and private mockup links (noindex). Cleaning and pressure-washing package name decided: \"Booking-ready\". Psych model skill saved. 5 trade pages and 5 blog guides live; Google Search Console verified; 0 of 821 links broken; Lighthouse 97–100. Fiverr and Contra seller accounts were created Mon Oct 5 (welcome/sign-in emails); profiles and the first gig still need publishing. Waiting on Joshua: Stripe deposit links ($124.50 / $562.50 / $747.50) and a review of the legal pages before Stripe goes live. $0 revenue. Chief of Staff Mon Oct 5 roll-up: speed fix live (98/99); Fiverr assets ready (accounts still waiting on Joshua).",
+      "one_liner": "Live · speed fix (98/99) · Fiverr + Contra accounts created Oct 5 · next: finish profiles + publish first gig · Stripe deposit links + legal review waiting on Joshua · $0 revenue",
+      "bot": "WebsitePlz",
+      "bot_id": "e58826be-250d-4953-b472-9f0e1836bd42",
+      "trade_pages": 5,
+      "blog_guides": 5,
+      "links_checked": 821,
+      "broken_links": 0,
+      "lighthouse": "97–100",
+      "gsc_verified": true,
+      "redirects": [
+        "sitesplz.com"
+      ],
+      "demo_url": "https://goldjoshua81-dev.github.io/contractor-samples/",
+      "pricing": "Fiverr tiers $249 / $1,125 / $1,495 · 50% deposit to start ($124.50 / $562.50 / $747.50) · $1,495 includes 6 months of Care",
+      "care_plans": "Care plans $99/mo · $249/qtr · $990/yr",
+      "revenue": 0,
+      "profit": 0,
+      "package_names": {
+        "cleaning_pressure_washing": "Booking-ready"
+      }
     }
   ],
   "printplz_margins": [
@@ -1152,9 +1446,53 @@
     {
       "date": "2026-10-05",
       "date_display": "Mon Oct 5, 2026",
-      "event": "Batch 2 build target",
-      "details": "W4 and TC1 live by Oct 5; then N1/N2, X9, X11, TC5, TC3, X12, and TC4.",
+      "event": "Batch 2 build target (met)",
+      "details": "All batch 2 items (W4, TC1, N1/N2, X9, X11, TC5, TC3, X12, TC4) are active in Shop Manager as of Oct 5. New builds beyond these stay on hold until Joshua lifts it.",
       "source": "/workspace/pod-shops/printplz/README.md · Key dates and ads plan"
+    },
+    {
+      "date": "2026-10-05",
+      "date_display": "Mon Oct 5, 2026 · 8:47 AM PT",
+      "event": "HostFees weekly check-up",
+      "details": "Weekly HostFees routine.",
+      "source": "Chief of Staff Oct 4 roll-up"
+    },
+    {
+      "date": "2026-10-05",
+      "date_display": "Oct 5–8, 2026",
+      "event": "Pending-delete domain drops",
+      "details": "Names on the pending-delete sample drop Oct 5–8 (e.g. homelawncare.com by Oct 6 04:45 PT). Watch only; nothing bought.",
+      "source": "/workspace/domain-research/GAME_PLAN.md · pending_delete_sample.csv"
+    },
+    {
+      "date": "2026-10-07",
+      "date_display": "Wed Oct 7, 2026 · 6 PM PT",
+      "event": "Stocks Moon week 1 ends + verdict",
+      "details": "Other account, paper only: conservative-vs-aggressive verdict.",
+      "source": "Incubator roll-up 2026-10-05_2123 (late)",
+      "account": "Other bots"
+    },
+    {
+      "date": "2026-10-08",
+      "date_display": "Thu Oct 8, 2026",
+      "event": "Grok Bot weekly usage resets (weekly, likely Thursdays; confirm in Settings, Usage & Billing)",
+      "details": "Weekly reset; exact day and time not confirmed.",
+      "source": "/workspace/org/USAGE-OPTIMIZATION-2026-10-05.md"
+    },
+    {
+      "date": "2026-10-09",
+      "date_display": "~Fri Oct 9, 2026",
+      "event": "Objectif Évasion + Crypto Dist auctions end",
+      "details": "Deal Scout watching; research only, nothing to buy yet.",
+      "source": "Deal Scout (Flippa)"
+    },
+    {
+      "date": "2026-10-11",
+      "date_display": "~Sun Oct 11, 2026",
+      "event": "MoonletterMira Etsy Ads (~$5/day)",
+      "details": "Other account; earliest start (~$5/day ML-01), only if Joshua enables.",
+      "source": "Other account relay / Chief of Staff Oct 4 roll-up",
+      "account": "Other bots"
     },
     {
       "date": "2026-10-16",
@@ -1171,11 +1509,25 @@
       "source": "/workspace/pod-shops/printplz/README.md · Key dates and ads plan"
     },
     {
+      "date": "2026-11-01",
+      "date_display": "Nov 1–15, 2026",
+      "event": "Hostaway affiliate reapply window",
+      "details": "Reapply or reply with real HostFees traffic metrics only.",
+      "source": "/workspace/affiliate/commission-tracker.md"
+    },
+    {
       "date": "2026-11-11",
       "date_display": "Wed Nov 11, 2026",
       "event": "Thanksgiving order-by",
       "details": "Last recommended order-by date for Thanksgiving delivery.",
       "source": "/workspace/pod-shops/printplz/README.md · Key dates and ads plan"
+    },
+    {
+      "date": "2026-11-23",
+      "date_display": "Mon Nov 23 – Tue Dec 1, 2026",
+      "event": "Etsy Cyber Week (PrintPlzShop)",
+      "details": "Etsy's Cyber Week sale window. Plan holiday offers and listings before it starts; Etsy also suggests a 'bring shoppers back' offer to people already engaging with listings.",
+      "source": "Etsy Sellers email 'PrintPlzShop: Start the week', Oct 5, 2026 9:39 AM PT"
     },
     {
       "date": "2026-12-09",
@@ -1185,220 +1537,306 @@
       "source": "/workspace/pod-shops/printplz/README.md · Key dates and ads plan"
     },
     {
-      "date": "2026-10-08",
-      "date_display": "Thu Oct 8, 2026",
-      "event": "Grok usage resets",
-      "details": "Usage limit resets.",
-      "source": "Scott Bot (Oct 3)"
+      "date": "2026-10-07",
+      "date_display": "Wed Oct 7, 2026",
+      "event": "Deal Scout ops shortlist refresh (Quiet Light cosmetics / Amazon FBA)",
+      "details": "Cat Bundle PASSED Oct 6. Next: Quiet Light cosmetics/Amazon FBA lane — modest ask, clean numbers. Deal Scout rebuilding shortlist.",
+      "source": "Deal Scout"
     },
     {
-      "date": "2026-10-09",
-      "date_display": "~Fri Oct 9, 2026",
-      "event": "Objectif Évasion + Crypto Dist auctions end",
-      "details": "Deal Scout watching; research only, nothing to buy yet.",
-      "source": "Deal Scout (Flippa)"
+      "date": "2026-10-06",
+      "date_display": "Tue Oct 6, 2026",
+      "event": "TWLO joins the S&P index (paper)",
+      "details": "Stocks Edge holds TWLO on paper; not adding.",
+      "source": "Incubator roll-up 2026-10-05_2123 (late)",
+      "account": "Other bots"
     },
     {
-      "date": "2026-11-01",
-      "date_display": "Nov 1–15, 2026",
-      "event": "Hostaway affiliate reapply window",
-      "details": "Reapply or reply with real HostFees traffic metrics only.",
-      "source": "/workspace/affiliate/commission-tracker.md"
+      "date": "2026-10-06",
+      "date_display": "Tue Oct 6 – Wed Oct 7, 2026",
+      "event": "Family Gem moves to the main account",
+      "details": "Planned migration of The Family Gem Shop from the other account.",
+      "source": "Chief of Staff Mon Oct 5 roll-up",
+      "account": "Other bots"
+    },
+    {
+      "date": "2026-10-10",
+      "date_display": "Fri Oct 10, 2026",
+      "event": "Stocks Edge week 2 ends (paper)",
+      "details": "Other account, paper only.",
+      "source": "Incubator roll-up 2026-10-05_2123 (late)",
+      "account": "Other bots"
+    },
+    {
+      "date": "2026-10-13",
+      "date_display": "Tue Oct 13, 2026",
+      "event": "HostFees redeploy deadline + Airbnb EEA/Switzerland fee change",
+      "details": "Airbnb's deadline for EEA/Swiss hosts to reprice for the single fee. HostFees needs Joshua's box sign-in to Cloudflare + GitHub to redeploy before then.",
+      "source": "Chief of Staff Mon Oct 5 roll-up · /workspace/affiliate/fee-sources.md"
+    },
+    {
+      "date": "2026-12-17",
+      "date_display": "Thu Dec 17, 2026",
+      "event": "USPS Ground Advantage Christmas send-by (lower 48)",
+      "details": "Other account (Family Gem); published by USPS Sep 22.",
+      "source": "Incubator roll-up 2026-10-05_2123 (late)",
+      "account": "Other bots"
     }
   ],
   "other_account": {
     "label": "Other account (Grok Bot)",
-    "as_of": "Oct 3, 2026 ~1pm PT, relayed manually",
-    "source_note": "Joshua's second Grok Bot account (main coordinator: Grok Bot) can't see this dashboard's computer. Everything below was copied from two reports Joshua pasted to Scott Bot on Oct 3, 2026 (~1:03pm and ~1:10pm PT). It is not live-synced and goes stale until the next relay. Trading lanes are paper only; none of these numbers count toward the totals above.",
+    "as_of": "LATE: Oct 5, 9:23 PM PT (built 8:56 PM)",
+    "source_note": "From the verified box copy of the other account's nightly roll-up: 2026-10-05_2123_incubator_rollup.md (body_sha256 bbe50a62a27f…, verified on the box). Built 8:56 PM PT and landed in Gold HQ Sync late, at 9:23 PM PT. Real numbers only; \"unknown\" means not verified. Paper lanes are paper only. Nothing was traded, published, spent, or turned on. None of these numbers count toward this account's totals.",
     "shops": [
       {
         "name": "MoonletterMira",
         "status": "live",
         "type": "Etsy digital readings",
         "url": "https://www.etsy.com/shop/MoonletterMira",
-        "note": "Live Etsy shop. Readings site readings.moonlettermira.com (Cloudflare Pages) and email delivery via Resend are live. Etsy Complete is still manual. Make.com not connected. Instagram not live. Public page: 1 sale, 1 admirer, 0 reviews. That 1 sale is a friend/demo order, not revenue.",
+        "note": "5 listings (ML-01 to ML-05) per shop files last changed Oct 2; Etsy not rechecked live tonight. No new orders on file. The only sale ever was a friend/demo order, not real revenue. Real revenue to date: $0 known. Etsy Ads off (not before ~Oct 11). Spend to date: unknown in full. Traffic tiles still pending Mira Etsy sign-in on the other account (requested Oct 6).",
         "listings": [
-          "ML-01 Same-Hour Love: $8.88",
-          "ML-02: $9.99",
-          "ML-03: $24",
-          "ML-04: $11",
-          "ML-05 Mini Love Spark: $1"
+          "ML-01",
+          "ML-02",
+          "ML-03",
+          "ML-04",
+          "ML-05"
         ],
-        "one_liner": "Live · 5 listings · 1 friend/demo sale (not revenue)"
+        "one_liner": "Live · 5 listings · $0 known real revenue · ads off"
       },
       {
         "name": "The Family Gem Shop",
         "status": "vacation",
         "type": "Loose gemstones on Etsy",
         "url": "https://www.etsy.com/shop/TheFamilyGemShop",
-        "note": "Slug TheFamilyGemShop (renamed from GemPathway Oct 2). Vacation mode ON. 0 live listings. SF-001 (1.19 ct heart tsavorite, Kenya, $425) copy and 4 photos approved, not posted. Planned domain thefamilygems.com not purchased.",
+        "note": "Vacation mode ON, 0 live listings, 0 orders, $0 revenue, no logo/banner. SF-001 (1.19 ct tsavorite) photographed, NOT listed (don't list until Joshua says so; no price on file). Spend to date $40.48 ($29 Etsy setup + $11.48 domain). Planned move to the main account Oct 6–7. Shop Manager visits last 7 days: 0 as of Oct 6 8:37 PT (Etsy: Not enough data); views unknown on that page.",
         "listings": [],
-        "one_liner": "Vacation on · 0 listings · SF-001 ready to post"
+        "one_liner": "Vacation on · 0 listings · 0 visits last 7d (Oct 6 8:37 PT) · $40.48 spent · moving to main account Oct 6–7"
       },
       {
         "name": "Help4U",
         "status": "not open",
-        "type": "Planned Etsy shop: digital listing-help files (Etsy-only, so it doesn't compete with WebsitePlz)",
+        "type": "Planned Etsy shop: digital listing-help files",
         "url": "",
-        "note": "Designed, not opened. No spend. Name (older label For You) not confirmed free. Stays closed until Joshua says publish.",
+        "note": "Not open, no shop login, $0 spend; catalog waiting on Joshua's review.",
         "listings": [],
-        "one_liner": "Not open · waiting on your review"
+        "one_liner": "Not open · $0 spent · catalog waiting on Joshua"
       }
     ],
-    "paper_lanes_note": "Paper trading only, research bankroll, not live money. Weekly summary per lane, not every trade. No live orders on any lane.",
+    "paper_lanes_note": "Paper only, no real money. Numbers as read for the 8:56 PM PT roll-up; desk week reset Mon Oct 5. Stocks Edge/Moon files changed again at 9:00–9:01 PM PT and weren't re-read.",
     "paper_lanes": [
       {
-        "lane": "Sports Edge",
+        "lane": "Politics",
         "bankroll": "$1,000 paper",
-        "equity": "$1,000",
-        "note": "0 fills. Quiet Oct 2."
-      },
-      {
-        "lane": "Politics Edge",
-        "bankroll": "$1,000 paper",
-        "equity": "~$910.98 (Oct 2, 9:19am PT)",
-        "note": "Week mark ends Sat Oct 3 ~4:13pm PT."
+        "equity": "$918.84 (-$81.16)",
+        "note": "Week ended Oct 3; no new week started.",
+        "start_balance": 1000,
+        "current_balance": 918.84,
+        "week_pnl": -81.16,
+        "open_positions": null
       },
       {
         "lane": "Stocks Edge",
         "bankroll": "$1,000 paper",
-        "equity": "$998.99",
-        "note": "Holds ZS and TWLO. No live Robinhood orders."
+        "equity": "$1,003.58 (+$3.58)",
+        "note": "Open: ZS, TWLO. Realized -$8.23, unrealized +$11.81. Week two started Oct 5.",
+        "start_balance": 1000,
+        "current_balance": 1003.58,
+        "week_pnl": 3.58,
+        "open_positions": 2
       },
       {
-        "lane": "Stocks Edge (Moon sleeve)",
+        "lane": "Stocks Moon",
         "bankroll": "$1,000 paper",
-        "equity": "$1,002.75",
-        "note": "Holds SQQQ."
+        "equity": "$1,000.24 (+$0.24 since Sep 30 seed)",
+        "note": "23 paper clips closed today, day -$2.51.",
+        "start_balance": 1000,
+        "current_balance": 1000.24,
+        "week_pnl": 0.24,
+        "open_positions": null
       },
       {
-        "lane": "Polymarket Edge",
+        "lane": "Sports",
+        "bankroll": "paper",
+        "equity": "$0",
+        "note": "Empty book.",
+        "start_balance": 0,
+        "current_balance": 0,
+        "week_pnl": 0,
+        "open_positions": 0
+      },
+      {
+        "lane": "Polymarket",
         "bankroll": "$1,000 paper",
-        "equity": "not reported",
-        "note": "8 resting paper locks, 0 live orders, 0 observed fills."
+        "equity": "$1,000.00 ($0)",
+        "note": "8 paper locks resting, 0 fills, 0 live orders.",
+        "start_balance": 1000,
+        "current_balance": 1000,
+        "week_pnl": 0,
+        "open_positions": 0
       },
       {
-        "lane": "Combined (Edge Desk)",
+        "lane": "Desk total",
         "bankroll": "$5,000 paper",
-        "equity": "~$4,913 (Oct 2 evening)",
-        "note": "Combined paper week about -$87."
+        "equity": "$4,922.66 (-$77.34)",
+        "note": "All paper lanes.",
+        "start_balance": 5000,
+        "current_balance": 4922.66,
+        "week_pnl": -77.34,
+        "open_positions": null
       }
     ],
     "deadlines": [
       {
-        "date": "Sat Oct 3 ~4:13pm PT",
-        "event": "Politics Edge paper week wrap",
-        "details": "Paper only.",
-        "date_iso": "2026-10-03"
+        "date": "Tue Oct 6",
+        "date_iso": "2026-10-06",
+        "event": "TWLO joins the S&P index",
+        "details": "Stocks Edge holds TWLO on paper; no adding."
       },
       {
-        "date": "Mon Oct 5",
-        "event": "Markets reopen",
-        "details": "Stocks hunts resume; Polymarket hunt ~8:13am PT; rogue-agent scan 8:19am PT.",
-        "date_iso": "2026-10-05"
+        "date": "Oct 6–7",
+        "date_iso": "2026-10-06",
+        "event": "Family Gem move to the main account",
+        "details": "Planned."
       },
       {
-        "date": "~Oct 11, 2026",
-        "event": "Optional Etsy Ads on ML-01 only (~$5/day)",
-        "details": "Not enabled. Do not start early.",
-        "date_iso": "2026-10-11"
+        "date": "Wed Oct 7, 6 PM PT",
+        "date_iso": "2026-10-07",
+        "event": "Stocks Moon week one ends",
+        "details": "Conservative-vs-aggressive verdict Wednesday (paper)."
       },
       {
-        "date": "No date",
-        "event": "Help4U stays closed",
-        "details": "Opens only when Joshua says publish.",
-        "date_iso": ""
+        "date": "Fri Oct 10",
+        "date_iso": "2026-10-10",
+        "event": "Stocks Edge week two ends",
+        "details": "Paper."
+      },
+      {
+        "date": "~Oct 11",
+        "date_iso": "2026-10-11",
+        "event": "Earliest MoonletterMira Etsy Ads (~$5/day ML-01)",
+        "details": "Only if Joshua turns them on."
+      },
+      {
+        "date": "Thu Dec 17",
+        "date_iso": "2026-12-17",
+        "event": "USPS Ground Advantage Christmas send-by (lower 48)",
+        "details": "Published Sep 22."
+      },
+      {
+        "date": "Oct 3, 2027",
+        "date_iso": "2027-10-03",
+        "event": "thefamilygems.com renewal",
+        "details": "~$18.48/yr."
       }
     ],
     "bills": [
+      {
+        "item": "thefamilygems.com domain",
+        "amount": "$11.48 first year (Oct 3, 2026) · renewal ~$18.48/yr",
+        "when": "Renews 2027-10-03 (registry expiry, checked Oct 5) · DNS on parking defaults, not pointed anywhere yet"
+      },
       {
         "item": "Etsy setup fee, The Family Gem Shop",
         "amount": "$29",
         "when": "Paid Oct 2 (one-time)"
       },
       {
-        "item": "moonlettermira.com (Namecheap)",
+        "item": "moonlettermira.com domain",
         "amount": "unknown",
         "when": "Renewal date unknown"
       },
       {
-        "item": "Resend and Cloudflare plans",
+        "item": "Resend",
         "amount": "unknown",
-        "when": "In use; plan price and renewal not recorded"
+        "when": "Plan/renewal date unknown"
       },
       {
-        "item": "thefamilygems.com",
-        "amount": "n/a",
-        "when": "Not purchased"
-      },
-      {
-        "item": "Recurring bills with known amount and date",
-        "amount": "none",
-        "when": "None known on this account"
+        "item": "Cloudflare",
+        "amount": "unknown",
+        "when": "Renewal unknown"
       }
     ],
     "needs_joshua": [
       {
-        "task": "Claim Instagram @moonlettermira and post day one",
-        "why": "feed-01, feed-03 and story-01 are ready.",
+        "task": "Supreme Sales to-dos (13 open)",
+        "why": "Connector sign-ins, free API keys, tool tier decisions (per the 8:56 PM roll-up).",
         "optional": false,
         "done": false
       },
       {
-        "task": "Family Gem: send shop icon and banner, and say when to post SF-001",
-        "why": "Then vacation goes off and a USPS tracked/insured shipping note is added.",
+        "task": "Family Gem open tasks",
+        "why": "Listed in OPEN-TASKS.md in the Family Gem migration packet.",
         "optional": false,
         "done": false
       },
       {
-        "task": "Help4U: confirm the name is free and review the catalog",
-        "why": "Don't publish until you say so.",
+        "task": "Help4U: review the catalog",
+        "why": "Shop stays closed until you say publish.",
         "optional": false,
-        "done": false
-      },
-      {
-        "task": "Delete the empty 'New Bot' from the sidebar",
-        "why": "Only you can delete it.",
-        "optional": false,
-        "done": false
-      },
-      {
-        "task": "Check the Etsy logins for MoonletterMira and TheFamilyGemShop",
-        "why": "Done Oct 3: MoonletterMira, TheFamilyGemShop and PrintPlzShop are on three separate Etsy logins, so the shops don't share one Etsy identity.",
-        "optional": false,
-        "done": true
-      },
-      {
-        "task": "Optional: confirm a public host for Doom Index",
-        "why": "Local board, parked.",
-        "optional": true,
-        "done": false
-      },
-      {
-        "task": "Optional: deploy Edge Desk Fly",
-        "why": "Phone package, not deployed.",
-        "optional": true,
-        "done": false
-      },
-      {
-        "task": "Optional: buy thefamilygems.com",
-        "why": "Planned domain, not purchased.",
-        "optional": true,
-        "done": false
-      },
-      {
-        "task": "Optional: Mira coupon",
-        "why": "Not set up.",
-        "optional": true,
         "done": false
       }
     ],
-    "combined_ads_note": "Combined Etsy Ads (both accounts): PrintPlz ~$3/day from Fri Oct 16, capped at $100/month, plus ML-01 ~$5/day from ~Oct 11 if enabled (currently off). Together roughly $240/month if both run all month.",
-    "as_of_date": "2026-10-03",
+    "combined_ads_note": "Combined Etsy Ads (both accounts): PrintPlz ~$3/day from Fri Oct 16, capped at $100/month, plus ML-01 ~$5/day from ~Oct 11 only if Joshua enables it (off now).",
+    "as_of_date": "2026-10-05",
     "revenue": 0,
-    "spend_total": 29,
-    "paper_pnl": -87,
-    "paper_pnl_note": "~-$87 combined paper week on ~$4,913 of $5,000 (as of Oct 2 evening)"
+    "spend_total": 40.48,
+    "paper_pnl": -77.34,
+    "paper_pnl_note": "Paper desk $4,922.66 of $5,000 (as read for the 8:56 PM PT Oct 5 roll-up)",
+    "spend_note": "Family Gem $40.48 ($29 Etsy setup + $11.48 domain); MoonletterMira unknown in full; Help4U $0; today $0",
+    "decisions_pending": [
+      {
+        "decision": "Whether Politics starts a new paper week",
+        "lane": "Politics (paper)",
+        "note": "Open since Oct 3."
+      },
+      {
+        "decision": "When SF-001 may be listed, and its price",
+        "lane": "Family Gem",
+        "note": "No price on file."
+      },
+      {
+        "decision": "Approve the thefamilygems.com DNS change",
+        "lane": "Family Gem",
+        "note": "Once the main account's GitHub Pages records are sent (sent Oct 5)."
+      },
+      {
+        "decision": "Move the nightly roll-up from 8:56 PM to ~8:30 PM PT",
+        "lane": "Other account",
+        "note": "So it lands before the 8:40 PM Drive deadline."
+      },
+      {
+        "decision": "One Etsy-help store or two",
+        "lane": "Help4U",
+        "note": "Help4U vs audit4u/For You overlap."
+      }
+    ],
+    "cross_account_items": [
+      {
+        "item": "Gold HQ Sync",
+        "owner": "Both accounts",
+        "status": "Adopted on the other account Oct 5."
+      },
+      {
+        "item": "Family Gem migration packet",
+        "owner": "Other account",
+        "status": "Sent Oct 5."
+      },
+      {
+        "item": "MoonletterMira and Help4U migration packets",
+        "owner": "Other account",
+        "status": "Next."
+      },
+      {
+        "item": "GitHub Pages DNS records for thefamilygems.com",
+        "owner": "Scott Bot",
+        "status": "Sent Oct 5; DNS waits on Joshua's yes + sign-in on the other account."
+      },
+      {
+        "item": "Daily roll-up to Drive by 8:40 PM PT",
+        "owner": "Other account",
+        "status": "Starts Oct 6."
+      }
+    ]
   },
   "recurring_bills": [
     {
@@ -1418,8 +1856,23 @@
     },
     {
       "item": "websiteplz.com domain",
-      "amount": "unknown",
-      "when": "Renewal date not recorded"
+      "amount": "$10.46/yr",
+      "when": "Bought Oct 3, 2026 · renews Oct 3, 2027 (auto-renew on, Cloudflare card on file)"
+    },
+    {
+      "item": "sitesplz.com domain (redirects to websiteplz.com)",
+      "amount": "$10.46/yr",
+      "when": "Bought Oct 3, 2026 · renews Oct 3, 2027 (auto-renew on, Cloudflare card on file)"
+    },
+    {
+      "item": "Grok Bot Ultra plan (main account)",
+      "amount": "$200/month",
+      "when": "Billing date TBD; usage resets weekly"
+    },
+    {
+      "item": "Grok Bot Pro+ plan (other account)",
+      "amount": "$60/month",
+      "when": "Plan name pending confirmation; billing date TBD; usage resets weekly"
     }
   ],
   "traffic_sources": [
@@ -1440,9 +1893,9 @@
       "account": "This account",
       "primary": "visits",
       "secondary": "views",
-      "status": "not tracked yet",
+      "status": "tracked",
       "cf_host": "hostfees.com",
-      "needs": "Cloudflare Web Analytics is on for hostfees.com, but the box's Cloudflare API token can't read analytics. Add the permission Account › Account Analytics › Read to that token."
+      "needs": "Tracked via Cloudflare Web Analytics GraphQL (Account Analytics Read). Last 7d visits/views collected Oct 6 ~10:51 PT."
     },
     {
       "id": "hostfees-pinterest",
@@ -1461,9 +1914,9 @@
       "account": "This account",
       "primary": "visits",
       "secondary": "views",
-      "status": "not tracked yet",
+      "status": "tracked",
       "cf_host": "websiteplz.com",
-      "needs": "No analytics on websiteplz.com yet. Turn on Cloudflare Web Analytics for websiteplz.com (Cloudflare › Analytics & Logs › Web Analytics › Add site, automatic setup), plus the same token permission as HostFees."
+      "needs": "Tracked via Cloudflare Web Analytics GraphQL (Account Analytics Read). Last 7d visits/views collected Oct 6 ~10:51 PT."
     },
     {
       "id": "moonlettermira",
@@ -1472,21 +1925,45 @@
       "account": "Other bots",
       "primary": "views",
       "secondary": "visits",
-      "status": "relayed manually",
-      "needs": "Other account; no traffic numbers relayed yet. Ask its bot for Etsy Shop Manager views/visits (7d) with the date read."
+      "status": "not tracked yet",
+      "needs": "Pending MoonletterMira Etsy sign-in on the other account (or paste of Shop Manager 7d views/visits). Requested Oct 6; incubator session was on Family Gem only."
     },
     {
       "id": "familygem",
       "name": "The Family Gem Shop",
       "venture": "Etsy shop",
       "account": "Other bots",
-      "primary": "views",
-      "secondary": "visits",
-      "status": "relayed manually",
-      "needs": "Other account; vacation on, 0 listings; no traffic numbers relayed yet."
+      "primary": "visits",
+      "secondary": "views",
+      "status": "tracked",
+      "needs": "Tracked via Gold HQ Sync from incubator Shop Manager (Last 7 Days Sep 30–Oct 6, read Oct 6 8:37 PT). Visits 7d = 0 (Etsy: Not enough data). Views unknown (that stats page had no Views tile). Orders 0, revenue $0."
     }
   ],
   "traffic_history": [
+    {
+      "date": "2026-10-06T08:37:00-07:00",
+      "source": "familygem",
+      "metric": "visits",
+      "value": 0,
+      "window": "7d",
+      "method": "Incubator Etsy Shop Manager Stats last 7 days Sep 30–Oct 6 (Gold HQ Sync result etsy-shop-views, read 2026-10-06 08:37 PT; Etsy Not enough data)"
+    },
+    {
+      "date": "2026-10-06T10:50:42-07:00",
+      "source": "hostfees-site",
+      "metric": "views",
+      "value": 412,
+      "window": "7d",
+      "method": "Cloudflare Web Analytics (GraphQL)"
+    },
+    {
+      "date": "2026-10-06T10:50:42-07:00",
+      "source": "hostfees-site",
+      "metric": "visits",
+      "value": 399,
+      "window": "7d",
+      "method": "Cloudflare Web Analytics (GraphQL)"
+    },
     {
       "date": "2026-10-02T07:52:16-07:00",
       "source": "printplz",
@@ -1504,6 +1981,30 @@
       "method": "Etsy Shop Manager stats (snapshot data/printplz-live-listings.json)"
     },
     {
+      "date": "2026-10-04T08:02:00-07:00",
+      "source": "printplz",
+      "metric": "views",
+      "value": 38,
+      "window": "7d",
+      "method": "Etsy Shop Manager dashboard snapshot (Last 7 days; data/printplz-live-listings.json + morning-etsy-report.json)"
+    },
+    {
+      "date": "2026-10-05T09:00:00-07:00",
+      "source": "printplz",
+      "metric": "views",
+      "value": 30,
+      "window": "7d",
+      "method": "Etsy Shop Manager stats, Last 7 Days Sep 29 - Oct 5 (data/printplz-live-listings.json)"
+    },
+    {
+      "date": "2026-10-06T08:38:00-07:00",
+      "source": "printplz",
+      "metric": "views",
+      "value": 34,
+      "window": "7d",
+      "method": "Etsy Shop Manager stats, Last 7 Days Sep 30 - Oct 6 (data/printplz-live-listings.json)"
+    },
+    {
       "date": "2026-10-02T07:52:16-07:00",
       "source": "printplz",
       "metric": "visits",
@@ -1518,6 +2019,159 @@
       "value": 12,
       "window": "7d",
       "method": "Etsy Shop Manager stats (snapshot data/printplz-live-listings.json)"
+    },
+    {
+      "date": "2026-10-04T08:02:00-07:00",
+      "source": "printplz",
+      "metric": "visits",
+      "value": 16,
+      "window": "7d",
+      "method": "Etsy Shop Manager dashboard snapshot (Last 7 days; data/printplz-live-listings.json + morning-etsy-report.json)"
+    },
+    {
+      "date": "2026-10-05T09:00:00-07:00",
+      "source": "printplz",
+      "metric": "visits",
+      "value": 23,
+      "window": "7d",
+      "method": "Etsy Shop Manager stats, Last 7 Days Sep 29 - Oct 5 (data/printplz-live-listings.json)"
+    },
+    {
+      "date": "2026-10-06T08:38:00-07:00",
+      "source": "printplz",
+      "metric": "visits",
+      "value": 27,
+      "window": "7d",
+      "method": "Etsy Shop Manager stats, Last 7 Days Sep 30 - Oct 6 (data/printplz-live-listings.json)"
+    },
+    {
+      "date": "2026-10-06T10:50:42-07:00",
+      "source": "websiteplz-site",
+      "metric": "views",
+      "value": 802,
+      "window": "7d",
+      "method": "Cloudflare Web Analytics (GraphQL)"
+    },
+    {
+      "date": "2026-10-06T10:50:42-07:00",
+      "source": "websiteplz-site",
+      "metric": "visits",
+      "value": 796,
+      "window": "7d",
+      "method": "Cloudflare Web Analytics (GraphQL)"
     }
-  ]
+  ],
+  "decisions_pending": [
+    {
+      "decision": "Contra: $900 intro price",
+      "lane": "WebsitePlz",
+      "recommended": "Yes",
+      "note": "Contra/outreach range on file is $900–1,200."
+    },
+    {
+      "decision": "Add the Fiverr gig extras",
+      "lane": "WebsitePlz",
+      "recommended": "Yes",
+      "note": ""
+    },
+    {
+      "decision": "Dig into bottes-presso.fr (full due diligence)",
+      "lane": "Deal Scout",
+      "recommended": "Yes",
+      "note": "Top pick; research only until you say go."
+    },
+    {
+      "decision": "Look closer at the Quiet Light wallets & belts brand (listing 13546165) as an earn-in",
+      "lane": "Deal Scout",
+      "recommended": "Your call",
+      "note": "Flagged Oct 6 as a standout ops fit; needs P&L, account-health and stock-history proof (NDA) before any pitch. Research only."
+    },
+    {
+      "decision": "Domain test: $120–170 for 10 names before the Nov 1 .com price rise",
+      "lane": "Domain research",
+      "recommended": "No",
+      "note": "Plan in /workspace/domain-research/GAME_PLAN.md (estimate). Nothing bought."
+    },
+    {
+      "decision": "Raise the $5K acquisition cap",
+      "lane": "Deal Scout",
+      "recommended": "No",
+      "note": ""
+    },
+    {
+      "decision": "Move the other account's nightly roll-up to ~8:30 PM PT",
+      "lane": "Other account",
+      "recommended": "Yes",
+      "note": "So it lands before the 8:40 PM Drive deadline."
+    },
+    {
+      "decision": "Approve the thefamilygems.com DNS change",
+      "lane": "Other account",
+      "recommended": "Yes, once the records are sent",
+      "note": "GitHub Pages records were sent tonight; needs your yes plus a sign-in on the other account."
+    },
+    {
+      "decision": "One Etsy-help store instead of two (Help4U vs audit4u/For You)",
+      "lane": "Other account",
+      "recommended": "Yes",
+      "note": ""
+    },
+    {
+      "decision": "Start a new Politics paper week",
+      "lane": "Other account (paper)",
+      "recommended": "Yes",
+      "note": "Open since Oct 3; last week closed at $918.84 (-$81.16)."
+    },
+    {
+      "decision": "SF-001 listing and price",
+      "lane": "Other account",
+      "recommended": "Hold; no price yet",
+      "note": "Photographed, not listed; no price on file."
+    },
+    {
+      "decision": "Package name for the cleaning and pressure-washing sites",
+      "lane": "WebsitePlz",
+      "note": "Decided Oct 4: \"Booking-ready\" (approved).",
+      "done": true
+    },
+    {
+      "decision": "When to lift the PrintPlz build hold",
+      "lane": "PrintPlz",
+      "note": "Approved Oct 5 for build/list only; not used yet.",
+      "done": true
+    }
+  ],
+  "decisions_source": "Chief of Staff nightly roll-up, Mon Oct 5, 2026 (recommended defaults are Chief of Staff's; nothing changes until Joshua decides)",
+  "priority_projects": [
+    {
+      "id": "cat-bundle",
+      "name": "Cat Bundle ops partnership (Flippa #13421685, Marlenespetshop)",
+      "owner": "Deal Scout + Joshua",
+      "status": "PASSED / closed",
+      "flippa_id": "13421685",
+      "url": "https://flippa.com/13421685",
+      "status_note": "Joshua passed Oct 6, 2026 — too many obstacles, unverified income. No offer made. Closed.",
+      "next_step": "ops shortlist refresh — Quiet Light cosmetics/Amazon FBA lane (modest ask, clean numbers). Deal Scout rebuilding live shortlist.",
+      "next_date": null,
+      "source": "/workspace/acquisitions/deal-scout/cat-bundle-13421685/seller-qa-summary.md",
+      "score": "4.2/10 (4.8/10 as an earn-in)"
+    }
+  ],
+  "business_costs": {
+    "items": [
+      {
+        "item": "Grok Bot Ultra plan (main account)",
+        "monthly": 200,
+        "note": "Billing date TBD; usage resets weekly"
+      },
+      {
+        "item": "Grok Bot Pro+ plan (other account)",
+        "monthly": 60,
+        "note": "Plan name pending confirmation; billing date TBD; usage resets weekly"
+      }
+    ],
+    "monthly_total": 260,
+    "source": "Joshua (real figures), /workspace/org/USAGE-OPTIMIZATION-2026-10-05.md section 1",
+    "note": "Recurring tool costs, not in the $1,000 capital ledger. Revenue is $0 in every lane, so monthly burn is $260/month."
+  }
 }

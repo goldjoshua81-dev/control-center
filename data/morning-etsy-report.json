@@ -1,0 +1,444 @@
+{
+  "report_type": "morning_etsy_shop_manager_findings",
+  "as_of": "2026-10-04T08:02:00-07:00",
+  "shop": {
+    "name": "PrintPlzShop",
+    "shop_url": "https://www.etsy.com/shop/PrintPlzShop"
+  },
+  "dashboard": {
+    "date_range": "Last 7 days",
+    "active_listings": 79,
+    "orders": 0,
+    "revenue_usd": 0,
+    "total_views": 38,
+    "visits": 16,
+    "source_notes": {
+      "views_updated": "Just now",
+      "orders_updated": "Just now",
+      "revenue_updated": "Just now",
+      "visits_updated": "3 hours ago"
+    }
+  },
+  "orders_check": {
+    "url": "https://www.etsy.com/your/orders/sold?ref=seller-platform-mcnav",
+    "result": "No orders here right now",
+    "new_orders_count": 0
+  },
+  "listing_status": {
+    "active": 79,
+    "draft": 1,
+    "expired": 0,
+    "sold_out": 0,
+    "inactive": 3,
+    "with_video": 0,
+    "without_video": 79
+  },
+  "listings_collected_count": 79,
+  "listings": [
+    {
+      "id": "4588143178",
+      "title": "Ultrasound Ornament Pregnancy Announcement, Personalized Acrylic Baby Arriving Keepsake",
+      "url": "https://www.etsy.com/listing/4588143178"
+    },
+    {
+      "id": "4588142244",
+      "title": "Grandma Christmas Ornament with Grandkids Names, Personalized Glass Keepsake Gift 2026",
+      "url": "https://www.etsy.com/listing/4588142244"
+    },
+    {
+      "id": "4588140048",
+      "title": "Personalized Golf Towel for Grandpa, Custom Grandkids Names Caddies Gift, Dad Est Year",
+      "url": "https://www.etsy.com/listing/4588140048"
+    },
+    {
+      "id": "4588123752",
+      "title": "Personalized Pet Christmas Stocking, Custom Dog Photo and Name, Cat Lover Mantel Decor Gift",
+      "url": "https://www.etsy.com/listing/4588123752"
+    },
+    {
+      "id": "4588118266",
+      "title": "Pickleball Ornament 2026, Personalized Christmas Gift for Player, Coach or Couple with Name",
+      "url": "https://www.etsy.com/listing/4588118266"
+    },
+    {
+      "id": "4588113199",
+      "title": "Memorial Photo Ornament, Personalized Glass Christmas Keepsake with Name and Years, Sympathy Gift",
+      "url": "https://www.etsy.com/listing/4588113199"
+    },
+    {
+      "id": "4588112663",
+      "title": "Custom Pet Face Socks, Personalized Dog Photo Christmas Stocking Stuffer with Name",
+      "url": "https://www.etsy.com/listing/4588112663"
+    },
+    {
+      "id": "4587965861",
+      "title": "Grandma's Story Memory Book, Personalized Hardcover Journal with Prompts, Christmas Gift from Grandkids",
+      "url": "https://www.etsy.com/listing/4587965861"
+    },
+    {
+      "id": "4587961897",
+      "title": "Personalized Family Recipe Book, Custom Hardcover Cookbook to Fill In, Grandma Christmas Gift Keepsake",
+      "url": "https://www.etsy.com/listing/4587961897"
+    },
+    {
+      "id": "4587956335",
+      "title": "Personalized 2027 Family Birthday Calendar with Photos and Names, Grandma Christmas Gift, Wall Decor",
+      "url": "https://www.etsy.com/listing/4587956335"
+    },
+    {
+      "id": "4587953633",
+      "title": "Custom Photo Puzzle with Name, Personalized Family Christmas Gift, 500 1000 Piece Jigsaw Tin",
+      "url": "https://www.etsy.com/listing/4587953633"
+    },
+    {
+      "id": "4587954204",
+      "title": "Personalized Christmas Tree Skirt with Family Name, Custom Fleece Holiday Decor, Heirloom 44 Inch",
+      "url": "https://www.etsy.com/listing/4587954204"
+    },
+    {
+      "id": "4587953034",
+      "title": "Custom Pet Pillow Shaped Like Your Dog or Cat, Photo Name Keepsake, Christmas Gift",
+      "url": "https://www.etsy.com/listing/4587953034"
+    },
+    {
+      "id": "4587869944",
+      "title": "Family Photo Christmas Ornament 2026, Personalized Last Name Wood Keepsake, Custom Picture Gift",
+      "url": "https://www.etsy.com/listing/4587869944"
+    },
+    {
+      "id": "4587863257",
+      "title": "Baby's First Christmas Photo Ornament 2026, Personalized Wood Keepsake, New Parents Gift",
+      "url": "https://www.etsy.com/listing/4587863257"
+    },
+    {
+      "id": "4587868050",
+      "title": "Pet Memorial Photo Ornament, Custom Dog Loss Keepsake, Always By My Side Wood Gift",
+      "url": "https://www.etsy.com/listing/4587868050"
+    },
+    {
+      "id": "4587860480",
+      "title": "Sibling Christmas Shirts 2026, Personalized Big Sis Middle Bro Little Name Tee, Matching Kids",
+      "url": "https://www.etsy.com/listing/4587860480"
+    },
+    {
+      "id": "4587853994",
+      "title": "Pet Paw Ornament Personalized, Metal Dog Name Christmas 2026 Keepsake, Plaid Cat Lover Gift",
+      "url": "https://www.etsy.com/listing/4587853994"
+    },
+    {
+      "id": "4587847337",
+      "title": "Mushroom Name Ornament, Woodland Kids Christmas 2026, Personalized Wooden Toadstool Keepsake Stocking Gift",
+      "url": "https://www.etsy.com/listing/4587847337"
+    },
+    {
+      "id": "4587843933",
+      "title": "Celestial Family Ornament 2026, Personalized Names Moon Stars Christmas Keepsake, Navy Silver Gift",
+      "url": "https://www.etsy.com/listing/4587843933"
+    },
+    {
+      "id": "4587843281",
+      "title": "First Christmas in Our New Home Ornament 2026, Personalized Housewarming Keepsake, Family Name Gift",
+      "url": "https://www.etsy.com/listing/4587843281"
+    },
+    {
+      "id": "4587847930",
+      "title": "Running on Cocoa and Chaos Sweatshirt, Funny Christmas Crewneck, Hot Chocolate Mom Pullover",
+      "url": "https://www.etsy.com/listing/4587847930"
+    },
+    {
+      "id": "4587839377",
+      "title": "Dog Dad Mug Personalized, Pet Names Coffee Cup, Christmas Gift for Him, Black Inside",
+      "url": "https://www.etsy.com/listing/4587839377"
+    },
+    {
+      "id": "4587837229",
+      "title": "Our First Christmas Married Ornament 2026, Personalized Names Mr Mrs Keepsake, Newlywed Wedding Gift",
+      "url": "https://www.etsy.com/listing/4587837229"
+    },
+    {
+      "id": "4587836833",
+      "title": "New Grandparents Ornament 2026, Personalized Est. Christmas Keepsake, Pregnancy Announcement Gift Grandma Grandpa",
+      "url": "https://www.etsy.com/listing/4587836833"
+    },
+    {
+      "id": "4587839010",
+      "title": "Teacher Reward Stickers Personalized, Christmas Classroom Labels, Great Job Holiday Sheet for Students",
+      "url": "https://www.etsy.com/listing/4587839010"
+    },
+    {
+      "id": "4587838322",
+      "title": "Grandma Christmas Sweatshirt 2026, Grandkids Names on Sleeve, Personalized Holly Crewneck, Gift from Kids",
+      "url": "https://www.etsy.com/listing/4587838322"
+    },
+    {
+      "id": "4587836966",
+      "title": "Glass Christmas Ornament 2026, Personalized Family Crest Monogram, Heirloom Keepsake, Last Name Est Year",
+      "url": "https://www.etsy.com/listing/4587836966"
+    },
+    {
+      "id": "4587826369",
+      "title": "Wood Family Christmas Ornament 2026, Personalized Names Tree Keepsake, Hinoki Cypress Heirloom Gift",
+      "url": "https://www.etsy.com/listing/4587826369"
+    },
+    {
+      "id": "4587831880",
+      "title": "Baby's First Christmas Ornament 2026, Personalized Celestial Moon Stars Name, Two-Sided Ceramic Keepsake Gift",
+      "url": "https://www.etsy.com/listing/4587831880"
+    },
+    {
+      "id": "4587829408",
+      "title": "Our First Christmas Engaged Ornament 2026, Personalized Couple Names, Engagement Gift Keepsake, Fiance Present",
+      "url": "https://www.etsy.com/listing/4587829408"
+    },
+    {
+      "id": "4587531023",
+      "title": "Dog Christmas Gift Tag Stickers, Personalized Love Pet Name Labels, Wrapping Paw Print Sheet",
+      "url": "https://www.etsy.com/listing/4587531023"
+    },
+    {
+      "id": "4587530623",
+      "title": "Christmas Place Card Stickers Personalized, Holly Guest Name Labels, Holiday Table Decor Dinner Party",
+      "url": "https://www.etsy.com/listing/4587530623"
+    },
+    {
+      "id": "4587533882",
+      "title": "Personalized Cat Ornament 2026, Custom Name Christmas Keepsake, Black Orange Tabby Gray Cream Gift",
+      "url": "https://www.etsy.com/listing/4587533882"
+    },
+    {
+      "id": "4587533336",
+      "title": "Personalized Teacher Ornament 2026, Custom Name Grade Christmas Keepsake, Apple Class Gift from Students",
+      "url": "https://www.etsy.com/listing/4587533336"
+    },
+    {
+      "id": "4587532122",
+      "title": "Personalized Dinosaur Ornament 2026, Kids Name Christmas Keepsake, Santa Hat Dino Toddler Stocking Stuffer",
+      "url": "https://www.etsy.com/listing/4587532122"
+    },
+    {
+      "id": "4587527149",
+      "title": "Big Sister Ornament 2026, Personalized Name Christmas Keepsake, Sibling Announcement Gift, Bro Version Too",
+      "url": "https://www.etsy.com/listing/4587527149"
+    },
+    {
+      "id": "4587485289",
+      "title": "Thanksgiving Place Card Stickers Personalized, Guest Name Labels, Thankful Table Decor Sheet",
+      "url": "https://www.etsy.com/listing/4587485289"
+    },
+    {
+      "id": "4587486608",
+      "title": "Personalized Teacher Iced Coffee Glass, Fuel Can Cup with Lid and Straw, Christmas Gift",
+      "url": "https://www.etsy.com/listing/4587486608"
+    },
+    {
+      "id": "4587478583",
+      "title": "Professional Glue Stick Finder Shirt, Funny Teacher Tee, Personalized Kindergarten Gift with Name",
+      "url": "https://www.etsy.com/listing/4587478583"
+    },
+    {
+      "id": "4587477131",
+      "title": "This Is My Teacher Voice Shirt, Funny Personalized Tee with Name, Sarcastic School Gift",
+      "url": "https://www.etsy.com/listing/4587477131"
+    },
+    {
+      "id": "4587425416",
+      "title": "Running on Coffee and Recess Shirt, Funny Teacher Tee Personalized, Christmas Gift",
+      "url": "https://www.etsy.com/listing/4587425416"
+    },
+    {
+      "id": "4587421800",
+      "title": "Kids Classmate Christmas Labels, Personalized Merry from Name Stickers, School Party Treat Tags",
+      "url": "https://www.etsy.com/listing/4587421800"
+    },
+    {
+      "id": "4587418492",
+      "title": "Teaching My Favorite Elves Sweatshirt, Personalized Teacher Christmas Crewneck, Grade Level",
+      "url": "https://www.etsy.com/listing/4587418492"
+    },
+    {
+      "id": "4587413910",
+      "title": "Personalized Teacher Christmas Mug, Little Elves Coffee Cup, Red Inside Gift from Class",
+      "url": "https://www.etsy.com/listing/4587413910"
+    },
+    {
+      "id": "4587401381",
+      "title": "From Santa Gift Tag Stickers Personalized, Kids Name Christmas Present Labels",
+      "url": "https://www.etsy.com/listing/4587401381"
+    },
+    {
+      "id": "4587402080",
+      "title": "Matching Family Christmas Sweatshirts Personalized, Ugly Sweater Style Crewneck with Name",
+      "url": "https://www.etsy.com/listing/4587402080"
+    },
+    {
+      "id": "4587387221",
+      "title": "Funny Thanksgiving Leftover Labels Personalized, Kitchen Name Stickers for Containers, Hostess Gift",
+      "url": "https://www.etsy.com/listing/4587387221"
+    },
+    {
+      "id": "4587386026",
+      "title": "Thankful for Coffee Mug, Funny Turkey Thanksgiving Cup, Orange Inside Fall Hostess Gift",
+      "url": "https://www.etsy.com/listing/4587386026"
+    },
+    {
+      "id": "4587347518",
+      "title": "Teaching Little Pumpkins Shirt, Personalized Fall Teacher Tee, Halloween Thanksgiving Name",
+      "url": "https://www.etsy.com/listing/4587347518"
+    },
+    {
+      "id": "4587335100",
+      "title": "Personalized Halloween Treat Bag Labels, Kids Name Stickers for Class Party Goodies",
+      "url": "https://www.etsy.com/listing/4587335100"
+    },
+    {
+      "id": "4587287901",
+      "title": "Personalized Girls Retro Shirt, In My Grade Era Back to School Tee with Name",
+      "url": "https://www.etsy.com/listing/4587287901"
+    },
+    {
+      "id": "4587281590",
+      "title": "Personalized Kids Gamer Shirt, Level Unlocked Back to School Tee, Name and Grade",
+      "url": "https://www.etsy.com/listing/4587281590"
+    },
+    {
+      "id": "4587269447",
+      "title": "Snack Squad Family Shirts Personalized, Matching Road Trip Tees, Boss Security Inspector Kids",
+      "url": "https://www.etsy.com/listing/4587269447"
+    },
+    {
+      "id": "4587263958",
+      "title": "Dad and Son Truck Co Shirts Personalized, Matching Boss & Intern Tees, Christmas Gift Set",
+      "url": "https://www.etsy.com/listing/4587263958"
+    },
+    {
+      "id": "4587250015",
+      "title": "Mommy and Me Matching Shirts, Mama Runs on Coffee, Personalized Kids Sprinkles Name Tee",
+      "url": "https://www.etsy.com/listing/4587250015"
+    },
+    {
+      "id": "4587157952",
+      "title": "Funny Family Christmas Shirts Personalized, Matching Superlative Tees 2026, Custom Line and Name",
+      "url": "https://www.etsy.com/listing/4587157952"
+    },
+    {
+      "id": "4587113847",
+      "title": "Christmas Family Shirts Personalized, Matching Last Name Tees 2026, Cozy Cabin Red Truck",
+      "url": "https://www.etsy.com/listing/4587113847"
+    },
+    {
+      "id": "4587100460",
+      "title": "Sugar Cookie Crew Shirt, Personalized Mommy and Me Christmas Tee, Matching Mom Daughter",
+      "url": "https://www.etsy.com/listing/4587100460"
+    },
+    {
+      "id": "4586991352",
+      "title": "Mostly Nice Christmas Shirt Personalized, Dad and Son Matching Tees, Kids Name Santa",
+      "url": "https://www.etsy.com/listing/4586991352"
+    },
+    {
+      "id": "4586952770",
+      "title": "Family Thanksgiving Shirts Personalized, Matching Turkey Carver Pie Queen Gravy Taster Tees",
+      "url": "https://www.etsy.com/listing/4586952770"
+    },
+    {
+      "id": "4586932761",
+      "title": "Thankful Mama Shirt, Personalized Mommy and Me Thanksgiving Tee, Matching Mom Daughter Fall",
+      "url": "https://www.etsy.com/listing/4586932761"
+    },
+    {
+      "id": "4586925176",
+      "title": "Official Pie Inspector Shirt, Personalized Thanksgiving Dad and Son Matching Tee, Kids Name",
+      "url": "https://www.etsy.com/listing/4586925176"
+    },
+    {
+      "id": "4586906120",
+      "title": "Personalized Kids Name Labels, School Lunchbox Water Bottle Sticker Sheet, Daycare Supplies",
+      "url": "https://www.etsy.com/listing/4586906120"
+    },
+    {
+      "id": "4586893709",
+      "title": "Monster Family Halloween Shirts, Personalized Matching Dadcula Momster Kids Name Tee Set",
+      "url": "https://www.etsy.com/listing/4586893709"
+    },
+    {
+      "id": "4586885520",
+      "title": "Mama Boo Matching Halloween Shirts, Personalized Mommy and Me Pink Ghost Tee Set",
+      "url": "https://www.etsy.com/listing/4586885520"
+    },
+    {
+      "id": "4586871127",
+      "title": "Dadcula Little Fang Matching Halloween Shirts, Personalized Dad and Son Vampire Tee Set",
+      "url": "https://www.etsy.com/listing/4586871127"
+    },
+    {
+      "id": "4586863386",
+      "title": "Personalized Pet Name Mug, Favorite Human Dog Mom Coffee Cup Gift",
+      "url": "https://www.etsy.com/listing/4586863386"
+    },
+    {
+      "id": "4586852171",
+      "title": "Personalized Christmas Gift Tag Stickers, Retro From Name Label Sheet",
+      "url": "https://www.etsy.com/listing/4586852171"
+    },
+    {
+      "id": "4586843780",
+      "title": "Personalized Christmas Stocking with Name, Retro Tree Family Mantel Decor",
+      "url": "https://www.etsy.com/listing/4586843780"
+    },
+    {
+      "id": "4586735738",
+      "title": "Funny Kids Christmas Ornament 2026, Mostly Nice Personalized Name Gift",
+      "url": "https://www.etsy.com/listing/4586735738"
+    },
+    {
+      "id": "4586723835",
+      "title": "Our First Home Ornament 2026, Personalized New House Christmas Keepsake, Housewarming Closing Gift",
+      "url": "https://www.etsy.com/listing/4586723835"
+    },
+    {
+      "id": "4586706133",
+      "title": "Personalized Dog Christmas Ornament 2026, Custom Pet Name Keepsake",
+      "url": "https://www.etsy.com/listing/4586706133"
+    },
+    {
+      "id": "4586708521",
+      "title": "Pet Memorial Ornament, Personalized Always By My Side Keepsake, Dog or Cat Loss Gift",
+      "url": "https://www.etsy.com/listing/4586708521"
+    },
+    {
+      "id": "4586704522",
+      "title": "Our First Christmas Ornament 2026, Personalized Couple Names Keepsake",
+      "url": "https://www.etsy.com/listing/4586704522"
+    },
+    {
+      "id": "4586693153",
+      "title": "Baby's First Christmas Ornament 2026, Personalized Name Keepsake, Newborn Gift",
+      "url": "https://www.etsy.com/listing/4586693153"
+    },
+    {
+      "id": "4586688180",
+      "title": "Personalized Family Christmas Ornament 2026, Last Name Keepsake",
+      "url": "https://www.etsy.com/listing/4586688180"
+    },
+    {
+      "id": "4586660855",
+      "title": "Personalized Trick or Treat Bag with Name, Kids Halloween Candy Haul Cotton Tote",
+      "url": "https://www.etsy.com/listing/4586660855"
+    },
+    {
+      "id": "4586652265",
+      "title": "Little Ghosts On Board Halloween Car Magnet, Spooky Season Decor",
+      "url": "https://www.etsy.com/listing/4586652265"
+    }
+  ],
+  "urls_visited": [
+    "https://www.etsy.com/your/shops/me/dashboard?ref=seller-platform-mcnav",
+    "https://www.etsy.com/your/orders/sold?ref=seller-platform-mcnav",
+    "https://www.etsy.com/your/shops/me/tools/listings?ref=dashboard-header",
+    "https://www.etsy.com/your/shops/me/tools/listings?ref=dashboard-header&page=2"
+  ],
+  "limitations": [
+    "Dashboard metrics are Etsy dashboard values for the displayed Last 7 days range; no other period was inferred.",
+    "Listing URLs use Etsy listing IDs collected from Shop Manager edit URLs; public listing pages were not opened."
+  ]
+}

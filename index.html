@@ -22,13 +22,16 @@
   <div class="checker" aria-hidden="true"></div>
 </header>
 <main class="wrap">
+  <section class="sec c-red" id="prioritySec" hidden><h2><span class="ico" aria-hidden="true">⭐</span>Priority project</h2><div id="priority"></div></section>
   <section class="sec c-yellow"><h2><span class="ico" aria-hidden="true">🏁</span>Overview</h2><div class="kpis" id="kpis"></div>
     <div class="card"><div class="row between"><b>Capital deployed vs budget</b><span id="capLabel"></span></div>
       <div class="bar"><span id="capBar"></span></div>
       <div class="alloc" id="alloc"></div></div>
+    <div class="card" id="burn" hidden style="margin-top:12px"></div>
   </section>
   <section class="sec c-yellow"><h2><span class="ico" aria-hidden="true">📅</span>Key dates</h2><p class="muted">Seasonal deadlines, billing reminders, and planned Etsy Ads timing from the PrintPlz operating plan.</p><div class="card"><table id="keyDates"></table></div></section>
   <section class="sec c-red"><h2><span class="ico" aria-hidden="true">🙋</span>Needs Joshua</h2><div class="card list" id="needs"></div></section>
+  <section class="sec c-orange"><h2><span class="ico" aria-hidden="true">🤔</span>Decisions pending</h2><p class="muted" id="decisionsNote"></p><div class="card list" id="decisions"></div></section>
   <section class="sec c-teal"><h2><span class="ico" aria-hidden="true">🛍️</span>Shops</h2><div class="grid" id="shops"></div></section>
   <section class="sec c-orange"><h2><span class="ico" aria-hidden="true">🧭</span>Sites &amp; ventures</h2><div class="grid" id="projects"></div></section>
   <section class="sec c-yellow"><h2><span class="ico" aria-hidden="true">📊</span>PrintPlz margin estimates</h2><p class="muted" id="marginNote"></p><div class="card"><table id="margins"></table></div></section>
@@ -38,6 +41,6 @@
   <section class="sec c-red"><h2><span class="ico" aria-hidden="true">🧾</span>Spending ledger</h2><div class="card"><table id="ledger"></table></div></section>
 </main>
 <footer class="wrap muted">Data: <code>data.json</code> · Updated by Fresh $$ · Zeros are real zeros, not placeholders.</footer>
-<script src="app.js?v=6"></script>
+<script src="app.js?v=11"></script>
 </body>
 </html>
