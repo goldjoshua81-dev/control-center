@@ -4,7 +4,7 @@
 <meta name="robots" content="noindex, nofollow">
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta name="theme-color" content="#0c2340" />
+<meta name="theme-color" content="#090d18" />
 <title>Avi's Fun Page</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M16 2 30 8v10c0 8-14 14-14 14S2 26 2 18V8L16 2z' fill='%230c2340' stroke='%23f5c518' stroke-width='2'/%3E%3Ccircle cx='17' cy='15' r='5' fill='%23f7f8fb'/%3E%3Cpath d='M21 13h8l-5 3 4 2h-7z' fill='%23f5c518'/%3E%3Ccircle cx='18' cy='14' r='1.4' fill='%23d0122d'/%3E%3C/svg%3E" />
 <style>
@@ -583,6 +583,194 @@
     from { transform: translateX(-50%) scale(1); }
     to { transform: translateX(-50%) scale(1.04); }
   }
+  body {
+    color: #f4f1ea;
+    background-color: #090d18;
+    background-image:
+      radial-gradient(circle at 8% -10%, rgba(255, 45, 74, .35), transparent 36%),
+      radial-gradient(circle at 100% 0, rgba(20, 40, 90, .7), transparent 32%),
+      radial-gradient(circle at 70% 100%, rgba(245, 197, 24, .12), transparent 28%);
+  }
+  .tiny, .sub, .footer-note, .hero-sub, label { color: #c5d0e0; }
+  .ok { color: #5dffa8; }
+  .card, .panel, .gate-card, .dad-note, .fact-card, .lesson-card, .safety div, .gem-card, .suggest button {
+    background: rgba(14, 20, 38, .78);
+    color: #f4f1ea;
+    border-color: rgba(255, 255, 255, .14);
+    box-shadow: 0 16px 40px rgba(0, 0, 0, .35), inset 0 1px 0 rgba(255, 255, 255, .08);
+    backdrop-filter: blur(12px);
+  }
+  .card, .panel { box-shadow: 0 16px 40px rgba(0, 0, 0, .35), 0 0 0 1px rgba(255, 45, 74, .22); }
+  .gate-card { box-shadow: 0 20px 50px rgba(0, 0, 0, .45), 0 0 0 1px rgba(255, 45, 74, .35); }
+  .card h2, .panel h2, .gate h1, .fact-card h3, .lesson-card h3, .problem, .gem-card h3 { color: white; }
+  .fact-line b { color: #ffb4c4; }
+  input[type="text"], input[type="password"], input[type="date"], .answer {
+    background: #0c1222;
+    color: white;
+    border-color: rgba(245, 197, 24, .55);
+  }
+  .chip, .tab, .month, .gem-chip, .quiz-opt, .suggest button {
+    background: rgba(255, 255, 255, .06);
+    color: white;
+    border-color: rgba(255, 255, 255, .2);
+  }
+  .chip.on, .tab.on { background: var(--red); color: white; border-color: var(--red); }
+  .month.on, .suggest button.on, .gem-chip.on { background: var(--gold); color: #140c12; border-color: var(--gold); }
+  .jump { background: rgba(9, 13, 24, .94); border-bottom: 3px solid var(--red); }
+  .jump a { background: rgba(255, 255, 255, .06); border: 1px solid rgba(255, 255, 255, .14); }
+  .jump a:hover { border-color: var(--gold); }
+  .hero {
+    background:
+      radial-gradient(circle at 80% 20%, rgba(255, 45, 74, .35), transparent 28%),
+      linear-gradient(180deg, #140814 0%, #0c1428 70%, transparent 100%);
+    border-bottom: 0;
+  }
+  .hero h1 { text-shadow: 0 0 24px rgba(255, 45, 74, .55); }
+  .bot {
+    background: linear-gradient(160deg, rgba(255, 45, 74, .2), rgba(14, 20, 38, .9) 42%, rgba(245, 197, 24, .12));
+    border-color: rgba(255, 45, 74, .55);
+  }
+  .face.back { background: #161226; color: white; }
+  .ranks span, .files span { color: var(--gold); }
+  .promo, .better { background: #1a1408; color: #f4f1ea; border-color: rgba(245, 197, 24, .45); }
+  .quiz-opt.good { background: #d9ffe8; color: #123; }
+  .quiz-opt.bad { background: #ffe0e6; color: #123; }
+  .weak { background: #2a3144; color: white; }
+  .safety .stop { border-color: var(--red); }
+  .kicker { box-shadow: 0 0 16px rgba(255, 45, 74, .45); }
+  .card, .panel, .avatar, .hero-photos img { transition: transform .2s ease, box-shadow .2s ease; }
+  @media (hover: hover) {
+    .card:hover, .panel:hover { transform: translateY(-3px); }
+    .hero-photos img:hover, .dog-photos img:hover { transform: scale(1.03); }
+  }
+  .hero-main { display: flex; gap: 16px; align-items: center; margin-top: 8px; }
+  .avatar {
+    width: 116px; height: 116px; flex: 0 0 auto; object-fit: cover; border-radius: 28px;
+    border: 3px solid var(--gold); box-shadow: 0 0 28px rgba(255, 45, 74, .45);
+    animation: bob 3s ease-in-out infinite alternate;
+  }
+  .wish { display: flex; gap: 8px; overflow-x: auto; margin: 12px 0 0; padding-bottom: 4px; }
+  .wish a {
+    flex: 0 0 auto; min-height: 48px; display: inline-flex; align-items: center;
+    padding: 0 14px; border-radius: 999px; text-decoration: none; font-weight: 800; color: white;
+    background: rgba(255, 255, 255, .08); border: 1px solid rgba(245, 197, 24, .4);
+  }
+  .hero-photos, .dog-photos, .moment-row {
+    display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; margin-top: 14px;
+  }
+  .hero-photos { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  @media (min-width: 800px) {
+    .hero-photos { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+    .moment-row { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  }
+  .hero-photos figure, .dog-photos figure, .moment-row figure { margin: 0; }
+  .hero-photos img, .dog-photos img, .moment-row img, .inline-photo {
+    width: 100%; height: 120px; object-fit: cover; border-radius: 16px; display: block;
+    border: 2px solid rgba(255, 255, 255, .16);
+  }
+  .inline-photo { height: 180px; max-width: 280px; }
+  .solo-photo { margin: 10px 0; }
+  .hero-photos figcaption, .dog-photos figcaption, .moment-row figcaption, .solo-photo figcaption {
+    margin-top: 4px; font-size: 13px; font-weight: 800; color: var(--gold);
+  }
+  .dog-photos img { height: 160px; }
+  .cool-layout, .mix-slots { display: grid; gap: 12px; }
+  @media (min-width: 800px) {
+    .cool-layout { grid-template-columns: 1.2fr .8fr; align-items: start; }
+    .mix-slots { grid-template-columns: 1fr 1fr; }
+  }
+  .slot-window {
+    min-height: 84px; display: grid; place-items: center; margin: 8px 0;
+    font-size: clamp(22px, 4vw, 32px); font-weight: 900; border-radius: 16px;
+    background: #070b14; border: 2px solid rgba(245, 197, 24, .55); color: white;
+    box-shadow: inset 0 0 24px rgba(255, 45, 74, .2);
+  }
+  .slot-window.spinning { color: var(--gold); animation: slot-glow .12s linear infinite; }
+  @keyframes slot-glow { 50% { filter: brightness(1.6); } }
+  .mix-card {
+    margin-top: 14px; padding: 14px; border-radius: 18px; position: relative; overflow: hidden;
+    background: rgba(8, 10, 20, .72); border: 2px solid rgba(255, 255, 255, .14);
+  }
+  .mix-card.lit { box-shadow: 0 0 0 2px rgba(255, 45, 74, .8), 0 0 36px rgba(255, 45, 74, .35), 0 0 64px rgba(245, 197, 24, .2); }
+  .mix-card ul { margin: 8px 0; padding-left: 18px; }
+  .mix-beams {
+    pointer-events: none; position: absolute; inset: auto 0 0 0; height: 70px;
+    background: linear-gradient(90deg, transparent, rgba(255,45,74,.0) 10%, rgba(255,80,80,.35), rgba(255,225,74,.45), rgba(80,255,180,.35), rgba(80,160,255,.4), rgba(200,80,255,.35), transparent);
+    opacity: 0;
+  }
+  .mix-card.lit .mix-beams { opacity: 1; animation: beam-glow 1.6s ease-in-out infinite alternate; }
+  .toy-arena {
+    position: relative; height: 220px; border-radius: 16px; overflow: hidden; margin: 8px 0;
+    background: radial-gradient(circle at 50% 100%, #24345c, #070b14 70%);
+    border: 2px solid rgba(255, 255, 255, .12);
+  }
+  .toy-target, .sq-btn {
+    position: absolute; min-width: 64px; min-height: 64px; border-radius: 50%; border: 3px solid white;
+    font-weight: 900; background: var(--red); color: white; box-shadow: 0 0 16px rgba(255, 45, 74, .6);
+  }
+  .sq-btn { position: static; border-radius: 12px; }
+  .sq-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+  .sq-btn.safe { background: var(--gold); color: #140c12; }
+  .sq-btn.nope { background: #2a3144; }
+  .mix-aim { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+  .mix-aim button, .steer button, .timing-btn {
+    min-height: 56px; font-weight: 900; border-radius: 14px; border: 3px solid white; color: white; background: #16355c;
+  }
+  .steer { display: flex; gap: 8px; }
+  .steer button { flex: 1; }
+  .lane {
+    position: relative; height: 90px; border-radius: 14px; margin: 8px 0; overflow: hidden;
+    background: linear-gradient(#123, #123) center/80% 100% no-repeat, #070b14;
+    border: 2px solid rgba(245, 197, 24, .4);
+  }
+  .rider {
+    position: absolute; top: 22px; width: 36px; height: 36px; margin-left: -18px; border-radius: 10px;
+    background: var(--red); border: 3px solid var(--gold);
+  }
+  .sweep {
+    position: relative; height: 28px; border-radius: 999px; background: #1c2438; margin: 12px 0; overflow: hidden;
+  }
+  .sweep i {
+    position: absolute; top: 0; bottom: 0; width: 18%; background: var(--gold); left: 41%;
+  }
+  .sweep b {
+    position: absolute; top: -4px; width: 8px; height: 36px; background: white; border-radius: 4px;
+  }
+  .joke-card {
+    background: rgba(255, 45, 74, .12); border: 2px solid rgba(255, 45, 74, .45);
+    border-radius: 18px; padding: 14px; min-height: 140px;
+  }
+  #joke-line { font-size: 22px; font-weight: 800; margin: 8px 0 12px; }
+  .fact-list { display: grid; gap: 8px; margin: 10px 0; }
+  .fact-list li {
+    list-style: none; margin: 0; padding: 10px 12px; border-radius: 14px;
+    background: rgba(255, 255, 255, .05); border: 1px solid rgba(255, 255, 255, .1);
+  }
+  .fact-list { padding: 0; }
+  .gem-app .gem-card {
+    background:
+      radial-gradient(circle at 50% 18%, rgba(245, 197, 24, .16), transparent 42%),
+      rgba(8, 12, 24, .9);
+    text-align: center;
+  }
+  .gem-app .gem-art { width: min(260px, 88%); filter: drop-shadow(0 10px 16px rgba(0, 0, 0, .45)); }
+  .gem-app .mohs span {
+    height: 18px; border-radius: 999px; background: #1c2438; box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .08);
+  }
+  .gem-app .mohs .full { background: var(--gem, var(--red)); box-shadow: 0 0 10px var(--gem, var(--red)); }
+  .gem-app .mohs .part { background: linear-gradient(90deg, var(--gem, var(--red)) 55%, #1c2438 55%); }
+  .gem-card.spark { animation: gem-pop .55s ease; }
+  @keyframes gem-pop { from { transform: scale(.96); } to { transform: scale(1); } }
+  .gem-card.spark .gem-art { animation: gem-spark 1.1s ease; }
+  @keyframes gem-spark {
+    0% { filter: drop-shadow(0 0 0 transparent) brightness(1); }
+    40% { filter: drop-shadow(0 0 16px var(--gold)) brightness(1.35); }
+    100% { filter: drop-shadow(0 10px 16px rgba(0, 0, 0, .45)) brightness(1); }
+  }
+  @media (max-width: 640px) {
+    .avatar { width: 84px; height: 84px; }
+    .hero-main { align-items: flex-start; }
+  }
   @media (prefers-reduced-motion: reduce) {
     *, *::before, *::after {
       animation: none !important;
@@ -637,17 +825,49 @@
         </div>
         <button class="out" id="out" type="button">Log out</button>
       </div>
-      <div class="nameplate">EAGLES</div>
-      <h1>Avi's Fun Page</h1>
-      <p class="who" id="hello"></p>
-      <p class="hero-sub">Eagles spirit in red, navy, and gold. Math, sports, chess, gems, and one very silly dog.</p>
+      <div class="hero-main">
+        <img class="avatar" src="photos/avi-portrait.jpg" alt="Avi smiling" />
+        <div>
+          <div class="nameplate">CLUBHOUSE</div>
+          <h1>Avi's Fun Page</h1>
+          <p class="who" id="hello"></p>
+          <p class="hero-sub">A dark clubhouse with red lights. Sports, math, chess, gems, Sawyer, and one very silly booth.</p>
+        </div>
+      </div>
+      <nav class="wish" aria-label="Avi's list">
+        <a href="#soccer">Soccer</a>
+        <a href="#kings">Basketball</a>
+        <a href="#sports">Baseball</a>
+        <a href="#chess">Chess</a>
+        <a href="#gems">Gemstones</a>
+        <a href="#lab">Math</a>
+        <a href="#dogpen">Dog</a>
+        <a href="#sports">Football</a>
+        <a href="#kings">Light the Beam</a>
+        <a href="#soccer">Tottenham</a>
+        <a href="#mixer">Sport mixer</a>
+        <a href="#calendar">This day</a>
+      </nav>
+      <div class="hero-photos">
+        <figure><img src="photos/avi-portrait.jpg" alt="Avi smiling" /><figcaption>Avi</figcaption></figure>
+        <figure><img src="photos/avi-kings-mascot.jpg" alt="Avi with a Kings drummer mascot" /><figcaption>Kings night</figcaption></figure>
+        <figure><img src="photos/avi-kings-flexcam.jpg" alt="Avi on the court in a Kings jersey" /><figcaption>Courtside</figcaption></figure>
+        <figure><img src="photos/avi-soccer-trophy.jpg" alt="Avi holding a soccer trophy" /><figcaption>Soccer champ</figcaption></figure>
+        <figure><img src="photos/avi-beach.jpg" alt="Avi smiling at the beach" /><figcaption>Beach day</figcaption></figure>
+        <figure><img src="photos/avi-champ.jpg" alt="Avi holding up a toy championship belt" /><figcaption>Champ pose</figcaption></figure>
+        <figure><img src="photos/avi-backpack.jpg" alt="Avi with a red backpack, ready for the day" /><figcaption>Ready for the day</figcaption></figure>
+        <figure><img src="photos/sawyer-portrait.jpg" alt="Sawyer, a fluffy dog" /><figcaption>Sawyer</figcaption></figure>
+        <figure><img src="photos/avi-and-sawyer.jpg" alt="Avi and Sawyer being silly together" /><figcaption>Avi + Sawyer</figcaption></figure>
+      </div>
     </header>
     <div class="bands" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
 
     <nav class="jump" aria-label="Page sections">
       <a href="#lab">Number lab</a>
-      <a href="#dogpen">Dog</a>
+      <a href="#dogpen">Sawyer</a>
       <a href="#sports">Sports</a>
+      <a href="#calendar">This day</a>
+      <a href="#mixer">Mixer</a>
       <a href="#bot">Your bot</a>
       <a href="#kings">Kings</a>
       <a href="#soccer">Soccer</a>
@@ -678,7 +898,11 @@
 
       <section class="card" id="dogpen">
         <p class="kicker">DOG</p>
-        <h2>Dog pen</h2>
+        <h2>Sawyer's pen</h2>
+        <div class="dog-photos">
+          <figure><img src="photos/sawyer-portrait.jpg" alt="Sawyer, a fluffy dog" /><figcaption>Sawyer</figcaption></figure>
+          <figure><img src="photos/avi-and-sawyer.jpg" alt="Avi and Sawyer being silly together" /><figcaption>Avi + Sawyer</figcaption></figure>
+        </div>
         <div class="dog-stage">
           <div class="dog" id="dog" title="Pet the dog">
             <div class="tail"></div>
@@ -693,14 +917,15 @@
           </div>
         </div>
         <p id="pets" class="tiny">Pets today: 0. Click the dog.</p>
-        <label for="dog-name">What do you call your dog?</label>
-        <input id="dog-name" type="text" maxlength="24" placeholder="Type a name" autocomplete="off" />
+        <label for="dog-name">Name on the tag</label>
+        <input id="dog-name" type="text" maxlength="24" placeholder="Sawyer" autocomplete="off" />
+        <p class="tiny">Sawyer is the starter name. Type a new one anytime.</p>
       </section>
 
       <section class="card" id="sports">
         <p class="kicker">BOOTH</p>
         <h2>Sports booth</h2>
-        <p class="tiny">Toy game. Not a real score.</p>
+        <p class="tiny">Toy game. Not a real score. Baseball swings and football tosses are in this booth, and again inside the sport mixer.</p>
         <div class="sport-row" id="sports-row">
           <button class="chip" type="button" data-sport="baseball">Baseball</button>
           <button class="chip" type="button" data-sport="basketball">Basketball</button>
@@ -724,9 +949,59 @@
       </section>
     </div>
 
+    <section class="panel" id="calendar">
+      <p class="kicker">CALENDAR</p>
+      <h2>This day is cool</h2>
+      <p>Pick a date. The clubhouse keeps a fact for every day of the year, plus a silly joke. Nothing you pick is saved.</p>
+      <div class="cool-layout">
+        <div>
+          <label for="cool-date">Date</label>
+          <input id="cool-date" type="date" />
+          <p class="tiny" id="cool-title"></p>
+          <ul class="fact-list" id="cool-facts"></ul>
+        </div>
+        <div class="joke-card">
+          <p class="kicker">JOKE SPOT</p>
+          <p id="joke-line">Loading a joke…</p>
+          <button class="big" id="new-joke" type="button">New joke</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel" id="mixer">
+      <p class="kicker">MIXER</p>
+      <h2>Random sport mixer</h2>
+      <p>Spin a sport. Spin a twist. The clubhouse mashes them into a pretend game you can actually play. Baseball, football, soccer, and the rest of the list can all land in the window.</p>
+      <div class="mix-slots">
+        <div class="slot">
+          <p class="slot-label">Spinner A · sport</p>
+          <div class="slot-window" id="slot-sport">Ready</div>
+          <button class="big" id="spin-sport" type="button">Spin sport</button>
+        </div>
+        <div class="slot">
+          <p class="slot-label">Spinner B · twist</p>
+          <div class="slot-window" id="slot-twist">Ready</div>
+          <button class="big gold" id="spin-twist" type="button">Spin twist</button>
+        </div>
+      </div>
+      <p><button class="big navy" id="spin-both" type="button">Spin both</button></p>
+      <article class="mix-card hidden" id="mix-card">
+        <div class="mix-beams" aria-hidden="true"></div>
+        <h3 id="mix-name"></h3>
+        <ul id="mix-rules"></ul>
+        <div id="mix-toy"></div>
+        <p id="mix-status" aria-live="polite"></p>
+        <button class="big" id="remix" type="button">Remix</button>
+      </article>
+    </section>
+
     <section class="panel" id="kings">
       <p class="kicker">KINGS</p>
       <h2>Light the beam</h2>
+      <div class="moment-row">
+        <figure><img src="photos/avi-kings-mascot.jpg" alt="Avi with a Kings drummer mascot" /><figcaption>Kings night</figcaption></figure>
+        <figure><img src="photos/avi-kings-flexcam.jpg" alt="Avi on the court in a Kings jersey" /><figcaption>Courtside</figcaption></figure>
+      </div>
       <p>Real Kings score up here. When they win, rainbow beams stay until morning. The purple button is a practice beam you can light anytime. Legend cards are stories only — no photos, no logos.</p>
       <div class="kings-board" id="kings-score" aria-live="polite">
         <h3>KINGS SCOREBOARD</h3>
@@ -816,6 +1091,7 @@
       <p class="kicker">SPURS</p>
       <h2>Penalty spot</h2>
       <p>Navy and white, Tottenham style. Pretend penalties — not a real match. Then two legends with different styles: Ronaldo and Messi. You can like both.</p>
+      <figure class="solo-photo"><img class="inline-photo" src="photos/avi-soccer-trophy.jpg" alt="Avi holding a soccer trophy" /><figcaption>Soccer champ</figcaption></figure>
       <div class="soccer-layout">
         <div>
           <div class="scarf" aria-hidden="true"></div>
@@ -896,7 +1172,7 @@
       </div>
     </section>
 
-    <section class="panel" id="gems">
+    <section class="panel gem-app" id="gems">
       <p class="kicker">GEMS</p>
       <h2>Gem explorer</h2>
       <p>Type a gem, tap a birthstone month, or meet a random one. Rocks stay on the screen — don't put real ones in your mouth, and ask a grown-up before you collect any.</p>
@@ -1114,13 +1390,18 @@ document.getElementById("math-form").addEventListener("submit", (e) => {
 
 const dog = document.getElementById("dog");
 let pets = Number(localStorage.getItem("avi-pets") || 0);
+function dogName() {
+  const stored = localStorage.getItem("avi-dog-name");
+  if (stored == null) return "Sawyer";
+  const trimmed = stored.trim();
+  return trimmed || "the dog";
+}
 function paintPets() {
-  const name = (localStorage.getItem("avi-dog-name") || "").trim();
-  const who = name ? name : "the dog";
-  document.getElementById("pets").textContent = "Pets today: " + pets + ". " + who + " is into it.";
+  document.getElementById("pets").textContent = "Pets today: " + pets + ". " + dogName() + " is into it.";
 }
 function loadDog() {
-  document.getElementById("dog-name").value = localStorage.getItem("avi-dog-name") || "";
+  const stored = localStorage.getItem("avi-dog-name");
+  document.getElementById("dog-name").value = stored == null ? "Sawyer" : stored;
   paintPets();
 }
 dog.addEventListener("click", () => {
@@ -2037,6 +2318,10 @@ function renderGemCard(gem) {
 function showGem(gem) {
   gemLamp = false;
   renderGemCard(gem);
+  const card = document.getElementById("gem-card");
+  card.classList.remove("spark");
+  void card.offsetWidth;
+  card.classList.add("spark");
   document.getElementById("gem-q").value = gem.name;
   document.getElementById("gem-suggest").replaceChildren();
   document.getElementById("gem-msg").textContent = "";
@@ -2769,10 +3054,622 @@ document.getElementById("show-beams").addEventListener("click", () => {
   syncCelebration();
 });
 
+
+const MONTH_LINES = {
+  1: "January is named for Janus, a story figure with two faces: one looks at last year, one looks ahead.",
+  2: "February is the short month. Most years it has 28 days. Leap years give it 29.",
+  3: "March was once the start of the Roman year. Its name is tied to Mars, a story of action.",
+  4: "April showers are a saying because spring rain wakes up seeds.",
+  5: "May is a flower month in lots of places. The birthstone is emerald.",
+  6: "June has the longest evening light for people north of the equator, around the solstice.",
+  7: "July is named for Julius Caesar. It is a big month for baseball and beach days.",
+  8: "August is named for Augustus. Many places get their warmest days now.",
+  9: "September means seventh in old Latin, from back when March was month one.",
+  10: "October means eighth in that same old counting, and it is a month of playoffs and costumes.",
+  11: "November means ninth. Coats come out, and gratitude lists get longer.",
+  12: "December means tenth in the old count. Lights show up in windows."
+};
+const DATED = {
+  "1-1": ["New Year's Day. People cheer when the calendar flips, then write a hope for the year."],
+  "1-4": ["Louis Braille was born in 1809. As a teenager he built the dotted alphabet that blind readers still use."],
+  "1-15": ["Martin Luther King Jr. was born in 1929. He is remembered for speeches about fairness and courage."],
+  "1-27": ["Wolfgang Amadeus Mozart was born in 1756. He was already writing music as a child."],
+  "2-2": ["Groundhog Day. A famous custom says a groundhog's shadow guesses how long winter will last. It is a folk game, not a weather report."],
+  "2-4": ["Rosa Parks was born in 1913. She became a symbol of staying calm and saying no to an unfair rule."],
+  "2-11": ["Thomas Edison was born in 1847. He and his team tried hundreds of ideas while working on the light bulb."],
+  "2-14": ["Valentine's Day. People trade cards, kind notes, and sometimes very silly puns."],
+  "2-15": ["Galileo Galilei was born in 1564. He pointed a telescope at the sky and found moons around Jupiter."],
+  "2-18": ["Clyde Tombaugh spotted Pluto on photos taken around this time in 1930. Pluto is now called a dwarf planet."],
+  "2-29": ["Leap Day. It appears in years that can be divided by 4, so February gets one extra day."],
+  "3-2": ["On March 2, 1962, Wilt Chamberlain scored 100 points in one basketball game. Nobody in the NBA has matched it."],
+  "3-3": ["World Wildlife Day. It is a reminder that animals need space, water, and people who pay attention."],
+  "3-8": ["International Women's Day. A day for noticing the work, ideas, and courage of women and girls."],
+  "3-10": ["On March 10, 1876, Alexander Graham Bell made an early telephone call to his helper: he asked Mr. Watson to come here."],
+  "3-14": ["Pi Day, because 3.14 starts the number pi. Albert Einstein was also born on March 14, 1879."],
+  "3-17": ["St. Patrick's Day. Parades, green clothes, and old stories from Ireland."],
+  "3-20": ["Around March 20 is often the March equinox, when day and night are nearly the same length."],
+  "4-1": ["April Fools' Day. Harmless jokes are the point. Leave people laughing, not hurt."],
+  "4-12": ["On April 12, 1961, Yuri Gagarin became the first person to orbit Earth. The flight lasted 108 minutes."],
+  "4-15": ["On April 15, 1947, Jackie Robinson played his first game for the Brooklyn Dodgers and broke the color line in modern Major League Baseball."],
+  "4-22": ["Earth Day. People plant, pick up litter, and talk about taking care of the only home planet we have."],
+  "4-23": ["April 23 is the traditional birthday of William Shakespeare, the playwright behind a huge pile of famous lines."],
+  "5-5": ["Cinco de Mayo marks a Mexican army's win at Puebla in 1862. Many towns celebrate with music and food.", "On May 5, 1961, Alan Shepard became the first American in space. His flight was a short hop, not a full orbit."],
+  "5-20": ["World Bee Day. Bees move pollen so flowers and a lot of our food can grow."],
+  "6-5": ["World Environment Day. A good day to notice trees, rivers, and what you can reuse."],
+  "6-8": ["World Oceans Day. The ocean is most of the planet, and it is full of animals we still have not met."],
+  "6-18": ["On June 18, 1983, Sally Ride launched and became the first American woman in space."],
+  "6-19": ["Juneteenth. It marks June 19, 1865, when news of the end of slavery reached people in Galveston, Texas."],
+  "6-21": ["Around June 21 is the June solstice. One half of Earth gets its longest day, the other its longest night."],
+  "7-4": ["July 4 is Independence Day in the United States. Fireworks, parades, and picnics."],
+  "7-20": ["On July 20, 1969, Neil Armstrong and Buzz Aldrin walked on the Moon. Armstrong called it one small step."],
+  "8-8": ["International Cat Day. A day for the pets who pretend they invented the house."],
+  "8-10": ["World Lion Day. Wildlife groups use it to talk about protecting big cats."],
+  "8-19": ["Orville Wright was born in 1871. He and his brother Wilbur later built the first successful airplane."],
+  "8-26": ["International Dog Day. Extra scratches for dogs like Sawyer."],
+  "9-16": ["September 16 is Independence Day in Mexico, celebrated with the Grito and lots of flags."],
+  "9-21": ["International Day of Peace. A day for solving problems with words."],
+  "9-22": ["Around September 22 is often the September equinox, another day when daylight and night nearly match."],
+  "10-4": ["On October 4, 1957, Sputnik 1 became the first satellite people launched. October 4 is also World Animal Day."],
+  "10-24": ["United Nations Day. The UN Charter took effect on October 24, 1945."],
+  "10-31": ["Halloween. Costumes, pumpkins, and pretending to be something you are not, just for one night."],
+  "11-7": ["Marie Curie was born in 1867. She studied radioactivity and is the only person to win Nobel Prizes in both physics and chemistry."],
+  "11-20": ["World Children's Day. It is about the idea that every kid deserves safety, school, and play."],
+  "12-10": ["Human Rights Day marks the 1948 Universal Declaration of Human Rights, a list of freedoms people said everyone should have."],
+  "12-17": ["On December 17, 1903, the Wright brothers flew the first powered airplane at Kitty Hawk. The first hop lasted 12 seconds."],
+  "12-21": ["Around December 21 is the December solstice, the shortest day or the longest, depending on which half of Earth you call home."],
+  "12-25": ["Christmas Day for many families. Lights, songs, and stories."],
+  "12-31": ["New Year's Eve. People stay up to count down and welcome the next calendar."]
+};
+const SPARKS = [
+  "Clubhouse animal: a gecko can walk on a ceiling because its toes use tiny gripping hairs.",
+  "Clubhouse animal: an octopus has three hearts and blue blood.",
+  "Clubhouse animal: a hummingbird can hover by beating its wings in a figure eight.",
+  "Clubhouse animal: axolotls can regrow parts of a leg or even pieces of a heart.",
+  "Clubhouse animal: a peregrine falcon dives faster than a race car on a highway.",
+  "Clubhouse animal: elephants can hear rumbles that travel through the ground.",
+  "Clubhouse animal: a seahorse dad carries the babies in a pouch.",
+  "Clubhouse animal: crows can solve simple puzzles to reach a snack.",
+  "Clubhouse animal: a polar bear's fur looks white, but the hairs are clear and the skin is black.",
+  "Clubhouse animal: penguins propose with a pebble. Some pairs keep the same pebble tradition for years.",
+  "Clubhouse space: a day on Venus is longer than a year on Venus.",
+  "Clubhouse space: Jupiter's Great Red Spot is a storm bigger than Earth.",
+  "Clubhouse space: neutron stars are so dense a teaspoon would weigh about as much as a mountain.",
+  "Clubhouse space: the Moon is slowly drifting away from Earth, about as fast as fingernails grow.",
+  "Clubhouse space: Saturn would float in a giant bathtub because it is mostly gas and less dense than water.",
+  "Clubhouse space: astronauts grow a little taller in orbit because their spines are not squashed by gravity.",
+  "Clubhouse space: there are more stars in the universe than grains of sand on Earth's beaches. That is a careful estimate, not a count.",
+  "Clubhouse space: Mars has the tallest volcano we know, Olympus Mons.",
+  "Clubhouse sport: in soccer, a hat trick means one player scores three goals in a game.",
+  "Clubhouse sport: a basketball shot from beyond the arc is worth three points.",
+  "Clubhouse sport: in baseball, a cycle is a single, a double, a triple, and a home run by the same player in one game.",
+  "Clubhouse sport: a football field is 100 yards between the goal lines, plus end zones.",
+  "Clubhouse sport: in hockey, a hat trick is three goals by one player, and fans sometimes throw hats.",
+  "Clubhouse sport: tennis scoring still uses the old word love for zero.",
+  "Clubhouse sport: a skateboard ollie pops the board up without a hand grabbing it.",
+  "Clubhouse sport: swimmers race freestyle, backstroke, breaststroke, and butterfly.",
+  "Clubhouse sport: chess is a sport of the mind. The king never actually moves far.",
+  "Clubhouse sport: a gymnastics stick means you land and do not hop.",
+  "Clubhouse sport: a track sprint starts in blocks so the first push is strong.",
+  "Clubhouse sport: volleyball teams get three touches before the ball has to go back.",
+  "Clubhouse maker: the zipper took decades of tiny fixes before it worked well.",
+  "Clubhouse maker: sticky notes started as a glue that seemed too weak, then someone used it for bookmarks.",
+  "Clubhouse maker: windshield wipers were invented by Mary Anderson after she watched a driver stop to wipe snow by hand.",
+  "Clubhouse maker: the microwave oven idea began when a radar engineer's chocolate bar melted in his pocket.",
+  "Clubhouse maker: LEGO bricks still click onto bricks made decades ago, on purpose.",
+  "Clubhouse maker: binoculars are two telescopes sharing one hinge.",
+  "Clubhouse gem: diamond is a 10 on the Mohs scale, the hardest end.",
+  "Clubhouse gem: talc is a 1, so soft a fingernail can scratch it.",
+  "Clubhouse gem: opal flashes color because tiny spheres inside bend the light.",
+  "Clubhouse number: 12 is a dozen. Bakers sometimes sell 13 and call it a baker's dozen.",
+  "Clubhouse number: a googol is 1 followed by 100 zeros. It is a made-up huge number, not a search company fact.",
+  "Clubhouse number: prime numbers have exactly two factors, 1 and themselves. 2 is the only even prime."
+];
+const JOKES = [
+  "Why did the soccer ball look so proud? It was on a roll.",
+  "What do you call a dog who does magic? A labracadabrador.",
+  "Why did the chess piece bring a ladder? It wanted to move up in the world.",
+  "What is a baseball player's favorite drink? Root beer.",
+  "Why did the gem go to school? It wanted to be a little brighter.",
+  "How do you stop a dog from barking in the back seat? Put it in the front seat.",
+  "Why did the football sit on the bench? It needed a little rest before the next snap.",
+  "What did the ocean say to the surfer? Nothing, it just waved.",
+  "Why was the math book sad? It had too many problems. Then it solved them and cheered up.",
+  "What do you call a bear with no teeth? A gummy bear.",
+  "Why did the bicycle fall over? It was two-tired.",
+  "What is a shark's favorite sandwich? Peanut butter and jellyfish.",
+  "Why did the kid bring a ladder to the Kings game? The seats were in the nosebleeds.",
+  "How does a penguin build a house? Igloos it together.",
+  "Why did the golfer bring two pairs of pants? In case he got a hole in one.",
+  "What do you call cheese that is not yours? Nacho cheese.",
+  "Why did the computer go to the doctor? It had a virus. It left with a joke instead of medicine.",
+  "What did one wall say to the other? I'll meet you at the corner.",
+  "Why did the skeleton stay home? It had no body to go with.",
+  "What is brown and sticky? A stick.",
+  "Why did Sawyer sit on the puzzle? He wanted to be a piece of the fun.",
+  "How do robots eat? With a byte.",
+  "Why did the astronaut break up with the asteroid? She needed space.",
+  "What do you call a snowman in July? A puddle.",
+  "Why did the cookie go to the doctor? It felt crummy.",
+  "What is a witch's favorite subject? Spelling.",
+  "Why did the music teacher need a ladder? To reach the high notes.",
+  "How do you organize a space party? You planet.",
+  "Why did the tomato blush? It saw the salad dressing.",
+  "What do you call a fish with no eyes? A fsh.",
+  "Why did the kid put a clock under the desk? He wanted to work overtime.",
+  "What is the loudest pet? A trum-pet."
+];
+function factsForDate(date) {
+  const m = date.getMonth() + 1;
+  const d = date.getDate();
+  const key = m + "-" + d;
+  const items = [];
+  (DATED[key] || []).forEach(line => items.push(line));
+  items.push(MONTH_LINES[m]);
+  const a = SPARKS[(m * 17 + d * 3) % SPARKS.length];
+  const b = SPARKS[(m * 9 + d * 11 + 7) % SPARKS.length];
+  items.push(a);
+  if (b !== a && items.length < 4) items.push(b);
+  return items.slice(0, 4);
+}
+let jokeOffset = 0;
+function jokeForDate(date) {
+  const start = new Date(date.getFullYear(), 0, 0);
+  const doy = Math.round((date - start) / 86400000);
+  return JOKES[(doy + jokeOffset) % JOKES.length];
+}
+function renderCool(date) {
+  const title = document.getElementById("cool-title");
+  const list = document.getElementById("cool-facts");
+  if (!title || !list || !(date instanceof Date) || !isFinite(date.getTime())) return;
+  title.textContent = new Intl.DateTimeFormat("en-US", { weekday: "long", month: "long", day: "numeric" }).format(date);
+  list.replaceChildren();
+  factsForDate(date).forEach(text => {
+    const li = document.createElement("li");
+    li.textContent = text;
+    list.appendChild(li);
+  });
+  document.getElementById("joke-line").textContent = jokeForDate(date);
+}
+function initCalendar() {
+  const input = document.getElementById("cool-date");
+  const today = new Date();
+  const m = String(today.getMonth() + 1).padStart(2, "0");
+  const d = String(today.getDate()).padStart(2, "0");
+  input.value = today.getFullYear() + "-" + m + "-" + d;
+  const read = () => {
+    const parts = input.value.split("-").map(Number);
+    if (parts.length !== 3 || parts.some(n => !n)) return;
+    const picked = new Date(parts[0], parts[1] - 1, parts[2]);
+    if (picked.getMonth() !== parts[1] - 1) return;
+    renderCool(picked);
+  };
+  input.addEventListener("change", read);
+  document.getElementById("new-joke").addEventListener("click", () => {
+    jokeOffset += 1;
+    read();
+  });
+  read();
+}
+
+const MIX_SPORTS = [
+  { id: "soccer", label: "Soccer" },
+  { id: "basketball", label: "Basketball" },
+  { id: "baseball", label: "Baseball" },
+  { id: "football", label: "Football" },
+  { id: "hockey", label: "Hockey" },
+  { id: "tennis", label: "Tennis" },
+  { id: "skate", label: "Skateboarding" },
+  { id: "swim", label: "Swimming" },
+  { id: "chess", label: "Chess" },
+  { id: "gym", label: "Gymnastics" },
+  { id: "track", label: "Track" },
+  { id: "volley", label: "Volleyball" },
+  { id: "surf", label: "Surfing" }
+];
+const MIX_TWISTS = [
+  { id: "space", label: "In space" },
+  { id: "under", label: "Underwater" },
+  { id: "tramp", label: "On a trampoline" },
+  { id: "robots", label: "With giant robots" },
+  { id: "gravity", label: "Reverse gravity" },
+  { id: "jelly", label: "Jelly shoes" },
+  { id: "laser", label: "Laser nets" },
+  { id: "dino", label: "Dinosaur refs" },
+  { id: "rainbow", label: "Rainbow ball" },
+  { id: "silent", label: "Silent mode" },
+  { id: "leftfoot", label: "Double score on the left foot" }
+];
+function mixTitle(sport, twist) {
+  const lead = {
+    space: "Orbit", under: "Aqua", tramp: "Boing", robots: "Mech", gravity: "Upside-Down",
+    jelly: "Wobble", laser: "Laser-Net", dino: "Dino", rainbow: "Rainbow", silent: "Silent", leftfoot: "Left-Foot"
+  }[twist.id];
+  const tail = {
+    soccer: "Kickoff", basketball: "Hoops", baseball: "Slugfest", football: "Toss", hockey: "Slapshot",
+    tennis: "Rally", skate: "Ollie", swim: "Lap", chess: "Check", gym: "Flip", track: "Dash",
+    volley: "Bump", surf: "Wave"
+  }[sport.id];
+  return lead + " " + tail;
+}
+function toyKind(sport) {
+  if (sport.id === "chess") return "squares";
+  if (sport.id === "skate" || sport.id === "surf") return "balance";
+  if (sport.id === "baseball" || sport.id === "track") return "timing";
+  if (sport.id === "soccer" || sport.id === "football" || sport.id === "hockey") return "aim";
+  return "tap";
+}
+function mixRules(sport, twist) {
+  const kind = toyKind(sport);
+  const play = {
+    aim: "Pick left, middle, or right. Miss the block to score.",
+    tap: "Tap the moving mark. Reach five points to finish the round.",
+    timing: "Tap when the white bar sits on the gold window.",
+    balance: "Hold lean left or lean right and stay in the bright lane.",
+    squares: "Tap the gold square. That square is the legal move."
+  }[kind];
+  const twistLine = {
+    space: "Space rule: the middle, or a slow float, is worth extra.",
+    under: "Underwater rule: the action moves slower.",
+    tramp: "Trampoline rule: the mark bounces harder.",
+    robots: "Robot rule: a big helper can add a bonus point.",
+    gravity: "Reverse gravity: the sweep or the buttons flip.",
+    jelly: "Jelly shoes: the target wobbles on purpose.",
+    laser: "Laser nets: the safe spot gets smaller.",
+    dino: "Dinosaur refs are the markers. The game stays friendly.",
+    rainbow: "Rainbow ball: the mark keeps changing color.",
+    silent: "Silent mode: watch the picture. The words stay short.",
+    leftfoot: "The left side scores double when it is the right play."
+  }[twist.id];
+  const sportLine = {
+    soccer: "Soccer base: this is a pretend shot on goal.",
+    basketball: "Basketball base: chase the hoop.",
+    baseball: "Baseball base: time the swing.",
+    football: "Football base: throw toward an open side.",
+    hockey: "Hockey base: aim past a pad.",
+    tennis: "Tennis base: keep a tiny rally going.",
+    skate: "Skate base: hold the board in the lane.",
+    swim: "Swim base: tap each stroke as it passes.",
+    chess: "Chess base: only one square is legal.",
+    gym: "Gymnastics base: stick the landing with well-timed taps.",
+    track: "Track base: start when the bar hits gold.",
+    volley: "Volleyball base: bump the moving ball.",
+    surf: "Surf base: stay on the face of the wave."
+  }[sport.id];
+  return [sportLine, twistLine, play];
+}
+let lockedSport = null;
+let lockedTwist = null;
+let spinBusy = false;
+let stopToy = function () {};
+function setSpinLock(on) {
+  spinBusy = on;
+  ["spin-sport", "spin-twist", "spin-both", "remix"].forEach(id => {
+    const btn = document.getElementById(id);
+    if (btn) btn.disabled = on;
+  });
+}
+function spinList(el, items, ms) {
+  return new Promise(resolve => {
+    const pick = items[rand(items.length)];
+    const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    if (reduce || ms < 40) {
+      el.classList.remove("spinning");
+      el.textContent = pick.label;
+      resolve(pick);
+      return;
+    }
+    el.classList.add("spinning");
+    const start = performance.now();
+    function frame(now) {
+      if (now - start >= ms) {
+        el.classList.remove("spinning");
+        el.textContent = pick.label;
+        resolve(pick);
+        return;
+      }
+      el.textContent = items[rand(items.length)].label;
+      requestAnimationFrame(frame);
+    }
+    requestAnimationFrame(frame);
+  });
+}
+function mountAim(root, sport, twist, status) {
+  let score = 0;
+  const row = document.createElement("div");
+  row.className = "mix-aim";
+  let sides = [["left", "Left"], ["middle", "Middle"], ["right", "Right"]];
+  if (twist.id === "gravity") sides = sides.slice().reverse();
+  sides.forEach(([id, label]) => {
+    const b = document.createElement("button");
+    b.type = "button";
+    b.dataset.side = id;
+    b.textContent = (twist.id === "dino" ? "Dino " : "") + label;
+    b.addEventListener("click", () => {
+      const order = ["left", "middle", "right"];
+      const block = order[rand(3)];
+      const covered = [block];
+      if (twist.id === "laser") covered.push({ left: "middle", middle: "right", right: "left" }[block]);
+      const hit = covered.indexOf(id) === -1;
+      let pts = hit ? 1 : 0;
+      if (hit && twist.id === "leftfoot" && id === "left") pts = 2;
+      if (hit && twist.id === "space" && id === "middle") pts = 2;
+      if (hit && twist.id === "robots") pts += 1;
+      score += pts;
+      const quiet = twist.id === "silent";
+      status.textContent = quiet ? ("Score " + score) : ((hit ? "Clean play. " : "Blocked. ") + "Score " + score);
+      if (score >= 5) {
+        confetti();
+        if (!quiet) status.textContent = "You mixed it. Score " + score;
+      }
+    });
+    row.appendChild(b);
+  });
+  root.appendChild(row);
+}
+function mountTap(root, sport, twist, status) {
+  let score = 0;
+  const arena = document.createElement("div");
+  arena.className = "toy-arena";
+  const target = document.createElement("button");
+  target.type = "button";
+  target.className = "toy-target";
+  target.textContent = twist.id === "dino" ? "🦖" : twist.id === "robots" ? "🤖" : twist.id === "rainbow" ? "●" : "●";
+  const size = twist.id === "robots" ? 88 : twist.id === "laser" ? 52 : 68;
+  target.style.width = size + "px";
+  target.style.height = size + "px";
+  arena.appendChild(target);
+  root.appendChild(arena);
+  let x = 30;
+  let y = 30;
+  let vx = (twist.id === "under" || twist.id === "space") ? 1.3 : 2.6;
+  let vy = twist.id === "gravity" ? -2.1 : (twist.id === "tramp" ? 3.4 : 2.2);
+  let raf = 0;
+  const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  function place() {
+    target.style.left = x + "px";
+    target.style.top = y + "px";
+  }
+  function loop() {
+    const maxX = Math.max(0, arena.clientWidth - size);
+    const maxY = Math.max(0, arena.clientHeight - size);
+    x += vx;
+    y += vy;
+    if (x < 0 || x > maxX) vx *= -1;
+    if (y < 0 || y > maxY) vy *= -1;
+    if (twist.id === "jelly") vx += (Math.random() - 0.5) * 0.9;
+    x = Math.max(0, Math.min(maxX, x));
+    y = Math.max(0, Math.min(maxY, y));
+    if (twist.id === "rainbow") target.style.background = "hsl(" + ((Date.now() / 8) % 360) + " 90% 48%)";
+    place();
+    raf = requestAnimationFrame(loop);
+  }
+  place();
+  if (!reduce) raf = requestAnimationFrame(loop);
+  target.addEventListener("click", () => {
+    const mid = arena.clientWidth / 2;
+    let pts = 1;
+    if (twist.id === "leftfoot") pts = (x + size / 2) < mid ? 2 : 1;
+    if (twist.id === "robots") pts += 1;
+    score += pts;
+    const quiet = twist.id === "silent";
+    status.textContent = (quiet ? "" : "Nice " + sport.label.toLowerCase() + " tap. ") + "Score " + score;
+    if (score >= 5) {
+      confetti();
+      cancelAnimationFrame(raf);
+      if (!quiet) status.textContent = "You mixed it. Score " + score;
+    }
+  });
+  return function () { cancelAnimationFrame(raf); };
+}
+function mountTiming(root, sport, twist, status) {
+  let score = 0;
+  const sweep = document.createElement("div");
+  sweep.className = "sweep";
+  const zone = document.createElement("i");
+  const marker = document.createElement("b");
+  sweep.append(zone, marker);
+  const btn = document.createElement("button");
+  btn.type = "button";
+  btn.className = "timing-btn";
+  btn.textContent = sport.id === "baseball" ? "Swing" : "Go";
+  root.append(sweep, btn);
+  const zoneWidth = twist.id === "laser" ? 10 : 18;
+  zone.style.width = zoneWidth + "%";
+  let pos = twist.id === "gravity" ? 96 : 4;
+  let dir = twist.id === "gravity" ? -1 : 1;
+  const speed = (twist.id === "space" || twist.id === "under") ? 0.45 : 0.9;
+  let raf = 0;
+  const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  function frame() {
+    pos += dir * speed;
+    if (pos > 100) { pos = 100; dir = -1; }
+    if (pos < 0) { pos = 0; dir = 1; }
+    const wobble = twist.id === "jelly" ? Math.sin(Date.now() / 180) * 6 : 0;
+    zone.style.left = (41 + wobble) + "%";
+    marker.style.left = pos + "%";
+    if (!reduce) raf = requestAnimationFrame(frame);
+  }
+  frame();
+  btn.addEventListener("click", () => {
+    const zLeft = parseFloat(zone.style.left) || 41;
+    const hit = pos >= zLeft && pos <= zLeft + zoneWidth;
+    if (hit) score += twist.id === "robots" ? 2 : 1;
+    const quiet = twist.id === "silent";
+    status.textContent = quiet ? ("Score " + score) : ((hit ? "Right in the window. " : "Not in the window yet. ") + "Score " + score);
+    if (score >= 5) {
+      confetti();
+      cancelAnimationFrame(raf);
+      if (!quiet) status.textContent = "You mixed it. Score " + score;
+    }
+  });
+  return function () { cancelAnimationFrame(raf); };
+}
+function mountBalance(root, sport, twist, status) {
+  const lane = document.createElement("div");
+  lane.className = "lane";
+  const rider = document.createElement("div");
+  rider.className = "rider";
+  if (twist.id === "dino") rider.textContent = "🦖";
+  lane.appendChild(rider);
+  const steer = document.createElement("div");
+  steer.className = "steer";
+  const left = document.createElement("button");
+  const right = document.createElement("button");
+  left.type = "button";
+  right.type = "button";
+  left.textContent = "Lean left";
+  right.textContent = "Lean right";
+  steer.append(left, right);
+  root.append(lane, steer);
+  let x = 50;
+  let hold = 0;
+  let meter = 0;
+  const wobble = twist.id === "jelly" ? 2.2 : 0.7;
+  const dir = twist.id === "gravity" ? -1 : 1;
+  let raf = 0;
+  let done = false;
+  const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  function frame() {
+    if (done) return;
+    x += (Math.random() - 0.5) * wobble * (twist.id === "space" ? 1.2 : 3);
+    x += hold * dir;
+    x = Math.max(6, Math.min(94, x));
+    rider.style.left = x + "%";
+    if (x > 30 && x < 70) meter += reduce ? 1 : 0.04;
+    else meter = Math.max(0, meter - 0.02);
+    const shown = Math.min(5, Math.floor(meter));
+    const quiet = twist.id === "silent";
+    status.textContent = (quiet ? "Meter " : sport.label + " balance meter ") + shown;
+    if (meter >= 5) {
+      done = true;
+      confetti();
+      if (!quiet) status.textContent = "You held the line.";
+      return;
+    }
+    if (!reduce) raf = requestAnimationFrame(frame);
+  }
+  frame();
+  const press = (v) => () => {
+    hold = v;
+    if (!reduce || done) return;
+    x = Math.max(6, Math.min(94, x + v * 8));
+    rider.style.left = x + "%";
+    if (x > 30 && x < 70) meter += 1;
+    status.textContent = sport.label + " balance meter " + Math.min(5, Math.floor(meter));
+    if (meter >= 5) { done = true; confetti(); status.textContent = "You held the line."; }
+  };
+  const release = () => { hold = 0; };
+  left.addEventListener("pointerdown", press(-1.4));
+  right.addEventListener("pointerdown", press(1.4));
+  ["pointerup", "pointerleave"].forEach(ev => {
+    left.addEventListener(ev, release);
+    right.addEventListener(ev, release);
+  });
+  return function () { done = true; cancelAnimationFrame(raf); };
+}
+function mountSquares(root, sport, twist, status) {
+  let score = 0;
+  const row = document.createElement("div");
+  row.className = "sq-row";
+  function round() {
+    row.replaceChildren();
+    const safe = rand(4);
+    for (let i = 0; i < 4; i++) {
+      const b = document.createElement("button");
+      b.type = "button";
+      b.className = "sq-btn " + (i === safe ? "safe" : "nope");
+      b.textContent = twist.id === "dino" ? "🦖" : (twist.id === "silent" ? "·" : (i === safe ? "♛" : "·"));
+      b.addEventListener("click", () => {
+        const good = i === safe;
+        if (good) score += (twist.id === "leftfoot" && i === 0) ? 2 : 1;
+        const quiet = twist.id === "silent";
+        status.textContent = quiet ? ("Score " + score) : ((good ? "Legal square. " : "That square is guarded. ") + "Score " + score);
+        if (score >= 5) {
+          confetti();
+          if (!quiet) status.textContent = "Check. You mixed it.";
+          return;
+        }
+        round();
+      });
+      row.appendChild(b);
+    }
+  }
+  round();
+  root.appendChild(row);
+  status.textContent = twist.id === "silent" ? "Score 0" : "Tap the gold square.";
+}
+function renderMix() {
+  stopToy();
+  stopToy = function () {};
+  const card = document.getElementById("mix-card");
+  const sport = lockedSport;
+  const twist = lockedTwist;
+  if (!sport || !twist) return;
+  document.getElementById("mix-name").textContent = mixTitle(sport, twist);
+  const rules = document.getElementById("mix-rules");
+  rules.replaceChildren();
+  mixRules(sport, twist).forEach(line => {
+    const li = document.createElement("li");
+    li.textContent = line;
+    rules.appendChild(li);
+  });
+  const toy = document.getElementById("mix-toy");
+  toy.replaceChildren();
+  const status = document.getElementById("mix-status");
+  status.textContent = "Game on.";
+  const kind = toyKind(sport);
+  let stop = null;
+  if (kind === "aim") mountAim(toy, sport, twist, status);
+  else if (kind === "tap") stop = mountTap(toy, sport, twist, status);
+  else if (kind === "timing") stop = mountTiming(toy, sport, twist, status);
+  else if (kind === "balance") stop = mountBalance(toy, sport, twist, status);
+  else mountSquares(toy, sport, twist, status);
+  if (stop) stopToy = stop;
+  card.classList.remove("hidden");
+  card.classList.add("lit");
+  confetti();
+}
+async function spinSportOnly() {
+  if (spinBusy) return;
+  setSpinLock(true);
+  lockedSport = await spinList(document.getElementById("slot-sport"), MIX_SPORTS, 1600);
+  setSpinLock(false);
+  if (lockedTwist) renderMix();
+}
+async function spinTwistOnly() {
+  if (spinBusy) return;
+  setSpinLock(true);
+  lockedTwist = await spinList(document.getElementById("slot-twist"), MIX_TWISTS, 1600);
+  setSpinLock(false);
+  if (lockedSport) renderMix();
+}
+async function spinBoth() {
+  if (spinBusy) return;
+  setSpinLock(true);
+  document.getElementById("mix-card").classList.add("hidden");
+  const pair = await Promise.all([
+    spinList(document.getElementById("slot-sport"), MIX_SPORTS, 1700),
+    spinList(document.getElementById("slot-twist"), MIX_TWISTS, 2100)
+  ]);
+  lockedSport = pair[0];
+  lockedTwist = pair[1];
+  setSpinLock(false);
+  renderMix();
+}
+function initMixer() {
+  document.getElementById("spin-sport").addEventListener("click", spinSportOnly);
+  document.getElementById("spin-twist").addEventListener("click", spinTwistOnly);
+  document.getElementById("spin-both").addEventListener("click", spinBoth);
+  document.getElementById("remix").addEventListener("click", spinBoth);
+}
+initCalendar();
+initMixer();
+
 window.__avi = {
   newGame, emptyState, place, legalMovesFrom, applyMove, statusOf, inCheck,
   sqToRc, rcToSq, setupPuzzle, PUZZLES, GEMS, runChessSelfTest, showGem, findGem,
-  nextSunriseAfter, parseKingsEvent, formatPacific, pacificDate, pacificTime
+  nextSunriseAfter, parseKingsEvent, formatPacific, pacificDate, pacificTime,
+  factsForDate, jokeForDate, mixTitle, mixRules, toyKind, MIX_SPORTS, MIX_TWISTS
 };
 
 const saved = sessionStorage.getItem("avi-fun-role");
