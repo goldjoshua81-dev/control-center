@@ -86,8 +86,22 @@
     gap: 12px;
     margin-bottom: 18px;
   }
+  .hero-row {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  .avi-avatar {
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--ink);
+    box-shadow: 4px 4px 0 var(--ink);
+    background: #fff;
+  }
   header.top h1 { margin: 0; font-size: 40px; }
-  .who { font-weight: 800; }
+  .who { font-weight: 800; margin: 4px 0 0; }
   .out {
     background: #fff;
     border: 2px solid var(--ink);
@@ -118,7 +132,51 @@
   .problem { font-size: 32px; font-weight: 900; margin: 10px 0; }
   .answer { width: 120px; border: 2px solid var(--ink); border-radius: 12px; padding: 8px; }
   .ok { color: var(--green); font-weight: 800; }
+  .topic-tag {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 800;
+    background: #e8e4ff;
+    border: 2px solid var(--ink);
+    border-radius: 999px;
+    padding: 2px 10px;
+    margin-bottom: 4px;
+  }
+  .photo-strip {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    margin: 10px 0 4px;
+  }
+  .photo-strip.two { grid-template-columns: repeat(2, 1fr); }
+  .photo-strip img, .sawyer-shot img, .fun-gallery img {
+    width: 100%;
+    aspect-ratio: 3/4;
+    object-fit: cover;
+    border-radius: 14px;
+    border: 2px solid var(--ink);
+    background: #fff;
+    display: block;
+  }
+  .photo-strip img.wide {
+    aspect-ratio: 4/3;
+  }
+  .fun-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    margin-top: 10px;
+  }
   .dog-stage { text-align: center; padding: 8px 0 4px; }
+  .sawyer-shot {
+    width: min(180px, 70%);
+    margin: 0 auto 10px;
+    position: relative;
+  }
+  .sawyer-shot img {
+    aspect-ratio: 3/4;
+    cursor: pointer;
+  }
   .dog {
     width: 140px; height: 110px; margin: 0 auto; position: relative; cursor: pointer;
   }
@@ -149,8 +207,19 @@
     background: #e09a55; border: 3px solid var(--ink); border-radius: 10px;
     transform-origin: right center;
   }
-  .dog.wag .tail { animation: wag 0.18s infinite alternate; }
-  @keyframes wag { from { transform: rotate(18deg); } to { transform: rotate(-28deg); } }
+  .dog.wag .tail, .sawyer-shot.wag img { animation: wag 0.18s infinite alternate; }
+  .sawyer-shot.wag img { transform-origin: center bottom; }
+  @keyframes wag {
+    from { transform: rotate(18deg); }
+    to { transform: rotate(-28deg); }
+  }
+  .sawyer-shot.wag img {
+    animation: bounce 0.22s infinite alternate;
+  }
+  @keyframes bounce {
+    from { transform: translateY(0); }
+    to { transform: translateY(-6px); }
+  }
   .scorebug {
     display: flex; justify-content: space-between; align-items: center;
     background: #1b1430; color: white; border-radius: 14px; padding: 10px 12px; margin-top: 10px;
@@ -168,6 +237,13 @@
     padding: 14px 16px;
   }
   .tiny { color: #5c5470; font-size: 14px; }
+  .cap {
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    margin: 4px 0 0;
+    color: #5c5470;
+  }
 </style>
 </head>
 <body>
@@ -187,10 +263,13 @@
 
   <main id="app" class="wrap hidden">
     <header class="top">
-      <div>
-        <div class="egg-mark">$$</div>
-        <h1>Avi's Fun Page</h1>
-        <p class="who" id="hello"></p>
+      <div class="hero-row">
+        <img class="avi-avatar" src="photos/hero/avi-school-portrait.jpg" alt="Avi" width="88" height="88" />
+        <div>
+          <div class="egg-mark">$$</div>
+          <h1>Avi's Fun Page</h1>
+          <p class="who" id="hello"></p>
+        </div>
       </div>
       <button class="out" id="out" type="button">Log out</button>
     </header>
@@ -198,12 +277,14 @@
     <div class="grid">
       <section class="card">
         <h2>Number lab</h2>
-        <p class="tiny">You pick the heat. I make the problem.</p>
+        <p class="tiny">You pick the heat. I learn what you're great at.</p>
         <div class="math-row" id="levels">
           <button class="chip on" type="button" data-level="warm">Warm</button>
           <button class="chip" type="button" data-level="hot">Hot</button>
           <button class="chip" type="button" data-level="silly">Silly big</button>
+          <button class="chip" type="button" data-level="boss">Boss</button>
         </div>
+        <span class="topic-tag" id="topic-tag">warmup</span>
         <p class="problem" id="problem">?</p>
         <form id="math-form">
           <input class="answer" id="answer" inputmode="numeric" autocomplete="off" />
@@ -216,7 +297,10 @@
       <section class="card">
         <h2>Dog pen</h2>
         <div class="dog-stage">
-          <div class="dog" id="dog" title="Pet the dog">
+          <div class="sawyer-shot" id="sawyer-photo" title="Pet Sawyer">
+            <img src="photos/sawyer/sawyer-portrait.jpg" alt="Sawyer" />
+          </div>
+          <div class="dog hidden" id="dog" title="Pet the dog">
             <div class="tail"></div>
             <div class="body"></div>
             <div class="head">
@@ -228,14 +312,34 @@
             </div>
           </div>
         </div>
-        <p id="pets" class="tiny">Pets today: 0. Click the dog.</p>
+        <p id="pets" class="tiny">Pets today: 0. Click Sawyer.</p>
         <label for="dog-name">What do you call your dog?</label>
-        <input id="dog-name" type="text" maxlength="24" placeholder="Type a name" />
+        <input id="dog-name" type="text" maxlength="24" placeholder="Sawyer" />
+        <div class="fun-gallery" style="margin-top:12px; grid-template-columns:1fr;">
+          <div>
+            <img src="photos/sawyer/avi-and-sawyer-silly.jpg" alt="Avi and Sawyer being silly" />
+            <p class="cap">Avi + Sawyer silliness</p>
+          </div>
+        </div>
       </section>
 
       <section class="card">
         <h2>Sports booth</h2>
-        <p class="tiny">Toy game. Not a real score.</p>
+        <p class="tiny">Toy game. Not a real score. Kings + soccer vibes.</p>
+        <div class="photo-strip">
+          <div>
+            <img src="photos/sports/avi-kings-mascot.jpg" alt="Avi in Kings jersey" />
+            <p class="cap">Kings #10</p>
+          </div>
+          <div>
+            <img class="wide" src="photos/sports/avi-kings-flexcam.jpg" alt="Avi on the jumbotron" />
+            <p class="cap">Flexcam</p>
+          </div>
+          <div>
+            <img src="photos/sports/avi-soccer-trophy.jpg" alt="Avi with soccer trophy" />
+            <p class="cap">Soccer win</p>
+          </div>
+        </div>
         <div class="sport-row" id="sports">
           <button class="chip" type="button" data-sport="baseball">Baseball</button>
           <button class="chip" type="button" data-sport="basketball">Basketball</button>
@@ -251,9 +355,32 @@
         <p class="call" id="call">Pick a sport. The announcer is extremely unserious.</p>
       </section>
 
+      <section class="card">
+        <h2>Silly booth</h2>
+        <p class="tiny">Big faces. Big flex. Zero chill.</p>
+        <div class="fun-gallery">
+          <div>
+            <img src="photos/fun/avi-first-day-3rd-grade.jpg" alt="Avi first day of 3rd grade" />
+            <p class="cap">3rd grade mode</p>
+          </div>
+          <div>
+            <img src="photos/fun/avi-beach-smile.jpg" alt="Avi at the beach" />
+            <p class="cap">Beach smile</p>
+          </div>
+          <div>
+            <img src="photos/fun/avi-wwe-champ.jpg" alt="Avi as WWE champ" />
+            <p class="cap">Champ belt</p>
+          </div>
+          <div>
+            <img src="photos/fun/avi-flex-mirror.jpg" alt="Avi flexing" />
+            <p class="cap">Mirror flex</p>
+          </div>
+        </div>
+      </section>
+
       <section class="card bot">
         <h2>Your bot</h2>
-        <p>This spot is yours. A separate helper, just for Avi, that you can point at whatever you dream up: math, the dog, sports, or something silly nobody has named yet.</p>
+        <p>This spot is yours. A separate helper, just for Avi, that you can point at whatever you dream up: math, Sawyer, sports, or something silly nobody has named yet.</p>
         <p class="tiny">It's ON! 🎉 Ask Dad to open <b>Avi Bot</b> in the Grok Bot app and say hi. Try: "give me a hard math puzzle" or "tell me a dog joke."</p>
       </section>
     </div>
@@ -261,6 +388,7 @@
     <section class="dad-note hidden" id="dad-note">
       <h2>Dad desk</h2>
       <p>Avi Bot is created (Oct 3). It lives in your Grok Bot app sidebar, kid-safe, no purchases or messages. This page is just the fun display.</p>
+      <p class="tiny" id="dad-math-summary">Number lab adapts by topic (add, subtract, multiply, divide, mix).</p>
       <p class="tiny">The yellow $$ on every Control Center page opens this page.</p>
     </section>
   </main>
@@ -286,11 +414,13 @@ function showApp(role) {
   app.classList.remove("hidden");
   document.getElementById("hello").textContent = role === "dad"
     ? "Hi Dad. Avi's side is the same. Your note is at the bottom."
-    : "Hi Avi. Math, your dog, every sport, and one very silly booth.";
+    : "Hi Avi. Math, Sawyer, every sport, and one very silly booth.";
   document.getElementById("dad-note").classList.toggle("hidden", role !== "dad");
   sessionStorage.setItem("avi-fun-role", role);
+  sessionWarmupsLeft = 2;
   nextProblem();
   loadDog();
+  if (role === "dad") paintDadMathSummary();
 }
 
 document.getElementById("login-form").addEventListener("submit", async (e) => {
@@ -313,77 +443,251 @@ document.getElementById("out").addEventListener("click", () => {
   document.getElementById("pass").value = "";
 });
 
+/* ---- Math: levels + adaptive topics ---- */
+const TOPICS = ["add", "subtract", "multiply", "divide", "mix"];
+const TOPIC_LABELS = {
+  add: "adding",
+  subtract: "subtracting",
+  multiply: "multiplying",
+  divide: "dividing",
+  mix: "mix-ups"
+};
+const DEFAULT_SKILL = () => ({
+  add: { level: 1, streak: 0, misses: 0, correct: 0 },
+  subtract: { level: 1, streak: 0, misses: 0, correct: 0 },
+  multiply: { level: 1, streak: 0, misses: 0, correct: 0 },
+  divide: { level: 1, streak: 0, misses: 0, correct: 0 },
+  mix: { level: 1, streak: 0, misses: 0, correct: 0 }
+});
+
+function loadSkills() {
+  try {
+    const raw = localStorage.getItem("avi-math-skills");
+    if (!raw) return DEFAULT_SKILL();
+    const parsed = JSON.parse(raw);
+    const base = DEFAULT_SKILL();
+    for (const t of TOPICS) {
+      if (parsed[t]) base[t] = { ...base[t], ...parsed[t] };
+    }
+    return base;
+  } catch (_) {
+    return DEFAULT_SKILL();
+  }
+}
+function saveSkills() {
+  localStorage.setItem("avi-math-skills", JSON.stringify(skills));
+}
+
+let skills = loadSkills();
 let level = "warm";
 let answer = 0;
+let currentTopic = "multiply";
+let sessionWarmupsLeft = 2;
+let mathBusy = false;
 let streak = Number(localStorage.getItem("avi-streak") || 0);
 document.getElementById("streak").textContent = streak;
 
 document.getElementById("levels").addEventListener("click", (e) => {
   const btn = e.target.closest("button");
-  if (!btn) return;
+  if (!btn || mathBusy) return;
   level = btn.dataset.level;
   document.querySelectorAll("#levels .chip").forEach(b => b.classList.toggle("on", b === btn));
   nextProblem();
 });
 
 function rand(n) { return Math.floor(Math.random() * n); }
+function clamp(n, lo, hi) { return Math.max(lo, Math.min(hi, n)); }
+
+function pickTopic() {
+  // Session start: short confidence warm-up on stronger topics
+  if (sessionWarmupsLeft > 0) {
+    sessionWarmupsLeft -= 1;
+    const ranked = [...TOPICS].sort((a, b) => {
+      const sa = skills[a].correct - skills[a].misses + skills[a].level;
+      const sb = skills[b].correct - skills[b].misses + skills[b].level;
+      return sb - sa;
+    });
+    return ranked[0];
+  }
+  // Prefer weaker spots (more misses vs correct, lower level)
+  const scored = TOPICS.map(t => {
+    const s = skills[t];
+    const weakness = (s.misses + 1) / (s.correct + 1) + (4 - s.level) * 0.35;
+    return { t, weakness: weakness + Math.random() * 0.15 };
+  }).sort((a, b) => b.weakness - a.weakness);
+  return scored[0].t;
+}
+
+function makeProblem(topic, heat, skillLevel) {
+  const L = clamp(skillLevel, 1, 4);
+  // Heat scales the ranges; skill level nudges within heat
+  const heatBoost = { warm: 0, hot: 1, silly: 2, boss: 3 }[heat] || 0;
+  const tier = clamp(L + heatBoost, 1, 7);
+
+  if (topic === "add") {
+    const max = 9 + tier * 8;
+    const a = rand(max) + 1, b = rand(max) + 1;
+    return { text: a + " + " + b, answer: a + b };
+  }
+  if (topic === "subtract") {
+    const max = 9 + tier * 8;
+    let a = rand(max) + 5, b = rand(Math.min(a, max)) + 1;
+    if (b > a) { const t = a; a = b; b = t; }
+    return { text: a + " − " + b, answer: a - b };
+  }
+  if (topic === "multiply") {
+    const maxA = 5 + Math.min(tier, 7);
+    const maxB = 5 + Math.min(tier, 9);
+    const a = rand(maxA) + 1, b = rand(maxB) + 1;
+    return { text: a + " × " + b, answer: a * b };
+  }
+  if (topic === "divide") {
+    const b = rand(2 + Math.min(tier, 9)) + 2;
+    const q = rand(2 + Math.min(tier, 9)) + 1;
+    const a = b * q;
+    return { text: a + " ÷ " + b, answer: q };
+  }
+  // mix: multi-step
+  if (tier <= 3) {
+    const a = rand(8) + 2, b = rand(8) + 2, c = rand(9) + 1;
+    return { text: a + " × " + b + " + " + c, answer: a * b + c };
+  }
+  if (tier <= 5) {
+    const a = rand(10) + 3, b = rand(8) + 2, c = rand(9) + 1;
+    return { text: a + " × " + b + " − " + c, answer: a * b - c };
+  }
+  const a = rand(12) + 4, b = rand(9) + 2, c = rand(8) + 2;
+  return { text: "(" + a + " + " + b + ") × " + c, answer: (a + b) * c };
+}
 
 function nextProblem() {
-  let text = "?";
-  if (level === "warm") {
-    const a = rand(12) + 1, b = rand(12) + 1;
-    answer = a * b;
-    text = a + " × " + b;
-  } else if (level === "hot") {
-    const a = rand(40) + 10, b = rand(40) + 10;
-    answer = a + b;
-    text = a + " + " + b;
-  } else {
-    const a = rand(20) + 2, b = rand(9) + 2, c = rand(9) + 1;
-    answer = a * b + c;
-    text = a + " × " + b + " + " + c;
-  }
-  document.getElementById("problem").textContent = text;
+  currentTopic = pickTopic();
+  const p = makeProblem(currentTopic, level, skills[currentTopic].level);
+  answer = p.answer;
+  document.getElementById("topic-tag").textContent = TOPIC_LABELS[currentTopic];
+  document.getElementById("problem").textContent = p.text;
   document.getElementById("answer").value = "";
   document.getElementById("math-msg").textContent = "";
+  document.getElementById("math-msg").className = "";
+  mathBusy = false;
+}
+
+function bumpSkill(topic, correct) {
+  const s = skills[topic];
+  if (correct) {
+    s.correct += 1;
+    s.streak += 1;
+    s.misses = Math.max(0, s.misses - 1);
+    if (s.streak >= 3) {
+      s.level = clamp(s.level + 1, 1, 4);
+      s.streak = 0;
+    }
+  } else {
+    s.misses += 1;
+    s.streak = 0;
+    if (s.misses >= 2) {
+      s.level = clamp(s.level - 1, 1, 4);
+      s.misses = 0;
+    }
+  }
+  saveSkills();
+}
+
+function paintDadMathSummary() {
+  const bits = TOPICS.map(t => {
+    const s = skills[t];
+    const vibe = s.correct >= s.misses + 2 && s.level >= 2 ? "strong"
+      : s.misses > s.correct ? "needs practice"
+      : "building";
+    return TOPIC_LABELS[t] + ": " + vibe + " (lvl " + s.level + ")";
+  });
+  document.getElementById("dad-math-summary").textContent =
+    "Number lab adapts by topic — " + bits.join(" · ");
 }
 
 document.getElementById("math-form").addEventListener("submit", (e) => {
   e.preventDefault();
+  if (mathBusy) return;
   const got = Number(document.getElementById("answer").value);
   const msg = document.getElementById("math-msg");
   if (got === answer) {
     streak += 1;
     msg.textContent = "Yes. That's the one.";
     msg.className = "ok";
-    nextProblem();
+    bumpSkill(currentTopic, true);
+    mathBusy = true;
+    localStorage.setItem("avi-streak", String(streak));
+    document.getElementById("streak").textContent = streak;
+    if (sessionStorage.getItem("avi-fun-role") === "dad") paintDadMathSummary();
+    setTimeout(() => { nextProblem(); }, 1400);
   } else {
     streak = 0;
     msg.textContent = "Not yet. The number is still hiding.";
     msg.className = "";
+    bumpSkill(currentTopic, false);
+    localStorage.setItem("avi-streak", String(streak));
+    document.getElementById("streak").textContent = streak;
+    if (sessionStorage.getItem("avi-fun-role") === "dad") paintDadMathSummary();
   }
-  localStorage.setItem("avi-streak", String(streak));
-  document.getElementById("streak").textContent = streak;
 });
 
-const dog = document.getElementById("dog");
-let pets = Number(localStorage.getItem("avi-pets") || 0);
+/* ---- Dog pen: Sawyer default + daily pets reset ---- */
+function todayKey() {
+  // America/Los_Angeles calendar day
+  try {
+    return new Intl.DateTimeFormat("en-CA", {
+      timeZone: "America/Los_Angeles",
+      year: "numeric", month: "2-digit", day: "2-digit"
+    }).format(new Date());
+  } catch (_) {
+    const d = new Date();
+    return d.getFullYear() + "-" + String(d.getMonth()+1).padStart(2,"0") + "-" + String(d.getDate()).padStart(2,"0");
+  }
+}
+
+function loadPetsState() {
+  const today = todayKey();
+  const storedDay = localStorage.getItem("avi-pets-day");
+  let pets = Number(localStorage.getItem("avi-pets") || 0);
+  if (storedDay !== today) {
+    pets = 0;
+    localStorage.setItem("avi-pets", "0");
+    localStorage.setItem("avi-pets-day", today);
+  }
+  return pets;
+}
+
+let pets = loadPetsState();
+const DEFAULT_DOG = "Sawyer";
+
 function paintPets() {
-  const name = (localStorage.getItem("avi-dog-name") || "").trim();
-  const who = name ? name : "the dog";
-  document.getElementById("pets").textContent = "Pets today: " + pets + ". " + who + " is into it.";
+  const name = (localStorage.getItem("avi-dog-name") || DEFAULT_DOG).trim() || DEFAULT_DOG;
+  document.getElementById("pets").textContent = "Pets today: " + pets + ". " + name + " is into it.";
 }
 function loadDog() {
-  document.getElementById("dog-name").value = localStorage.getItem("avi-dog-name") || "";
+  const saved = localStorage.getItem("avi-dog-name");
+  if (saved === null || saved === "") {
+    localStorage.setItem("avi-dog-name", DEFAULT_DOG);
+    document.getElementById("dog-name").value = DEFAULT_DOG;
+  } else {
+    document.getElementById("dog-name").value = saved;
+  }
+  pets = loadPetsState();
   paintPets();
 }
-dog.addEventListener("click", () => {
+
+function petSawyer() {
+  pets = loadPetsState();
   pets += 1;
   localStorage.setItem("avi-pets", String(pets));
-  dog.classList.add("wag");
-  setTimeout(() => dog.classList.remove("wag"), 700);
+  localStorage.setItem("avi-pets-day", todayKey());
+  const el = document.getElementById("sawyer-photo");
+  el.classList.add("wag");
+  setTimeout(() => el.classList.remove("wag"), 700);
   paintPets();
-});
+}
+document.getElementById("sawyer-photo").addEventListener("click", petSawyer);
+document.getElementById("dog").addEventListener("click", petSawyer);
 document.getElementById("dog-name").addEventListener("input", (e) => {
   localStorage.setItem("avi-dog-name", e.target.value);
   paintPets();
@@ -393,7 +697,7 @@ const calls = {
   baseball: ["It's a moon shot into the giggle zone.", "The pitcher just threw a meatball. Avi's Squad ate it.", "Strike three, and the Giggles argue with the umpire's hat."],
   basketball: ["From the logo. Nothing but yes.", "The Giggles traveled, then traveled again, then sat down.", "And-one, and the bench is doing a very serious dance."],
   soccer: ["Top corner. The keeper was tying a shoe.", "Avi's Squad strings six passes and the crowd does math.", "Goal. The Giggles blame the grass."],
-  football: ["Touchdown. The dog would have caught that.", "Fourth and silly. They go for it. Of course they do.", "The kick is up, the kick is good, the announcer is not calm."],
+  football: ["Touchdown. Sawyer would have caught that.", "Fourth and silly. They go for it. Of course they do.", "The kick is up, the kick is good, the announcer is not calm."],
   hockey: ["He roofs it. The lamp is on.", "The Giggles take a penalty for excessive giggling.", "Wraparound goal. The net is embarrassed."]
 };
 document.getElementById("sports").addEventListener("click", (e) => {
