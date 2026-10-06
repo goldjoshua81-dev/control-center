@@ -11,11 +11,12 @@ loadData(D => {
   const spendA = sum(D.budget.ledger, "amount"), spendB = O ? +O.spend_total || 0 : 0;
   const k = [["Revenue (both)", usd(rev), `${sum(D.shops, "orders")} real orders`, "k-yellow", "💵"],
              ["Spent (both)", usd(spendA + spendB), `this ${usd(spendA)} · other ${usd(spendB)}`, "k-orange", "🚀"],
-             ["Paper P&L", O ? usd(O.paper_pnl) : "n/a", O ? (O.paper_pnl_note || "") : "", "k-red", "🎯"]];
+             ["Paper P&L (paper only)", O ? usd(O.paper_pnl) : "n/a", O ? (O.paper_pnl_note || "") : "", "k-red", "🎯"]];
+  if (D.business_costs) k.splice(2, 0, ["Monthly burn (both)", usd(D.business_costs.monthly_total) + "/mo", D.business_costs.items.map(x => `${usd(x.monthly)} ${x.item.replace(/^Grok Bot /, "").replace(/ plan/, "")}`).join(" + ") + ` · vs ${usd(rev)} revenue`, "k-red", "🔥"]);
   $("kpis").innerHTML = k.map(([l, v, s, c, i]) => `<div class="kpi ${c}"><div class="l"><span class="ki" aria-hidden="true">${i}</span>${l}</div><div class="v">${v}</div><div class="s">${esc(s)}</div></div>`).join("");
 
   // Deadlines
-  const all = (D.key_dates || []).map(x => ({date: x.date, disp: x.date_display, event: x.event, who: "This account"}))
+  const all = (D.key_dates || []).filter(x => !x.account).map(x => ({date: x.date, disp: x.date_display, event: x.event, who: "This account"}))
     .concat(O ? O.deadlines.filter(x => x.date_iso).map(x => ({date: x.date_iso, disp: x.date, event: x.event + (x.details ? " — " + x.details : ""), who: "Other bots"})) : [])
     .sort((a, b) => a.date.localeCompare(b.date));
   const soon = all.filter(x => x.date >= todayPT && x.date <= horizon), later = all.filter(x => x.date > horizon);
@@ -27,11 +28,19 @@ loadData(D => {
   const mine = D.needs_joshua.filter(n => !n.bot_work).map(n => ({...n, who: "This account"}));
   const theirs = O ? O.needs_joshua.map(n => ({...n, who: "Other bots"})) : [];
   const open = mine.concat(theirs).filter(n => !n.done);
-  const core = open.filter(n => !n.optional).sort((a, b) => ({high: 0, medium: 1, low: 2}[a.priority || "medium"] - {high: 0, medium: 1, low: 2}[b.priority || "medium"]));
+  const pr = {high: 0, medium: 1, low: 2};
+  const core = open.filter(n => !n.optional).sort((a, b) => ((b.pinned ? 1 : 0) - (a.pinned ? 1 : 0)) || ((a.rank || 99) - (b.rank || 99)) || (pr[a.priority || "medium"] - pr[b.priority || "medium"]));
   const opt = open.filter(n => n.optional);
-  const td = n => `<div class="item"><div>⬜</div><div style="flex:1"><div class="x"><b>${esc(n.task.replace(/^Optional(ly)?:?\s*/i, ""))}</b></div><div class="w">${esc(n.who)}</div></div></div>`;
+  const td = n => `<div class="item"><div>⬜</div><div style="flex:1"><div class="x"><b>${n.rank ? `#${n.rank} · ` : ""}${esc(n.task.replace(/^Optional(ly)?:?\s*/i, ""))}</b></div><div class="w">${esc(n.who)}</div></div></div>`;
   $("todos").innerHTML = (core.length ? core.map(td).join("") : `<p class="empty">No core to-dos 🎉</p>`) +
     (opt.length ? `<details class="more"><summary>Optional (${opt.length})</summary>${opt.map(td).join("")}</details>` : "");
+
+  // Decisions (both accounts)
+  const decs = (D.decisions_pending || []).map(x => ({...x, who: "This account"})).concat(O ? (O.decisions_pending || []).map(x => ({...x, who: "Other bots"})) : []);
+  if (decs.length) {
+    $("decSec").hidden = false;
+    $("decisions").innerHTML = decs.map(x => `<div class="item"><div>🤔</div><div style="flex:1"><div class="x"><b>${esc(x.decision)}</b></div><div class="w">${esc(x.who)} · ${esc(x.lane || "")}${x.note ? " · " + esc(x.note) : ""}</div></div></div>`).join("");
+  }
 
   // Shops & sites
   const line = (name, status, txt, who) => `<div class="item"><div style="flex:1"><div class="x"><b>${esc(name)}</b> <span class="muted">· ${esc(who)}</span></div><div class="w">${esc(txt)}</div></div><div>${pill(status)}</div></div>`;

@@ -40,8 +40,16 @@ function render(D) {
     ["Ad ROAS", adSpend ? (adRev / adSpend).toFixed(2) + "x" : "n/a", `${usd(adSpend)} spent`],
     ["Shops live", `${live} / ${shops.length}`, live ? "" : "not live yet"],
   ];
-  const kc = [["k-yellow", "💵"], ["k-teal", "📈"], ["k-orange", "🚀"], ["k-asphalt", "🏦"], ["k-red", "🎯"], ["k-mint", "🏪"]];
+  const BC = D.business_costs;
+  if (BC) k.push(["Monthly burn", usd(BC.monthly_total) + "/mo", `plan costs vs ${usd(rev)} revenue`]);
+  const kc = [["k-yellow", "💵"], ["k-teal", "📈"], ["k-orange", "🚀"], ["k-asphalt", "🏦"], ["k-red", "🎯"], ["k-mint", "🏪"], ["k-red", "🔥"]];
   $("kpis").innerHTML = k.map(([l, v, s], i) => `<div class="kpi ${kc[i][0]}"><div class="l"><span class="ki" aria-hidden="true">${kc[i][1]}</span>${l}</div><div class="v">${v}</div><div class="s">${esc(s)}</div></div>`).join("");
+  if (BC) {
+    $("burn").hidden = false;
+    $("burn").innerHTML = `<div class="row between"><b>Recurring business costs</b><span><b>${usd(BC.monthly_total)}/month</b> burn vs <b>${usd(rev)}</b> revenue</span></div>` +
+      `<ul>${BC.items.map(x => `<li><b>${esc(x.item)}</b>: ${usd(x.monthly)}/month · <span class="muted">${esc(x.note)}</span></li>`).join("")}</ul>` +
+      `<div class="muted">${esc(BC.note)} Source: ${esc(BC.source)}.</div>`;
+  }
   $("capLabel").textContent = `${usd(deployed)} / ${usd(budget)} (${pct(deployed / budget)})`;
   $("capBar").style.width = Math.min(100, deployed / budget * 100) + "%";
   $("alloc").innerHTML = "Planned split: " + D.budget.planned_allocation.map(a => `<span>${esc(a.lane)}: <b>${usd(a.amount)}</b></span>`).join("");
@@ -76,6 +84,10 @@ function render(D) {
     <div class="t">${esc(p.type)}${p.url ? ` · <a href="${esc(p.url)}" target="_blank" rel="noopener">open</a>` : ""}</div>
     <div class="muted">${esc(p.status_note || "")}</div>
     ${p.pages != null ? `<div class="stats"><div><b>${p.pages}</b><small>Pages</small></div><div><b>${p.calculators}</b><small>Calculators</small></div><div><b>${p.gift_guides}</b><small>Gift guides</small></div><div><b>${p.fee_explainers}</b><small>Fee explainers</small></div><div><b>${p.pins_ready}</b><small>Pins ready</small></div>${p.pins_published != null ? `<div><b>${p.pins_published}</b><small>Pins published</small></div>` : ""}</div>` : ""}
+    ${p.trade_pages != null ? `<div class="stats"><div><b>${p.trade_pages}</b><small>Trade pages</small></div><div><b>${p.blog_guides}</b><small>Blog guides</small></div><div><b>${p.broken_links}/${p.links_checked}</b><small>Broken links</small></div><div><b>${esc(p.lighthouse)}</b><small>Lighthouse</small></div><div><b>${p.gsc_verified ? "✅" : "no"}</b><small>Search Console</small></div><div><b>${usd(p.revenue)}</b><small>Revenue</small></div></div>` : ""}
+    ${p.pricing ? `<div class="muted">${esc(p.pricing)} · ${esc(p.care_plans || "")}</div>` : ""}
+    ${p.demo_url ? `<div class="muted">Demo sites: <a href="${esc(p.demo_url)}" target="_blank" rel="noopener">${esc(p.demo_url.replace(/^https?:\/\//, ""))}</a>${p.redirects ? ` · ${esc(p.redirects.join(", "))} redirects here` : ""}</div>` : ""}
+    ${p.bot_id ? `<div class="muted">Run by ${esc(p.bot)} bot · id <code>${esc(p.bot_id)}</code></div>` : ""}
     ${p.budget_limit ? `<div class="muted">Daily research budget: ${esc(p.budget_limit)}</div>` : ""}</div>`).join("");
 
   table("ads", [["Channel", r => esc(r.channel)], ["Status", r => pill(r.status)], ["Spend", r => usd(r.spend)], ["Revenue", r => usd(r.attributed_revenue)], ["Orders", r => r.orders], ["ROAS", r => r.spend ? (r.attributed_revenue / r.spend).toFixed(2) + "x" : "n/a"], ["Plan / note", r => esc(r.plan || "")]], ads, "No ad channels yet");
@@ -84,8 +96,18 @@ function render(D) {
   table("acq", [["Asset", r => r.url ? `<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.name)}</a>` : esc(r.name)], ["Price", r => esc(r.price)], ["Listed profit", r => esc(r.listed_profit)], ["Closes", r => esc(r.closes)], ["Fits $5k?", r => r.fits_budget ? "✅ yes" : "no"], ["Status", r => pill(r.status)]], D.acquisitions.watchlist, "Watchlist empty");
   table("ledger", [["Date", r => esc(r.date)], ["What", r => esc(r.what)], ["Lane", r => esc(r.lane || "")], ["Amount", r => usd(r.amount)]], D.budget.ledger, "$0 spent so far");
 
-  const needs = D.needs_joshua.slice().sort((a, b) => a.done - b.done);
-  $("needs").innerHTML = needs.length ? needs.map(n => `<div class="item ${n.done ? "done" : ""}"><div>${n.done ? "✅" : "⬜"}</div><div style="flex:1"><div class="x"><b>${esc(n.task)}</b></div><div class="w">${esc(n.why)}</div></div><div>${pill(n.done ? "done" : n.priority)}</div></div>`).join("") : `<p class="empty">Nothing needed right now 🎉</p>`;
+  if (D.priority_projects?.length) {
+    $("prioritySec").hidden = false;
+    $("priority").innerHTML = D.priority_projects.map(p => `<div class="card shop" style="border-width:3px;box-shadow:6px 6px 0 var(--red-ink,#c0392b)"><div class="row between"><h3>${p.url ? `<a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.name)}</a>` : esc(p.name)}</h3><span class="pill medium">⏳ ${esc(p.status)}</span></div>
+      <div class="t">Owner: ${esc(p.owner)}</div><div class="muted">${esc(p.status_note)}</div>
+      <div style="margin-top:8px"><b>Next step:</b> ${esc(p.next_step)}</div></div>`).join("");
+  }
+  if (D.decisions_pending) {
+    $("decisionsNote").textContent = "Source: " + (D.decisions_source || "roll-up") + ". Nothing changes until Joshua decides.";
+    $("decisions").innerHTML = D.decisions_pending.map(x => `<div class="item ${x.done ? "done" : ""}"><div>${x.done ? "✅" : "🤔"}</div><div style="flex:1"><div class="x"><b>${esc(x.decision)}</b></div><div class="w">${x.recommended && !x.done ? `<b>Recommended: ${esc(x.recommended)}</b>${x.note ? " · " : ""}` : ""}${esc(x.note || "")}</div></div><div>${pill(x.done ? "done" : x.lane)}</div></div>`).join("");
+  }
+  const needs = D.needs_joshua.slice().sort((a, b) => (a.done - b.done) || ((b.pinned ? 1 : 0) - (a.pinned ? 1 : 0)) || ((a.rank || 99) - (b.rank || 99)));
+  $("needs").innerHTML = needs.length ? needs.map(n => `<div class="item ${n.done ? "done" : ""}"><div>${n.done ? "✅" : "⬜"}</div><div style="flex:1"><div class="x"><b>${n.pinned && !n.done ? "⭐ " : ""}${n.rank && !n.done ? `#${n.rank} · ` : ""}${esc(n.task)}</b></div><div class="w">${esc(n.why)}</div></div><div>${pill(n.done ? "done" : n.priority)}</div></div>`).join("") : `<p class="empty">Nothing needed right now 🎉</p>`;
 }
 fetch("data.json?t=" + Date.now()).then(r => r.json()).then(render).catch(e => {
   $("updated").textContent = "Could not load data.json. Open via a web server (python3 -m http.server), not file://";
