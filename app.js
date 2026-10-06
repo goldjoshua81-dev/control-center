@@ -88,12 +88,18 @@ function render(D) {
   table("acq", [["Asset", r => r.url ? `<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.name)}</a>` : esc(r.name)], ["Price", r => esc(r.price)], ["Listed profit", r => esc(r.listed_profit)], ["Closes", r => esc(r.closes)], ["Fits $5k?", r => r.fits_budget ? "✅ yes" : "no"], ["Status", r => pill(r.status)]], D.acquisitions.watchlist, "Watchlist empty");
   table("ledger", [["Date", r => esc(r.date)], ["What", r => esc(r.what)], ["Lane", r => esc(r.lane || "")], ["Amount", r => usd(r.amount)]], D.budget.ledger, "$0 spent so far");
 
+  if (D.priority_projects?.length) {
+    $("prioritySec").hidden = false;
+    $("priority").innerHTML = D.priority_projects.map(p => `<div class="card shop" style="border-width:3px;box-shadow:6px 6px 0 var(--red-ink,#c0392b)"><div class="row between"><h3>${p.url ? `<a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.name)}</a>` : esc(p.name)}</h3><span class="pill medium">⏳ ${esc(p.status)}</span></div>
+      <div class="t">Owner: ${esc(p.owner)}</div><div class="muted">${esc(p.status_note)}</div>
+      <div style="margin-top:8px"><b>Next step:</b> ${esc(p.next_step)}</div></div>`).join("");
+  }
   if (D.decisions_pending) {
     $("decisionsNote").textContent = "Source: " + (D.decisions_source || "roll-up") + ". Nothing changes until Joshua decides.";
     $("decisions").innerHTML = D.decisions_pending.map(x => `<div class="item ${x.done ? "done" : ""}"><div>${x.done ? "✅" : "🤔"}</div><div style="flex:1"><div class="x"><b>${esc(x.decision)}</b></div><div class="w">${esc(x.note || "")}</div></div><div>${pill(x.done ? "done" : x.lane)}</div></div>`).join("");
   }
-  const needs = D.needs_joshua.slice().sort((a, b) => (a.done - b.done) || ((a.rank || 99) - (b.rank || 99)));
-  $("needs").innerHTML = needs.length ? needs.map(n => `<div class="item ${n.done ? "done" : ""}"><div>${n.done ? "✅" : "⬜"}</div><div style="flex:1"><div class="x"><b>${n.rank && !n.done ? `#${n.rank} · ` : ""}${esc(n.task)}</b></div><div class="w">${esc(n.why)}</div></div><div>${pill(n.done ? "done" : n.priority)}</div></div>`).join("") : `<p class="empty">Nothing needed right now 🎉</p>`;
+  const needs = D.needs_joshua.slice().sort((a, b) => (a.done - b.done) || ((b.pinned ? 1 : 0) - (a.pinned ? 1 : 0)) || ((a.rank || 99) - (b.rank || 99)));
+  $("needs").innerHTML = needs.length ? needs.map(n => `<div class="item ${n.done ? "done" : ""}"><div>${n.done ? "✅" : "⬜"}</div><div style="flex:1"><div class="x"><b>${n.pinned && !n.done ? "⭐ " : ""}${n.rank && !n.done ? `#${n.rank} · ` : ""}${esc(n.task)}</b></div><div class="w">${esc(n.why)}</div></div><div>${pill(n.done ? "done" : n.priority)}</div></div>`).join("") : `<p class="empty">Nothing needed right now 🎉</p>`;
 }
 fetch("data.json?t=" + Date.now()).then(r => r.json()).then(render).catch(e => {
   $("updated").textContent = "Could not load data.json. Open via a web server (python3 -m http.server), not file://";

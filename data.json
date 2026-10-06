@@ -3,8 +3,8 @@
     "title": "Fresh $$ Control Center",
     "owner": "Joshua",
     "assistant": "Fresh $$",
-    "last_updated": "2026-10-05T10:08:52-07:00",
-    "status_note": "Morning refresh Mon Oct 5, 2026 ~9:00 AM PT. PrintPlz: Shop Manager confirms 80 active / 1 draft / 2 inactive, 0 orders, $0; last 7 days (Sep 29 - Oct 5) 30 views / 23 visits; AM audit loop passed (54/54 Printful sync, Halloween spot-check PASS), build hold on. Deal Scout: ran Oct 5 (~365 listings), top pick still bottes-presso.fr, nothing new beats it. HostFees: 12 of 49 pins (today's 3 post ~10:06 AM PT, in progress); weekly check-up today. WebsitePlz: no change overnight. Actual revenue $0. Joshua's order: 1) Fiverr + Contra, 2) Amazon Associates, 3) traffic tiles; then Stripe deposit links, legal-page review, Relay $300, beehiiv, P.O. box, hello@ inbox."
+    "last_updated": "2026-10-05T19:31:52-07:00",
+    "status_note": "Morning refresh Mon Oct 5, 2026 ~9:00 AM PT. PrintPlz: Shop Manager confirms 80 active / 1 draft / 2 inactive, 0 orders, $0; last 7 days (Sep 29 - Oct 5) 30 views / 23 visits; AM audit loop passed (54/54 Printful sync, Halloween spot-check PASS), build hold on. Deal Scout: ran Oct 5 (~365 listings), top pick still bottes-presso.fr, nothing new beats it. HostFees: 15 of 49 pins (posted-pins log; today's 3 posted Oct 5 AM); weekly check-up today. WebsitePlz: no change overnight. Actual revenue $0. Joshua's order: 1) Fiverr + Contra, 2) Amazon Associates, 3) traffic tiles; then Stripe deposit links, legal-page review, Relay $300, beehiiv, P.O. box, hello@ inbox."
   },
   "budget": {
     "starting_capital": 1000,
@@ -629,7 +629,7 @@
       "spend": 0,
       "attributed_revenue": 0,
       "orders": 0,
-      "plan": "hostfees.com claimed; 12 of 49 pins live (posted-pins log, Oct 4); daily routine posts 3 each morning at 10:06 AM PT; $0 spent."
+      "plan": "hostfees.com claimed; 15 of 49 pins live (posted-pins log, Oct 5); daily routine posts 3 each morning at 10:06 AM PT; $0 spent."
     }
   ],
   "experiments": [
@@ -739,7 +739,7 @@
     }
   ],
   "acquisitions": {
-    "note": "Watch only. Figures are seller/listing claims or research notes, not verified by us. No accounts, bids, offers, seller contact, purchases or acquisitions. Latest Deal Scout run Mon Oct 5: top pick bottes-presso.fr (unchanged), then Marble Tracks, Rewired (stretch), Letras Bonitas Hub.",
+    "note": "Watch only. Figures are seller/listing claims or research notes, not verified by us. No accounts, bids, offers, seller contact, purchases or acquisitions. Latest Deal Scout run Mon Oct 5: top pick bottes-presso.fr (unchanged), then Marble Tracks, Rewired (stretch), Letras Bonitas Hub. Exception: Joshua is talking with the broker on the Cat Bundle ops partnership (Flippa #13421685); no offer made.",
     "source": "Deal Scout run files 2026-10-01 to 10-05 (latest: 2026-10-05-run.md, ~8:07-8:25 AM PT)",
     "watchlist": [
       {
@@ -885,6 +885,13 @@
       "priority": "high",
       "done": false,
       "rank": 5
+    },
+    {
+      "task": "Oct 7: send the Cat Bundle follow-up in Flippa (Deal Scout drafts)",
+      "why": "Priority project. Deal Scout delivers the earn-in-to-buyout follow-up by Wed Oct 7, 9:01 AM PT; you send it to the broker in Flippa.",
+      "priority": "high",
+      "done": false,
+      "pinned": true
     }
   ],
   "projects": [
@@ -894,7 +901,7 @@
       "type": "Short-term-rental fee calculators, explainers, and gift guides",
       "status": "live",
       "url": "https://hostfees.com",
-      "status_note": "Renamed from HostSums. LIVE at hostfees.com (HTTP 200 reconfirmed morning of Oct 4, 2026). Latest live audit records 27 pages: 5 calculators, 3 gift guides and 10 fee explainers. hostfees.com is claimed on Pinterest (verified); 12 of 49 pins are live (posted-pins log; 3 posted each day Oct 1–4, latest Oct 4 AM). Turno affiliate link live; Amazon Associates still not done; traffic tiles still locked (no invented HostFees visit numbers). Lodgify affiliate application pending (Chief of Staff, Oct 3). Weekly check-up running today (Mon Oct 5, 8:47 AM PT). Today's 3 pins post ~10:06 AM PT (in progress).",
+      "status_note": "Renamed from HostSums. LIVE at hostfees.com (HTTP 200 reconfirmed morning of Oct 4, 2026). Latest live audit records 27 pages: 5 calculators, 3 gift guides and 10 fee explainers. hostfees.com is claimed on Pinterest (verified); 15 of 49 pins are live (posted-pins log; 3 posted each day Oct 1–5, latest Oct 5 AM). Turno affiliate link live; Amazon Associates still not done; traffic tiles still locked (no invented HostFees visit numbers). Lodgify affiliate application pending (Chief of Staff, Oct 3). Weekly check-up running today (Mon Oct 5, 8:47 AM PT). Today's 3 pins post ~10:06 AM PT (in progress).",
       "pages": 27,
       "calculators": 5,
       "gift_guides": 3,
@@ -902,12 +909,12 @@
       "pins_ready": 49,
       "revenue": 0,
       "profit": 0,
-      "pins_published": 12,
+      "pins_published": 15,
       "pin_routine": "3 each morning at 10:06 AM PT",
       "pinterest_claimed": true,
       "turno_status": "live; affiliate link on hostfees.com (https://share.turno.com/69pllwz)",
       "hostaway_status": "declined for now; revisit in 4–6 weeks with traffic numbers",
-      "one_liner": "Live at hostfees.com (HTTP 200 Oct 4 AM) · 12 of 49 pins · Turno link live · Amazon Associates pending · Lodgify pending · $0 revenue"
+      "one_liner": "Live at hostfees.com (HTTP 200 Oct 4 AM) · 15 of 49 pins · Turno link live · Amazon Associates pending · Lodgify pending · $0 revenue"
     },
     {
       "id": "deal-scout",
@@ -915,11 +922,11 @@
       "type": "Business acquisition research",
       "status": "research only",
       "url": "",
-      "status_note": "Research only. Daily runs on disk Oct 1-5. Latest run Mon Oct 5 (~8:07-8:25 AM PT): ~365 listings reviewed (311 Flippa cards; 14 new, 8 gone; new source Investors Club), 19 ranked. Top pick still bottes-presso.fr ($4,547 ask, EUR 1,342/mo listed, score 4.05), then Marble Tracks, Rewired (stretch; 30d $714, 14 offers), Letras Bonitas Hub, SEO Supremacy. New big listings (AntiSpy iOS app, motorcycle Facebook pages) have reserves well over budget. Nothing worth acting on closes in 48 hours; Objectif Evasion and Crypto Dist end ~Oct 9. No accounts, bids, offers, seller contact, or purchases.",
+      "status_note": "Research only. Daily runs on disk Oct 1-5. Latest run Mon Oct 5 (~8:07-8:25 AM PT): ~365 listings reviewed (311 Flippa cards; 14 new, 8 gone; new source Investors Club), 19 ranked. Top pick still bottes-presso.fr ($4,547 ask, EUR 1,342/mo listed, score 4.05), then Marble Tracks, Rewired (stretch; 30d $714, 14 offers), Letras Bonitas Hub, SEO Supremacy. New big listings (AntiSpy iOS app, motorcycle Facebook pages) have reserves well over budget. Nothing worth acting on closes in 48 hours; Objectif Evasion and Crypto Dist end ~Oct 9. No bids, offers or purchases. Priority project: Cat Bundle ops partnership (Flippa #13421685); broker Q&A in, Joshua replied Oct 5, follow-up due Wed Oct 7 9:01 AM PT.",
       "budget_limit": "$5,000",
       "revenue": 0,
       "profit": 0,
-      "one_liner": "Ran Oct 5 · top pick bottes-presso.fr · nothing new beats it"
+      "one_liner": "PRIORITY: Cat Bundle follow-up Wed Oct 7 9:01 AM · Ran Oct 5 · top pick bottes-presso.fr · nothing new beats it"
     },
     {
       "id": "websiteplz",
@@ -1509,6 +1516,13 @@
       "event": "Christmas order-by",
       "details": "Last recommended order-by date for Christmas delivery.",
       "source": "/workspace/pod-shops/printplz/README.md · Key dates and ads plan"
+    },
+    {
+      "date": "2026-10-07",
+      "date_display": "Wed Oct 7, 2026 · 9:01 AM PT",
+      "event": "PRIORITY: Cat Bundle follow-up (Flippa #13421685)",
+      "details": "Deal Scout delivers the earn-in-to-buyout follow-up; Joshua sends it in Flippa.",
+      "source": "Deal Scout + Joshua"
     }
   ],
   "other_account": {
@@ -1935,5 +1949,19 @@
       "done": true
     }
   ],
-  "decisions_source": "Chief of Staff nightly roll-ups, Oct 3 and Oct 4, 2026"
+  "decisions_source": "Chief of Staff nightly roll-ups, Oct 3 and Oct 4, 2026",
+  "priority_projects": [
+    {
+      "id": "cat-bundle",
+      "name": "Cat Bundle ops partnership (Flippa #13421685, Marlenespetshop)",
+      "owner": "Deal Scout + Joshua",
+      "status": "waiting",
+      "flippa_id": "13421685",
+      "url": "https://flippa.com/13421685",
+      "status_note": "Broker (Jared) sent the seller Q&A on Mon Oct 5 (Flippa chat): $15M TTM revenue (seller claim, unverified), ~10% average margin, 95% paid traffic, mostly Meta ads; the owners want out. Joshua sent a thank-you holding reply Oct 5.",
+      "next_step": "Wed Oct 7, 2026, 9:01 AM PT: Deal Scout delivers the earn-in-to-buyout follow-up; Joshua sends it in Flippa.",
+      "next_date": "2026-10-07T09:01:00-07:00",
+      "source": "/workspace/acquisitions/deal-scout/cat-bundle-13421685/seller-qa-summary.md"
+    }
+  ]
 }
