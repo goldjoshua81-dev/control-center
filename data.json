@@ -3,8 +3,8 @@
     "title": "Fresh $$ Control Center",
     "owner": "Joshua",
     "assistant": "Fresh $$",
-    "last_updated": "2026-10-06T10:12:00-07:00",
-    "status_note": "Morning refresh Tue Oct 6, 2026 ~8:55 AM PT (Etsy Shop Manager read by PrintPlz at 8:38 AM + lane files). Revenue $0 in every lane; no new spend. Recurring plan costs $260/month (Grok Bot Ultra $200 + Pro+ $60). PrintPlz: 80 active / 1 draft / 2 inactive, 0 orders, 34 views / 27 visits last 7 days (up from 30 / 23), audits clean (54/54 sync). WebsitePlz: Fiverr + Contra accounts created Oct 5; profiles + first gig next. HostFees: 15 of 49 pins, redeploy still BLOCKED until Joshua signs in to Cloudflare + GitHub on the box (before Oct 13). Deal Scout Oct 6: top pick unchanged; new Track B standout (wallets & belts brand on Quiet Light). Cat Bundle follow-up Wed Oct 7 9:01 AM. Family Gem (other account): 0 visits last 7 days as of Oct 6 8:37 PT; Mira traffic still pending Etsy sign-in. Other account: latest verified roll-up is Oct 5, 9:23 PM PT (late); nothing newer."
+    "last_updated": "2026-10-06T10:51:27-07:00",
+    "status_note": "Traffic tiles update Tue Oct 6, 2026 ~10:51 AM PT. HostFees Cloudflare last 7d: 399 visits / 412 views; WebsitePlz Cloudflare last 7d: 796 visits / 802 views (Account Analytics Read unlocked ~10:49 PT; collected via traffic.py). PrintPlz: 80 active / 1 draft / 2 inactive, 0 orders, 34 views / 27 visits last 7 days (Shop Manager 8:38 AM PT). Family Gem (other account): 0 visits last 7 days as of Oct 6 8:37 PT; Mira traffic still pending Etsy sign-in. HostFees Pinterest impressions still not tracked. Revenue $0 in every lane; recurring plan costs $260/month (Grok Bot Ultra $200 + Pro+ $60). HostFees redeploy still BLOCKED until Joshua signs in to Cloudflare + GitHub on the box (before Oct 13). WebsitePlz: Fiverr + Contra accounts created Oct 5; profiles + first gig next."
   },
   "budget": {
     "starting_capital": 1000,
@@ -629,7 +629,7 @@
       "spend": 0,
       "attributed_revenue": 0,
       "orders": 0,
-      "plan": "hostfees.com claimed; 15 of 49 pins live (posted-pins log, Oct 5); daily routine posts 3 each morning at 10:06 AM PT; $0 spent."
+      "plan": "hostfees.com claimed; 18 of 49 pins live (posted-pins log, Oct 6); daily routine posts 3 each morning at 10:06 AM PT; $0 spent."
     }
   ],
   "experiments": [
@@ -852,7 +852,7 @@
     },
     {
       "task": "Unlock the traffic tiles",
-      "why": "Other-account Family Gem visits are in (0 last 7 days as of Oct 6 8:37 PT). Still needed: MoonletterMira Etsy sign-in on the other account (or paste) for Mira views/visits; Cloudflare token Account › Account Analytics › Read (HostFees + WebsitePlz visits) and Workers Scripts Edit (WebsitePlz contact-form mailer); Pinterest Analytics impressions. Web Analytics is already on for websiteplz.com (seen via the Cloudflare API Oct 6).",
+      "why": "HostFees + WebsitePlz Cloudflare visits are in (Account Analytics Read unlocked Oct 6; HostFees 399 visits / 412 views last 7d; WebsitePlz 796 visits / 802 views last 7d, collected ~10:51 PT). Still needed: MoonletterMira Etsy sign-in on the other account (or paste) for Mira views/visits; Pinterest Analytics impressions for HostFees. Family Gem visits already tracked (0 last 7 days as of Oct 6 8:37 PT).",
       "priority": "high",
       "done": false,
       "rank": 3
@@ -914,7 +914,7 @@
       "type": "Short-term-rental fee calculators, explainers, and gift guides",
       "status": "live",
       "url": "https://hostfees.com",
-      "status_note": "Renamed from HostSums. LIVE at hostfees.com (HTTP 200 reconfirmed morning of Oct 4, 2026). Latest live audit records 27 pages: 5 calculators, 3 gift guides and 10 fee explainers. hostfees.com is claimed on Pinterest (verified); 15 of 49 pins are live (posted-pins log; 3 posted each day Oct 1–5, latest Oct 5 AM). Turno affiliate link live; Amazon Associates still not done; traffic tiles still locked (no invented HostFees visit numbers). Lodgify affiliate application pending (Chief of Staff, Oct 3). Weekly check-up Mon Oct 5 clean (live audit 0 errors; Lighthouse mobile 99/100/100/100 on 4 pages). Vrbo changed its help page, so the wording on 3 pages + the Fee Index was updated in the rebuilt site files. Redeploy BLOCKED: the box browser's Cloudflare session expired and GitHub sign-in fails; Joshua must sign in on the box before Oct 13 (Airbnb EEA/Switzerland deadline), so the Vrbo update is not live yet. Oct 6 morning: hostfees.com HTTP 200; today's 3 pins post ~10:06 AM PT (in progress); redeploy still blocked on the box sign-in. Google Search Console started collecting hostfees.com search data Oct 2 (Google email Oct 5).",
+      "status_note": "Renamed from HostSums. LIVE at hostfees.com (HTTP 200 reconfirmed morning of Oct 4, 2026). Latest live audit records 27 pages: 5 calculators, 3 gift guides and 10 fee explainers. hostfees.com is claimed on Pinterest (verified); 18 of 49 pins are live (posted-pins log; 3 posted each day Oct 1–6, latest Oct 6 AM). Turno affiliate link live; Amazon Associates still not done; Cloudflare visits tracked (399 visits / 412 views last 7d as of Oct 6 ~10:51 PT). Lodgify affiliate application pending (Chief of Staff, Oct 3). Weekly check-up Mon Oct 5 clean (live audit 0 errors; Lighthouse mobile 99/100/100/100 on 4 pages). Vrbo changed its help page, so the wording on 3 pages + the Fee Index was updated in the rebuilt site files. Redeploy BLOCKED: the box browser's Cloudflare session expired and GitHub sign-in fails; Joshua must sign in on the box before Oct 13 (Airbnb EEA/Switzerland deadline), so the Vrbo update is not live yet. Oct 6 morning: hostfees.com HTTP 200; today's 3 pins posted ~10:06 AM PT (posted.md Oct 6); redeploy still blocked on the box sign-in. Google Search Console started collecting hostfees.com search data Oct 2 (Google email Oct 5).",
       "pages": 27,
       "calculators": 5,
       "gift_guides": 3,
@@ -922,12 +922,12 @@
       "pins_ready": 49,
       "revenue": 0,
       "profit": 0,
-      "pins_published": 15,
+      "pins_published": 18,
       "pin_routine": "3 each morning at 10:06 AM PT",
       "pinterest_claimed": true,
       "turno_status": "live; affiliate link on hostfees.com (https://share.turno.com/69pllwz)",
       "hostaway_status": "declined for now; revisit in 4–6 weeks with traffic numbers",
-      "one_liner": "Live · 15 of 49 pins (today's 3 at ~10:06 AM) · Vrbo update built, redeploy BLOCKED until Joshua's box sign-in (before Oct 13) · $0 revenue"
+      "one_liner": "Live · 18 of 49 pins (today's 3 posted ~10:06 AM) · Vrbo update built, redeploy BLOCKED until Joshua's box sign-in (before Oct 13) · CF visits 399/7d · $0 revenue"
     },
     {
       "id": "deal-scout",
@@ -1887,9 +1887,9 @@
       "account": "This account",
       "primary": "visits",
       "secondary": "views",
-      "status": "not tracked yet",
+      "status": "tracked",
       "cf_host": "hostfees.com",
-      "needs": "Cloudflare Web Analytics is on for hostfees.com, but the box's Cloudflare API token can't read analytics. Add the permission Account › Account Analytics › Read to that token."
+      "needs": "Tracked via Cloudflare Web Analytics GraphQL (Account Analytics Read). Last 7d visits/views collected Oct 6 ~10:51 PT."
     },
     {
       "id": "hostfees-pinterest",
@@ -1908,9 +1908,9 @@
       "account": "This account",
       "primary": "visits",
       "secondary": "views",
-      "status": "not tracked yet",
+      "status": "tracked",
       "cf_host": "websiteplz.com",
-      "needs": "Cloudflare Web Analytics is on for websiteplz.com (seen via the Cloudflare API, Oct 6), but the box's Cloudflare API token can't read analytics. Add Account › Account Analytics › Read to that token."
+      "needs": "Tracked via Cloudflare Web Analytics GraphQL (Account Analytics Read). Last 7d visits/views collected Oct 6 ~10:51 PT."
     },
     {
       "id": "moonlettermira",
@@ -1941,6 +1941,22 @@
       "value": 0,
       "window": "7d",
       "method": "Incubator Etsy Shop Manager Stats last 7 days Sep 30–Oct 6 (Gold HQ Sync result etsy-shop-views, read 2026-10-06 08:37 PT; Etsy Not enough data)"
+    },
+    {
+      "date": "2026-10-06T10:50:42-07:00",
+      "source": "hostfees-site",
+      "metric": "views",
+      "value": 412,
+      "window": "7d",
+      "method": "Cloudflare Web Analytics (GraphQL)"
+    },
+    {
+      "date": "2026-10-06T10:50:42-07:00",
+      "source": "hostfees-site",
+      "metric": "visits",
+      "value": 399,
+      "window": "7d",
+      "method": "Cloudflare Web Analytics (GraphQL)"
     },
     {
       "date": "2026-10-02T07:52:16-07:00",
@@ -2021,6 +2037,22 @@
       "value": 27,
       "window": "7d",
       "method": "Etsy Shop Manager stats, Last 7 Days Sep 30 - Oct 6 (data/printplz-live-listings.json)"
+    },
+    {
+      "date": "2026-10-06T10:50:42-07:00",
+      "source": "websiteplz-site",
+      "metric": "views",
+      "value": 802,
+      "window": "7d",
+      "method": "Cloudflare Web Analytics (GraphQL)"
+    },
+    {
+      "date": "2026-10-06T10:50:42-07:00",
+      "source": "websiteplz-site",
+      "metric": "visits",
+      "value": 796,
+      "window": "7d",
+      "method": "Cloudflare Web Analytics (GraphQL)"
     }
   ],
   "decisions_pending": [
