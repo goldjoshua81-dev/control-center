@@ -3,8 +3,8 @@
     "title": "Fresh $$ Control Center",
     "owner": "Joshua",
     "assistant": "Fresh $$",
-    "last_updated": "2026-10-06T08:53:10-07:00",
-    "status_note": "Morning refresh Tue Oct 6, 2026 ~8:55 AM PT (Etsy Shop Manager read by PrintPlz at 8:38 AM + lane files). Revenue $0 in every lane; no new spend. Recurring plan costs $260/month (Grok Bot Ultra $200 + Pro+ $60). PrintPlz: 80 active / 1 draft / 2 inactive, 0 orders, 34 views / 27 visits last 7 days (up from 30 / 23), audits clean (54/54 sync). WebsitePlz: Fiverr + Contra accounts created Oct 5; profiles + first gig next. HostFees: 15 of 49 pins, redeploy still BLOCKED until Joshua signs in to Cloudflare + GitHub on the box (before Oct 13). Deal Scout Oct 6: top pick unchanged; new Track B standout (wallets & belts brand on Quiet Light). Cat Bundle follow-up Wed Oct 7 9:01 AM. Other account: latest verified roll-up is Oct 5, 9:23 PM PT (late); nothing newer."
+    "last_updated": "2026-10-06T10:12:00-07:00",
+    "status_note": "Morning refresh Tue Oct 6, 2026 ~8:55 AM PT (Etsy Shop Manager read by PrintPlz at 8:38 AM + lane files). Revenue $0 in every lane; no new spend. Recurring plan costs $260/month (Grok Bot Ultra $200 + Pro+ $60). PrintPlz: 80 active / 1 draft / 2 inactive, 0 orders, 34 views / 27 visits last 7 days (up from 30 / 23), audits clean (54/54 sync). WebsitePlz: Fiverr + Contra accounts created Oct 5; profiles + first gig next. HostFees: 15 of 49 pins, redeploy still BLOCKED until Joshua signs in to Cloudflare + GitHub on the box (before Oct 13). Deal Scout Oct 6: top pick unchanged; new Track B standout (wallets & belts brand on Quiet Light). Cat Bundle follow-up Wed Oct 7 9:01 AM. Family Gem (other account): 0 visits last 7 days as of Oct 6 8:37 PT; Mira traffic still pending Etsy sign-in. Other account: latest verified roll-up is Oct 5, 9:23 PM PT (late); nothing newer."
   },
   "budget": {
     "starting_capital": 1000,
@@ -852,7 +852,7 @@
     },
     {
       "task": "Unlock the traffic tiles",
-      "why": "Cloudflare token: add Account › Account Analytics › Read (HostFees + WebsitePlz visits) and Workers Scripts Edit (WebsitePlz contact-form mailer). Web Analytics is already on for websiteplz.com (seen via the Cloudflare API Oct 6). Still needed too: Pinterest impressions and other-account shop views (requested from the other account Oct 6).",
+      "why": "Other-account Family Gem visits are in (0 last 7 days as of Oct 6 8:37 PT). Still needed: MoonletterMira Etsy sign-in on the other account (or paste) for Mira views/visits; Cloudflare token Account › Account Analytics › Read (HostFees + WebsitePlz visits) and Workers Scripts Edit (WebsitePlz contact-form mailer); Pinterest Analytics impressions. Web Analytics is already on for websiteplz.com (seen via the Cloudflare API Oct 6).",
       "priority": "high",
       "done": false,
       "rank": 3
@@ -1587,7 +1587,7 @@
         "status": "live",
         "type": "Etsy digital readings",
         "url": "https://www.etsy.com/shop/MoonletterMira",
-        "note": "5 listings (ML-01 to ML-05) per shop files last changed Oct 2; Etsy not rechecked live tonight. No new orders on file. The only sale ever was a friend/demo order, not real revenue. Real revenue to date: $0 known. Etsy Ads off (not before ~Oct 11). Spend to date: unknown in full.",
+        "note": "5 listings (ML-01 to ML-05) per shop files last changed Oct 2; Etsy not rechecked live tonight. No new orders on file. The only sale ever was a friend/demo order, not real revenue. Real revenue to date: $0 known. Etsy Ads off (not before ~Oct 11). Spend to date: unknown in full. Traffic tiles still pending Mira Etsy sign-in on the other account (requested Oct 6).",
         "listings": [
           "ML-01",
           "ML-02",
@@ -1602,9 +1602,9 @@
         "status": "vacation",
         "type": "Loose gemstones on Etsy",
         "url": "https://www.etsy.com/shop/TheFamilyGemShop",
-        "note": "Vacation mode ON, 0 live listings, 0 orders, $0 revenue, no logo/banner. SF-001 (1.19 ct tsavorite) photographed, NOT listed (don't list until Joshua says so; no price on file). Spend to date $40.48 ($29 Etsy setup + $11.48 domain). Planned move to the main account Oct 6–7.",
+        "note": "Vacation mode ON, 0 live listings, 0 orders, $0 revenue, no logo/banner. SF-001 (1.19 ct tsavorite) photographed, NOT listed (don't list until Joshua says so; no price on file). Spend to date $40.48 ($29 Etsy setup + $11.48 domain). Planned move to the main account Oct 6–7. Shop Manager visits last 7 days: 0 as of Oct 6 8:37 PT (Etsy: Not enough data); views unknown on that page.",
         "listings": [],
-        "one_liner": "Vacation on · 0 listings · $40.48 spent to date · moving to main account Oct 6–7"
+        "one_liner": "Vacation on · 0 listings · 0 visits last 7d (Oct 6 8:37 PT) · $40.48 spent · moving to main account Oct 6–7"
       },
       {
         "name": "Help4U",
@@ -1919,21 +1919,29 @@
       "account": "Other bots",
       "primary": "views",
       "secondary": "visits",
-      "status": "relayed manually",
-      "needs": "Other account; no traffic numbers relayed yet. Ask its bot for Etsy Shop Manager views/visits (7d) with the date read."
+      "status": "not tracked yet",
+      "needs": "Pending MoonletterMira Etsy sign-in on the other account (or paste of Shop Manager 7d views/visits). Requested Oct 6; incubator session was on Family Gem only."
     },
     {
       "id": "familygem",
       "name": "The Family Gem Shop",
       "venture": "Etsy shop",
       "account": "Other bots",
-      "primary": "views",
-      "secondary": "visits",
-      "status": "relayed manually",
-      "needs": "Other account; vacation on, 0 listings; no traffic numbers relayed yet."
+      "primary": "visits",
+      "secondary": "views",
+      "status": "tracked",
+      "needs": "Tracked via Gold HQ Sync from incubator Shop Manager (Last 7 Days Sep 30–Oct 6, read Oct 6 8:37 PT). Visits 7d = 0 (Etsy: Not enough data). Views unknown (that stats page had no Views tile). Orders 0, revenue $0."
     }
   ],
   "traffic_history": [
+    {
+      "date": "2026-10-06T08:37:00-07:00",
+      "source": "familygem",
+      "metric": "visits",
+      "value": 0,
+      "window": "7d",
+      "method": "Incubator Etsy Shop Manager Stats last 7 days Sep 30–Oct 6 (Gold HQ Sync result etsy-shop-views, read 2026-10-06 08:37 PT; Etsy Not enough data)"
+    },
     {
       "date": "2026-10-02T07:52:16-07:00",
       "source": "printplz",
@@ -1949,6 +1957,30 @@
       "value": 28,
       "window": "7d",
       "method": "Etsy Shop Manager stats (snapshot data/printplz-live-listings.json)"
+    },
+    {
+      "date": "2026-10-04T08:02:00-07:00",
+      "source": "printplz",
+      "metric": "views",
+      "value": 38,
+      "window": "7d",
+      "method": "Etsy Shop Manager dashboard snapshot (Last 7 days; data/printplz-live-listings.json + morning-etsy-report.json)"
+    },
+    {
+      "date": "2026-10-05T09:00:00-07:00",
+      "source": "printplz",
+      "metric": "views",
+      "value": 30,
+      "window": "7d",
+      "method": "Etsy Shop Manager stats, Last 7 Days Sep 29 - Oct 5 (data/printplz-live-listings.json)"
+    },
+    {
+      "date": "2026-10-06T08:38:00-07:00",
+      "source": "printplz",
+      "metric": "views",
+      "value": 34,
+      "window": "7d",
+      "method": "Etsy Shop Manager stats, Last 7 Days Sep 30 - Oct 6 (data/printplz-live-listings.json)"
     },
     {
       "date": "2026-10-02T07:52:16-07:00",
@@ -1969,14 +2001,6 @@
     {
       "date": "2026-10-04T08:02:00-07:00",
       "source": "printplz",
-      "metric": "views",
-      "value": 38,
-      "window": "7d",
-      "method": "Etsy Shop Manager dashboard snapshot (Last 7 days; data/printplz-live-listings.json + morning-etsy-report.json)"
-    },
-    {
-      "date": "2026-10-04T08:02:00-07:00",
-      "source": "printplz",
       "metric": "visits",
       "value": 16,
       "window": "7d",
@@ -1985,26 +2009,10 @@
     {
       "date": "2026-10-05T09:00:00-07:00",
       "source": "printplz",
-      "metric": "views",
-      "value": 30,
-      "window": "7d",
-      "method": "Etsy Shop Manager stats, Last 7 Days Sep 29 - Oct 5 (data/printplz-live-listings.json)"
-    },
-    {
-      "date": "2026-10-05T09:00:00-07:00",
-      "source": "printplz",
       "metric": "visits",
       "value": 23,
       "window": "7d",
       "method": "Etsy Shop Manager stats, Last 7 Days Sep 29 - Oct 5 (data/printplz-live-listings.json)"
-    },
-    {
-      "date": "2026-10-06T08:38:00-07:00",
-      "source": "printplz",
-      "metric": "views",
-      "value": 34,
-      "window": "7d",
-      "method": "Etsy Shop Manager stats, Last 7 Days Sep 30 - Oct 6 (data/printplz-live-listings.json)"
     },
     {
       "date": "2026-10-06T08:38:00-07:00",
