@@ -244,6 +244,249 @@
     margin: 4px 0 0;
     color: #5c5470;
   }
+
+  /* ---- Helper Lab ---- */
+  .helper-lab {
+    margin-top: 18px;
+    background: linear-gradient(165deg, #fffdf6 0%, #eef3ff 55%, #fff7d6 100%);
+    border: 3px solid var(--ink);
+    border-radius: 24px;
+    padding: 18px 16px 16px;
+    box-shadow: 8px 8px 0 var(--ink);
+  }
+  .helper-lab h2 { margin: 0 0 4px; font-size: 26px; }
+  .hl-tag {
+    display: inline-block;
+    background: var(--yellow);
+    border: 2px solid var(--ink);
+    border-radius: 999px;
+    padding: 2px 10px;
+    font-weight: 900;
+    font-size: 12px;
+    margin-bottom: 8px;
+  }
+  .hl-starters {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    margin: 12px 0;
+  }
+  .hl-card {
+    background: #fff;
+    border: 3px solid var(--ink);
+    border-radius: 18px;
+    padding: 12px 10px 10px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 4px 4px 0 var(--ink);
+    transition: transform 0.08s;
+  }
+  .hl-card:hover, .hl-card:focus { transform: translate(-1px, -1px); }
+  .hl-card:active { transform: translate(2px, 2px); box-shadow: 2px 2px 0 var(--ink); }
+  .hl-card.on { background: var(--yellow); }
+  .hl-card .ico { font-size: 28px; line-height: 1; }
+  .hl-card .ttl { font-weight: 900; font-size: 15px; margin: 4px 0 2px; }
+  .hl-card .one { font-size: 12px; color: #5c5470; font-weight: 700; min-height: 2.4em; }
+  .hl-card .go-mini {
+    margin-top: 6px;
+    width: 100%;
+    background: var(--blue);
+    color: #fff;
+    border: 2px solid var(--ink);
+    border-radius: 10px;
+    padding: 6px;
+    font-weight: 900;
+    cursor: pointer;
+  }
+  .hl-tools {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 8px 0 4px;
+  }
+  .hl-tool {
+    border: 2px solid var(--ink);
+    background: #fff;
+    border-radius: 14px;
+    padding: 8px 12px;
+    font-weight: 900;
+    cursor: pointer;
+  }
+  .hl-tool.on { background: #c9d7ff; }
+  .hl-blurb {
+    min-height: 2.4em;
+    margin: 4px 0 10px;
+    font-weight: 700;
+    color: #3a3355;
+    background: #fff;
+    border: 2px dashed var(--ink);
+    border-radius: 12px;
+    padding: 8px 10px;
+  }
+  .hl-chat {
+    background: #fff;
+    border: 3px solid var(--ink);
+    border-radius: 16px;
+    padding: 12px;
+    min-height: 120px;
+    max-height: 280px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+  }
+  .hl-bubble {
+    margin: 0 0 10px;
+    padding: 10px 12px;
+    border-radius: 14px;
+    border: 2px solid var(--ink);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.35;
+    white-space: pre-wrap;
+  }
+  .hl-bubble.avi { background: #e8e4ff; }
+  .hl-bubble.bot { background: #fff7c2; }
+  .hl-bubble.sys { background: #f0f0f0; font-size: 14px; color: #5c5470; }
+  .hl-compose {
+    display: flex;
+    gap: 8px;
+    align-items: stretch;
+  }
+  .hl-compose textarea {
+    flex: 1;
+    border: 3px solid var(--ink);
+    border-radius: 14px;
+    padding: 12px;
+    font: inherit;
+    font-size: 16px;
+    font-weight: 700;
+    min-height: 64px;
+    resize: vertical;
+    background: #fff;
+  }
+  .hl-go {
+    background: var(--yellow);
+    border: 3px solid var(--ink);
+    border-radius: 14px;
+    padding: 12px 18px;
+    font-weight: 900;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 4px 4px 0 var(--ink);
+    min-width: 72px;
+  }
+  .hl-go:active { transform: translate(2px, 2px); box-shadow: 2px 2px 0 var(--ink); }
+  .hl-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 10px 0 4px;
+  }
+  .hl-chip {
+    border: 2px solid var(--ink);
+    background: #fff;
+    border-radius: 999px;
+    padding: 8px 14px;
+    font-weight: 900;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  .hl-chip:hover { background: var(--yellow); }
+  .hl-mine {
+    margin-top: 12px;
+    padding-top: 10px;
+    border-top: 3px dashed var(--ink);
+  }
+  .hl-mine h3 { margin: 0 0 8px; font-size: 18px; }
+  .hl-mine-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .hl-saved {
+    border: 2px solid var(--ink);
+    background: #fff;
+    border-radius: 14px;
+    padding: 8px 12px;
+    font-weight: 900;
+    cursor: pointer;
+  }
+  .hl-saved .ico { margin-right: 4px; }
+  .hl-wizard {
+    margin-top: 12px;
+    background: #fff;
+    border: 3px solid var(--ink);
+    border-radius: 16px;
+    padding: 12px;
+  }
+  .hl-wizard h3 { margin: 0 0 8px; }
+  .hl-wiz-step { margin-bottom: 10px; }
+  .hl-wiz-step label { font-weight: 900; margin-bottom: 6px; }
+  .hl-empty { color: #5c5470; font-weight: 700; font-size: 14px; }
+
+  /* Friend guests + password flash */
+  .friends-panel {
+    margin-top: 18px;
+    background: #fff;
+    border: 3px solid var(--ink);
+    border-radius: 22px;
+    padding: 16px;
+    box-shadow: 6px 6px 0 var(--ink);
+  }
+  .friends-panel h2 { margin: 0 0 6px; font-size: 22px; }
+  .guest-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    border: 2px solid var(--ink);
+    border-radius: 12px;
+    padding: 8px 10px;
+    margin: 6px 0;
+    background: #f7f4ff;
+    font-weight: 800;
+  }
+  .guest-revoke {
+    border: 2px solid var(--ink);
+    background: #ffd0ea;
+    border-radius: 999px;
+    padding: 4px 10px;
+    font-weight: 900;
+    cursor: pointer;
+  }
+  .guest-form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    gap: 8px;
+    margin-top: 8px;
+  }
+  @media (max-width: 640px) {
+    .guest-form-row { grid-template-columns: 1fr; }
+  }
+  .guest-form-row input {
+    border: 2px solid var(--ink);
+    border-radius: 12px;
+    padding: 10px;
+    font: inherit;
+    font-weight: 700;
+  }
+  .tongue-flash {
+    display: inline-block;
+    font-size: 28px;
+    animation: tonguePulse 0.35s ease-in-out 4;
+  }
+  @keyframes tonguePulse {
+    0%, 100% { transform: scale(1) rotate(0deg); opacity: 1; }
+    50% { transform: scale(1.35) rotate(-8deg); opacity: 0.55; filter: drop-shadow(0 0 4px #ff0033); }
+  }
+  .nope-flash {
+    color: #e6002e !important;
+    font-weight: 900;
+    animation: redBlink 0.4s ease-in-out 3;
+  }
+  @keyframes redBlink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.35; }
+  }
 </style>
 </head>
 <body>
@@ -380,15 +623,79 @@
 
       <section class="card bot">
         <h2>Your bot</h2>
-        <p>This spot is yours. A separate helper, just for Avi, that you can point at whatever you dream up: math, Sawyer, sports, or something silly nobody has named yet.</p>
-        <p class="tiny">It's ON! 🎉 Ask Dad to open <b>Avi Bot</b> in the Grok Bot app and say hi. Try: "give me a hard math puzzle" or "tell me a dog joke."</p>
+        <p>Avi Bot is still in the Grok Bot app. On this page, open <b>Helper Lab</b> below — tap a starter and hit Go.</p>
+        <p class="tiny">Try Robot Designer, Sawyer Adventure Writer, or Kings Trivia Buddy.</p>
       </section>
     </div>
+
+    <section class="helper-lab" id="helper-lab" aria-label="Helper Lab">
+      <span class="hl-tag">NEW</span>
+      <h2>Helper Lab</h2>
+      <p class="tiny">Build tiny helpers. Tap a card. Hit <b>Go</b>. Magic first — reading later.</p>
+
+      <p style="font-weight:900;margin:10px 0 4px;">Try one now</p>
+      <div class="hl-starters" id="hl-starters"></div>
+
+      <p style="font-weight:900;margin:12px 0 4px;">Tools</p>
+      <div class="hl-tools" id="hl-tools" role="toolbar" aria-label="Helper tools"></div>
+      <p class="hl-blurb" id="hl-blurb" role="status">Tap a tool to see how it works.</p>
+
+      <div class="hl-chat" id="hl-chat" aria-live="polite">
+        <p class="hl-bubble sys">Pick a starter card up top. The first idea is already ready — just tap Go.</p>
+      </div>
+      <div class="hl-compose">
+        <textarea id="hl-input" maxlength="500" placeholder="Your idea goes here…" aria-label="Helper message"></textarea>
+        <button class="hl-go" id="hl-go" type="button">Go</button>
+      </div>
+      <div class="hl-chips" id="hl-chips"></div>
+
+      <div class="hl-wizard hidden" id="hl-wizard">
+        <h3>Build your own helper</h3>
+        <div class="hl-wiz-step" id="hl-wiz-job">
+          <label>1. Job — what should it help with?</label>
+          <div class="hl-chips" id="hl-job-chips"></div>
+        </div>
+        <div class="hl-wiz-step" id="hl-wiz-rules">
+          <label>2. Rules — pick up to 3</label>
+          <div class="hl-chips" id="hl-rule-chips"></div>
+        </div>
+        <div class="hl-wiz-step" id="hl-wiz-name">
+          <label for="hl-helper-name">3. Name — silly is best</label>
+          <div class="hl-compose">
+            <input id="hl-helper-name" type="text" maxlength="24" placeholder="Stomp Bot" style="flex:1;border:3px solid var(--ink);border-radius:14px;padding:10px;font:inherit;font-weight:800;" />
+            <button class="hl-go" id="hl-save-helper" type="button" style="font-size:16px;">Save</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="hl-mine" id="hl-mine">
+        <h3>My Helpers</h3>
+        <div class="hl-mine-row" id="hl-mine-row">
+          <span class="hl-empty">None yet. Finish a starter, then Save.</span>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="friends-panel hidden" id="friends-panel" aria-label="Friend logins">
+      <h2>Friend logins</h2>
+      <p class="tiny">Avi only. Make a login for a friend. They see the fun page — not Dad stuff.</p>
+      <form id="guest-form">
+        <div class="guest-form-row">
+          <input id="guest-user" type="text" maxlength="16" placeholder="friend name" autocomplete="off" required />
+          <input id="guest-pass" type="password" maxlength="32" placeholder="fun password" autocomplete="new-password" required />
+          <button class="go" type="submit" style="margin-top:0;width:auto;padding:10px 16px;">Add friend</button>
+        </div>
+        <p class="nope" id="guest-msg" role="status"></p>
+      </form>
+      <div id="guest-list" style="margin-top:8px;"></div>
+    </section>
 
     <section class="dad-note hidden" id="dad-note">
       <h2>Dad desk</h2>
       <p>Avi Bot is created (Oct 3). It lives in your Grok Bot app sidebar, kid-safe, no purchases or messages. This page is just the fun display.</p>
       <p class="tiny" id="dad-math-summary">Number lab adapts by topic (add, subtract, multiply, divide, mix).</p>
+      <p class="tiny" id="dad-helper-note">Helper Lab events are stored locally for later digest.</p>
       <p class="tiny">The yellow $$ on every Control Center page opens this page.</p>
     </section>
   </main>
@@ -409,18 +716,27 @@ const gate = document.getElementById("gate");
 const app = document.getElementById("app");
 const nope = document.getElementById("nope");
 
-function showApp(role) {
+function showApp(role, guestName) {
   gate.classList.add("hidden");
   app.classList.remove("hidden");
-  document.getElementById("hello").textContent = role === "dad"
-    ? "Hi Dad. Avi's side is the same. Your note is at the bottom."
-    : "Hi Avi. Math, Sawyer, every sport, and one very silly booth.";
+  const friendsPanel = document.getElementById("friends-panel");
+  if (role === "dad") {
+    document.getElementById("hello").textContent = "Hi Dad. Avi's side is the same. Your note is at the bottom.";
+  } else if (role === "guest") {
+    document.getElementById("hello").textContent = "Hi " + (guestName || "friend") + "! Welcome to Avi's Fun Page.";
+  } else {
+    document.getElementById("hello").textContent = "Hi Avi. Math, Sawyer, every sport, Helper Lab, and one very silly booth.";
+  }
   document.getElementById("dad-note").classList.toggle("hidden", role !== "dad");
+  if (friendsPanel) friendsPanel.classList.toggle("hidden", role !== "avi");
   sessionStorage.setItem("avi-fun-role", role);
+  if (role === "guest" && guestName) sessionStorage.setItem("avi-fun-guest", guestName);
+  else sessionStorage.removeItem("avi-fun-guest");
   sessionWarmupsLeft = 2;
   nextProblem();
   loadDog();
   if (role === "dad") paintDadMathSummary();
+  if (role === "avi" && window.__aviPaintGuests) window.__aviPaintGuests();
 }
 
 document.getElementById("login-form").addEventListener("submit", async (e) => {
@@ -431,13 +747,23 @@ document.getElementById("login-form").addEventListener("submit", async (e) => {
   if (USERS[name] && USERS[name] === hash) {
     nope.textContent = "";
     showApp(name);
-  } else {
-    nope.textContent = "Nope. That door stayed shut.";
+    return;
   }
+  // Friend guests (Avi-created). Never elevate to dad/mom.
+  if (window.__aviFindGuest) {
+    const g = await window.__aviFindGuest(name, pass);
+    if (g) {
+      nope.textContent = "";
+      showApp("guest", g.user);
+      return;
+    }
+  }
+  nope.textContent = "Nope. That door stayed shut.";
 });
 
 document.getElementById("out").addEventListener("click", () => {
   sessionStorage.removeItem("avi-fun-role");
+  sessionStorage.removeItem("avi-fun-guest");
   app.classList.add("hidden");
   gate.classList.remove("hidden");
   document.getElementById("pass").value = "";
@@ -709,8 +1035,595 @@ document.getElementById("sports").addEventListener("click", (e) => {
   document.getElementById("call").textContent = lines[rand(lines.length)];
 });
 
+/* ---- Helper Lab ---- */
+(function () {
+  const STARTERS = [
+    { id: "robot", icon: "🤖", name: "Robot Designer", one: "Invent cool robots.", prompt: "Help me design a robot that can play soccer with Sawyer. Give it a name, 3 parts, and one silly power.", chips: ["Make it sillier", "Add math", "New robot"], topic: "robots" },
+    { id: "plane", icon: "✈️", name: "Paper Airplane Coach", one: "Fold ideas + fly tips.", prompt: "Give me an easy paper airplane to fold in 4 steps. Then one tip so it flies farther.", chips: ["Make it sillier", "Add math", "New plane"], topic: "planes" },
+    { id: "soccer", icon: "⚽", name: "Soccer Playbook", one: "Fun drills and team plays.", prompt: "Make a 3-move soccer play for kids my age. Name the play something awesome.", chips: ["Make it sillier", "Add math", "New play"], topic: "soccer" },
+    { id: "kings", icon: "👑", name: "Kings Trivia Buddy", one: "Easy Sacramento Kings quiz.", prompt: "Ask me 3 easy Sacramento Kings trivia questions. Cheer like a fan when I try.", chips: ["Make it sillier", "Add math", "New quiz"], topic: "kings" },
+    { id: "sawyer", icon: "🐕", name: "Sawyer Adventure Writer", one: "Stories starring Sawyer.", prompt: "Write a short adventure where Sawyer finds a magic tennis ball. Keep it funny and kind.", chips: ["Make it sillier", "Add math", "New story"], topic: "sawyer" },
+    { id: "truck", icon: "🚛", name: "Monster Truck Garage", one: "Build wild trucks.", prompt: "Help me build a monster truck. Name it, pick its color, and give it one crazy upgrade.", chips: ["Make it sillier", "Add math", "New truck"], topic: "trucks" },
+    { id: "game", icon: "🎲", name: "Game Idea Lab", one: "Invent simple games.", prompt: "Invent a 5-minute game I can play with one ball and Sawyer watching. Rules in 3 short lines.", chips: ["Make it sillier", "Add math", "New game"], topic: "games" }
+  ];
+
+  const TOOLS = [
+    { id: "ask", label: "Ask", blurb: "Type a question. Your helper answers with kid-safe ideas." },
+    { id: "ideas", label: "Ideas", blurb: "Stuck? Tap this. Get 3 fun ideas you can try next." },
+    { id: "plan", label: "Plan", blurb: "Make a simple step list. Step 1, Step 2, Step 3." },
+    { id: "find", label: "Find", blurb: "Search only inside Helper Lab. No websites outside." },
+    { id: "save", label: "Save", blurb: "Keep this helper. Give it a silly name." },
+    { id: "retry", label: "Retry", blurb: "Same job, new try. Change one rule and Go." },
+    { id: "new", label: "New", blurb: "Start fresh. Pick a starter or build your own." }
+  ];
+
+  const FIND_CARDS = [
+    { q: "robot", title: "Robot tip", body: "Name the head, the legs, and one silly button. Robots love soccer too." },
+    { q: "plane", title: "Plane tip", body: "Fold sharp creases. Point the nose slightly up. Soft throws fly farther." },
+    { q: "soccer", title: "Soccer tip", body: "Pass, move, shoot. Keep the ball on the ground for kid-size goals." },
+    { q: "kings", title: "Kings tip", body: "Sacramento Kings play basketball. Purple and black. Light the Beam energy!" },
+    { q: "beam", title: "Light the Beam", body: "When the Kings win at home, fans say Light the Beam. Purple vibes." },
+    { q: "sawyer", title: "Sawyer tip", body: "Sawyer is a tan short-haired dog with floppy ears. He loves tennis balls and silly faces." },
+    { q: "truck", title: "Truck tip", body: "Big wheels, loud name, one crazy upgrade. Keep races fun, not scary." },
+    { q: "game", title: "Game tip", body: "Short rules. One ball. Someone laughs. That is a five-star kid game." },
+    { q: "math", title: "Math bonus", body: "Count goals, folds, or truck jumps. Numbers can be silly helpers too." },
+    { q: "king", title: "Kings colors", body: "Think purple, black, and silver. Cheer loud. Stay kind to the other team." }
+  ];
+
+  const JOB_CHIPS = ["robots", "planes", "soccer", "Kings", "Sawyer", "trucks", "games", "math", "other"];
+  const RULE_CHIPS = ["Be silly", "Use short steps", "Cheer me on", "Add Sawyer", "Keep it kind", "Use big words sparingly"];
+
+  const BLOCK = [
+    /\bhttps?:\/\//i, /\bwww\./i, /\.com\b/i, /\.net\b/i, /\.org\b/i,
+    /\bbuy\b/i, /\bsubscribe\b/i, /\bpassword\b/i, /\bcredit card\b/i,
+    /\baddress\b/i, /\bphone number\b/i, /\bschool name\b/i,
+    /\bkill\b/i, /\bmurder\b/i, /\bgore\b/i, /\bweapon\b/i, /\bgun\b/i,
+    /\bdrug\b/i, /\bbeer\b/i, /\bwine\b/i, /\balcohol\b/i,
+    /\bdating\b/i, /\bkiss\b/i, /\bgirlfriend\b/i, /\bboyfriend\b/i,
+    /\bpolitic\b/i, /\belection\b/i,
+    /\bsuicide\b/i, /\bhurt myself\b/i
+  ];
+  const ASK_DAD = [/\bsick\b/i, /\bhurt\b/i, /\bstranger\b/i, /\bscared\b/i, /\bupset\b/i, /\bblood\b/i, /\bmedicine\b/i];
+
+  let activeStarter = null;
+  let activeTool = "ask";
+  let starterSuccess = false;
+  let sessionStart = Date.now();
+  let selectedJob = null;
+  let selectedRules = [];
+
+  const elStarters = document.getElementById("hl-starters");
+  const elTools = document.getElementById("hl-tools");
+  const elBlurb = document.getElementById("hl-blurb");
+  const elChat = document.getElementById("hl-chat");
+  const elInput = document.getElementById("hl-input");
+  const elGo = document.getElementById("hl-go");
+  const elChips = document.getElementById("hl-chips");
+  const elWizard = document.getElementById("hl-wizard");
+  const elMine = document.getElementById("hl-mine-row");
+  const elJob = document.getElementById("hl-job-chips");
+  const elRules = document.getElementById("hl-rule-chips");
+  const elName = document.getElementById("hl-helper-name");
+  const elSave = document.getElementById("hl-save-helper");
+
+  if (!elStarters) return;
+
+  function pick(arr) { return arr[Math.floor(Math.random() * arr.length)]; }
+
+  function logEvent(type, extra) {
+    try {
+      const key = "avi-helper-lab-events";
+      const raw = localStorage.getItem(key);
+      const list = raw ? JSON.parse(raw) : [];
+      const mins = (Date.now() - sessionStart) / 60000;
+      const bucket = mins < 5 ? "<5m" : mins < 15 ? "5-15m" : "15m+";
+      const row = {
+        t: new Date().toISOString(),
+        type: type,
+        starter: (extra && extra.starter) || null,
+        tool: (extra && extra.tool) || null,
+        helperName: (extra && extra.helperName) || null,
+        topic: (extra && extra.topic) || null,
+        sessionBucket: bucket,
+        mathBonus: (extra && extra.mathBonus) || null
+      };
+      list.push(row);
+      while (list.length > 200) list.shift();
+      localStorage.setItem(key, JSON.stringify(list));
+    } catch (_) {}
+  }
+
+  function safetyCheck(text) {
+    const t = String(text || "");
+    for (const re of BLOCK) { if (re.test(t)) return { ok: false, kind: "block" }; }
+    for (const re of ASK_DAD) { if (re.test(t)) return { ok: false, kind: "dad" }; }
+    return { ok: true };
+  }
+
+  function bubble(who, text) {
+    const p = document.createElement("p");
+    p.className = "hl-bubble " + who;
+    p.textContent = text;
+    elChat.appendChild(p);
+    elChat.scrollTop = elChat.scrollHeight;
+  }
+
+  function clearChips() { elChips.innerHTML = ""; }
+
+  function showChips(list) {
+    clearChips();
+    list.forEach(label => {
+      const b = document.createElement("button");
+      b.type = "button";
+      b.className = "hl-chip";
+      b.textContent = label;
+      b.addEventListener("click", () => onChip(label));
+      elChips.appendChild(b);
+    });
+  }
+
+  function setTool(id) {
+    activeTool = id;
+    elTools.querySelectorAll(".hl-tool").forEach(b => b.classList.toggle("on", b.dataset.tool === id));
+    const t = TOOLS.find(x => x.id === id);
+    elBlurb.textContent = t ? t.blurb : "";
+    logEvent("tool", { tool: id, starter: activeStarter && activeStarter.id, topic: activeStarter && activeStarter.topic });
+  }
+
+  function robotReply(mode) {
+    const names = ["Goalbot 3000", "Sawyer-Pass Prime", "Kicktronic", "Wiggle Wire FC"];
+    const parts = [
+      ["springy soccer feet", "a radar nose for tennis balls", "a cheer speaker"],
+      ["cushion hands", "spinny balance tail", "glow-in-the-dark stripes"],
+      ["turbo ankles", "a high-five pad", "a water-bottle backpack"]
+    ];
+    const powers = [
+      "can turn any miss into a silly victory dance",
+      "sneezes confetti when Sawyer scores",
+      "speaks only in sports announcer voice",
+      "makes the ball smell like peanut butter (Sawyer approved)"
+    ];
+    const name = pick(names);
+    const p = pick(parts);
+    if (mode === "silly") return "SILLIER MODE unlocked!\nName: " + name + " (now with googly eyes)\nParts: " + p.join(", ") + ", plus a hat that says BORK.\nSilly power: " + pick(powers) + "\nBonus: it high-fives Sawyer after every pass.";
+    if (mode === "math") return "Math bonus! If Goalbot makes 4 passes and Sawyer makes 3, that is " + (4+3) + " awesome team touches.\nRobot: " + name + "\nParts: 1) " + p[0] + " 2) " + p[1] + " 3) " + p[2] + "\nPower: " + pick(powers);
+    return "Beep-boop! Meet " + name + "!\n3 parts:\n1) " + p[0] + "\n2) " + p[1] + "\n3) " + p[2] + "\nSilly power: " + pick(powers) + "\nReady to play soccer with Sawyer. Yes please.";
+  }
+
+  function planeReply(mode) {
+    if (mode === "math") return "Math bonus! If your plane flies 10 feet, then 3 more tries add about 2 feet each… that is 10 + 2 + 2 + 2 = 16 feet of practice power.\nStill fold:\n1) Fold paper hot-dog style, crease, open.\n2) Fold top corners to the middle line.\n3) Fold the sides in again for a skinny dart.\n4) Fold in half and make the wings.\nTip: throw soft, nose a little up.";
+    if (mode === "silly") return "SILLY PLANE: name it Captain Floop.\n1) Fold like a taco.\n2) Fold the nose into a tiny bird beak.\n3) Wings out like a flying toast.\n4) Draw a smile on the wing.\nTip: whisper GO to it. Soft throws help most.";
+    return "Easy flyer (4 steps):\n1) Fold the paper in half the long way. Crease. Open it.\n2) Fold the top two corners down to the middle crease.\n3) Fold those edges in again toward the middle.\n4) Fold in half and fold each wing down.\nTip: throw gently with the nose tilted slightly up — soft throws often go farther than hard ones.";
+  }
+
+  function soccerReply(mode) {
+    const plays = ["Thunder Banana", "Sawyer Sweep", "Purple Lightning", "Giggle Give-and-Go"];
+    const name = pick(plays);
+    if (mode === "math") return "Play name: " + name + "\nMath bonus: 3 moves × 2 kids = 6 touches before the shot. Count them out loud!\n1) Pass to the left.\n2) Sprint into space.\n3) One soft shot on goal.\nAwesome. High five.";
+    if (mode === "silly") return "Play name: " + name + " (extra silly)\n1) Fake left with a ridiculous face.\n2) Pass through Sawyer's imaginary tunnel.\n3) Shoot while yelling BANANA KICK.\nKeep it kind. No real tackling. Just laughs.";
+    return "Play name: " + name + "!\n3 moves:\n1) Pass to your teammate and call for it back.\n2) Take two touches into open grass.\n3) Soft shot toward the corner of the goal.\nYou have a playbook now. Coach energy: ON.";
+  }
+
+  function kingsReply(mode) {
+    if (mode === "math") return "Math bonus + Kings cheer!\nIf you make 2 free throws and miss 1, you scored 2 points of practice pride.\nQuick Q: How many points is a regular basket usually worth? (Hint: not 100.)\nYOU GOT THIS. Light that imaginary Beam!";
+    if (mode === "silly") return "SILLY QUIZ TIME!\n1) If a King wore a banana jersey, would it still be purple? (Debate kindly.)\n2) Can Sawyer be honorary bench mascot for one play? (Yes.)\n3) What sound does a winning Beam make? (YOU decide.)\nCheer: LET'S GOOOOO!";
+    return "Kings Trivia Buddy here. Let's GO!\n1) What city do the Sacramento Kings play in?\n2) What sport do the Kings play?\n3) What do fans love to say when the Kings win at home?\nType your guesses anytime. I will cheer like a wild fan either way.\nAnswers (peek if you want): Sacramento! · Basketball! · Light the Beam!";
+  }
+
+  function sawyerReply(mode) {
+    if (mode === "math") return "Sawyer Adventure + math!\nSawyer finds 1 magic tennis ball. He bounces it 5 times. That is 1 × 5 = 5 magic bounces.\nStory: The ball whispers, \"Fetch… but make it fair.\" Sawyer shares with Avi. Everyone wins. Kindness score: 10/10.";
+    if (mode === "silly") return "Sawyer found a tennis ball that hiccups glitter.\nHe sneezed. Glitter. He barked. More glitter.\nAvi said, \"Maybe outside?\" Sawyer agreed, then hid the ball under a sock for later.\nThe end. (Sock is now a national treasure.)";
+    return "Sawyer Adventure!\nSawyer sniffed the yard and found a tennis ball that glowed like a tiny sun. It bounced once — boing — and whispered, \"Want a quest?\"\nSawyer barked yes (politely). Together they chased the ball around the grass, shared a water break, and invited Avi to the victory dance.\nFunny. Kind. Zero scary stuff. Sawyer is a legend.";
+  }
+
+  function truckReply(mode) {
+    const names = ["Mud Banana", "Stomp Rocket", "Purple Squish", "Sawyer Crusher (gentle mode)"];
+    const colors = ["neon lime", "galaxy purple", "sunset orange", "lightning yellow"];
+    const ups = ["cupholder for tennis balls", "trampoline suspension", "confetti exhaust (paper only)", "megaphone that only says LET'S GO"];
+    const n = pick(names), c = pick(colors), u = pick(ups);
+    if (mode === "math") return "Truck: " + n + "\nColor: " + c + "\nUpgrade: " + u + "\nMath bonus: If it jumps 3 ramps and each jump is 2 points of cool, that is 3 × 2 = 6 cool points. Epic.";
+    if (mode === "silly") return "Truck: " + n + " wearing a tiny party hat.\nColor: " + c + " with polka dots.\nCrazy upgrade: " + u + " AND googly-eye headlights.\nRace rule: winner does a silly bow. Loser still gets a snack cheer.";
+    return "Garage build complete!\nName: " + n + "\nColor: " + c + "\nCrazy upgrade: " + u + "\nReady for a backyard (imaginary) race. Keep it playful — big air, bigger laughs.";
+  }
+
+  function gameReply(mode) {
+    if (mode === "math") return "Game: Sawyer Score Chase\nRules:\n1) Roll or toss the ball to a spot.\n2) Run to it before you count to 8.\n3) Every success = 1 point. First to 5 wins.\nMath: 5 points × 1 smile each = 5 smiles. Sawyer watches and judges fairly.";
+    if (mode === "silly") return "Game: Banana Ball Ballet\nRules:\n1) Bounce the ball while saying a fruit name.\n2) If you laugh, Sawyer gets a free point.\n3) Stop after 5 minutes and crown a Kindness Champ.\nPure chaos. Pure fun.";
+    return "Game: One-Ball Sawyer Watch\nRules (3 short lines):\n1) Stand across from a partner (or a wall) with one ball.\n2) Pass or bounce 10 times without dropping — Sawyer is the official watcher.\n3) If it drops, do 3 silly jumps and reset the count.\nFive minutes. Big grins. Done.";
+  }
+
+  function baseReply(starter, mode) {
+    switch (starter.id) {
+      case "robot": return robotReply(mode);
+      case "plane": return planeReply(mode);
+      case "soccer": return soccerReply(mode);
+      case "kings": return kingsReply(mode);
+      case "sawyer": return sawyerReply(mode);
+      case "truck": return truckReply(mode);
+      case "game": return gameReply(mode);
+      default: return "Let's make something fun and kind. Tap a starter card!";
+    }
+  }
+
+  function ideasReply(starter) {
+    const map = {
+      robot: ["Give your robot a Kings jersey number.", "Add a Sawyer tennis-ball launcher (soft foam only).", "Draw the robot's victory dance steps."],
+      plane: ["Race two planes and measure with footsteps.", "Decorate the wings with a purple beam.", "Try one soft throw and one medium throw."],
+      soccer: ["Invent a celebration dance for goals.", "Make a 1-minute warm-up stretch.", "Name your team something ridiculous."],
+      kings: ["Draw a Beam made of stickers.", "Make a 3-question quiz for Dad.", "Cheer practice: whisper, then loud."],
+      sawyer: ["Write chapter 2: the sock fortress.", "Draw Sawyer with the magic ball.", "Add a kind squirrel sidekick."],
+      truck: ["Design a friendly rival truck.", "Build a paper ramp.", "Invent a pit-stop snack rule."],
+      game: ["Add a quiet round for whisper passes.", "Make a trophy from paper.", "Invite Sawyer as referee (tail wags = yes)."]
+    };
+    const id = starter ? starter.id : "game";
+    const ideas = map[id] || map.game;
+    return "3 fun ideas:\n1) " + ideas[0] + "\n2) " + ideas[1] + "\n3) " + ideas[2];
+  }
+
+  function planReply(starter) {
+    const name = starter ? starter.name : "your helper";
+    return "Simple plan for " + name + ":\nStep 1: Say the goal in one short sentence.\nStep 2: Do the first tiny action (fold, pass, draw, or write).\nStep 3: Cheer, then decide the next tiny action.\nYou are already coaching yourself. Nice.";
+  }
+
+  function findReply(query) {
+    const q = (query || "").toLowerCase();
+    const hits = FIND_CARDS.filter(c => q.includes(c.q) || c.title.toLowerCase().includes(q));
+    const helpers = loadHelpers();
+    const first = (q.split(/\s+/)[0] || "");
+    const hHits = helpers.filter(h => (h.name + " " + (h.job || "")).toLowerCase().includes(first));
+    if (!q.trim()) return "Find looks inside Helper Lab only.\nTry words like: robot, plane, soccer, Kings, Sawyer, truck, game, math.\nNo websites. Just our cards.";
+    let out = "Find results (in-lab only):\n";
+    if (hits.length) hits.slice(0, 3).forEach((h, i) => { out += (i + 1) + ") " + h.title + " — " + h.body + "\n"; });
+    else out += "No card matched exactly. Here is a safe starter tip: keep it silly, kind, and short.\n";
+    if (hHits.length) out += "Your helpers: " + hHits.map(h => h.name).join(", ") + "\n";
+    out += "Still no outside links. On purpose.";
+    return out;
+  }
+
+  function customReply(helper, text) {
+    const job = (helper.job || "fun").toLowerCase();
+    const rules = (helper.rules || []).join(", ") || "Be silly";
+    return helper.name + " reporting!\nJob: " + job + "\nRules I follow: " + rules + "\n\nYou said: \"" + text.slice(0, 120) + "\"\nIdea: Let's do one tiny step right now — keep it kind, short, and a little silly. Sawyer would approve.";
+  }
+
+  function genericAsk(text, starter) {
+    const low = text.toLowerCase();
+    if (low.includes("math") || low.includes("add") || low.includes("multiply")) {
+      return "Math came to play!\nQuick one: 6 + 7 = 13. Your turn — invent a problem with soccer goals or truck jumps.\nI will cheer either way.";
+    }
+    if (starter && !starter.custom) return baseReply(starter, "normal") + "\n\n(Also heard you: I'll keep helping with " + starter.name + ".)";
+    if (starter && starter.custom) return customReply(starter, text);
+    return "Cool idea. Let's keep it kid-safe and fun.\nTry a starter card, or tell me: robots, planes, soccer, Kings, Sawyer, trucks, or games.\nI am ready when you tap Go.";
+  }
+
+  function replyFor(text) {
+    const safe = safetyCheck(text);
+    if (!safe.ok && safe.kind === "block") return "Let's steer back to fun workshop stuff — robots, Sawyer, soccer, planes, trucks, Kings, or games. Pick a starter and we go silly again!";
+    if (!safe.ok && safe.kind === "dad") return "That sounds like a grown-up help moment. Ask Dad about that one. Meanwhile, want a Sawyer story or a soccer play?";
+    if (activeTool === "ideas") return ideasReply(activeStarter);
+    if (activeTool === "plan") return planReply(activeStarter);
+    if (activeTool === "find") return findReply(text);
+    if (activeTool === "retry" && activeStarter && !activeStarter.custom) return baseReply(activeStarter, "normal");
+    if (activeStarter && !activeStarter.custom && text.trim() === activeStarter.prompt) return baseReply(activeStarter, "normal");
+    if (activeStarter && activeStarter.custom) return customReply(activeStarter, text);
+    return genericAsk(text, activeStarter);
+  }
+
+  function onChip(label) {
+    const low = label.toLowerCase();
+    if (low.includes("math")) {
+      logEvent("math_bonus", { starter: activeStarter && activeStarter.id, topic: activeStarter && activeStarter.topic, mathBonus: "accepted" });
+      const msg = (activeStarter && !activeStarter.custom) ? baseReply(activeStarter, "math") : "Math bonus: 4 + 5 = 9. Invent a problem about Sawyer's tennis balls!";
+      bubble("bot", msg);
+      return;
+    }
+    if (low.includes("sillier") || low.includes("silly")) {
+      const msg = (activeStarter && !activeStarter.custom) ? baseReply(activeStarter, "silly") : "Sillifier engaged. Add googly eyes to whatever you are making.";
+      bubble("bot", msg);
+      return;
+    }
+    if (low.startsWith("new ")) {
+      if (activeStarter && !activeStarter.custom) { elInput.value = activeStarter.prompt; doGo(); }
+      return;
+    }
+    elInput.value = label;
+    doGo();
+  }
+
+  function doGo() {
+    const text = elInput.value.trim();
+    if (!text) { bubble("sys", "Type something or tap a starter first."); return; }
+    bubble("avi", text);
+    const answer = replyFor(text);
+    bubble("bot", answer);
+    starterSuccess = true;
+    if (activeStarter) {
+      showChips(activeStarter.chips || ["Make it sillier", "Add math", "New idea"]);
+      logEvent("go", { starter: activeStarter.id, tool: activeTool, topic: activeStarter.topic });
+    } else {
+      showChips(["Make it sillier", "Add math", "New idea"]);
+      logEvent("go", { tool: activeTool });
+    }
+    maybeShowWizard();
+    if (activeTool === "retry") setTool("ask");
+  }
+
+  function maybeShowWizard() {
+    if (starterSuccess) elWizard.classList.remove("hidden");
+  }
+
+  function loadHelpers() {
+    try { const raw = localStorage.getItem("avi-my-helpers"); return raw ? JSON.parse(raw) : []; }
+    catch (_) { return []; }
+  }
+  function saveHelpers(list) { localStorage.setItem("avi-my-helpers", JSON.stringify(list)); }
+
+  function paintMine() {
+    const list = loadHelpers();
+    elMine.innerHTML = "";
+    if (!list.length) { elMine.innerHTML = '<span class="hl-empty">None yet. Finish a starter, then Save.</span>'; return; }
+    list.forEach((h, idx) => {
+      const b = document.createElement("button");
+      b.type = "button";
+      b.className = "hl-saved";
+      b.innerHTML = '<span class="ico">' + (h.icon || "⭐") + "</span>" + h.name;
+      b.addEventListener("click", () => {
+        activeStarter = { id: "custom-" + idx, name: h.name, icon: h.icon, topic: h.job, custom: true, job: h.job, rules: h.rules, chips: ["Make it sillier", "Add math", "New idea"], prompt: "Help me with " + (h.job || "fun") + " using these rules: " + (h.rules || []).join(", ") };
+        elInput.value = activeStarter.prompt;
+        bubble("sys", "Loaded " + h.name + ". Hit Go!");
+        setTool("ask");
+        logEvent("load_helper", { helperName: h.name, topic: h.job });
+      });
+      elMine.appendChild(b);
+    });
+  }
+
+  function selectStarter(s, autoGo) {
+    activeStarter = s;
+    document.querySelectorAll(".hl-card").forEach(c => c.classList.toggle("on", c.dataset.id === s.id));
+    elInput.value = s.prompt;
+    elBlurb.textContent = "First idea is ready. Tap Go!";
+    setTool("ask");
+    logEvent("starter", { starter: s.id, topic: s.topic });
+    if (autoGo) doGo();
+  }
+
+  STARTERS.forEach(s => {
+    const card = document.createElement("div");
+    card.className = "hl-card";
+    card.dataset.id = s.id;
+    card.tabIndex = 0;
+    card.innerHTML = '<div class="ico">' + s.icon + '</div><div class="ttl">' + s.name + '</div><div class="one">' + s.one + '</div><button type="button" class="go-mini">Go</button>';
+    card.addEventListener("click", (e) => { const go = e.target.classList.contains("go-mini"); selectStarter(s, go); });
+    card.addEventListener("keydown", (e) => { if (e.key === "Enter") selectStarter(s, true); });
+    elStarters.appendChild(card);
+  });
+
+  TOOLS.forEach(t => {
+    const b = document.createElement("button");
+    b.type = "button";
+    b.className = "hl-tool" + (t.id === "ask" ? " on" : "");
+    b.dataset.tool = t.id;
+    b.textContent = t.label;
+    b.addEventListener("click", () => {
+      setTool(t.id);
+      if (t.id === "new") {
+        activeStarter = null;
+        document.querySelectorAll(".hl-card").forEach(c => c.classList.remove("on"));
+        elInput.value = "";
+        clearChips();
+        bubble("sys", "Fresh start! Pick a starter or build your own below.");
+        elWizard.classList.remove("hidden");
+        return;
+      }
+      if (t.id === "save") { elWizard.classList.remove("hidden"); elName.focus(); bubble("sys", "Name your helper and tap Save."); return; }
+      if (t.id === "ideas" || t.id === "plan") { elInput.value = activeStarter ? activeStarter.prompt : "ideas"; doGo(); return; }
+      if (t.id === "find") { elInput.value = activeStarter ? activeStarter.topic : "Sawyer"; elInput.focus(); bubble("sys", "Find is ready. Type a word like robot or Kings, then Go."); return; }
+      if (t.id === "retry") {
+        if (activeStarter) { elInput.value = activeStarter.prompt; doGo(); }
+        else bubble("sys", "Pick a starter first, then Retry.");
+      }
+    });
+    b.addEventListener("mouseenter", () => { elBlurb.textContent = t.blurb; });
+    elTools.appendChild(b);
+  });
+
+  JOB_CHIPS.forEach(j => {
+    const b = document.createElement("button");
+    b.type = "button";
+    b.className = "hl-chip";
+    b.textContent = j;
+    b.addEventListener("click", () => {
+      selectedJob = j;
+      elJob.querySelectorAll(".hl-chip").forEach(x => x.classList.toggle("on", x === b));
+      logEvent("topic_chip", { topic: j });
+    });
+    elJob.appendChild(b);
+  });
+  RULE_CHIPS.forEach(r => {
+    const b = document.createElement("button");
+    b.type = "button";
+    b.className = "hl-chip";
+    b.textContent = r;
+    b.addEventListener("click", () => {
+      if (selectedRules.includes(r)) { selectedRules = selectedRules.filter(x => x !== r); b.classList.remove("on"); }
+      else if (selectedRules.length < 3) { selectedRules.push(r); b.classList.add("on"); }
+    });
+    elRules.appendChild(b);
+  });
+
+  elSave.addEventListener("click", () => {
+    const name = (elName.value || "").trim();
+    if (!name) { bubble("sys", "Give it a silly name first."); return; }
+    if (!selectedJob) { bubble("sys", "Pick a job chip first."); return; }
+    const iconMap = { robots: "🤖", planes: "✈️", soccer: "⚽", Kings: "👑", Sawyer: "🐕", trucks: "🚛", games: "🎲", math: "🔢", other: "⭐" };
+    const helper = { name: name.slice(0, 24), job: selectedJob, rules: selectedRules.slice(0, 3), icon: iconMap[selectedJob] || "⭐", savedAt: new Date().toISOString() };
+    const list = loadHelpers();
+    list.push(helper);
+    saveHelpers(list);
+    paintMine();
+    logEvent("save", { helperName: helper.name, topic: helper.job, tool: "save" });
+    bubble("bot", "Saved! " + helper.name + " is in My Helpers. Tap it anytime.");
+    elName.value = "";
+  });
+
+  elGo.addEventListener("click", doGo);
+  elInput.addEventListener("keydown", (e) => {
+    if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); doGo(); }
+  });
+
+  paintMine();
+  logEvent("session_start", {});
+})();
+
+/* ---- Friend guest accounts (Avi-created only) ---- */
+(function () {
+  const RESERVED = new Set(["avi", "dad", "mom", "joshua", "josh", "admin", "root", "owner", "scott", "sister"]);
+  const GUEST_KEY = "avi-fun-guests";
+
+  // Kid-safe password blocklist (substring match, lowercased)
+  const BAD_WORDS = [
+    "fuck","shit","asshole","bitch","bastard","damn","crap","piss","dick","cock","pussy","cunt",
+    "sex","sexy","porn","nude","naked","boob","penis","vagina","rape","molest",
+    "nigger","nigga","faggot","retard","slut","whore","hitler","nazi",
+    "kill","murder","suicide","diehard","gun","weapon","bomb","terror",
+    "hate","racist"
+  ];
+
+  function loadGuests() {
+    try {
+      const raw = localStorage.getItem(GUEST_KEY);
+      const list = raw ? JSON.parse(raw) : [];
+      return Array.isArray(list) ? list : [];
+    } catch (_) { return []; }
+  }
+  function saveGuests(list) {
+    localStorage.setItem(GUEST_KEY, JSON.stringify(list));
+  }
+
+  function looksLikePhone(s) {
+    const digits = String(s).replace(/\D/g, "");
+    return digits.length >= 10 && digits.length <= 15;
+  }
+  function looksLikeAddress(s) {
+    return /\d{1,5}\s+\w+/.test(s) && /\b(st|street|ave|avenue|rd|road|blvd|lane|ln|dr|drive)\b/i.test(s);
+  }
+  function passwordOk(pass) {
+    const p = String(pass || "");
+    if (p.length < 4) return { ok: false, reason: "short" };
+    if (p.length > 32) return { ok: false, reason: "long" };
+    const low = p.toLowerCase();
+    for (const w of BAD_WORDS) {
+      if (low.includes(w)) return { ok: false, reason: "word" };
+    }
+    if (looksLikePhone(p)) return { ok: false, reason: "phone" };
+    if (looksLikeAddress(p)) return { ok: false, reason: "address" };
+    // block obvious full-name style: two+ capitalized words mashed
+    if (/\b(school|password|address|phone)\b/i.test(p)) return { ok: false, reason: "secret" };
+    return { ok: true };
+  }
+  function usernameOk(name) {
+    const n = String(name || "").trim().toLowerCase();
+    if (!/^[a-z][a-z0-9_]{2,15}$/.test(n)) return { ok: false, reason: "format" };
+    if (RESERVED.has(n)) return { ok: false, reason: "reserved" };
+    if (USERS[n]) return { ok: false, reason: "reserved" };
+    const guests = loadGuests();
+    if (guests.some(g => g.user === n)) return { ok: false, reason: "taken" };
+    for (const w of BAD_WORDS) {
+      if (n.includes(w)) return { ok: false, reason: "word" };
+    }
+    return { ok: true };
+  }
+
+  window.__aviLoadGuests = loadGuests;
+  window.__aviFindGuest = async function (name, pass) {
+    const n = String(name || "").trim().toLowerCase();
+    const hash = await digest(pass);
+    const g = loadGuests().find(x => x.user === n && x.hash === hash);
+    return g || null;
+  };
+
+  function flashTongue(el) {
+    if (!el) return;
+    el.innerHTML = '<span class="tongue-flash" aria-hidden="true">😛</span> Be a good boy and try a fun password instead!';
+    el.classList.add("nope-flash");
+    setTimeout(() => el.classList.remove("nope-flash"), 1800);
+  }
+
+  function paintGuestList() {
+    const box = document.getElementById("guest-list");
+    if (!box) return;
+    const list = loadGuests();
+    box.innerHTML = "";
+    if (!list.length) {
+      box.innerHTML = '<span class="hl-empty">No friend logins yet.</span>';
+      return;
+    }
+    list.forEach(g => {
+      const row = document.createElement("div");
+      row.className = "guest-row";
+      row.innerHTML = '<span class="guest-name">' + g.user + '</span>';
+      const rev = document.createElement("button");
+      rev.type = "button";
+      rev.className = "guest-revoke";
+      rev.textContent = "Revoke";
+      rev.addEventListener("click", () => {
+        const next = loadGuests().filter(x => x.user !== g.user);
+        saveGuests(next);
+        paintGuestList();
+      });
+      row.appendChild(rev);
+      box.appendChild(row);
+    });
+  }
+
+  window.__aviPaintGuests = paintGuestList;
+  window.__aviFlashTongue = flashTongue;
+  window.__aviPasswordOk = passwordOk;
+  window.__aviUsernameOk = usernameOk;
+
+  const form = document.getElementById("guest-form");
+  if (form) {
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const msg = document.getElementById("guest-msg");
+      const role = sessionStorage.getItem("avi-fun-role");
+      if (role !== "avi") {
+        msg.textContent = "Only Avi can invite friends.";
+        return;
+      }
+      const user = document.getElementById("guest-user").value.trim().toLowerCase();
+      const pass = document.getElementById("guest-pass").value;
+      const uOk = usernameOk(user);
+      if (!uOk.ok) {
+        if (uOk.reason === "reserved") msg.textContent = "That name is saved for family. Pick a friend nickname.";
+        else if (uOk.reason === "taken") msg.textContent = "That friend name is already used. Try another.";
+        else msg.textContent = "Friend name: start with a letter, 3–16 letters/numbers.";
+        return;
+      }
+      const pOk = passwordOk(pass);
+      if (!pOk.ok) {
+        flashTongue(msg);
+        return;
+      }
+      const hash = await digest(pass);
+      const list = loadGuests();
+      list.push({ user: user, hash: hash, createdAt: new Date().toISOString() });
+      saveGuests(list);
+      document.getElementById("guest-user").value = "";
+      document.getElementById("guest-pass").value = "";
+      msg.textContent = "Friend login ready: " + user + ". Tell them the password in person.";
+      msg.classList.remove("nope-flash");
+      paintGuestList();
+    });
+  }
+})();
+
 const saved = sessionStorage.getItem("avi-fun-role");
+const savedGuest = sessionStorage.getItem("avi-fun-guest");
 if (saved === "avi" || saved === "dad") showApp(saved);
+else if (saved === "guest") showApp("guest", savedGuest || "friend");
+
 </script>
 </body>
 </html>
