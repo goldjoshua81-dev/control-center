@@ -3,8 +3,8 @@
     "title": "Fresh $$ Control Center",
     "owner": "Joshua",
     "assistant": "Fresh $$",
-    "last_updated": "2026-10-05T21:54:25-07:00",
-    "status_note": "Nightly update Mon Oct 5, 2026 ~9:55 PM PT (Chief of Staff Mon Oct 5 roll-up + lane files). Revenue $0 in every lane; no new spend. Recurring plan costs $260/month (Grok Bot Ultra $200 + Pro+ $60). PrintPlz: 80 active, 0 orders, Batch 2 all live, audits clean (54/54 sync), Cyber Week + Christmas plans set; build-hold lift approved for build/list only, not used yet. HostFees: weekly check-up clean, 15 of 49 pins; Vrbo wording updated but redeploy BLOCKED until Joshua signs in to Cloudflare + GitHub on the box (before Oct 13). WebsitePlz: speed fix (98/99), Fiverr assets ready. Cat Bundle: earn-in path, SSM 4.2/10 (4.8 as earn-in); follow-up Wed Oct 7 9:01 AM. Scott Bot: Million-Dollar Plan, profile backups, Gold HQ Sync, Family Gem site live. Other account: LATE roll-up (Oct 5, 9:23 PM PT), verified."
+    "last_updated": "2026-10-06T08:53:10-07:00",
+    "status_note": "Morning refresh Tue Oct 6, 2026 ~8:55 AM PT (Etsy Shop Manager read by PrintPlz at 8:38 AM + lane files). Revenue $0 in every lane; no new spend. Recurring plan costs $260/month (Grok Bot Ultra $200 + Pro+ $60). PrintPlz: 80 active / 1 draft / 2 inactive, 0 orders, 34 views / 27 visits last 7 days (up from 30 / 23), audits clean (54/54 sync). WebsitePlz: Fiverr + Contra accounts created Oct 5; profiles + first gig next. HostFees: 15 of 49 pins, redeploy still BLOCKED until Joshua signs in to Cloudflare + GitHub on the box (before Oct 13). Deal Scout Oct 6: top pick unchanged; new Track B standout (wallets & belts brand on Quiet Light). Cat Bundle follow-up Wed Oct 7 9:01 AM. Other account: latest verified roll-up is Oct 5, 9:23 PM PT (late); nothing newer."
   },
   "budget": {
     "starting_capital": 1000,
@@ -82,13 +82,13 @@
       "type": "For-moms print-on-demand gifts: mom shirts, teacher shirts, kids stickers, holiday party items, ornaments",
       "platform": "Etsy + Printful",
       "status": "live",
-      "status_note": "Shop Manager Oct 5 ~9:00 AM PT: 80 active / 1 draft / 0 expired / 2 inactive (+1 active vs Oct 4 morning: X29 relisted). 0 orders / $0, 0 unread messages. Last 7 days (Sep 29 - Oct 5): 30 views / 23 visits; visits came from direct/referral 14, Etsy app/pages 8, social 1, Etsy Search 0. Most viewed: Pet Name Mug (7), From Santa gift tags (5). AM audit loop Oct 5 passed: 54/54 Printful sync OK, Halloween spot-check PASS (W1, TB1, TF1), photo-ornament personalization wording confirmed. Batch 2 items all live. Build hold still on (K6/K7 unpublished). Etsy Ads planned Oct 16. Offsite Ads off. Chief of Staff Mon Oct 5 roll-up: Batch 2 all live; audits clean (54/54 sync); Cyber Week and Christmas plans set; build-hold lift approved by Joshua for build/list only, not used yet. $0 revenue, no new spend.",
+      "status_note": "Shop Manager Oct 6 ~8:38 AM PT: 80 active / 1 draft / 0 expired / 2 inactive (unchanged vs Oct 5). 0 orders / $0, 0 unread messages. Last 7 days (Sep 30 - Oct 6): 34 views / 27 visits (up from 30 / 23 for Sep 29 - Oct 5); visits came from direct/referral 18, Etsy app/pages 8, social 1, Etsy Search 0. Most viewed: Pet Name Mug (7), From Santa gift tags (5), Thankful for Coffee mug (3), Our First Christmas ornament (3). AM audit loop Oct 6 passed: 54/54 Printful sync OK, listing lint clean; X1/X2/X3 personalization now asks buyers to type names capitalized as they want them printed (verified live). Order check 8:38 AM: 0 Etsy orders, 0 Printful drafts. Build hold still on (K6/K7 unpublished). Etsy Ads planned Oct 16. Offsite Ads off. $0 revenue, no new spend.",
       "url": "https://www.etsy.com/shop/PrintPlzShop",
       "orders": 0,
       "revenue": 0,
       "profit": 0,
-      "views": 30,
-      "visits": 23,
+      "views": 34,
+      "visits": 27,
       "listings_live": 80,
       "listings_drafted": 1,
       "top_products": [
@@ -567,7 +567,7 @@
           "price": "see listing"
         }
       ],
-      "one_liner": "80 live · 0 orders · Batch 2 all live · audits clean · Cyber Week + Christmas plans set · hold lift approved (build/list only, not used)"
+      "one_liner": "Live · 80 active · 0 orders · 34 views / 27 visits (7d) · audits clean Oct 6"
     },
     {
       "id": "shop-2",
@@ -837,8 +837,8 @@
       "rank": 2
     },
     {
-      "task": "Create Fiverr and Contra seller accounts for WebsitePlz",
-      "why": "Send the profile links to WebsitePlz; the site's Fiverr/Contra buttons stay hidden until then. Gig descriptions are already written.",
+      "task": "Finish the Fiverr and Contra profiles and publish the first WebsitePlz gig",
+      "why": "Both seller accounts were created Mon Oct 5. Gig copy and images are ready from WebsitePlz; send the profile links to WebsitePlz so the site's Fiverr/Contra buttons can go live.",
       "priority": "high",
       "done": false,
       "rank": 1
@@ -852,7 +852,7 @@
     },
     {
       "task": "Unlock the traffic tiles",
-      "why": "Cloudflare token: add Account › Account Analytics › Read (HostFees visits) and Workers Scripts Edit (WebsitePlz contact-form mailer). Turn on Cloudflare Web Analytics for websiteplz.com. Plus Pinterest impressions and other-account shop views.",
+      "why": "Cloudflare token: add Account › Account Analytics › Read (HostFees + WebsitePlz visits) and Workers Scripts Edit (WebsitePlz contact-form mailer). Web Analytics is already on for websiteplz.com (seen via the Cloudflare API Oct 6). Still needed too: Pinterest impressions and other-account shop views (requested from the other account Oct 6).",
       "priority": "high",
       "done": false,
       "rank": 3
@@ -914,7 +914,7 @@
       "type": "Short-term-rental fee calculators, explainers, and gift guides",
       "status": "live",
       "url": "https://hostfees.com",
-      "status_note": "Renamed from HostSums. LIVE at hostfees.com (HTTP 200 reconfirmed morning of Oct 4, 2026). Latest live audit records 27 pages: 5 calculators, 3 gift guides and 10 fee explainers. hostfees.com is claimed on Pinterest (verified); 15 of 49 pins are live (posted-pins log; 3 posted each day Oct 1–5, latest Oct 5 AM). Turno affiliate link live; Amazon Associates still not done; traffic tiles still locked (no invented HostFees visit numbers). Lodgify affiliate application pending (Chief of Staff, Oct 3). Weekly check-up running today (Mon Oct 5, 8:47 AM PT). Today's 3 pins post ~10:06 AM PT (in progress). Weekly check-up Mon Oct 5 clean (live audit 0 errors; Lighthouse mobile 99/100/100/100 on 4 pages). Vrbo changed its help page, so the wording on 3 pages + the Fee Index was updated in the rebuilt site files. Redeploy BLOCKED: the box browser's Cloudflare session expired and GitHub sign-in fails; Joshua must sign in on the box before Oct 13 (Airbnb EEA/Switzerland deadline), so the Vrbo update is not live yet.",
+      "status_note": "Renamed from HostSums. LIVE at hostfees.com (HTTP 200 reconfirmed morning of Oct 4, 2026). Latest live audit records 27 pages: 5 calculators, 3 gift guides and 10 fee explainers. hostfees.com is claimed on Pinterest (verified); 15 of 49 pins are live (posted-pins log; 3 posted each day Oct 1–5, latest Oct 5 AM). Turno affiliate link live; Amazon Associates still not done; traffic tiles still locked (no invented HostFees visit numbers). Lodgify affiliate application pending (Chief of Staff, Oct 3). Weekly check-up Mon Oct 5 clean (live audit 0 errors; Lighthouse mobile 99/100/100/100 on 4 pages). Vrbo changed its help page, so the wording on 3 pages + the Fee Index was updated in the rebuilt site files. Redeploy BLOCKED: the box browser's Cloudflare session expired and GitHub sign-in fails; Joshua must sign in on the box before Oct 13 (Airbnb EEA/Switzerland deadline), so the Vrbo update is not live yet. Oct 6 morning: hostfees.com HTTP 200; today's 3 pins post ~10:06 AM PT (in progress); redeploy still blocked on the box sign-in. Google Search Console started collecting hostfees.com search data Oct 2 (Google email Oct 5).",
       "pages": 27,
       "calculators": 5,
       "gift_guides": 3,
@@ -927,7 +927,7 @@
       "pinterest_claimed": true,
       "turno_status": "live; affiliate link on hostfees.com (https://share.turno.com/69pllwz)",
       "hostaway_status": "declined for now; revisit in 4–6 weeks with traffic numbers",
-      "one_liner": "Live · 15 of 49 pins · weekly check-up clean · Vrbo update built, redeploy BLOCKED until Joshua's box sign-in (before Oct 13) · $0 revenue"
+      "one_liner": "Live · 15 of 49 pins (today's 3 at ~10:06 AM) · Vrbo update built, redeploy BLOCKED until Joshua's box sign-in (before Oct 13) · $0 revenue"
     },
     {
       "id": "deal-scout",
@@ -935,11 +935,11 @@
       "type": "Business acquisition research",
       "status": "research only",
       "url": "",
-      "status_note": "Research only. Daily runs on disk Oct 1-5. Latest run Mon Oct 5 (~8:07-8:25 AM PT): ~365 listings reviewed (311 Flippa cards; 14 new, 8 gone; new source Investors Club), 19 ranked. Top pick still bottes-presso.fr ($4,547 ask, EUR 1,342/mo listed, score 4.05), then Marble Tracks, Rewired (stretch; 30d $714, 14 offers), Letras Bonitas Hub, SEO Supremacy. New big listings (AntiSpy iOS app, motorcycle Facebook pages) have reserves well over budget. Nothing worth acting on closes in 48 hours; Objectif Evasion and Crypto Dist end ~Oct 9. No bids, offers or purchases. Priority project: Cat Bundle ops partnership (Flippa #13421685); broker Q&A in, Joshua replied Oct 5, follow-up due Wed Oct 7 9:01 AM PT.",
+      "status_note": "Research only. Daily runs on disk Oct 1-6. Latest run Tue Oct 6 (~8:05-8:35 AM PT): ~470 items reviewed (314 Flippa cards, 13 new, 10 gone; TrustMRR, Investors Club, Quiet Light). Top pick still bottes-presso.fr ($4,547 ask, EUR 1,342/mo listed), then Marble Tracks, Rewired (stretch; 30d $798, down 49.9%), SEO Supremacy. Two ranked listings sold (Letras Bonitas Hub, Dutch Bros Menu). No ranked candidate closes within 48 hours; Objectif Evasion, Crypto Dist and Vehicle Tax end ~Fri Oct 9. New Track B standout: a 20-year men's wallets & belts Amazon brand on Quiet Light (listing 13546165, accepting offers; $942,119 revenue / $12,703 income as listed; about half its SKUs out of stock; owners focused elsewhere). Brand is anonymized, so Best Sellers Rank can't be read until an NDA summary. Structure note: Amazon's Aug 24, 2026 seller-agreement change rules out account handovers or claims on payouts, so any earn-in should be equity or a services deal with the owning company (verify with counsel). No bids, offers or purchases. Priority project: Cat Bundle ops partnership (Flippa #13421685); follow-up due Wed Oct 7 9:01 AM PT.",
       "budget_limit": "$5,000",
       "revenue": 0,
       "profit": 0,
-      "one_liner": "PRIORITY: Cat Bundle follow-up Wed Oct 7 9:01 AM · Ran Oct 5 · top pick bottes-presso.fr · nothing new beats it"
+      "one_liner": "PRIORITY: Cat Bundle follow-up Wed Oct 7 9:01 AM · Ran Oct 6 · top pick bottes-presso.fr · new Track B standout: wallets & belts brand (Quiet Light)"
     },
     {
       "id": "websiteplz",
@@ -947,8 +947,8 @@
       "type": "Websites for local trades (HVAC, plumbing, electric, pressure washing, house cleaning)",
       "status": "live",
       "url": "https://websiteplz.com",
-      "status_note": "websiteplz.com is live; sitesplz.com redirects to it. Sales upgrade live Oct 4: See-It-First Guarantee, 50% deposits, $1,495 includes 6 months of Care, Terms/Privacy/Refunds pages, and private mockup links (noindex). Cleaning and pressure-washing package name decided: \"Booking-ready\". Psych model skill saved. 5 trade pages and 5 blog guides live; Google Search Console verified; 0 of 821 links broken; Lighthouse 97–100. Waiting on Joshua: Fiverr and Contra seller accounts, Stripe deposit links ($124.50 / $562.50 / $747.50) and a review of the legal pages before Stripe goes live. $0 revenue. Chief of Staff Mon Oct 5 roll-up: speed fix live (98/99); Fiverr assets ready (accounts still waiting on Joshua).",
-      "one_liner": "Live · speed fix (98/99) · Fiverr assets ready · Fiverr + Contra accounts, Stripe deposit links, legal review waiting on Joshua · $0 revenue",
+      "status_note": "websiteplz.com is live; sitesplz.com redirects to it. Sales upgrade live Oct 4: See-It-First Guarantee, 50% deposits, $1,495 includes 6 months of Care, Terms/Privacy/Refunds pages, and private mockup links (noindex). Cleaning and pressure-washing package name decided: \"Booking-ready\". Psych model skill saved. 5 trade pages and 5 blog guides live; Google Search Console verified; 0 of 821 links broken; Lighthouse 97–100. Fiverr and Contra seller accounts were created Mon Oct 5 (welcome/sign-in emails); profiles and the first gig still need publishing. Waiting on Joshua: Stripe deposit links ($124.50 / $562.50 / $747.50) and a review of the legal pages before Stripe goes live. $0 revenue. Chief of Staff Mon Oct 5 roll-up: speed fix live (98/99); Fiverr assets ready (accounts still waiting on Joshua).",
+      "one_liner": "Live · speed fix (98/99) · Fiverr + Contra accounts created Oct 5 · next: finish profiles + publish first gig · Stripe deposit links + legal review waiting on Joshua · $0 revenue",
       "bot": "WebsitePlz",
       "bot_id": "e58826be-250d-4953-b472-9f0e1836bd42",
       "trade_pages": 5,
@@ -1910,7 +1910,7 @@
       "secondary": "views",
       "status": "not tracked yet",
       "cf_host": "websiteplz.com",
-      "needs": "No analytics on websiteplz.com yet. Turn on Cloudflare Web Analytics for websiteplz.com (Cloudflare › Analytics & Logs › Web Analytics › Add site, automatic setup), plus the same token permission as HostFees."
+      "needs": "Cloudflare Web Analytics is on for websiteplz.com (seen via the Cloudflare API, Oct 6), but the box's Cloudflare API token can't read analytics. Add Account › Account Analytics › Read to that token."
     },
     {
       "id": "moonlettermira",
@@ -1997,6 +1997,22 @@
       "value": 23,
       "window": "7d",
       "method": "Etsy Shop Manager stats, Last 7 Days Sep 29 - Oct 5 (data/printplz-live-listings.json)"
+    },
+    {
+      "date": "2026-10-06T08:38:00-07:00",
+      "source": "printplz",
+      "metric": "views",
+      "value": 34,
+      "window": "7d",
+      "method": "Etsy Shop Manager stats, Last 7 Days Sep 30 - Oct 6 (data/printplz-live-listings.json)"
+    },
+    {
+      "date": "2026-10-06T08:38:00-07:00",
+      "source": "printplz",
+      "metric": "visits",
+      "value": 27,
+      "window": "7d",
+      "method": "Etsy Shop Manager stats, Last 7 Days Sep 30 - Oct 6 (data/printplz-live-listings.json)"
     }
   ],
   "decisions_pending": [
@@ -2017,6 +2033,12 @@
       "lane": "Deal Scout",
       "recommended": "Yes",
       "note": "Top pick; research only until you say go."
+    },
+    {
+      "decision": "Look closer at the Quiet Light wallets & belts brand (listing 13546165) as an earn-in",
+      "lane": "Deal Scout",
+      "recommended": "Your call",
+      "note": "Flagged Oct 6 as a standout ops fit; needs P&L, account-health and stock-history proof (NDA) before any pitch. Research only."
     },
     {
       "decision": "Domain test: $120–170 for 10 names before the Nov 1 .com price rise",
