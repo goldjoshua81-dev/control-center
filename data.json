@@ -3,8 +3,8 @@
     "title": "Fresh $$ Control Center",
     "owner": "Joshua",
     "assistant": "Fresh $$",
-    "last_updated": "2026-10-06T10:51:27-07:00",
-    "status_note": "Traffic tiles update Tue Oct 6, 2026 ~10:51 AM PT. HostFees Cloudflare last 7d: 399 visits / 412 views; WebsitePlz Cloudflare last 7d: 796 visits / 802 views (Account Analytics Read unlocked ~10:49 PT; collected via traffic.py). PrintPlz: 80 active / 1 draft / 2 inactive, 0 orders, 34 views / 27 visits last 7 days (Shop Manager 8:38 AM PT). Family Gem (other account): 0 visits last 7 days as of Oct 6 8:37 PT; Mira traffic still pending Etsy sign-in. HostFees Pinterest impressions still not tracked. Revenue $0 in every lane; recurring plan costs $260/month (Grok Bot Ultra $200 + Pro+ $60). HostFees redeploy still BLOCKED until Joshua signs in to Cloudflare + GitHub on the box (before Oct 13). WebsitePlz: Fiverr + Contra accounts created Oct 5; profiles + first gig next."
+    "last_updated": "2026-10-06T13:01:18-07:00",
+    "status_note": "Cat Bundle (Flippa #13421685) PASSED / closed Oct 6, 2026 (Joshua — too many obstacles, unverified income; no offer). Next Deal Scout focus: Quiet Light cosmetics/Amazon FBA shortlist refresh. Traffic tiles update Tue Oct 6, 2026 ~10:51 AM PT. HostFees Cloudflare last 7d: 399 visits / 412 views; WebsitePlz Cloudflare last 7d: 796 visits / 802 views (Account Analytics Read unlocked ~10:49 PT; collected via traffic.py). PrintPlz: 80 active / 1 draft / 2 inactive, 0 orders, 34 views / 27 visits last 7 days (Shop Manager 8:38 AM PT). Family Gem (other account): 0 visits last 7 days as of Oct 6 8:37 PT; Mira traffic still pending Etsy sign-in. HostFees Pinterest impressions still not tracked. Revenue $0 in every lane; recurring plan costs $260/month (Grok Bot Ultra $200 + Pro+ $60). HostFees redeploy still BLOCKED until Joshua signs in to Cloudflare + GitHub on the box (before Oct 13). WebsitePlz: Fiverr + Contra accounts created Oct 5; profiles + first gig next."
   },
   "budget": {
     "starting_capital": 1000,
@@ -739,7 +739,7 @@
     }
   ],
   "acquisitions": {
-    "note": "Watch only. Figures are seller/listing claims or research notes, not verified by us. No accounts, bids, offers, seller contact, purchases or acquisitions. Latest Deal Scout run Mon Oct 5: top pick bottes-presso.fr (unchanged), then Marble Tracks, Rewired (stretch), Letras Bonitas Hub. Exception: Joshua is talking with the broker on the Cat Bundle ops partnership (Flippa #13421685); no offer made.",
+    "note": "Watch only. Figures are seller/listing claims or research notes, not verified by us. No accounts, bids, offers, seller contact, purchases or acquisitions. Latest Deal Scout run Mon Oct 5: top pick bottes-presso.fr (unchanged), then Marble Tracks, Rewired (stretch), Letras Bonitas Hub. Cat Bundle (Flippa #13421685) PASSED Oct 6, 2026 — Joshua declined (too many obstacles, unverified income); no offer made. Research-only watchlist continues.",
     "source": "Deal Scout run files 2026-10-01 to 10-05 (latest: 2026-10-05-run.md, ~8:07-8:25 AM PT)",
     "watchlist": [
       {
@@ -886,11 +886,11 @@
       "rank": 6
     },
     {
-      "task": "Oct 7: send the Cat Bundle follow-up in Flippa (Deal Scout drafts)",
-      "why": "Priority project. Deal Scout delivers the earn-in-to-buyout follow-up by Wed Oct 7, 9:01 AM PT; you send it to the broker in Flippa.",
+      "task": "CANCELLED: Cat Bundle Flippa follow-up (PASSED Oct 6)",
+      "why": "Joshua passed Oct 6, 2026 — too many obstacles, unverified income. No offer made. Closed; no Wed Oct 7 follow-up.",
       "priority": "high",
-      "done": false,
-      "pinned": true
+      "done": true,
+      "pinned": false
     },
     {
       "task": "Sign in to Cloudflare and GitHub in the box browser (HostFees redeploy)",
@@ -905,6 +905,12 @@
       "priority": "high",
       "done": false,
       "rank": 5
+    },
+    {
+      "task": "Review Deal Scout Quiet Light cosmetics/Amazon FBA shortlist when ready",
+      "why": "Cat Bundle PASSED Oct 6. Deal Scout is rebuilding the live shortlist for Quiet Light cosmetics/Amazon FBA (modest ask, clean numbers).",
+      "priority": "medium",
+      "done": false
     }
   ],
   "projects": [
@@ -935,11 +941,11 @@
       "type": "Business acquisition research",
       "status": "research only",
       "url": "",
-      "status_note": "Research only. Daily runs on disk Oct 1-6. Latest run Tue Oct 6 (~8:05-8:35 AM PT): ~470 items reviewed (314 Flippa cards, 13 new, 10 gone; TrustMRR, Investors Club, Quiet Light). Top pick still bottes-presso.fr ($4,547 ask, EUR 1,342/mo listed), then Marble Tracks, Rewired (stretch; 30d $798, down 49.9%), SEO Supremacy. Two ranked listings sold (Letras Bonitas Hub, Dutch Bros Menu). No ranked candidate closes within 48 hours; Objectif Evasion, Crypto Dist and Vehicle Tax end ~Fri Oct 9. New Track B standout: a 20-year men's wallets & belts Amazon brand on Quiet Light (listing 13546165, accepting offers; $942,119 revenue / $12,703 income as listed; about half its SKUs out of stock; owners focused elsewhere). Brand is anonymized, so Best Sellers Rank can't be read until an NDA summary. Structure note: Amazon's Aug 24, 2026 seller-agreement change rules out account handovers or claims on payouts, so any earn-in should be equity or a services deal with the owning company (verify with counsel). No bids, offers or purchases. Priority project: Cat Bundle ops partnership (Flippa #13421685); follow-up due Wed Oct 7 9:01 AM PT.",
+      "status_note": "Research only. Daily runs on disk Oct 1-6. Latest run Tue Oct 6 (~8:05-8:35 AM PT): ~470 items reviewed (314 Flippa cards, 13 new, 10 gone; TrustMRR, Investors Club, Quiet Light). Top pick still bottes-presso.fr ($4,547 ask, EUR 1,342/mo listed), then Marble Tracks, Rewired (stretch; 30d $798, down 49.9%), SEO Supremacy. Two ranked listings sold (Letras Bonitas Hub, Dutch Bros Menu). No ranked candidate closes within 48 hours; Objectif Evasion, Crypto Dist and Vehicle Tax end ~Fri Oct 9. New Track B standout: a 20-year men's wallets & belts Amazon brand on Quiet Light (listing 13546165, accepting offers; $942,119 revenue / $12,703 income as listed; about half its SKUs out of stock; owners focused elsewhere). Brand is anonymized, so Best Sellers Rank can't be read until an NDA summary. Structure note: Amazon's Aug 24, 2026 seller-agreement change rules out account handovers or claims on payouts, so any earn-in should be equity or a services deal with the owning company (verify with counsel). No bids, offers or purchases. Cat Bundle (Flippa #13421685) PASSED Oct 6, 2026 (Joshua — obstacles / unverified income; no offer). Next focus: Quiet Light cosmetics/Amazon FBA shortlist refresh (modest ask, clean numbers); Deal Scout rebuilding live shortlist.",
       "budget_limit": "$5,000",
       "revenue": 0,
       "profit": 0,
-      "one_liner": "PRIORITY: Cat Bundle follow-up Wed Oct 7 9:01 AM · Ran Oct 6 · top pick bottes-presso.fr · new Track B standout: wallets & belts brand (Quiet Light)"
+      "one_liner": "Cat Bundle PASSED Oct 6 · next Quiet Light cosmetics/Amazon FBA shortlist refresh · Ran Oct 6 · top pick bottes-presso.fr · wallets & belts Track B standout"
     },
     {
       "id": "websiteplz",
@@ -1532,10 +1538,10 @@
     },
     {
       "date": "2026-10-07",
-      "date_display": "Wed Oct 7, 2026 · 9:01 AM PT",
-      "event": "PRIORITY: Cat Bundle follow-up (Flippa #13421685)",
-      "details": "Deal Scout delivers the earn-in-to-buyout follow-up; Joshua sends it in Flippa.",
-      "source": "Deal Scout + Joshua"
+      "date_display": "Wed Oct 7, 2026",
+      "event": "Deal Scout ops shortlist refresh (Quiet Light cosmetics / Amazon FBA)",
+      "details": "Cat Bundle PASSED Oct 6. Next: Quiet Light cosmetics/Amazon FBA lane — modest ask, clean numbers. Deal Scout rebuilding shortlist.",
+      "source": "Deal Scout"
     },
     {
       "date": "2026-10-06",
@@ -2141,12 +2147,12 @@
       "id": "cat-bundle",
       "name": "Cat Bundle ops partnership (Flippa #13421685, Marlenespetshop)",
       "owner": "Deal Scout + Joshua",
-      "status": "earn-in path",
+      "status": "PASSED / closed",
       "flippa_id": "13421685",
       "url": "https://flippa.com/13421685",
-      "status_note": "Broker (Jared) sent the seller Q&A on Mon Oct 5: $15M TTM revenue (seller claim, unverified), ~10% average margin, 95% paid traffic (mostly Meta ads); the owners want out. Joshua sent a thank-you holding reply Oct 5. Now on the earn-in path: WebsitePlz's SSM scored it 4.2/10 (4.8/10 as an earn-in). Public traffic estimates (~$2.5–4.5M/yr, down ~72% in 6 months) don't support the $15M claim. Gaming Desk Mat is backup only. Deal Scout is preparing letters for 8 smaller earn-in targets.",
-      "next_step": "Wed Oct 7, 2026, 9:01 AM PT: Deal Scout delivers the follow-up asking for a verified recent P&L and tying any earn-in to trailing-3-month profit; Joshua sends it in Flippa.",
-      "next_date": "2026-10-07T09:01:00-07:00",
+      "status_note": "Joshua passed Oct 6, 2026 — too many obstacles, unverified income. No offer made. Closed.",
+      "next_step": "ops shortlist refresh — Quiet Light cosmetics/Amazon FBA lane (modest ask, clean numbers). Deal Scout rebuilding live shortlist.",
+      "next_date": null,
       "source": "/workspace/acquisitions/deal-scout/cat-bundle-13421685/seller-qa-summary.md",
       "score": "4.2/10 (4.8/10 as an earn-in)"
     }
