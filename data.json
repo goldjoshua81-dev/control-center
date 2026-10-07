@@ -3,8 +3,8 @@
     "title": "Fresh $$ Control Center",
     "owner": "Joshua",
     "assistant": "Fresh $$",
-    "last_updated": "2026-10-06T21:47:55-07:00",
-    "status_note": "Nightly roll-up Tue Oct 6, 2026 ~9:43 PM PT. Associates live (hostfees-20, tax validated, Unblocked, 5 tracking IDs, 3 sales by Apr 4, 2027). HostFees Day 0 + growth build live; 3 pins posted; 7 kit pins queued Oct 7–13; about 8–17 human visits/day. WebsitePlz: Fiverr gig blocked only on Joshua's ID verification; Contra ~89%; about 19–24 human visits/day. PrintPlz: 0 orders, 54/54 Printful sync, 34 views / 27 visits last 7d (Shop Manager 8:38 AM PT; no later verified read). Deal Scout: Cat Bundle PASSED; new focus Amazon earn-in (Wallets/Belts QL 13546165 + EU Garden QL 16051221; letters drafted not sent). Revenue $0 in every lane; plan costs $260/month. Incubator: latest verified roll-up 2026-10-05_2123_incubator_rollup.md (bbe50a62a27f); no Oct 6 roll-up landed by 8:45 PM PT. Family Gem visits_7d=0 (Oct 6 08:37); Mira unknown. HostFees redeploy blocker cleared."
+    "last_updated": "2026-10-07T08:57:47-07:00",
+    "status_note": "Morning refresh Wed Oct 7, 2026 ~9:00 AM PT. PrintPlz: Shop Manager 8:39 AM PT 80 active / 1 draft / 2 inactive, 0 orders, $0; last 7 days 34 views / 27 visits (0 from Etsy Search yet); 54/54 Printful sync; capitalize-as-printed fix rolled to W1/K1/TB1. HostFees: 18 of 49 pins live, today's 3 pins post ~10:06 AM PT (in progress); Cloudflare 7d 440 visits / 455 views (raw, includes bots). WebsitePlz: Fiverr gig still blocked only on Joshua's ID verification; Cloudflare 7d 814 visits / 820 views (raw, includes bots). Deal Scout Oct 7: bottes-presso.fr and Marble Tracks both SOLD (off the list); new Track A #1 SEO Supremacy ($3,000); new earn-in candidate QL 18830614 golf club-care brand flagged for a public audit. Revenue $0 in every lane; plan costs $260/month. Other account: no Oct 6 roll-up landed; latest verified is 2026-10-05_2123_incubator_rollup.md."
   },
   "budget": {
     "starting_capital": 1000,
@@ -82,7 +82,7 @@
       "type": "For-moms print-on-demand gifts: mom shirts, teacher shirts, kids stickers, holiday party items, ornaments",
       "platform": "Etsy + Printful",
       "status": "live",
-      "status_note": "Shop Manager Oct 6 ~8:38 AM PT: 80 active / 1 draft / 2 inactive. 0 orders / $0. Last 7 days: 34 views / 27 visits (verified morning read; no later verified read with different counts). AM + PM audits: 54/54 Printful sync OK. Capitalize-as-printed fix on 6 ornaments (X1/X2/X3 AM; X4/X5/M3 PM ~8:52 PT). Build hold still on (K6/K7 unpublished). Etsy Ads planned Oct 16. Offsite Ads off. $0 revenue.",
+      "status_note": "Shop Manager Oct 7 ~8:39 AM PT: 80 active / 1 draft / 0 expired / 2 inactive (unchanged). 0 orders / $0, 0 unread messages. Last 7 days (Oct 1-7): 34 views / 27 visits; traffic mostly direct/referral (18) and Etsy app (8), 0 from Etsy Search yet. AM audit: 54/54 Printful sync OK; capitalize-as-printed text rolled to W1, K1, TB1 (verified live); order-render tool environment rebuilt after the overnight box restore. Build hold still on (K6/K7 unpublished). Etsy Ads planned Oct 16. Offsite Ads off. $0 revenue.",
       "url": "https://www.etsy.com/shop/PrintPlzShop",
       "orders": 0,
       "revenue": 0,
@@ -739,14 +739,20 @@
     }
   ],
   "acquisitions": {
-    "note": "Watch only. Figures are seller/listing claims or research notes, not verified by us. No accounts, bids, offers, seller contact, purchases or acquisitions. Latest Deal Scout run Mon Oct 5: top pick bottes-presso.fr (unchanged), then Marble Tracks, Rewired (stretch), Letras Bonitas Hub. Cat Bundle (Flippa #13421685) PASSED Oct 6, 2026 — Joshua declined (too many obstacles, unverified income); no offer made. Research-only watchlist continues.",
-    "source": "Deal Scout run files 2026-10-01 to 10-05 (latest: 2026-10-05-run.md, ~8:07-8:25 AM PT)",
+    "note": "Watch only. Figures are seller/listing claims or research notes, not verified by us. No accounts, bids, offers, seller contact, purchases or acquisitions. Latest Deal Scout run Wed Oct 7: bottes-presso.fr and Marble Tracks SOLD; new Track A #1 SEO Supremacy, then Rewired (stretch), popeyesmenuusa. Cat Bundle (Flippa #13421685) PASSED Oct 6. Earn-in focus: QL Wallets/Belts 13546165, EU Garden 16051221, new golf club-care 18830614.",
+    "source": "Deal Scout run files 2026-10-01 to 10-07 (latest: 2026-10-07-run.md, ~8:05-8:20 AM PT)",
     "watchlist": [
       {
-        "name": "bottes-presso.fr",
-        "price": "$4,547",
-        "listed_profit": "€1,342/mo (listed; may be paused)",
+        "name": "SEO Supremacy",
+        "price": "$3,000 (listing; $1,365 Vetted)",
         "status": "watching",
+        "fits_budget": true
+      },
+      {
+        "name": "bottes-presso.fr",
+        "price": "Sold (Flippa shows Website Sold, Oct 7)",
+        "listed_profit": "€1,342/mo (listed; may be paused)",
+        "status": "sold",
         "fits_budget": true
       },
       {
@@ -757,14 +763,14 @@
       },
       {
         "name": "Rewired iOS app",
-        "price": "$6,500 stretch (14 offers; 30d revenue $714, Oct 5)",
+        "price": "$6,500 stretch (30d revenue $744, down 50%, Oct 7)",
         "status": "stretch",
         "fits_budget": false
       },
       {
         "name": "Marble Tracks",
-        "price": "$700",
-        "status": "watching",
+        "price": "Sold (Flippa shows Ecommerce Store Sold, Oct 7)",
+        "status": "sold",
         "fits_budget": true
       },
       {
@@ -988,7 +994,7 @@
       "type": "Business acquisition research",
       "status": "research only",
       "url": "",
-      "status_note": "Research only. Cat Bundle (Flippa #13421685) PASSED Oct 6. New focus: contact-first Amazon earn-in — Quiet Light Wallets/Belts QL 13546165 and EU Garden QL 16051221; inquiry letters drafted, not sent (Joshua review first). Daily runs on disk Oct 1–6; latest Tue Oct 6 (~8:05–8:35 AM PT). Top pick still bottes-presso.fr; Objectif Évasion / Crypto Dist / Vehicle Tax end ~Fri Oct 9. No bids, offers, or purchases. $0.",
+      "status_note": "Research only. Oct 7 run (~8:05-8:20 AM PT): 310 Flippa cards (15 new, 19 gone). bottes-presso.fr (old top pick) and Marble Tracks both SOLD. Track A (<= ~$5k) re-ranked: 1 SEO Supremacy 12248731 ($3,000), 2 Rewired (stretch $6,500, 30d $744, down 50%), 3 popeyesmenuusa. No standout worth an alert. New earn-in candidate: Quiet Light 18830614 golf club-care brand (listing: $460k ask, $229k income, Amazon 42%, owner stepping away) flagged for a public audit. Wallets/Belts QL 13546165 + EU Garden QL 16051221 still live; inquiry letters drafted, not sent. Watch: UK Amazon FBA Ltd 14374265 (dormant 6 months) ends ~Sat Oct 10. No bids, offers, or purchases. $0.",
       "budget_limit": "$5,000",
       "revenue": 0,
       "profit": 0,
@@ -1000,7 +1006,7 @@
       "type": "Websites for local trades (HVAC, plumbing, electric, pressure washing, house cleaning)",
       "status": "live",
       "url": "https://websiteplz.com",
-      "status_note": "websiteplz.com live; sitesplz.com redirects. Sales upgrade live Oct 4. Contra profile ~89% (2 services + 4 demos). Fiverr: W-9 submitted (under review ~6:18 PM PT); gig blocked only on Joshua's ID verification (confirm the phone number is his, then publish). About 19–24 human visits/day (Cloudflare; bot spikes excluded). Still waiting on Joshua: Terms/Privacy/Refunds review, 3 Stripe deposit links, hello inbox. $0 revenue.",
+      "status_note": "websiteplz.com live; sitesplz.com redirects. Sales upgrade live Oct 4. Contra profile ~89% (2 services + 4 demos). Fiverr: W-9 submitted (under review ~6:18 PM PT); gig blocked only on Joshua's ID verification (confirm the phone number is his, then publish). About 19–24 human visits/day (Cloudflare; bot spikes excluded). Still waiting on Joshua: Terms/Privacy/Refunds review, 3 Stripe deposit links, hello inbox. $0 revenue. Oct 7: Cloudflare last 7 days 814 visits / 820 views (raw, includes bots).",
       "one_liner": "Live · Contra ~89% · Fiverr W-9 under review · gig blocked on Joshua ID verification · ~19–24 human visits/day · Stripe/legal/inbox waiting · $0 revenue",
       "bot": "WebsitePlz",
       "bot_id": "e58826be-250d-4953-b472-9f0e1836bd42",
@@ -1553,7 +1559,7 @@
       "date": "2026-10-09",
       "date_display": "~Fri Oct 9, 2026",
       "event": "Objectif Évasion + Crypto Dist auctions end",
-      "details": "Deal Scout watching; research only, nothing to buy yet.",
+      "details": "Deal Scout watching (Objectif Évasion, Crypto Dist, Vehicle Tax); research only, nothing to buy.",
       "source": "Deal Scout (Flippa)"
     },
     {
@@ -1563,6 +1569,13 @@
       "details": "Other account, paper only.",
       "source": "Incubator roll-up 2026-10-05_2123 (late)",
       "account": "Other bots"
+    },
+    {
+      "date": "2026-10-10",
+      "date_display": "~Sat Oct 10, 2026",
+      "event": "UK Amazon FBA Ltd auction ends (watch only)",
+      "details": "Flippa 14374265, dormant 6 months, reserve $4,487. Deal Scout watching, not ranked; nothing to buy.",
+      "source": "Deal Scout 2026-10-07-run.md"
     },
     {
       "date": "2026-10-11",
@@ -1639,7 +1652,7 @@
   ],
   "other_account": {
     "label": "Other account (Grok Bot)",
-    "as_of": "No Oct 6 roll-up by 8:45 PM PT; latest verified 2026-10-05_2123 (bbe50a62a27f)",
+    "as_of": "No Oct 6 roll-up landed (checked Oct 6 8:45 PM PT and Oct 7 ~8:57 AM PT); latest verified 2026-10-05_2123 (bbe50a62a27f)",
     "source_note": "latest verified roll-up 2026-10-05_2123_incubator_rollup.md (bbe50a62a27f); no Oct 6 roll-up landed by 8:45 PM PT. Real numbers only; \"unknown\" means not verified. Paper lanes are paper only. Nothing was traded, published, spent, or turned on. None of these numbers count toward this account's totals.",
     "shops": [
       {
@@ -2011,10 +2024,26 @@
       "method": "Cloudflare Web Analytics (GraphQL)"
     },
     {
+      "date": "2026-10-07T08:56:57-07:00",
+      "source": "hostfees-site",
+      "metric": "views",
+      "value": 455,
+      "window": "7d",
+      "method": "Cloudflare Web Analytics (GraphQL)"
+    },
+    {
       "date": "2026-10-06T10:50:42-07:00",
       "source": "hostfees-site",
       "metric": "visits",
       "value": 399,
+      "window": "7d",
+      "method": "Cloudflare Web Analytics (GraphQL)"
+    },
+    {
+      "date": "2026-10-07T08:56:57-07:00",
+      "source": "hostfees-site",
+      "metric": "visits",
+      "value": 440,
       "window": "7d",
       "method": "Cloudflare Web Analytics (GraphQL)"
     },
@@ -2059,6 +2088,14 @@
       "method": "Etsy Shop Manager stats, Last 7 Days Sep 30 - Oct 6 (data/printplz-live-listings.json)"
     },
     {
+      "date": "2026-10-07T08:39:00-07:00",
+      "source": "printplz",
+      "metric": "views",
+      "value": 34,
+      "window": "7d",
+      "method": "Etsy Shop Manager stats (snapshot data/printplz-live-listings.json)"
+    },
+    {
       "date": "2026-10-02T07:52:16-07:00",
       "source": "printplz",
       "metric": "visits",
@@ -2099,6 +2136,14 @@
       "method": "Etsy Shop Manager stats, Last 7 Days Sep 30 - Oct 6 (data/printplz-live-listings.json)"
     },
     {
+      "date": "2026-10-07T08:39:00-07:00",
+      "source": "printplz",
+      "metric": "visits",
+      "value": 27,
+      "window": "7d",
+      "method": "Etsy Shop Manager stats (snapshot data/printplz-live-listings.json)"
+    },
+    {
       "date": "2026-10-06T10:50:42-07:00",
       "source": "websiteplz-site",
       "metric": "views",
@@ -2107,10 +2152,26 @@
       "method": "Cloudflare Web Analytics (GraphQL)"
     },
     {
+      "date": "2026-10-07T08:56:57-07:00",
+      "source": "websiteplz-site",
+      "metric": "views",
+      "value": 820,
+      "window": "7d",
+      "method": "Cloudflare Web Analytics (GraphQL)"
+    },
+    {
       "date": "2026-10-06T10:50:42-07:00",
       "source": "websiteplz-site",
       "metric": "visits",
       "value": 796,
+      "window": "7d",
+      "method": "Cloudflare Web Analytics (GraphQL)"
+    },
+    {
+      "date": "2026-10-07T08:56:57-07:00",
+      "source": "websiteplz-site",
+      "metric": "visits",
+      "value": 814,
       "window": "7d",
       "method": "Cloudflare Web Analytics (GraphQL)"
     }
@@ -2151,12 +2212,6 @@
       "lane": "WebsitePlz",
       "recommended": "Yes",
       "note": ""
-    },
-    {
-      "decision": "Dig into bottes-presso.fr (full due diligence)",
-      "lane": "Deal Scout",
-      "recommended": "Yes",
-      "note": "Top pick; research only until you say go."
     },
     {
       "decision": "Look closer at the Quiet Light wallets & belts brand (listing 13546165) as an earn-in",
@@ -2217,6 +2272,12 @@
       "lane": "PrintPlz",
       "note": "Approved Oct 5 for build/list only; not used yet.",
       "done": true
+    },
+    {
+      "decision": "Run a public audit on the Quiet Light golf club-care brand (listing 18830614) as an earn-in",
+      "lane": "Deal Scout",
+      "recommended": "Yes (research only)",
+      "note": "Flagged Oct 7: owner stepping away, Amazon 42% of sales, consumable refills. Risks: falling ad returns, golf seasonality. Nothing sent."
     }
   ],
   "decisions_source": "Chief of Staff nightly roll-up, Tue Oct 6, 2026 ~9:43 PM PT (recommended defaults are Chief of Staff's; nothing changes until Joshua decides)",

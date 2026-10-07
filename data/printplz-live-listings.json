@@ -1,7 +1,7 @@
 {
   "source": "Etsy Shop Manager (box browser computerUse) https://www.etsy.com/your/shops/me/tools/listings + orders/sold + dashboard",
-  "checked_at": "2026-10-06T08:38:00-07:00",
-  "checked_at_pt": "Oct 6, 2026 ~8:37-8:38 AM PT",
+  "checked_at": "2026-10-07T08:39:00-07:00",
+  "checked_at_pt": "Oct 7, 2026 ~8:38-8:39 AM PT",
   "shop": "PrintPlzShop",
   "active_count": 80,
   "draft_count": 1,
@@ -11,7 +11,7 @@
   "revenue": 0,
   "views_7d": 34,
   "visits_7d": 27,
-  "note": "Shop Manager Oct 6 ~8:38 AM PT: 80 active / 1 draft / 0 expired / 2 inactive / 0 sold out (unchanged from Oct 5). Orders: 0 new, All tab empty, 0 unread messages. Stats last 7 days (Sep 30 - Oct 6): 34 listing views / 27 visits, 0 orders, $0, 0% conversion. Visits by day Sep 30-Oct 6: 0, 1, 7, 7, 6, 2, 4. 0 visits from Etsy Search yet. Actual revenue $0.",
+  "note": "Shop Manager Oct 7 ~8:39 AM PT: 80 active / 1 draft / 0 expired / 2 inactive / 0 sold out (unchanged). Orders: 0 new, All and Completed (30 days) empty, 0 unread messages. Stats last 7 days (Oct 1 - Oct 7): 34 listing views / 27 visits, 0 orders, $0, 0% conversion. Visits by day Oct 1-7: 1, 7, 7, 6, 2, 4, 0. 0 visits from Etsy Search yet. Actual revenue $0.",
   "active_listings": [
     {
       "concept_id": "X29",
@@ -575,8 +575,8 @@
     }
   ],
   "sold_out_count": 0,
-  "stats_window": "Last 7 Days: Sep 30 - Oct 6 (Etsy says updated ~4 hours before the read)",
-  "visits_today": 4,
+  "stats_window": "Last 7 Days: Oct 1 - Oct 7 (Etsy says updated ~4 hours before the read)",
+  "visits_today": 0,
   "traffic_sources_7d": {
     "direct_referral": 18,
     "etsy_app_pages": 8,
@@ -600,6 +600,10 @@
     {
       "title": "Our First Christmas ornament",
       "views": 3
+    },
+    {
+      "title": "First Christmas in Our New Home ornament",
+      "views": 2
     }
   ]
 }
