@@ -3,8 +3,8 @@
     "title": "Fresh $$ Control Center",
     "owner": "Joshua",
     "assistant": "Fresh $$",
-    "last_updated": "2026-10-06T13:01:18-07:00",
-    "status_note": "Cat Bundle (Flippa #13421685) PASSED / closed Oct 6, 2026 (Joshua — too many obstacles, unverified income; no offer). Next Deal Scout focus: Quiet Light cosmetics/Amazon FBA shortlist refresh. Traffic tiles update Tue Oct 6, 2026 ~10:51 AM PT. HostFees Cloudflare last 7d: 399 visits / 412 views; WebsitePlz Cloudflare last 7d: 796 visits / 802 views (Account Analytics Read unlocked ~10:49 PT; collected via traffic.py). PrintPlz: 80 active / 1 draft / 2 inactive, 0 orders, 34 views / 27 visits last 7 days (Shop Manager 8:38 AM PT). Family Gem (other account): 0 visits last 7 days as of Oct 6 8:37 PT; Mira traffic still pending Etsy sign-in. HostFees Pinterest impressions still not tracked. Revenue $0 in every lane; recurring plan costs $260/month (Grok Bot Ultra $200 + Pro+ $60). HostFees redeploy still BLOCKED until Joshua signs in to Cloudflare + GitHub on the box (before Oct 13). WebsitePlz: Fiverr + Contra accounts created Oct 5; profiles + first gig next."
+    "last_updated": "2026-10-06T21:47:55-07:00",
+    "status_note": "Nightly roll-up Tue Oct 6, 2026 ~9:43 PM PT. Associates live (hostfees-20, tax validated, Unblocked, 5 tracking IDs, 3 sales by Apr 4, 2027). HostFees Day 0 + growth build live; 3 pins posted; 7 kit pins queued Oct 7–13; about 8–17 human visits/day. WebsitePlz: Fiverr gig blocked only on Joshua's ID verification; Contra ~89%; about 19–24 human visits/day. PrintPlz: 0 orders, 54/54 Printful sync, 34 views / 27 visits last 7d (Shop Manager 8:38 AM PT; no later verified read). Deal Scout: Cat Bundle PASSED; new focus Amazon earn-in (Wallets/Belts QL 13546165 + EU Garden QL 16051221; letters drafted not sent). Revenue $0 in every lane; plan costs $260/month. Incubator: latest verified roll-up 2026-10-05_2123_incubator_rollup.md (bbe50a62a27f); no Oct 6 roll-up landed by 8:45 PM PT. Family Gem visits_7d=0 (Oct 6 08:37); Mira unknown. HostFees redeploy blocker cleared."
   },
   "budget": {
     "starting_capital": 1000,
@@ -82,7 +82,7 @@
       "type": "For-moms print-on-demand gifts: mom shirts, teacher shirts, kids stickers, holiday party items, ornaments",
       "platform": "Etsy + Printful",
       "status": "live",
-      "status_note": "Shop Manager Oct 6 ~8:38 AM PT: 80 active / 1 draft / 0 expired / 2 inactive (unchanged vs Oct 5). 0 orders / $0, 0 unread messages. Last 7 days (Sep 30 - Oct 6): 34 views / 27 visits (up from 30 / 23 for Sep 29 - Oct 5); visits came from direct/referral 18, Etsy app/pages 8, social 1, Etsy Search 0. Most viewed: Pet Name Mug (7), From Santa gift tags (5), Thankful for Coffee mug (3), Our First Christmas ornament (3). AM audit loop Oct 6 passed: 54/54 Printful sync OK, listing lint clean; X1/X2/X3 personalization now asks buyers to type names capitalized as they want them printed (verified live). Order check 8:38 AM: 0 Etsy orders, 0 Printful drafts. Build hold still on (K6/K7 unpublished). Etsy Ads planned Oct 16. Offsite Ads off. $0 revenue, no new spend.",
+      "status_note": "Shop Manager Oct 6 ~8:38 AM PT: 80 active / 1 draft / 2 inactive. 0 orders / $0. Last 7 days: 34 views / 27 visits (verified morning read; no later verified read with different counts). AM + PM audits: 54/54 Printful sync OK. Capitalize-as-printed fix on 6 ornaments (X1/X2/X3 AM; X4/X5/M3 PM ~8:52 PT). Build hold still on (K6/K7 unpublished). Etsy Ads planned Oct 16. Offsite Ads off. $0 revenue.",
       "url": "https://www.etsy.com/shop/PrintPlzShop",
       "orders": 0,
       "revenue": 0,
@@ -567,7 +567,7 @@
           "price": "see listing"
         }
       ],
-      "one_liner": "Live · 80 active · 0 orders · 34 views / 27 visits (7d) · audits clean Oct 6"
+      "one_liner": "Live · 80 active · 0 orders · 34 views / 27 visits (7d, 8:38 AM) · capitalize-as-printed on 6 ornaments · hold still on · 54/54 Printful sync"
     },
     {
       "id": "shop-2",
@@ -800,7 +800,8 @@
       "why": "Enables email alerts for the live HostFees operating loop.",
       "priority": "medium",
       "done": false,
-      "optional": true
+      "optional": true,
+      "rank": 15
     },
     {
       "task": "Get a P.O. Box for HostFees",
@@ -808,7 +809,7 @@
       "priority": "medium",
       "done": false,
       "optional": true,
-      "rank": 9
+      "rank": 14
     },
     {
       "task": "Change the Turno temporary password",
@@ -831,14 +832,13 @@
     },
     {
       "task": "Complete the Amazon Associates application",
-      "why": "Still not done as of Oct 2 confirmation; needed for HostFees gift-guide affiliate links.",
+      "why": "Done Oct 6: Associates live (hostfees-20), tax validated, Unblocked, 5 tracking IDs. Sites list + SiteStripe links still open.",
       "priority": "high",
-      "done": false,
-      "rank": 2
+      "done": true
     },
     {
-      "task": "Finish the Fiverr and Contra profiles and publish the first WebsitePlz gig",
-      "why": "Both seller accounts were created Mon Oct 5. Gig copy and images are ready from WebsitePlz; send the profile links to WebsitePlz so the site's Fiverr/Contra buttons can go live.",
+      "task": "Fiverr ID verification + confirm the phone number is his, then publish the WebsitePlz gig",
+      "why": "Fiverr W-9 submitted (under review). Gig blocked only on Joshua's identity verification; confirm the phone number is his, then publish. Contra ~89%.",
       "priority": "high",
       "done": false,
       "rank": 1
@@ -852,38 +852,37 @@
     },
     {
       "task": "Unlock the traffic tiles",
-      "why": "HostFees + WebsitePlz Cloudflare visits are in (Account Analytics Read unlocked Oct 6; HostFees 399 visits / 412 views last 7d; WebsitePlz 796 visits / 802 views last 7d, collected ~10:51 PT). Still needed: MoonletterMira Etsy sign-in on the other account (or paste) for Mira views/visits; Pinterest Analytics impressions for HostFees. Family Gem visits already tracked (0 last 7 days as of Oct 6 8:37 PT).",
+      "why": "Partly done Oct 6: Cloudflare Account Analytics Read + Workers Scripts Edit unlocked; HostFees + WebsitePlz tracked. Still needed: Mira Etsy views + HostFees Pinterest impressions.",
       "priority": "high",
-      "done": false,
-      "rank": 3
+      "done": true
     },
     {
       "task": "Create the 3 Stripe deposit links for WebsitePlz ($124.50 / $562.50 / $747.50)",
       "why": "50% deposits are live on the site; buttons switch to \"Pay $X to start\" once the links are pasted in. Also 3 Care links and the customer portal (WebsitePlz README).",
       "priority": "medium",
       "done": false,
-      "rank": 7
+      "rank": 9
     },
     {
       "task": "Relay $300 for PrintPlz",
       "why": "On Chief of Staff's waiting-on-Joshua list (Oct 3).",
       "priority": "medium",
       "done": false,
-      "rank": 10
+      "rank": 11
     },
     {
       "task": "Set up an inbox for hello@websiteplz.com",
       "why": "Contact address for WebsitePlz buyers. Chief of Staff list, Oct 3.",
       "priority": "medium",
       "done": false,
-      "rank": 8
+      "rank": 10
     },
     {
       "task": "Review the WebsitePlz legal pages (Terms, Privacy, Refunds)",
       "why": "Plain-English drafts are live at websiteplz.com/terms, /privacy and /refunds. Review before Stripe goes live (Stripe's terms checkbox points at /terms/).",
       "priority": "high",
       "done": false,
-      "rank": 6
+      "rank": 8
     },
     {
       "task": "CANCELLED: Cat Bundle Flippa follow-up (PASSED Oct 6)",
@@ -894,23 +893,71 @@
     },
     {
       "task": "Sign in to Cloudflare and GitHub in the box browser (HostFees redeploy)",
-      "why": "The weekly check-up rebuilt HostFees with the Vrbo wording fix, but the Cloudflare session expired and GitHub sign-in fails. Needed before Oct 13 (Airbnb EEA/Switzerland deadline).",
+      "why": "Done Oct 6: box Cloudflare + GitHub sign-ins complete; HostFees redeploy blocker cleared (Day 0 + growth build already live via Pages direct upload).",
       "priority": "high",
-      "done": false,
-      "rank": 4
+      "done": true
     },
     {
       "task": "Paste PASTE-TO-OTHER-ACCOUNT.md into the other account",
       "why": "Starts Gold HQ Sync on the other account so roll-ups land as files instead of copy-paste.",
       "priority": "high",
       "done": false,
+      "rank": 13
+    },
+    {
+      "task": "Review the Deal Scout inquiry letters (Wallets/Belts QL 13546165 + EU Garden QL 16051221)",
+      "why": "Cat Bundle PASSED. Contact-first Amazon earn-in letters are drafted and not sent; Joshua reviews then pastes into Quiet Light inquire forms.",
+      "priority": "medium",
+      "done": false,
+      "rank": 12
+    },
+    {
+      "task": "Confirm Associates Store ID hostfees-20",
+      "why": "Confirmed Oct 6 (Joshua screenshot / welcome): Store ID hostfees-20; 5 tracking IDs exist.",
+      "priority": "high",
+      "done": true
+    },
+    {
+      "task": "Associates Sites list + SiteStripe links",
+      "why": "Associates live (hostfees-20). Still need hostfees.com on the Sites list and SiteStripe / product links pasted for empty kit slots (then rebuild + redeploy).",
+      "priority": "high",
+      "done": false,
+      "rank": 2
+    },
+    {
+      "task": "OK to deploy the HostFees staged kits (before Thu Oct 8)",
+      "why": "Staged kits build is ready after N-1; wanted live before the Thu Oct 8 calculator post. Recommended default: yes after N-1.",
+      "priority": "high",
+      "done": false,
+      "rank": 3
+    },
+    {
+      "task": "Family-Gmail Drive share request on the Melissa folder: default no (Melissa uses her own Gmail)",
+      "why": "Drive share request on the Melissa folder from a family-Gmail account. Default: no — Melissa uses her own Gmail.",
+      "priority": "high",
+      "done": false,
+      "rank": 4
+    },
+    {
+      "task": "Top up the low/overdrawn checking account so card charges don't bounce",
+      "why": "Bank alert: checking is low/overdrawn; top up so card charges (tools, fees) don't bounce. No digits published.",
+      "priority": "high",
+      "done": false,
       "rank": 5
     },
     {
-      "task": "Review Deal Scout Quiet Light cosmetics/Amazon FBA shortlist when ready",
-      "why": "Cat Bundle PASSED Oct 6. Deal Scout is rebuilding the live shortlist for Quiet Light cosmetics/Amazon FBA (modest ask, clean numbers).",
+      "task": "Set up Google Search Console for hostfees.com, websiteplz.com, and thefamilygems.com",
+      "why": "Search Console coverage for the three live sites so indexing and URL inspection work.",
       "priority": "medium",
-      "done": false
+      "done": false,
+      "rank": 6
+    },
+    {
+      "task": "Gem Rock Auctions $1 win: confirm the account is yours, then pay or let it go",
+      "why": "Payment reminder for a $1 auction win. Confirm the Gem Rock account is Joshua's, then pay or let it go. No other name published.",
+      "priority": "medium",
+      "done": false,
+      "rank": 7
     }
   ],
   "projects": [
@@ -920,7 +967,7 @@
       "type": "Short-term-rental fee calculators, explainers, and gift guides",
       "status": "live",
       "url": "https://hostfees.com",
-      "status_note": "Renamed from HostSums. LIVE at hostfees.com (HTTP 200 reconfirmed morning of Oct 4, 2026). Latest live audit records 27 pages: 5 calculators, 3 gift guides and 10 fee explainers. hostfees.com is claimed on Pinterest (verified); 18 of 49 pins are live (posted-pins log; 3 posted each day Oct 1–6, latest Oct 6 AM). Turno affiliate link live; Amazon Associates still not done; Cloudflare visits tracked (399 visits / 412 views last 7d as of Oct 6 ~10:51 PT). Lodgify affiliate application pending (Chief of Staff, Oct 3). Weekly check-up Mon Oct 5 clean (live audit 0 errors; Lighthouse mobile 99/100/100/100 on 4 pages). Vrbo changed its help page, so the wording on 3 pages + the Fee Index was updated in the rebuilt site files. Redeploy BLOCKED: the box browser's Cloudflare session expired and GitHub sign-in fails; Joshua must sign in on the box before Oct 13 (Airbnb EEA/Switzerland deadline), so the Vrbo update is not live yet. Oct 6 morning: hostfees.com HTTP 200; today's 3 pins posted ~10:06 AM PT (posted.md Oct 6); redeploy still blocked on the box sign-in. Google Search Console started collecting hostfees.com search data Oct 2 (Google email Oct 5).",
+      "status_note": "LIVE at hostfees.com. Associates live: Store ID hostfees-20, tax validated, account Unblocked, 5 tracking IDs (hostfees / linen / clean / lock / pins -20). Day 0 shipped (~1:02 PM PT): disclosure + 3 Amazon kit pages. Growth build live (deploy d334a8cc, ~3:30 PM PT): embeddable fee calculator, 10 city occupancy-tax pages, kit conversion polish, IndexNow. 18 of 49 pins live (3 posted Oct 6 AM); 7 kit pins queued Oct 7–13 (awaiting Joshua OK after N-1). Staged kits build waiting on Joshua's OK (wanted live before Thu Oct 8 calculator post). Redeploy blocker cleared (Cloudflare + GitHub box sign-ins done). About 8–17 human visits/day (Cloudflare read; bot spikes excluded). Lodgify affiliate pending. $0 revenue. 3 qualifying Associates sales needed by Apr 4, 2027.",
       "pages": 27,
       "calculators": 5,
       "gift_guides": 3,
@@ -933,7 +980,7 @@
       "pinterest_claimed": true,
       "turno_status": "live; affiliate link on hostfees.com (https://share.turno.com/69pllwz)",
       "hostaway_status": "declined for now; revisit in 4–6 weeks with traffic numbers",
-      "one_liner": "Live · 18 of 49 pins (today's 3 posted ~10:06 AM) · Vrbo update built, redeploy BLOCKED until Joshua's box sign-in (before Oct 13) · CF visits 399/7d · $0 revenue"
+      "one_liner": "Live · Associates hostfees-20 (tax validated, Unblocked, 5 tracking IDs) · Day 0 + growth build live · staged kits waiting on Joshua OK (before Thu Oct 8) · 18 of 49 pins · ~8–17 human visits/day · $0 revenue"
     },
     {
       "id": "deal-scout",
@@ -941,11 +988,11 @@
       "type": "Business acquisition research",
       "status": "research only",
       "url": "",
-      "status_note": "Research only. Daily runs on disk Oct 1-6. Latest run Tue Oct 6 (~8:05-8:35 AM PT): ~470 items reviewed (314 Flippa cards, 13 new, 10 gone; TrustMRR, Investors Club, Quiet Light). Top pick still bottes-presso.fr ($4,547 ask, EUR 1,342/mo listed), then Marble Tracks, Rewired (stretch; 30d $798, down 49.9%), SEO Supremacy. Two ranked listings sold (Letras Bonitas Hub, Dutch Bros Menu). No ranked candidate closes within 48 hours; Objectif Evasion, Crypto Dist and Vehicle Tax end ~Fri Oct 9. New Track B standout: a 20-year men's wallets & belts Amazon brand on Quiet Light (listing 13546165, accepting offers; $942,119 revenue / $12,703 income as listed; about half its SKUs out of stock; owners focused elsewhere). Brand is anonymized, so Best Sellers Rank can't be read until an NDA summary. Structure note: Amazon's Aug 24, 2026 seller-agreement change rules out account handovers or claims on payouts, so any earn-in should be equity or a services deal with the owning company (verify with counsel). No bids, offers or purchases. Cat Bundle (Flippa #13421685) PASSED Oct 6, 2026 (Joshua — obstacles / unverified income; no offer). Next focus: Quiet Light cosmetics/Amazon FBA shortlist refresh (modest ask, clean numbers); Deal Scout rebuilding live shortlist.",
+      "status_note": "Research only. Cat Bundle (Flippa #13421685) PASSED Oct 6. New focus: contact-first Amazon earn-in — Quiet Light Wallets/Belts QL 13546165 and EU Garden QL 16051221; inquiry letters drafted, not sent (Joshua review first). Daily runs on disk Oct 1–6; latest Tue Oct 6 (~8:05–8:35 AM PT). Top pick still bottes-presso.fr; Objectif Évasion / Crypto Dist / Vehicle Tax end ~Fri Oct 9. No bids, offers, or purchases. $0.",
       "budget_limit": "$5,000",
       "revenue": 0,
       "profit": 0,
-      "one_liner": "Cat Bundle PASSED Oct 6 · next Quiet Light cosmetics/Amazon FBA shortlist refresh · Ran Oct 6 · top pick bottes-presso.fr · wallets & belts Track B standout"
+      "one_liner": "Cat Bundle PASSED · Amazon earn-in focus (Wallets/Belts QL 13546165 + EU Garden QL 16051221) · inquiry letters drafted not sent · research only · $0"
     },
     {
       "id": "websiteplz",
@@ -953,8 +1000,8 @@
       "type": "Websites for local trades (HVAC, plumbing, electric, pressure washing, house cleaning)",
       "status": "live",
       "url": "https://websiteplz.com",
-      "status_note": "websiteplz.com is live; sitesplz.com redirects to it. Sales upgrade live Oct 4: See-It-First Guarantee, 50% deposits, $1,495 includes 6 months of Care, Terms/Privacy/Refunds pages, and private mockup links (noindex). Cleaning and pressure-washing package name decided: \"Booking-ready\". Psych model skill saved. 5 trade pages and 5 blog guides live; Google Search Console verified; 0 of 821 links broken; Lighthouse 97–100. Fiverr and Contra seller accounts were created Mon Oct 5 (welcome/sign-in emails); profiles and the first gig still need publishing. Waiting on Joshua: Stripe deposit links ($124.50 / $562.50 / $747.50) and a review of the legal pages before Stripe goes live. $0 revenue. Chief of Staff Mon Oct 5 roll-up: speed fix live (98/99); Fiverr assets ready (accounts still waiting on Joshua).",
-      "one_liner": "Live · speed fix (98/99) · Fiverr + Contra accounts created Oct 5 · next: finish profiles + publish first gig · Stripe deposit links + legal review waiting on Joshua · $0 revenue",
+      "status_note": "websiteplz.com live; sitesplz.com redirects. Sales upgrade live Oct 4. Contra profile ~89% (2 services + 4 demos). Fiverr: W-9 submitted (under review ~6:18 PM PT); gig blocked only on Joshua's ID verification (confirm the phone number is his, then publish). About 19–24 human visits/day (Cloudflare; bot spikes excluded). Still waiting on Joshua: Terms/Privacy/Refunds review, 3 Stripe deposit links, hello inbox. $0 revenue.",
+      "one_liner": "Live · Contra ~89% · Fiverr W-9 under review · gig blocked on Joshua ID verification · ~19–24 human visits/day · Stripe/legal/inbox waiting · $0 revenue",
       "bot": "WebsitePlz",
       "bot_id": "e58826be-250d-4953-b472-9f0e1836bd42",
       "trade_pages": 5,
@@ -1465,6 +1512,22 @@
       "source": "/workspace/domain-research/GAME_PLAN.md · pending_delete_sample.csv"
     },
     {
+      "date": "2026-10-06",
+      "date_display": "Tue Oct 6, 2026",
+      "event": "TWLO joins the S&P index (paper)",
+      "details": "Stocks Edge holds TWLO on paper; not adding.",
+      "source": "Incubator roll-up 2026-10-05_2123 (late)",
+      "account": "Other bots"
+    },
+    {
+      "date": "2026-10-06",
+      "date_display": "Tue Oct 6 – Wed Oct 7, 2026",
+      "event": "Family Gem moves to the main account",
+      "details": "Planned migration of The Family Gem Shop from the other account.",
+      "source": "Chief of Staff Mon Oct 5 roll-up",
+      "account": "Other bots"
+    },
+    {
       "date": "2026-10-07",
       "date_display": "Wed Oct 7, 2026 · 6 PM PT",
       "event": "Stocks Moon week 1 ends + verdict",
@@ -1473,11 +1536,18 @@
       "account": "Other bots"
     },
     {
+      "date": "2026-10-07",
+      "date_display": "Wed Oct 7, 2026",
+      "event": "Deal Scout Amazon earn-in shortlist + inquiry batch",
+      "details": "No Cat Bundle follow-up. Focus: Amazon earn-in shortlist; inquiry letters for Wallets/Belts QL 13546165 + EU Garden QL 16051221 after Joshua review (drafted, not sent).",
+      "source": "Chief of Staff nightly roll-up Oct 6"
+    },
+    {
       "date": "2026-10-08",
       "date_display": "Thu Oct 8, 2026",
-      "event": "Grok Bot weekly usage resets (weekly, likely Thursdays; confirm in Settings, Usage & Billing)",
-      "details": "Weekly reset; exact day and time not confirmed.",
-      "source": "/workspace/org/USAGE-OPTIMIZATION-2026-10-05.md"
+      "event": "Usage reset (other account, day unconfirmed) + HostFees kits wanted live for calculator post",
+      "details": "Grok Bot weekly usage reset day unconfirmed (other account). HostFees staged kits wanted live before the Thu Oct 8 calculator post (Joshua OK after N-1).",
+      "source": "Chief of Staff nightly roll-up Oct 6 · /workspace/org/USAGE-OPTIMIZATION-2026-10-05.md"
     },
     {
       "date": "2026-10-09",
@@ -1487,12 +1557,27 @@
       "source": "Deal Scout (Flippa)"
     },
     {
+      "date": "2026-10-10",
+      "date_display": "Fri Oct 10, 2026",
+      "event": "Stocks Edge week 2 ends (paper)",
+      "details": "Other account, paper only.",
+      "source": "Incubator roll-up 2026-10-05_2123 (late)",
+      "account": "Other bots"
+    },
+    {
       "date": "2026-10-11",
       "date_display": "~Sun Oct 11, 2026",
       "event": "MoonletterMira Etsy Ads (~$5/day)",
       "details": "Other account; earliest start (~$5/day ML-01), only if Joshua enables.",
       "source": "Other account relay / Chief of Staff Oct 4 roll-up",
       "account": "Other bots"
+    },
+    {
+      "date": "2026-10-13",
+      "date_display": "Tue Oct 13, 2026",
+      "event": "Airbnb EEA/Switzerland fee change (HostFees redeploy blocker cleared)",
+      "details": "Airbnb deadline for EEA/Swiss hosts to reprice for the single fee. HostFees redeploy blocker cleared Oct 6 (box Cloudflare + GitHub sign-ins done; Day 0 + growth build already live).",
+      "source": "Chief of Staff nightly roll-up Oct 6 · /workspace/affiliate/fee-sources.md"
     },
     {
       "date": "2026-10-16",
@@ -1537,63 +1622,32 @@
       "source": "/workspace/pod-shops/printplz/README.md · Key dates and ads plan"
     },
     {
-      "date": "2026-10-07",
-      "date_display": "Wed Oct 7, 2026",
-      "event": "Deal Scout ops shortlist refresh (Quiet Light cosmetics / Amazon FBA)",
-      "details": "Cat Bundle PASSED Oct 6. Next: Quiet Light cosmetics/Amazon FBA lane — modest ask, clean numbers. Deal Scout rebuilding shortlist.",
-      "source": "Deal Scout"
-    },
-    {
-      "date": "2026-10-06",
-      "date_display": "Tue Oct 6, 2026",
-      "event": "TWLO joins the S&P index (paper)",
-      "details": "Stocks Edge holds TWLO on paper; not adding.",
-      "source": "Incubator roll-up 2026-10-05_2123 (late)",
-      "account": "Other bots"
-    },
-    {
-      "date": "2026-10-06",
-      "date_display": "Tue Oct 6 – Wed Oct 7, 2026",
-      "event": "Family Gem moves to the main account",
-      "details": "Planned migration of The Family Gem Shop from the other account.",
-      "source": "Chief of Staff Mon Oct 5 roll-up",
-      "account": "Other bots"
-    },
-    {
-      "date": "2026-10-10",
-      "date_display": "Fri Oct 10, 2026",
-      "event": "Stocks Edge week 2 ends (paper)",
-      "details": "Other account, paper only.",
-      "source": "Incubator roll-up 2026-10-05_2123 (late)",
-      "account": "Other bots"
-    },
-    {
-      "date": "2026-10-13",
-      "date_display": "Tue Oct 13, 2026",
-      "event": "HostFees redeploy deadline + Airbnb EEA/Switzerland fee change",
-      "details": "Airbnb's deadline for EEA/Swiss hosts to reprice for the single fee. HostFees needs Joshua's box sign-in to Cloudflare + GitHub to redeploy before then.",
-      "source": "Chief of Staff Mon Oct 5 roll-up · /workspace/affiliate/fee-sources.md"
-    },
-    {
       "date": "2026-12-17",
       "date_display": "Thu Dec 17, 2026",
       "event": "USPS Ground Advantage Christmas send-by (lower 48)",
       "details": "Other account (Family Gem); published by USPS Sep 22.",
       "source": "Incubator roll-up 2026-10-05_2123 (late)",
       "account": "Other bots"
+    },
+    {
+      "date": "2027-04-04",
+      "date_display": "Sun Apr 4, 2027",
+      "event": "Amazon Associates 3-sale deadline (hostfees-20)",
+      "details": "180-day clock from Oct 6, 2026 application: need 3 qualifying (shipped + paid) sales by about Apr 4, 2027. Confirm exact date in Associates Central.",
+      "source": "Amazon Associates welcome / hostfees-20 Day 0"
     }
   ],
   "other_account": {
     "label": "Other account (Grok Bot)",
-    "as_of": "LATE: Oct 5, 9:23 PM PT (built 8:56 PM)",
-    "source_note": "From the verified box copy of the other account's nightly roll-up: 2026-10-05_2123_incubator_rollup.md (body_sha256 bbe50a62a27f…, verified on the box). Built 8:56 PM PT and landed in Gold HQ Sync late, at 9:23 PM PT. Real numbers only; \"unknown\" means not verified. Paper lanes are paper only. Nothing was traded, published, spent, or turned on. None of these numbers count toward this account's totals.",
+    "as_of": "No Oct 6 roll-up by 8:45 PM PT; latest verified 2026-10-05_2123 (bbe50a62a27f)",
+    "source_note": "latest verified roll-up 2026-10-05_2123_incubator_rollup.md (bbe50a62a27f); no Oct 6 roll-up landed by 8:45 PM PT. Real numbers only; \"unknown\" means not verified. Paper lanes are paper only. Nothing was traded, published, spent, or turned on. None of these numbers count toward this account's totals.",
     "shops": [
       {
         "name": "MoonletterMira",
         "status": "live",
         "type": "Etsy digital readings",
         "url": "https://www.etsy.com/shop/MoonletterMira",
-        "note": "5 listings (ML-01 to ML-05) per shop files last changed Oct 2; Etsy not rechecked live tonight. No new orders on file. The only sale ever was a friend/demo order, not real revenue. Real revenue to date: $0 known. Etsy Ads off (not before ~Oct 11). Spend to date: unknown in full. Traffic tiles still pending Mira Etsy sign-in on the other account (requested Oct 6).",
+        "note": "5 listings (ML-01 to ML-05) per shop files last changed Oct 2; Etsy not rechecked live. No new orders on file. Real revenue to date: $0 known. Etsy Ads off (not before ~Oct 11). Traffic tiles still pending Mira Etsy sign-in on the other account (requested Oct 6); Mira stays unknown. No Oct 6 incubator roll-up.",
         "listings": [
           "ML-01",
           "ML-02",
@@ -1601,16 +1655,16 @@
           "ML-04",
           "ML-05"
         ],
-        "one_liner": "Live · 5 listings · $0 known real revenue · ads off"
+        "one_liner": "Live · 5 listings · $0 known · ads off · traffic unknown · no Oct 6 roll-up"
       },
       {
         "name": "The Family Gem Shop",
         "status": "vacation",
         "type": "Loose gemstones on Etsy",
         "url": "https://www.etsy.com/shop/TheFamilyGemShop",
-        "note": "Vacation mode ON, 0 live listings, 0 orders, $0 revenue, no logo/banner. SF-001 (1.19 ct tsavorite) photographed, NOT listed (don't list until Joshua says so; no price on file). Spend to date $40.48 ($29 Etsy setup + $11.48 domain). Planned move to the main account Oct 6–7. Shop Manager visits last 7 days: 0 as of Oct 6 8:37 PT (Etsy: Not enough data); views unknown on that page.",
+        "note": "Vacation mode ON, 0 live listings, 0 orders, $0 revenue, no logo/banner. SF-001 photographed, NOT listed. Shop Manager visits last 7 days: 0 as of Oct 6 8:37 PT (Etsy: Not enough data); views unknown on that page. No Oct 6 incubator roll-up.",
         "listings": [],
-        "one_liner": "Vacation on · 0 listings · 0 visits last 7d (Oct 6 8:37 PT) · $40.48 spent · moving to main account Oct 6–7"
+        "one_liner": "Vacation on · 0 listings · 0 visits last 7d (Oct 6 8:37 PT) · Mira unknown · no Oct 6 roll-up"
       },
       {
         "name": "Help4U",
@@ -2063,6 +2117,30 @@
   ],
   "decisions_pending": [
     {
+      "decision": "Gem Rock Auctions $1 win — pay or let it go",
+      "lane": "Ops",
+      "recommended": "Check the account first",
+      "note": "Confirm the Gem Rock account is Joshua's, then pay or let it go."
+    },
+    {
+      "decision": "Approve the family-Gmail Drive share request on the Melissa folder",
+      "lane": "Ops",
+      "recommended": "No",
+      "note": "Default: no — Melissa uses her own Gmail."
+    },
+    {
+      "decision": "Send Deal Scout inquiry letters for Wallets/Belts (QL 13546165) + EU Garden (QL 16051221) after review",
+      "lane": "Deal Scout",
+      "recommended": "Yes",
+      "note": "Letters drafted; Joshua pastes into Quiet Light inquire forms after review. Nothing sent yet."
+    },
+    {
+      "decision": "Deploy HostFees staged kits after N-1 (before Thu Oct 8 calculator post)",
+      "lane": "HostFees",
+      "recommended": "Yes",
+      "note": "Default sent to Joshua: yes after N-1. Staged build waiting on explicit OK."
+    },
+    {
       "decision": "Contra: $900 intro price",
       "lane": "WebsitePlz",
       "recommended": "Yes",
@@ -2141,7 +2219,7 @@
       "done": true
     }
   ],
-  "decisions_source": "Chief of Staff nightly roll-up, Mon Oct 5, 2026 (recommended defaults are Chief of Staff's; nothing changes until Joshua decides)",
+  "decisions_source": "Chief of Staff nightly roll-up, Tue Oct 6, 2026 ~9:43 PM PT (recommended defaults are Chief of Staff's; nothing changes until Joshua decides)",
   "priority_projects": [
     {
       "id": "cat-bundle",
