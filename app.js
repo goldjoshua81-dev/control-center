@@ -109,6 +109,9 @@ function render(D) {
   }
   const needs = D.needs_joshua.slice().sort((a, b) => (a.done - b.done) || ((b.pinned ? 1 : 0) - (a.pinned ? 1 : 0)) || ((a.rank || 99) - (b.rank || 99)));
   $("needs").innerHTML = needs.length ? needs.map(n => `<div class="item ${n.done ? "done" : ""}"><div>${n.done ? "✅" : "⬜"}</div><div style="flex:1"><div class="x"><b>${n.pinned && !n.done ? "⭐ " : ""}${n.rank && !n.done ? `#${n.rank} · ` : ""}${esc(n.task)}</b></div><div class="w">${esc(n.why)}</div></div><div>${pill(n.done ? "done" : n.priority)}</div></div>`).join("") : `<p class="empty">Nothing needed right now 🎉</p>`;
+  // Recently completed (data.json done_history): shown under the open list, newest first.
+  const hist = (D.done_history || []).slice().sort((a, b) => String(b.done_at).localeCompare(String(a.done_at))).slice(0, 8);
+  if (hist.length) $("needs").innerHTML += hist.map(h => `<div class="item done"><div>✅</div><div style="flex:1"><div class="x"><b>${esc(h.task)}</b></div><div class="w">${esc(h.done_display || "")}${h.note ? " · " + esc(h.note) : ""}</div></div><div>${pill(h.status === "reviewed" ? "reviewed" : "done")}</div></div>`).join("");
 }
 fetch("data.json?t=" + Date.now()).then(r => r.json()).then(render).catch(e => {
   $("updated").textContent = "Could not load data.json. Open via a web server (python3 -m http.server), not file://";

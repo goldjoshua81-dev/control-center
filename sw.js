@@ -1,6 +1,6 @@
 /* Gold HQ Control Center service worker — app shell only.
    Never caches data.json, auth.json, other JSON, or anything under avi/. */
-const CACHE = 'cc-shell-v3';
+const CACHE = 'cc-shell-v4';
 const SHELL = [
   './',
   './index.html',
@@ -12,7 +12,7 @@ const SHELL = [
   './gate.js?v=2',
   './style.css?v=3',
   './pages.css?v=3',
-  './app.js?v=12',
+  './app.js?v=13',
   './cc-common.js?v=1',
   './combined.js?v=8',
   './other.js?v=4',
