@@ -2,6 +2,13 @@
 <html lang="en">
 <head>
 <script src="gate.js?v=2"></script>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="theme-color" content="#17161A">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Gold HQ">
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow"><title>Improvements · Fresh $$</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -79,4 +86,11 @@
   <p class="source-note">Updated ~8:50 AM PT Oct 8 (morning refresh + Chief of Staff Oct 7 nightly roll-up): PrintPlz AM loop Oct 8, pins 22 of 49, Deal Scout Oct 7 run + ops push, Cloudflare 7-day visits read 8:46 AM. Earlier: ~9:00 AM PT Oct 7 (morning refresh) from the Etsy Shop Manager read at 8:39 AM (80 active / 1 draft / 2 inactive, 0 orders, 34 views / 27 visits last 7 days Oct 1–7) and lane files (<code>update.py lanes</code>): PrintPlz AM loop + order check Oct 7, Deal Scout run Oct 7, pins 22 of 49. Earlier: ~9:43 PM PT Oct 6 (Chief of Staff nightly). Earlier: ~8:55 AM PT Oct 6 (morning refresh) from the Etsy Shop Manager read at 8:38 AM (80 active / 1 draft / 2 inactive, 0 orders, 34 views / 27 visits last 7 days) and lane files (<code>update.py lanes</code>): PrintPlz AM audit loop + order check Oct 6, Deal Scout run Oct 6, pins 22 of 49. Earlier: updated ~9:55 PM PT Oct 5 from Chief of Staff's Mon Oct 5 roll-up and lane files. Earlier: morning refresh ~9:05 AM PT Oct 5 from Etsy Shop Manager (~9:00 AM: 80 active / 1 draft / 2 inactive, 0 orders, 30 views / 23 visits last 7 days) and lane files (<code>update.py lanes</code>): PrintPlz AM audit loop Oct 5, Deal Scout run Oct 5, pins 22 of 49 (posted-pins log; rechecked 7:30 PM PT). Lane context from Chief of Staff's Oct 4 roll-up. HostFees + WebsitePlz Cloudflare visits now tracked; Pinterest impressions still not invented. Margin estimates use recorded Printful/API/file costs, lowest variant prices and the stated Etsy fee formula; they exclude ads, Offsite Ads, sales-tax handling and Printful billing-currency effects.</p>
 </main>
 <footer class="wrap muted">Fresh $$ · improvements backlog · PT</footer>
+<script>
+if('serviceWorker' in navigator){
+  window.addEventListener('load',function(){
+    navigator.serviceWorker.register('sw.js',{scope:'./'}).catch(function(){});
+  });
+}
+</script>
 </body></html>
