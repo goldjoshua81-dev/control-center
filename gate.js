@@ -1,4 +1,4 @@
-const GATE_ENABLED=false; // keep in sync with "enabled" in auth.json. false = site behaves exactly as before (no gate, no logout button).
+const GATE_ENABLED=true; // keep in sync with "enabled" in auth.json. false = site behaves exactly as before (no gate, no logout button).
 /* Fresh $$ Control Center: simple client-side sign-in gate.
    Blocks casual visitors only: this is GitHub Pages, so files stay reachable by direct URL.
    Loaded synchronously as the first thing in <head> on every top-level page (not login.html, not avi/). */
