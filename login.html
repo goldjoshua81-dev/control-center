@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<meta name="referrer" content="no-referrer">
+<title>Sign in · Fresh $$</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@400;600;700;800&family=Shrikhand&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=3">
+<style>
+  .login-wrap{max-width:440px;margin:34px auto 60px;padding:0 16px}
+  .login-card{background:#fff;border:2px solid var(--asphalt);border-radius:16px;padding:20px 20px 18px;box-shadow:6px 6px 0 var(--yellow)}
+  .login-card label{display:block;font-weight:700;margin:14px 0 6px}
+  .login-card input[type=password]{width:100%;font:16px Poppins,system-ui,sans-serif;padding:11px 12px;border:2px solid var(--asphalt);border-radius:12px;background:var(--cream)}
+  .login-card input[type=password]:focus{outline:3px solid var(--teal);outline-offset:2px}
+  .login-card button{margin-top:14px;width:100%;font:700 16px Poppins,system-ui,sans-serif;padding:11px 14px;border-radius:12px;border:2px solid var(--asphalt);
+    background:var(--yellow);color:var(--asphalt);box-shadow:3px 3px 0 var(--asphalt);cursor:pointer}
+  .login-card button[disabled]{opacity:.6;cursor:wait}
+  .rules{margin:6px 0 0;padding-left:20px;font-size:14px;color:var(--muted)}
+  .msg{min-height:1.4em;margin:12px 0 0;font-weight:600;font-size:14px}
+  .msg.err{color:var(--red-ink)}
+  .msg.info{color:var(--teal-ink)}
+  .fine{font-size:12px;color:var(--muted);margin-top:14px}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="stripes" aria-hidden="true"><i></i><i></i><i></i></div>
+  <div class="wrap">
+    <div class="brand"><span class="logo" aria-hidden="true">$$</span><div><h1>Control Center</h1><p class="sub">Sign in to continue</p></div></div>
+  </div>
+  <div class="checker" aria-hidden="true"></div>
+</header>
+<main class="login-wrap">
+  <form class="login-card" id="loginForm" autocomplete="on" novalidate>
+    <b>Password rules</b>
+    <ul class="rules">
+      <li>At least 6 characters</li>
+      <li>At least one capital letter (A–Z)</li>
+      <li>At least one symbol (like <code>!</code>)</li>
+    </ul>
+    <label for="pw">Password</label>
+    <input type="password" id="pw" name="password" autocomplete="current-password" required autofocus>
+    <button type="submit" id="go">Sign in</button>
+    <p class="msg" id="msg" role="status" aria-live="polite"></p>
+    <p class="fine">Signing in lasts until this browser tab is closed.</p>
+  </form>
+</main>
+<script>
+(function(){
+  'use strict';
+  var KEY='cc_session';
+  var form=document.getElementById('loginForm'), pw=document.getElementById('pw'),
+      go=document.getElementById('go'), msg=document.getElementById('msg');
+  var GENERIC='That password didn\u2019t work. Please try again.';
+
+  function say(text,cls){ msg.textContent=text; msg.className='msg '+(cls||''); }
+
+  // Only allow a same-origin, same-folder relative page for ?next=. Default index.html.
+  function safeNext(){
+    var raw=new URLSearchParams(location.search).get('next');
+    if(!raw) return 'index.html';
+    if(/^[\s]*([a-z][a-z0-9+.-]*:|\/|\\)/i.test(raw) || raw.indexOf('\\')!==-1) return 'index.html';
+    try{
+      var dir=location.pathname.replace(/[^\/]*$/,'');
+      var u=new URL(raw,location.href);
+      if(u.origin!==location.origin) return 'index.html';
+      if(u.pathname.indexOf(dir)!==0) return 'index.html';
+      var rest=u.pathname.slice(dir.length);
+      if(rest.indexOf('/')!==-1) return 'index.html';           // top-level pages only
+      if(rest==='' ) rest='index.html';
+      if(!/^[A-Za-z0-9._-]+\.html$/.test(rest) || rest==='login.html') return 'index.html';
+      return rest+u.search+u.hash;
+    }catch(e){ return 'index.html'; }
+  }
+
+  function b64ToBytes(s){
+    var bin=atob(s), out=new Uint8Array(bin.length);
+    for(var i=0;i<bin.length;i++) out[i]=bin.charCodeAt(i);
+    return out;
+  }
+  // Compare every byte regardless of where the first mismatch is.
+  function sameBytes(a,b){
+    var diff=a.length^b.length, n=Math.max(a.length,b.length);
+    for(var i=0;i<n;i++) diff|=((a[i]|0)^(b[i]|0));
+    return diff===0;
+  }
+  async function derive(password,saltBytes,iterations,bits){
+    var key=await crypto.subtle.importKey('raw',new TextEncoder().encode(password),{name:'PBKDF2'},false,['deriveBits']);
+    var buf=await crypto.subtle.deriveBits({name:'PBKDF2',hash:'SHA-256',salt:saltBytes,iterations:iterations},key,bits);
+    return new Uint8Array(buf);
+  }
+  async function loadAuth(){
+    var r=await fetch('auth.json',{cache:'no-store'});
+    if(!r.ok) throw new Error('auth');
+    var a=await r.json();
+    if(!a || a.v!==1 || a.alg!=='PBKDF2-SHA256' || typeof a.salt!=='string' || typeof a.hash!=='string' ||
+       !Number.isInteger(a.iterations) || a.iterations<100000) throw new Error('auth');
+    return a;
+  }
+
+  var auth=null, fails=0;
+  loadAuth().then(function(a){
+    auth=a;
+    if(!a.enabled){ say('Sign-in isn\u2019t switched on yet. The dashboard is open as usual.','info'); }
+  }).catch(function(){ say('Sign-in is unavailable right now. Please try again later.','err'); });
+
+  if(!(window.crypto && crypto.subtle)){ say('This browser can\u2019t sign in here (needs a secure https page).','err'); go.disabled=true; }
+
+  form.addEventListener('submit',async function(ev){
+    ev.preventDefault();
+    if(go.disabled) return;
+    var p=pw.value;
+    if(!p){ say('Please enter your password.','err'); return; }
+    go.disabled=true; say('Checking\u2026','info');
+    var ok=false;
+    try{
+      if(!auth) auth=await loadAuth();
+      if(auth.enabled){
+        var want=b64ToBytes(auth.hash);
+        var got=await derive(p,b64ToBytes(auth.salt),auth.iterations,want.length*8 || 256);
+        ok=want.length===32 && sameBytes(got,want);
+      } else {
+        ok=true; // gate is off: nothing to check
+      }
+    }catch(e){ ok=false; }
+    if(ok){
+      try{ sessionStorage.setItem(KEY,'1'); }catch(e){}
+      pw.value='';
+      location.replace(safeNext());
+      return;
+    }
+    fails++;
+    pw.value=''; pw.focus();
+    say(GENERIC,'err');
+    // Small, growing pause after wrong tries to slow down guessing.
+    setTimeout(function(){ go.disabled=false; }, Math.min(800*fails,8000));
+  });
+})();
+</script>
+</body>
+</html>
