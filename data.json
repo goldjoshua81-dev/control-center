@@ -3,7 +3,7 @@
     "title": "Fresh $$ Control Center",
     "owner": "Joshua",
     "assistant": "Fresh $$",
-    "last_updated": "2026-10-08T11:52:18-07:00",
+    "last_updated": "2026-10-08T11:59:01-07:00",
     "status_note": "Morning refresh Thu Oct 8, 2026 ~8:50 AM PT (plus Chief of Staff's Wed Oct 7 nightly roll-up). PrintPlz: AM loop 5:44-5:52 AM PT 54/54 Printful sync, 0 open orders, 0 unread messages; capitalize-as-printed text on TF2/TB3 (TG2 already set) + TC12 title updated; last Shop Manager read Oct 7 8:39 AM PT: 80 active, 34 views / 27 visits (7d), 0 orders. HostFees: kits live since Oct 6 (all 54 pages 200, IDs + disclosures verified); kit pins post daily through Oct 13; 26 of 49 pins live; Cloudflare 7d 445 visits / 467 views (raw, includes bots); calculator post today; 5 redesign mockups in progress (nothing goes live until Joshua picks). WebsitePlz: reassurance line live, audit clean, Search Console collecting since Oct 5; Fiverr gig still waiting on Joshua's ID verification; Cloudflare 7d 828 visits / 834 views (raw, includes bots). Deal Scout (Oct 7, latest): bottes-presso.fr and Marble Tracks SOLD; Track A #1 SEO Supremacy ($3,000); 6 inquiry letters drafted, none sent; golf club-care QL 18830614: no at asking, one earn-in talk worth having. Revenue $0 in every lane. Other account: verified catch-up roll-up landed Oct 8 8:22 AM PT (b89deb30f95f) with no new numbers beyond Oct 6 reads; Oct 6/7 nightly roll-ups were never produced."
   },
   "budget": {
@@ -739,7 +739,7 @@
     }
   ],
   "acquisitions": {
-    "note": "Watch only. Figures are seller/listing claims or research notes, not verified by us. No accounts, bids, offers, seller contact, purchases or acquisitions. Latest Deal Scout run Wed Oct 7: bottes-presso.fr and Marble Tracks SOLD; new Track A #1 SEO Supremacy, then Rewired (stretch), popeyesmenuusa. Cat Bundle (Flippa #13421685) PASSED Oct 6. Earn-in focus: QL Wallets/Belts 13546165, EU Garden 16051221, new golf club-care 18830614.",
+    "note": "Watch only. Figures are seller/listing claims or research notes, not verified by us. No accounts, bids, offers, seller contact, purchases or acquisitions. Latest Deal Scout run Thu Oct 8 (manual rerun): Quiet Light earn-in targets live, asks unchanged; Oct 7: bottes-presso.fr and Marble Tracks SOLD; new Track A #1 SEO Supremacy, then Rewired (stretch), popeyesmenuusa. Cat Bundle (Flippa #13421685) PASSED Oct 6. Earn-in ideas are in 'Prospective acquisition ideas: ON HOLD' below.",
     "source": "Deal Scout run files 2026-10-01 to 10-07 (latest: 2026-10-07-run.md, ~8:05-8:20 AM PT)",
     "watchlist": [
       {
@@ -2415,5 +2415,123 @@
       "note": "Reviewed. None are approved to send, so no outreach; nothing sent.",
       "source": "Joshua tapped COMPLETED (relayed by Chief of Staff)"
     }
-  ]
+  ],
+  "acquisition_ideas": {
+    "title": "Prospective acquisition ideas: ON HOLD",
+    "status": "on hold",
+    "banner": "ON HOLD · research only · no contact, no bids, no offers. Joshua reviewed the inquiry letters on Oct 8 (11:51 AM PT); none are approved to send. No next-step date: Joshua decides when.",
+    "note": "Asks, revenue and income/SDE are the brokers' listing claims, not verified by us. Earn-in scores are Deal Scout's rubric (earn-in / base / buy, out of 10). Anything marked ESTIMATE is a projection. Listing status from the Oct 8 Deal Scout run: all six Quiet Light listings live, asks unchanged.",
+    "source": "Deal Scout files: 2026-10-07-wed-ops-partnership-push.md, earn-in-audits-2026-10-06/SCOREBOARD.md, earn-in-audits-2026-10-07 (golf), earn-in-audits-2026-10-08/DEAL-SCORE.md, inquire-letters/, 2026-10-07-farmers-rice-leak-report.md, 2026-10-08-run.md",
+    "cards": [
+      {
+        "name": "EU Garden FBA",
+        "listing": "Quiet Light 16051221",
+        "url": "https://quietlight.com/listings/16051221/",
+        "status": "on hold",
+        "figures": [
+          "Ask $31,000",
+          "Income $31,144/yr (listing claim)",
+          "1.0× income",
+          "Revenue $131,770 (listing claim)"
+        ],
+        "score": "Earn-in 7.0 · base 6.9 · buy 6.8 (highest so far)",
+        "letter": "Letter 18 drafted, not sent",
+        "note": "Pan-EU Amazon gardening catalog; US market never opened."
+      },
+      {
+        "name": "Wallets/Belts brand",
+        "listing": "Quiet Light 13546165",
+        "url": "https://quietlight.com/listings/13546165/",
+        "status": "on hold",
+        "figures": [
+          "Accepting offers (no asking price listed)",
+          "Income $12,703/yr (listing claim)",
+          "Revenue $942,119 (listing claim)"
+        ],
+        "score": "Earn-in 6.8 · base 5.2 · buy 4.5",
+        "letter": "Letter 17 drafted, not sent",
+        "note": "20-year Amazon men's wallets and belts brand. Thin income on big revenue: an earn-in/operator fit more than a buy."
+      },
+      {
+        "name": "Golf club-care brand (likely Club Doctor Golf)",
+        "listing": "Quiet Light 18830614",
+        "url": "https://quietlight.com/listings/18830614/",
+        "status": "on hold",
+        "figures": [
+          "Ask $460,000",
+          "SDE/income $229,221 TTM (listing claim)",
+          "2.01× SDE",
+          "Revenue $1,721,272 (listing claim)"
+        ],
+        "score": "Earn-in 6.2 · base 5.8 · buy 5.6",
+        "letter": "Letter 22 drafted (brand kept anonymous) + broker questions, not sent",
+        "note": "Brand match ~90% from public sources; broker hasn't confirmed. Listing says earnings are weaker year over year, so outright buy at ask is a no; one earn-in conversation is worth having."
+      },
+      {
+        "name": "Kitchen turnaround",
+        "listing": "Quiet Light 18829586",
+        "url": "https://quietlight.com/listings/18829586/",
+        "status": "on hold",
+        "figures": [
+          "Ask $65,000 incl. ~$32k inventory",
+          "TTM loss −$42.7k (listing claim)"
+        ],
+        "score": "Earn-in 6.3 · base 5.6 · buy 5.4",
+        "letter": "Letter 19 drafted, not sent",
+        "note": "Asset/turnaround play; only works on tight terms or an earn-in."
+      },
+      {
+        "name": "Self-watering garden",
+        "listing": "Quiet Light 15909940",
+        "url": "https://quietlight.com/listings/15909940/",
+        "status": "on hold",
+        "figures": [
+          "Ask $300,000 + inventory",
+          "Income $124k/yr (listing claim)",
+          "2.42× income"
+        ],
+        "score": "Earn-in 6.2 · base 6.0 · buy 5.9",
+        "letter": "Letter 20 drafted, not sent",
+        "note": "Only worth a look after a last-6-months earnings screen."
+      },
+      {
+        "name": "Baby FBA",
+        "listing": "Quiet Light 18829151",
+        "url": "https://quietlight.com/listings/18829151/",
+        "status": "on hold",
+        "figures": [
+          "Ask $36,000",
+          "Income $25k/yr (listing claim)",
+          "1.44× income"
+        ],
+        "score": "Earn-in 6.0 · base 6.4 · buy 6.5",
+        "letter": "Letter 21 drafted, not sent",
+        "note": "Scores better as a cheap, clean cash buy than as an earn-in. 8-year FBA account, flagship 601 reviews / 4.7★."
+      },
+      {
+        "name": "Farmers Rice Cooperative: run Amazon for Diamond G + Homai",
+        "listing": "Idea, not a listing",
+        "status": "on hold",
+        "figures": [
+          "Resellers collect ≈$69K/yr on these brands today (ESTIMATE; range $47–112K)",
+          "Base case ≈$409K/yr by month 12 with a proper brand store (ESTIMATE; conservative $144K, stretch $931K)"
+        ],
+        "score": "No score (operator / brand-manager agreement, not equity)",
+        "letter": "Leak report PDF done (Oct 7); nothing sent",
+        "note": "Brands are fragmented across 13+ reseller-run listings. Risks: thin margins on heavy bags, food compliance, channel conflict with existing wholesale buyers."
+      },
+      {
+        "name": "Watch only: JuniperMist + Needles Quilt Studio",
+        "listing": "Flippa 13632149 · Empire Flippers 97703",
+        "status": "watching",
+        "figures": [
+          "JuniperMist: ask $212,678 + $75k inventory (listing claim)",
+          "Needles Quilt Studio: ask $134,328 on $58.4k/yr (listing claim); net down ~75% in recent months"
+        ],
+        "score": "Earn-in 5.6 each (buy 5.2 / 5.0)",
+        "letter": "No letters",
+        "note": "Both fall below the line: not worth it at their asking prices."
+      }
+    ]
+  }
 }

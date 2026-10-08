@@ -16,7 +16,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@400;600;700;800&family=Shrikhand&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=3">
+<link rel="stylesheet" href="style.css?v=4">
 <link rel="stylesheet" href="pages.css?v=3">
 </head>
 <body>
@@ -46,10 +46,11 @@
   <section class="sec c-orange"><h2><span class="ico" aria-hidden="true">📣</span>Ad spend &amp; return</h2><div class="card"><table id="ads"></table></div></section>
   <section class="sec c-yellow"><h2><span class="ico" aria-hidden="true">🧪</span>Experiments / niches</h2><div class="card"><table id="exps"></table></div></section>
   <section class="sec c-teal"><h2><span class="ico" aria-hidden="true">🔭</span>Acquisition watchlist</h2><p class="muted" id="acqNote"></p><div class="card"><table id="acq"></table></div></section>
+  <section class="sec c-orange" id="ideasSec" hidden><h2><span class="ico" aria-hidden="true">⏸️</span><span id="ideasTitle">Prospective acquisition ideas: ON HOLD</span></h2><p class="hold-banner" id="ideasBanner"></p><p class="muted" id="ideasNote"></p><div class="grid" id="ideas"></div></section>
   <section class="sec c-red"><h2><span class="ico" aria-hidden="true">🧾</span>Spending ledger</h2><div class="card"><table id="ledger"></table></div></section>
 </main>
 <footer class="wrap muted">Data: <code>data.json</code> · Updated by Fresh $$ · Zeros are real zeros, not placeholders.</footer>
-<script src="app.js?v=13"></script>
+<script src="app.js?v=14"></script>
 <script>
 if('serviceWorker' in navigator){
   window.addEventListener('load',function(){
