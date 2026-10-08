@@ -14,7 +14,10 @@ try:
     with sync_playwright() as p:
         b = p.chromium.launch()
         for name, vp in (("desktop", {"width": 1280, "height": 900}), ("mobile", {"width": 390, "height": 844})):
-            pg = b.new_page(viewport=vp, device_scale_factor=2 if name == "mobile" else 1)
+            ctx = b.new_context(viewport=vp, device_scale_factor=2 if name == "mobile" else 1)
+            # Login gate (gate.js) redirects unless sessionStorage cc_session=1; set before any page load.
+            ctx.add_init_script("sessionStorage.setItem('cc_session','1')")
+            pg = ctx.new_page()
             pg.goto(url); pg.wait_for_selector(".shop")
             out = HERE / "screenshots" / f"dashboard-{name}.png"; out.parent.mkdir(exist_ok=True)
             pg.screenshot(path=str(out), full_page=True); print(out)
