@@ -3,8 +3,8 @@
     "title": "Fresh $$ Control Center",
     "owner": "Joshua",
     "assistant": "Fresh $$",
-    "last_updated": "2026-10-08T08:47:32-07:00",
-    "status_note": "Morning refresh Thu Oct 8, 2026 ~8:50 AM PT (plus Chief of Staff's Wed Oct 7 nightly roll-up). PrintPlz: AM loop 5:44-5:52 AM PT 54/54 Printful sync, 0 open orders, 0 unread messages; capitalize-as-printed text on TF2/TB3 (TG2 already set) + TC12 title updated; last Shop Manager read Oct 7 8:39 AM PT: 80 active, 34 views / 27 visits (7d), 0 orders. HostFees: kits live since Oct 6 (all 54 pages 200, IDs + disclosures verified); kit pins post daily through Oct 13; 22 of 49 pins live; Cloudflare 7d 445 visits / 467 views (raw, includes bots); calculator post today; 5 redesign mockups in progress (nothing goes live until Joshua picks). WebsitePlz: reassurance line live, audit clean, Search Console collecting since Oct 5; Fiverr gig still waiting on Joshua's ID verification; Cloudflare 7d 828 visits / 834 views (raw, includes bots). Deal Scout (Oct 7, latest): bottes-presso.fr and Marble Tracks SOLD; Track A #1 SEO Supremacy ($3,000); 6 inquiry letters drafted, none sent; golf club-care QL 18830614: no at asking, one earn-in talk worth having. Revenue $0 in every lane. Other account: verified catch-up roll-up landed Oct 8 8:22 AM PT (b89deb30f95f) with no new numbers beyond Oct 6 reads; Oct 6/7 nightly roll-ups were never produced."
+    "last_updated": "2026-10-08T11:05:28-07:00",
+    "status_note": "Morning refresh Thu Oct 8, 2026 ~8:50 AM PT (plus Chief of Staff's Wed Oct 7 nightly roll-up). PrintPlz: AM loop 5:44-5:52 AM PT 54/54 Printful sync, 0 open orders, 0 unread messages; capitalize-as-printed text on TF2/TB3 (TG2 already set) + TC12 title updated; last Shop Manager read Oct 7 8:39 AM PT: 80 active, 34 views / 27 visits (7d), 0 orders. HostFees: kits live since Oct 6 (all 54 pages 200, IDs + disclosures verified); kit pins post daily through Oct 13; 26 of 49 pins live; Cloudflare 7d 445 visits / 467 views (raw, includes bots); calculator post today; 5 redesign mockups in progress (nothing goes live until Joshua picks). WebsitePlz: reassurance line live, audit clean, Search Console collecting since Oct 5; Fiverr gig still waiting on Joshua's ID verification; Cloudflare 7d 828 visits / 834 views (raw, includes bots). Deal Scout (Oct 7, latest): bottes-presso.fr and Marble Tracks SOLD; Track A #1 SEO Supremacy ($3,000); 6 inquiry letters drafted, none sent; golf club-care QL 18830614: no at asking, one earn-in talk worth having. Revenue $0 in every lane. Other account: verified catch-up roll-up landed Oct 8 8:22 AM PT (b89deb30f95f) with no new numbers beyond Oct 6 reads; Oct 6/7 nightly roll-ups were never produced."
   },
   "budget": {
     "starting_capital": 1000,
@@ -629,7 +629,7 @@
       "spend": 0,
       "attributed_revenue": 0,
       "orders": 0,
-      "plan": "hostfees.com claimed; 22 of 49 pins live (posted-pins log, Oct 7); daily routine posts 3 each morning at 10:06 AM PT; $0 spent."
+      "plan": "hostfees.com claimed; 26 of 49 pins live (posted-pins log, Oct 8 AM); daily routine posts 3 each morning at 10:06 AM PT; $0 spent."
     }
   ],
   "experiments": [
@@ -979,7 +979,7 @@
       "type": "Short-term-rental fee calculators, explainers, and gift guides",
       "status": "live",
       "url": "https://hostfees.com",
-      "status_note": "LIVE at hostfees.com. Associates live: Store ID hostfees-20, tax validated, account Unblocked, 5 tracking IDs. Kits live since the Oct 6 deploy (cb116d98): all 54 pages return 200, tracking IDs and disclosures verified, calculators work. 28 of 51 SiteStripe slots still on tagged-search fallback (needs Joshua's Sites list + SiteStripe links). Kit pins post daily through Oct 13; 22 of 49 pins live (posted-pins log, last post Oct 7 AM). Calculator post Thu Oct 8. Visual redesign: 5 one-page mockups in progress; nothing goes live until Joshua picks one. Cloudflare 7d (Oct 8 8:46 AM PT): 445 visits / 467 views (raw, includes bots). Lodgify affiliate pending. $0 revenue. 3 qualifying Associates sales needed by Apr 4, 2027.",
+      "status_note": "LIVE at hostfees.com. Associates live: Store ID hostfees-20, tax validated, account Unblocked, 5 tracking IDs. Kits live since the Oct 6 deploy (cb116d98): all 54 pages return 200, tracking IDs and disclosures verified, calculators work. 28 of 51 SiteStripe slots still on tagged-search fallback (needs Joshua's Sites list + SiteStripe links). Kit pins post daily through Oct 13; 26 of 49 pins live (posted-pins log, last post Oct 8 AM). Calculator post Thu Oct 8. Visual redesign: 5 one-page mockups in progress; nothing goes live until Joshua picks one. Cloudflare 7d (Oct 8 8:46 AM PT): 445 visits / 467 views (raw, includes bots). Lodgify affiliate pending. $0 revenue. 3 qualifying Associates sales needed by Apr 4, 2027.",
       "pages": 27,
       "calculators": 5,
       "gift_guides": 3,
@@ -987,12 +987,12 @@
       "pins_ready": 49,
       "revenue": 0,
       "profit": 0,
-      "pins_published": 22,
+      "pins_published": 26,
       "pin_routine": "3 each morning at 10:06 AM PT",
       "pinterest_claimed": true,
       "turno_status": "live; affiliate link on hostfees.com (https://share.turno.com/69pllwz)",
       "hostaway_status": "declined for now; revisit in 4–6 weeks with traffic numbers",
-      "one_liner": "Live · kits live (54 pages OK) · kit pins daily to Oct 13 · 22 of 49 pins · 28 of 51 SiteStripe slots on fallback · redesign mockups pending pick · $0 revenue"
+      "one_liner": "Live · kits live (54 pages OK) · kit pins daily to Oct 13 · 26 of 49 pins · 28 of 51 SiteStripe slots on fallback · redesign mockups pending pick · $0 revenue"
     },
     {
       "id": "deal-scout",
@@ -2228,6 +2228,12 @@
   ],
   "decisions_pending": [
     {
+      "decision": "Apple Developer membership ($99/yr) and individual vs LLC enrollment",
+      "lane": "App Store apps",
+      "recommended": "Joshua decides; nothing bought yet",
+      "note": "Unlocks the pinned next business (Host Payout & Fee Calculator first). Individual is faster but shows the legal name as seller; LLC needs a registered company and a free D-U-N-S number (~1 week)."
+    },
+    {
       "decision": "Pick 1 of the 5 HostFees redesign mockups",
       "lane": "HostFees",
       "recommended": "Pick one when they arrive",
@@ -2342,10 +2348,51 @@
       "lane": "Deal Scout",
       "recommended": "No at asking; one earn-in talk is worth having",
       "note": "Owner stepping away, Amazon 42% of sales. Not worth the asking price, but one earn-in conversation is worth having. Nothing sent."
+    },
+    {
+      "decision": "Native Control Center iPhone app",
+      "lane": "Ops",
+      "recommended": "Tabled, revisit later",
+      "note": "Tabled Oct 8. The home-screen (PWA) version is live; a native app would need the $99/yr Apple membership."
     }
   ],
   "decisions_source": "Chief of Staff nightly roll-up, Wed Oct 7, 2026 (recommended defaults are Chief of Staff's; nothing changes until Joshua decides)",
   "priority_projects": [
+    {
+      "id": "app-store-apps",
+      "pinned": true,
+      "label": "Next business to build",
+      "name": "App Store apps (#1 Host Payout & Fee Calculator)",
+      "owner": "Fresh $$ (research) + Joshua (Apple enrollment)",
+      "status": "Research done Oct 8",
+      "status_note": "Research done Oct 8; next step: Joshua decides $99/yr Apple Developer + individual vs LLC. Plan: free app with a paid Pro tier, reusing HostFees, PrintPlz and WebsitePlz know-how; no ads, no paid installs, no fake reviews. Nothing bought or signed up for. Benchmark: typical new subscription app earns ~$72/month a year after launch (RevenueCat 2026).",
+      "estimates_label": "Top 3, first-year gross revenue (estimates, not results)",
+      "estimates": [
+        {
+          "rank": 1,
+          "name": "Host Payout & Fee Calculator (HostFees)",
+          "build": "7-12 days",
+          "year1": "$200-$5,000 (base ~$1,500) estimate"
+        },
+        {
+          "rank": 2,
+          "name": "Etsy/print-on-demand Seller Profit Calculator (PrintPlz)",
+          "build": "5-8 days",
+          "year1": "$100-$3,000 (base ~$750) estimate"
+        },
+        {
+          "rank": 3,
+          "name": "Cleaning Business Quote Calculator (WebsitePlz)",
+          "build": "10-14 days",
+          "year1": "$350-$6,000 (base ~$1,500) estimate"
+        }
+      ],
+      "cost": "$99/yr Apple Developer membership; Apple keeps 15% (Small Business Program)",
+      "next_step": "Joshua decides: $99/yr Apple Developer go/no-go, and individual vs LLC enrollment. Then a ~30-day build plan for #1 starts.",
+      "next_date": null,
+      "source": "/workspace/research/app-store-income-2026-10-08.md",
+      "pinned_on": "2026-10-08"
+    },
     {
       "id": "cat-bundle",
       "name": "Cat Bundle ops partnership (Flippa #13421685, Marlenespetshop)",

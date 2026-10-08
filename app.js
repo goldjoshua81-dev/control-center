@@ -98,8 +98,9 @@ function render(D) {
 
   if (D.priority_projects?.length) {
     $("prioritySec").hidden = false;
-    $("priority").innerHTML = D.priority_projects.map(p => `<div class="card shop" style="border-width:3px;box-shadow:6px 6px 0 var(--red-ink,#c0392b)"><div class="row between"><h3>${p.url ? `<a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.name)}</a>` : esc(p.name)}</h3><span class="pill medium">⏳ ${esc(p.status)}</span></div>
+    $("priority").innerHTML = D.priority_projects.map(p => `<div class="card shop" style="border-width:3px;box-shadow:6px 6px 0 var(--red-ink,#c0392b)"><div class="row between"><h3>${p.label ? `📌 ${esc(p.label)}<br>` : ""}${p.url ? `<a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.name)}</a>` : esc(p.name)}</h3><span class="pill medium">⏳ ${esc(p.status)}</span></div>
       <div class="t">Owner: ${esc(p.owner)}</div><div class="muted">${esc(p.status_note)}</div>
+      ${p.estimates?.length ? `<div style="margin-top:8px"><b>${esc(p.estimates_label || "Estimates")}:</b><ol style="margin:4px 0 0 18px;padding:0">${p.estimates.map(e => `<li>${esc(e.name)}: ${esc(e.year1)}${e.build ? ` · build ${esc(e.build)}` : ""}</li>`).join("")}</ol>${p.cost ? `<div class="muted">Cost: ${esc(p.cost)}</div>` : ""}</div>` : ""}
       <div style="margin-top:8px"><b>Next step:</b> ${esc(p.next_step)}</div></div>`).join("");
   }
   if (D.decisions_pending) {
