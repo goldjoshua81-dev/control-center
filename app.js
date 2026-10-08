@@ -96,6 +96,19 @@ function render(D) {
   table("acq", [["Asset", r => r.url ? `<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.name)}</a>` : esc(r.name)], ["Price", r => esc(r.price)], ["Listed profit", r => esc(r.listed_profit)], ["Closes", r => esc(r.closes)], ["Fits $5k?", r => r.fits_budget ? "✅ yes" : "no"], ["Status", r => pill(r.status)]], D.acquisitions.watchlist, "Watchlist empty");
   table("ledger", [["Date", r => esc(r.date)], ["What", r => esc(r.what)], ["Lane", r => esc(r.lane || "")], ["Amount", r => usd(r.amount)]], D.budget.ledger, "$0 spent so far");
 
+  const AI = D.acquisition_ideas;
+  if (AI && (AI.cards || []).length) {
+    $("ideasSec").hidden = false;
+    $("ideasTitle").textContent = AI.title || "Prospective acquisition ideas: ON HOLD";
+    $("ideasBanner").textContent = AI.banner || "";
+    $("ideasNote").textContent = (AI.note || "") + (AI.source ? " Source: " + AI.source + "." : "");
+    $("ideas").innerHTML = AI.cards.map(c => `<div class="card shop"><div class="row between"><h3>${esc(c.name)}</h3>${pill(c.status || "on hold")}</div>
+      <div class="t">${c.url ? `<a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.listing)}</a>` : esc(c.listing || "")}</div>
+      <ul class="idea-figs">${(c.figures || []).map(f => `<li>${esc(f).replace(/ESTIMATE/g, "<b>ESTIMATE</b>")}</li>`).join("")}</ul>
+      ${c.score ? `<div class="muted"><b>${esc(c.score)}</b></div>` : ""}
+      ${c.letter ? `<div class="muted">✉️ ${esc(c.letter)}</div>` : ""}
+      ${c.note ? `<div class="muted">${esc(c.note)}</div>` : ""}</div>`).join("");
+  }
   if (D.priority_projects?.length) {
     $("prioritySec").hidden = false;
     $("priority").innerHTML = D.priority_projects.map(p => `<div class="card shop" style="border-width:3px;box-shadow:6px 6px 0 var(--red-ink,#c0392b)"><div class="row between"><h3>${p.label ? `📌 ${esc(p.label)}<br>` : ""}${p.url ? `<a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.name)}</a>` : esc(p.name)}</h3><span class="pill medium">⏳ ${esc(p.status)}</span></div>
