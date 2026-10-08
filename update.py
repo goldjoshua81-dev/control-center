@@ -89,10 +89,14 @@ def lane_status():
     runs = sorted((WS / "acquisitions/deal-scout").glob("20??-??-??-run.md"))
     if runs:
         f = runs[-1]; first = f.read_text(errors="ignore").splitlines()[0] if f.stat().st_size else ""
-        top = ""
+        top = ""; prev = ""
         for line in f.read_text(errors="ignore").splitlines():
             if line.startswith("| 1 |"):
                 top = re.sub(r"\*\*|\(.*", "", line.split("|")[2]).strip(" ,"); break
+            m = re.match(r"\*{0,2}1\*{0,2}[ .)]+(.+?)(?: \(| · |$)", line)
+            if m and ("Track A" in prev or "re-ranked" in prev):   # inline "1 Name (…) · 2 …" format (Oct 7+)
+                top = m.group(1).replace("**", "").strip(" ,"); break
+            if line.strip(): prev = line
         out["Deal Scout"] = {"latest": f.name[:10], "at": _mt(f).strftime("%b %-d %-I:%M %p PT"), "file": str(f),
                              "runs": [r.name[:10] for r in runs[-5:]], "top_pick": top, "title": first.lstrip("# ")}
     posted = WS / "affiliate/pins/posted.md"
@@ -111,12 +115,18 @@ def lane_status():
         if f: out["WebsitePlz site"] = {"latest": _mt(f).date().isoformat(), "at": _mt(f).strftime("%b %-d %-I:%M %p PT"), "file": str(f)}
     return out
 
+# Typical finish times (PT) from ORG-MAP.md / past run files; used only to flag a lane as LATE in `lanes`.
+EXPECTED_BY = {"Deal Scout": (9, 30), "HostFees pins": (11, 0), "PrintPlz polish loop": (7, 0), "PrintPlz order check": (9, 30)}
+
 def cmd_lanes(as_json=False):
     st = lane_status()
     if as_json: print(json.dumps(st, indent=2, ensure_ascii=False)); return
     today = datetime.datetime.now(PT).date().isoformat()
     for lane, s in st.items():
         flag = "RAN TODAY" if s["latest"] == today else "last " + s["latest"]
+        due = EXPECTED_BY.get(lane)
+        if due and s["latest"] != today and datetime.datetime.now(PT).time() > datetime.time(*due):
+            flag += f" · LATE (usually done by {datetime.time(*due).strftime('%-I:%M %p')} PT; check the routine)"
         extra = "".join(f" · {k}={v}" for k, v in s.items() if k in ("posted", "top_pick", "runs"))
         print(f"{lane}: {flag} ({s['at']}) {s['file']}{extra}")
 

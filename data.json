@@ -3,7 +3,7 @@
     "title": "Fresh $$ Control Center",
     "owner": "Joshua",
     "assistant": "Fresh $$",
-    "last_updated": "2026-10-08T11:05:28-07:00",
+    "last_updated": "2026-10-08T11:08:37-07:00",
     "status_note": "Morning refresh Thu Oct 8, 2026 ~8:50 AM PT (plus Chief of Staff's Wed Oct 7 nightly roll-up). PrintPlz: AM loop 5:44-5:52 AM PT 54/54 Printful sync, 0 open orders, 0 unread messages; capitalize-as-printed text on TF2/TB3 (TG2 already set) + TC12 title updated; last Shop Manager read Oct 7 8:39 AM PT: 80 active, 34 views / 27 visits (7d), 0 orders. HostFees: kits live since Oct 6 (all 54 pages 200, IDs + disclosures verified); kit pins post daily through Oct 13; 26 of 49 pins live; Cloudflare 7d 445 visits / 467 views (raw, includes bots); calculator post today; 5 redesign mockups in progress (nothing goes live until Joshua picks). WebsitePlz: reassurance line live, audit clean, Search Console collecting since Oct 5; Fiverr gig still waiting on Joshua's ID verification; Cloudflare 7d 828 visits / 834 views (raw, includes bots). Deal Scout (Oct 7, latest): bottes-presso.fr and Marble Tracks SOLD; Track A #1 SEO Supremacy ($3,000); 6 inquiry letters drafted, none sent; golf club-care QL 18830614: no at asking, one earn-in talk worth having. Revenue $0 in every lane. Other account: verified catch-up roll-up landed Oct 8 8:22 AM PT (b89deb30f95f) with no new numbers beyond Oct 6 reads; Oct 6/7 nightly roll-ups were never produced."
   },
   "budget": {
@@ -952,7 +952,7 @@
     },
     {
       "task": "Set up Google Search Console for hostfees.com, websiteplz.com, and thefamilygems.com",
-      "why": "Search Console coverage for the three live sites so indexing and URL inspection work.",
+      "why": "hostfees.com and websiteplz.com are already collecting (Google emails Oct 6-7); left: submit their sitemaps, and add thefamilygems.com (no Google verification record on its DNS as of Oct 8).",
       "priority": "medium",
       "done": false,
       "rank": 12
@@ -1535,7 +1535,7 @@
       "date": "2026-10-06",
       "date_display": "Tue Oct 6 – Wed Oct 7, 2026",
       "event": "Family Gem moves to the main account",
-      "details": "Planned migration of The Family Gem Shop from the other account.",
+      "details": "Not done yet: the shop still runs on the other account (vacation mode, 0 listings) and no bot on this account owns it. Plan: /workspace/plans/FAMILY-GEM-LAUNCH-2026-10-08.md",
       "source": "Chief of Staff Mon Oct 5 roll-up",
       "account": "Other bots"
     },
@@ -1776,7 +1776,7 @@
         "date": "Oct 6–7",
         "date_iso": "2026-10-06",
         "event": "Family Gem move to the main account",
-        "details": "Planned."
+        "details": "Not done yet: shop still on the other account; no owner bot here yet."
       },
       {
         "date": "Wed Oct 7, 6 PM PT",
@@ -1813,7 +1813,7 @@
       {
         "item": "thefamilygems.com domain",
         "amount": "$11.48 first year (Oct 3, 2026) · renewal ~$18.48/yr",
-        "when": "Renews 2027-10-03 (registry expiry, checked Oct 5) · DNS on parking defaults, not pointed anywhere yet"
+        "when": "Renews 2027-10-03 (registry expiry), auto-renew ON per verified result 2026-10-05_2140_incubator_result_familygem-dns (e597f296ca0b) · DNS pointed at the website Oct 5; thefamilygems.com live over HTTPS (checked Oct 8, 11:07 AM PT)"
       },
       {
         "item": "Etsy setup fee, The Family Gem Shop",
@@ -1880,11 +1880,6 @@
         "note": "No price on file."
       },
       {
-        "decision": "Approve the thefamilygems.com DNS change",
-        "lane": "Family Gem",
-        "note": "Once the main account's GitHub Pages records are sent (sent Oct 5)."
-      },
-      {
         "decision": "Move the nightly roll-up from 8:56 PM to ~8:30 PM PT",
         "lane": "Other account",
         "note": "So it lands before the 8:40 PM Drive deadline."
@@ -1914,7 +1909,7 @@
       {
         "item": "GitHub Pages DNS records for thefamilygems.com",
         "owner": "Scott Bot",
-        "status": "Sent Oct 5; DNS waits on Joshua's yes + sign-in on the other account."
+        "status": "Done Oct 5 ~9:37 PM PT: Joshua approved and the records were set (verified result 2026-10-05_2140_incubator_result_familygem-dns (e597f296ca0b)). Site live over HTTPS (checked Oct 8)."
       },
       {
         "item": "Daily roll-up to Drive by 8:40 PM PT",
@@ -2311,7 +2306,8 @@
       "decision": "Approve the thefamilygems.com DNS change",
       "lane": "Other account",
       "recommended": "Yes, once the records are sent",
-      "note": "GitHub Pages records were sent tonight; needs your yes plus a sign-in on the other account."
+      "note": "Done Oct 5 ~9:37 PM PT: Joshua approved and the records were set (verified result 2026-10-05_2140_incubator_result_familygem-dns (e597f296ca0b)). thefamilygems.com is live over HTTPS (checked Oct 8).",
+      "done": true
     },
     {
       "decision": "One Etsy-help store instead of two (Help4U vs audit4u/For You)",
