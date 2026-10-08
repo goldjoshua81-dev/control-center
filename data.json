@@ -3,8 +3,8 @@
     "title": "Fresh $$ Control Center",
     "owner": "Joshua",
     "assistant": "Fresh $$",
-    "last_updated": "2026-10-07T08:57:47-07:00",
-    "status_note": "Morning refresh Wed Oct 7, 2026 ~9:00 AM PT. PrintPlz: Shop Manager 8:39 AM PT 80 active / 1 draft / 2 inactive, 0 orders, $0; last 7 days 34 views / 27 visits (0 from Etsy Search yet); 54/54 Printful sync; capitalize-as-printed fix rolled to W1/K1/TB1. HostFees: 18 of 49 pins live, today's 3 pins post ~10:06 AM PT (in progress); Cloudflare 7d 440 visits / 455 views (raw, includes bots). WebsitePlz: Fiverr gig still blocked only on Joshua's ID verification; Cloudflare 7d 814 visits / 820 views (raw, includes bots). Deal Scout Oct 7: bottes-presso.fr and Marble Tracks both SOLD (off the list); new Track A #1 SEO Supremacy ($3,000); new earn-in candidate QL 18830614 golf club-care brand flagged for a public audit. Revenue $0 in every lane; plan costs $260/month. Other account: no Oct 6 roll-up landed; latest verified is 2026-10-05_2123_incubator_rollup.md."
+    "last_updated": "2026-10-07T20:49:25-07:00",
+    "status_note": "Morning refresh Wed Oct 7, 2026 ~9:00 AM PT. PrintPlz: Shop Manager 8:39 AM PT 80 active / 1 draft / 2 inactive, 0 orders, $0; last 7 days 34 views / 27 visits (0 from Etsy Search yet); 54/54 Printful sync; capitalize-as-printed fix rolled to W1/K1/TB1. HostFees: 22 of 49 pins live (4 posted Oct 7 AM per posted-pins log, incl. kit01); Cloudflare 7d 440 visits / 455 views (raw, includes bots). WebsitePlz: Fiverr gig still blocked only on Joshua's ID verification; Cloudflare 7d 814 visits / 820 views (raw, includes bots). Deal Scout Oct 7: bottes-presso.fr and Marble Tracks both SOLD (off the list); new Track A #1 SEO Supremacy ($3,000); new earn-in candidate QL 18830614 golf club-care brand flagged for a public audit. Revenue $0 in every lane; plan costs $260/month. Other account: no Oct 6 roll-up landed; latest verified is 2026-10-05_2123_incubator_rollup.md."
   },
   "budget": {
     "starting_capital": 1000,
@@ -629,7 +629,7 @@
       "spend": 0,
       "attributed_revenue": 0,
       "orders": 0,
-      "plan": "hostfees.com claimed; 18 of 49 pins live (posted-pins log, Oct 6); daily routine posts 3 each morning at 10:06 AM PT; $0 spent."
+      "plan": "hostfees.com claimed; 22 of 49 pins live (posted-pins log, Oct 7); daily routine posts 3 each morning at 10:06 AM PT; $0 spent."
     }
   ],
   "experiments": [
@@ -973,7 +973,7 @@
       "type": "Short-term-rental fee calculators, explainers, and gift guides",
       "status": "live",
       "url": "https://hostfees.com",
-      "status_note": "LIVE at hostfees.com. Associates live: Store ID hostfees-20, tax validated, account Unblocked, 5 tracking IDs (hostfees / linen / clean / lock / pins -20). Day 0 shipped (~1:02 PM PT): disclosure + 3 Amazon kit pages. Growth build live (deploy d334a8cc, ~3:30 PM PT): embeddable fee calculator, 10 city occupancy-tax pages, kit conversion polish, IndexNow. 18 of 49 pins live (3 posted Oct 6 AM); 7 kit pins queued Oct 7–13 (awaiting Joshua OK after N-1). Staged kits build waiting on Joshua's OK (wanted live before Thu Oct 8 calculator post). Redeploy blocker cleared (Cloudflare + GitHub box sign-ins done). About 8–17 human visits/day (Cloudflare read; bot spikes excluded). Lodgify affiliate pending. $0 revenue. 3 qualifying Associates sales needed by Apr 4, 2027.",
+      "status_note": "LIVE at hostfees.com. Associates live: Store ID hostfees-20, tax validated, account Unblocked, 5 tracking IDs (hostfees / linen / clean / lock / pins -20). Day 0 shipped (~1:02 PM PT): disclosure + 3 Amazon kit pages. Growth build live (deploy d334a8cc, ~3:30 PM PT): embeddable fee calculator, 10 city occupancy-tax pages, kit conversion polish, IndexNow. 22 of 49 pins live (4 posted Oct 7 AM incl. kit01); 7 kit pins queued Oct 7–13 (awaiting Joshua OK after N-1). Staged kits build waiting on Joshua's OK (wanted live before Thu Oct 8 calculator post). Redeploy blocker cleared (Cloudflare + GitHub box sign-ins done). About 8–17 human visits/day (Cloudflare read; bot spikes excluded). Lodgify affiliate pending. $0 revenue. 3 qualifying Associates sales needed by Apr 4, 2027.",
       "pages": 27,
       "calculators": 5,
       "gift_guides": 3,
@@ -981,12 +981,12 @@
       "pins_ready": 49,
       "revenue": 0,
       "profit": 0,
-      "pins_published": 18,
+      "pins_published": 22,
       "pin_routine": "3 each morning at 10:06 AM PT",
       "pinterest_claimed": true,
       "turno_status": "live; affiliate link on hostfees.com (https://share.turno.com/69pllwz)",
       "hostaway_status": "declined for now; revisit in 4–6 weeks with traffic numbers",
-      "one_liner": "Live · Associates hostfees-20 (tax validated, Unblocked, 5 tracking IDs) · Day 0 + growth build live · staged kits waiting on Joshua OK (before Thu Oct 8) · 18 of 49 pins · ~8–17 human visits/day · $0 revenue"
+      "one_liner": "Live · Associates hostfees-20 (tax validated, Unblocked, 5 tracking IDs) · Day 0 + growth build live · staged kits waiting on Joshua OK (before Thu Oct 8) · 22 of 49 pins · ~8–17 human visits/day · $0 revenue"
     },
     {
       "id": "deal-scout",
