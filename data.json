@@ -3,7 +3,7 @@
     "title": "Fresh $$ Control Center",
     "owner": "Joshua",
     "assistant": "Fresh $$",
-    "last_updated": "2026-10-08T13:01:00-07:00",
+    "last_updated": "2026-10-08T15:30:49-07:00",
     "status_note": "Midday watchdog Thu Oct 8, 2026 ~1:00 PM PT (morning refresh: scheduled run stopped ~8:43 AM showed FAILED; manual rerun published 3d0f822 at 8:48 AM and was live). PrintPlz: AM polish 5:44-5:52 AM 54/54 sync; order-check late rerun 11:13-11:25 AM — 80 active, 33 views / 28 visits (7d Oct 2-8), 0 orders, $0, 1 Etsy Search visit. HostFees: 26 of 49 pins live (posted.md Oct 8 10:58 AM); kit pins continue through Oct 13. WebsitePlz: last site change Oct 6; Oct 7 audit/rollup OK; SSM on-demand only. Deal Scout RAN TODAY 11:20 AM. Family Gem: site HTTPS 200s (~1:00 PM); Etsy still 0 listings / vacation (last Etsy read Oct 6 8:37 PT); Search Console not verified (DNS TXT SPF only). Gold HQ Sync: all 28 inbox messages verify.py OK; latest roll-up is Oct 8 8:22 AM catch-up (b89deb30f95f); Oct 6/7 nightly roll-ups never produced. Disk 30G/126G (25%); backups 5.4G. Revenue $0 every lane."
   },
   "budget": {
@@ -2228,7 +2228,9 @@
       "decision": "Send Deal Scout's 6 inquiry letters after review",
       "lane": "Deal Scout",
       "recommended": "Yes",
-      "note": "6 letters drafted (Wallets/Belts, EU Garden, Kitchen turnaround, Self-watering, Baby, Golf club-care). Reviewed by Joshua Oct 8, 11:51 AM PT; none approved to send. No outreach; nothing sent."
+      "note": "Declined Oct 8, 11:51 AM PT: Joshua reviewed all 6 letters and approved none to send. No outreach; nothing sent. The ideas stay on hold in 'Prospective acquisition ideas: ON HOLD'.",
+      "done": true,
+      "status": "declined"
     },
     {
       "decision": "Deploy HostFees staged kits after N-1 (before Thu Oct 8 calculator post)",
@@ -2322,6 +2324,20 @@
       "lane": "Ops",
       "recommended": "Tabled, revisit later",
       "note": "Tabled Oct 8. The home-screen (PWA) version is live; a native app would need the $99/yr Apple membership."
+    },
+    {
+      "decision": "VPN subscription: keep it or let it lapse",
+      "lane": "Ops",
+      "priority": "low",
+      "recommended": "Your call",
+      "note": "Low priority. A VPN subscription payment failed Oct 7. Keep it (update the payment method) or let it lapse."
+    },
+    {
+      "decision": "YouTube research credits: add a small monthly plan",
+      "lane": "Ops",
+      "priority": "low",
+      "recommended": "Decide before the next YouTube job",
+      "note": "Low priority. YouTube research credits are down to 11. Add a small monthly plan before the next YouTube research job after the Mon Oct 12 usage reset, or skip YouTube jobs until then."
     }
   ],
   "decisions_source": "Chief of Staff nightly roll-up, Wed Oct 7, 2026 (recommended defaults are Chief of Staff's; nothing changes until Joshua decides)",

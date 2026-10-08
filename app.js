@@ -118,7 +118,7 @@ function render(D) {
   }
   if (D.decisions_pending) {
     $("decisionsNote").textContent = "Source: " + (D.decisions_source || "roll-up") + ". Nothing changes until Joshua decides.";
-    $("decisions").innerHTML = D.decisions_pending.map(x => `<div class="item ${x.done ? "done" : ""}"><div>${x.done ? "✅" : "🤔"}</div><div style="flex:1"><div class="x"><b>${esc(x.decision)}</b></div><div class="w">${x.recommended && !x.done ? `<b>Recommended: ${esc(x.recommended)}</b>${x.note ? " · " : ""}` : ""}${esc(x.note || "")}</div></div><div>${pill(x.done ? "done" : x.lane)}</div></div>`).join("");
+    $("decisions").innerHTML = D.decisions_pending.map(x => `<div class="item ${x.done ? "done" : ""}"><div>${x.done ? "✅" : "🤔"}</div><div style="flex:1"><div class="x"><b>${esc(x.decision)}</b></div><div class="w">${x.recommended && !x.done ? `<b>Recommended: ${esc(x.recommended)}</b>${x.note ? " · " : ""}` : ""}${esc(x.note || "")}</div></div><div>${pill(x.done ? (x.status || "done") : x.lane)}</div></div>`).join("");
   }
   const needs = D.needs_joshua.slice().sort((a, b) => (a.done - b.done) || ((b.pinned ? 1 : 0) - (a.pinned ? 1 : 0)) || ((a.rank || 99) - (b.rank || 99)));
   $("needs").innerHTML = needs.length ? needs.map(n => `<div class="item ${n.done ? "done" : ""}"><div>${n.done ? "✅" : "⬜"}</div><div style="flex:1"><div class="x"><b>${n.pinned && !n.done ? "⭐ " : ""}${n.rank && !n.done ? `#${n.rank} · ` : ""}${esc(n.task)}</b></div><div class="w">${esc(n.why)}</div></div><div>${pill(n.done ? "done" : n.priority)}</div></div>`).join("") : `<p class="empty">Nothing needed right now 🎉</p>`;
