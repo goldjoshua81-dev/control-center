@@ -113,20 +113,39 @@ def lane_status():
     if site.exists():
         f = _newest([p for p in site.rglob("*") if ".git" not in p.parts and "node_modules" not in p.parts])
         if f: out["WebsitePlz site"] = {"latest": _mt(f).date().isoformat(), "at": _mt(f).strftime("%b %-d %-I:%M %p PT"), "file": str(f)}
+    # Scott Bot's lanes (Oct 8): date comes from the file NAME; a lane with no file yet is still listed so LATE can show.
+    for lane, folder, pat in (("Scott open-tasks AM", "handoffs", "open-tasks-20??-??-??-am.md"),
+                              ("Email sweep AM", "handoffs", "email-sweep-20??-??-??-am*.md"),
+                              ("Nightly roll-up", "handoffs", "nightly-rollup-20??-??-??.md"),
+                              ("Emergency backup", "backups/emergency", "gold-hq-20??-??-??.tar.gz")):
+        files = sorted((p for p in (WS / folder).glob(pat) if re.search(r"\d{4}-\d{2}-\d{2}", p.name)),
+                       key=lambda p: re.search(r"\d{4}-\d{2}-\d{2}", p.name).group(0))
+        if files:
+            f = files[-1]
+            out[lane] = {"latest": re.search(r"\d{4}-\d{2}-\d{2}", f.name).group(0), "at": _mt(f).strftime("%b %-d %-I:%M %p PT"), "file": str(f)}
+        else:
+            out[lane] = {"latest": "", "at": "no file", "file": str(WS / folder / pat)}
     return out
 
 # Typical finish times (PT) from ORG-MAP.md / past run files; used only to flag a lane as LATE in `lanes`.
-EXPECTED_BY = {"Deal Scout": (9, 30), "HostFees pins": (11, 0), "PrintPlz polish loop": (7, 0), "PrintPlz order check": (9, 30)}
+EXPECTED_BY = {"Deal Scout": (9, 30), "HostFees pins": (11, 0), "PrintPlz polish loop": (7, 0), "PrintPlz order check": (9, 30),
+               "Scott open-tasks AM": (8, 45), "Email sweep AM": (8, 15), "Nightly roll-up": (9, 0), "Emergency backup": (0, 0)}
+# Lanes whose on-time file is dated YESTERDAY (written the evening before). Default 0 = today's file.
+EXPECT_DAY = {"Nightly roll-up": -1, "Emergency backup": -1}
 
 def cmd_lanes(as_json=False):
     st = lane_status()
     if as_json: print(json.dumps(st, indent=2, ensure_ascii=False)); return
-    today = datetime.datetime.now(PT).date().isoformat()
+    now = datetime.datetime.now(PT)
     for lane, s in st.items():
-        flag = "RAN TODAY" if s["latest"] == today else "last " + s["latest"]
+        off = EXPECT_DAY.get(lane, 0)
+        want = (now.date() + datetime.timedelta(days=off)).isoformat()   # display-only check; never edits anything
+        if s["latest"] >= want: flag = "RAN TODAY" if off == 0 else f"OK ({want} file present)"
+        else: flag = "last " + s["latest"] if s["latest"] else "no file yet"
         due = EXPECTED_BY.get(lane)
-        if due and s["latest"] != today and datetime.datetime.now(PT).time() > datetime.time(*due):
-            flag += f" · LATE (usually done by {datetime.time(*due).strftime('%-I:%M %p')} PT; check the routine)"
+        if due and s["latest"] < want and now.time() >= datetime.time(*due):
+            if off == 0: flag += f" · LATE (usually done by {datetime.time(*due).strftime('%-I:%M %p')} PT; check the routine)"
+            else: flag += f" · LATE ({want} file missing; check the routine)"
         extra = "".join(f" · {k}={v}" for k, v in s.items() if k in ("posted", "top_pick", "runs"))
         print(f"{lane}: {flag} ({s['at']}) {s['file']}{extra}")
 
