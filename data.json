@@ -3,8 +3,8 @@
     "title": "Fresh $$ Control Center",
     "owner": "Joshua",
     "assistant": "Fresh $$",
-    "last_updated": "2026-10-08T11:59:01-07:00",
-    "status_note": "Morning refresh Thu Oct 8, 2026 ~8:50 AM PT (plus Chief of Staff's Wed Oct 7 nightly roll-up). PrintPlz: AM loop 5:44-5:52 AM PT 54/54 Printful sync, 0 open orders, 0 unread messages; capitalize-as-printed text on TF2/TB3 (TG2 already set) + TC12 title updated; last Shop Manager read Oct 7 8:39 AM PT: 80 active, 34 views / 27 visits (7d), 0 orders. HostFees: kits live since Oct 6 (all 54 pages 200, IDs + disclosures verified); kit pins post daily through Oct 13; 26 of 49 pins live; Cloudflare 7d 445 visits / 467 views (raw, includes bots); calculator post today; 5 redesign mockups in progress (nothing goes live until Joshua picks). WebsitePlz: reassurance line live, audit clean, Search Console collecting since Oct 5; Fiverr gig still waiting on Joshua's ID verification; Cloudflare 7d 828 visits / 834 views (raw, includes bots). Deal Scout (Oct 7, latest): bottes-presso.fr and Marble Tracks SOLD; Track A #1 SEO Supremacy ($3,000); 6 inquiry letters drafted, none sent; golf club-care QL 18830614: no at asking, one earn-in talk worth having. Revenue $0 in every lane. Other account: verified catch-up roll-up landed Oct 8 8:22 AM PT (b89deb30f95f) with no new numbers beyond Oct 6 reads; Oct 6/7 nightly roll-ups were never produced."
+    "last_updated": "2026-10-08T13:01:00-07:00",
+    "status_note": "Midday watchdog Thu Oct 8, 2026 ~1:00 PM PT (morning refresh: scheduled run stopped ~8:43 AM showed FAILED; manual rerun published 3d0f822 at 8:48 AM and was live). PrintPlz: AM polish 5:44-5:52 AM 54/54 sync; order-check late rerun 11:13-11:25 AM — 80 active, 33 views / 28 visits (7d Oct 2-8), 0 orders, $0, 1 Etsy Search visit. HostFees: 26 of 49 pins live (posted.md Oct 8 10:58 AM); kit pins continue through Oct 13. WebsitePlz: last site change Oct 6; Oct 7 audit/rollup OK; SSM on-demand only. Deal Scout RAN TODAY 11:20 AM. Family Gem: site HTTPS 200s (~1:00 PM); Etsy still 0 listings / vacation (last Etsy read Oct 6 8:37 PT); Search Console not verified (DNS TXT SPF only). Gold HQ Sync: all 28 inbox messages verify.py OK; latest roll-up is Oct 8 8:22 AM catch-up (b89deb30f95f); Oct 6/7 nightly roll-ups never produced. Disk 30G/126G (25%); backups 5.4G. Revenue $0 every lane."
   },
   "budget": {
     "starting_capital": 1000,
@@ -82,13 +82,13 @@
       "type": "For-moms print-on-demand gifts: mom shirts, teacher shirts, kids stickers, holiday party items, ornaments",
       "platform": "Etsy + Printful",
       "status": "live",
-      "status_note": "Last Shop Manager read Oct 7 ~8:39 AM PT (no newer read): 80 active / 1 draft / 0 expired / 2 inactive. Last 7 days (Oct 1-7): 34 views / 27 visits, 0 from Etsy Search yet. Oct 8 AM loop (5:44-5:52 AM PT): 54/54 Printful sync OK, Printful order statuses 0, Etsy open orders 0, unread messages 0; capitalize-as-printed text on TF2 and TB3 (TG2 already set), TC12 title changed to Etsy's recommended title. Oct 7: capitalize wording on 6 more listings; print-file tool rebuilt after the 2 AM box restore. Build hold still on (K6/K7 unpublished). Etsy Ads planned Oct 16. Offsite Ads off. $0 revenue.",
+      "status_note": "Shop Manager late rerun Oct 8 ~11:13-11:25 AM PT (8:21 AM run was stopped): 80 active / 1 draft / 2 inactive / 0 expired / 0 sold out. Last 7 days (Oct 2-8): 33 views / 28 visits, 0 orders, $0, 1 Etsy Search visit. Printful (11:13 AM): all statuses 0. Etsy: New 0, overdue 0, unread messages 0. Oct 8 AM polish loop (5:44-5:52 AM PT): 54/54 Printful sync OK; capitalize-as-printed on TF2/TB3; TC12 title updated. Build hold still on (K6/K7 unpublished). Etsy Ads planned Oct 16. Offsite Ads off. $0 revenue.",
       "url": "https://www.etsy.com/shop/PrintPlzShop",
       "orders": 0,
       "revenue": 0,
       "profit": 0,
-      "views": 34,
-      "visits": 27,
+      "views": 33,
+      "visits": 28,
       "listings_live": 80,
       "listings_drafted": 1,
       "top_products": [
@@ -567,7 +567,7 @@
           "price": "see listing"
         }
       ],
-      "one_liner": "Live · 80 active (Oct 7 read) · 0 orders · 34 views / 27 visits (7d, Oct 7 8:39 AM) · 54/54 Printful sync (Oct 8 AM) · hold still on"
+      "one_liner": "Live · 80 active (Oct 8 11:25 AM) · 0 orders · 33 views / 28 visits (7d) · 54/54 Printful sync (AM) · hold still on"
     },
     {
       "id": "shop-2",
@@ -793,7 +793,8 @@
       "why": "Overnight publishes brought Shop Manager to 48 active (+26). Order-readiness 48/48 PASS. Remaining blocked variants are bot sync/catalog polish, not Joshua publish approval.",
       "priority": "low",
       "done": false,
-      "bot_work": true
+      "bot_work": true,
+      "rank": 11
     },
     {
       "task": "Use Etsy Shop Manager for future live-listing counts",
@@ -855,7 +856,8 @@
       "why": "HostFees placeholder; Lodgify application already submitted and pending (Oct 3).",
       "priority": "low",
       "done": false,
-      "optional": true
+      "optional": true,
+      "rank": 12
     },
     {
       "task": "Unlock the traffic tiles",
@@ -1660,9 +1662,9 @@
         "status": "vacation",
         "type": "Loose gemstones on Etsy",
         "url": "https://www.etsy.com/shop/TheFamilyGemShop",
-        "note": "Owner: the Family Gem bot on the main account now runs the shop and thefamilygems.com (since Oct 8); growth plan in progress; the Etsy shop cutover is still pending. Vacation mode ON, 0 live listings, 0 orders, $0 revenue, no logo/banner. SF-001 photographed, NOT listed. Shop Manager visits last 7 days: 0 as of Oct 6 8:37 PT (Etsy: Not enough data); views unknown on that page. Oct 8 catch-up roll-up: no newer read; asked to drop to one daily pulse.",
+        "note": "Owner: Family Gem bot (ac4794e0) on the main account runs the shop and thefamilygems.com (approved Oct 8); reports to Fresh $$. Etsy shop cutover still pending (shop still on other account). Vacation mode ON, 0 live listings, 0 orders, $0 revenue, no logo/banner. SF-001 photographed, NOT listed. Shop Manager visits last 7 days: 0 as of Oct 6 8:37 PT; Oct 8 catch-up roll-up: no newer Etsy read. Site midday check Oct 8 ~1:00 PM PT: thefamilygems.com / /shop/ /about/ /guides/ /faq/ /contact/ /robots.txt /sitemap.xml all HTTP 200 (~0.2s); /collections/ 404 (not in sitemap). DNS TXT: SPF only (no google-site-verification). IndexNow key file live (200).",
         "listings": [],
-        "one_liner": "Family Gem bot owns shop + site · growth plan in progress · Vacation on · 0 listings · 0 visits last 7d (Oct 6 8:37 PT) · no newer read"
+        "one_liner": "Family Gem bot owns shop+site · cutover pending · Vacation on · 0 listings · site 200s (~1:00 PM PT) · Etsy stats last Oct 6 8:37 PT · Search Console not set up"
       },
       {
         "name": "Help4U",
@@ -1982,8 +1984,8 @@
       "account": "Other bots",
       "primary": "visits",
       "secondary": "views",
-      "status": "tracked",
-      "needs": "Tracked via Gold HQ Sync from incubator Shop Manager (Last 7 Days Sep 30–Oct 6, read Oct 6 8:37 PT). Visits 7d = 0 (Etsy: Not enough data). Views unknown (that stats page had no Views tile). Orders 0, revenue $0."
+      "status": "Site live (HTTPS 200s checked Oct 8 ~1:00 PM PT); Etsy vacation, 0 listings; Search Console not set up (DNS TXT = SPF only)",
+      "needs": "Joshua: Search Console domain property + Namecheap TXT; Family Gem bot: Etsy cutover after Joshua signs in on a separate browser profile"
     }
   ],
   "traffic_history": [
