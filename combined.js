@@ -36,7 +36,7 @@ loadData(D => {
     (opt.length ? `<details class="more"><summary>Optional (${opt.length})</summary>${opt.map(td).join("")}</details>` : "");
 
   // Decisions (both accounts)
-  const decs = (D.decisions_pending || []).map(x => ({...x, who: "This account"})).concat(O ? (O.decisions_pending || []).map(x => ({...x, who: "Other bots"})) : []);
+  const decs = (D.decisions_pending || []).map(x => ({...x, who: "This account"})).concat(O ? (O.decisions_pending || []).map(x => ({...x, who: "Other bots"})) : []).filter(x => !x.done);
   if (decs.length) {
     $("decSec").hidden = false;
     $("decisions").innerHTML = decs.map(x => `<div class="item"><div>🤔</div><div style="flex:1"><div class="x"><b>${esc(x.decision)}</b></div><div class="w">${esc(x.who)} · ${esc(x.lane || "")}${x.note ? " · " + esc(x.note) : ""}</div></div></div>`).join("");
