@@ -3,7 +3,7 @@
     "title": "Fresh $$ Control Center",
     "owner": "Joshua",
     "assistant": "Fresh $$",
-    "last_updated": "2026-10-08T11:08:37-07:00",
+    "last_updated": "2026-10-08T11:45:25-07:00",
     "status_note": "Morning refresh Thu Oct 8, 2026 ~8:50 AM PT (plus Chief of Staff's Wed Oct 7 nightly roll-up). PrintPlz: AM loop 5:44-5:52 AM PT 54/54 Printful sync, 0 open orders, 0 unread messages; capitalize-as-printed text on TF2/TB3 (TG2 already set) + TC12 title updated; last Shop Manager read Oct 7 8:39 AM PT: 80 active, 34 views / 27 visits (7d), 0 orders. HostFees: kits live since Oct 6 (all 54 pages 200, IDs + disclosures verified); kit pins post daily through Oct 13; 26 of 49 pins live; Cloudflare 7d 445 visits / 467 views (raw, includes bots); calculator post today; 5 redesign mockups in progress (nothing goes live until Joshua picks). WebsitePlz: reassurance line live, audit clean, Search Console collecting since Oct 5; Fiverr gig still waiting on Joshua's ID verification; Cloudflare 7d 828 visits / 834 views (raw, includes bots). Deal Scout (Oct 7, latest): bottes-presso.fr and Marble Tracks SOLD; Track A #1 SEO Supremacy ($3,000); 6 inquiry letters drafted, none sent; golf club-care QL 18830614: no at asking, one earn-in talk worth having. Revenue $0 in every lane. Other account: verified catch-up roll-up landed Oct 8 8:22 AM PT (b89deb30f95f) with no new numbers beyond Oct 6 reads; Oct 6/7 nightly roll-ups were never produced."
   },
   "budget": {
@@ -807,7 +807,7 @@
       "priority": "medium",
       "done": false,
       "optional": true,
-      "rank": 15
+      "rank": 13
     },
     {
       "task": "Get a P.O. Box for HostFees",
@@ -835,7 +835,7 @@
       "priority": "low",
       "done": false,
       "optional": true,
-      "rank": 11
+      "rank": 10
     },
     {
       "task": "Complete the Amazon Associates application",
@@ -875,10 +875,10 @@
       "why": "On Chief of Staff's waiting-on-Joshua list (Oct 3).",
       "priority": "medium",
       "done": false,
-      "rank": 13
+      "rank": 12
     },
     {
-      "task": "Set up an inbox for hello@websiteplz.com",
+      "task": "Set up the WebsitePlz contact inbox",
       "why": "Contact address for WebsitePlz buyers. Chief of Staff list, Oct 3.",
       "priority": "medium",
       "done": false,
@@ -906,10 +906,9 @@
     },
     {
       "task": "Paste PASTE-TO-OTHER-ACCOUNT.md into the other account",
-      "why": "Starts Gold HQ Sync on the other account so roll-ups land as files instead of copy-paste.",
+      "why": "Done: Gold HQ Sync has run both ways since Oct 5 (sync log), so roll-ups land as files.",
       "priority": "high",
-      "done": false,
-      "rank": 14
+      "done": true
     },
     {
       "task": "Review Deal Scout's 6 inquiry letters",
@@ -945,7 +944,7 @@
     },
     {
       "task": "Top up checking",
-      "why": "Checking is overdrawn and in a grace period; a $9 tool charge failed again. Add money soon. No digits published.",
+      "why": "Checking is overdrawn and in a grace period; a small tool charge failed again. Add money soon. No amounts published.",
       "priority": "high",
       "done": false,
       "rank": 1
@@ -955,14 +954,7 @@
       "why": "hostfees.com and websiteplz.com are already collecting (Google emails Oct 6-7); left: submit their sitemaps, and add thefamilygems.com (no Google verification record on its DNS as of Oct 8).",
       "priority": "medium",
       "done": false,
-      "rank": 12
-    },
-    {
-      "task": "Gem Rock Auctions $1 win: confirm the account is yours, then pay or let it go",
-      "why": "Payment reminder for a $1 auction win. Confirm the Gem Rock account is Joshua's, then pay or let it go. No other name published.",
-      "priority": "medium",
-      "done": false,
-      "rank": 10
+      "rank": 11
     },
     {
       "task": "Request your X data archive",
@@ -979,7 +971,7 @@
       "type": "Short-term-rental fee calculators, explainers, and gift guides",
       "status": "live",
       "url": "https://hostfees.com",
-      "status_note": "LIVE at hostfees.com. Associates live: Store ID hostfees-20, tax validated, account Unblocked, 5 tracking IDs. Kits live since the Oct 6 deploy (cb116d98): all 54 pages return 200, tracking IDs and disclosures verified, calculators work. 28 of 51 SiteStripe slots still on tagged-search fallback (needs Joshua's Sites list + SiteStripe links). Kit pins post daily through Oct 13; 26 of 49 pins live (posted-pins log, last post Oct 8 AM). Calculator post Thu Oct 8. Visual redesign: 5 one-page mockups in progress; nothing goes live until Joshua picks one. Cloudflare 7d (Oct 8 8:46 AM PT): 445 visits / 467 views (raw, includes bots). Lodgify affiliate pending. $0 revenue. 3 qualifying Associates sales needed by Apr 4, 2027.",
+      "status_note": "LIVE at hostfees.com. Associates live: Store ID hostfees-20, tax validated, account Unblocked, 5 tracking IDs. Kits live since the Oct 6 deploy (cb116d98): all 54 pages return 200, tracking IDs and disclosures verified, calculators work. 28 of 51 SiteStripe slots still on tagged-search fallback (needs Joshua's Sites list + SiteStripe links). Kit pins post daily through Oct 13; 26 of 49 pins live (posted-pins log, last post Oct 8 AM). Calculator post Thu Oct 8. Visual redesign decided: v2 linen, cleaning and smart-lock kits live since 10:17 AM PT Oct 8. Cloudflare 7d (Oct 8 8:46 AM PT): 445 visits / 467 views (raw, includes bots). Lodgify affiliate pending. $0 revenue. 3 qualifying Associates sales needed by Apr 4, 2027.",
       "pages": 27,
       "calculators": 5,
       "gift_guides": 3,
@@ -992,7 +984,7 @@
       "pinterest_claimed": true,
       "turno_status": "live; affiliate link on hostfees.com (https://share.turno.com/69pllwz)",
       "hostaway_status": "declined for now; revisit in 4–6 weeks with traffic numbers",
-      "one_liner": "Live · kits live (54 pages OK) · kit pins daily to Oct 13 · 26 of 49 pins · 28 of 51 SiteStripe slots on fallback · redesign mockups pending pick · $0 revenue"
+      "one_liner": "Live · kits live (54 pages OK) · kit pins daily to Oct 13 · 26 of 49 pins · 28 of 51 SiteStripe slots on fallback · v2 kits live Oct 8 · $0 revenue"
     },
     {
       "id": "deal-scout",
@@ -1000,7 +992,7 @@
       "type": "Business acquisition research",
       "status": "research only",
       "url": "",
-      "status_note": "Research only. Latest run Oct 7 (~8:05-8:20 AM PT; no Oct 8 run file yet at 9 AM): bottes-presso.fr and Marble Tracks SOLD; Track A re-ranked: 1 SEO Supremacy 12248731 ($3,000), 2 Rewired (stretch $6,500), 3 popeyesmenuusa. Oct 7 push: 6 inquiry letters drafted (Wallets/Belts QL 13546165, EU Garden QL 16051221, Kitchen turnaround QL 18829586, Self-watering QL 15909940, Baby QL 18829151, Golf club-care QL 18830614), none sent; Joshua reviews first. Golf club-care QL 18830614: no at the asking price, but one earn-in conversation is worth having. Watch: UK Amazon FBA Ltd 14374265 ends ~Sat Oct 10. No bids, offers, or purchases. $0.",
+      "status_note": "Research only. Latest run Oct 8 (manual rerun ~11:13-11:25 AM PT; the scheduled 7:53 AM run was knocked out by the morning stop): 317 Flippa cards (21 new, 14 gone), Objectif Évasion sold, tracked earn-in targets live with no price changes, top small pick still SEO Supremacy 12248731. Oct 7 run: bottes-presso.fr and Marble Tracks SOLD; Track A re-ranked: 1 SEO Supremacy 12248731 ($3,000), 2 Rewired (stretch $6,500), 3 popeyesmenuusa. Oct 7 push: 6 inquiry letters drafted (Wallets/Belts QL 13546165, EU Garden QL 16051221, Kitchen turnaround QL 18829586, Self-watering QL 15909940, Baby QL 18829151, Golf club-care QL 18830614), none sent; Joshua reviews first. Golf club-care QL 18830614: no at the asking price, but one earn-in conversation is worth having. Watch: UK Amazon FBA Ltd 14374265 ends ~Sat Oct 10. No bids, offers, or purchases. $0.",
       "budget_limit": "$5,000",
       "revenue": 0,
       "profit": 0,
@@ -1534,8 +1526,8 @@
     {
       "date": "2026-10-06",
       "date_display": "Tue Oct 6 – Wed Oct 7, 2026",
-      "event": "Family Gem moves to the main account",
-      "details": "Not done yet: the shop still runs on the other account (vacation mode, 0 listings) and no bot on this account owns it. Plan: /workspace/plans/FAMILY-GEM-LAUNCH-2026-10-08.md",
+      "event": "Family Gem: owner bot on the main account; Etsy shop cutover pending",
+      "details": "Done Oct 8: a dedicated Family Gem bot on this account now runs the shop and thefamilygems.com and reports to Fresh $$. Still pending: the Etsy shop cutover (the shop is still on the other account, vacation mode, 0 listings). Growth plan in progress.",
       "source": "Chief of Staff Mon Oct 5 roll-up",
       "account": "Other bots"
     },
@@ -1557,8 +1549,8 @@
     {
       "date": "2026-10-08",
       "date_display": "Thu Oct 8, 2026",
-      "event": "HostFees calculator post + other account usage reset",
-      "details": "HostFees calculator post today (kits already live since Oct 6). Other account's weekly Grok Bot usage resets Thursday.",
+      "event": "HostFees calculator post + other (Pro) account's weekly usage reset",
+      "details": "HostFees calculator post today (kits already live since Oct 6). The other (Pro) account's Grok Bot usage resets weekly on Thursdays. This (main) account's next reset is Mon Oct 12, 9:13 AM PT.",
       "source": "Chief of Staff nightly roll-up Oct 7 · Gold HQ Sync ROLLUP-STATUS Oct 8"
     },
     {
@@ -1594,9 +1586,10 @@
     {
       "date": "2026-10-12",
       "date_display": "Mon Oct 12, 2026 · 9:13 AM PT",
-      "event": "Ultra usage reset",
-      "details": "Heavy jobs resume after the reset (X archive scan, larger builds). X marketing approved to start after it.",
-      "source": "Chief of Staff nightly roll-up Oct 7"
+      "event": "This (main) account's usage reset",
+      "details": "Main account's next Grok Bot usage reset (the other, Pro account resets Thursdays). Heavy jobs resume after it (X archive scan, larger builds). X marketing approved to start after it.",
+      "source": "Chief of Staff nightly roll-up Oct 7",
+      "account": "This account"
     },
     {
       "date": "2026-10-13",
@@ -1688,9 +1681,9 @@
         "status": "vacation",
         "type": "Loose gemstones on Etsy",
         "url": "https://www.etsy.com/shop/TheFamilyGemShop",
-        "note": "Vacation mode ON, 0 live listings, 0 orders, $0 revenue, no logo/banner. SF-001 photographed, NOT listed. Shop Manager visits last 7 days: 0 as of Oct 6 8:37 PT (Etsy: Not enough data); views unknown on that page. Oct 8 catch-up roll-up: no newer read; asked to drop to one daily pulse.",
+        "note": "Owner: the Family Gem bot on the main account now runs the shop and thefamilygems.com (since Oct 8); growth plan in progress; the Etsy shop cutover is still pending. Vacation mode ON, 0 live listings, 0 orders, $0 revenue, no logo/banner. SF-001 photographed, NOT listed. Shop Manager visits last 7 days: 0 as of Oct 6 8:37 PT (Etsy: Not enough data); views unknown on that page. Oct 8 catch-up roll-up: no newer read; asked to drop to one daily pulse.",
         "listings": [],
-        "one_liner": "Vacation on · 0 listings · 0 visits last 7d (Oct 6 8:37 PT) · no newer read"
+        "one_liner": "Family Gem bot owns shop + site · growth plan in progress · Vacation on · 0 listings · 0 visits last 7d (Oct 6 8:37 PT) · no newer read"
       },
       {
         "name": "Help4U",
@@ -1776,7 +1769,7 @@
         "date": "Oct 6–7",
         "date_iso": "2026-10-06",
         "event": "Family Gem move to the main account",
-        "details": "Not done yet: shop still on the other account; no owner bot here yet."
+        "details": "Owner bot done Oct 8: the Family Gem bot on the main account now runs the shop and site. Etsy shop cutover still pending."
       },
       {
         "date": "Wed Oct 7, 6 PM PT",
@@ -1878,11 +1871,6 @@
         "decision": "When SF-001 may be listed, and its price",
         "lane": "Family Gem",
         "note": "No price on file."
-      },
-      {
-        "decision": "Move the nightly roll-up from 8:56 PM to ~8:30 PM PT",
-        "lane": "Other account",
-        "note": "So it lands before the 8:40 PM Drive deadline."
       },
       {
         "decision": "One Etsy-help store or two",
@@ -2232,13 +2220,15 @@
       "decision": "Pick 1 of the 5 HostFees redesign mockups",
       "lane": "HostFees",
       "recommended": "Pick one when they arrive",
-      "note": "Nothing goes live until Joshua picks."
+      "note": "Decided Oct 8: approved 9:57 AM PT; the v2 linen, cleaning and smart-lock kits (built from the mockups) went live on hostfees.com at 10:17 AM PT.",
+      "done": true
     },
     {
       "decision": "Free audits for the top 3 Creator Growth creators (post-reset list)",
       "lane": "Creator Growth",
       "recommended": "Yes",
-      "note": "Research only; nobody contacted. Goes on the list after the Oct 12 reset."
+      "note": "Approved and delivered Oct 8: 3 public-data audits done. Research only; no outreach, nobody contacted.",
+      "done": true
     },
     {
       "decision": "Gem Rock Auctions $1 win — pay or let it go",
@@ -2300,7 +2290,8 @@
       "decision": "Move the other account's nightly roll-up to ~8:30 PM PT",
       "lane": "Other account",
       "recommended": "Yes",
-      "note": "So it lands before the 8:40 PM Drive deadline."
+      "note": "Done: the other account's nightly roll-up now runs daily at 8:17 PM PT.",
+      "done": true
     },
     {
       "decision": "Approve the thefamilygems.com DNS change",

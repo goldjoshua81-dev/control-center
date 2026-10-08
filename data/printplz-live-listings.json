@@ -1,7 +1,7 @@
 {
   "source": "Etsy Shop Manager (box browser computerUse) https://www.etsy.com/your/shops/me/tools/listings + orders/sold + dashboard",
-  "checked_at": "2026-10-07T08:39:00-07:00",
-  "checked_at_pt": "Oct 7, 2026 ~8:38-8:39 AM PT",
+  "checked_at": "2026-10-08T11:25:00-07:00",
+  "checked_at_pt": "Oct 8, 2026 ~11:13-11:25 AM PT (late rerun; 8:21 AM run was stopped)",
   "shop": "PrintPlzShop",
   "active_count": 80,
   "draft_count": 1,
@@ -9,9 +9,9 @@
   "inactive_count": 2,
   "orders": 0,
   "revenue": 0,
-  "views_7d": 34,
-  "visits_7d": 27,
-  "note": "Shop Manager Oct 7 ~8:39 AM PT: 80 active / 1 draft / 0 expired / 2 inactive / 0 sold out (unchanged). Orders: 0 new, All and Completed (30 days) empty, 0 unread messages. Stats last 7 days (Oct 1 - Oct 7): 34 listing views / 27 visits, 0 orders, $0, 0% conversion. Visits by day Oct 1-7: 1, 7, 7, 6, 2, 4, 0. 0 visits from Etsy Search yet. Actual revenue $0.",
+  "views_7d": 33,
+  "visits_7d": 28,
+  "note": "Shop Manager Oct 8 ~11:25 AM PT: 80 active / 1 draft / 0 expired / 2 inactive / 0 sold out (unchanged). Orders: 0 new, All and Completed (30 days) empty, 0 unread messages. Stats last 7 days (Oct 2 - Oct 8): 33 listing views / 28 visits, 0 orders, $0, 0% conversion. Visits by day Oct 2-8: 7, 7, 6, 2, 4, 2, 0. 1 visit from Etsy Search. Actual revenue $0.",
   "active_listings": [
     {
       "concept_id": "X29",
