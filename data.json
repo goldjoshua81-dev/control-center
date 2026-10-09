@@ -3,8 +3,8 @@
     "title": "Fresh $$ Control Center",
     "owner": "Joshua",
     "assistant": "Fresh $$",
-    "last_updated": "2026-10-08T21:22:00-07:00",
-    "status_note": "Evening update Thu Oct 8, 2026 ~9:30 PM PT (Chief of Staff evening summary). Missed scheduled runs today, all covered by manual reruns: Scott open-tasks, CC morning refresh, Deal Scout 7:53 AM, WebsitePlz audit, PrintPlz order checks (x2), HostFees Pinterest drip, incubator Ideas scan (usage). HostFees: kit page redesign live on all 3 kits (rollback available); kit-linking fix staged pending the SSM phone audit; 26 of 49 pins (24 regular + 2 kit); today 6 page views, 0 affiliate clicks (~8:07 PM PT). Family Gem: gem reference photo archive done (internal only); site HTTPS OK, 8 pages; Search Console + Etsy access not set up. Other account: verified roll-up Oct 8 8:36 PM PT, paper desk $4,891.34 of $5,000 (paper). Deal Scout: Quiet Light income figures confirmed as yearly SDE, trailing 12 months. Revenue $0 every lane."
+    "last_updated": "2026-10-08T21:47:00-07:00",
+    "status_note": "Evening update Thu Oct 8, 2026 ~9:30 PM PT (Chief of Staff evening summary). Missed scheduled runs today, all covered by manual reruns: Scott open-tasks, CC morning refresh, Deal Scout 7:53 AM, WebsitePlz audit, PrintPlz order checks (x2), HostFees Pinterest drip, incubator Ideas scan (usage). HostFees: kit page redesign live on all 3 kits (rollback available); kit-linking fix approved, goes live after the SSM phone audit; week-2 kit pins approved from Oct 14; 26 of 49 pins (24 regular + 2 kit); today 6 page views, 0 affiliate clicks (~8:07 PM PT). Family Gem: gem reference photo archive done (internal only); site HTTPS OK, 8 pages; Search Console + Etsy access not set up. Other account: verified roll-up Oct 8 8:36 PM PT, paper desk $4,891.34 of $5,000 (paper). Deal Scout: Quiet Light income figures confirmed as yearly SDE, trailing 12 months. Revenue $0 every lane. 9:46 PM PT taps: bank balance confirmed, VPN lapses, Gem Rock dropped, 2 HostFees approvals."
   },
   "budget": {
     "starting_capital": 1000,
@@ -794,7 +794,7 @@
       "priority": "low",
       "done": false,
       "bot_work": true,
-      "rank": 12
+      "rank": 11
     },
     {
       "task": "Use Etsy Shop Manager for future live-listing counts",
@@ -808,7 +808,7 @@
       "priority": "medium",
       "done": false,
       "optional": true,
-      "rank": 11
+      "rank": 10
     },
     {
       "task": "Get a P.O. Box for HostFees",
@@ -816,7 +816,7 @@
       "priority": "medium",
       "done": false,
       "optional": true,
-      "rank": 7
+      "rank": 6
     },
     {
       "task": "Change the Turno temporary password",
@@ -836,7 +836,7 @@
       "priority": "low",
       "done": false,
       "optional": true,
-      "rank": 8
+      "rank": 7
     },
     {
       "task": "Complete the Amazon Associates application",
@@ -857,7 +857,7 @@
       "priority": "low",
       "done": false,
       "optional": true,
-      "rank": 13
+      "rank": 12
     },
     {
       "task": "Unlock the traffic tiles",
@@ -877,7 +877,7 @@
       "why": "On Chief of Staff's waiting-on-Joshua list (Oct 3).",
       "priority": "medium",
       "done": false,
-      "rank": 10
+      "rank": 9
     },
     {
       "task": "Set up the WebsitePlz contact inbox",
@@ -942,14 +942,7 @@
       "why": "hostfees.com and websiteplz.com are already collecting (Google emails Oct 6-7); left: submit their sitemaps, and add thefamilygems.com (no Google verification record on its DNS as of Oct 8).",
       "priority": "medium",
       "done": false,
-      "rank": 9
-    },
-    {
-      "task": "Confirm in the bank app that the checking balance is positive after the grace cutoff (Oct 8, 8:59 PM PT)",
-      "why": "You marked it topped up at 11:51 AM PT; no newer balance reading since the morning sweep, so a quick look in the app closes this out.",
-      "priority": "high",
-      "done": false,
-      "rank": 6
+      "rank": 8
     }
   ],
   "projects": [
@@ -959,7 +952,7 @@
       "type": "Short-term-rental fee calculators, explainers, and gift guides",
       "status": "live",
       "url": "https://hostfees.com",
-      "status_note": "LIVE at hostfees.com. Kit page redesign live on all 3 kits (prod 3550b015; rollback cef3f75f available). Kit-linking fix staged (25e81191), waiting on the SSM phone audit + Joshua's OK. Today (Oct 8, ~8:07 PM PT): 6 page views, 0 affiliate clicks. Pins: 26 of 49 live (24 regular + 2 kit; posted-pins log, last post Oct 8 AM); kit pins post daily through Oct 13, week-2 kit pins from Oct 14 if approved. Associates live: Store ID hostfees-20, tax validated, account Unblocked, 5 tracking IDs. 28 of 51 SiteStripe slots still on tagged-search fallback (needs Joshua's Sites list + SiteStripe links). Cloudflare 7d (Oct 8 8:46 AM PT): 445 visits / 467 views (raw, includes bots). Lodgify affiliate pending. $0 revenue. 3 qualifying Associates sales needed by Apr 4, 2027.",
+      "status_note": "LIVE at hostfees.com. Kit page redesign live on all 3 kits (prod 3550b015; rollback cef3f75f available). Kit-linking fix staged (25e81191); Joshua approved Oct 8 9:46 PM PT, goes live after the WebsitePlz SSM phone audit. Today (Oct 8, ~8:07 PM PT): 6 page views, 0 affiliate clicks. Pins: 26 of 49 live (24 regular + 2 kit; posted-pins log, last post Oct 8 AM); kit pins post daily through Oct 13, week-2 kit pins start Oct 14 (approved Oct 8 9:46 PM PT). Associates live: Store ID hostfees-20, tax validated, account Unblocked, 5 tracking IDs. 28 of 51 SiteStripe slots still on tagged-search fallback (needs Joshua's Sites list + SiteStripe links). Cloudflare 7d (Oct 8 8:46 AM PT): 445 visits / 467 views (raw, includes bots). Lodgify affiliate pending. $0 revenue. 3 qualifying Associates sales needed by Apr 4, 2027.",
       "pages": 27,
       "calculators": 5,
       "gift_guides": 3,
@@ -972,7 +965,7 @@
       "pinterest_claimed": true,
       "turno_status": "live; affiliate link on hostfees.com (https://share.turno.com/69pllwz)",
       "hostaway_status": "declined for now; revisit in 4–6 weeks with traffic numbers",
-      "one_liner": "Live · kit redesign live on all 3 kits · kit-linking fix staged · 26 of 49 pins (24 regular + 2 kit) · today 6 views / 0 affiliate clicks · $0 revenue"
+      "one_liner": "Live · kit redesign live on all 3 kits · kit-linking fix approved (after SSM audit) · week-2 kit pins Oct 14 · 26 of 49 pins (24 regular + 2 kit) · today 6 views / 0 affiliate clicks · $0 revenue"
     },
     {
       "id": "deal-scout",
@@ -2222,7 +2215,9 @@
       "decision": "Gem Rock Auctions $1 win — pay or let it go",
       "lane": "Ops",
       "recommended": "Let it go",
-      "note": "Chief of Staff default (Oct 8 evening): let the $1 win go. Nothing paid."
+      "note": "Decided Oct 8, 9:46 PM PT: Joshua chose to let the $1 win go. Nothing paid.",
+      "done": true,
+      "status": "decided"
     },
     {
       "decision": "Family-Gmail Drive share request",
@@ -2337,7 +2332,9 @@
       "lane": "Ops",
       "priority": "low",
       "recommended": "Let it lapse",
-      "note": "Low priority. A VPN subscription payment failed Oct 7. Chief of Staff default (Oct 8 evening): let it lapse."
+      "note": "Decided Oct 8, 9:46 PM PT: Joshua chose to let it lapse. Nothing renewed.",
+      "done": true,
+      "status": "decided"
     },
     {
       "decision": "YouTube research credits: add a small monthly plan",
@@ -2350,13 +2347,17 @@
       "decision": "HostFees: take the kit-linking fix live after the WebsitePlz SSM phone audit",
       "lane": "HostFees",
       "recommended": "Yes",
-      "note": "Staged build 25e81191 vs current prod 3550b015. Goes live only after the SSM phone audit passes (HostFees 9:05 PM PT roll-up, Oct 8)."
+      "note": "Approved Oct 8, 9:46 PM PT: HostFees takes staged build 25e81191 live (replacing prod 3550b015) after the WebsitePlz SSM phone audit passes. HostFees owns it.",
+      "done": true,
+      "status": "approved"
     },
     {
       "decision": "HostFees: post the week-2 kit pins starting Wed Oct 14",
       "lane": "HostFees",
       "recommended": "Yes",
-      "note": "Week-2 kit pin drip after the current kit pins finish Oct 13 (HostFees 9:05 PM PT roll-up, Oct 8)."
+      "note": "Approved Oct 8, 9:46 PM PT: week-2 kit pins start Wed Oct 14. HostFees owns it.",
+      "done": true,
+      "status": "approved"
     }
   ],
   "decisions_source": "Chief of Staff evening summary, Thu Oct 8, 2026 (~9:21 PM PT) + HostFees 9:05 PM PT roll-up (recommended defaults are Chief of Staff's; nothing changes until Joshua decides)",
@@ -2451,6 +2452,46 @@
       "done_display": "Oct 8, 2026 · 11:51 AM PT",
       "note": "Reviewed. None are approved to send, so no outreach; nothing sent.",
       "source": "Joshua tapped COMPLETED (relayed by Chief of Staff)"
+    },
+    {
+      "task": "Checking balance confirmed positive",
+      "status": "done",
+      "done_at": "2026-10-08T21:46:00-07:00",
+      "done_display": "Oct 8, 2026 · 9:46 PM PT",
+      "note": "Done: confirmed in the bank app after the grace cutoff. No amounts published.",
+      "source": "Joshua tapped COMPLETED (relayed by Chief of Staff)"
+    },
+    {
+      "task": "VPN subscription: let it lapse",
+      "status": "decided",
+      "done_at": "2026-10-08T21:46:00-07:00",
+      "done_display": "Oct 8, 2026 · 9:46 PM PT",
+      "note": "Decided: let it lapse. Nothing renewed.",
+      "source": "Joshua tapped DECIDED (relayed by Chief of Staff)"
+    },
+    {
+      "task": "Gem Rock $1 win: let it go",
+      "status": "decided",
+      "done_at": "2026-10-08T21:46:00-07:00",
+      "done_display": "Oct 8, 2026 · 9:46 PM PT",
+      "note": "Decided: let it go. Nothing paid.",
+      "source": "Joshua tapped DECIDED (relayed by Chief of Staff)"
+    },
+    {
+      "task": "HostFees kit-linking fix goes live after the SSM phone audit",
+      "status": "approved",
+      "done_at": "2026-10-08T21:46:00-07:00",
+      "done_display": "Oct 8, 2026 · 9:46 PM PT",
+      "note": "Approved: HostFees takes the staged fix (25e81191) live once the WebsitePlz SSM phone audit passes. HostFees owns it.",
+      "source": "Joshua tapped APPROVED (relayed by Chief of Staff)"
+    },
+    {
+      "task": "HostFees week-2 kit pins start Oct 14",
+      "status": "approved",
+      "done_at": "2026-10-08T21:46:00-07:00",
+      "done_display": "Oct 8, 2026 · 9:46 PM PT",
+      "note": "Approved: week-2 kit pins start Wed Oct 14. HostFees owns it.",
+      "source": "Joshua tapped APPROVED (relayed by Chief of Staff)"
     }
   ],
   "acquisition_ideas": {
