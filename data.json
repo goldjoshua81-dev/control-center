@@ -3,8 +3,8 @@
     "title": "Fresh $$ Control Center",
     "owner": "Joshua",
     "assistant": "Fresh $$",
-    "last_updated": "2026-10-08T15:30:49-07:00",
-    "status_note": "Midday watchdog Thu Oct 8, 2026 ~1:00 PM PT (morning refresh: scheduled run stopped ~8:43 AM showed FAILED; manual rerun published 3d0f822 at 8:48 AM and was live). PrintPlz: AM polish 5:44-5:52 AM 54/54 sync; order-check late rerun 11:13-11:25 AM — 80 active, 33 views / 28 visits (7d Oct 2-8), 0 orders, $0, 1 Etsy Search visit. HostFees: 26 of 49 pins live (posted.md Oct 8 10:58 AM); kit pins continue through Oct 13. WebsitePlz: last site change Oct 6; Oct 7 audit/rollup OK; SSM on-demand only. Deal Scout RAN TODAY 11:20 AM. Family Gem: site HTTPS 200s (~1:00 PM); Etsy still 0 listings / vacation (last Etsy read Oct 6 8:37 PT); Search Console not verified (DNS TXT SPF only). Gold HQ Sync: all 28 inbox messages verify.py OK; latest roll-up is Oct 8 8:22 AM catch-up (b89deb30f95f); Oct 6/7 nightly roll-ups never produced. Disk 30G/126G (25%); backups 5.4G. Revenue $0 every lane."
+    "last_updated": "2026-10-08T21:22:00-07:00",
+    "status_note": "Evening update Thu Oct 8, 2026 ~9:30 PM PT (Chief of Staff evening summary). Missed scheduled runs today, all covered by manual reruns: Scott open-tasks, CC morning refresh, Deal Scout 7:53 AM, WebsitePlz audit, PrintPlz order checks (x2), HostFees Pinterest drip, incubator Ideas scan (usage). HostFees: kit page redesign live on all 3 kits (rollback available); kit-linking fix staged pending the SSM phone audit; 26 of 49 pins (24 regular + 2 kit); today 6 page views, 0 affiliate clicks (~8:07 PM PT). Family Gem: gem reference photo archive done (internal only); site HTTPS OK, 8 pages; Search Console + Etsy access not set up. Other account: verified roll-up Oct 8 8:36 PM PT, paper desk $4,891.34 of $5,000 (paper). Deal Scout: Quiet Light income figures confirmed as yearly SDE, trailing 12 months. Revenue $0 every lane."
   },
   "budget": {
     "starting_capital": 1000,
@@ -794,7 +794,7 @@
       "priority": "low",
       "done": false,
       "bot_work": true,
-      "rank": 11
+      "rank": 12
     },
     {
       "task": "Use Etsy Shop Manager for future live-listing counts",
@@ -808,7 +808,7 @@
       "priority": "medium",
       "done": false,
       "optional": true,
-      "rank": 10
+      "rank": 11
     },
     {
       "task": "Get a P.O. Box for HostFees",
@@ -816,7 +816,7 @@
       "priority": "medium",
       "done": false,
       "optional": true,
-      "rank": 6
+      "rank": 7
     },
     {
       "task": "Change the Turno temporary password",
@@ -836,7 +836,7 @@
       "priority": "low",
       "done": false,
       "optional": true,
-      "rank": 7
+      "rank": 8
     },
     {
       "task": "Complete the Amazon Associates application",
@@ -857,7 +857,7 @@
       "priority": "low",
       "done": false,
       "optional": true,
-      "rank": 12
+      "rank": 13
     },
     {
       "task": "Unlock the traffic tiles",
@@ -877,7 +877,7 @@
       "why": "On Chief of Staff's waiting-on-Joshua list (Oct 3).",
       "priority": "medium",
       "done": false,
-      "rank": 9
+      "rank": 10
     },
     {
       "task": "Set up the WebsitePlz contact inbox",
@@ -942,7 +942,14 @@
       "why": "hostfees.com and websiteplz.com are already collecting (Google emails Oct 6-7); left: submit their sitemaps, and add thefamilygems.com (no Google verification record on its DNS as of Oct 8).",
       "priority": "medium",
       "done": false,
-      "rank": 8
+      "rank": 9
+    },
+    {
+      "task": "Confirm in the bank app that the checking balance is positive after the grace cutoff (Oct 8, 8:59 PM PT)",
+      "why": "You marked it topped up at 11:51 AM PT; no newer balance reading since the morning sweep, so a quick look in the app closes this out.",
+      "priority": "high",
+      "done": false,
+      "rank": 6
     }
   ],
   "projects": [
@@ -952,7 +959,7 @@
       "type": "Short-term-rental fee calculators, explainers, and gift guides",
       "status": "live",
       "url": "https://hostfees.com",
-      "status_note": "LIVE at hostfees.com. Associates live: Store ID hostfees-20, tax validated, account Unblocked, 5 tracking IDs. Kits live since the Oct 6 deploy (cb116d98): all 54 pages return 200, tracking IDs and disclosures verified, calculators work. 28 of 51 SiteStripe slots still on tagged-search fallback (needs Joshua's Sites list + SiteStripe links). Kit pins post daily through Oct 13; 26 of 49 pins live (posted-pins log, last post Oct 8 AM). Calculator post Thu Oct 8. Visual redesign decided: v2 linen, cleaning and smart-lock kits live since 10:17 AM PT Oct 8. Cloudflare 7d (Oct 8 8:46 AM PT): 445 visits / 467 views (raw, includes bots). Lodgify affiliate pending. $0 revenue. 3 qualifying Associates sales needed by Apr 4, 2027.",
+      "status_note": "LIVE at hostfees.com. Kit page redesign live on all 3 kits (prod 3550b015; rollback cef3f75f available). Kit-linking fix staged (25e81191), waiting on the SSM phone audit + Joshua's OK. Today (Oct 8, ~8:07 PM PT): 6 page views, 0 affiliate clicks. Pins: 26 of 49 live (24 regular + 2 kit; posted-pins log, last post Oct 8 AM); kit pins post daily through Oct 13, week-2 kit pins from Oct 14 if approved. Associates live: Store ID hostfees-20, tax validated, account Unblocked, 5 tracking IDs. 28 of 51 SiteStripe slots still on tagged-search fallback (needs Joshua's Sites list + SiteStripe links). Cloudflare 7d (Oct 8 8:46 AM PT): 445 visits / 467 views (raw, includes bots). Lodgify affiliate pending. $0 revenue. 3 qualifying Associates sales needed by Apr 4, 2027.",
       "pages": 27,
       "calculators": 5,
       "gift_guides": 3,
@@ -965,7 +972,7 @@
       "pinterest_claimed": true,
       "turno_status": "live; affiliate link on hostfees.com (https://share.turno.com/69pllwz)",
       "hostaway_status": "declined for now; revisit in 4–6 weeks with traffic numbers",
-      "one_liner": "Live · kits live (54 pages OK) · kit pins daily to Oct 13 · 26 of 49 pins · 28 of 51 SiteStripe slots on fallback · v2 kits live Oct 8 · $0 revenue"
+      "one_liner": "Live · kit redesign live on all 3 kits · kit-linking fix staged · 26 of 49 pins (24 regular + 2 kit) · today 6 views / 0 affiliate clicks · $0 revenue"
     },
     {
       "id": "deal-scout",
@@ -1639,15 +1646,15 @@
   ],
   "other_account": {
     "label": "Other account (Grok Bot)",
-    "as_of": "Verified catch-up roll-up 2026-10-08_0822 (b89deb30f95f, verify.py OK) covering Oct 6-8; it adds no new numbers beyond Oct 6 reads. Oct 6/7 nightly roll-ups were never produced (other account ran out of usage). Paper-lane numbers below are still as of Oct 5 (bbe50a62a27f).",
-    "source_note": "Latest verified roll-up 2026-10-08_0822_incubator_rollup.md (b89deb30f95f, catch-up for Oct 6-8). Real numbers only; \"unknown\" means not verified. Paper lanes are paper only. Nothing was traded, published, spent, or turned on. None of these numbers count toward this account's totals.",
+    "as_of": "Verified roll-up 2026-10-08_2035 (e5623518e01d, as of Oct 8 8:36 PM PT). Paper-lane numbers below are as of that roll-up (desk shelf last updated Oct 8 12:11 PM PT). Family Gem Etsy numbers are still from the Oct 6 8:37 AM PT read.",
+    "source_note": "Latest verified roll-up 2026-10-08_2035_incubator_rollup.md (e5623518e01d). Real numbers only; \"unknown\" means not verified. Paper lanes are paper only. Nothing was traded, published, spent, or turned on. None of these numbers count toward this account's totals.",
     "shops": [
       {
         "name": "MoonletterMira",
         "status": "live",
         "type": "Etsy digital readings",
         "url": "https://www.etsy.com/shop/MoonletterMira",
-        "note": "5 listings (ML-01 to ML-05) per shop files last changed Oct 2; Etsy not rechecked live. No new orders on file. Real revenue to date: $0 known. Etsy Ads off (not before ~Oct 11). 7-day stats still unknown: the owning Etsy login isn't identified yet (Oct 8 catch-up roll-up).",
+        "note": "5 listings on file (ML-01 to ML-05). Orders, revenue and 7-day Etsy stats unknown: the owning Etsy login still isn't confirmed (Oct 8 8:36 PM PT roll-up). Real revenue to date: $0 known. Etsy Ads off (plan ~Oct 11-12, only if Joshua turns them on).",
         "listings": [
           "ML-01",
           "ML-02",
@@ -1655,34 +1662,34 @@
           "ML-04",
           "ML-05"
         ],
-        "one_liner": "Live · 5 listings · $0 known · ads off · traffic unknown (owning login not identified)"
+        "one_liner": "Live · 5 listings · stats unknown (owning login not identified) · ads off"
       },
       {
         "name": "The Family Gem Shop",
         "status": "vacation",
         "type": "Loose gemstones on Etsy",
         "url": "https://www.etsy.com/shop/TheFamilyGemShop",
-        "note": "Owner: Family Gem bot (ac4794e0) on the main account runs the shop and thefamilygems.com (approved Oct 8); reports to Fresh $$. Etsy shop cutover still pending (shop still on other account). Vacation mode ON, 0 live listings, 0 orders, $0 revenue, no logo/banner. SF-001 photographed, NOT listed. Shop Manager visits last 7 days: 0 as of Oct 6 8:37 PT; Oct 8 catch-up roll-up: no newer Etsy read. Site midday check Oct 8 ~1:00 PM PT: thefamilygems.com / /shop/ /about/ /guides/ /faq/ /contact/ /robots.txt /sitemap.xml all HTTP 200 (~0.2s); /collections/ 404 (not in sitemap). DNS TXT: SPF only (no google-site-verification). IndexNow key file live (200).",
+        "note": "Owner: Family Gem bot (ac4794e0) on the main account runs the shop and thefamilygems.com; reports to Fresh $$. Etsy access for the bot not set up yet (cutover pending). Vacation mode ON, 0 live listings, 0 orders, $0 revenue. SF-001 photographed, NOT listed. Etsy visits last 7 days: 0 (Etsy read Oct 6 8:37 AM PT; no newer read). Site: HTTPS OK, 8 pages. Search Console: DNS verification record not added yet. Gem reference archive done Oct 8 (internal only, not on the site or Etsy): all 17 families, all 50 species and 88 of 106 varieties have licensed reference photos, about 750 images; the other 18 varieties were checked and have no legally usable photo yet.",
         "listings": [],
-        "one_liner": "Family Gem bot owns shop+site · cutover pending · Vacation on · 0 listings · site 200s (~1:00 PM PT) · Etsy stats last Oct 6 8:37 PT · Search Console not set up"
+        "one_liner": "Vacation · 0 listings · 0 visits (Etsy read Oct 6) · site HTTPS OK, 8 pages · gem photo archive done (internal) · Search Console + Etsy access not set up"
       },
       {
         "name": "Help4U",
         "status": "not open",
         "type": "Planned Etsy shop: digital listing-help files",
         "url": "",
-        "note": "Not open, no shop login, $0 spend; catalog waiting on Joshua's review. No fresh read in the Oct 8 catch-up roll-up.",
+        "note": "Not open, 0 listings, 0 orders, $0 revenue, $0 spend; catalog waiting on Joshua's review (Oct 8 8:36 PM PT roll-up).",
         "listings": [],
         "one_liner": "Not open · $0 spent · catalog waiting on Joshua"
       }
     ],
-    "paper_lanes_note": "Paper only, no real money. Numbers are still as of the Oct 5 roll-up (8:56 PM PT); the Oct 8 catch-up roll-up lists desk totals as unknown. Per Oct 8 catch-up: Stocks Edge scalper and Edge/Moon improve jobs paused (as of Oct 6); Edge 4× hunt still manages the ZS and TWLO paper positions; Moon scalper runs until its RIOT paper trade closes.",
+    "paper_lanes_note": "Paper only, no real money. Numbers from the Oct 8 8:36 PM PT roll-up (read 8:35 PM PT). Per the usage-cut result (Oct 8 6:02 PM PT), Politics, Sports and Polymarket are paused and the Moon scalper paused after its RIOT paper stop (Oct 8 9:31 AM PT); Stocks Edge still holds ZS and TWLO on paper.",
     "paper_lanes": [
       {
         "lane": "Politics",
         "bankroll": "$1,000 paper",
         "equity": "$918.84 (-$81.16)",
-        "note": "Week ended Oct 3; no new week started.",
+        "note": "Week ended Oct 3; paused, no new week started.",
         "start_balance": 1000,
         "current_balance": 918.84,
         "week_pnl": -81.16,
@@ -1691,30 +1698,30 @@
       {
         "lane": "Stocks Edge",
         "bankroll": "$1,000 paper",
-        "equity": "$1,003.58 (+$3.58)",
-        "note": "Open: ZS, TWLO. Realized -$8.23, unrealized +$11.81. Week two started Oct 5.",
+        "equity": "$1,000.33 (+$0.33)",
+        "note": "Open: ZS, TWLO (paper). Week two ends Fri Oct 10.",
         "start_balance": 1000,
-        "current_balance": 1003.58,
-        "week_pnl": 3.58,
+        "current_balance": 1000.33,
+        "week_pnl": 0.33,
         "open_positions": 2
       },
       {
         "lane": "Stocks Moon",
         "bankroll": "$1,000 paper",
-        "equity": "$1,000.24 (+$0.24 since Sep 30 seed)",
-        "note": "23 paper clips closed today, day -$2.51.",
+        "equity": "$972.17 (-$27.83)",
+        "note": "Flat; scalper paused after the RIOT paper stop Oct 8 9:31 AM PT.",
         "start_balance": 1000,
-        "current_balance": 1000.24,
-        "week_pnl": 0.24,
-        "open_positions": null
+        "current_balance": 972.17,
+        "week_pnl": -27.83,
+        "open_positions": 0
       },
       {
         "lane": "Sports",
-        "bankroll": "paper",
-        "equity": "$0",
-        "note": "Empty book.",
-        "start_balance": 0,
-        "current_balance": 0,
+        "bankroll": "$1,000 paper",
+        "equity": "$1,000.00 ($0)",
+        "note": "Empty book; routines paused.",
+        "start_balance": 1000,
+        "current_balance": 1000,
         "week_pnl": 0,
         "open_positions": 0
       },
@@ -1722,7 +1729,7 @@
         "lane": "Polymarket",
         "bankroll": "$1,000 paper",
         "equity": "$1,000.00 ($0)",
-        "note": "8 paper locks resting, 0 fills, 0 live orders.",
+        "note": "8 paper locks resting, 0 fills, 0 live orders; lane paused.",
         "start_balance": 1000,
         "current_balance": 1000,
         "week_pnl": 0,
@@ -1731,11 +1738,11 @@
       {
         "lane": "Desk total",
         "bankroll": "$5,000 paper",
-        "equity": "$4,922.66 (-$77.34)",
-        "note": "All paper lanes.",
+        "equity": "$4,891.34 (-$108.66)",
+        "note": "All paper lanes; paper money, not real.",
         "start_balance": 5000,
-        "current_balance": 4922.66,
-        "week_pnl": -77.34,
+        "current_balance": 4891.34,
+        "week_pnl": -108.66,
         "open_positions": null
       }
     ],
@@ -1831,11 +1838,11 @@
       }
     ],
     "combined_ads_note": "Combined Etsy Ads (both accounts): PrintPlz ~$3/day from Fri Oct 16, capped at $100/month, plus ML-01 ~$5/day from ~Oct 11 only if Joshua enables it (off now).",
-    "as_of_date": "2026-10-05",
+    "as_of_date": "2026-10-08",
     "revenue": 0,
     "spend_total": 40.48,
-    "paper_pnl": -77.34,
-    "paper_pnl_note": "Paper desk $4,922.66 of $5,000 (as read for the 8:56 PM PT Oct 5 roll-up)",
+    "paper_pnl": -108.66,
+    "paper_pnl_note": "Paper desk $4,891.34 of $5,000.00 start; week P/L -$108.66 (paper money, not real; Oct 8 8:36 PM PT roll-up)",
     "spend_note": "Family Gem $40.48 ($29 Etsy setup + $11.48 domain); MoonletterMira unknown in full; Help4U $0; today $0",
     "decisions_pending": [
       {
@@ -1984,8 +1991,8 @@
       "account": "Other bots",
       "primary": "visits",
       "secondary": "views",
-      "status": "Site live (HTTPS 200s checked Oct 8 ~1:00 PM PT); Etsy vacation, 0 listings; Search Console not set up (DNS TXT = SPF only)",
-      "needs": "Joshua: Search Console domain property + Namecheap TXT; Family Gem bot: Etsy cutover after Joshua signs in on a separate browser profile"
+      "status": "Site HTTPS OK, 8 pages (Oct 8); Etsy vacation, 0 listings, 0 visits (Etsy read Oct 6); Search Console DNS record not added yet",
+      "needs": "Joshua: Search Console domain property + DNS verification record; Family Gem bot: Etsy access not set up yet (cutover pending)"
     }
   ],
   "traffic_history": [
@@ -2194,8 +2201,8 @@
     {
       "decision": "Apple Developer membership ($99/yr) and individual vs LLC enrollment",
       "lane": "App Store apps",
-      "recommended": "Joshua decides; nothing bought yet",
-      "note": "Unlocks the pinned next business (Host Payout & Fee Calculator first). Individual is faster but shows the legal name as seller; LLC needs a registered company and a free D-U-N-S number (~1 week)."
+      "recommended": "Can wait (individual enrollment when ready)",
+      "note": "Unlocks the pinned next business (Host Payout & Fee Calculator first). Individual is faster but shows the legal name as seller; LLC needs a registered company and a free D-U-N-S number (~1 week). Chief of Staff default (Oct 8 evening): the individual $99/yr membership can wait."
     },
     {
       "decision": "Pick 1 of the 5 HostFees redesign mockups",
@@ -2214,8 +2221,8 @@
     {
       "decision": "Gem Rock Auctions $1 win — pay or let it go",
       "lane": "Ops",
-      "recommended": "Check the account first",
-      "note": "Confirm the Gem Rock account is Joshua's, then pay or let it go."
+      "recommended": "Let it go",
+      "note": "Chief of Staff default (Oct 8 evening): let the $1 win go. Nothing paid."
     },
     {
       "decision": "Family-Gmail Drive share request",
@@ -2242,8 +2249,8 @@
     {
       "decision": "Contra: $900 intro price",
       "lane": "WebsitePlz",
-      "recommended": "Yes",
-      "note": "Contra/outreach range on file is $900–1,200."
+      "recommended": "Skip",
+      "note": "Contra/outreach range on file is $900–1,200. Chief of Staff default (Oct 8 evening): skip the $900 intro price."
     },
     {
       "decision": "Add the Fiverr gig extras",
@@ -2329,8 +2336,8 @@
       "decision": "VPN subscription: keep it or let it lapse",
       "lane": "Ops",
       "priority": "low",
-      "recommended": "Your call",
-      "note": "Low priority. A VPN subscription payment failed Oct 7. Keep it (update the payment method) or let it lapse."
+      "recommended": "Let it lapse",
+      "note": "Low priority. A VPN subscription payment failed Oct 7. Chief of Staff default (Oct 8 evening): let it lapse."
     },
     {
       "decision": "YouTube research credits: add a small monthly plan",
@@ -2338,9 +2345,21 @@
       "priority": "low",
       "recommended": "Decide before the next YouTube job",
       "note": "Low priority. YouTube research credits are down to 11. Add a small monthly plan before the next YouTube research job after the Mon Oct 12 usage reset, or skip YouTube jobs until then."
+    },
+    {
+      "decision": "HostFees: take the kit-linking fix live after the WebsitePlz SSM phone audit",
+      "lane": "HostFees",
+      "recommended": "Yes",
+      "note": "Staged build 25e81191 vs current prod 3550b015. Goes live only after the SSM phone audit passes (HostFees 9:05 PM PT roll-up, Oct 8)."
+    },
+    {
+      "decision": "HostFees: post the week-2 kit pins starting Wed Oct 14",
+      "lane": "HostFees",
+      "recommended": "Yes",
+      "note": "Week-2 kit pin drip after the current kit pins finish Oct 13 (HostFees 9:05 PM PT roll-up, Oct 8)."
     }
   ],
-  "decisions_source": "Chief of Staff nightly roll-up, Wed Oct 7, 2026 (recommended defaults are Chief of Staff's; nothing changes until Joshua decides)",
+  "decisions_source": "Chief of Staff evening summary, Thu Oct 8, 2026 (~9:21 PM PT) + HostFees 9:05 PM PT roll-up (recommended defaults are Chief of Staff's; nothing changes until Joshua decides)",
   "priority_projects": [
     {
       "id": "app-store-apps",
@@ -2438,7 +2457,7 @@
     "title": "Prospective acquisition ideas: ON HOLD",
     "status": "on hold",
     "banner": "ON HOLD · research only · no contact, no bids, no offers. Joshua reviewed the inquiry letters on Oct 8 (11:51 AM PT); none are approved to send. No next-step date: Joshua decides when.",
-    "note": "Asks, revenue and income/SDE are the brokers' listing claims, not verified by us. Earn-in scores are Deal Scout's rubric (earn-in / base / buy, out of 10). Anything marked ESTIMATE is a projection. Listing status from the Oct 8 Deal Scout run: all six Quiet Light listings live, asks unchanged.",
+    "note": "Asks, revenue and income are the brokers' listing claims, not verified by us. Deal Scout confirmed Quiet Light 'Income' is yearly seller's discretionary earnings (SDE) over the trailing 12 months. Earn-in scores are Deal Scout's rubric (earn-in / base / buy, out of 10). Anything marked ESTIMATE is a projection. Listing status from the Oct 8 Deal Scout run: all six Quiet Light listings live, asks unchanged.",
     "source": "Deal Scout files: 2026-10-07-wed-ops-partnership-push.md, earn-in-audits-2026-10-06/SCOREBOARD.md, earn-in-audits-2026-10-07 (golf), earn-in-audits-2026-10-08/DEAL-SCORE.md, inquire-letters/, 2026-10-07-farmers-rice-leak-report.md, 2026-10-08-run.md",
     "cards": [
       {
@@ -2448,8 +2467,8 @@
         "status": "on hold",
         "figures": [
           "Ask $31,000",
-          "Income $31,144/yr (listing claim)",
-          "1.0× income",
+          "Income $31,144/yr SDE, trailing 12 mo (listing claim)",
+          "1.0× SDE",
           "Revenue $131,770 (listing claim)"
         ],
         "score": "Earn-in 7.0 · base 6.9 · buy 6.8 (highest so far)",
@@ -2463,7 +2482,7 @@
         "status": "on hold",
         "figures": [
           "Accepting offers (no asking price listed)",
-          "Income $12,703/yr (listing claim)",
+          "Income $12,703/yr SDE, trailing 12 mo (listing claim)",
           "Revenue $942,119 (listing claim)"
         ],
         "score": "Earn-in 6.8 · base 5.2 · buy 4.5",
@@ -2477,7 +2496,7 @@
         "status": "on hold",
         "figures": [
           "Ask $460,000",
-          "SDE/income $229,221 TTM (listing claim)",
+          "Income $229,221/yr SDE, trailing 12 mo (listing claim)",
           "2.01× SDE",
           "Revenue $1,721,272 (listing claim)"
         ],
@@ -2505,8 +2524,8 @@
         "status": "on hold",
         "figures": [
           "Ask $300,000 + inventory",
-          "Income $124k/yr (listing claim)",
-          "2.42× income"
+          "Income $124k/yr SDE, trailing 12 mo (listing claim)",
+          "2.42× SDE"
         ],
         "score": "Earn-in 6.2 · base 6.0 · buy 5.9",
         "letter": "Letter 20 drafted, not sent",
@@ -2519,8 +2538,8 @@
         "status": "on hold",
         "figures": [
           "Ask $36,000",
-          "Income $25k/yr (listing claim)",
-          "1.44× income"
+          "Income $25k/yr SDE, trailing 12 mo (listing claim)",
+          "1.44× SDE"
         ],
         "score": "Earn-in 6.0 · base 6.4 · buy 6.5",
         "letter": "Letter 21 drafted, not sent",
