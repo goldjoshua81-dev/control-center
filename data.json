@@ -3,8 +3,8 @@
     "title": "Fresh $$ Control Center",
     "owner": "Joshua",
     "assistant": "Fresh $$",
-    "last_updated": "2026-10-09T09:10:21-07:00",
-    "status_note": "Morning refresh Fri Oct 9, 2026 ~9:15 AM PT. PrintPlz (Shop Manager 8:50 AM): 80 active / 1 draft / 2 inactive, 41 views / 21 visits last 7 days, 0 orders, 0 unread; AM loop fixed capitalize wording on TG5/TB4/TG4, 54/54 Printful sync. HostFees: 26 of 49 pins (today's in progress); Cloudflare 7d 109 visits / 123 views (raw, down from 445 a day earlier). WebsitePlz: Cloudflare 7d 829 visits (raw). Deal Scout Oct 9: 313 cards, 7 new, 11 gone; Keto Cooking Hub ended, Image Resizer out of range; top pick still SEO Supremacy; research only. Other account: latest verified roll-up still Oct 8 8:36 PM PT; overnight sync files all picked up 8:06 AM, nothing waiting. New on Needs Joshua: Mahenge spinel photos + AIG lab scan for the Family Gem cutover. Revenue $0 every lane."
+    "last_updated": "2026-10-09T12:36:00-07:00",
+    "status_note": "Morning refresh Fri Oct 9, 2026 ~9:15 AM PT. PrintPlz (Shop Manager 8:50 AM): 80 active / 1 draft / 2 inactive, 41 views / 21 visits last 7 days, 0 orders, 0 unread; AM loop fixed capitalize wording on TG5/TB4/TG4, 54/54 Printful sync. HostFees: 30 of 49 pins (Oct 9 pin run done 10:25 AM); Cloudflare 7d 109 visits / 123 views (raw, down from 445 a day earlier). WebsitePlz: Cloudflare 7d 829 visits (raw). Deal Scout Oct 9: 313 cards, 7 new, 11 gone; Keto Cooking Hub ended, Image Resizer out of range; top pick still SEO Supremacy; research only. Other account: latest verified roll-up still Oct 8 8:36 PM PT; overnight sync files all picked up 8:06 AM, nothing waiting. New on Needs Joshua: Mahenge spinel photos + AIG lab scan for the Family Gem cutover. Revenue $0 every lane. Midday check 12:35 PM PT: every daily loop ran today (Deal Scout 8:30, PrintPlz loop 6:08 + order check 8:52, pins 10:25, Scott scans 8:49 + noon), all 45 sync files verify OK, Oct 8 backup OK, disk 31%. Family Gem site all 200; Search Console and Etsy access still pending."
   },
   "budget": {
     "starting_capital": 1000,
@@ -629,7 +629,7 @@
       "spend": 0,
       "attributed_revenue": 0,
       "orders": 0,
-      "plan": "hostfees.com claimed; 26 of 49 pins live (posted-pins log, Oct 8 AM); daily routine posts 3 each morning at 10:06 AM PT; $0 spent."
+      "plan": "hostfees.com claimed; 30 of 49 pins live (posted-pins log, Oct 9 10:25 AM PT); daily routine posts 3 each morning at 10:06 AM PT; $0 spent."
     }
   ],
   "experiments": [
@@ -950,6 +950,14 @@
       "priority": "medium",
       "done": false,
       "rank": 4
+    },
+    {
+      "task": "Review the Build-in-Public Journey research pack and say go / no-go on a private 7-day pilot (optional)",
+      "why": "The other account's research pack landed Oct 9 11:05 AM PT. Nothing posts either way; before any pilot, the X archive cleanup, 2FA on X and the YouTube Google account, and a sanitized demo screen come first. No deadline.",
+      "priority": "low",
+      "done": false,
+      "rank": 14,
+      "added": "2026-10-09"
     }
   ],
   "projects": [
@@ -959,7 +967,7 @@
       "type": "Short-term-rental fee calculators, explainers, and gift guides",
       "status": "live",
       "url": "https://hostfees.com",
-      "status_note": "LIVE at hostfees.com. Kit page redesign live on all 3 kits (prod 3550b015; rollback cef3f75f available). Kit-linking fix staged (25e81191); Joshua approved Oct 8 9:46 PM PT, goes live after the WebsitePlz SSM phone audit. Today (Oct 8, ~8:07 PM PT): 6 page views, 0 affiliate clicks. Pins: 26 of 49 live (24 regular + 2 kit; posted-pins log, last post Oct 8 10:58 AM PT; today's pin in progress); kit pins post daily through Oct 13, week-2 kit pins start Oct 14 (approved Oct 8 9:46 PM PT). Associates live: Store ID hostfees-20, tax validated, account Unblocked, 5 tracking IDs. 28 of 51 SiteStripe slots still on tagged-search fallback (needs Joshua's Sites list + SiteStripe links). Cloudflare 7d (Oct 9 9:08 AM PT): 109 visits / 123 views, down from 445 / 467 a day earlier (raw, includes bots). Lodgify affiliate pending. $0 revenue. 3 qualifying Associates sales needed by Apr 4, 2027.",
+      "status_note": "LIVE at hostfees.com. Kit page redesign live on all 3 kits (prod 3550b015; rollback cef3f75f available). Kit-linking fix staged (25e81191); Joshua approved Oct 8 9:46 PM PT, goes live after the WebsitePlz SSM phone audit. Today (Oct 8, ~8:07 PM PT): 6 page views, 0 affiliate clicks. Pins: 30 of 49 live (27 regular + 3 kit; posted-pins log, last post Oct 9 10:25 AM PT); kit pins post daily through Oct 13, week-2 kit pins start Oct 14 (approved Oct 8 9:46 PM PT). Associates live: Store ID hostfees-20, tax validated, account Unblocked, 5 tracking IDs. 28 of 51 SiteStripe slots still on tagged-search fallback (needs Joshua's Sites list + SiteStripe links). Cloudflare 7d (Oct 9 9:08 AM PT): 109 visits / 123 views, down from 445 / 467 a day earlier (raw, includes bots). Lodgify affiliate pending. $0 revenue. 3 qualifying Associates sales needed by Apr 4, 2027.",
       "pages": 27,
       "calculators": 5,
       "gift_guides": 3,
@@ -967,12 +975,12 @@
       "pins_ready": 49,
       "revenue": 0,
       "profit": 0,
-      "pins_published": 26,
+      "pins_published": 30,
       "pin_routine": "3 each morning at 10:06 AM PT",
       "pinterest_claimed": true,
       "turno_status": "live; affiliate link on hostfees.com (https://share.turno.com/69pllwz)",
       "hostaway_status": "declined for now; revisit in 4–6 weeks with traffic numbers",
-      "one_liner": "Live · kit redesign live on all 3 kits · kit-linking fix approved (after SSM audit) · week-2 kit pins Oct 14 · 26 of 49 pins (24 regular + 2 kit) · today 6 views / 0 affiliate clicks · $0 revenue"
+      "one_liner": "Live · kit redesign live on all 3 kits · kit-linking fix approved (after SSM audit) · week-2 kit pins Oct 14 · 30 of 49 pins (27 regular + 3 kit) · today 6 views / 0 affiliate clicks · $0 revenue"
     },
     {
       "id": "deal-scout",
@@ -1669,9 +1677,9 @@
         "status": "vacation",
         "type": "Loose gemstones on Etsy",
         "url": "https://www.etsy.com/shop/TheFamilyGemShop",
-        "note": "Owner: Family Gem bot (ac4794e0) on the main account runs the shop and thefamilygems.com; reports to Fresh $$. Etsy access for the bot not set up yet (cutover pending). Vacation mode ON, 0 live listings, 0 orders, $0 revenue. SF-001 photographed, NOT listed. Etsy visits last 7 days: 0 (Etsy read Oct 6 8:37 AM PT; no newer read). Site: HTTPS OK, 8 pages. Search Console: DNS verification record not added yet. Gem reference archive done Oct 8 (internal only, not on the site or Etsy): all 17 families, all 50 species and 88 of 106 varieties have licensed reference photos, about 750 images; the other 18 varieties were checked and have no legally usable photo yet.",
+        "note": "Owner: Family Gem bot (ac4794e0) on the main account runs the shop and thefamilygems.com; reports to Fresh $$. Etsy access for the bot not set up yet (cutover pending). Vacation mode ON, 0 live listings, 0 orders, $0 revenue. SF-001 photographed, NOT listed; its 6 original photos and 2 videos arrived on this account Oct 9 8:05 AM PT. Etsy visits last 7 days: 0 (Etsy read Oct 6 8:37 AM PT; no newer read). Site: HTTPS OK, all 8 pages plus robots and sitemap return 200 (checked Oct 9 12:35 PM PT; sitemap lastmod still Oct 5). Search Console: DNS verification record not added yet (DNS shows only the email SPF record, Oct 9 12:35 PM PT). Gem reference archive done Oct 8 (internal only, not on the site or Etsy): all 17 families, all 50 species and 88 of 106 varieties have licensed reference photos, about 750 images; the other 18 varieties were checked and have no legally usable photo yet.",
         "listings": [],
-        "one_liner": "Vacation · 0 listings · 0 visits (Etsy read Oct 6) · site HTTPS OK, 8 pages · gem photo archive done (internal) · Search Console + Etsy access not set up"
+        "one_liner": "Vacation · 0 listings · 0 visits (Etsy read Oct 6, nothing newer) · site 200 on all pages (Oct 9 12:35 PM) · SF-001 media on this account · Search Console + Etsy access not set up"
       },
       {
         "name": "Help4U",
@@ -1991,7 +1999,7 @@
       "account": "Other bots",
       "primary": "visits",
       "secondary": "views",
-      "status": "Site HTTPS OK, 8 pages (Oct 8); Etsy vacation, 0 listings, 0 visits (Etsy read Oct 6); Search Console DNS record not added yet",
+      "status": "Site HTTPS OK, all 8 pages 200 (Oct 9 12:35 PM PT); Etsy vacation, 0 listings, 0 visits (Etsy read Oct 6, nothing newer); Search Console DNS record not added yet",
       "needs": "Joshua: Search Console domain property + DNS verification record; Family Gem bot: Etsy access not set up yet (cutover pending)"
     }
   ],
