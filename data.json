@@ -3,7 +3,7 @@
     "title": "Fresh $$ Control Center",
     "owner": "Joshua",
     "assistant": "Fresh $$",
-    "last_updated": "2026-10-09T12:36:00-07:00",
+    "last_updated": "2026-10-09T20:51:32-07:00",
     "status_note": "Morning refresh Fri Oct 9, 2026 ~9:15 AM PT. PrintPlz (Shop Manager 8:50 AM): 80 active / 1 draft / 2 inactive, 41 views / 21 visits last 7 days, 0 orders, 0 unread; AM loop fixed capitalize wording on TG5/TB4/TG4, 54/54 Printful sync. HostFees: 30 of 49 pins (Oct 9 pin run done 10:25 AM); Cloudflare 7d 109 visits / 123 views (raw, down from 445 a day earlier). WebsitePlz: Cloudflare 7d 829 visits (raw). Deal Scout Oct 9: 313 cards, 7 new, 11 gone; Keto Cooking Hub ended, Image Resizer out of range; top pick still SEO Supremacy; research only. Other account: latest verified roll-up still Oct 8 8:36 PM PT; overnight sync files all picked up 8:06 AM, nothing waiting. New on Needs Joshua: Mahenge spinel photos + AIG lab scan for the Family Gem cutover. Revenue $0 every lane. Midday check 12:35 PM PT: every daily loop ran today (Deal Scout 8:30, PrintPlz loop 6:08 + order check 8:52, pins 10:25, Scott scans 8:49 + noon), all 45 sync files verify OK, Oct 8 backup OK, disk 31%. Family Gem site all 200; Search Console and Etsy access still pending."
   },
   "budget": {
@@ -945,11 +945,12 @@
       "rank": 9
     },
     {
-      "task": "Provide the Mahenge spinel photos and AIG lab scan for the Family Gem cutover",
-      "why": "The cutover media packet arrived and verified Oct 9, but these files are still missing and only Joshua has them. Needed before the first Family Gem listing.",
+      "task": "Mahenge spinel photos + AIG lab scan for Family Gem: sent by Joshua (tapped Completed Oct 9, 8:47 AM PT); waiting to arrive on this side",
+      "why": "Nothing more needed from you. Stays on the list until the files arrive and verify here; needed before the first Family Gem listing.",
       "priority": "medium",
       "done": false,
-      "rank": 4
+      "rank": 4,
+      "status": "sent, waiting to arrive"
     },
     {
       "task": "Review the Build-in-Public Journey research pack and say go / no-go on a private 7-day pilot (optional)",
