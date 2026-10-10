@@ -3,8 +3,8 @@
     "title": "Fresh $$ Control Center",
     "owner": "Joshua",
     "assistant": "Fresh $$",
-    "last_updated": "2026-10-09T20:51:32-07:00",
-    "status_note": "Morning refresh Fri Oct 9, 2026 ~9:15 AM PT. PrintPlz (Shop Manager 8:50 AM): 80 active / 1 draft / 2 inactive, 41 views / 21 visits last 7 days, 0 orders, 0 unread; AM loop fixed capitalize wording on TG5/TB4/TG4, 54/54 Printful sync. HostFees: 30 of 49 pins (Oct 9 pin run done 10:25 AM); Cloudflare 7d 109 visits / 123 views (raw, down from 445 a day earlier). WebsitePlz: Cloudflare 7d 829 visits (raw). Deal Scout Oct 9: 313 cards, 7 new, 11 gone; Keto Cooking Hub ended, Image Resizer out of range; top pick still SEO Supremacy; research only. Other account: latest verified roll-up still Oct 8 8:36 PM PT; overnight sync files all picked up 8:06 AM, nothing waiting. New on Needs Joshua: Mahenge spinel photos + AIG lab scan for the Family Gem cutover. Revenue $0 every lane. Midday check 12:35 PM PT: every daily loop ran today (Deal Scout 8:30, PrintPlz loop 6:08 + order check 8:52, pins 10:25, Scott scans 8:49 + noon), all 45 sync files verify OK, Oct 8 backup OK, disk 31%. Family Gem site all 200; Search Console and Etsy access still pending."
+    "last_updated": "2026-10-09T21:14:02-07:00",
+    "status_note": "Evening update Fri Oct 9, 2026 ~9:15 PM PT (Chief of Staff evening summary + Scott Bot). Missed run today: Scott Bot's done file. Revenue $0 every lane. New on Needs Joshua: bank-app check after the 8:59 PM PT cutoff (#1), journey YouTube channel with 2-step verification before Mon Oct 12 (#2), Family Gem second-opinion packet review. Build-in-Public: approved as a private video test. HostFees: 30 of 49 pins; updated kit-linking build 90b2420c staged (recheck GO), prod 3550b015, waiting on Joshua's fresh yes. PrintPlz: 0 orders; personalization wording on 6 more listings; TF4 limit 12 to 40. WebsitePlz: skip-gate fixed, healthy 8:44 PM. Other account (Oct 9 8:27 PM PT): paper desk $4,903.78 of $5,000 (paper). Next 72h: Sat Oct 10 ~6:06 PM PT Stocks Edge paper week ends; Mon Oct 12 9:13 AM PT usage reset (video test starts that morning)."
   },
   "budget": {
     "starting_capital": 1000,
@@ -82,7 +82,7 @@
       "type": "For-moms print-on-demand gifts: mom shirts, teacher shirts, kids stickers, holiday party items, ornaments",
       "platform": "Etsy + Printful",
       "status": "live",
-      "status_note": "Shop Manager Oct 9 ~8:50 AM PT: 80 active / 1 draft / 2 inactive / 0 expired / 0 sold out (unchanged). Last 7 days (Oct 3-9): 41 views (dashboard read 6:07 AM PT) / 21 visits, 0 orders, $0. Month to date (Oct 1-9): 36 views / 29 visits; traffic mostly direct/referral (19) and the Etsy app (8), 1 Etsy Search visit. Printful (8:49 AM): all statuses 0. Etsy: New 0, overdue 0, unread messages 0. Oct 9 AM polish loop (~6:01-6:07 AM PT): 54/54 Printful sync OK; capitalize-as-printed wording fixed on TG5, TB4 and TG4 (verified). Build hold still on (K6/K7 unpublished). Etsy Ads planned Oct 16. Offsite Ads off. $0 revenue.",
+      "status_note": "Shop Manager Oct 9 ~8:50 AM PT: 80 active / 1 draft / 2 inactive / 0 expired / 0 sold out (unchanged). Last 7 days (Oct 3-9): 41 views (dashboard read 6:07 AM PT) / 21 visits, 0 orders, $0. Month to date (Oct 1-9): 36 views / 29 visits; traffic mostly direct/referral (19) and the Etsy app (8), 1 Etsy Search visit. Printful (8:49 AM): all statuses 0. Etsy: New 0, overdue 0, unread messages 0. Oct 9 AM polish loop (~6:01-6:07 AM PT): 54/54 Printful sync OK; capitalize-as-printed wording fixed on TG5, TB4 and TG4 (verified). Build hold still on (K6/K7 unpublished). Etsy Ads planned Oct 16. Offsite Ads off. $0 revenue. Oct 9 evening: 0 orders; personalization wording added to 6 more listings; TF4 personalization character limit raised from 12 to 40.",
       "url": "https://www.etsy.com/shop/PrintPlzShop",
       "orders": 0,
       "revenue": 0,
@@ -794,7 +794,7 @@
       "priority": "low",
       "done": false,
       "bot_work": true,
-      "rank": 12
+      "rank": 15
     },
     {
       "task": "Use Etsy Shop Manager for future live-listing counts",
@@ -808,7 +808,7 @@
       "priority": "medium",
       "done": false,
       "optional": true,
-      "rank": 11
+      "rank": 14
     },
     {
       "task": "Get a P.O. Box for HostFees",
@@ -816,7 +816,7 @@
       "priority": "medium",
       "done": false,
       "optional": true,
-      "rank": 7
+      "rank": 10
     },
     {
       "task": "Change the Turno temporary password",
@@ -836,7 +836,7 @@
       "priority": "low",
       "done": false,
       "optional": true,
-      "rank": 8
+      "rank": 11
     },
     {
       "task": "Complete the Amazon Associates application",
@@ -849,7 +849,7 @@
       "why": "Finish ID verification and confirm the phone number, then publish the WebsitePlz gig. W-9 submitted; Contra ~89%.",
       "priority": "high",
       "done": false,
-      "rank": 1
+      "rank": 3
     },
     {
       "task": "Optional: apply to the OwnerRez affiliate program",
@@ -857,7 +857,7 @@
       "priority": "low",
       "done": false,
       "optional": true,
-      "rank": 13
+      "rank": 16
     },
     {
       "task": "Unlock the traffic tiles",
@@ -870,28 +870,28 @@
       "why": "50% deposits are live on the site; buttons switch to \"Pay $X to start\" once the links are pasted in. Also 3 Care links and the customer portal (WebsitePlz README).",
       "priority": "medium",
       "done": false,
-      "rank": 5
+      "rank": 7
     },
     {
       "task": "Relay $300 for PrintPlz",
       "why": "On Chief of Staff's waiting-on-Joshua list (Oct 3).",
       "priority": "medium",
       "done": false,
-      "rank": 10
+      "rank": 13
     },
     {
       "task": "Set up the WebsitePlz contact inbox",
       "why": "Contact address for WebsitePlz buyers. Chief of Staff list, Oct 3.",
       "priority": "medium",
       "done": false,
-      "rank": 6
+      "rank": 8
     },
     {
       "task": "Review the WebsitePlz legal pages (Terms, Privacy, Refunds)",
       "why": "Plain-English drafts are live at websiteplz.com/terms, /privacy and /refunds. Review before Stripe goes live (Stripe's terms checkbox points at /terms/).",
       "priority": "high",
       "done": false,
-      "rank": 3
+      "rank": 5
     },
     {
       "task": "CANCELLED: Cat Bundle Flippa follow-up (PASSED Oct 6)",
@@ -923,7 +923,7 @@
       "why": "Add hostfees.com to the Associates Sites list and make SiteStripe links for the empty kit slots: 28 of 51 slots still fall back to tagged searches.",
       "priority": "high",
       "done": false,
-      "rank": 2
+      "rank": 4
     },
     {
       "task": "OK to deploy the HostFees staged kits (before Thu Oct 8)",
@@ -942,23 +942,40 @@
       "why": "hostfees.com and websiteplz.com are already collecting (Google emails Oct 6-7); left: submit their sitemaps, and add thefamilygems.com (no Google verification record on its DNS as of Oct 8).",
       "priority": "medium",
       "done": false,
-      "rank": 9
+      "rank": 12
     },
     {
       "task": "Mahenge spinel photos + AIG lab scan for Family Gem: sent by Joshua (tapped Completed Oct 9, 8:47 AM PT); waiting to arrive on this side",
       "why": "Nothing more needed from you. Stays on the list until the files arrive and verify here; needed before the first Family Gem listing.",
       "priority": "medium",
       "done": false,
-      "rank": 4,
+      "rank": 6,
       "status": "sent, waiting to arrive"
     },
     {
-      "task": "Review the Build-in-Public Journey research pack and say go / no-go on a private 7-day pilot (optional)",
-      "why": "The other account's research pack landed Oct 9 11:05 AM PT. Nothing posts either way; before any pilot, the X archive cleanup, 2FA on X and the YouTube Google account, and a sanitized demo screen come first. No deadline.",
-      "priority": "low",
+      "task": "Check the bank app: was the checking balance positive by the 8:59 PM PT Oct 9 cutoff? Watch for an overdraft-fee notice.",
+      "why": "Time-sensitive: the cutoff was tonight. A quick look in the app confirms it; no amounts are published here.",
+      "priority": "high",
       "done": false,
-      "rank": 14,
-      "added": "2026-10-09"
+      "added": "2026-10-09",
+      "rank": 1
+    },
+    {
+      "task": "Create the new journey YouTube channel with 2-step verification before the video test starts Mon Oct 12",
+      "why": "The approved private video test starts Mon Oct 12; the channel and its 2-step verification need to be in place first.",
+      "priority": "high",
+      "done": false,
+      "deadline": "2026-10-12 (morning)",
+      "added": "2026-10-09",
+      "rank": 2
+    },
+    {
+      "task": "Review and approve the Family Gem second-opinion packet before it goes into the reviewer's folder",
+      "why": "Nothing goes into the reviewer's folder until you approve the packet.",
+      "priority": "medium",
+      "done": false,
+      "added": "2026-10-09",
+      "rank": 9
     }
   ],
   "projects": [
@@ -968,7 +985,7 @@
       "type": "Short-term-rental fee calculators, explainers, and gift guides",
       "status": "live",
       "url": "https://hostfees.com",
-      "status_note": "LIVE at hostfees.com. Kit page redesign live on all 3 kits (prod 3550b015; rollback cef3f75f available). Kit-linking fix staged (25e81191); Joshua approved Oct 8 9:46 PM PT, goes live after the WebsitePlz SSM phone audit. Today (Oct 8, ~8:07 PM PT): 6 page views, 0 affiliate clicks. Pins: 30 of 49 live (27 regular + 3 kit; posted-pins log, last post Oct 9 10:25 AM PT); kit pins post daily through Oct 13, week-2 kit pins start Oct 14 (approved Oct 8 9:46 PM PT). Associates live: Store ID hostfees-20, tax validated, account Unblocked, 5 tracking IDs. 28 of 51 SiteStripe slots still on tagged-search fallback (needs Joshua's Sites list + SiteStripe links). Cloudflare 7d (Oct 9 9:08 AM PT): 109 visits / 123 views, down from 445 / 467 a day earlier (raw, includes bots). Lodgify affiliate pending. $0 revenue. 3 qualifying Associates sales needed by Apr 4, 2027.",
+      "status_note": "LIVE at hostfees.com. Kit page redesign live on all 3 kits (prod 3550b015; rollback cef3f75f available). Kit-linking fix: updated build staged (90b2420c, recheck GO: 8/8 checks, 54/54 links); prod stays 3550b015 until Joshua gives a fresh yes (his Oct 8 approval was for the earlier build). Pins: 30 of 49 live (27 regular + 3 kit; posted-pins log, last post Oct 9 10:25 AM PT); kit pins post daily through Oct 13, week-2 kit pins start Oct 14 (approved Oct 8 9:46 PM PT). Associates live: Store ID hostfees-20, tax validated, account Unblocked, 5 tracking IDs. 28 of 51 SiteStripe slots still on tagged-search fallback (needs Joshua's Sites list + SiteStripe links). Cloudflare 7d (Oct 9 9:08 AM PT): 109 visits / 123 views, down from 445 / 467 a day earlier (raw, includes bots). Lodgify affiliate pending. $0 revenue. 3 qualifying Associates sales needed by Apr 4, 2027.",
       "pages": 27,
       "calculators": 5,
       "gift_guides": 3,
@@ -981,7 +998,7 @@
       "pinterest_claimed": true,
       "turno_status": "live; affiliate link on hostfees.com (https://share.turno.com/69pllwz)",
       "hostaway_status": "declined for now; revisit in 4–6 weeks with traffic numbers",
-      "one_liner": "Live · kit redesign live on all 3 kits · kit-linking fix approved (after SSM audit) · week-2 kit pins Oct 14 · 30 of 49 pins (27 regular + 3 kit) · today 6 views / 0 affiliate clicks · $0 revenue"
+      "one_liner": "Live · kit redesign live on all 3 kits · kit-linking fix staged (90b2420c), waiting on Joshua's fresh yes · 30 of 49 pins · week-2 kit pins Oct 14 · $0 revenue"
     },
     {
       "id": "deal-scout",
@@ -1001,7 +1018,7 @@
       "type": "Websites for local trades (HVAC, plumbing, electric, pressure washing, house cleaning)",
       "status": "live",
       "url": "https://websiteplz.com",
-      "status_note": "websiteplz.com live; sitesplz.com redirects. Reassurance line live; audit clean; Search Console collecting since Oct 5. Contra profile ~89%. Fiverr: W-9 submitted; gig blocked only on Joshua's ID verification + phone confirm, then publish. Still waiting on Joshua: Terms/Privacy/Refunds review, 3 Stripe deposit links, hello inbox. Cloudflare 7d (Oct 9 9:08 AM PT): 829 visits / 835 views (raw, includes bots). $0 revenue.",
+      "status_note": "websiteplz.com live; sitesplz.com redirects. Reassurance line live; audit clean; Search Console collecting since Oct 5. Contra profile ~89%. Fiverr: W-9 submitted; gig blocked only on Joshua's ID verification + phone confirm, then publish. Still waiting on Joshua: Terms/Privacy/Refunds review, 3 Stripe deposit links, hello inbox. Cloudflare 7d (Oct 9 9:08 AM PT): 829 visits / 835 views (raw, includes bots). Oct 9 evening: skip-gate fixed; site healthy at 8:44 PM PT. $0 revenue.",
       "one_liner": "Live · reassurance line live · audit clean · Search Console collecting · Fiverr gig waiting on Joshua ID verification · $0 revenue",
       "bot": "WebsitePlz",
       "bot_id": "e58826be-250d-4953-b472-9f0e1836bd42",
@@ -1559,10 +1576,10 @@
     },
     {
       "date": "2026-10-10",
-      "date_display": "Fri Oct 10, 2026",
+      "date_display": "Sat Oct 10, 2026 · ~6:06 PM PT",
       "event": "Stocks Edge week 2 ends (paper)",
       "details": "Other account, paper only.",
-      "source": "Incubator roll-up 2026-10-05_2123 (late)",
+      "source": "Incubator roll-up 2026-10-09_2027",
       "account": "Other bots"
     },
     {
@@ -1587,6 +1604,13 @@
       "details": "Main account's next Grok Bot usage reset (the other, Pro account resets Thursdays). Heavy jobs resume after it (X archive scan, larger builds). X marketing approved to start after it.",
       "source": "Chief of Staff nightly roll-up Oct 7",
       "account": "This account"
+    },
+    {
+      "date": "2026-10-12",
+      "date_display": "Mon Oct 12, 2026 · morning",
+      "event": "Private video test starts (journey YouTube channel)",
+      "details": "Approved Oct 9. Joshua creates the new channel with 2-step verification before it starts. Private test; nothing posts publicly.",
+      "source": "Chief of Staff + Scott Bot, Oct 9 evening"
     },
     {
       "date": "2026-10-13",
@@ -1655,8 +1679,8 @@
   ],
   "other_account": {
     "label": "Other account (Grok Bot)",
-    "as_of": "Verified roll-up 2026-10-08_2035 (e5623518e01d, as of Oct 8 8:36 PM PT). Paper-lane numbers below are as of that roll-up (desk shelf last updated Oct 8 12:11 PM PT). Family Gem Etsy numbers are still from the Oct 6 8:37 AM PT read. Checked Oct 9 ~9:10 AM PT: no newer roll-up yet (next due by 8:40 PM PT tonight). Overnight files between accounts all picked up and verified (Oct 9 8:06 AM PT), nothing waiting.",
-    "source_note": "Latest verified roll-up 2026-10-08_2035_incubator_rollup.md (e5623518e01d). Real numbers only; \"unknown\" means not verified. Paper lanes are paper only. Nothing was traded, published, spent, or turned on. None of these numbers count toward this account's totals.",
+    "as_of": "Verified roll-up 2026-10-09_2027 (acfbaeaf7fe9, as of Oct 9 8:27 PM PT). Paper-lane numbers below are as of that roll-up (desk shelf last updated Oct 9 1:12 PM PT). Family Gem Etsy numbers are still from the Oct 6 8:37 AM PT read.",
+    "source_note": "Latest verified roll-up 2026-10-09_2027_incubator_rollup.md (acfbaeaf7fe9). Real numbers only; \"unknown\" means not verified. Paper lanes are paper only. Nothing was traded, published, spent, or turned on. None of these numbers count toward this account's totals.",
     "shops": [
       {
         "name": "MoonletterMira",
@@ -1692,7 +1716,7 @@
         "one_liner": "Not open · $0 spent · catalog waiting on Joshua"
       }
     ],
-    "paper_lanes_note": "Paper only, no real money. Numbers from the Oct 8 8:36 PM PT roll-up (read 8:35 PM PT). Per the usage-cut result (Oct 8 6:02 PM PT), Politics, Sports and Polymarket are paused and the Moon scalper paused after its RIOT paper stop (Oct 8 9:31 AM PT); Stocks Edge still holds ZS and TWLO on paper.",
+    "paper_lanes_note": "Paper only, no real money. Numbers from the Oct 9 8:27 PM PT roll-up (read 8:26 PM PT). Per the usage-cut result (Oct 8 6:02 PM PT), Politics, Sports and Polymarket are paused and the Moon scalper paused after its RIOT paper stop (Oct 8 9:31 AM PT); Stocks Edge still holds ZS and TWLO on paper.",
     "paper_lanes": [
       {
         "lane": "Politics",
@@ -1707,11 +1731,11 @@
       {
         "lane": "Stocks Edge",
         "bankroll": "$1,000 paper",
-        "equity": "$1,000.33 (+$0.33)",
-        "note": "Open: ZS, TWLO (paper). Week two ends Fri Oct 10.",
+        "equity": "$1,012.77 (+$12.77)",
+        "note": "Open: ZS, TWLO (paper). Week two ends Sat Oct 10 ~6:06 PM PT.",
         "start_balance": 1000,
-        "current_balance": 1000.33,
-        "week_pnl": 0.33,
+        "current_balance": 1012.77,
+        "week_pnl": 12.77,
         "open_positions": 2
       },
       {
@@ -1747,11 +1771,11 @@
       {
         "lane": "Desk total",
         "bankroll": "$5,000 paper",
-        "equity": "$4,891.34 (-$108.66)",
+        "equity": "$4,903.78 (-$96.22)",
         "note": "All paper lanes; paper money, not real.",
         "start_balance": 5000,
-        "current_balance": 4891.34,
-        "week_pnl": -108.66,
+        "current_balance": 4903.78,
+        "week_pnl": -96.22,
         "open_positions": null
       }
     ],
@@ -1775,7 +1799,7 @@
         "details": "Conservative-vs-aggressive verdict Wednesday (paper)."
       },
       {
-        "date": "Fri Oct 10",
+        "date": "Sat Oct 10, ~6:06 PM PT",
         "date_iso": "2026-10-10",
         "event": "Stocks Edge week two ends",
         "details": "Paper."
@@ -1847,11 +1871,11 @@
       }
     ],
     "combined_ads_note": "Combined Etsy Ads (both accounts): PrintPlz ~$3/day from Fri Oct 16, capped at $100/month, plus ML-01 ~$5/day from ~Oct 11 only if Joshua enables it (off now).",
-    "as_of_date": "2026-10-08",
+    "as_of_date": "2026-10-09",
     "revenue": 0,
     "spend_total": 40.48,
-    "paper_pnl": -108.66,
-    "paper_pnl_note": "Paper desk $4,891.34 of $5,000.00 start; week P/L -$108.66 (paper money, not real; Oct 8 8:36 PM PT roll-up)",
+    "paper_pnl": -96.22,
+    "paper_pnl_note": "Paper desk $4,903.78 of $5,000.00 start; week P/L -$96.22 (paper money, not real; Oct 9 8:27 PM PT roll-up)",
     "spend_note": "Family Gem $40.48 ($29 Etsy setup + $11.48 domain); MoonletterMira unknown in full; Help4U $0; today $0",
     "decisions_pending": [
       {
@@ -2422,9 +2446,15 @@
       "note": "Approved Oct 8, 9:46 PM PT: week-2 kit pins start Wed Oct 14. HostFees owns it.",
       "done": true,
       "status": "approved"
+    },
+    {
+      "decision": "HostFees kit-linking go-live: fresh yes for the updated staged build (90b2420c, 8/8 checks, 54/54 links; rollback 3550b015)",
+      "lane": "HostFees",
+      "recommended": "Yes",
+      "note": "The Oct 8 approval covered the earlier build (25e81191). The updated build passed its recheck (8/8 checks, 54/54 links); it stays staged until Joshua taps a fresh yes. Prod stays 3550b015."
     }
   ],
-  "decisions_source": "Chief of Staff evening summary, Thu Oct 8, 2026 (~9:21 PM PT) + HostFees 9:05 PM PT roll-up (recommended defaults are Chief of Staff's; nothing changes until Joshua decides)",
+  "decisions_source": "Chief of Staff evening summary, Fri Oct 9, 2026 (recommended defaults are Chief of Staff's; nothing changes until Joshua decides)",
   "priority_projects": [
     {
       "id": "app-store-apps",
@@ -2556,6 +2586,14 @@
       "done_display": "Oct 8, 2026 · 9:46 PM PT",
       "note": "Approved: week-2 kit pins start Wed Oct 14. HostFees owns it.",
       "source": "Joshua tapped APPROVED (relayed by Chief of Staff)"
+    },
+    {
+      "task": "Approved: private video test (Oct 9)",
+      "status": "approved",
+      "done_at": "2026-10-09T21:00:00-07:00",
+      "done_display": "Oct 9, 2026 · evening",
+      "note": "Build-in-Public go/no-go: go on a private video test, starting Mon Oct 12. Nothing posts publicly.",
+      "source": "Scott Bot + Chief of Staff Oct 9 evening summary"
     }
   ],
   "acquisition_ideas": {
