@@ -3,8 +3,8 @@
     "title": "Fresh $$ Control Center",
     "owner": "Joshua",
     "assistant": "Fresh $$",
-    "last_updated": "2026-10-10T12:22:24-07:00",
-    "status_note": "Morning update Sat Oct 10, 2026 ~8:50 AM PT. Revenue $0 every lane. PrintPlz: 80 active, 0 orders, 25 views / 14 visits last 7 days (Shop Manager 8:31 AM); AM loop fixed personalization on X7/TC1/N2. HostFees: 30 of 49 pins; kit links went live ~8:40 AM PT (prod 06f7fa08, nothing broken on the 9:20-9:55 AM check); Cloudflare 7d 102 visits. WebsitePlz: 847 visits 7d (raw). Deal Scout Oct 10: no standouts. Bank: no new bank email after the Oct 9 cutoff; check the app. New on Needs Joshua: Cloudflare welcome-email glance (#3), paid-ads guide (low). Family Gem Etsy stats paused pending cutover. Other account: latest verified roll-up still Oct 9 8:27 PM PT. Next 72h: Sat Oct 10 ~6:06 PM PT Stocks Edge paper week ends; Mon Oct 12 9:13 AM PT usage reset and private video test (journey YouTube channel needed first); Tue Oct 13 Airbnb fee change. Midday check 12:22 PM PT: all daily lanes ran except the HostFees pin drip (today's 4 pins staged 10:07 AM, not yet in the posted log; HostFees Control asked). Family Gem site 200 on all pages; Search Console still not set up (moved up to Needs #3)."
+    "last_updated": "2026-10-10T12:25:59-07:00",
+    "status_note": "Morning update Sat Oct 10, 2026 ~8:50 AM PT. Revenue $0 every lane. PrintPlz: 80 active, 0 orders, 25 views / 14 visits last 7 days (Shop Manager 8:31 AM); AM loop fixed personalization on X7/TC1/N2. HostFees: 30 of 49 pins; kit links went live ~8:40 AM PT (prod 06f7fa08, nothing broken on the 9:20-9:55 AM check); Cloudflare 7d 102 visits. WebsitePlz: 847 visits 7d (raw). Deal Scout Oct 10: no standouts. Bank: no new bank email after the Oct 9 cutoff; check the app. New on Needs Joshua: Cloudflare welcome-email glance (#3), paid-ads guide (low). Family Gem Etsy stats paused pending cutover. Other account: latest verified roll-up still Oct 9 8:27 PM PT. Next 72h: Sat Oct 10 ~6:06 PM PT Stocks Edge paper week ends; Mon Oct 12 9:13 AM PT usage reset and private video test (journey YouTube channel needed first); Tue Oct 13 Airbnb fee change. Midday check 12:22 PM PT: all daily lanes ran; the HostFees pin drip is paused on purpose. Family Gem site 200 on all pages; Search Console still not set up (moved up to Needs #3). Update ~12:25 PM PT: Pinterest blocked (Access Denied at 10:07 AM PT Oct 10), drip paused, 4 pins queued; waiting on Joshua's account check (Needs #3). Not a stuck job; pins stay 30 of 49."
   },
   "budget": {
     "starting_capital": 1000,
@@ -794,7 +794,7 @@
       "priority": "low",
       "done": false,
       "bot_work": true,
-      "rank": 18
+      "rank": 19
     },
     {
       "task": "Use Etsy Shop Manager for future live-listing counts",
@@ -808,7 +808,7 @@
       "priority": "medium",
       "done": false,
       "optional": true,
-      "rank": 16
+      "rank": 17
     },
     {
       "task": "Get a P.O. Box for HostFees",
@@ -816,7 +816,7 @@
       "priority": "medium",
       "done": false,
       "optional": true,
-      "rank": 13
+      "rank": 14
     },
     {
       "task": "Change the Turno temporary password",
@@ -836,7 +836,7 @@
       "priority": "low",
       "done": false,
       "optional": true,
-      "rank": 14
+      "rank": 15
     },
     {
       "task": "Complete the Amazon Associates application",
@@ -849,7 +849,7 @@
       "why": "Finish ID verification and confirm the phone number, then publish the WebsitePlz gig. W-9 submitted; Contra ~89%.",
       "priority": "high",
       "done": false,
-      "rank": 5
+      "rank": 6
     },
     {
       "task": "Optional: apply to the OwnerRez affiliate program",
@@ -857,7 +857,7 @@
       "priority": "low",
       "done": false,
       "optional": true,
-      "rank": 19
+      "rank": 20
     },
     {
       "task": "Unlock the traffic tiles",
@@ -870,28 +870,28 @@
       "why": "50% deposits are live on the site; buttons switch to \"Pay $X to start\" once the links are pasted in. Also 3 Care links and the customer portal (WebsitePlz README).",
       "priority": "medium",
       "done": false,
-      "rank": 9
+      "rank": 10
     },
     {
       "task": "Relay $300 for PrintPlz",
       "why": "On Chief of Staff's waiting-on-Joshua list (Oct 3).",
       "priority": "medium",
       "done": false,
-      "rank": 15
+      "rank": 16
     },
     {
       "task": "Set up the WebsitePlz contact inbox",
       "why": "Contact address for WebsitePlz buyers. Chief of Staff list, Oct 3.",
       "priority": "medium",
       "done": false,
-      "rank": 10
+      "rank": 11
     },
     {
       "task": "Review the WebsitePlz legal pages (Terms, Privacy, Refunds)",
       "why": "Plain-English drafts are live at websiteplz.com/terms, /privacy and /refunds. Review before Stripe goes live (Stripe's terms checkbox points at /terms/).",
       "priority": "high",
       "done": false,
-      "rank": 7
+      "rank": 8
     },
     {
       "task": "CANCELLED: Cat Bundle Flippa follow-up (PASSED Oct 6)",
@@ -923,7 +923,7 @@
       "why": "Add hostfees.com to the Associates Sites list and make SiteStripe links for the empty kit slots: 28 of 51 slots still fall back to tagged searches.",
       "priority": "high",
       "done": false,
-      "rank": 6
+      "rank": 7
     },
     {
       "task": "OK to deploy the HostFees staged kits (before Thu Oct 8)",
@@ -942,14 +942,14 @@
       "why": "hostfees.com and websiteplz.com are already collecting (Google emails Oct 6-7); left: submit their sitemaps, and add thefamilygems.com (no Google verification record on its DNS as of Oct 8). Moved up Oct 10 midday: it's the one ~10-minute step that unblocks indexing for The Family Gem Shop's site before listings go live, and HostFees' Oct 10 report calls it the main lever for the Apr 4, 2027 Associates window. Steps for thefamilygems.com: /workspace/familygem/F1-search-console-steps.md.",
       "priority": "medium",
       "done": false,
-      "rank": 3
+      "rank": 4
     },
     {
       "task": "Mahenge spinel photos + AIG lab scan for Family Gem: sent by Joshua (tapped Completed Oct 9, 8:47 AM PT); waiting to arrive on this side",
       "why": "Nothing more needed from you. Stays on the list until the files arrive and verify here; needed before the first Family Gem listing.",
       "priority": "medium",
       "done": false,
-      "rank": 8,
+      "rank": 9,
       "status": "sent, waiting to arrive"
     },
     {
@@ -975,7 +975,7 @@
       "priority": "medium",
       "done": false,
       "added": "2026-10-09",
-      "rank": 11
+      "rank": 12
     },
     {
       "task": "Glance at the 'Welcome to Cloudflare' email (7:10 AM PT Oct 10): did you sign up for a new Cloudflare account?",
@@ -983,7 +983,7 @@
       "priority": "medium",
       "done": false,
       "added": "2026-10-10",
-      "rank": 4
+      "rank": 5
     },
     {
       "task": "Read the paid-ads reference guide when convenient (research only)",
@@ -991,14 +991,14 @@
       "priority": "low",
       "done": false,
       "added": "2026-10-10",
-      "rank": 20
+      "rank": 21
     },
     {
       "task": "Start the HostFees Facebook-group posts from a re-dated calendar",
       "why": "HostFees' Oct 10 sales-path report calls this the biggest near-term traffic lever (groups with 560K+ members vs about 0 Pinterest visits so far); no Facebook-tagged visits yet. Lead with the cleaning-kit and linen-kit posts. HostFees Control can re-date the calendar first (internal, nothing posted).",
       "priority": "medium",
       "done": false,
-      "rank": 12,
+      "rank": 13,
       "added": "2026-10-10"
     },
     {
@@ -1006,7 +1006,7 @@
       "why": "Lets HostFees Control finish the winter checklist upgrade before the Oct 15 winter pin and fix the smart-lock kit's Start-here match (or retitle that heading). Pick before Thu Oct 15.",
       "priority": "low",
       "done": false,
-      "rank": 17,
+      "rank": 18,
       "added": "2026-10-10"
     },
     {
@@ -1014,8 +1014,16 @@
       "why": "Keeps your own visits out of the HostFees counts.",
       "priority": "low",
       "done": false,
-      "rank": 21,
+      "rank": 22,
       "added": "2026-10-10"
+    },
+    {
+      "task": "Pinterest blocked: check the HostFees Pinterest account on your own device for any restriction. Pins are paused until you confirm it's fine; week-2 kit pins (Oct 14) depend on it.",
+      "why": "At 10:07 AM PT Oct 10 Pinterest showed 'Access Denied' on the pin creation tool twice (no login prompt, captcha or email notice). Nothing was posted; 4 pins stay queued and the daily drip is paused until you confirm.",
+      "priority": "high",
+      "done": false,
+      "added": "2026-10-10",
+      "rank": 3
     }
   ],
   "projects": [
@@ -1025,7 +1033,7 @@
       "type": "Short-term-rental fee calculators, explainers, and gift guides",
       "status": "live",
       "url": "https://hostfees.com",
-      "status_note": "LIVE at hostfees.com. Kit links live since Oct 10 ~8:40 AM PT (Joshua said ship it): prod 06f7fa08, rollback 3550b015; the 9:20-9:55 AM PT end-to-end check found nothing broken (43/43 sitemap URLs and 16/16 pin URLs return 200) and says traffic, not the site, is the limit. Pins: 30 of 49 live (posted-pins log, last post Oct 9 10:25 AM PT). Today's 4 pins were staged at 10:07 AM PT but weren't in the posted log as of the 12:20 PM PT check; HostFees Control asked to post or explain. Kit pins post daily through Oct 13, week-2 kit pins start Oct 14 (approved Oct 8 9:46 PM PT). Associates live: Store ID hostfees-20, tax validated, account Unblocked, 5 tracking IDs. 28 of 51 SiteStripe slots still on tagged-search fallback (needs Joshua's Sites list + SiteStripe links). Cloudflare 7d (Oct 10 8:42 AM PT): 102 visits / 115 views (raw, includes bots). Lodgify affiliate pending. $0 revenue. 3 qualifying Associates sales needed by Apr 4, 2027.",
+      "status_note": "LIVE at hostfees.com. Kit links live since Oct 10 ~8:40 AM PT (Joshua said ship it): prod 06f7fa08, rollback 3550b015; the 9:20-9:55 AM PT end-to-end check found nothing broken (43/43 sitemap URLs and 16/16 pin URLs return 200) and says traffic, not the site, is the limit. Pins: 30 of 49 live (posted-pins log, last post Oct 9 10:25 AM PT). Pinterest blocked (Access Denied at 10:07 AM PT Oct 10), drip paused on purpose, 4 pins queued (27, 28, 29, kit04); waiting on Joshua's account check. Not a stuck job: nothing posted, posted log correct at 30. Week-2 kit pins (approved for Oct 14) depend on the account check. Associates live: Store ID hostfees-20, tax validated, account Unblocked, 5 tracking IDs. 28 of 51 SiteStripe slots still on tagged-search fallback (needs Joshua's Sites list + SiteStripe links). Cloudflare 7d (Oct 10 8:42 AM PT): 102 visits / 115 views (raw, includes bots). Lodgify affiliate pending. $0 revenue. 3 qualifying Associates sales needed by Apr 4, 2027.",
       "pages": 27,
       "calculators": 5,
       "gift_guides": 3,
@@ -1034,11 +1042,11 @@
       "revenue": 0,
       "profit": 0,
       "pins_published": 30,
-      "pin_routine": "3 each morning at 10:06 AM PT",
+      "pin_routine": "Paused since Oct 10 10:07 AM PT (Pinterest Access Denied); normally 3 each morning at 10:06 AM PT",
       "pinterest_claimed": true,
       "turno_status": "live; affiliate link on hostfees.com (https://share.turno.com/69pllwz)",
       "hostaway_status": "declined for now; revisit in 4–6 weeks with traffic numbers",
-      "one_liner": "Live · kit redesign live on all 3 kits · kit-linking fix staged (90b2420c), waiting on Joshua's fresh yes · 30 of 49 pins · week-2 kit pins Oct 14 · $0 revenue"
+      "one_liner": "Live · kit links live (prod 06f7fa08) · Pinterest blocked Oct 10, drip paused, 4 pins queued · 30 of 49 pins · waiting on Joshua's account check · $0 revenue"
     },
     {
       "id": "deal-scout",
@@ -2803,5 +2811,12 @@
         "note": "Both fall below the line: not worth it at their asking prices."
       }
     ]
+  },
+  "lane_pauses": {
+    "HostFees pins": {
+      "since": "2026-10-10 10:07 AM PT",
+      "reason": "Pinterest Access Denied; waiting on Joshua's account check",
+      "set": "2026-10-10"
+    }
   }
 }

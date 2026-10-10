@@ -142,6 +142,7 @@ EXPECT_DAY = {"Nightly roll-up": -1, "Emergency backup": -1}
 
 def cmd_lanes(as_json=False):
     st = lane_status()
+    PAUSES = (load().get("lane_pauses") or {})
     if as_json: print(json.dumps(st, indent=2, ensure_ascii=False)); return
     now = datetime.datetime.now(PT)
     for lane, s in st.items():
@@ -153,6 +154,9 @@ def cmd_lanes(as_json=False):
         if due and s["latest"] < want and now.time() >= datetime.time(*due):
             if off == 0: flag += f" · LATE (usually done by {datetime.time(*due).strftime('%-I:%M %p')} PT; check the routine)"
             else: flag += f" · LATE ({want} file missing; check the routine)"
+        pause = PAUSES.get(lane)   # data.json "lane_pauses": a deliberate pause shows PAUSED instead of LATE
+        if pause and s["latest"] < want:
+            flag = f"last {s['latest'] or 'none'} · PAUSED since {pause.get('since', '?')} (on purpose: {pause.get('reason', 'paused')}; not a failure)"
         extra = "".join(f" · {k}={v}" for k, v in s.items() if k in ("posted", "top_pick", "runs"))
         print(f"{lane}: {flag} ({s['at']}) {s['file']}{extra}")
 
