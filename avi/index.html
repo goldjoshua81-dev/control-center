@@ -767,6 +767,131 @@
     40% { filter: drop-shadow(0 0 16px var(--gold)) brightness(1.35); }
     100% { filter: drop-shadow(0 10px 16px rgba(0, 0, 0, .45)) brightness(1); }
   }
+  .gem-head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px; }
+  .gem-head h2 { margin: 0; }
+  .gem-badge {
+    display: inline-flex; align-items: center; gap: 8px; min-height: 48px;
+    padding: 6px 14px; border-radius: 999px; font-weight: 900;
+    background: rgba(245, 197, 24, .14); border: 2px solid rgba(245, 197, 24, .75);
+    box-shadow: 0 0 18px rgba(245, 197, 24, .28);
+  }
+  .gem-badge b { font-size: 26px; color: white; line-height: 1; }
+  .gem-actions, .months { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0; }
+  .gem-app img { max-width: 100%; }
+  .gem-grid {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(104px, 1fr));
+    gap: 8px; margin: 8px 0 14px;
+  }
+  .gem-tile {
+    min-height: 108px; padding: 8px 6px; border-radius: 16px; cursor: pointer;
+    display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px;
+    background: #0c1222; color: white; border: 2px solid rgba(255, 255, 255, .16);
+    box-shadow: 0 0 16px color-mix(in srgb, var(--gem, var(--red)) 42%, transparent);
+    font-weight: 800; font-size: 13px; line-height: 1.2; text-align: center;
+  }
+  .gem-tile.on { outline: 3px solid var(--gold); outline-offset: -3px; }
+  .gem-tile.found { box-shadow: 0 0 0 2px var(--gold), 0 0 16px color-mix(in srgb, var(--gem, var(--red)) 42%, transparent); }
+  .gem-tile img, .gem-tile .gem-art {
+    width: 72px; height: 52px; object-fit: cover; border-radius: 10px; margin: 0; filter: none;
+  }
+  .gem-tile .gem-art { width: 52px; height: 52px; }
+  .gem-app .gem-card {
+    position: relative; text-align: left; overflow: hidden;
+    border-color: color-mix(in srgb, var(--gem, var(--gold)) 65%, transparent);
+    box-shadow: 0 0 0 1px color-mix(in srgb, var(--gem, var(--gold)) 40%, transparent),
+      0 0 36px color-mix(in srgb, var(--gem, var(--red)) 35%, transparent);
+  }
+  .gem-app .gem-card .gem-empty { text-align: center; margin: 28px 8px; }
+  .gem-card.spark::after {
+    content: "✦  ✦  ✦";
+    position: absolute; top: 8px; right: 12px; color: var(--gold);
+    letter-spacing: 2px; pointer-events: none; animation: gem-spark 1.1s ease;
+  }
+  .gem-family { margin: 0; color: #c5d0e0; font-weight: 800; }
+  .gem-tagline { margin: 4px 0 10px; color: var(--gold); font-weight: 800; font-size: 20px; }
+  .gem-hero { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(0, .7fr); gap: 8px; margin-bottom: 12px; }
+  .gem-hero img, .gem-hero .gem-art {
+    width: 100%; height: 240px; object-fit: cover; border-radius: 16px; display: block; margin: 0;
+  }
+  .gem-hero .side { display: grid; gap: 8px; min-width: 0; }
+  .gem-hero .side button {
+    padding: 0; border: 2px solid transparent; border-radius: 14px; background: transparent; cursor: pointer; min-height: 0;
+  }
+  .gem-hero .side button.on { border-color: var(--gold); }
+  .gem-hero .side img { height: 74px; }
+  .gem-hero.lamp img { filter: sepia(.45) saturate(1.4) hue-rotate(-18deg); }
+  .gem-facts { display: grid; gap: 8px; }
+  .gem-facts .fact-line {
+    margin: 0; padding: 8px 10px; border-radius: 14px;
+    background: rgba(255, 255, 255, .04); overflow-wrap: anywhere;
+  }
+  .gem-facts .fact-line p { margin: 6px 0 0; }
+  .chest-note { margin: 8px 0 0; color: var(--gold); font-weight: 800; }
+  .var-title { margin: 16px 0 8px; }
+  .variety-row {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(148px, 1fr));
+    gap: 8px; perspective: 800px;
+  }
+  .variety-card {
+    padding: 0; overflow: hidden; text-align: left; color: white; cursor: pointer;
+    background: #0c1222; border: 2px solid rgba(255, 255, 255, .16); border-radius: 14px;
+    box-shadow: 0 0 14px color-mix(in srgb, var(--vc, var(--gem)) 45%, transparent);
+    min-height: 48px;
+  }
+  .variety-card img, .variety-card .gem-art {
+    width: 100%; height: 92px; object-fit: cover; border-radius: 0; margin: 0; display: block; filter: none;
+  }
+  .variety-card .vname {
+    display: block; padding: 8px 10px 10px; font-weight: 800; line-height: 1.25;
+    white-space: normal; overflow-wrap: anywhere;
+  }
+  .variety-card.open {
+    grid-column: 1 / -1; display: grid; grid-template-columns: minmax(0, 160px) minmax(0, 1fr);
+    gap: 10px; padding: 8px; animation: vflip .4s ease;
+  }
+  .variety-card.open img, .variety-card.open .gem-art { height: 140px; border-radius: 12px; }
+  .variety-card .vbody { padding: 4px 4px 4px 0; }
+  .variety-card .vbody p { margin: 4px 0; overflow-wrap: anywhere; }
+  @keyframes vflip {
+    from { transform: rotateX(55deg); opacity: .45; }
+    to { transform: none; opacity: 1; }
+  }
+  .gem-game {
+    margin-top: 14px; padding: 12px; border-radius: 18px;
+    border: 2px solid rgba(245, 197, 24, .5); background: rgba(8, 12, 24, .92);
+  }
+  .guess-photo {
+    width: min(100%, 480px); height: 240px; object-fit: cover; border-radius: 16px;
+    display: block; margin: 8px auto; border: 2px solid rgba(255, 255, 255, .16);
+  }
+  .guess-choices, .hard-choices { display: grid; gap: 8px; margin-top: 8px; }
+  .gem-game .quiz-opt {
+    background: #12182c; color: white; border: 2px solid rgba(245, 197, 24, .65); text-align: center;
+  }
+  .gem-game .quiz-opt.good { background: #d9ffe8; color: #123; }
+  .gem-game .quiz-opt.bad { background: #ffe0e6; color: #123; }
+  @media (min-width: 720px) {
+    .gem-facts { grid-template-columns: 1fr 1fr; }
+    .gem-facts .wide { grid-column: 1 / -1; }
+    .hard-choices { grid-template-columns: 1fr 1fr; }
+  }
+  .gem-credits { margin-top: 14px; }
+  .gem-credits p { overflow-wrap: anywhere; margin: 0 0 8px; font-size: 14px; }
+  .gem-credits a { color: var(--gold); }
+  @media (max-width: 640px) {
+    .gem-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .gem-hero { grid-template-columns: minmax(0, 1fr); }
+    .gem-hero img, .gem-hero .gem-art { height: 200px; }
+    .gem-hero .side { display: flex; overflow: hidden; }
+    .gem-hero .side button { flex: 1 1 0; min-width: 0; }
+    .gem-hero .side img { height: 72px; }
+    .variety-row { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .variety-card.open { grid-template-columns: minmax(0, 1fr); }
+    .guess-photo { height: 180px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .gem-card.spark, .gem-card.spark .gem-art, .variety-card.open, .gem-card.spark::after { animation: none; }
+  }
   @media (max-width: 640px) {
     .avatar { width: 84px; height: 84px; }
     .hero-main { align-items: flex-start; }
@@ -1253,30 +1378,47 @@
 
     <section class="panel gem-app" id="gems">
       <p class="kicker">GEMS</p>
-      <h2>Gem explorer</h2>
-      <p>Type a gem, tap a birthstone month, or meet a random one. Rocks stay on the screen — don't put real ones in your mouth, and ask a grown-up before you collect any.</p>
-      <div class="gem-layout">
-        <div>
-          <div class="gem-search">
-            <div style="flex:1 1 220px">
-              <label for="gem-q">Gem name</label>
-              <input id="gem-q" type="text" maxlength="40" autocomplete="off" spellcheck="false" placeholder="Try ruby, jade, opal…" />
-            </div>
-            <button class="big gold" id="gem-random" type="button">Random gem</button>
-          </div>
-          <div class="suggest" id="gem-suggest" role="listbox"></div>
-          <p id="gem-msg" aria-live="polite"></p>
-          <h3>Birthstone months</h3>
-          <div class="months" id="gem-months"></div>
-          <details>
-            <summary>See every gem</summary>
-            <div class="months" id="gem-all"></div>
-          </details>
-        </div>
-        <div class="gem-card" id="gem-card">
-          <p>Your gem card will land here. Hardness, color, where it is found, and a cool fact.</p>
+      <div class="gem-head">
+        <h2>Gem explorer</h2>
+        <div class="gem-badge" id="gem-badge" aria-live="polite">
+          <span>Gems discovered</span>
+          <b id="gem-badge-count">0</b>
+          <span class="tiny" id="gem-badge-note">of 38</span>
         </div>
       </div>
+      <p>Type a gem, tap a birthstone month, tap a stone in the chest, or meet a random one. Rocks stay on the screen — don't put real ones in your mouth, and ask a grown-up before you collect any.</p>
+      <div class="gem-actions">
+        <button class="big gold" id="gem-random" type="button">Random gem</button>
+        <button class="big" id="gem-game-guess" type="button">Guess the gem</button>
+        <button class="big navy" id="gem-game-hard" type="button">Which is harder?</button>
+      </div>
+      <div class="gem-search">
+        <div style="flex:1 1 220px">
+          <label for="gem-q">Gem name</label>
+          <input id="gem-q" type="text" maxlength="40" autocomplete="off" spellcheck="false" placeholder="Try ruby, jade, opal…" />
+        </div>
+      </div>
+      <div class="suggest" id="gem-suggest" role="listbox"></div>
+      <p id="gem-msg" aria-live="polite"></p>
+      <h3>Birthstone months</h3>
+      <div class="months" id="gem-months"></div>
+      <h3>The gem chest</h3>
+      <div class="gem-grid" id="gem-grid"></div>
+      <div class="gem-card" id="gem-card">
+        <p class="gem-empty">Tap a gem to open its profile. Hardness, colors, where it is found, and a real photo when we have one.</p>
+      </div>
+      <div class="gem-game hidden" id="gem-play">
+        <div class="row-wrap">
+          <button class="chip on" id="game-guess" type="button">Guess the gem</button>
+          <button class="chip" id="game-hard" type="button">Which is harder?</button>
+          <button class="chip" id="game-close" type="button">Close game</button>
+        </div>
+        <div id="gem-play-body"></div>
+      </div>
+      <details class="gem-credits" id="gem-credit-box">
+        <summary>Photo credits</summary>
+        <div id="gem-credits"><p class="tiny">Photo credits load with the gem photos.</p></div>
+      </details>
     </section>
 
     <section class="panel" id="ai">
@@ -2574,64 +2716,215 @@ function birthLine(gem) {
 function renderGemCard(gem) {
   const card = document.getElementById("gem-card");
   card.replaceChildren();
-  const art = document.createElement("div");
-  art.innerHTML = gemSVG(gem);
-  card.appendChild(art);
+  card.style.setProperty("--gem", gem.color);
+  const profile = document.createElement("article");
+  profile.className = "gem-profile";
+  if (gem.family) {
+    const fam = document.createElement("p");
+    fam.className = "gem-family";
+    fam.textContent = gem.species ? gem.family + " · " + gem.species : gem.family;
+    profile.appendChild(fam);
+  }
   const h = document.createElement("h3");
   h.textContent = gem.name;
-  card.appendChild(h);
-  const rows = [
-    ["Colors", gem.colors],
-    ["Hardness", null],
-    ["Found", gem.where],
-    ["Birthstone", birthLine(gem)],
-    ["Cool fact", gem.fact]
-  ];
-  for (const [label, value] of rows) {
+  profile.appendChild(h);
+  const tag = document.createElement("p");
+  tag.className = "gem-tagline";
+  tag.textContent = gem.tagline || "A gem from the original chest.";
+  profile.appendChild(tag);
+  profile.appendChild(buildHero(gem));
+  const facts = document.createElement("div");
+  facts.className = "gem-facts";
+  addFact(facts, "What it is", gem.what || "", true);
+  addFact(facts, "Colors", gem.colors || "", false);
+  const hard = document.createElement("div");
+  hard.className = "fact-line";
+  const hb = document.createElement("b");
+  hb.textContent = "Hardness";
+  hard.appendChild(hb);
+  const num = document.createElement("span");
+  num.textContent = " " + mohsLabel(gem.mohs) + " on the Mohs scale (1 soft, 10 hardest).";
+  hard.appendChild(num);
+  hard.appendChild(mohsBar(gem));
+  const talk = document.createElement("span");
+  talk.textContent = hardnessTalk(gem.mohs);
+  hard.appendChild(talk);
+  facts.appendChild(hard);
+  addFact(facts, "Where found", gem.where || "", false);
+  if (gem.history && gem.history.length) {
     const line = document.createElement("div");
-    line.className = "fact-line";
+    line.className = "fact-line wide";
     const b = document.createElement("b");
-    b.textContent = label;
+    b.textContent = "History and legend";
     line.appendChild(b);
-    if (label === "Hardness") {
-      const num = document.createElement("span");
-      num.textContent = mohsLabel(gem.mohs) + " on the Mohs scale (1 soft, 10 hardest).";
-      line.appendChild(num);
-      const min = Array.isArray(gem.mohs) ? gem.mohs[0] : gem.mohs;
-      const max = Array.isArray(gem.mohs) ? gem.mohs[1] : gem.mohs;
-      const bar = document.createElement("div");
-      bar.className = "mohs";
-      bar.style.setProperty("--gem", gem.color);
-      for (let i = 1; i <= 10; i++) {
-        const cell = document.createElement("span");
-        if (i <= min) cell.className = "full";
-        else if (i <= max) cell.className = "part";
-        bar.appendChild(cell);
-      }
-      line.appendChild(bar);
-      const talk = document.createElement("span");
-      talk.textContent = hardnessTalk(gem.mohs);
-      line.appendChild(talk);
-    } else {
-      line.appendChild(document.createTextNode(value));
-    }
-    card.appendChild(line);
+    gem.history.forEach(item => {
+      const para = document.createElement("p");
+      para.textContent = item;
+      line.appendChild(para);
+    });
+    facts.appendChild(line);
   }
+  addFact(facts, "Birthstone", birthLine(gem), false);
+  addFact(facts, "Cool fact", gem.cool || gem.fact || "", true);
+  addFact(facts, "Care tip", gem.care || "", true);
+  profile.appendChild(facts);
+  const chest = document.createElement("p");
+  chest.className = "chest-note";
+  chest.textContent = gem._seen ? "Already in your gem chest." : "New! Added to your gem chest.";
+  profile.appendChild(chest);
   if (gem.id === "alexandrite") {
+    const note = document.createElement("p");
+    note.className = "tiny";
+    note.textContent = gemLamp ? "Warm lamp: the stone looks reddish." : "Daylight: the stone looks greenish.";
     const btn = document.createElement("button");
     btn.type = "button";
     btn.className = "big";
     btn.dataset.lamp = "1";
     btn.textContent = gemLamp ? "Switch to sunlight" : "Switch to a warm lamp";
-    const note = document.createElement("p");
-    note.className = "tiny";
-    note.textContent = gemLamp ? "Warm lamp: the stone looks reddish." : "Daylight: the stone looks greenish.";
-    card.appendChild(note);
-    card.appendChild(btn);
+    profile.appendChild(note);
+    profile.appendChild(btn);
   }
+  if (gem.varieties && gem.varieties.length) {
+    const vt = document.createElement("h3");
+    vt.className = "var-title";
+    vt.textContent = "Varieties";
+    profile.appendChild(vt);
+    const row = document.createElement("div");
+    row.className = "variety-row";
+    gem.varieties.forEach(v => row.appendChild(varietyCard(gem, v)));
+    profile.appendChild(row);
+  }
+  card.appendChild(profile);
+}
+function addFact(parent, label, text, wide) {
+  if (!text) return;
+  const line = document.createElement("div");
+  line.className = "fact-line" + (wide ? " wide" : "");
+  const b = document.createElement("b");
+  b.textContent = label;
+  line.appendChild(b);
+  line.appendChild(document.createTextNode(" " + text));
+  parent.appendChild(line);
+}
+function mohsBar(gem) {
+  const min = Array.isArray(gem.mohs) ? gem.mohs[0] : gem.mohs;
+  const max = Array.isArray(gem.mohs) ? gem.mohs[1] : gem.mohs;
+  const bar = document.createElement("div");
+  bar.className = "mohs";
+  bar.style.setProperty("--gem", gem.color);
+  for (let i = 1; i <= 10; i++) {
+    const cell = document.createElement("span");
+    if (i <= min) cell.className = "full";
+    else if (i <= max) cell.className = "part";
+    bar.appendChild(cell);
+  }
+  return bar;
+}
+function mountArt(gem, extra) {
+  const wrap = document.createElement("div");
+  wrap.innerHTML = gemSVG(gem);
+  const svg = wrap.firstElementChild;
+  if (extra) svg.classList.add(extra);
+  return svg;
+}
+function buildHero(gem) {
+  const hero = document.createElement("div");
+  hero.className = "gem-hero" + (gem.id === "alexandrite" && gemLamp ? " lamp" : "");
+  const files = gem.images || [];
+  if (!files.length) {
+    hero.appendChild(mountArt(gem));
+    return hero;
+  }
+  const main = document.createElement("img");
+  const pick = files[Math.min(heroIndex, files.length - 1)] || files[0];
+  main.src = photoSrc(pick);
+  main.alt = gem.name + " photo";
+  main.addEventListener("error", () => { main.replaceWith(mountArt(gem)); });
+  hero.appendChild(main);
+  if (files.length > 1) {
+    const side = document.createElement("div");
+    side.className = "side";
+    files.slice(0, 4).forEach((file, i) => {
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.dataset.hero = String(i);
+      if (i === Math.min(heroIndex, files.length - 1)) btn.className = "on";
+      const img = document.createElement("img");
+      img.src = photoSrc(file);
+      img.alt = "";
+      btn.appendChild(img);
+      side.appendChild(btn);
+    });
+    hero.appendChild(side);
+  }
+  return hero;
+}
+function varietyCard(gem, v) {
+  const open = openVar === v.name;
+  const btn = document.createElement("button");
+  btn.type = "button";
+  btn.className = "variety-card" + (open ? " open" : "");
+  btn.dataset.var = v.name;
+  btn.setAttribute("aria-expanded", open ? "true" : "false");
+  btn.style.setProperty("--vc", v.swatch || gem.color);
+  const file = (v.images && v.images[0]) || "";
+  if (file) {
+    const img = document.createElement("img");
+    img.src = photoSrc(file);
+    img.alt = v.name;
+    img.addEventListener("error", () => { img.replaceWith(swatchArt(v.swatch || gem.color)); });
+    btn.appendChild(img);
+  } else {
+    btn.appendChild(swatchArt(v.swatch || gem.color));
+  }
+  if (!open) {
+    const name = document.createElement("span");
+    name.className = "vname";
+    name.textContent = v.name;
+    btn.appendChild(name);
+    return btn;
+  }
+  const body = document.createElement("div");
+  body.className = "vbody";
+  const name = document.createElement("b");
+  name.textContent = v.name;
+  body.appendChild(name);
+  if (v.colorText) {
+    const p = document.createElement("p");
+    p.textContent = "Color: " + v.colorText;
+    body.appendChild(p);
+  }
+  if (v.special) {
+    const p = document.createElement("p");
+    p.textContent = v.special;
+    body.appendChild(p);
+  }
+  if (v.where) {
+    const p = document.createElement("p");
+    p.textContent = "Found: " + v.where;
+    body.appendChild(p);
+  }
+  if (v.fact) {
+    const p = document.createElement("p");
+    p.textContent = v.fact;
+    body.appendChild(p);
+  }
+  btn.appendChild(body);
+  return btn;
+}
+let svgN = 0;
+function swatchArt(hex) {
+  svgN += 1;
+  return mountArt({ id: "sw" + svgN, color: hex || "#9aa4b8" });
 }
 function showGem(gem) {
+  if (!gem) return;
+  gem._seen = loadFound().has(gem.id);
+  markFound(gem.id);
   gemLamp = false;
+  heroIndex = 0;
+  openVar = "";
+  activeGemId = gem.id;
   renderGemCard(gem);
   const card = document.getElementById("gem-card");
   card.classList.remove("spark");
@@ -2641,6 +2934,10 @@ function showGem(gem) {
   document.getElementById("gem-suggest").replaceChildren();
   document.getElementById("gem-msg").textContent = "";
   sugIndex = -1;
+  document.querySelectorAll(".gem-tile").forEach(t => t.classList.toggle("on", t.dataset.gem === gem.id));
+  document.querySelectorAll("#gem-months .month").forEach(b => {
+    b.classList.toggle("on", b.dataset.month === gem.birth || (gem.alsoBirth || []).includes(b.dataset.month));
+  });
 }
 function renderSuggestions(list) {
   const box = document.getElementById("gem-suggest");
@@ -2654,6 +2951,15 @@ function renderSuggestions(list) {
     box.appendChild(b);
   });
 }
+function clearGemCard() {
+  activeGemId = null;
+  const card = document.getElementById("gem-card");
+  card.replaceChildren();
+  const p = document.createElement("p");
+  p.className = "gem-empty";
+  p.textContent = "Tap a gem to open its profile.";
+  card.appendChild(p);
+}
 function submitGemQuery() {
   const q = document.getElementById("gem-q").value;
   const n = norm(q);
@@ -2662,7 +2968,7 @@ function submitGemQuery() {
     return;
   }
   if (n === "cubic zirconia" || n === "cz") {
-    document.getElementById("gem-card").replaceChildren();
+    clearGemCard();
     document.getElementById("gem-suggest").replaceChildren();
     document.getElementById("gem-msg").textContent = "Cubic zirconia is a lab-made sparkle, not the mineral zircon. Try zircon.";
     return;
@@ -2672,7 +2978,7 @@ function submitGemQuery() {
   const hits = matchGems(q);
   if (hits.length === 1) { showGem(hits[0]); return; }
   if (!hits.length) {
-    document.getElementById("gem-card").replaceChildren();
+    clearGemCard();
     document.getElementById("gem-suggest").replaceChildren();
     document.getElementById("gem-msg").textContent = "Not found yet. Try another — ruby, opal, or moonstone.";
     return;
@@ -2711,28 +3017,326 @@ document.getElementById("gem-random").addEventListener("click", () => {
   showGem(GEMS[rand(GEMS.length)]);
 });
 document.getElementById("gem-card").addEventListener("click", (e) => {
-  if (!e.target.closest("[data-lamp]")) return;
-  gemLamp = !gemLamp;
-  renderGemCard(GEMS.find(g => g.id === "alexandrite"));
+  const gem = GEMS.find(g => g.id === activeGemId);
+  if (!gem) return;
+  if (e.target.closest("[data-lamp]")) {
+    gemLamp = !gemLamp;
+    renderGemCard(gem);
+    return;
+  }
+  const heroBtn = e.target.closest("[data-hero]");
+  if (heroBtn) {
+    heroIndex = Number(heroBtn.dataset.hero) || 0;
+    renderGemCard(gem);
+    return;
+  }
+  const vbtn = e.target.closest("[data-var]");
+  if (vbtn) {
+    openVar = openVar === vbtn.dataset.var ? "" : vbtn.dataset.var;
+    renderGemCard(gem);
+  }
 });
 const monthBox = document.getElementById("gem-months");
 MONTHS.forEach(([month, name]) => {
   const b = document.createElement("button");
   b.type = "button";
   b.className = "month";
+  b.dataset.month = month;
   b.textContent = month.slice(0, 3) + " · " + name;
   b.addEventListener("click", () => showGem(GEMS.find(g => g.name === name)));
   monthBox.appendChild(b);
 });
-const allBox = document.getElementById("gem-all");
-GEMS.forEach(gem => {
-  const b = document.createElement("button");
-  b.type = "button";
-  b.className = "gem-chip";
-  b.textContent = gem.name;
-  b.addEventListener("click", () => showGem(gem));
-  allBox.appendChild(b);
+
+const FOUND_KEY = "avi-gems-found";
+let IMAGE_CREDITS = {};
+let activeGemId = null;
+let heroIndex = 0;
+let openVar = "";
+let gameMode = "guess";
+const COLOR_WORDS = [
+  ["pinkish orange", "#e8886a"], ["pink-orange", "#f0a070"], ["orange-red", "#d4532a"],
+  ["yellow-green", "#b6d84a"], ["bluish green", "#1f9a78"], ["blue-green", "#2aa8a0"],
+  ["violet-blue", "#5a4ea8"], ["purplish red", "#a02040"], ["emerald green", "#0e8a43"],
+  ["mint green", "#7dcea0"], ["bright green", "#1db954"], ["lemon yellow", "#f4e04d"],
+  ["honey yellow", "#e6b325"], ["inky blue", "#1a237e"], ["cornflower", "#6495ed"],
+  ["baby pink", "#f4b6c6"], ["pastel purple", "#c9a0dc"], ["golden brown", "#b8860b"],
+  ["cinnamon", "#c47a2c"], ["raspberry", "#c23b62"], ["lavender", "#b57edc"],
+  ["lilac", "#c58adb"], ["peach", "#f4b183"], ["orange", "#e8782f"], ["yellow", "#f0c14e"],
+  ["golden", "#e1b423"], ["green", "#1f8a4c"], ["blue", "#1d4e9a"], ["purple", "#7b3fa1"],
+  ["violet", "#6a3d9a"], ["pink", "#ef4f8e"], ["red", "#c8102e"], ["black", "#2a2a2a"],
+  ["gray", "#6a7080"], ["grey", "#6a7080"], ["white", "#f4f1ea"], ["brown", "#8a5a2b"],
+  ["gold", "#e1b423"], ["silver", "#c5d0e0"], ["clear", "#d5e4f2"], ["colorless", "#d5e4f2"]
+];
+function colorFromText(text, fallback) {
+  const t = String(text || "").toLowerCase();
+  for (const pair of COLOR_WORDS) if (t.includes(pair[0])) return pair[1];
+  return fallback || "#9aa4b8";
+}
+function photoSrc(file) {
+  if (typeof file !== "string" || !/^[a-z0-9.-]+\.jpg$/i.test(file)) return "";
+  return "photos/gems/" + file;
+}
+function filled(v) {
+  if (v == null) return false;
+  if (typeof v === "string") return v.trim().length > 0;
+  if (Array.isArray(v)) return v.length > 0;
+  return true;
+}
+function loadFound() {
+  try {
+    const raw = JSON.parse(localStorage.getItem(FOUND_KEY) || "[]");
+    if (!Array.isArray(raw)) return new Set();
+    return new Set(raw.filter(id => GEMS.some(g => g.id === id)));
+  } catch (err) {
+    return new Set();
+  }
+}
+function paintBadge() {
+  const n = loadFound().size;
+  document.getElementById("gem-badge-count").textContent = String(n);
+  document.getElementById("gem-badge-note").textContent = n >= GEMS.length ? "Full chest!" : "of " + GEMS.length;
+}
+function markFound(id) {
+  const found = loadFound();
+  if (!found.has(id)) {
+    found.add(id);
+    localStorage.setItem(FOUND_KEY, JSON.stringify([...found]));
+  }
+  paintBadge();
+  const tile = document.querySelector('.gem-tile[data-gem="' + id + '"]');
+  if (tile) tile.classList.add("found");
+}
+function renderGrid() {
+  const box = document.getElementById("gem-grid");
+  const found = loadFound();
+  box.replaceChildren();
+  GEMS.forEach(gem => {
+    const b = document.createElement("button");
+    b.type = "button";
+    b.className = "gem-tile" + (found.has(gem.id) ? " found" : "") + (gem.id === activeGemId ? " on" : "");
+    b.style.setProperty("--gem", gem.color);
+    b.dataset.gem = gem.id;
+    const file = gem.images && gem.images[0];
+    if (file) {
+      const img = document.createElement("img");
+      img.src = photoSrc(file);
+      img.alt = "";
+      img.loading = "lazy";
+      img.addEventListener("error", () => { img.replaceWith(mountArt(gem, "tile-art")); });
+      b.appendChild(img);
+    } else {
+      b.appendChild(mountArt(gem, "tile-art"));
+    }
+    const name = document.createElement("span");
+    name.textContent = gem.name;
+    b.appendChild(name);
+    b.addEventListener("click", () => showGem(gem));
+    box.appendChild(b);
+  });
+}
+function creditLabel(file) {
+  return file.replace(/\.jpg$/i, "").replace(/-/g, " ");
+}
+function renderCredits() {
+  const box = document.getElementById("gem-credits");
+  box.replaceChildren();
+  const intro = document.createElement("p");
+  intro.className = "tiny";
+  intro.textContent = "These photos are free to share when we name the photographer and the license. Thank you to everyone who shared a picture.";
+  box.appendChild(intro);
+  Object.keys(IMAGE_CREDITS).sort().forEach(file => {
+    const c = IMAGE_CREDITS[file];
+    const p = document.createElement("p");
+    const title = document.createElement("b");
+    title.textContent = creditLabel(file);
+    p.appendChild(title);
+    const bits = [c.author || "Unknown photographer", c.license || "license not listed", c.source || ""].filter(Boolean);
+    p.appendChild(document.createTextNode(" — " + bits.join(". ") + "."));
+    if (typeof c.page === "string" && /^https?:\/\//.test(c.page)) {
+      p.appendChild(document.createTextNode(" "));
+      const a = document.createElement("a");
+      a.href = c.page;
+      a.target = "_blank";
+      a.rel = "noopener noreferrer";
+      a.textContent = "Source page";
+      p.appendChild(a);
+    }
+    box.appendChild(p);
+  });
+}
+function applyBundle(data) {
+  IMAGE_CREDITS = data.image_credits || {};
+  const byId = {};
+  (data.gems || []).forEach(g => { byId[g.id] = g; });
+  GEMS.forEach(gem => {
+    const b = byId[gem.id];
+    if (!b) return;
+    gem.family = b.family || "";
+    gem.species = b.species || "";
+    gem.tagline = b.tagline || "";
+    gem.what = b.what_it_is || "";
+    if (filled(b.colors)) gem.colors = b.colors;
+    if (filled(b.mohs)) gem.mohs = b.mohs;
+    if (filled(b.where_found)) gem.where = b.where_found;
+    const history = filled(b.history) ? b.history.slice() : (gem.fact ? [gem.fact] : []);
+    gem.cool = filled(b.cool_fact) ? b.cool_fact : (gem.fact || "");
+    gem.history = history.length === 1 && history[0] === gem.cool ? [] : history;
+    gem.care = filled(b.care_tip) ? b.care_tip : "";
+    gem.images = (b.images || []).filter(f => photoSrc(f));
+    gem.varieties = (b.varieties || []).map(v => ({
+      name: v.name,
+      colorText: v.color || "",
+      special: v.what_makes_it_special || "",
+      where: v.where_found || "",
+      fact: v.fun_fact || "",
+      images: (v.images || []).filter(f => photoSrc(f)),
+      swatch: colorFromText(v.color, gem.color)
+    }));
+    if (filled(b.birthstone)) {
+      const month = b.birthstone;
+      const extras = (gem.alsoBirth || []).filter(m => m !== month && m !== gem.birth);
+      if (!gem.birth) gem.birth = month;
+      else if (gem.birth !== month && !extras.includes(month)) extras.push(month);
+      gem.alsoBirth = extras;
+    }
+  });
+}
+function maxMohs(gem) {
+  return Array.isArray(gem.mohs) ? gem.mohs[1] : gem.mohs;
+}
+function gemsWithPhotos() {
+  return GEMS.filter(g => g.images && g.images.length);
+}
+function newGuess() {
+  const pool = gemsWithPhotos();
+  const body = document.getElementById("gem-play-body");
+  body.replaceChildren();
+  if (pool.length < 4) {
+    const p = document.createElement("p");
+    p.textContent = "Photos are still loading. Try the guess game again in a moment.";
+    body.appendChild(p);
+    return;
+  }
+  const gem = pool[rand(pool.length)];
+  const img = document.createElement("img");
+  img.className = "guess-photo";
+  img.alt = "Mystery gem photo";
+  img.src = photoSrc(gem.images[rand(gem.images.length)]);
+  body.appendChild(img);
+  const q = document.createElement("p");
+  q.className = "gem-tagline";
+  q.textContent = "Guess the gem from the photo.";
+  body.appendChild(q);
+  const picks = [gem];
+  const rest = GEMS.filter(g => g !== gem);
+  while (picks.length < 4 && rest.length) picks.push(rest.splice(rand(rest.length), 1)[0]);
+  picks.sort(() => Math.random() - 0.5);
+  const choices = document.createElement("div");
+  choices.className = "guess-choices";
+  picks.forEach(choice => {
+    const b = document.createElement("button");
+    b.type = "button";
+    b.className = "quiz-opt";
+    b.textContent = choice.name;
+    b.addEventListener("click", () => {
+      const ok = choice.id === gem.id;
+      choices.querySelectorAll("button").forEach(btn => {
+        btn.disabled = true;
+        if (btn.textContent === gem.name) btn.classList.add("good");
+        else if (btn === b && !ok) btn.classList.add("bad");
+      });
+      const msg = document.createElement("p");
+      msg.textContent = ok ? "Yes! That is " + gem.name + "." : "Nice try. That photo is " + gem.name + ".";
+      body.appendChild(msg);
+      if (ok) {
+        markFound(gem.id);
+        showGem(gem);
+      }
+      const next = document.createElement("button");
+      next.type = "button";
+      next.className = "big gold";
+      next.textContent = "Next photo";
+      next.addEventListener("click", newGuess);
+      body.appendChild(next);
+    });
+    choices.appendChild(b);
+  });
+  body.appendChild(choices);
+}
+function newHard() {
+  const body = document.getElementById("gem-play-body");
+  body.replaceChildren();
+  let a = GEMS[rand(GEMS.length)];
+  let b = GEMS[rand(GEMS.length)];
+  let guard = 0;
+  while ((a === b || maxMohs(a) === maxMohs(b)) && guard < 20) {
+    b = GEMS[rand(GEMS.length)];
+    guard += 1;
+  }
+  const q = document.createElement("p");
+  q.className = "gem-tagline";
+  q.textContent = "Which is harder?";
+  body.appendChild(q);
+  const choices = document.createElement("div");
+  choices.className = "hard-choices";
+  [a, b].forEach(gem => {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "quiz-opt";
+    btn.textContent = gem.name;
+    btn.addEventListener("click", () => {
+      const winner = maxMohs(a) > maxMohs(b) ? a : b;
+      choices.querySelectorAll("button").forEach(el => { el.disabled = true; });
+      btn.classList.add(gem === winner ? "good" : "bad");
+      const msg = document.createElement("p");
+      msg.textContent = winner.name + " is harder. " + a.name + " is " + mohsLabel(a.mohs) + ". " + b.name + " is " + mohsLabel(b.mohs) + ".";
+      body.appendChild(msg);
+      const next = document.createElement("button");
+      next.type = "button";
+      next.className = "big gold";
+      next.textContent = "Next pair";
+      next.addEventListener("click", newHard);
+      body.appendChild(next);
+    });
+    choices.appendChild(btn);
+  });
+  body.appendChild(choices);
+}
+function openGame(mode) {
+  gameMode = mode;
+  const panel = document.getElementById("gem-play");
+  panel.classList.remove("hidden");
+  document.getElementById("game-guess").classList.toggle("on", mode === "guess");
+  document.getElementById("game-hard").classList.toggle("on", mode === "hard");
+  if (mode === "guess") newGuess();
+  else newHard();
+}
+document.getElementById("gem-game-guess").addEventListener("click", () => openGame("guess"));
+document.getElementById("gem-game-hard").addEventListener("click", () => openGame("hard"));
+document.getElementById("game-guess").addEventListener("click", () => openGame("guess"));
+document.getElementById("game-hard").addEventListener("click", () => openGame("hard"));
+document.getElementById("game-close").addEventListener("click", () => {
+  document.getElementById("gem-play").classList.add("hidden");
 });
+renderGrid();
+paintBadge();
+fetch("gems.json", { credentials: "omit" }).then(res => {
+  if (!res.ok) throw new Error("gems");
+  return res.json();
+}).then(data => {
+  applyBundle(data);
+  renderGrid();
+  renderCredits();
+  if (activeGemId) {
+    const open = GEMS.find(g => g.id === activeGemId);
+    if (open) {
+      open._seen = true;
+      renderGemCard(open);
+    }
+  }
+  const play = document.getElementById("gem-play");
+  if (play && !play.classList.contains("hidden") && gameMode === "guess") newGuess();
+}).catch(() => {});
 
 const PROMPTS = [
   {
