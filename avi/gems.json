@@ -1,0 +1,3294 @@
+{
+  "title": "Avi Gem Explorer content bundle",
+  "generated": "2026-10-10",
+  "gems": [
+    {
+      "id": "garnet",
+      "name": "Garnet",
+      "family": "Garnet group",
+      "species": "A team of related minerals (pyrope, almandine, spessartine, grossular, andradite, uvarovite and mixes)",
+      "coverage": "deep",
+      "tagline": "Not one gem but a whole team, in almost every color of the rainbow!",
+      "what_it_is": "Garnet is not just one mineral. It is a family of more than 20 related minerals. Five of them are the gem stars: pyrope, almandine, spessartine, grossular and andradite. Most gem garnets are a mix of two or more of them.",
+      "colors": "Red, purple-red, orange, yellow, brown, mint green, bright green, and even stones that change color. Not blue, except color-change garnets in daylight.",
+      "mohs": [
+        6.5,
+        7.5
+      ],
+      "where_found": "Red garnet is found on every continent. Famous spots include India, Sri Lanka, Madagascar, Tanzania, Kenya, Namibia, Russia, the Czech Republic and the United States.",
+      "history": [
+        "Thousands of years ago, red garnet necklaces were worn by Egypt's pharaohs.",
+        "In ancient Rome, people carved garnets into signet rings and used them to stamp the wax that sealed important letters.",
+        "Around the year 1500, big garnet deposits were found in Bohemia (now the Czech Republic), and \"Bohemian garnet\" jewelry became famous."
+      ],
+      "birthstone": "January",
+      "cool_fact": "Some garnets are rarer than others. Green tsavorite is much rarer than red garnet, because it needs very unusual rock chemistry to grow.",
+      "care_tip": "Garnets are pretty tough. Clean them with warm soapy water and try not to bang the corners on hard things.",
+      "images": [
+        "garnet-red-collection.jpg",
+        "garnet-bohemian-antique.jpg",
+        "garnet-grossular-rainbow.jpg"
+      ],
+      "varieties": [
+        {
+          "name": "Almandine",
+          "color": "Dark red to purplish red",
+          "what_makes_it_special": "The classic deep red garnet. Iron gives it its color.",
+          "where_found": "India, Sri Lanka, Brazil, Madagascar, and Idaho and Alaska in the USA",
+          "fun_fact": "Almandine crystals can grow right inside rocks, like raisins in a cake.",
+          "images": [
+            "garnet-almandine.jpg",
+            "garnet-almandine-crystals.jpg"
+          ],
+          "general_info_fields": []
+        },
+        {
+          "name": "Pyrope",
+          "color": "Red to purplish red",
+          "what_makes_it_special": "The magnesium garnet. Old \"Bohemian garnet\" jewelry is pyrope.",
+          "where_found": "Czech Republic (Bohemia), South Africa, Arizona and New Mexico, Tanzania, Sri Lanka",
+          "fun_fact": "In Arizona and New Mexico, little pyrope garnets get carried to the surface by ants, so people call them \"anthill garnets.\"",
+          "images": [
+            "garnet-pyrope.jpg",
+            "garnet-bohemian-antique.jpg"
+          ],
+          "general_info_fields": []
+        },
+        {
+          "name": "Rhodolite",
+          "color": "Purplish red to raspberry and rose",
+          "what_makes_it_special": "A purple-red mix of pyrope and almandine.",
+          "where_found": "North Carolina (where it got its name), Tanzania, Kenya, Sri Lanka, India, Brazil",
+          "fun_fact": "Its name comes from the Greek word \"rhodon,\" which means rose. It was named in 1898.",
+          "images": [
+            "garnet-rhodolite.jpg",
+            "garnet-rhodolite-2.jpg"
+          ],
+          "general_info_fields": []
+        },
+        {
+          "name": "Spessartine (\"Mandarin\" or \"Fanta orange\")",
+          "color": "Bright orange, like an orange soda",
+          "what_makes_it_special": "The manganese garnet. The brightest ones glow like a mandarin orange.",
+          "where_found": "Namibia (Kunene River area), Nigeria, Tanzania, Mozambique, Madagascar, Brazil, USA",
+          "fun_fact": "The famous \"mandarin\" orange garnets were first found in 1991 in the desert near the Kunene River in Namibia. Gem fans also call this color \"Fanta orange.\"",
+          "images": [
+            "garnet-spessartine-mandarin.jpg",
+            "garnet-spessartine-crystals.jpg"
+          ],
+          "general_info_fields": []
+        },
+        {
+          "name": "Hessonite",
+          "color": "Orange to cinnamon brown-red",
+          "what_makes_it_special": "An orange kind of grossular garnet with a swirly inside.",
+          "where_found": "Sri Lanka, India, Madagascar, Tanzania",
+          "fun_fact": "Look inside with a magnifier and it can look wavy, like heat rising off a hot road. Its old nickname is \"cinnamon stone.\"",
+          "images": [
+            "garnet-hessonite.jpg"
+          ],
+          "general_info_fields": []
+        },
+        {
+          "name": "Tsavorite",
+          "color": "Bright green",
+          "what_makes_it_special": "A green grossular garnet colored by vanadium and chromium. Rare and super sparkly.",
+          "where_found": "Kenya and Tanzania (plus a little in Madagascar)",
+          "fun_fact": "A geologist found it in Tanzania in 1967 and near Kenya's Tsavo National Park in 1970. It was named \"tsavorite\" after Tsavo in 1974. Most tsavorites are small, usually under 3 carats.",
+          "images": [
+            "garnet-tsavorite-family-gem-1.jpg",
+            "garnet-tsavorite-family-gem-2.jpg",
+            "garnet-tsavorite.jpg",
+            "garnet-tsavorite-crystal.jpg"
+          ],
+          "general_info_fields": []
+        },
+        {
+          "name": "Merelani mint",
+          "color": "Light, cool mint green",
+          "what_makes_it_special": "A paler, minty grossular. \"Mint\" is a nickname, not a lab name.",
+          "where_found": "Merelani Hills, Tanzania (the same hills where tanzanite is found)",
+          "fun_fact": "Labs just call it green grossular. \"Mint garnet\" is what gem lovers named it.",
+          "images": [
+            "garnet-merelani-mint.jpg"
+          ],
+          "general_info_fields": []
+        },
+        {
+          "name": "Demantoid",
+          "color": "Yellow-green to green",
+          "what_makes_it_special": "A green andradite garnet with more rainbow \"fire\" than diamond.",
+          "where_found": "Russia (Ural Mountains), Namibia, Madagascar, Italy, Pakistan",
+          "fun_fact": "Its name means \"diamond-like.\" Some Russian demantoids have curvy inclusions called \"horsetails\" that look like tiny horse tails inside the stone.",
+          "images": [
+            "garnet-demantoid.jpg",
+            "garnet-demantoid-2.jpg"
+          ],
+          "general_info_fields": []
+        },
+        {
+          "name": "Topazolite",
+          "color": "Yellow to golden",
+          "what_makes_it_special": "A yellow andradite garnet, cousin of demantoid.",
+          "where_found": "Italy (Val Malenco), Madagascar, Namibia",
+          "fun_fact": "It is named for looking like yellow topaz, but it is really a garnet.",
+          "images": [
+            "garnet-topazolite.jpg"
+          ],
+          "general_info_fields": []
+        },
+        {
+          "name": "Malaia (Malaya)",
+          "color": "Peach, pink-orange to orange-red",
+          "what_makes_it_special": "A mix of pyrope and spessartine.",
+          "where_found": "Umba Valley (Tanzania and Kenya), Madagascar, Sri Lanka, Mozambique",
+          "fun_fact": "\"Malaya\" is a Swahili word meaning \"out of the family,\" because miners first threw it away. Now people love it!",
+          "images": [
+            "garnet-malaia.jpg"
+          ],
+          "general_info_fields": []
+        },
+        {
+          "name": "Color-change garnet",
+          "color": "Blue-green in daylight, purple or red in lamp light",
+          "what_makes_it_special": "The same stone looks like a different color when the light changes.",
+          "where_found": "Bekily (Madagascar), Tanzania, Sri Lanka, Kenya",
+          "fun_fact": "Take it from a sunny window to a cozy lamp and watch it switch colors like magic.",
+          "images": [
+            "garnet-color-change.jpg",
+            "garnet-color-change-2.jpg"
+          ],
+          "general_info_fields": []
+        },
+        {
+          "name": "Mali garnet",
+          "color": "Yellow-green to golden brown",
+          "what_makes_it_special": "A mix of grossular and andradite.",
+          "where_found": "Mali, in West Africa",
+          "fun_fact": "It first showed up at gem shows in 1994, so it is one of the \"newer\" garnets.",
+          "images": [
+            "garnet-mali.jpg",
+            "garnet-grossular-rainbow.jpg"
+          ],
+          "general_info_fields": []
+        },
+        {
+          "name": "Uvarovite",
+          "color": "Emerald green",
+          "what_makes_it_special": "A chromium garnet whose crystals are usually too tiny to cut.",
+          "where_found": "Russia (Ural Mountains), Finland, Turkey",
+          "fun_fact": "It grows as glittery green crusts of tiny crystals, like green sugar sprinkles on a rock.",
+          "images": [
+            "garnet-uvarovite.jpg"
+          ],
+          "general_info_fields": []
+        }
+      ],
+      "general_info_fields": [
+        "birthstone"
+      ]
+    },
+    {
+      "id": "ruby",
+      "name": "Ruby",
+      "family": "Corundum",
+      "species": "Corundum (aluminum oxide)",
+      "coverage": "deep",
+      "tagline": "The king of red gems, and secretly a sapphire!",
+      "what_it_is": "Ruby is the red kind of the mineral corundum. Every other color of corundum is called sapphire. A little bit of chromium makes ruby red.",
+      "colors": "Red, from pinkish red to purplish red and orangy red. The very best is a pure, glowing red.",
+      "mohs": 9,
+      "where_found": "Myanmar (the famous Mogok valley), Mozambique, Thailand and Cambodia, Vietnam, Madagascar, Tanzania, Afghanistan, Tajikistan and even Greenland.",
+      "history": [
+        "The Carmen Lucia Ruby is a 23.10-carat ruby from Mogok, Myanmar. It was given to the Smithsonian museum in 2004.",
+        "The DeLong Star Ruby (100.32 carats) at the American Museum of Natural History was stolen in 1964 and then recovered!",
+        "The name \"pigeon's blood\" for the best red rubies goes back to an account written in 1888."
+      ],
+      "birthstone": "July",
+      "cool_fact": "Some rubies glow red even in sunlight! Rubies with very little iron light up under ultraviolet light, and the best ones seem to glow in daylight too.",
+      "care_tip": "Ruby is very hard, so it is great for everyday jewelry. Clean it with warm soapy water and a soft brush.",
+      "images": [
+        "ruby-carmen-lucia.jpg",
+        "ruby-crystal.jpg",
+        "ruby-star-rosser-reeves.jpg"
+      ],
+      "varieties": [
+        {
+          "name": "Burmese \"pigeon's blood\" ruby",
+          "color": "Vivid pure red that glows",
+          "what_makes_it_special": "Rubies from marble rock with very little iron, so they glow red.",
+          "where_found": "Mogok, Myanmar",
+          "fun_fact": "\"Pigeon's blood\" is a special name for the most glowing reds. A gem lab decides if a ruby earns it.",
+          "images": [
+            "ruby-crystal-mandalay.jpg",
+            "ruby-carmen-lucia.jpg"
+          ],
+          "general_info_fields": []
+        },
+        {
+          "name": "Mozambique ruby",
+          "color": "Pink to deep red",
+          "what_makes_it_special": "Bright, clear rubies with a little more iron, so they glow a bit less.",
+          "where_found": "Montepuez, Mozambique",
+          "fun_fact": "Mozambique now sends out huge numbers of beautiful rubies, which made it one of the world's big ruby spots.",
+          "images": [],
+          "general_info_fields": []
+        },
+        {
+          "name": "Star ruby",
+          "color": "Red with a six-ray star",
+          "what_makes_it_special": "Tiny needle-shaped crystals inside bounce light into a moving star.",
+          "where_found": "Sri Lanka, Myanmar and other ruby places",
+          "fun_fact": "The Rosser Reeves Star Ruby (138.7 carats, Sri Lanka) lives at the Smithsonian. Very rarely a stone shows a 12-ray star!",
+          "images": [
+            "ruby-star-rosser-reeves.jpg",
+            "ruby-star-delong.jpg"
+          ],
+          "general_info_fields": []
+        },
+        {
+          "name": "Trapiche ruby",
+          "color": "Red with a six-spoke wheel pattern",
+          "what_makes_it_special": "Dark \"spokes\" of inclusions make a pattern that does not move.",
+          "where_found": "Mong Hsu, Myanmar",
+          "fun_fact": "\"Trapiche\" is a Spanish word for the wheel of a sugar-cane mill.",
+          "images": [],
+          "general_info_fields": []
+        },
+        {
+          "name": "Greenland ruby",
+          "color": "Pink to red",
+          "what_makes_it_special": "Ruby from rock about 3 billion years old.",
+          "where_found": "Aappaluttoq, southwest Greenland",
+          "fun_fact": "Yes, rubies come from icy Greenland too! Mining started there around 2017.",
+          "images": [],
+          "general_info_fields": []
+        },
+        {
+          "name": "Ruby in zoisite (anyolite)",
+          "color": "Pink-red ruby in green rock with black specks",
+          "what_makes_it_special": "Not a single gem but a colorful rock: ruby crystals inside green zoisite.",
+          "where_found": "Tanzania (Longido area)",
+          "fun_fact": "It looks like a slice of watermelon candy, with green, pink and black all together.",
+          "images": [
+            "ruby-anyolite.jpg"
+          ],
+          "general_info_fields": []
+        },
+        {
+          "name": "Winza ruby",
+          "color": "Deep red crystals",
+          "what_makes_it_special": "Shiny ruby crystals found in Tanzania.",
+          "where_found": "Winza, Tanzania",
+          "fun_fact": "Winza had a ruby rush in 2007 and 2008.",
+          "images": [
+            "ruby-winza.jpg"
+          ],
+          "general_info_fields": []
+        }
+      ],
+      "cousins": [
+        "sapphire",
+        "spinel"
+      ],
+      "general_info_fields": [
+        "birthstone",
+        "care_tip"
+      ]
+    },
+    {
+      "id": "sapphire",
+      "name": "Sapphire",
+      "family": "Corundum",
+      "species": "Corundum (aluminum oxide)",
+      "coverage": "deep",
+      "tagline": "Ruby's twin, in every color except red.",
+      "what_it_is": "Sapphire is corundum of any color except red (red corundum is ruby). Plain \"sapphire\" means blue. Other colors get a color name, like \"yellow sapphire.\"",
+      "colors": "Blue most of all, plus pink, purple, orange, yellow, green, teal, white (colorless), black, and even stones that change color.",
+      "mohs": 9,
+      "where_found": "Sri Lanka, Madagascar, Myanmar, Tanzania, Australia, Thailand and Cambodia, Montana in the USA, and the famous old mines of Kashmir.",
+      "history": [
+        "Kashmir sapphires were found around 1881 after a landslide uncovered them high in the mountains.",
+        "In 1895 a gold miner in Montana found little \"blue pebbles\" in Yogo Gulch. They turned out to be sapphires!",
+        "The Star of India is a giant 563.35-carat star sapphire from Sri Lanka at the American Museum of Natural History."
+      ],
+      "birthstone": "September",
+      "cool_fact": "Blue sapphire gets its color from iron and titanium, and it only needs a tiny pinch: hundredths of a percent!",
+      "care_tip": "Sapphire is super hard (9 out of 10), so it is great for rings. Warm soapy water keeps it sparkling.",
+      "images": [
+        "sapphire-logan.jpg",
+        "sapphire-rainbow-parcel.jpg",
+        "sapphire-star-of-india.jpg",
+        "sapphire-bismarck.jpg",
+        "sapphire-fancy-rough.jpg"
+      ],
+      "varieties": [
+        {
+          "name": "Blue sapphire",
+          "color": "Blue, from light to deep, sometimes a little violet",
+          "what_makes_it_special": "The classic sapphire. Iron and titanium make the blue.",
+          "where_found": "Sri Lanka, Myanmar, Madagascar, East Africa, Australia, Thailand",
+          "fun_fact": "The Logan Sapphire (422.99 carats, Sri Lanka) is one of the biggest blue sapphires at the Smithsonian. The Bismarck Sapphire necklace holds a 98.6-carat blue sapphire from Myanmar.",
+          "images": [
+            "sapphire-blue-2.jpg",
+            "sapphire-logan.jpg",
+            "sapphire-rough-sri-lanka.jpg",
+            "sapphire-bismarck.jpg"
+          ],
+          "general_info_fields": []
+        },
+        {
+          "name": "Kashmir \"cornflower\" sapphire",
+          "color": "Velvety, slightly violet blue",
+          "what_makes_it_special": "Tiny inclusions make the blue look soft and velvety.",
+          "where_found": "Kashmir (mostly mined in the 1880s)",
+          "fun_fact": "Hardly any have been mined since the 1880s, so they are some of the rarest sapphires.",
+          "images": [],
+          "general_info_fields": []
+        },
+        {
+          "name": "Yogo sapphire",
+          "color": "Even cornflower blue to violet",
+          "what_makes_it_special": "American sapphires that are naturally a great color.",
+          "where_found": "Yogo Gulch, Montana, USA",
+          "fun_fact": "Most Yogo sapphires are smaller than 1 carat, and they do not need heating to look great.",
+          "images": [
+            "sapphire-yogo.jpg",
+            "sapphire-montana-rock-creek.jpg"
+          ],
+          "general_info_fields": []
+        },
+        {
+          "name": "Padparadscha",
+          "color": "Soft pinkish orange, like a sunset",
+          "what_makes_it_special": "A rare pastel mix of pink and orange.",
+          "where_found": "Sri Lanka is the classic source. Also Madagascar, Tanzania and Vietnam.",
+          "fun_fact": "The name comes from an old Sri Lankan (Sinhalese) word linked to the lotus flower.",
+          "images": [],
+          "general_info_fields": []
+        },
+        {
+          "name": "Pink sapphire",
+          "color": "Light red (pink) to light purple",
+          "what_makes_it_special": "Chromium makes it pink. Too dark red and it becomes a ruby!",
+          "where_found": "Madagascar, Sri Lanka, East Africa, Myanmar",
+          "fun_fact": "There is no single magic line between pink sapphire and ruby. Gem labs compare stones to decide.",
+          "images": [],
+          "general_info_fields": []
+        },
+        {
+          "name": "Yellow sapphire",
+          "color": "Pale lemon to golden yellow",
+          "what_makes_it_special": "Iron makes the yellow.",
+          "where_found": "Sri Lanka, Madagascar, Tanzania, Australia, Thailand, Montana (USA) and Malawi",
+          "fun_fact": "Some yellow sapphires glow red under a special UV light.",
+          "images": [
+            "sapphire-yellow-glow.jpg"
+          ],
+          "general_info_fields": []
+        },
+        {
+          "name": "Orange sapphire",
+          "color": "Pure orange to reddish orange",
+          "what_makes_it_special": "Pink chromium plus a natural yellow color center add up to orange.",
+          "where_found": "Madagascar, Sri Lanka, Tanzania",
+          "fun_fact": "It is like color mixing in art class: pink + yellow = orange.",
+          "images": [
+            "sapphire-orange.jpg"
+          ],
+          "general_info_fields": []
+        },
+        {
+          "name": "Purple sapphire",
+          "color": "Bluish purple to reddish purple",
+          "what_makes_it_special": "Red chromium plus blue iron-titanium make purple.",
+          "where_found": "Sri Lanka, Madagascar, Tanzania, Myanmar, Montana",
+          "fun_fact": "About 3 out of every 100 Yogo sapphires from Montana are purple.",
+          "images": [
+            "sapphire-purple.jpg"
+          ],
+          "general_info_fields": []
+        },
+        {
+          "name": "Green, teal and parti sapphire",
+          "color": "Green, blue-green, or two colors in one stone",
+          "what_makes_it_special": "\"Parti\" stones show zones of blue, green and yellow together.",
+          "where_found": "Australia, Thailand, Montana and other basalt areas",
+          "fun_fact": "\"Teal\" and \"parti\" are gem-lover nicknames, not lab names.",
+          "images": [
+            "sapphire-rainbow-group.jpg"
+          ],
+          "general_info_fields": []
+        },
+        {
+          "name": "Color-change sapphire",
+          "color": "Blue in daylight, purple in lamp light",
+          "what_makes_it_special": "It switches color when the light changes.",
+          "where_found": "Sri Lanka, Madagascar, East Africa",
+          "fun_fact": "The bigger the switch, the more special the stone.",
+          "images": [],
+          "general_info_fields": []
+        },
+        {
+          "name": "White sapphire",
+          "color": "Colorless",
+          "what_makes_it_special": "Very pure corundum with almost no coloring elements.",
+          "where_found": "Sri Lanka and other sapphire places",
+          "fun_fact": "It is colorless, but it is still the same super-hard mineral as ruby.",
+          "images": [
+            "sapphire-white.jpg"
+          ],
+          "general_info_fields": []
+        },
+        {
+          "name": "Star sapphire",
+          "color": "Blue, violet, gray or black with a six-ray star",
+          "what_makes_it_special": "Tiny needle crystals inside reflect light into a star that glides across the stone.",
+          "where_found": "Sri Lanka, Myanmar and other sapphire places",
+          "fun_fact": "The Star of Asia (about 330 carats, Myanmar) and the Star of Bombay (182 carats, Sri Lanka) are both at the Smithsonian.",
+          "images": [
+            "sapphire-star-of-asia.jpg",
+            "sapphire-star-of-bombay.jpg",
+            "sapphire-star-violet.jpg",
+            "sapphire-star-blue.jpg"
+          ],
+          "general_info_fields": []
+        },
+        {
+          "name": "Black star sapphire",
+          "color": "Black with a silvery star",
+          "what_makes_it_special": "Hematite inside makes it black.",
+          "where_found": "Thailand, Australia and other basalt areas",
+          "fun_fact": "Its star can look silver or even gold.",
+          "images": [
+            "sapphire-black-star.jpg"
+          ],
+          "general_info_fields": []
+        }
+      ],
+      "cousins": [
+        "ruby"
+      ],
+      "general_info_fields": [
+        "birthstone",
+        "care_tip"
+      ]
+    },
+    {
+      "id": "emerald",
+      "name": "Emerald",
+      "family": "Beryl",
+      "species": "Beryl",
+      "coverage": "deep",
+      "tagline": "The green treasure that ancient peoples mined long ago.",
+      "what_it_is": "Emerald is the green kind of the mineral beryl. Chromium and vanadium make the green. If a green beryl is too light or gets its green from iron, it is called \"green beryl\" instead.",
+      "colors": "Bluish green to pure green. The best is rich and even.",
+      "mohs": [
+        7.5,
+        8
+      ],
+      "where_found": "Colombia, Zambia, Brazil, Zimbabwe, Afghanistan, Pakistan, Russia and Ethiopia.",
+      "history": [
+        "The Muisca people of Colombia mined emeralds long before the Spanish arrived.",
+        "Spanish explorers reached Colombia's emerald area in 1537 and found the mines that became famous as Chivor.",
+        "The Hooker Emerald (75.47 carats) was once owned by an Ottoman sultan. Today it is at the Smithsonian."
+      ],
+      "birthstone": "May",
+      "cool_fact": "Almost every emerald has tiny cracks inside. Gem cutters often fill them with oil so the stone looks clearer.",
+      "care_tip": "Never put an emerald in a steam cleaner or an ultrasonic cleaner. They can push out the oil in its cracks. Wipe it gently instead.",
+      "images": [
+        "emerald-hooker.jpg",
+        "emerald-muzo-crystal.jpg",
+        "emerald-chalk.jpg"
+      ],
+      "varieties": [
+        {
+          "name": "Colombian emerald",
+          "color": "Rich, warm, pure green",
+          "what_makes_it_special": "Colored by both chromium and vanadium. Often has tiny calcite and pyrite crystals inside.",
+          "where_found": "Muzo, Coscuez and Chivor, Colombia",
+          "fun_fact": "Some Colombian emerald crystals glow red-pink under UV light, like in this photo from Muzo.",
+          "images": [
+            "emerald-muzo-crystal.jpg",
+            "emerald-muzo-glow.jpg",
+            "emerald-gachala-crystal.jpg",
+            "emerald-patricia-crystal.jpg"
+          ],
+          "general_info_fields": []
+        },
+        {
+          "name": "Zambian emerald",
+          "color": "Cooler, bluish green",
+          "what_makes_it_special": "Usually darker and bluer than Colombian emerald.",
+          "where_found": "Kagem mine, Zambia",
+          "fun_fact": "Kagem is called the world's largest open-pit emerald mine.",
+          "images": [
+            "emerald-zambia.jpg"
+          ],
+          "general_info_fields": []
+        },
+        {
+          "name": "Russian emerald",
+          "color": "Green",
+          "what_makes_it_special": "Old, famous emeralds from the Ural Mountains.",
+          "where_found": "Malysheva mine, Ural Mountains, Russia",
+          "fun_fact": "The story says a farmer found the first one around 1830.",
+          "images": [],
+          "general_info_fields": []
+        },
+        {
+          "name": "Brazilian emerald",
+          "color": "Green to bluish green",
+          "what_makes_it_special": "Brazil has several emerald areas.",
+          "where_found": "Bahia and Minas Gerais, Brazil",
+          "fun_fact": "This crystal is from Carnaiba in Bahia.",
+          "images": [
+            "emerald-brazil.jpg"
+          ],
+          "general_info_fields": []
+        },
+        {
+          "name": "Pakistani (Swat) emerald",
+          "color": "Bright green",
+          "what_makes_it_special": "Small, bright crystals from mountain mines.",
+          "where_found": "Swat Valley, Pakistan",
+          "fun_fact": "Swat has also produced trapiche emeralds.",
+          "images": [
+            "emerald-pakistan.jpg"
+          ],
+          "general_info_fields": []
+        },
+        {
+          "name": "Sandawana emerald",
+          "color": "Vivid green",
+          "what_makes_it_special": "Tiny but very bright emeralds.",
+          "where_found": "Sandawana, Zimbabwe",
+          "fun_fact": "Cut Sandawana emeralds are usually tiny, often less than a quarter of a carat.",
+          "images": [],
+          "general_info_fields": []
+        },
+        {
+          "name": "Trapiche emerald",
+          "color": "Green with six dark spokes",
+          "what_makes_it_special": "A fixed six-spoke wheel pattern from inclusions trapped while the crystal grew.",
+          "where_found": "Muzo and Chivor, Colombia",
+          "fun_fact": "\"Trapiche\" is Spanish for a sugar-cane mill wheel, and that is just what it looks like.",
+          "images": [
+            "emerald-trapiche.jpg"
+          ],
+          "general_info_fields": []
+        }
+      ],
+      "cousins": [
+        "aquamarine"
+      ],
+      "general_info_fields": [
+        "birthstone"
+      ]
+    },
+    {
+      "id": "aquamarine",
+      "name": "Aquamarine",
+      "family": "Beryl",
+      "species": "Beryl",
+      "coverage": "deep",
+      "tagline": "Sea-blue beryl, cousin of emerald.",
+      "what_it_is": "Aquamarine is the blue to greenish-blue kind of beryl, the same mineral as emerald. Iron gives it its color.",
+      "colors": "Light blue, sky blue, greenish blue and deep blue.",
+      "mohs": [
+        7.5,
+        8
+      ],
+      "where_found": "Brazil (Minas Gerais), Nigeria, Madagascar, Mozambique, Pakistan, Afghanistan, Namibia and Russia.",
+      "history": [
+        "The biggest aquamarine crystal on record was found in Brazil in 1910. It weighed 110 kilograms!",
+        "The Dom Pedro is a 10,363-carat aquamarine carved into a tall tower shape. It went on display at the Smithsonian in 2012."
+      ],
+      "birthstone": "March",
+      "cool_fact": "Turn an aquamarine and its color shifts: bluer one way, paler the other way. Most aquamarine is also gently heated to make it bluer.",
+      "care_tip": "Aquamarine is pretty hard, but it can chip if hit hard. Settings that hug the edges help protect it.",
+      "images": [
+        "aquamarine-cut.jpg",
+        "aquamarine-crystal.jpg",
+        "aquamarine-dom-pedro.jpg",
+        "aquamarine-crystal-2.jpg"
+      ],
+      "varieties": [
+        {
+          "name": "Santa Maria aquamarine",
+          "color": "Deep, intense blue",
+          "what_makes_it_special": "A trade name for the deepest blues.",
+          "where_found": "Named after the Santa Maria de Itabira mine in Brazil; also Mozambique",
+          "fun_fact": "\"Santa Maria\" is a nickname that the gem world uses, not a lab name.",
+          "images": [
+            "aquamarine-cut-2.jpg"
+          ],
+          "general_info_fields": []
+        },
+        {
+          "name": "Maxixe beryl",
+          "color": "Very dark inky blue",
+          "what_makes_it_special": "Its blue comes from natural radiation, not iron.",
+          "where_found": "Maxixe mine, Brazil (found 1917)",
+          "fun_fact": "Leave it in sunlight and its blue slowly fades away!",
+          "images": [],
+          "general_info_fields": []
+        },
+        {
+          "name": "Morganite (beryl cousin)",
+          "color": "Pink to peach",
+          "what_makes_it_special": "Pink beryl colored by manganese.",
+          "where_found": "Madagascar, Brazil, Afghanistan, Mozambique, Namibia and California (USA)",
+          "fun_fact": "It was named in 1911 after the banker J.P. Morgan.",
+          "images": [
+            "beryl-morganite.jpg",
+            "beryl-morganite-cut.jpg"
+          ],
+          "general_info_fields": []
+        },
+        {
+          "name": "Heliodor or golden beryl (beryl cousin)",
+          "color": "Greenish yellow to golden",
+          "what_makes_it_special": "Yellow beryl colored by iron.",
+          "where_found": "Namibia, Brazil, Ukraine, Madagascar",
+          "fun_fact": "\"Heliodor\" comes from \"helios,\" the Greek word for sun.",
+          "images": [
+            "beryl-heliodor.jpg"
+          ],
+          "general_info_fields": []
+        },
+        {
+          "name": "Goshenite (beryl cousin)",
+          "color": "Colorless",
+          "what_makes_it_special": "Beryl with almost no coloring elements.",
+          "where_found": "Brazil, China, Pakistan, Russia, Madagascar",
+          "fun_fact": "It is named after Goshen, a town in Massachusetts.",
+          "images": [
+            "beryl-goshenite.jpg"
+          ],
+          "general_info_fields": []
+        },
+        {
+          "name": "Red beryl (beryl cousin)",
+          "color": "Raspberry red",
+          "what_makes_it_special": "One of the rarest beryls. Manganese makes it red.",
+          "where_found": "Wah Wah Mountains, Utah, USA",
+          "fun_fact": "Utah is the only place in the world that has mined gem red beryl. Cut stones are usually smaller than 1 carat.",
+          "images": [
+            "beryl-red-beryl.jpg",
+            "beryl-red-beryl-2.jpg"
+          ],
+          "general_info_fields": []
+        }
+      ],
+      "cousins": [
+        "emerald"
+      ],
+      "general_info_fields": [
+        "birthstone"
+      ]
+    },
+    {
+      "id": "spinel",
+      "name": "Spinel",
+      "family": "Spinel",
+      "species": "Spinel (magnesium aluminum oxide)",
+      "coverage": "deep",
+      "tagline": "The secret gem hiding in royal crowns.",
+      "what_it_is": "Spinel is its own mineral, made of magnesium, aluminum and oxygen. For hundreds of years, people mixed up red spinel with ruby.",
+      "colors": "Red, hot pink, neon pink, orange-pink, purple, lavender, gray, blue, cobalt blue and black.",
+      "mohs": 8,
+      "where_found": "Myanmar (Mogok), Sri Lanka, Vietnam (Luc Yen), Tanzania (Mahenge), Tajikistan, and Pakistan.",
+      "history": [
+        "The famous \"Black Prince's Ruby\" in England's Imperial State Crown is really a red spinel of about 170 carats.",
+        "Legend says King Henry V wore it at the Battle of Agincourt in 1415.",
+        "The Timur Ruby (352.5 carats) has old Persian names carved into it. People thought it was a ruby until 1851!"
+      ],
+      "birthstone": "August",
+      "cool_fact": "Gem experts have called spinel \"History's Most Underappreciated Gem,\" because it was so often mistaken for ruby and sapphire.",
+      "care_tip": "Spinel is hard (8 out of 10) and tough, so it makes great jewelry. Warm soapy water is all it needs.",
+      "images": [
+        "spinel-rainbow.jpg",
+        "spinel-crown-black-prince.jpg",
+        "spinel-hot-pink.jpg"
+      ],
+      "varieties": [
+        {
+          "name": "Burmese red and \"Jedi\" spinel",
+          "color": "Glowing red to neon pink",
+          "what_makes_it_special": "Super-bright spinels with almost no dark areas and very little iron.",
+          "where_found": "Mogok area (Man Sin and Namya), Myanmar",
+          "fun_fact": "Gem experts nicknamed the brightest ones \"Jedi\" spinels, because they are \"untouched by the dark side,\" like in Star Wars!",
+          "images": [
+            "spinel-hot-pink.jpg",
+            "spinel-red-crystal-mogok.jpg"
+          ],
+          "general_info_fields": []
+        },
+        {
+          "name": "Mahenge spinel",
+          "color": "Pink, hot pink to pink-red",
+          "what_makes_it_special": "Bright pink spinels from marble rocks.",
+          "where_found": "Mahenge, Morogoro region, Tanzania",
+          "fun_fact": "In August 2007, miners found four giant spinel crystals there, weighing from 6 to 54 kilograms!",
+          "images": [
+            "spinel-pink.jpg"
+          ],
+          "general_info_fields": []
+        },
+        {
+          "name": "Cobalt blue spinel",
+          "color": "Vivid electric blue",
+          "what_makes_it_special": "A blue spinel colored mostly by cobalt. It is very rare.",
+          "where_found": "Luc Yen (Vietnam) and Sri Lanka",
+          "fun_fact": "To earn the cobalt name, a lab has to see that cobalt, not iron, makes the blue.",
+          "images": [
+            "spinel-blue.jpg"
+          ],
+          "general_info_fields": []
+        },
+        {
+          "name": "Vietnam pastel spinel",
+          "color": "Baby pink to pastel purple, sometimes red",
+          "what_makes_it_special": "Soft, sweet colors from rice-field gem gravels.",
+          "where_found": "Luc Yen, Vietnam",
+          "fun_fact": "Serious spinel mining in Luc Yen started after 1990.",
+          "images": [],
+          "general_info_fields": []
+        },
+        {
+          "name": "Lavender and purple spinel",
+          "color": "Gray, lavender, purple to violet",
+          "what_makes_it_special": "Cool, calm colors. Some shift a little in warm light.",
+          "where_found": "Sri Lanka, Myanmar, Vietnam and Tanzania",
+          "fun_fact": "Check it under a warm lamp: some purples change color a tiny bit.",
+          "images": [
+            "spinel-lavender.jpg"
+          ],
+          "general_info_fields": []
+        },
+        {
+          "name": "Kuh-i-Lal spinel",
+          "color": "Mostly pink, sometimes red",
+          "what_makes_it_special": "The historic source of many royal \"balas rubies.\"",
+          "where_found": "Kuh-i-Lal mines on the Panj River, Tajikistan",
+          "fun_fact": "The mines are said to have been discovered after an earthquake in the 600s.",
+          "images": [],
+          "general_info_fields": []
+        },
+        {
+          "name": "Black spinel",
+          "color": "Black",
+          "what_makes_it_special": "Spinel with lots of iron.",
+          "where_found": "Sri Lanka and other gem gravels",
+          "fun_fact": "Sri Lankan gem gravels give spinels in pastel colors and in black too.",
+          "images": [
+            "spinel-black.jpg"
+          ],
+          "general_info_fields": []
+        }
+      ],
+      "cousins": [
+        "ruby"
+      ],
+      "general_info_fields": [
+        "birthstone"
+      ]
+    },
+    {
+      "id": "tourmaline",
+      "name": "Tourmaline",
+      "family": "Tourmaline group",
+      "species": "Mostly elbaite (one of more than 14 tourmaline minerals)",
+      "coverage": "deep",
+      "tagline": "The rainbow gem: more colors than almost any other.",
+      "what_it_is": "Tourmaline is a family of more than 14 minerals. One of them, elbaite, makes almost all tourmaline gems. Different elements make different colors: iron for green and blue, manganese for pink and red, and copper for neon blue.",
+      "colors": "Every color: pink, red, green, blue, neon blue-green, yellow, brown, black, and stones with two or three colors at once.",
+      "mohs": [
+        7,
+        7.5
+      ],
+      "where_found": "Brazil, Mozambique, Nigeria, Madagascar, Zambia, Tanzania, Afghanistan, Namibia, and Maine and California in the USA.",
+      "history": [
+        "Electric-blue Paraiba tourmaline was first found in Brazil in August 1988, and reached gem markets in 1989.",
+        "One tourmaline mineral, liddicoatite, is named after a famous gemologist, Richard T. Liddicoat."
+      ],
+      "birthstone": "October",
+      "cool_fact": "One little pocket in a rock can hold tourmalines of many different colors, and a single crystal can be pink inside and green outside!",
+      "care_tip": "Tourmaline is fairly hard. Clean it with warm soapy water and keep it away from big heat.",
+      "images": [
+        "tourmaline-rainbow.jpg",
+        "tourmaline-watermelon.jpg",
+        "tourmaline-crystal.jpg"
+      ],
+      "varieties": [
+        {
+          "name": "Rubellite",
+          "color": "Pink, red, purplish red",
+          "what_makes_it_special": "Red and pink tourmaline colored by manganese.",
+          "where_found": "Brazil, Nigeria, Mozambique, Madagascar, California and Maine (USA), Russia",
+          "fun_fact": "Some gem fans only use the name rubellite for the redder ones, not the pinks.",
+          "images": [
+            "tourmaline-rubellite.jpg"
+          ],
+          "general_info_fields": []
+        },
+        {
+          "name": "Indicolite",
+          "color": "Dark violet-blue, blue, greenish blue",
+          "what_makes_it_special": "Blue tourmaline colored by iron.",
+          "where_found": "Brazil, Afghanistan, Namibia, Nigeria and Madagascar",
+          "fun_fact": "It looks darker when you look down the long side of the crystal.",
+          "images": [
+            "tourmaline-indicolite.jpg",
+            "tourmaline-blue.jpg"
+          ],
+          "general_info_fields": []
+        },
+        {
+          "name": "Verdelite",
+          "color": "Green",
+          "what_makes_it_special": "Green tourmaline colored by iron.",
+          "where_found": "Brazil, Namibia, Afghanistan, Nigeria, Madagascar and Mozambique",
+          "fun_fact": "Green tourmaline can look like two different greens from two sides.",
+          "images": [
+            "tourmaline-verdelite.jpg"
+          ],
+          "general_info_fields": []
+        },
+        {
+          "name": "Paraiba tourmaline",
+          "color": "Neon blue, electric blue, blue-green to green",
+          "what_makes_it_special": "Copper makes it glow like neon.",
+          "where_found": "Brazil (Sao Jose da Batalha, Paraiba), Mozambique, Nigeria",
+          "fun_fact": "It was first found in 1988 after years of digging in Paraiba, Brazil. Now any copper tourmaline with this glow can be called Paraiba.",
+          "images": [
+            "tourmaline-paraiba-crystal.jpg"
+          ],
+          "general_info_fields": []
+        },
+        {
+          "name": "Watermelon tourmaline",
+          "color": "Pink center with a green rim",
+          "what_makes_it_special": "One crystal grew pink first and then green.",
+          "where_found": "Brazil, Madagascar, Maine and California (USA), Namibia, Mozambique",
+          "fun_fact": "Cut it into slices and it looks just like a watermelon slice!",
+          "images": [
+            "tourmaline-watermelon.jpg"
+          ],
+          "general_info_fields": []
+        },
+        {
+          "name": "Bicolor (parti-color) tourmaline",
+          "color": "Two or three colors in one stone",
+          "what_makes_it_special": "Color zones that show when the crystal is cut the long way.",
+          "where_found": "Brazil and other pegmatite areas",
+          "fun_fact": "The color zones show how the crystal grew, like tree rings.",
+          "images": [
+            "tourmaline-bicolor.jpg"
+          ],
+          "general_info_fields": []
+        },
+        {
+          "name": "Chrome tourmaline",
+          "color": "Intense green",
+          "what_makes_it_special": "Colored mostly by vanadium, even though it is called \"chrome.\"",
+          "where_found": "Tanzania (Landanai area) and East Africa",
+          "fun_fact": "It is a different tourmaline mineral (dravite-uvite) from most other gem tourmalines.",
+          "images": [
+            "tourmaline-chrome.jpg"
+          ],
+          "general_info_fields": []
+        },
+        {
+          "name": "Cat's-eye tourmaline",
+          "color": "Any color with a bright line of light",
+          "what_makes_it_special": "Tiny tubes inside make a shiny line, like a cat's eye.",
+          "where_found": "Brazil and other sources",
+          "fun_fact": "Tilt it and the line slides across the stone.",
+          "images": [
+            "tourmaline-cats-eye.jpg"
+          ],
+          "general_info_fields": []
+        },
+        {
+          "name": "Canary tourmaline",
+          "color": "Bright lemon yellow",
+          "what_makes_it_special": "Yellow elbaite rich in manganese.",
+          "where_found": "Canary mining area, Zambia",
+          "fun_fact": "It is named after the mining area, and its color fits a canary bird too.",
+          "images": [],
+          "general_info_fields": []
+        },
+        {
+          "name": "Uvite and dravite",
+          "color": "Brown, yellow, orange to green",
+          "what_makes_it_special": "Magnesium tourmalines from marble rocks.",
+          "where_found": "Brazil, Tanzania and other areas",
+          "fun_fact": "These tourmalines grow in old limestone that turned into marble.",
+          "images": [
+            "tourmaline-uvite.jpg"
+          ],
+          "general_info_fields": []
+        }
+      ],
+      "general_info_fields": [
+        "birthstone",
+        "care_tip"
+      ]
+    },
+    {
+      "id": "quartz",
+      "name": "Quartz",
+      "family": "Quartz",
+      "species": "Quartz (silicon dioxide, SiO2)",
+      "coverage": "light",
+      "tagline": "The super-common crystal with a giant family.",
+      "what_it_is": "Quartz is made of just silicon and oxygen. It has a huge family: amethyst, citrine, rose quartz, smoky quartz, tiger's eye, and even agate are all quartz!",
+      "colors": "Clear, purple, yellow, pink, brown-gray, green, and more.",
+      "mohs": 7,
+      "where_found": null,
+      "history": [],
+      "birthstone": null,
+      "cool_fact": "Our gem notes list about 19 different named kinds of quartz, plus another 14 kinds of chalcedony (quartz made of crystals too tiny to see).",
+      "care_tip": "Quartz is a 7 on the hardness scale, so it is pretty tough. Wash with warm soapy water.",
+      "images": [
+        "quartz-crystal-ball.jpg",
+        "quartz-smoky.jpg",
+        "quartz-ametrine.jpg"
+      ],
+      "varieties": [
+        {
+          "name": "Rock crystal",
+          "color": "Clear like glass",
+          "what_makes_it_special": "Pure quartz with nothing coloring it.",
+          "where_found": null,
+          "fun_fact": "Rock crystal can be carved into crystal balls!",
+          "images": [
+            "quartz-crystal-ball.jpg"
+          ],
+          "general_info_fields": [
+            "color",
+            "fun_fact"
+          ]
+        },
+        {
+          "name": "Smoky quartz",
+          "color": "Brown to gray",
+          "what_makes_it_special": "Quartz with a smoky look.",
+          "where_found": null,
+          "fun_fact": "It is still quartz, just in a smoky outfit.",
+          "images": [
+            "quartz-smoky.jpg"
+          ],
+          "general_info_fields": [
+            "color"
+          ]
+        },
+        {
+          "name": "Ametrine",
+          "color": "Purple and yellow in one stone",
+          "what_makes_it_special": "Amethyst and citrine together in a single crystal.",
+          "where_found": null,
+          "fun_fact": "Its name mixes the words \"amethyst\" and \"citrine.\"",
+          "images": [
+            "quartz-ametrine.jpg"
+          ],
+          "general_info_fields": [
+            "color",
+            "what_makes_it_special",
+            "fun_fact"
+          ]
+        },
+        {
+          "name": "Prasiolite",
+          "color": "Light green",
+          "what_makes_it_special": "Green quartz.",
+          "where_found": null,
+          "fun_fact": "It is on our list of quartz varieties.",
+          "images": [
+            "quartz-prasiolite.jpg"
+          ],
+          "general_info_fields": [
+            "color"
+          ]
+        },
+        {
+          "name": "Star rose quartz",
+          "color": "Pink with a star",
+          "what_makes_it_special": "Rose quartz that can show a star of light.",
+          "where_found": null,
+          "fun_fact": "A star needs tiny needles inside the stone to bounce the light.",
+          "images": [
+            "quartz-star-rose.jpg"
+          ],
+          "general_info_fields": [
+            "what_makes_it_special",
+            "fun_fact"
+          ]
+        }
+      ],
+      "general_info_fields": [
+        "colors",
+        "birthstone"
+      ]
+    },
+    {
+      "id": "amethyst",
+      "name": "Amethyst",
+      "family": "Quartz",
+      "species": "Quartz (purple variety)",
+      "coverage": "light",
+      "tagline": "Purple quartz, the royal crystal.",
+      "what_it_is": "Amethyst is the purple kind of quartz. It is the same mineral as clear rock crystal and yellow citrine.",
+      "colors": "Light lilac to deep purple.",
+      "mohs": 7,
+      "where_found": null,
+      "history": [],
+      "birthstone": "February",
+      "cool_fact": "Amethyst and citrine can grow together in the same crystal. That two-color stone is called ametrine!",
+      "care_tip": "Keep amethyst out of strong sunlight for long times, and clean it with warm soapy water.",
+      "images": [
+        "amethyst-cut.jpg",
+        "amethyst-big.jpg"
+      ],
+      "varieties": [],
+      "general_info_fields": [
+        "colors",
+        "birthstone",
+        "care_tip"
+      ]
+    },
+    {
+      "id": "citrine",
+      "name": "Citrine",
+      "family": "Quartz",
+      "species": "Quartz (yellow to orange variety)",
+      "coverage": "light",
+      "tagline": "Sunshine yellow quartz.",
+      "what_it_is": "Citrine is the yellow to orange kind of quartz.",
+      "colors": "Lemon yellow to golden orange.",
+      "mohs": 7,
+      "where_found": null,
+      "history": [],
+      "birthstone": "November",
+      "cool_fact": "Citrine is a cousin of amethyst. Sometimes they share a crystal, making ametrine.",
+      "care_tip": "Tough enough for everyday wear. Clean with warm soapy water.",
+      "images": [
+        "citrine-cut.jpg",
+        "quartz-ametrine.jpg"
+      ],
+      "varieties": [],
+      "general_info_fields": [
+        "colors",
+        "birthstone"
+      ]
+    },
+    {
+      "id": "rose-quartz",
+      "name": "Rose Quartz",
+      "family": "Quartz",
+      "species": "Quartz (pink variety)",
+      "coverage": "light",
+      "tagline": "Soft pink quartz.",
+      "what_it_is": "Rose quartz is the pink kind of quartz. It is usually cloudy instead of crystal-clear.",
+      "colors": "Pale to medium pink.",
+      "mohs": 7,
+      "where_found": null,
+      "history": [],
+      "birthstone": null,
+      "cool_fact": "Some rose quartz shows a star of light when it is cut into a dome shape.",
+      "care_tip": "Clean with warm soapy water.",
+      "images": [
+        "rose-quartz-pink.jpg",
+        "rose-quartz-cut.jpg",
+        "quartz-star-rose.jpg"
+      ],
+      "varieties": [],
+      "general_info_fields": [
+        "colors"
+      ]
+    },
+    {
+      "id": "agate",
+      "name": "Agate",
+      "family": "Quartz (chalcedony)",
+      "species": "Chalcedony, a quartz made of tiny crystals",
+      "coverage": "light",
+      "tagline": "Stripes, swirls and secret patterns.",
+      "what_it_is": "Agate is a kind of chalcedony. Chalcedony is quartz made of crystals so tiny you cannot see them, even with a magnifier.",
+      "colors": "Every color, often in bands and stripes.",
+      "mohs": [
+        6.5,
+        7
+      ],
+      "where_found": null,
+      "history": [],
+      "birthstone": null,
+      "cool_fact": "Chalcedony has a big family too: agate, carnelian, chrysoprase, bloodstone, jasper and even petrified wood!",
+      "care_tip": "Agate is tough. Clean with warm soapy water.",
+      "images": [
+        "agate.jpg",
+        "agate-fire.jpg",
+        "agate-moss.jpg"
+      ],
+      "varieties": [
+        {
+          "name": "Carnelian",
+          "color": "Orange to red-orange",
+          "what_makes_it_special": "A see-through orange chalcedony.",
+          "where_found": null,
+          "fun_fact": "It is on our chalcedony family list.",
+          "images": [
+            "agate-carnelian.jpg"
+          ],
+          "general_info_fields": [
+            "color"
+          ]
+        },
+        {
+          "name": "Chrysoprase",
+          "color": "Apple green",
+          "what_makes_it_special": "A green chalcedony.",
+          "where_found": null,
+          "fun_fact": "It is on our chalcedony family list.",
+          "images": [
+            "agate-chrysoprase.jpg"
+          ],
+          "general_info_fields": [
+            "color"
+          ]
+        },
+        {
+          "name": "Fire agate",
+          "color": "Brown with rainbow flashes",
+          "what_makes_it_special": "Agate with fiery rainbow colors inside.",
+          "where_found": null,
+          "fun_fact": "The colors sparkle as you turn it.",
+          "images": [
+            "agate-fire.jpg"
+          ],
+          "general_info_fields": [
+            "color",
+            "fun_fact"
+          ]
+        },
+        {
+          "name": "Moss agate",
+          "color": "Clear with green \"moss\"",
+          "what_makes_it_special": "Agate with green patterns that look like moss or tiny plants.",
+          "where_found": null,
+          "fun_fact": "The \"moss\" is really minerals, not plants!",
+          "images": [
+            "agate-moss.jpg"
+          ],
+          "general_info_fields": [
+            "color",
+            "fun_fact"
+          ]
+        }
+      ],
+      "general_info_fields": [
+        "colors"
+      ]
+    },
+    {
+      "id": "tigers-eye",
+      "name": "Tiger's Eye",
+      "family": "Quartz",
+      "species": "Quartz (a chatoyant type)",
+      "coverage": "light",
+      "tagline": "Shimmers like a cat's eye.",
+      "what_it_is": "Tiger's eye is a kind of quartz. It is chatoyant, which means it shows a shiny band of light that moves, like a cat's eye.",
+      "colors": "Golden brown with shiny stripes.",
+      "mohs": 7,
+      "where_found": null,
+      "history": [],
+      "birthstone": null,
+      "cool_fact": "Turn it in the light and the shiny stripes roll across the stone.",
+      "care_tip": "Clean with warm soapy water.",
+      "images": [
+        "tigers-eye.jpg"
+      ],
+      "varieties": [],
+      "general_info_fields": [
+        "colors"
+      ]
+    },
+    {
+      "id": "bloodstone",
+      "name": "Bloodstone",
+      "family": "Quartz (chalcedony)",
+      "species": "Chalcedony",
+      "coverage": "light",
+      "tagline": "Dark green with red spots.",
+      "what_it_is": "Bloodstone is a kind of chalcedony, the tiny-crystal quartz family.",
+      "colors": "Dark green with red spots.",
+      "mohs": [
+        6.5,
+        7
+      ],
+      "where_found": null,
+      "history": [],
+      "birthstone": null,
+      "cool_fact": "It is part of the same chalcedony family as agate.",
+      "care_tip": "Clean with warm soapy water.",
+      "images": [
+        "bloodstone.jpg"
+      ],
+      "varieties": [],
+      "general_info_fields": [
+        "colors"
+      ]
+    },
+    {
+      "id": "opal",
+      "name": "Opal",
+      "family": "Opal",
+      "species": "Opal (silica with water inside)",
+      "coverage": "medium",
+      "tagline": "The gem with rainbows trapped inside.",
+      "what_it_is": "Opal is silica (like quartz) with water inside, up to about 20 percent water! It has no crystal shape at all. Tiny stacked balls of silica bend light into flashes of color, called play-of-color.",
+      "colors": "White, black, clear, and orange-red fire opal, with rainbow flashes.",
+      "mohs": [
+        5,
+        6.5
+      ],
+      "where_found": "Australia (about 90 percent of the world's opal), Ethiopia and Mexico.",
+      "history": [
+        "The 998-gram \"Fire of Australia\" came from South Australia.",
+        "Lightning Ridge in Australia is famous for black opal."
+      ],
+      "birthstone": "October",
+      "cool_fact": "Australia produces about 90 percent of the world's opal. A huge opal called the \"Fire of Australia\" weighs 998 grams!",
+      "care_tip": "Opal is soft and has water inside. Keep it away from heat, harsh chemicals and big bumps.",
+      "images": [
+        "opal-precious.jpg",
+        "opal-cut.jpg",
+        "opal-rough.jpg"
+      ],
+      "varieties": [
+        {
+          "name": "Black opal",
+          "color": "Dark body with bright rainbow flashes",
+          "what_makes_it_special": "The dark background makes the colors pop.",
+          "where_found": "Lightning Ridge, Australia",
+          "fun_fact": "Experts rate darkness from N1 (black) to N9 (white).",
+          "images": [],
+          "general_info_fields": []
+        },
+        {
+          "name": "White (light) opal",
+          "color": "White or light gray body",
+          "what_makes_it_special": "The classic milky opal with color flashes.",
+          "where_found": "Coober Pedy and Andamooka, Australia",
+          "fun_fact": "Light opals are N7 to N9 on the darkness scale.",
+          "images": [
+            "opal-precious.jpg"
+          ],
+          "general_info_fields": []
+        },
+        {
+          "name": "Crystal opal",
+          "color": "See-through with color flashes",
+          "what_makes_it_special": "You can see into the stone and the colors seem to float.",
+          "where_found": "Australia and other sources",
+          "fun_fact": "Experts love it when crystal opal is very clear.",
+          "images": [],
+          "general_info_fields": []
+        },
+        {
+          "name": "Fire opal",
+          "color": "Yellow, orange, red or brown",
+          "what_makes_it_special": "Bright warm body color, often without rainbow flashes.",
+          "where_found": "Mexico",
+          "fun_fact": "It is also called \"Mexican opal.\"",
+          "images": [
+            "opal-fire.jpg"
+          ],
+          "general_info_fields": []
+        },
+        {
+          "name": "Boulder opal",
+          "color": "Opal inside brown rock",
+          "what_makes_it_special": "Opal veins in ironstone rock.",
+          "where_found": "Queensland, Australia",
+          "fun_fact": "The rock is left on as a natural backing.",
+          "images": [],
+          "general_info_fields": []
+        }
+      ],
+      "general_info_fields": [
+        "birthstone"
+      ]
+    },
+    {
+      "id": "jade",
+      "name": "Jade",
+      "family": "Jade (two different rocks)",
+      "species": "Jadeite jade and nephrite jade",
+      "coverage": "medium",
+      "tagline": "Two different rocks share one famous name.",
+      "what_it_is": "Jade is a name for two different tough rocks. Jadeite jade is made of tiny jadeite crystals. Nephrite jade is made of woven-together fibers. Both are super tough.",
+      "colors": "Green, white, lavender, and black. The bright green \"imperial\" jadeite is the most famous.",
+      "mohs": [
+        6,
+        7
+      ],
+      "where_found": "Jadeite: Myanmar, Guatemala, Japan, Russia. Nephrite: China, Canada, New Zealand, Russia, Taiwan, USA.",
+      "history": [
+        "Fei Cui is the historic Chinese name for jadeite jade.",
+        "China is the main place where jadeite is polished."
+      ],
+      "birthstone": null,
+      "cool_fact": "Jadeite jade has an old Chinese name, Fei Cui.",
+      "care_tip": "Jade is very tough. Clean it with warm soapy water.",
+      "images": [
+        "jade-jadeite.jpg",
+        "jade-nephrite.jpg"
+      ],
+      "varieties": [
+        {
+          "name": "Jadeite jade",
+          "color": "Green (including bright \"imperial\" green), white, lavender",
+          "what_makes_it_special": "Made of interlocked jadeite crystals.",
+          "where_found": "Myanmar (Hpakan area), Guatemala, Japan, Russia",
+          "fun_fact": "Chromium gives the bright imperial green.",
+          "images": [
+            "jade-jadeite.jpg"
+          ],
+          "general_info_fields": []
+        },
+        {
+          "name": "Nephrite jade",
+          "color": "Green to creamy white",
+          "what_makes_it_special": "Made of interlocked fibers, which makes it very tough.",
+          "where_found": "China, Canada (British Columbia), New Zealand, Russia, Taiwan, USA",
+          "fun_fact": "Its fibers lock together like felt.",
+          "images": [
+            "jade-nephrite.jpg"
+          ],
+          "general_info_fields": []
+        }
+      ],
+      "general_info_fields": [
+        "colors"
+      ]
+    },
+    {
+      "id": "turquoise",
+      "name": "Turquoise",
+      "family": "Turquoise",
+      "species": "Turquoise (copper aluminum phosphate)",
+      "coverage": "medium",
+      "tagline": "The sky-blue stone of the desert.",
+      "what_it_is": "Turquoise is a mineral with copper in it. It forms in dry desert places, when water with copper soaks through the rocks.",
+      "colors": "Sky blue to blue-green, sometimes with brown or black lines.",
+      "mohs": [
+        5,
+        6
+      ],
+      "where_found": "Only a few dry places: Iran, the USA (Arizona, Nevada, New Mexico), China, Egypt (Sinai) and Mexico.",
+      "history": [
+        "Nishapur in Iran is a famous old turquoise source."
+      ],
+      "birthstone": "December",
+      "cool_fact": "The thin dark lines in some turquoise are bits of the rock it grew in. A fine web pattern is called \"spiderweb\" turquoise.",
+      "care_tip": "Turquoise is soft and porous. Keep it away from oils, lotions and chemicals.",
+      "images": [
+        "turquoise.jpg"
+      ],
+      "varieties": [],
+      "general_info_fields": [
+        "birthstone",
+        "colors",
+        "care_tip"
+      ]
+    },
+    {
+      "id": "tanzanite",
+      "name": "Tanzanite",
+      "family": "Zoisite",
+      "species": "Zoisite (blue to purple variety)",
+      "coverage": "medium",
+      "tagline": "A gem from just one place on Earth.",
+      "what_it_is": "Tanzanite is the blue to purple kind of a mineral called zoisite. Vanadium gives it color.",
+      "colors": "Blue-violet, violet-blue and purple.",
+      "mohs": [
+        6,
+        7
+      ],
+      "where_found": "Only the Merelani Hills in northern Tanzania, near Mount Kilimanjaro.",
+      "history": [
+        "Tanzanite was discovered in 1967.",
+        "It was named after its home country, Tanzania."
+      ],
+      "birthstone": "December",
+      "cool_fact": "Tanzanite shows different colors from three directions. Turn it and it shifts between blue, violet and purple!",
+      "care_tip": "It is a bit softer than many gems. Wear it carefully and clean with warm soapy water.",
+      "images": [
+        "tanzanite.jpg",
+        "tanzanite-crystal.jpg"
+      ],
+      "varieties": [],
+      "general_info_fields": [
+        "birthstone"
+      ]
+    },
+    {
+      "id": "alexandrite",
+      "name": "Alexandrite",
+      "family": "Chrysoberyl",
+      "species": "Chrysoberyl (color-change variety)",
+      "coverage": "medium",
+      "tagline": "Green by day, red by lamplight!",
+      "what_it_is": "Alexandrite is a rare kind of chrysoberyl with chromium inside. It changes color depending on the light.",
+      "colors": "Green to bluish green in daylight; red to purplish red in lamp light.",
+      "mohs": 8.5,
+      "where_found": "Russia (Ural Mountains, the classic source), Sri Lanka, Brazil, East Africa and India.",
+      "history": [
+        "The first famous alexandrites came from the Ural Mountains in Russia.",
+        "Brazilian alexandrite can be as fine as Russian."
+      ],
+      "birthstone": "June",
+      "cool_fact": "Only chrysoberyl gets to be called alexandrite. Other gems that change color are called \"color-change\" gems instead.",
+      "care_tip": "Alexandrite is very hard. Clean it with warm soapy water.",
+      "images": [
+        "alexandrite-crystal.jpg"
+      ],
+      "varieties": [
+        {
+          "name": "Cat's-eye chrysoberyl (cymophane)",
+          "color": "Honey yellow with a line of light",
+          "what_makes_it_special": "A chrysoberyl that shows a cat's-eye line.",
+          "where_found": null,
+          "fun_fact": "It is listed on our chrysoberyl species card.",
+          "images": [],
+          "general_info_fields": [
+            "color",
+            "fun_fact"
+          ]
+        }
+      ],
+      "general_info_fields": [
+        "birthstone"
+      ]
+    },
+    {
+      "id": "pearl",
+      "name": "Pearl",
+      "family": "Organic gem",
+      "species": "Pearl (made by mollusks)",
+      "coverage": "medium",
+      "tagline": "A gem made by a living animal.",
+      "what_it_is": "A pearl grows inside a mollusk, like an oyster or mussel. Natural pearls form around a tiny bit of something, with no help from people. Cultured pearls are started by people.",
+      "colors": "White, cream, silver, gold, gray, black and brown, with shimmery overtones.",
+      "mohs": [
+        2.5,
+        4.5
+      ],
+      "where_found": "Oceans, lakes and rivers. Akoya: Japan and China. South Sea: Australia, Indonesia, Philippines, Myanmar. Tahitian: French Polynesia.",
+      "history": [],
+      "birthstone": "June",
+      "cool_fact": "Tahitian pearls from French Polynesia can be gray, black or brown.",
+      "care_tip": "Pearls are very soft. Put them on last, after lotion and hairspray, and wipe them with a soft cloth.",
+      "images": [
+        "pearl-in-shell.jpg",
+        "pearl-necklace.jpg"
+      ],
+      "varieties": [
+        {
+          "name": "Akoya pearl",
+          "color": "White",
+          "what_makes_it_special": "Saltwater pearl.",
+          "where_found": "Japan and China",
+          "fun_fact": "Akoya pearls grow in the sea.",
+          "images": [],
+          "general_info_fields": [
+            "color"
+          ]
+        },
+        {
+          "name": "South Sea pearl",
+          "color": "White, silver or golden",
+          "what_makes_it_special": "Grown in a big oyster.",
+          "where_found": "Australia, Indonesia, Philippines, Myanmar",
+          "fun_fact": "They come from a large oyster called Pinctada maxima.",
+          "images": [],
+          "general_info_fields": []
+        },
+        {
+          "name": "Tahitian pearl",
+          "color": "Gray, black or brown",
+          "what_makes_it_special": "Dark pearls with colorful glows.",
+          "where_found": "French Polynesia",
+          "fun_fact": "Look for green, pink or purple glows on top.",
+          "images": [],
+          "general_info_fields": []
+        },
+        {
+          "name": "Freshwater pearl",
+          "color": "Many colors",
+          "what_makes_it_special": "Grown in lakes and rivers.",
+          "where_found": null,
+          "fun_fact": "They grow in fresh water, not the sea.",
+          "images": [],
+          "general_info_fields": [
+            "color"
+          ]
+        }
+      ],
+      "general_info_fields": [
+        "birthstone"
+      ]
+    },
+    {
+      "id": "diamond",
+      "name": "Diamond",
+      "family": "Diamond",
+      "species": "Diamond (pure carbon)",
+      "coverage": "medium",
+      "tagline": "The hardest natural gem: a perfect 10.",
+      "what_it_is": "Diamond is made of pure carbon, like pencil lead, but packed into a super-strong crystal.",
+      "colors": "Colorless, plus rare \"fancy\" colors like yellow, pink, blue and green.",
+      "mohs": 10,
+      "where_found": "Russia, Angola, Botswana, Canada, DR Congo, Namibia and South Africa.",
+      "history": [
+        "Golconda in India is a famous historic diamond area.",
+        "GIA created the 4Cs: color, clarity, cut and carat."
+      ],
+      "birthstone": "April",
+      "cool_fact": "Some blue diamonds can carry electricity!",
+      "care_tip": "Diamond is the hardest, but it can still chip if hit hard. Clean with warm soapy water.",
+      "images": [
+        "diamond.jpg",
+        "diamond-crystal.jpg"
+      ],
+      "varieties": [
+        {
+          "name": "Pink diamond",
+          "color": "Pink",
+          "what_makes_it_special": "A rare natural pink.",
+          "where_found": "Argyle mine, Australia (closed in 2020)",
+          "fun_fact": "The Argyle mine was famous for pinks.",
+          "images": [],
+          "general_info_fields": []
+        },
+        {
+          "name": "Blue diamond",
+          "color": "Blue",
+          "what_makes_it_special": "Contains a little boron, so it can carry electricity.",
+          "where_found": "South Africa (Cullinan mine)",
+          "fun_fact": "It conducts electricity!",
+          "images": [],
+          "general_info_fields": []
+        }
+      ],
+      "general_info_fields": [
+        "birthstone"
+      ]
+    },
+    {
+      "id": "topaz",
+      "name": "Topaz",
+      "family": "Topaz",
+      "species": "Topaz",
+      "coverage": "light",
+      "tagline": "Sky blue to imperial gold.",
+      "what_it_is": "Topaz is its own mineral, with aluminum, silicon and fluorine. Golden \"imperial\" topaz is a famous kind.",
+      "colors": "Colorless, blue, golden orange, pink.",
+      "mohs": 8,
+      "where_found": null,
+      "history": [],
+      "birthstone": "November",
+      "cool_fact": "Most bright blue topaz in jewelry got its color from a treatment.",
+      "care_tip": "Topaz can split along a flat line (called cleavage). Avoid bumps and ultrasonic cleaners.",
+      "images": [
+        "topaz.jpg",
+        "topaz-imperial.jpg"
+      ],
+      "varieties": [
+        {
+          "name": "Imperial topaz",
+          "color": "Golden orange to pinkish orange",
+          "what_makes_it_special": "The famous golden kind.",
+          "where_found": null,
+          "fun_fact": "It is on our topaz species list.",
+          "images": [
+            "topaz-imperial.jpg"
+          ],
+          "general_info_fields": [
+            "color"
+          ]
+        }
+      ],
+      "general_info_fields": [
+        "birthstone",
+        "colors"
+      ]
+    },
+    {
+      "id": "peridot",
+      "name": "Peridot",
+      "family": "Olivine",
+      "species": "Olivine (forsterite)",
+      "coverage": "light",
+      "tagline": "The lime-green gem.",
+      "what_it_is": "Peridot is the gem kind of a mineral called olivine, made of magnesium, iron, silicon and oxygen.",
+      "colors": "Yellow-green to olive green.",
+      "mohs": [
+        6.5,
+        7
+      ],
+      "where_found": null,
+      "history": [],
+      "birthstone": "August",
+      "cool_fact": "Iron gives peridot its green.",
+      "care_tip": "Clean with warm soapy water.",
+      "images": [
+        "peridot.jpg"
+      ],
+      "varieties": [],
+      "general_info_fields": [
+        "colors",
+        "birthstone",
+        "cool_fact"
+      ]
+    },
+    {
+      "id": "moonstone",
+      "name": "Moonstone",
+      "family": "Feldspar",
+      "species": "Orthoclase feldspar",
+      "coverage": "light",
+      "tagline": "Glows like moonlight.",
+      "what_it_is": "Moonstone is a kind of feldspar, one of the most common minerals on Earth.",
+      "colors": "White to clear with a blue or white glow.",
+      "mohs": 6,
+      "where_found": null,
+      "history": [],
+      "birthstone": "June",
+      "cool_fact": "Moonstone is a cousin of sunstone, labradorite and amazonite. They are all feldspars!",
+      "care_tip": "Moonstone is fairly soft. Avoid bumps.",
+      "images": [
+        "moonstone.jpg"
+      ],
+      "varieties": [],
+      "general_info_fields": [
+        "colors",
+        "birthstone"
+      ]
+    },
+    {
+      "id": "sunstone",
+      "name": "Sunstone",
+      "family": "Feldspar",
+      "species": "Feldspar (aventurine feldspar)",
+      "coverage": "light",
+      "tagline": "Sparkles like sunshine.",
+      "what_it_is": "Sunstone is a feldspar with sparkly flakes inside.",
+      "colors": "Orange, red, peach, with glittery sparkles.",
+      "mohs": [
+        6,
+        6.5
+      ],
+      "where_found": null,
+      "history": [],
+      "birthstone": null,
+      "cool_fact": "Sunstone and moonstone are both feldspars.",
+      "care_tip": "Clean with warm soapy water.",
+      "images": [
+        "sunstone.jpg"
+      ],
+      "varieties": [],
+      "general_info_fields": [
+        "colors"
+      ]
+    },
+    {
+      "id": "labradorite",
+      "name": "Labradorite",
+      "family": "Feldspar",
+      "species": "Labradorite (plagioclase feldspar)",
+      "coverage": "light",
+      "tagline": "Flashes like a peacock.",
+      "what_it_is": "Labradorite is a feldspar that flashes blue, green and gold.",
+      "colors": "Gray with flashes of blue, green, gold.",
+      "mohs": [
+        6,
+        6.5
+      ],
+      "where_found": null,
+      "history": [],
+      "birthstone": null,
+      "cool_fact": "Spectrolite is a kind of labradorite that shows the rainbow colors especially well.",
+      "care_tip": "Avoid bumps.",
+      "images": [
+        "labradorite-spectrolite.jpg"
+      ],
+      "varieties": [],
+      "general_info_fields": [
+        "colors"
+      ]
+    },
+    {
+      "id": "amazonite",
+      "name": "Amazonite",
+      "family": "Feldspar",
+      "species": "Microcline feldspar",
+      "coverage": "light",
+      "tagline": "Minty blue-green feldspar.",
+      "what_it_is": "Amazonite is the green-blue kind of microcline, a feldspar.",
+      "colors": "Mint green to blue-green.",
+      "mohs": [
+        6,
+        6.5
+      ],
+      "where_found": null,
+      "history": [],
+      "birthstone": null,
+      "cool_fact": "It is a feldspar, like moonstone.",
+      "care_tip": "Avoid bumps.",
+      "images": [
+        "amazonite.jpg"
+      ],
+      "varieties": [],
+      "general_info_fields": [
+        "colors"
+      ]
+    },
+    {
+      "id": "zircon",
+      "name": "Zircon",
+      "family": "Zircon",
+      "species": "Zircon (zirconium silicate)",
+      "coverage": "light",
+      "tagline": "Old and super sparkly.",
+      "what_it_is": "Zircon is a natural mineral made of zirconium, silicon and oxygen.",
+      "colors": "Blue, brown, red, yellow, colorless.",
+      "mohs": 7.5,
+      "where_found": null,
+      "history": [],
+      "birthstone": "December",
+      "cool_fact": "Natural zircon is not the same as cubic zirconia, which is made in a lab.",
+      "care_tip": "Edges can chip. Store it apart from other gems.",
+      "images": [
+        "zircon.jpg"
+      ],
+      "varieties": [],
+      "general_info_fields": [
+        "colors",
+        "birthstone",
+        "cool_fact",
+        "care_tip"
+      ]
+    },
+    {
+      "id": "kunzite",
+      "name": "Kunzite",
+      "family": "Spodumene",
+      "species": "Spodumene (pink to purple variety)",
+      "coverage": "light",
+      "tagline": "Pink power from a lithium mineral.",
+      "what_it_is": "Kunzite is the pink kind of spodumene, a mineral with lithium in it.",
+      "colors": "Pink to lilac.",
+      "mohs": [
+        6,
+        7
+      ],
+      "where_found": null,
+      "history": [],
+      "birthstone": null,
+      "cool_fact": "Its green cousin is called hiddenite. Both are spodumene.",
+      "care_tip": "Keep kunzite out of strong sunlight, which can fade it.",
+      "images": [
+        "kunzite.jpg",
+        "kunzite-hiddenite.jpg"
+      ],
+      "varieties": [
+        {
+          "name": "Hiddenite",
+          "color": "Green",
+          "what_makes_it_special": "The green kind of spodumene.",
+          "where_found": null,
+          "fun_fact": "It is kunzite's green cousin.",
+          "images": [
+            "kunzite-hiddenite.jpg"
+          ],
+          "general_info_fields": [
+            "color"
+          ]
+        }
+      ],
+      "general_info_fields": [
+        "colors",
+        "care_tip"
+      ]
+    },
+    {
+      "id": "iolite",
+      "name": "Iolite",
+      "family": "Cordierite",
+      "species": "Cordierite",
+      "coverage": "light",
+      "tagline": "Violet-blue with a color trick.",
+      "what_it_is": "Iolite is the gem name for cordierite.",
+      "colors": "Violet-blue.",
+      "mohs": [
+        7,
+        7.5
+      ],
+      "where_found": null,
+      "history": [],
+      "birthstone": null,
+      "cool_fact": "It looks different colors from different sides.",
+      "care_tip": "Clean with warm soapy water.",
+      "images": [
+        "iolite.jpg"
+      ],
+      "varieties": [],
+      "general_info_fields": [
+        "colors",
+        "cool_fact"
+      ]
+    },
+    {
+      "id": "lapis",
+      "name": "Lapis Lazuli",
+      "family": "Rock (mostly lazurite)",
+      "species": "Lapis lazuli, a rock made mostly of lazurite",
+      "coverage": "light",
+      "tagline": "Deep blue with golden sparkles.",
+      "what_it_is": "Lapis lazuli is a rock, not a single mineral. Its blue comes mostly from lazurite.",
+      "colors": "Deep royal blue, often with gold flecks.",
+      "mohs": 5.5,
+      "where_found": null,
+      "history": [],
+      "birthstone": null,
+      "cool_fact": "Because it is a rock, it is made of several minerals mixed together.",
+      "care_tip": "It is soft. Avoid chemicals and bumps.",
+      "images": [
+        "lapis-lazuli.jpg"
+      ],
+      "varieties": [],
+      "general_info_fields": [
+        "colors"
+      ]
+    },
+    {
+      "id": "malachite",
+      "name": "Malachite",
+      "family": "Malachite",
+      "species": "Malachite (copper carbonate)",
+      "coverage": "light",
+      "tagline": "Green swirls made by copper.",
+      "what_it_is": "Malachite is a copper mineral with green bands and swirls.",
+      "colors": "Light and dark green bands.",
+      "mohs": [
+        3.5,
+        4
+      ],
+      "where_found": null,
+      "history": [],
+      "birthstone": null,
+      "cool_fact": "Copper gives malachite its green.",
+      "care_tip": "It is soft. Keep away from acids and bumps.",
+      "images": [
+        "malachite.jpg"
+      ],
+      "varieties": [],
+      "general_info_fields": [
+        "colors"
+      ]
+    },
+    {
+      "id": "amber",
+      "name": "Amber",
+      "family": "Organic gem",
+      "species": "Amber (fossil tree resin)",
+      "coverage": "light",
+      "tagline": "Ancient tree sap turned to gem.",
+      "what_it_is": "Amber is fossilized resin from ancient trees. It is organic, not a mineral.",
+      "colors": "Honey yellow, orange, brown.",
+      "mohs": [
+        2,
+        2.5
+      ],
+      "where_found": null,
+      "history": [],
+      "birthstone": null,
+      "cool_fact": "Amber is so light, some can float in salty water.",
+      "care_tip": "Very soft. Keep away from heat and chemicals.",
+      "images": [
+        "amber.jpg"
+      ],
+      "varieties": [],
+      "general_info_fields": [
+        "colors",
+        "cool_fact"
+      ]
+    }
+  ],
+  "image_credits": {
+    "agate-carnelian.jpg": {
+      "subject": "stage: cut (color-spectrum set) — hue: red-orange (sort 15) — three oval cabochons; studio photo in Tuntorp, Brastad, Sweden (photographer W.carter); source item: Three oval carnelian cabochons 1.jpg;",
+      "author": "W.carter",
+      "license": "CC BY 4.0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File%3AThree_oval_carnelian_cabochons_1.jpg",
+      "width": 900,
+      "height": 506,
+      "bytes": 19218
+    },
+    "agate-chrysoprase.jpg": {
+      "subject": "stage: cut (color-spectrum set) — hue: apple green (sort 125) — oval cabochon, caption \"Apple green chrysoprase cabochon\"; studio photo in Visby, Sweden (W.carter); color is very saturated — dye not m",
+      "author": "W.carter",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File%3AChrysoprase_cabochon_1.jpg",
+      "width": 812,
+      "height": 811,
+      "bytes": 93112
+    },
+    "agate-fire.jpg": {
+      "subject": "stage: cut (color-spectrum set) — hue: brown body, multicolor iridescence (sort 27) — three free-form fire agates; image shared by NMNH G10006 (19.9 ct) and G10009 (23.9 ct), Slaughter Mountain, Arizo",
+      "author": "Smithsonian Institution, NMNH (CC0, no attribution required)",
+      "license": "CC0",
+      "source": "Smithsonian Institution Open Access (NMNH Mineral Sciences)",
+      "page": "http://n2t.net/ark:/65665/3a150f258-db9d-47d1-9c80-461a8de99f8e",
+      "width": 900,
+      "height": 600,
+      "bytes": 54892
+    },
+    "agate-moss.jpg": {
+      "subject": "stage: cut (color-spectrum set) — hue: gray with black inclusions (moss-type) (sort 450) — oval cabochon, Nebraska, USA; NMNH G6751 Quartz, color Gray, Black; label in photo reads moss agate; source i",
+      "author": "Smithsonian Institution, NMNH (CC0, no attribution required)",
+      "license": "CC0",
+      "source": "Smithsonian Institution Open Access (NMNH Mineral Sciences)",
+      "page": "http://n2t.net/ark:/65665/3ec7f69d2-76d1-46aa-9b06-c330e1b71b0d",
+      "width": 900,
+      "height": 600,
+      "bytes": 137375
+    },
+    "agate.jpg": {
+      "subject": "stage: cut (color-spectrum set) — hue: white with red / pink patches (sort 440) — oval cabochon, Crawford, Nebraska, USA; NMNH G5360 taxon Quartz, color Various (variety not named in record; patterned",
+      "author": "Smithsonian Institution, NMNH (CC0, no attribution required)",
+      "license": "CC0",
+      "source": "Smithsonian Institution Open Access (NMNH Mineral Sciences)",
+      "page": "http://n2t.net/ark:/65665/3f5ab9c31-990b-4689-afdd-6174178e40f3",
+      "width": 900,
+      "height": 600,
+      "bytes": 167472
+    },
+    "alexandrite-crystal.jpg": {
+      "subject": "Chrysobéryl var. alexandrite (Brésil) 1.jpg — visually checked",
+      "author": "Parent Géry",
+      "license": "CC0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Chrysob%C3%A9ryl_var._alexandrite_(Br%C3%A9sil)_1.jpg",
+      "width": 900,
+      "height": 651,
+      "bytes": 123241
+    },
+    "amazonite.jpg": {
+      "subject": "Amazonite - DPLA - 93fb2491e909be159fc8160c26e520a5.jpg — visually checked",
+      "author": "Science History Institute (public domain)",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Amazonite_-_DPLA_-_93fb2491e909be159fc8160c26e520a5.jpg",
+      "width": 900,
+      "height": 868,
+      "bytes": 55765
+    },
+    "amber.jpg": {
+      "subject": "stage: cut — hue: orange (sort 0) — polished amber, Denmark (caption \"Een gepolijste barnsteen uit Denemarken\"); polished, not faceted; source item: Amber Denmark.jpg; author: Steven Lek; visually che",
+      "author": "Steven Lek",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File%3AAmber_Denmark.jpg",
+      "width": 900,
+      "height": 596,
+      "bytes": 42178
+    },
+    "amethyst-big.jpg": {
+      "subject": "stage: cut (color-spectrum set) — hue: purple (sort 275) — round 84.76 ct, Maine, USA; Maine Mineral & Gem Museum collection (James St. John caption); source item: Amethyst (faceted) 3.jpg; author: Ja",
+      "author": "James St. John",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File%3AAmethyst_%28faceted%29_3.jpg",
+      "width": 900,
+      "height": 631,
+      "bytes": 94388
+    },
+    "amethyst-cut.jpg": {
+      "subject": "stage: cut (color-spectrum set) — hue: purple (color-zoned) (sort 268) — square \"Archetype\" cut 172.23 ct, Hallelujah Junction, Nevada, USA; NMNH G11640 Quartz (var. amethyst); source item: Quartz (va",
+      "author": "Smithsonian Institution, NMNH (CC0, no attribution required)",
+      "license": "CC0",
+      "source": "Smithsonian Institution Open Access (NMNH Mineral Sciences)",
+      "page": "http://n2t.net/ark:/65665/30983f5f1-869c-490e-a828-6976aa931c9f",
+      "width": 900,
+      "height": 773,
+      "bytes": 58806
+    },
+    "aquamarine-crystal-2.jpg": {
+      "subject": "béryl var. aigue-marine",
+      "author": "Parent Géry",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Aigue-marine_(Madagascar).jpg",
+      "width": 900,
+      "height": 598,
+      "bytes": 87952
+    },
+    "aquamarine-crystal.jpg": {
+      "subject": "fully terminated gemmy crystal of Aquamarine from Nyet Bruk Pakistan",
+      "author": "AdamStejskal",
+      "license": "CC BY 4.0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Aquamarine_from_Nyet_Bruk_Pakistan.jpg",
+      "width": 900,
+      "height": 600,
+      "bytes": 53218
+    },
+    "aquamarine-cut-2.jpg": {
+      "subject": "stage: cut (color-spectrum set) — hue: light blue (sort 200) — modified rectangular emerald cut 110.2 ct, Tamil Nadu, India; NMNH G11466 Beryl, color Light blue; source item: Beryl (NMNH G11466-00); v",
+      "author": "Smithsonian Institution, NMNH (CC0, no attribution required)",
+      "license": "CC0",
+      "source": "Smithsonian Institution Open Access (NMNH Mineral Sciences)",
+      "page": "http://n2t.net/ark:/65665/3503c82f2-8a53-4438-8669-91d3a9237682",
+      "width": 900,
+      "height": 596,
+      "bytes": 59648
+    },
+    "aquamarine-cut.jpg": {
+      "subject": "stage: cut (color-spectrum set) — hue: light blue (sort 197) — trillion 48.27 ct, Pakistan; NMNH G11465 Beryl, color Light blue; source item: Beryl (NMNH G11465-00); visually checked; license verified",
+      "author": "Smithsonian Institution, NMNH (CC0, no attribution required)",
+      "license": "CC0",
+      "source": "Smithsonian Institution Open Access (NMNH Mineral Sciences)",
+      "page": "http://n2t.net/ark:/65665/3715a0929-6ee3-4f73-9a86-dfb427f32ad9",
+      "width": 900,
+      "height": 828,
+      "bytes": 74459
+    },
+    "aquamarine-dom-pedro.jpg": {
+      "subject": "Dom Pedro Aquamarine in National Museum of Natural History",
+      "author": "颐园居",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Dom_Pedro_Aquamarine_in_National_Museum_of_Natural_History_20240531.jpg",
+      "width": 675,
+      "height": 900,
+      "bytes": 52076
+    },
+    "beryl-goshenite.jpg": {
+      "subject": "Goshenite (Weight: 281.1 g) – Xuebaoding Mt., Mianyang City, Sichuan province, China",
+      "author": "Raimond Spekking",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Goshenite._Xuebaoding_Mt.,_Mianyang_City,_Sichuan_province,_China-9046.jpg",
+      "width": 900,
+      "height": 675,
+      "bytes": 103547
+    },
+    "beryl-heliodor.jpg": {
+      "subject": "Four emerald cut golden beryl gems. Photographed in Tuntorp, Brastad, Lysekil Municipality, Sweden.",
+      "author": "W.carter",
+      "license": "CC BY 4.0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Four_emerald_cut_golden_beryl_gems_2.jpg",
+      "width": 900,
+      "height": 506,
+      "bytes": 18224
+    },
+    "beryl-morganite-cut.jpg": {
+      "subject": "stage: cut (color-spectrum set) — hue: very light pink (near colorless) (sort 340) — modified rectangular step 122.2 ct, San Diego Co., California, USA; NMNH G1988 Beryl (var. morganite), color Very L",
+      "author": "Smithsonian Institution, NMNH (CC0, no attribution required)",
+      "license": "CC0",
+      "source": "Smithsonian Institution Open Access (NMNH Mineral Sciences)",
+      "page": "http://n2t.net/ark:/65665/3b231f344-2882-4b4b-8e70-9cad91c3272f",
+      "width": 900,
+      "height": 600,
+      "bytes": 100474
+    },
+    "beryl-morganite.jpg": {
+      "subject": "Sample of morganite collected from Itatiaia Valley, Minas Gerais, Brazil. On display at the Natural History Museum of Los Angeles County, Lo",
+      "author": "Eric Polk",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Beryl_var_morganite_NHMLA.png",
+      "width": 900,
+      "height": 429,
+      "bytes": 68231
+    },
+    "beryl-red-beryl-2.jpg": {
+      "subject": "beryl var. red beryl, rhyolite : Ruby Violet claims (Violet mine ; Red Emerald), Wah Wah Mts, Beaver Co., Utah, USA",
+      "author": "Géry PARENT",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Red_beryl,_rhyolite_7100.2428.jpg",
+      "width": 900,
+      "height": 734,
+      "bytes": 108028
+    },
+    "beryl-red-beryl.jpg": {
+      "subject": "Red Beryl - Wah Wah Mts, Beaver Co., Utah, USA - (Crystal size 1.7 cm)",
+      "author": "Didier Descouens",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:B%C3%A9ryl_Rouge.jpg",
+      "width": 900,
+      "height": 791,
+      "bytes": 160791
+    },
+    "bloodstone.jpg": {
+      "subject": "Bloodstone (2933052992).jpg — visually checked; Bloodstone Hill landscapes and cosplay hits rejected",
+      "author": "Stephanie Clifford from Arlington, VA, USA",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Bloodstone_(2933052992).jpg",
+      "width": 593,
+      "height": 483,
+      "bytes": 19465
+    },
+    "citrine-cut.jpg": {
+      "subject": "stage: cut (color-spectrum set) — hue: golden yellow (sort 45) — faceted oval 3 x 2.2 cm, Minas Gerais, Brazil (Didier Descouens caption); source item: Citrine taillee.jpg; author: Didier Descouens; v",
+      "author": "Didier Descouens",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File%3ACitrine_taillee.jpg",
+      "width": 900,
+      "height": 713,
+      "bytes": 67960
+    },
+    "diamond-crystal.jpg": {
+      "subject": "Commons pass; license from prior file-page check",
+      "author": "Unknown author / U.S. Geological Survey",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File%3ARough_diamond.jpg",
+      "width": 360,
+      "height": 271,
+      "bytes": 18972
+    },
+    "diamond.jpg": {
+      "subject": "stage: cut — hue: (record color blank) (sort 0) — \"Uncle Sam diamond\", rectangular emerald cut 12.42 ct, Prairie Creek mine, Pike Co., Arkansas, USA; NMNH G11741; source item: Uncle Sam diamond (NMNH ",
+      "author": "Smithsonian Institution, NMNH (CC0, no attribution required)",
+      "license": "CC0",
+      "source": "Smithsonian Institution Open Access (NMNH Mineral Sciences)",
+      "page": "http://n2t.net/ark:/65665/37ae8ce54-8fbf-4242-9011-cb40051310cc",
+      "width": 703,
+      "height": 900,
+      "bytes": 25391
+    },
+    "emerald-brazil.jpg": {
+      "subject": "crystals of beryl var. emerald on quartz : Carnaiba Mine, Pindobaçu, Campo Formoso ultramafic complex, Bahia, Brazil - crystals : 17 mm and",
+      "author": "Parent Géry",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:B%C3%A9ryl_var._%C3%A9meraude_sur_quartz_(Carnaiba_Mine,_Bahia_-_Brazil).jpg",
+      "width": 900,
+      "height": 598,
+      "bytes": 104603
+    },
+    "emerald-chalk.jpg": {
+      "subject": "The \"Chalk Emerald\", 37.8 carats, Colombia. The emerald is set within a cluster of 60 pear-shaped diamonds weighing a total of approximately",
+      "author": "Andrew Bossi from Laurel, MD, USA",
+      "license": "CC BY-SA 2.0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Natural_History_Museum_-_Chalk_Emerald.jpg",
+      "width": 900,
+      "height": 848,
+      "bytes": 57729
+    },
+    "emerald-gachala-crystal.jpg": {
+      "subject": "Gachala Emerald 858 carats Vega de San Juan mine, Colombia",
+      "author": "thisisbossi from Washington, DC, USA",
+      "license": "CC BY-SA 2.0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Natural_History_Museum_-_Gachala_Emerald.jpg",
+      "width": 675,
+      "height": 900,
+      "bytes": 40553
+    },
+    "emerald-hooker.jpg": {
+      "subject": "This superb 75.47carat Colombian emerald was once the property of Abdul Hamid II, Sultan of the Ottoman Empire (1876-1909), who wore it on h",
+      "author": "Cliff from Arlington, Virginia, USA",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Hooker_emerald.jpg",
+      "width": 675,
+      "height": 900,
+      "bytes": 67410
+    },
+    "emerald-muzo-crystal.jpg": {
+      "subject": "Emerald - Muzo Mine - Colombia (Crystal 2cm)",
+      "author": "Didier Descouens",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:(Muzo)_Emerald_crystal_in_its_matrix.jpg",
+      "width": 900,
+      "height": 683,
+      "bytes": 110913
+    },
+    "emerald-muzo-glow.jpg": {
+      "subject": "Emerald crystals from Muzo, Colombia, glowing under long-wave UV light",
+      "author": "Parent Géry",
+      "license": "CC0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:B%C3%A9ryl_var._%C3%A9meraude_sous_U.V._(Muzo_Mine_Boyaca_-_Colombie).jpg",
+      "width": 900,
+      "height": 640,
+      "bytes": 79841
+    },
+    "emerald-pakistan.jpg": {
+      "subject": "béryl var. émeraude : Mingora mining District (Mingora Mine), Swat District (Swat Valley), Malakand Region, Khyber Pakhtunkhwa (North-West F",
+      "author": "Parent Géry",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:B%C3%A9ryl_var._%C3%A9meraude_sur_calcite_(Mingora_Mine_Swat_-_Pakistan).jpg",
+      "width": 667,
+      "height": 900,
+      "bytes": 55290
+    },
+    "emerald-patricia-crystal.jpg": {
+      "subject": "Emeralds, including the Patricia Emerald at American museum of Natural History",
+      "author": "Vicpeters",
+      "license": "CC BY 4.0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Patricia_Emerald_1.jpg",
+      "width": 675,
+      "height": 900,
+      "bytes": 188556
+    },
+    "emerald-trapiche.jpg": {
+      "subject": "a trapiche emerald from Muzo Mine, Colombia",
+      "author": "Luciana Barbosa",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Trapiche_emerald.jpg",
+      "width": 900,
+      "height": 506,
+      "bytes": 64881
+    },
+    "emerald-zambia.jpg": {
+      "subject": "Exhibit in the Natural History Museum, London, UK.",
+      "author": "Daderot",
+      "license": "CC0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Beryl,_variety_emerald,_quartz,_Kagem_mine,_Kafubu_Area,_Zambia_-_Natural_History_Museum,_London_-_DSC05293.jpg",
+      "width": 900,
+      "height": 853,
+      "bytes": 67167
+    },
+    "garnet-almandine-crystals.jpg": {
+      "subject": "stage: rough — hue: dark red (sort 0) — crystals in schist, Fort Wrangell, Alaska (NMNH 93666); source item: Almandine (NMNH 93666-00); visually checked; license verified on file/record page 2026-10-0",
+      "author": "Smithsonian Institution, NMNH (CC0, no attribution required)",
+      "license": "CC0",
+      "source": "Smithsonian Institution Open Access (NMNH Mineral Sciences)",
+      "page": "http://n2t.net/ark:/65665/390c2d479-f81d-4bd9-acb1-482298f503be",
+      "width": 900,
+      "height": 600,
+      "bytes": 109080
+    },
+    "garnet-almandine.jpg": {
+      "subject": "Almandine, Rajouri, Jammu and Kashmir, India",
+      "author": "Didier Descouens (User:Archaeodontosaurus)",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:AlmandinInde.jpg",
+      "width": 900,
+      "height": 581,
+      "bytes": 36375
+    },
+    "garnet-bohemian-antique.jpg": {
+      "subject": "stage: cut (color-spectrum set) — hue: dark red (sort 1) — antique Bohemian rose-cut garnets (Bohemian garnet is traditionally pyrope; source caption does not state species); source item: Antique Bohe",
+      "author": "W.carter",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File%3AAntique_Bohemian_red_rose_cut_garnets_1.jpg",
+      "width": 900,
+      "height": 506,
+      "bytes": 98259
+    },
+    "garnet-color-change-2.jpg": {
+      "subject": "stage: cut (color-spectrum set) — hue: color-change blue/purple (sort 240) — COLOR-CHANGE garnet — oval 1.15 ct, Sri Lanka; NMNH lists Almandine + Color-change garnet, color Purple/Blue; source item: ",
+      "author": "Smithsonian Institution, NMNH (CC0, no attribution required)",
+      "license": "CC0",
+      "source": "Smithsonian Institution Open Access (NMNH Mineral Sciences)",
+      "page": "http://n2t.net/ark:/65665/35d169a18-06ba-4ccd-bb3f-557c59e1c630",
+      "width": 900,
+      "height": 601,
+      "bytes": 28150
+    },
+    "garnet-color-change.jpg": {
+      "subject": "0.80 ct blue-to-pink color-change garnet, Madagascar (private collection)",
+      "author": "Tritonal (en.wikipedia original uploader)",
+      "license": "CC BY-SA 2.5",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:.80ctsBluegarnet.jpg",
+      "width": 200,
+      "height": 151,
+      "bytes": 6065
+    },
+    "garnet-demantoid-2.jpg": {
+      "subject": "stage: cut (color-spectrum set) — hue: yellow-green to green (sort 90) — trio: pear 4.1 ct, cushion 10.4 ct, cushion 3.4 ct, Urals, Russia (NMNH G2150, G2175, G3627); source item: Andradite (var. dema",
+      "author": "Smithsonian Institution, NMNH (CC0, no attribution required)",
+      "license": "CC0",
+      "source": "Smithsonian Institution Open Access (NMNH Mineral Sciences)",
+      "page": "http://n2t.net/ark:/65665/31c395f2c-c1e6-4266-b061-100ef6aa91b9",
+      "width": 900,
+      "height": 600,
+      "bytes": 46212
+    },
+    "garnet-demantoid.jpg": {
+      "subject": "stage: cut (color-spectrum set) — hue: bluish green (sort 125) — oval 6.96 ct, Tubussis farm, Erongo, Namibia (NMNH G11480, color Blueish green); source item: Andradite (var. demantoid) (NMNH G11480-0",
+      "author": "Smithsonian Institution, NMNH (CC0, no attribution required)",
+      "license": "CC0",
+      "source": "Smithsonian Institution Open Access (NMNH Mineral Sciences)",
+      "page": "http://n2t.net/ark:/65665/3b16031a3-f559-47a5-a067-5ce8a5b51dee",
+      "width": 900,
+      "height": 884,
+      "bytes": 46170
+    },
+    "garnet-grossular-rainbow.jpg": {
+      "subject": "stage: cut (color-spectrum set) — hue: green / yellow-green / golden / orange / colorless (sort 60) — GROUP: tsavorite marquise with yellow-green, golden, orange and colorless grossulars; image shared",
+      "author": "Smithsonian Institution, NMNH (CC0, no attribution required)",
+      "license": "CC0",
+      "source": "Smithsonian Institution Open Access (NMNH Mineral Sciences)",
+      "page": "http://n2t.net/ark:/65665/3b01356fc-eaf1-40ac-a51d-796ff4f79a9b",
+      "width": 900,
+      "height": 600,
+      "bytes": 54792
+    },
+    "garnet-hessonite.jpg": {
+      "subject": "stage: cut (color-spectrum set) — hue: yellowish orange (sort 38) — pear 30.07 ct (Ratnapura, Sri Lanka) + rectangular step (NMNH G10068 & G2246, Grossular, Medium Yellow Orange); source item: Grossul",
+      "author": "Smithsonian Institution, NMNH (CC0, no attribution required)",
+      "license": "CC0",
+      "source": "Smithsonian Institution Open Access (NMNH Mineral Sciences)",
+      "page": "http://n2t.net/ark:/65665/3d197a87d-eeb4-4ade-ab49-055d827c38d2",
+      "width": 900,
+      "height": 600,
+      "bytes": 48392
+    },
+    "garnet-malaia.jpg": {
+      "subject": "stage: cut (color-spectrum set) — hue: brownish orange-red (sort 12) — MALAIA + rhodolite group: 4 large cut stones; image shared by NMNH records G8447 & G9409 (rhodolite) and G8975 & G9208 (Malaya ga",
+      "author": "Smithsonian Institution, NMNH (CC0, no attribution required)",
+      "license": "CC0",
+      "source": "Smithsonian Institution Open Access (NMNH Mineral Sciences)",
+      "page": "http://n2t.net/ark:/65665/3542e8f69-ec03-4e41-83d9-a962dbb8df26",
+      "width": 900,
+      "height": 600,
+      "bytes": 47211
+    },
+    "garnet-mali.jpg": {
+      "subject": "Grossular (\"Mali garnet\" source region), Nioro du Sahel, Kayes, Mali",
+      "author": "Lech Darski (User:Elade53)",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Garnet,_grossular_-_Nioro_du_Sahel_Circle,_Kayes_Region,_Mali.jpg",
+      "width": 900,
+      "height": 600,
+      "bytes": 94099
+    },
+    "garnet-merelani-mint.jpg": {
+      "subject": "stage: cut (color-spectrum set) — hue: mint green (sort 140) — checkerboard-cut 2.43 ct pale mint-green grossular (GeoDIL caption: one of the less common colors); \"mint\" is a hue description, not a so",
+      "author": "Darla Sondrol",
+      "license": "CC0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File%3AGrossular_%28GeoDIL_number_-_2736%29.jpg",
+      "width": 887,
+      "height": 761,
+      "bytes": 63925
+    },
+    "garnet-pyrope.jpg": {
+      "subject": "stage: cut (color-spectrum set) — hue: red (sort 2) — faceted cushion, Kenya/Tanzania, NMNH Washington display (visitor photo); source item: Pyrope.jpg; author: TomR (Thomas Ruedas); visually checked;",
+      "author": "TomR (Thomas Ruedas)",
+      "license": "CC BY-SA 2.5",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File%3APyrope.jpg",
+      "width": 310,
+      "height": 237,
+      "bytes": 11847
+    },
+    "garnet-red-collection.jpg": {
+      "subject": "stage: cut (color-spectrum set) — hue: red (light to dark) (sort 357) — collection of loose step/pendeloque-cut garnets (species not stated); source item: Cut garnet collection.JPG; author: Humanfeath",
+      "author": "Humanfeather / Michelle Jo",
+      "license": "CC BY 3.0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File%3ACut_garnet_collection.JPG",
+      "width": 900,
+      "height": 600,
+      "bytes": 43043
+    },
+    "garnet-rhodolite-2.jpg": {
+      "subject": "stage: cut (color-spectrum set) — hue: reddish purple (sort 295) — cushion 7.21 ct, Umba Valley, Tanzania; NMNH Pyrope (var. rhodolite); source item: Pyrope (var. rhodolite) (NMNH G11613-00); visually",
+      "author": "Smithsonian Institution, NMNH (CC0, no attribution required)",
+      "license": "CC0",
+      "source": "Smithsonian Institution Open Access (NMNH Mineral Sciences)",
+      "page": "http://n2t.net/ark:/65665/373a8d039-7c74-475e-842b-f2af29b58c5a",
+      "width": 900,
+      "height": 716,
+      "bytes": 35339
+    },
+    "garnet-rhodolite.jpg": {
+      "subject": "stage: cut (color-spectrum set) — hue: purple (sort 285) — round 15.75 ct, Sri Lanka; NMNH Pyrope (var. rhodolite), color Purple; source item: Pyrope (var. rhodolite) (NMNH G10635-00); visually checke",
+      "author": "Smithsonian Institution, NMNH (CC0, no attribution required)",
+      "license": "CC0",
+      "source": "Smithsonian Institution Open Access (NMNH Mineral Sciences)",
+      "page": "http://n2t.net/ark:/65665/3401bfe38-a00b-4e62-95ac-5229901d38a0",
+      "width": 900,
+      "height": 601,
+      "bytes": 30285
+    },
+    "garnet-spessartine-crystals.jpg": {
+      "subject": "Orange spessartine crystals in schist, Outomongu Mine, Namibia (Kunene \"mandarin\" region)",
+      "author": "James St. John",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Orange_spessartine_garnets_in_schist_(Outomongu_Mine,_Namibia)_1.jpg",
+      "width": 900,
+      "height": 849,
+      "bytes": 253000
+    },
+    "garnet-spessartine-mandarin.jpg": {
+      "subject": "Faceted orange spessartine, 6.12 ct (locality not stated)",
+      "author": "James St. John",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Orange_spessartine_garnet_1.jpg",
+      "width": 900,
+      "height": 567,
+      "bytes": 62145
+    },
+    "garnet-topazolite.jpg": {
+      "subject": "stage: cut (color-spectrum set) — hue: yellowish brown (sort 45) — free-form 16.02 ct, New Mexico, USA; NMNH Andradite, color Yellow Brown; source item: Andradite (NMNH G10494-00); visually checked; l",
+      "author": "Smithsonian Institution, NMNH (CC0, no attribution required)",
+      "license": "CC0",
+      "source": "Smithsonian Institution Open Access (NMNH Mineral Sciences)",
+      "page": "http://n2t.net/ark:/65665/30cb15f52-0af0-4e61-a1ff-1182197adf22",
+      "width": 900,
+      "height": 600,
+      "bytes": 69853
+    },
+    "garnet-tsavorite-crystal.jpg": {
+      "subject": "Tsavorite (grossular) specimen, Merelani Hills, Tanzania",
+      "author": "Lech Darski (User:Elade53)",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Granat,_Tsaworyt_(Tsavorite)_-_Merelani_Hills,_Tanzania.jpg",
+      "width": 900,
+      "height": 600,
+      "bytes": 60514
+    },
+    "garnet-tsavorite-family-gem-1.jpg": {
+      "subject": "1.19 ct heart-shaped tsavorite garnet, Kenya",
+      "author": "Family Gem original photo",
+      "license": "Family photo, used with permission",
+      "source": "Family Gem collection",
+      "page": null,
+      "width": 900,
+      "height": 900,
+      "bytes": 196381
+    },
+    "garnet-tsavorite-family-gem-2.jpg": {
+      "subject": "1.19 ct heart-shaped tsavorite garnet, Kenya",
+      "author": "Family Gem original photo",
+      "license": "Family photo, used with permission",
+      "source": "Family Gem collection",
+      "page": null,
+      "width": 900,
+      "height": 900,
+      "bytes": 71956
+    },
+    "garnet-tsavorite.jpg": {
+      "subject": "Tsavorite, Madagascar",
+      "author": "Parent Géry",
+      "license": "Public domain (PD-self)",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Grenat_tsavorite(Madagascar).jpg",
+      "width": 900,
+      "height": 598,
+      "bytes": 98857
+    },
+    "garnet-uvarovite.jpg": {
+      "subject": "Uvarovite druse, Russia",
+      "author": "Dave Dyet",
+      "license": "Public domain (PD-self)",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Uvarovite_(Garnet_mineral),_a_Calcium_Chromium_Silicate_from_Russia.jpg",
+      "width": 900,
+      "height": 500,
+      "bytes": 158931
+    },
+    "iolite.jpg": {
+      "subject": "stage: cut — hue: dark violet blue (sort 0) — modified rectangular 4.6 ct, Sri Lanka; NMNH G3569 Cordierite (var. iolite); image shows 2 stones — the iolite is the blue one; source item: Cordierite (v",
+      "author": "Smithsonian Institution, NMNH (CC0, no attribution required)",
+      "license": "CC0",
+      "source": "Smithsonian Institution Open Access (NMNH Mineral Sciences)",
+      "page": "http://n2t.net/ark:/65665/37d9c4111-c795-474b-a1e5-0655986d5041",
+      "width": 900,
+      "height": 600,
+      "bytes": 31510
+    },
+    "jade-jadeite.jpg": {
+      "subject": "stage: cut — hue: green (sort 0) — six faceted jadeite stones, Myanmar; Burke Museum, Seattle, acquisition no. 14980 (Joe Mabel caption); source item: Burmese jadeite faceted stones - - Burke Museum.j",
+      "author": "Joe Mabel",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File%3ABurmese_jadeite_faceted_stones_-_-_Burke_Museum.jpg",
+      "width": 900,
+      "height": 887,
+      "bytes": 127624
+    },
+    "jade-nephrite.jpg": {
+      "subject": "stage: cut — hue: yellow green (sort 0) — polished sphere, North Table Butte, Leucite Hills, Wyoming, USA; NMNH G3906; source item: Nephrite (NMNH G3906-00); visually checked; license verified on file",
+      "author": "Smithsonian Institution, NMNH (CC0, no attribution required)",
+      "license": "CC0",
+      "source": "Smithsonian Institution Open Access (NMNH Mineral Sciences)",
+      "page": "http://n2t.net/ark:/65665/3f44d8842-6b96-42c3-bc09-af4ac9d67fff",
+      "width": 900,
+      "height": 600,
+      "bytes": 70867
+    },
+    "kunzite-hiddenite.jpg": {
+      "subject": "Hiddenite 5.jpg — visually checked; town sign/creek photos and a pink MNHN specimen skipped; file 06 = kunzite (left) + hiddenite (right)",
+      "author": "Parent Géry",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Hiddenite_5.jpg",
+      "width": 900,
+      "height": 598,
+      "bytes": 104438
+    },
+    "kunzite.jpg": {
+      "subject": "Kunzite (Afghanistan).jpg — visually checked",
+      "author": "Parent Géry",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Kunzite_(Afghanistan).jpg",
+      "width": 900,
+      "height": 598,
+      "bytes": 100992
+    },
+    "labradorite-spectrolite.jpg": {
+      "subject": "Spectrolite from Ylämaa.jpg — Spectrolite (gem-quality labradorite) by Risteski skipped: locality not stated (trade name is for Ylämaa, Finland material)",
+      "author": "Mjeltsch",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Spectrolite_from_Yl%C3%A4maa.jpg",
+      "width": 900,
+      "height": 762,
+      "bytes": 161529
+    },
+    "lapis-lazuli.jpg": {
+      "subject": "stage: cut — hue: blue with white calcite streaks (sort 0) — tumble-polished lapis lazuli (uploader caption \"Lapislazuli\"); polished, not faceted; origin not given; source item: Lapis2.jpg; author: Ri",
+      "author": "Richard Seefeld",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File%3ALapis2.jpg",
+      "width": 574,
+      "height": 550,
+      "bytes": 44843
+    },
+    "malachite.jpg": {
+      "subject": "stage: rough — hue: dark green (sort 0) — botryoidal malachite ~3 x 5 cm (uploader caption); locality not given; source item: Botryoidal malachite 01.jpg; author: TheFurther21; visually checked; licen",
+      "author": "TheFurther21",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File%3ABotryoidal_malachite_01.jpg",
+      "width": 900,
+      "height": 600,
+      "bytes": 99992
+    },
+    "moonstone.jpg": {
+      "subject": "Moonstone.JPG — visually checked; file 03 is \"moonstone (iridescent sodic feldspar)\" i.e. rainbow type; Larvik larvikite, mine-site and seller-style shots skipp",
+      "author": "Wouter Hagens",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Moonstone.JPG",
+      "width": 619,
+      "height": 900,
+      "bytes": 44076
+    },
+    "opal-cut.jpg": {
+      "subject": "stage: cut — hue: black with play of color (sort 0) — free-form 92.09 ct, Lightning Ridge, NSW, Australia; NMNH G8950, color Black; source item: Opal (NMNH G8950-00); visually checked; license verifie",
+      "author": "Smithsonian Institution, NMNH (CC0, no attribution required)",
+      "license": "CC0",
+      "source": "Smithsonian Institution Open Access (NMNH Mineral Sciences)",
+      "page": "http://n2t.net/ark:/65665/3a1a95f39-12f4-4c9a-8ee5-2a266958d631",
+      "width": 900,
+      "height": 600,
+      "bytes": 37584
+    },
+    "opal-fire.jpg": {
+      "subject": "Fire opal in matrix (Juniper Ridge, Lake County, Oregon, USA) 10.jpg — visually checked; \"Perry's Fire Opal\" water-lily photos rejected",
+      "author": "James St. John",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Fire_opal_in_matrix_(Juniper_Ridge,_Lake_County,_Oregon,_USA)_10.jpg",
+      "width": 900,
+      "height": 626,
+      "bytes": 115283
+    },
+    "opal-precious.jpg": {
+      "subject": "Precious opal (Coober Pedy Opal Field, South Australia).jpg",
+      "author": "James St. John",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Precious_opal_(Coober_Pedy_Opal_Field,_South_Australia).jpg",
+      "width": 615,
+      "height": 900,
+      "bytes": 95809
+    },
+    "opal-rough.jpg": {
+      "subject": "stage: rough — hue: crystal opal, multicolor play of color (sort 0) — rough precious opal, Dead Horse Gully, Coober Pedy, South Australia (uploader caption: gem-grade \"crystal\" opal); hand-held; sourc",
+      "author": "Dpulitzer",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File%3ACoober_Pedy_Opal.jpg",
+      "width": 900,
+      "height": 399,
+      "bytes": 55868
+    },
+    "pearl-in-shell.jpg": {
+      "subject": "stage: rough — hue: white / silver (pearl in shell) (sort 0) — pearl still attached in a black-lipped oyster shell, Robert Wan Pearl Museum, Tahiti (uploader caption says \"natural pearl\" — not indepen",
+      "author": "Wmpearl",
+      "license": "CC0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File%3ABlack_lipped_oyster_with_natural_pearl%2C_Robert_Wan_Pearl_Museum.JPG",
+      "width": 848,
+      "height": 900,
+      "bytes": 94098
+    },
+    "pearl-necklace.jpg": {
+      "subject": "File:Tiffany and Company - Sautoir with Pearl Pendant - Walters 572034.jpg",
+      "author": "Tiffany & Co.",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File%3ATiffany_and_Company_-_Sautoir_with_Pearl_Pendant_-_Walters_572034.jpg",
+      "width": 718,
+      "height": 900,
+      "bytes": 32096
+    },
+    "peridot.jpg": {
+      "subject": "stage: cut — hue: yellow green (sort 0) — kite-shaped step 8.9 ct, San Carlos, Arizona, USA; NMNH G1925 Forsterite (var. peridot); image shows a group of stones; source item: Forsterite (var. peridot)",
+      "author": "Smithsonian Institution, NMNH (CC0, no attribution required)",
+      "license": "CC0",
+      "source": "Smithsonian Institution Open Access (NMNH Mineral Sciences)",
+      "page": "http://n2t.net/ark:/65665/3bb1f2c45-bbcd-4a6d-8472-a1858501d3c9",
+      "width": 900,
+      "height": 600,
+      "bytes": 50043
+    },
+    "quartz-ametrine.jpg": {
+      "subject": "stage: cut (color-spectrum set) — hue: bicolor purple / yellow (sort 400) — two ametrines; image shared by NMNH G9576 (pear step 55.68 ct) and G9950 (rhombohedral step 24.15 ct), Puerto Suarez, Santa ",
+      "author": "Smithsonian Institution, NMNH (CC0, no attribution required)",
+      "license": "CC0",
+      "source": "Smithsonian Institution Open Access (NMNH Mineral Sciences)",
+      "page": "http://n2t.net/ark:/65665/38996a983-07af-4db5-b0c2-365f8eec6f8d",
+      "width": 900,
+      "height": 600,
+      "bytes": 41218
+    },
+    "quartz-crystal-ball.jpg": {
+      "subject": "stage: cut (color-spectrum set) — hue: colorless (spheres) (sort 503) — polished spheres on stand; image shared by NMNH G9152 and G9153 Quartz (var. rock crystal), Polished Sphere; source item: Quartz",
+      "author": "Smithsonian Institution, NMNH (CC0, no attribution required)",
+      "license": "CC0",
+      "source": "Smithsonian Institution Open Access (NMNH Mineral Sciences)",
+      "page": "http://n2t.net/ark:/65665/3e5e14523-2b8d-4bae-9cb3-bec177b0e6b7",
+      "width": 604,
+      "height": 900,
+      "bytes": 64004
+    },
+    "quartz-prasiolite.jpg": {
+      "subject": "stage: cut (color-spectrum set) — hue: light green / mint (several shades) (sort 140) — lot of faceted stones in various shades (caption: \"facet cut Prasiolite ... green quartz and green amethyst\"); c",
+      "author": "Michelle Jo",
+      "license": "CC BY 3.0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File%3ACut_prasiolite.JPG",
+      "width": 900,
+      "height": 600,
+      "bytes": 42228
+    },
+    "quartz-smoky.jpg": {
+      "subject": "stage: cut (color-spectrum set) — hue: grayish brown (sort 525) — octagonal step 35.05 ct, Scotland, UK; NMNH G1374 Quartz, color Medium Light Gray Brown (record does not use the name cairngorm); sour",
+      "author": "Smithsonian Institution, NMNH (CC0, no attribution required)",
+      "license": "CC0",
+      "source": "Smithsonian Institution Open Access (NMNH Mineral Sciences)",
+      "page": "http://n2t.net/ark:/65665/3164ef605-9753-4d54-812c-4f6e22347a94",
+      "width": 900,
+      "height": 601,
+      "bytes": 24637
+    },
+    "quartz-star-rose.jpg": {
+      "subject": "stage: cut (color-spectrum set) — hue: peach-pink (STAR) (sort 350) — STAR rose quartz cabochon 1,438.5 ct, Madagascar; Houston Museum of Natural Science display (Ed Uthman caption); source item: Star",
+      "author": "Ed Uthman from Houston, TX, USA",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File%3AStar_Rose_Quartz_%284739173163%29.jpg",
+      "width": 875,
+      "height": 900,
+      "bytes": 30320
+    },
+    "rose-quartz-cut.jpg": {
+      "subject": "stage: cut (color-spectrum set) — hue: light pink (sort 338) — rectangular step 0.75 ct, Madagascar; NMNH G10662 Quartz (no variety named), color Pink; source item: Quartz (NMNH G10662-00); visually c",
+      "author": "Smithsonian Institution, NMNH (CC0, no attribution required)",
+      "license": "CC0",
+      "source": "Smithsonian Institution Open Access (NMNH Mineral Sciences)",
+      "page": "http://n2t.net/ark:/65665/371d62830-1b74-4873-a190-754649cccdc5",
+      "width": 900,
+      "height": 601,
+      "bytes": 22288
+    },
+    "rose-quartz-pink.jpg": {
+      "subject": "stage: cut (color-spectrum set) — hue: pink (sort 340) — step cut 2 x 1.5 cm, Minas Gerais, Brazil (Didier Descouens caption); source item: Rosetaille.jpg; author: Didier Descouens; visually checked; ",
+      "author": "Didier Descouens",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File%3ARosetaille.jpg",
+      "width": 900,
+      "height": 573,
+      "bytes": 24188
+    },
+    "ruby-anyolite.jpg": {
+      "subject": "Anyolite from the Precambrian of Tanzania. (4.7 centimeters across at its widest) Green = Cr-zoisite Black = amphibole Reddish = ruby (corun",
+      "author": "James St. John",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Anyolite_(corundum-amphibole_zoisitite)_(Neoproterozoic;_Mundarara_Mine,_about_27_km_west_of_Longido,_Tanzania)_1_(15098298782).jpg",
+      "width": 900,
+      "height": 551,
+      "bytes": 117958
+    },
+    "ruby-carmen-lucia.jpg": {
+      "subject": "Carmen Lúcia Ruby 23.10 carats Burma Among the finest large, faceted Burmese rubies known, the stone was mined from the fabled Mogok region",
+      "author": "thisisbossi from Washington, DC, USA",
+      "license": "CC BY-SA 2.0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:2009_04_19_-_4689_-_Washington_DC_-_Natural_History_Museum_-_Carmen_L%C3%BAcia_Ruby_(3527512212).jpg",
+      "width": 900,
+      "height": 797,
+      "bytes": 31199
+    },
+    "ruby-crystal-mandalay.jpg": {
+      "subject": "Corundum (var. ruby) — Mandalay, Myanmar (image 1) (NMNH R7701-00) — stage: rough — crystal group on matrix, Mandalay, Myanmar; same NMNH record as ruby-pair-01; visually checked; license verified on ",
+      "author": "Smithsonian Institution, NMNH (CC0, no attribution required)",
+      "license": "CC0",
+      "source": "Smithsonian Institution Open Access (NMNH Mineral Sciences)",
+      "page": "http://n2t.net/ark:/65665/3892a869a-b2e8-47b5-872a-07aa8b494d7d",
+      "width": 900,
+      "height": 591,
+      "bytes": 48174
+    },
+    "ruby-crystal.jpg": {
+      "subject": "Corundum (var. ruby) — Azad Kashmir, Pakistan (NMNH 176171-00) — stage: rough — gemmy pink-red crystal on marble matrix, Azad Kashmir, Pakistan; visually checked; license verified on file/record page ",
+      "author": "Smithsonian Institution, NMNH (CC0, no attribution required)",
+      "license": "CC0",
+      "source": "Smithsonian Institution Open Access (NMNH Mineral Sciences)",
+      "page": "http://n2t.net/ark:/65665/3acc23f9e-5a88-450c-b932-73ae8ca1d7a9",
+      "width": 900,
+      "height": 600,
+      "bytes": 30830
+    },
+    "ruby-star-delong.jpg": {
+      "subject": "DeLong Star Ruby at American Museum of Natural History",
+      "author": "Vicpeters",
+      "license": "CC BY 4.0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:DeLong_Star_Ruby.jpg",
+      "width": 900,
+      "height": 728,
+      "bytes": 251975
+    },
+    "ruby-star-rosser-reeves.jpg": {
+      "subject": "Rosser Reeves Ruby 138.7 carats Sri Lanka 2010 06 29 - Used by Juvella",
+      "author": "thisisbossi from Washington, DC, USA",
+      "license": "CC BY-SA 2.0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:2009_04_19_-_4700_-_Washington_DC_-_Natural_History_Museum_-_Rosser_Reeves_Ruby_(3526704403).jpg",
+      "width": 880,
+      "height": 900,
+      "bytes": 22646
+    },
+    "ruby-winza.jpg": {
+      "subject": "Ruby and Kyanite Locality: Winza, Mpwapwa, Mpwapwa District, Dodoma region, Tanzania Exquisite, lustrous and gemmy ruby crystals in matrix,",
+      "author": "StrangerThanKindness",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Ruby_-_Winza,_Tanzania.jpg",
+      "width": 602,
+      "height": 802,
+      "bytes": 97093
+    },
+    "sapphire-bismarck.jpg": {
+      "subject": "IMG_1711",
+      "author": "Cliff from I now live in Arlington, VA (Outside Washington DC), USA",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Bismarck_Necklace.jpg",
+      "width": 600,
+      "height": 900,
+      "bytes": 35412
+    },
+    "sapphire-black-star.jpg": {
+      "subject": "stage: cut (color-spectrum set) — hue: black (STAR) (sort 510) — STAR SAPPHIRE — black star cabochon (uploader caption \"Black star sapphire\"; no other data); source item: Black star image.jpg; author:",
+      "author": "Factor801",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File%3ABlack_star_image.jpg",
+      "width": 648,
+      "height": 532,
+      "bytes": 29215
+    },
+    "sapphire-blue-2.jpg": {
+      "subject": "stage: cut (color-spectrum set) — hue: blue (slightly teal) (sort 222) — oval 4.71 ct, Malawi; NMNH lists taxon as Corundum, color Blue; source item: Corundum (NMNH G11482-00); visually checked; licen",
+      "author": "Smithsonian Institution, NMNH (CC0, no attribution required)",
+      "license": "CC0",
+      "source": "Smithsonian Institution Open Access (NMNH Mineral Sciences)",
+      "page": "http://n2t.net/ark:/65665/312ccf5cc-da37-48b5-a4a1-08472ce59ce9",
+      "width": 900,
+      "height": 866,
+      "bytes": 30013
+    },
+    "sapphire-fancy-rough.jpg": {
+      "subject": "Sapphires (Corundums).",
+      "author": "Azuncha",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Sapphire01.jpg",
+      "width": 900,
+      "height": 726,
+      "bytes": 83508
+    },
+    "sapphire-logan.jpg": {
+      "subject": "Logan sapphire with diamonds, National Museum of Natural History, Washington DC",
+      "author": "Chip Clark, Smithsonian staff",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Logan_Sapphire_SI.jpg",
+      "width": 642,
+      "height": 900,
+      "bytes": 83730
+    },
+    "sapphire-montana-rock-creek.jpg": {
+      "subject": "Sapphire originating from Rock Creek in Montana",
+      "author": "Astynax",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Sapphiremontanarockcr.jpg",
+      "width": 400,
+      "height": 400,
+      "bytes": 14881
+    },
+    "sapphire-orange.jpg": {
+      "subject": "stage: cut (color-spectrum set) — hue: orange (sort 30) — cushion mixed cut 2.92 ct, Sri Lanka; NMNH Corundum (var. sapphire), color Medium Orange; source item: Corundum (var. sapphire) (NMNH G10087-0",
+      "author": "Smithsonian Institution, NMNH (CC0, no attribution required)",
+      "license": "CC0",
+      "source": "Smithsonian Institution Open Access (NMNH Mineral Sciences)",
+      "page": "http://n2t.net/ark:/65665/325cc21a5-aa95-4556-b43a-09bbd7040c42",
+      "width": 900,
+      "height": 600,
+      "bytes": 71139
+    },
+    "sapphire-purple.jpg": {
+      "subject": "stage: cut (color-spectrum set) — hue: blue-purple (record) / pinkish violet in photo (sort 278) — oval mixed 42.2 ct, Sri Lanka; NMNH G4371 Corundum (var. sapphire), color Medium Dark Blue Purple; ph",
+      "author": "Smithsonian Institution, NMNH (CC0, no attribution required)",
+      "license": "CC0",
+      "source": "Smithsonian Institution Open Access (NMNH Mineral Sciences)",
+      "page": "http://n2t.net/ark:/65665/3809d9004-010d-405b-a83d-4fd764a1267d",
+      "width": 900,
+      "height": 604,
+      "bytes": 48468
+    },
+    "sapphire-rainbow-group.jpg": {
+      "subject": "stage: cut (color-spectrum set) — hue: multicolor group (yellow, orange, pink, purple, green, near-colorless, gray-blue) (sort 405) — GROUP of 10 sapphires; image shared by NMNH records G3549 (92.6 ct",
+      "author": "Smithsonian Institution, NMNH (CC0, no attribution required)",
+      "license": "CC0",
+      "source": "Smithsonian Institution Open Access (NMNH Mineral Sciences)",
+      "page": "http://n2t.net/ark:/65665/31f5679c9-cf68-4a08-8e44-f41df600e06e",
+      "width": 900,
+      "height": 600,
+      "bytes": 60129
+    },
+    "sapphire-rainbow-parcel.jpg": {
+      "subject": "stage: cut (color-spectrum set) — hue: multicolor parcel (yellow, pink, blue-gray) (sort 410) — parcel of round brilliants, Montana, USA; image shared by NMNH G2029 (57.88 ct total) and G3365 (153.2 c",
+      "author": "Smithsonian Institution, NMNH (CC0, no attribution required)",
+      "license": "CC0",
+      "source": "Smithsonian Institution Open Access (NMNH Mineral Sciences)",
+      "page": "http://n2t.net/ark:/65665/3612adf81-520c-453f-9594-af37e092f54c",
+      "width": 600,
+      "height": 900,
+      "bytes": 107460
+    },
+    "sapphire-rough-sri-lanka.jpg": {
+      "subject": "Blue corundum (sapphire) from Sri Lanka. (~1.65 centimeters tall) A mineral is a naturally-occurring, solid, inorganic, crystalline substanc",
+      "author": "James St. John",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Sapphire_(gem_gravel_mine,_Ratnapura_area,_Sri_Lanka)_4_(34726079991).jpg",
+      "width": 737,
+      "height": 900,
+      "bytes": 103774
+    },
+    "sapphire-star-blue.jpg": {
+      "subject": "stage: cut (color-spectrum set) — hue: blue (STAR) (sort 238) — STAR SAPPHIRE — \"Star of Asia\", round cabochon 330 ct, Myanmar; NMNH G3688, color Medium Dark Blue; source item: Star of Asia (NMNH G368",
+      "author": "Smithsonian Institution, NMNH (CC0, no attribution required)",
+      "license": "CC0",
+      "source": "Smithsonian Institution Open Access (NMNH Mineral Sciences)",
+      "page": "http://n2t.net/ark:/65665/3213538e1-d0c3-4b5e-b212-63812b93b148",
+      "width": 600,
+      "height": 900,
+      "bytes": 18577
+    },
+    "sapphire-star-of-asia.jpg": {
+      "subject": "Star of Asia Sapphire 330 carats Burma Rumored to have once belonged to India's Maharajah of Jodhpur.",
+      "author": "thisisbossi from Washington, DC, USA",
+      "license": "CC BY-SA 2.0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Natural_History_Museum_-_Star_of_Asia_Sapphire_(close_crop).jpg",
+      "width": 889,
+      "height": 900,
+      "bytes": 47763
+    },
+    "sapphire-star-of-bombay.jpg": {
+      "subject": "Star of Bombay sapphire from Sri Lanka",
+      "author": "James St. John",
+      "license": "CC0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Star_of_Bombay.jpg",
+      "width": 600,
+      "height": 900,
+      "bytes": 32620
+    },
+    "sapphire-star-of-india.jpg": {
+      "subject": "Star of India Sapphire",
+      "author": "Vicpeters",
+      "license": "CC BY 4.0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Star_Of_India_Sapphire_1.jpg",
+      "width": 900,
+      "height": 675,
+      "bytes": 148036
+    },
+    "sapphire-star-violet.jpg": {
+      "subject": "stage: cut (color-spectrum set) — hue: violetish blue (STAR) (sort 240) — STAR SAPPHIRE — \"Star of Bombay\", oval cabochon 182 ct, Sri Lanka; NMNH G8845, color Medium Dark Blue; source item: Star of Bo",
+      "author": "Smithsonian Institution, NMNH (CC0, no attribution required)",
+      "license": "CC0",
+      "source": "Smithsonian Institution Open Access (NMNH Mineral Sciences)",
+      "page": "http://n2t.net/ark:/65665/38a5a3015-ee09-41e8-8e71-4ce70a955988",
+      "width": 600,
+      "height": 900,
+      "bytes": 32930
+    },
+    "sapphire-white.jpg": {
+      "subject": "stage: cut (color-spectrum set) — hue: colorless (white / leucosapphire) (sort 500) — museum display labelled \"SAPHIR, farblos (Leukosaphir) Ceylon\", Mineralogical Museum Bonn; small pieces, cut state",
+      "author": "Ra'ike (see also: de:Benutzer:Ra'ike)",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File%3AKorund_-_Leukosaphir_-_Ceylon.jpg",
+      "width": 900,
+      "height": 711,
+      "bytes": 237536
+    },
+    "sapphire-yellow-glow.jpg": {
+      "subject": "Fluorescence reaction: Strong red fluorescence under UV light",
+      "author": "Laiyinann",
+      "license": "CC0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Yellow_sapphire_strong_red_fluorescence_Art_Deco_era.jpg",
+      "width": 900,
+      "height": 900,
+      "bytes": 119750
+    },
+    "sapphire-yogo.jpg": {
+      "subject": "0.43 carat, high quality, cornflower blue Yogo sapphire from Yogo Gulch, Montana. This gem is cut in the pear shape.",
+      "author": "PumpkinSky",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Cornflower_blue_Yogo_sapphire.jpg",
+      "width": 748,
+      "height": 900,
+      "bytes": 41283
+    },
+    "spinel-black.jpg": {
+      "subject": "Black spinel, Sri Lanka (Erbil Stones and Gems Museum)",
+      "author": "Osama Shukir Muhammed Amin",
+      "license": "CC BY-SA 4.0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Black_spinel_from_Sri_Lanka._Erbil_Stones_and_Gems_Museum,_Erbil_Citadel,_Hawler,_Iraq.jpg",
+      "width": 703,
+      "height": 900,
+      "bytes": 90721
+    },
+    "spinel-blue.jpg": {
+      "subject": "stage: cut (color-spectrum set) — hue: blue (sort 225) — oval 14.02 ct, Sri Lanka (NMNH G10629); source item: Spinel (NMNH G10629-00); visually checked; license verified on file/record page 2026-10-08",
+      "author": "Smithsonian Institution, NMNH (CC0, no attribution required)",
+      "license": "CC0",
+      "source": "Smithsonian Institution Open Access (NMNH Mineral Sciences)",
+      "page": "http://n2t.net/ark:/65665/379d49c14-ccbd-47a5-a355-def8292026da",
+      "width": 900,
+      "height": 600,
+      "bytes": 46171
+    },
+    "spinel-crown-black-prince.jpg": {
+      "subject": "Imperial State Crown (illustration); Black Prince's Ruby (spinel) at front",
+      "author": "Cyril James Humphries Davenport (d. 1941)",
+      "license": "Public domain (PD-Art / PD-old)",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:ImperialStateCrown.jpg",
+      "width": 500,
+      "height": 590,
+      "bytes": 54869
+    },
+    "spinel-hot-pink.jpg": {
+      "subject": "stage: cut (color-spectrum set) — hue: hot pink (sort 325) — oval 5.78 ct, Tanzania (NMNH G10558, Pink); source item: Spinel (NMNH G10558-00); visually checked; license verified on file/record page 20",
+      "author": "Smithsonian Institution, NMNH (CC0, no attribution required)",
+      "license": "CC0",
+      "source": "Smithsonian Institution Open Access (NMNH Mineral Sciences)",
+      "page": "http://n2t.net/ark:/65665/3c658a7c3-992b-475e-8e30-d443acb3bc25",
+      "width": 900,
+      "height": 663,
+      "bytes": 29420
+    },
+    "spinel-lavender.jpg": {
+      "subject": "stage: cut (color-spectrum set) — hue: light purple (sort 280) — modified triangle 3.87 ct, Luc Yen, Vietnam (NMNH G10094); source item: Spinel (NMNH G10094-00); visually checked; license verified on ",
+      "author": "Smithsonian Institution, NMNH (CC0, no attribution required)",
+      "license": "CC0",
+      "source": "Smithsonian Institution Open Access (NMNH Mineral Sciences)",
+      "page": "http://n2t.net/ark:/65665/3dc170df7-dcc3-4bf4-bf4b-a744706fff67",
+      "width": 900,
+      "height": 601,
+      "bytes": 23391
+    },
+    "spinel-pink.jpg": {
+      "subject": "stage: cut (color-spectrum set) — hue: pink (sort 345) — oval 16.79 ct, Tajikistan (NMNH G10630); source item: Spinel (NMNH G10630-00); visually checked; license verified on file/record page 2026-10-0",
+      "author": "Smithsonian Institution, NMNH (CC0, no attribution required)",
+      "license": "CC0",
+      "source": "Smithsonian Institution Open Access (NMNH Mineral Sciences)",
+      "page": "http://n2t.net/ark:/65665/371f9d7de-cc3e-478e-96db-5ddb07c985cd",
+      "width": 900,
+      "height": 600,
+      "bytes": 59601
+    },
+    "spinel-rainbow.jpg": {
+      "subject": "stage: cut (color-spectrum set) — hue: multicolor: pink, purple, lavender, blue, red (sort 400) — circle of ~40 cut spinels, Vietnam (NMNH G11463); source item: Spinel (NMNH G11463-00); visually check",
+      "author": "Smithsonian Institution, NMNH (CC0, no attribution required)",
+      "license": "CC0",
+      "source": "Smithsonian Institution Open Access (NMNH Mineral Sciences)",
+      "page": "http://n2t.net/ark:/65665/3a3b9a39a-a0a0-4d28-b607-1b20c493a8cb",
+      "width": 900,
+      "height": 569,
+      "bytes": 44700
+    },
+    "spinel-red-crystal-mogok.jpg": {
+      "subject": "Red spinel crystals, Mogok Metamorphic Belt, Myanmar",
+      "author": "James St. John",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Spinel_(Mogok_Metamorphic_Belt,_Jurassic_to_Miocene;_Momeik_Township,_Shan_State,_Burma).jpg",
+      "width": 900,
+      "height": 667,
+      "bytes": 104177
+    },
+    "sunstone.jpg": {
+      "subject": "stage: cut — hue: red-orange (sort 0) — oval cabochon 13 ct, Tvedestrand, Norway; NMNH G3273 Oligoclase (var. sunstone); source item: Oligoclase (var. sunstone) (NMNH G3273-00); visually checked; lice",
+      "author": "Smithsonian Institution, NMNH (CC0, no attribution required)",
+      "license": "CC0",
+      "source": "Smithsonian Institution Open Access (NMNH Mineral Sciences)",
+      "page": "http://n2t.net/ark:/65665/38a981e55-0105-4786-972b-f24c624faa5b",
+      "width": 900,
+      "height": 600,
+      "bytes": 45194
+    },
+    "tanzanite-crystal.jpg": {
+      "subject": "Tanzanite (Merelani Tanzanite Deposit, Merelani Hills, Arusha, Tanzania).JPG — miner/cutter people photos and hologram skipped",
+      "author": "James St. John",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Tanzanite_(Merelani_Tanzanite_Deposit,_Merelani_Hills,_Arusha,_Tanzania).JPG",
+      "width": 771,
+      "height": 900,
+      "bytes": 145194
+    },
+    "tanzanite.jpg": {
+      "subject": "stage: cut — hue: very dark violet blue (tanzanite) (sort 0) — cushion step 122.7 ct, Mwadui, Tanzania; NMNH G4876 Zoisite (var. tanzanite); record says nothing about heating — no claim made; source i",
+      "author": "Smithsonian Institution, NMNH (CC0, no attribution required)",
+      "license": "CC0",
+      "source": "Smithsonian Institution Open Access (NMNH Mineral Sciences)",
+      "page": "http://n2t.net/ark:/65665/35e65ef0d-76f5-42f2-a13d-9ed1f007282f",
+      "width": 900,
+      "height": 600,
+      "bytes": 26706
+    },
+    "tigers-eye.jpg": {
+      "subject": "Tiger eye (GeoDIL number - 2519).jpg — includes blue (hawk/falcon eye) and red (GeoDIL 702) forms",
+      "author": "Darla Sondrol",
+      "license": "CC0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Tiger_eye_(GeoDIL_number_-_2519).jpg",
+      "width": 900,
+      "height": 660,
+      "bytes": 143000
+    },
+    "topaz-imperial.jpg": {
+      "subject": "1832 Imperial Topaz (38900014914).jpg — visually checked; ring sale-style photo skipped",
+      "author": "Thomas Quine",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:1832_Imperial_Topaz_(38900014914).jpg",
+      "width": 900,
+      "height": 600,
+      "bytes": 39150
+    },
+    "topaz.jpg": {
+      "subject": "stage: cut — hue: (record color blank) (sort 0) — 8.87 ct, San Luis Potosí, Mexico; NMNH G10681; record color and cut blank; source item: Topaz (NMNH G10681-00); visually checked; license verified on ",
+      "author": "Smithsonian Institution, NMNH (CC0, no attribution required)",
+      "license": "CC0",
+      "source": "Smithsonian Institution Open Access (NMNH Mineral Sciences)",
+      "page": "http://n2t.net/ark:/65665/3d93ac10d-acdd-42af-9eed-c26aeb27e35c",
+      "width": 900,
+      "height": 601,
+      "bytes": 40716
+    },
+    "tourmaline-bicolor.jpg": {
+      "subject": "stage: cut (color-spectrum set) — hue: bicolor green / pink (sort 280) — large faceted bicolor oval (uploader caption); source item: Tourmaline bicolore 21207.jpg; author: Vassil; visually checked; li",
+      "author": "Vassil",
+      "license": "Public domain",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File%3ATourmaline_bicolore_21207.jpg",
+      "width": 900,
+      "height": 693,
+      "bytes": 69187
+    },
+    "tourmaline-blue.jpg": {
+      "subject": "stage: cut (color-spectrum set) — hue: light blue (sort 198) — round 26.48 ct, Nigeria (NMNH G10524, Light Blue); source item: Elbaite (NMNH G10524-00); visually checked; license verified on file/reco",
+      "author": "Smithsonian Institution, NMNH (CC0, no attribution required)",
+      "license": "CC0",
+      "source": "Smithsonian Institution Open Access (NMNH Mineral Sciences)",
+      "page": "http://n2t.net/ark:/65665/34484fec0-968f-448c-977b-183391695fd0",
+      "width": 900,
+      "height": 600,
+      "bytes": 78987
+    },
+    "tourmaline-cats-eye.jpg": {
+      "subject": "Cat's-eye tourmaline, Edelsteinmuseum Idar-Oberstein",
+      "author": "Vassil",
+      "license": "CC0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Edelsteinmuseum_10_11_2012_Tourmaline_oeil-de-chat.jpg",
+      "width": 666,
+      "height": 666,
+      "bytes": 46854
+    },
+    "tourmaline-chrome.jpg": {
+      "subject": "Faceted chrome tourmaline 1.49 ct",
+      "author": "James St. John",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Faceted_chrome_tourmaline_1.jpg",
+      "width": 900,
+      "height": 537,
+      "bytes": 54390
+    },
+    "tourmaline-crystal.jpg": {
+      "subject": "stage: rough — hue: pink-red (sort 340) — gem crystal, Mesa Grande, San Diego Co., California (NMNH R50); source item: Elbaite (NMNH R50-00); visually checked; license verified on file/record page 202",
+      "author": "Smithsonian Institution, NMNH (CC0, no attribution required)",
+      "license": "CC0",
+      "source": "Smithsonian Institution Open Access (NMNH Mineral Sciences)",
+      "page": "http://n2t.net/ark:/65665/3ff6e21bd-aa98-48fa-8a9c-b1800cffa2c5",
+      "width": 600,
+      "height": 900,
+      "bytes": 46192
+    },
+    "tourmaline-indicolite.jpg": {
+      "subject": "stage: cut (color-spectrum set) — hue: green-blue (sort 185) — fancy rectangle 12.44 ct, Nigeria (NMNH G10659, Green Blue); source item: Elbaite (NMNH G10659-00); visually checked; license verified on",
+      "author": "Smithsonian Institution, NMNH (CC0, no attribution required)",
+      "license": "CC0",
+      "source": "Smithsonian Institution Open Access (NMNH Mineral Sciences)",
+      "page": "http://n2t.net/ark:/65665/3dceee5f6-09f5-46c7-976d-f79e93d300c9",
+      "width": 900,
+      "height": 601,
+      "bytes": 34139
+    },
+    "tourmaline-paraiba-crystal.jpg": {
+      "subject": "Paraíba tourmaline crystal, Batalha mine, São José da Batalha, Paraíba, Brazil",
+      "author": "Parent Géry",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Tourmaline_para%C3%AFba_(Br%C3%A9sil).JPG",
+      "width": 583,
+      "height": 900,
+      "bytes": 85421
+    },
+    "tourmaline-rainbow.jpg": {
+      "subject": "Faceted tourmalines in various colors",
+      "author": "Michelle Jo",
+      "license": "Public domain (PD-self)",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Tourmaline_Gemstones.JPG",
+      "width": 900,
+      "height": 600,
+      "bytes": 31826
+    },
+    "tourmaline-rubellite.jpg": {
+      "subject": "Rubellite 2.25 ct",
+      "author": "James St. John",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Rubellite_tourmaline_1.jpg",
+      "width": 900,
+      "height": 431,
+      "bytes": 46409
+    },
+    "tourmaline-uvite.jpg": {
+      "subject": "Faceted uvite, Brazil",
+      "author": "Eurico Zimbres; cut by Afonso Marques",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Uvite_cut.jpg",
+      "width": 900,
+      "height": 648,
+      "bytes": 69182
+    },
+    "tourmaline-verdelite.jpg": {
+      "subject": "Green tourmaline (verdelite), emerald cut",
+      "author": "Wela49 (de.wikipedia)",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Tourmaline_cut.JPG",
+      "width": 411,
+      "height": 323,
+      "bytes": 11057
+    },
+    "tourmaline-watermelon.jpg": {
+      "subject": "Watermelon elbaite, Maine Mineral and Gem Museum",
+      "author": "Graeme Churchard (GOC53)",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Maine_Mineral_and_Gem_Museum,_Bethel_-_Elbaite_tourmaline_-_watermelon_tourmaline.jpg",
+      "width": 600,
+      "height": 900,
+      "bytes": 64506
+    },
+    "turquoise.jpg": {
+      "subject": "stage: cut — hue: light green blue (sort 0) — oval cabochon, Arizona, USA; NMNH G8511; record says nothing about stabilization — no claim made; source item: Turquoise (NMNH G8511-00); visually checked",
+      "author": "Smithsonian Institution, NMNH (CC0, no attribution required)",
+      "license": "CC0",
+      "source": "Smithsonian Institution Open Access (NMNH Mineral Sciences)",
+      "page": "http://n2t.net/ark:/65665/34ee2b5c6-fad2-415e-b51a-7b9f74ba55a8",
+      "width": 900,
+      "height": 601,
+      "bytes": 24851
+    },
+    "zircon.jpg": {
+      "subject": "stage: cut — hue: blue (sort 0) — round brilliant 5.96 ct, Cambodia; NMNH G10660; record says nothing about treatment — no claim made; source item: Zircon (NMNH G10660-00); visually checked; license v",
+      "author": "Smithsonian Institution, NMNH (CC0, no attribution required)",
+      "license": "CC0",
+      "source": "Smithsonian Institution Open Access (NMNH Mineral Sciences)",
+      "page": "http://n2t.net/ark:/65665/337746730-b623-45f8-84ed-3f1601be1af5",
+      "width": 900,
+      "height": 811,
+      "bytes": 85515
+    }
+  }
+}
