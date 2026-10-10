@@ -87,8 +87,7 @@ def lane_status():
     """Return {lane: {"latest": date str, "at": PT time, "file": path, ...}} from files on disk. Never guesses."""
     out = {}
     runs = sorted((WS / "acquisitions/deal-scout").glob("20??-??-??-run.md"))
-    if runs:
-        f = runs[-1]; first = f.read_text(errors="ignore").splitlines()[0] if f.stat().st_size else ""
+    def _ds_top(f):
         top = ""; prev = ""
         for line in f.read_text(errors="ignore").splitlines():
             if line.startswith("| 1 |"):
@@ -97,6 +96,14 @@ def lane_status():
             if m and ("Track A" in prev or "re-ranked" in prev):   # inline "1 Name (…) · 2 …" format (Oct 7+)
                 top = m.group(1).replace("**", "").strip(" ,"); break
             if line.strip(): prev = line
+        return top
+    if runs:
+        f = runs[-1]; first = f.read_text(errors="ignore").splitlines()[0] if f.stat().st_size else ""
+        top = _ds_top(f)
+        if not top and re.search(r"Track A ranked:\s*\**all unchanged", f.read_text(errors="ignore")):
+            for r in reversed(runs[:-1]):   # "all unchanged" days carry the last ranked #1 forward, labeled
+                t = _ds_top(r)
+                if t: top = f"{t} (ranking unchanged since {r.name[:10]})"; break
         out["Deal Scout"] = {"latest": f.name[:10], "at": _mt(f).strftime("%b %-d %-I:%M %p PT"), "file": str(f),
                              "runs": [r.name[:10] for r in runs[-5:]], "top_pick": top, "title": first.lstrip("# ")}
     posted = WS / "affiliate/pins/posted.md"
