@@ -3,7 +3,7 @@
     "title": "Fresh $$ Control Center",
     "owner": "Joshua",
     "assistant": "Fresh $$",
-    "last_updated": "2026-10-11T08:46:14-07:00",
+    "last_updated": "2026-10-11T12:24:11-07:00",
     "status_note": "Morning update Sun Oct 11, 2026 ~8:50 AM PT. Revenue $0 every lane. PrintPlz: 80 active, 0 orders, 16 views / 10 visits last 7 days (Shop Manager 8:28 AM; down from 25 / 14 as older days roll off); AM loop fixed personalization and description wording on TC1/TC3/TC4. HostFees: kit links live (prod 06f7fa08); 30 of 49 pins, drip still paused on purpose until Joshua checks the Pinterest account; Cloudflare 7d 50 visits (raw). WebsitePlz: 382 visits 7d (raw). Deal Scout Oct 11: no standouts; new Quiet Light Amazon candidate 18830049 audited (pass at ask, watch only). Email sweep: nothing important. Other account: latest verified roll-up still Oct 10 8:21 PM PT. Next 72h: Mon Oct 12 9:13 AM PT usage reset + private video test (journey YouTube channel needed first); Tue Oct 13 Airbnb fee change; JuniperMist (~Tue Oct 13) and UK Amazon FBA (~Wed Oct 14) listings close (watch only)."
   },
   "budget": {
@@ -2080,7 +2080,7 @@
       "account": "Other bots",
       "primary": "visits",
       "secondary": "views",
-      "status": "Site HTTPS OK, all 8 pages 200 (Oct 9 12:35 PM PT); Etsy vacation, 0 listings; Etsy stats paused, pending cutover (last read Oct 6: 0 visits); Search Console DNS record not added yet",
+      "status": "Site HTTPS OK, home + 7 pages 200 at 0.07-0.11 s (Oct 11 12:25 PM PT); sitemap 8 URLs, lastmod still Oct 5 (no site changes since); Etsy vacation, 0 listings (last known); Etsy stats paused, pending cutover (last read Oct 6: 0 visits); Search Console DNS record still not added (checked Oct 11 12:25 PM PT)",
       "needs": "Joshua: Search Console domain property + DNS verification record; Family Gem bot: Etsy access not set up yet (cutover pending)"
     }
   ],

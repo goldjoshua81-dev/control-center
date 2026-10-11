@@ -104,6 +104,10 @@ def lane_status():
             for r in reversed(runs[:-1]):   # "all unchanged" days carry the last ranked #1 forward, labeled
                 t = _ds_top(r)
                 if t: top = f"{t} (ranking unchanged since {r.name[:10]})"; break
+        if not top:   # run file has no ranking line at all (e.g. Oct 11 "Standouts: none" format): carry forward, labeled
+            for r in reversed(runs[:-1]):
+                t = _ds_top(r)
+                if t: top = f"{t} (no new ranking in today's run; last ranked {r.name[:10]})"; break
         out["Deal Scout"] = {"latest": f.name[:10], "at": _mt(f).strftime("%b %-d %-I:%M %p PT"), "file": str(f),
                              "runs": [r.name[:10] for r in runs[-5:]], "top_pick": top, "title": first.lstrip("# ")}
     posted = WS / "affiliate/pins/posted.md"
