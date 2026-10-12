@@ -3,8 +3,8 @@
     "title": "Fresh $$ Control Center",
     "owner": "Joshua",
     "assistant": "Fresh $$",
-    "last_updated": "2026-10-11T12:24:11-07:00",
-    "status_note": "Morning update Sun Oct 11, 2026 ~8:50 AM PT. Revenue $0 every lane. PrintPlz: 80 active, 0 orders, 16 views / 10 visits last 7 days (Shop Manager 8:28 AM; down from 25 / 14 as older days roll off); AM loop fixed personalization and description wording on TC1/TC3/TC4. HostFees: kit links live (prod 06f7fa08); 30 of 49 pins, drip still paused on purpose until Joshua checks the Pinterest account; Cloudflare 7d 50 visits (raw). WebsitePlz: 382 visits 7d (raw). Deal Scout Oct 11: no standouts; new Quiet Light Amazon candidate 18830049 audited (pass at ask, watch only). Email sweep: nothing important. Other account: latest verified roll-up still Oct 10 8:21 PM PT. Next 72h: Mon Oct 12 9:13 AM PT usage reset + private video test (journey YouTube channel needed first); Tue Oct 13 Airbnb fee change; JuniperMist (~Tue Oct 13) and UK Amazon FBA (~Wed Oct 14) listings close (watch only)."
+    "last_updated": "2026-10-11T21:13:00-07:00",
+    "status_note": "Evening update Sun Oct 11, 2026 ~9:15 PM PT (Chief of Staff nightly; quiet day). No missed runs; revenue $0 every lane. PrintPlz: 80 active / 1 draft / 2 inactive, 16 views / 10 visits last 7 days, 0 orders (Shop Manager 8:28 AM). HostFees: 30 of 49 pins, drip paused on purpose until Joshua checks the Pinterest account. Deal Scout: Quiet Light 18830049 (sports nutrition, $3.7M ask) scored 4.9 earn-in, pass at ask, watch only. Search Console: websiteplz.com was done Oct 3-4 (per WebsitePlz); hostfees.com and thefamilygems.com still open. Other account: verified roll-up Oct 11 8:28 PM PT, numbers unchanged. Next 72h: Mon Oct 12 8:03 AM PT first journey video script (needs the YouTube channel first), 9:13 AM PT usage reset; Tue Oct 13 Airbnb EEA VAT change, week-2 kit pin queue blocked on the Pinterest check, JuniperMist early access ends (watch only); ~Wed Oct 14 UK FBA auction 14374265 ends (watch only), Gem Portal Paraiba live event 7:30 PM PT (FYI)."
   },
   "budget": {
     "starting_capital": 1000,
@@ -938,8 +938,8 @@
       "done": true
     },
     {
-      "task": "Set up Google Search Console for hostfees.com, websiteplz.com, and thefamilygems.com",
-      "why": "hostfees.com and websiteplz.com are already collecting (Google emails Oct 6-7); left: submit their sitemaps, and add thefamilygems.com (no Google verification record on its DNS as of Oct 8). Moved up Oct 10 midday: it's the one ~10-minute step that unblocks indexing for The Family Gem Shop's site before listings go live, and HostFees' Oct 10 report calls it the main lever for the Apr 4, 2027 Associates window. Steps for thefamilygems.com: /workspace/familygem/F1-search-console-steps.md.",
+      "task": "Set up Google Search Console for hostfees.com and thefamilygems.com",
+      "why": "websiteplz.com is already done (set up Oct 3-4, per WebsitePlz). hostfees.com is already collecting (Google emails Oct 6-7); left: submit its sitemap, and add thefamilygems.com (no Google verification record on its DNS as of Oct 8). It's the one ~10-minute step that unblocks indexing for The Family Gem Shop's site.",
       "priority": "medium",
       "done": false,
       "rank": 3
@@ -1055,11 +1055,11 @@
       "type": "Business acquisition research",
       "status": "research only",
       "url": "",
-      "status_note": "Research only. Latest run Sun Oct 11 (~7:58-8:10 AM PT): 309 Flippa cards (5 new, all rejected; 12 gone), no standouts, no price-watch triggers. New Amazon candidate Quiet Light 18830049 (sports nutrition, $3.695M ask, owner's attention elsewhere, listing says in decline): public-only audit ranked it 6th of 6, pass at ask, watch only. ChatDix cut again (BIN $3,000, watch only); RedSnout back up to $2,998. Top small pick still SEO Supremacy 12248731 ($3,000). JuniperMist First Access ends ~Tue Oct 13; UK Amazon FBA Ltd (14374265) ends ~Wed Oct 14, no bids (both watch only). Quiet Light and Empire Flippers tracked listings unchanged; letters stay on hold. No purchase activity.",
+      "status_note": "Research only. Latest run Sun Oct 11 (~7:58-8:10 AM PT): 309 Flippa cards (5 new, all rejected; 12 gone), no standouts, no price-watch triggers. New Amazon candidate Quiet Light 18830049 (sports nutrition, $3.695M ask, owner's attention elsewhere, listing says in decline): public-only audit scored it 4.9 earn-in (6th of 6), pass at ask, watch only. ChatDix cut again (BIN $3,000, watch only); RedSnout back up to $2,998. Top small pick still SEO Supremacy 12248731 ($3,000). JuniperMist First Access ends ~Tue Oct 13; UK Amazon FBA Ltd (14374265) ends ~Wed Oct 14, no bids (both watch only). Quiet Light and Empire Flippers tracked listings unchanged; letters stay on hold. No purchase activity.",
       "budget_limit": "$5,000",
       "revenue": 0,
       "profit": 0,
-      "one_liner": "Research only · SEO Supremacy top small pick · 6 inquiry letters reviewed, none approved to send · golf earn-in talk worth having · $0"
+      "one_liner": "Research only · SEO Supremacy top small pick · QL 18830049 sports nutrition ($3.7M ask) 4.9 earn-in, pass, watch only · letters on hold · $0"
     },
     {
       "id": "websiteplz",
@@ -1735,8 +1735,8 @@
   ],
   "other_account": {
     "label": "Other account (Grok Bot)",
-    "as_of": "Verified roll-up 2026-10-10_2021 (482a626703b3, as of Oct 10 8:21 PM PT). Paper-lane numbers below are as of that roll-up (desk shelf last updated Oct 9 1:12 PM PT; no desk re-sync Oct 10). Family Gem Etsy stats are paused, pending cutover. Nothing was traded, published, spent or turned on.",
-    "source_note": "Latest verified roll-up 2026-10-10_2021_incubator_rollup.md (482a626703b3). Real numbers only; \"unknown\" means not verified. Paper lanes are paper only. Nothing was traded, published, spent, or turned on. None of these numbers count toward this account's totals.",
+    "as_of": "Verified roll-up 2026-10-11_2028 (33aac716a07f, as of Oct 11 8:28 PM PT); numbers unchanged from Oct 10. Paper-lane numbers below are as of that roll-up (desk shelf last updated Oct 9 1:12 PM PT; no desk re-sync). Family Gem Etsy stats are paused, pending cutover. Nothing was traded, published, spent or turned on.",
+    "source_note": "Latest verified roll-up 2026-10-11_2028_incubator_rollup.md (33aac716a07f). Real numbers only; \"unknown\" means not verified. Paper lanes are paper only. Nothing was traded, published, spent, or turned on. None of these numbers count toward this account's totals.",
     "shops": [
       {
         "name": "MoonletterMira",
@@ -1772,7 +1772,7 @@
         "one_liner": "Not open · $0 spent · catalog waiting on Joshua"
       }
     ],
-    "paper_lanes_note": "Paper only, no real money. Numbers from the Oct 10 8:21 PM PT roll-up (read 8:20 PM PT). Per the usage-cut result (Oct 8 6:02 PM PT), Politics, Sports and Polymarket are paused and the Moon scalper paused after its RIOT paper stop (Oct 8 9:31 AM PT); Stocks Edge still holds ZS and TWLO on paper.",
+    "paper_lanes_note": "Paper only, no real money. Numbers from the Oct 11 8:28 PM PT roll-up (unchanged from Oct 10). Per the usage-cut result (Oct 8 6:02 PM PT), Politics, Sports and Polymarket are paused and the Moon scalper paused after its RIOT paper stop (Oct 8 9:31 AM PT); Stocks Edge still holds ZS and TWLO on paper.",
     "paper_lanes": [
       {
         "lane": "Politics",
@@ -1927,11 +1927,11 @@
       }
     ],
     "combined_ads_note": "Combined Etsy Ads (both accounts): PrintPlz ~$3/day from Fri Oct 16, capped at $100/month, plus ML-01 ~$5/day from ~Oct 11 only if Joshua enables it (off now).",
-    "as_of_date": "2026-10-10",
+    "as_of_date": "2026-10-11",
     "revenue": 0,
     "spend_total": 40.48,
     "paper_pnl": -96.22,
-    "paper_pnl_note": "Paper desk $4,903.78 of $5,000.00 start; week P/L -$96.22 (paper money, not real; Oct 10 8:21 PM PT roll-up)",
+    "paper_pnl_note": "Paper desk $4,903.78 of $5,000.00 start; week P/L -$96.22 (paper money, not real; Oct 11 8:28 PM PT roll-up, unchanged)",
     "spend_note": "Family Gem $40.48 ($29 Etsy setup + $11.48 domain); MoonletterMira unknown in full; Help4U $0; today $0",
     "decisions_pending": [
       {
