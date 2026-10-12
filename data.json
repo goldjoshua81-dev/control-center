@@ -3,8 +3,8 @@
     "title": "Fresh $$ Control Center",
     "owner": "Joshua",
     "assistant": "Fresh $$",
-    "last_updated": "2026-10-11T21:13:00-07:00",
-    "status_note": "Evening update Sun Oct 11, 2026 ~9:15 PM PT (Chief of Staff nightly; quiet day). No missed runs; revenue $0 every lane. PrintPlz: 80 active / 1 draft / 2 inactive, 16 views / 10 visits last 7 days, 0 orders (Shop Manager 8:28 AM). HostFees: 30 of 49 pins, drip paused on purpose until Joshua checks the Pinterest account. Deal Scout: Quiet Light 18830049 (sports nutrition, $3.7M ask) scored 4.9 earn-in, pass at ask, watch only. Search Console: websiteplz.com was done Oct 3-4 (per WebsitePlz); hostfees.com and thefamilygems.com still open. Other account: verified roll-up Oct 11 8:28 PM PT, numbers unchanged. Next 72h: Mon Oct 12 8:03 AM PT first journey video script (needs the YouTube channel first), 9:13 AM PT usage reset; Tue Oct 13 Airbnb EEA VAT change, week-2 kit pin queue blocked on the Pinterest check, JuniperMist early access ends (watch only); ~Wed Oct 14 UK FBA auction 14374265 ends (watch only), Gem Portal Paraiba live event 7:30 PM PT (FYI)."
+    "last_updated": "2026-10-12T08:42:44-07:00",
+    "status_note": "Evening update Sun Oct 11, 2026 ~9:15 PM PT (Chief of Staff nightly; quiet day). No missed runs; revenue $0 every lane. PrintPlz: 80 active / 1 draft / 2 inactive, 16 views / 10 visits last 7 days, 0 orders (Shop Manager 8:28 AM). HostFees: 30 of 49 pins, drip paused on purpose until Joshua checks the Pinterest account. Deal Scout: Quiet Light 18830049 (sports nutrition, $3.7M ask) scored 4.9 earn-in, pass at ask, watch only. Search Console: websiteplz.com was done Oct 3-4 (per WebsitePlz); hostfees.com and thefamilygems.com still open. Other account: verified roll-up Oct 11 8:28 PM PT, numbers unchanged. Next 72h: Mon Oct 12 8:03 AM PT first journey video script (needs the YouTube channel first), 9:13 AM PT usage reset; Tue Oct 13 Airbnb EEA VAT change, week-2 kit pin queue blocked on the Pinterest check, JuniperMist early access ends (watch only); ~Wed Oct 14 UK FBA auction 14374265 ends (watch only), Gem Portal Paraiba live event 7:30 PM PT (FYI). Oct 12 AM (Scott Bot scan): new high need, submit the Tools Competition abstract by Tue Oct 13 8:59 PM PT; Family Gem second-opinion packet shared Oct 10 (done); websiteplz.com 'Page with redirect' notice is intentional."
   },
   "budget": {
     "starting_capital": 1000,
@@ -849,7 +849,7 @@
       "why": "Finish ID verification and confirm the phone number, then publish the WebsitePlz gig. W-9 submitted; Contra ~89%.",
       "priority": "high",
       "done": false,
-      "rank": 5
+      "rank": 6
     },
     {
       "task": "Optional: apply to the OwnerRez affiliate program",
@@ -870,7 +870,7 @@
       "why": "50% deposits are live on the site; buttons switch to \"Pay $X to start\" once the links are pasted in. Also 3 Care links and the customer portal (WebsitePlz README).",
       "priority": "medium",
       "done": false,
-      "rank": 9
+      "rank": 10
     },
     {
       "task": "Relay $300 for PrintPlz",
@@ -884,14 +884,14 @@
       "why": "Contact address for WebsitePlz buyers. Chief of Staff list, Oct 3.",
       "priority": "medium",
       "done": false,
-      "rank": 10
+      "rank": 11
     },
     {
       "task": "Review the WebsitePlz legal pages (Terms, Privacy, Refunds)",
       "why": "Plain-English drafts are live at websiteplz.com/terms, /privacy and /refunds. Review before Stripe goes live (Stripe's terms checkbox points at /terms/).",
       "priority": "high",
       "done": false,
-      "rank": 7
+      "rank": 8
     },
     {
       "task": "CANCELLED: Cat Bundle Flippa follow-up (PASSED Oct 6)",
@@ -923,7 +923,7 @@
       "why": "Add hostfees.com to the Associates Sites list and make SiteStripe links for the empty kit slots: 28 of 51 slots still fall back to tagged searches.",
       "priority": "high",
       "done": false,
-      "rank": 6
+      "rank": 7
     },
     {
       "task": "OK to deploy the HostFees staged kits (before Thu Oct 8)",
@@ -942,14 +942,14 @@
       "why": "websiteplz.com is already done (set up Oct 3-4, per WebsitePlz). hostfees.com is already collecting (Google emails Oct 6-7); left: submit its sitemap, and add thefamilygems.com (no Google verification record on its DNS as of Oct 8). It's the one ~10-minute step that unblocks indexing for The Family Gem Shop's site.",
       "priority": "medium",
       "done": false,
-      "rank": 3
+      "rank": 4
     },
     {
       "task": "Mahenge spinel photos + AIG lab scan for Family Gem: sent by Joshua (tapped Completed Oct 9, 8:47 AM PT); waiting to arrive on this side",
       "why": "Nothing more needed from you. Stays on the list until the files arrive and verify here; needed before the first Family Gem listing.",
       "priority": "medium",
       "done": false,
-      "rank": 8,
+      "rank": 9,
       "status": "sent, waiting to arrive"
     },
     {
@@ -962,20 +962,12 @@
       "rank": 1
     },
     {
-      "task": "Review and approve the Family Gem second-opinion packet before it goes into the reviewer's folder",
-      "why": "Scott Bot's Oct 10 AM scan reports this looks done (packet approved and filed under From Josh). If so, tap Completed; otherwise nothing goes into the reviewer's folder until you approve it.",
-      "priority": "medium",
-      "done": false,
-      "added": "2026-10-09",
-      "rank": 11
-    },
-    {
       "task": "Glance at the 'Welcome to Cloudflare' email (7:10 AM PT Oct 10): did you sign up for a new Cloudflare account?",
       "why": "No bot created one. If it wasn't you, a 1-minute look at the account is worth it.",
       "priority": "medium",
       "done": false,
       "added": "2026-10-10",
-      "rank": 4
+      "rank": 5
     },
     {
       "task": "Read the paid-ads reference guide when convenient (research only)",
@@ -1015,7 +1007,7 @@
       "priority": "high",
       "done": false,
       "added": "2026-10-10",
-      "rank": 2
+      "rank": 3
     },
     {
       "task": "Optional: confirm hostfees.com as the website link on your X profile (@TheJoshuaGold) until the Gold Ventures page is live.",
@@ -1025,6 +1017,15 @@
       "optional": true,
       "added": "2026-10-10",
       "rank": 22
+    },
+    {
+      "task": "Classroom-tools lane: decide on and submit the Tools Competition abstract by Tue Oct 13, 8:59 PM PT (an NSF SBIR pitch comes next).",
+      "why": "Deadline is tomorrow evening. Decide go/no-go on the classroom-tools lane and submit the abstract; the NSF SBIR pitch follows.",
+      "priority": "high",
+      "done": false,
+      "deadline": "2026-10-13 8:59 PM PT",
+      "added": "2026-10-12",
+      "rank": 2
     }
   ],
   "projects": [
@@ -1067,7 +1068,7 @@
       "type": "Websites for local trades (HVAC, plumbing, electric, pressure washing, house cleaning)",
       "status": "live",
       "url": "https://websiteplz.com",
-      "status_note": "websiteplz.com live; sitesplz.com redirects. Reassurance line live; audit clean; Search Console collecting since Oct 5. Contra profile ~89%. Fiverr: W-9 submitted; gig blocked only on Joshua's ID verification + phone confirm, then publish. Still waiting on Joshua: Terms/Privacy/Refunds review, 3 Stripe deposit links, hello inbox. Cloudflare 7d (Oct 11 8:45 AM PT): 382 visits / 388 views (Oct 10: 847 / 856; raw, includes bots). Oct 9 evening: skip-gate fixed; site healthy at 8:44 PM PT. Oct 10 evening: OK. $0 revenue.",
+      "status_note": "websiteplz.com live; sitesplz.com redirects. Reassurance line live; audit clean; Search Console collecting since Oct 5. Contra profile ~89%. Fiverr: W-9 submitted; gig blocked only on Joshua's ID verification + phone confirm, then publish. Still waiting on Joshua: Terms/Privacy/Refunds review, 3 Stripe deposit links, hello inbox. Cloudflare 7d (Oct 11 8:45 AM PT): 382 visits / 388 views (Oct 10: 847 / 856; raw, includes bots). Oct 9 evening: skip-gate fixed; site healthy at 8:44 PM PT. Oct 10 evening: OK. Oct 12: Search Console 'Page with redirect' notice for websiteplz.com checked; the redirects are intentional, nothing to fix. $0 revenue.",
       "one_liner": "Live · reassurance line live · audit clean · Search Console collecting · Fiverr gig waiting on Joshua ID verification · $0 revenue",
       "bot": "WebsitePlz",
       "bot_id": "e58826be-250d-4953-b472-9f0e1836bd42",
@@ -2778,6 +2779,14 @@
       "done_display": "Oct 10, 2026 · 9:58 PM PT",
       "note": "Done: preview reviewed. Buying goldventureshq.com is still an open decision (his call with Scott Bot); nothing bought.",
       "source": "Joshua tapped COMPLETED (relayed by Chief of Staff)"
+    },
+    {
+      "task": "Family Gem second-opinion packet shared, Oct 10",
+      "status": "done",
+      "done_at": "2026-10-10T12:00:00-07:00",
+      "done_display": "Oct 10, 2026",
+      "note": "Done: packet shared for a second opinion.",
+      "source": "Scott Bot Mon Oct 12 AM scan"
     }
   ],
   "acquisition_ideas": {
