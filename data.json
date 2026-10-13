@@ -3,7 +3,7 @@
     "title": "Fresh $$ Control Center",
     "owner": "Joshua",
     "assistant": "Fresh $$",
-    "last_updated": "2026-10-12T12:28:52-07:00",
+    "last_updated": "2026-10-12T20:52:27-07:00",
     "status_note": "Morning update Mon Oct 12, 2026 ~9:10 AM PT. Revenue $0 every lane. PrintPlz: 80 active / 1 draft / 2 inactive, 8 views / 8 visits last 7 days, 0 orders (Shop Manager 8:49 AM; down from 16 / 10 on Oct 11 as older days roll off); AM loop fixed personalization on P8/P5/P7 (54/54 Printful sync). HostFees: 30 of 49 pins, drip still paused on purpose until Joshua checks the Pinterest account; Cloudflare 7d 81 visits / 90 views (raw). WebsitePlz: Cloudflare 7d 112 visits / 115 views (raw); Search Console 'Page with redirect' notice intentional. Deal Scout Oct 12 (Monday full sweep): 306 Flippa cards (8 new, 11 gone), no standouts; top small pick still SEO Supremacy 12248731; RedSnout cut to $2,690 (watch only); new primary-track WP #13779 athletic wristbands Amazon FBA ($400k ask) audited earn-in 5.1, watch/conditional. Other account: latest verified roll-up still Oct 11 8:28 PM PT (33aac716a07f), numbers unchanged; Ms. Gold classroom-hub FYI + Tools Competition abstract need already on the list (due Tue Oct 13 8:59 PM PT). Next 72h: usage reset ~9:13 AM PT today; Tue Oct 13 Airbnb EEA VAT change + Tools abstract deadline + week-2 kit pin queue blocked on Pinterest check; ~Wed Oct 14 UK FBA auction 14374265 ends (watch only)."
   },
   "budget": {
@@ -794,7 +794,7 @@
       "priority": "low",
       "done": false,
       "bot_work": true,
-      "rank": 18
+      "rank": 19
     },
     {
       "task": "Use Etsy Shop Manager for future live-listing counts",
@@ -808,7 +808,7 @@
       "priority": "medium",
       "done": false,
       "optional": true,
-      "rank": 16
+      "rank": 17
     },
     {
       "task": "Get a P.O. Box for HostFees",
@@ -816,7 +816,7 @@
       "priority": "medium",
       "done": false,
       "optional": true,
-      "rank": 13
+      "rank": 14
     },
     {
       "task": "Change the Turno temporary password",
@@ -836,7 +836,7 @@
       "priority": "low",
       "done": false,
       "optional": true,
-      "rank": 14
+      "rank": 15
     },
     {
       "task": "Complete the Amazon Associates application",
@@ -849,7 +849,7 @@
       "why": "Finish ID verification and confirm the phone number, then publish the WebsitePlz gig. W-9 submitted; Contra ~89%.",
       "priority": "high",
       "done": false,
-      "rank": 6
+      "rank": 7
     },
     {
       "task": "Optional: apply to the OwnerRez affiliate program",
@@ -857,7 +857,7 @@
       "priority": "low",
       "done": false,
       "optional": true,
-      "rank": 19
+      "rank": 20
     },
     {
       "task": "Unlock the traffic tiles",
@@ -870,28 +870,28 @@
       "why": "50% deposits are live on the site; buttons switch to \"Pay $X to start\" once the links are pasted in. Also 3 Care links and the customer portal (WebsitePlz README).",
       "priority": "medium",
       "done": false,
-      "rank": 10
+      "rank": 11
     },
     {
       "task": "Relay $300 for PrintPlz",
       "why": "On Chief of Staff's waiting-on-Joshua list (Oct 3).",
       "priority": "medium",
       "done": false,
-      "rank": 15
+      "rank": 16
     },
     {
       "task": "Set up the WebsitePlz contact inbox",
       "why": "Contact address for WebsitePlz buyers. Chief of Staff list, Oct 3.",
       "priority": "medium",
       "done": false,
-      "rank": 11
+      "rank": 12
     },
     {
       "task": "Review the WebsitePlz legal pages (Terms, Privacy, Refunds)",
       "why": "Plain-English drafts are live at websiteplz.com/terms, /privacy and /refunds. Review before Stripe goes live (Stripe's terms checkbox points at /terms/).",
       "priority": "high",
       "done": false,
-      "rank": 8
+      "rank": 9
     },
     {
       "task": "CANCELLED: Cat Bundle Flippa follow-up (PASSED Oct 6)",
@@ -923,7 +923,7 @@
       "why": "Add hostfees.com to the Associates Sites list and make SiteStripe links for the empty kit slots: 28 of 51 slots still fall back to tagged searches.",
       "priority": "high",
       "done": false,
-      "rank": 7
+      "rank": 8
     },
     {
       "task": "OK to deploy the HostFees staged kits (before Thu Oct 8)",
@@ -938,8 +938,8 @@
       "done": true
     },
     {
-      "task": "Set up Google Search Console for hostfees.com and thefamilygems.com",
-      "why": "websiteplz.com is already done (set up Oct 3-4, per WebsitePlz). hostfees.com is already collecting (Google emails Oct 6-7); left: submit its sitemap, and add thefamilygems.com (no Google verification record on its DNS as of Oct 8). It's the one ~10-minute step that unblocks indexing for The Family Gem Shop's site.",
+      "task": "Search Console: confirm the hostfees.com sitemap; set up thefamilygems.com",
+      "why": "websiteplz.com is done (Oct 3-4, per WebsitePlz). hostfees.com is reported already collecting (per HostFees Control, not verified here), so it needs only a sitemap check. thefamilygems.com still needs setup (no Google verification record on its DNS yet); that unblocks indexing for The Family Gem Shop's site.",
       "priority": "medium",
       "done": false,
       "rank": 4
@@ -949,7 +949,7 @@
       "why": "Nothing more needed from you. Stays on the list until the files arrive and verify here; needed before the first Family Gem listing.",
       "priority": "medium",
       "done": false,
-      "rank": 9,
+      "rank": 10,
       "status": "sent, waiting to arrive"
     },
     {
@@ -975,14 +975,14 @@
       "priority": "low",
       "done": false,
       "added": "2026-10-10",
-      "rank": 20
+      "rank": 21
     },
     {
       "task": "Start the HostFees Facebook-group posts from a re-dated calendar",
       "why": "HostFees' Oct 10 sales-path report calls this the biggest near-term traffic lever (groups with 560K+ members vs about 0 Pinterest visits so far); no Facebook-tagged visits yet. Lead with the cleaning-kit and linen-kit posts. HostFees Control can re-date the calendar first (internal, nothing posted).",
       "priority": "medium",
       "done": false,
-      "rank": 12,
+      "rank": 13,
       "added": "2026-10-10"
     },
     {
@@ -990,7 +990,7 @@
       "why": "Lets HostFees Control finish the winter checklist upgrade before the Oct 15 winter pin and fix the smart-lock kit's Start-here match (or retitle that heading). Pick before Thu Oct 15.",
       "priority": "low",
       "done": false,
-      "rank": 17,
+      "rank": 18,
       "added": "2026-10-10"
     },
     {
@@ -998,7 +998,7 @@
       "why": "Keeps your own visits out of the HostFees counts.",
       "priority": "low",
       "done": false,
-      "rank": 21,
+      "rank": 22,
       "added": "2026-10-10"
     },
     {
@@ -1016,7 +1016,7 @@
       "done": false,
       "optional": true,
       "added": "2026-10-10",
-      "rank": 22
+      "rank": 23
     },
     {
       "task": "Classroom-tools lane: decide on and submit the Tools Competition abstract by Tue Oct 13, 8:59 PM PT (an NSF SBIR pitch comes next).",
@@ -1026,6 +1026,13 @@
       "deadline": "2026-10-13 8:59 PM PT",
       "added": "2026-10-12",
       "rank": 2
+    },
+    {
+      "task": "Review the Cursor GitHub App's request for updated permissions (accept or ignore under GitHub Apps installations)",
+      "why": "Two email notices Oct 12 (3:07 PM and 6:49 PM PT); only Joshua can approve",
+      "priority": "medium",
+      "done": false,
+      "rank": 6
     }
   ],
   "projects": [
