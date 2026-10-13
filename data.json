@@ -3,8 +3,8 @@
     "title": "Fresh $$ Control Center",
     "owner": "Joshua",
     "assistant": "Fresh $$",
-    "last_updated": "2026-10-12T20:52:27-07:00",
-    "status_note": "Morning update Mon Oct 12, 2026 ~9:10 AM PT. Revenue $0 every lane. PrintPlz: 80 active / 1 draft / 2 inactive, 8 views / 8 visits last 7 days, 0 orders (Shop Manager 8:49 AM; down from 16 / 10 on Oct 11 as older days roll off); AM loop fixed personalization on P8/P5/P7 (54/54 Printful sync). HostFees: 30 of 49 pins, drip still paused on purpose until Joshua checks the Pinterest account; Cloudflare 7d 81 visits / 90 views (raw). WebsitePlz: Cloudflare 7d 112 visits / 115 views (raw); Search Console 'Page with redirect' notice intentional. Deal Scout Oct 12 (Monday full sweep): 306 Flippa cards (8 new, 11 gone), no standouts; top small pick still SEO Supremacy 12248731; RedSnout cut to $2,690 (watch only); new primary-track WP #13779 athletic wristbands Amazon FBA ($400k ask) audited earn-in 5.1, watch/conditional. Other account: latest verified roll-up still Oct 11 8:28 PM PT (33aac716a07f), numbers unchanged; Ms. Gold classroom-hub FYI + Tools Competition abstract need already on the list (due Tue Oct 13 8:59 PM PT). Next 72h: usage reset ~9:13 AM PT today; Tue Oct 13 Airbnb EEA VAT change + Tools abstract deadline + week-2 kit pin queue blocked on Pinterest check; ~Wed Oct 14 UK FBA auction 14374265 ends (watch only)."
+    "last_updated": "2026-10-12T21:11:14-07:00",
+    "status_note": "Evening update Mon Oct 12, 2026 ~9:15 PM PT (Chief of Staff evening summary). Revenue $0 every lane. PrintPlz: PM pass 54/54 OK, 0 orders (nightly roll-up landed); 80 active / 1 draft / 2 inactive; morning order check now 8:07 AM PT. HostFees: 30 of 49 pins, drip paused on purpose until Joshua checks the Pinterest account. Deal Scout Oct 12: no standouts; top small pick still SEO Supremacy. Other account (Oct 12 8:24 PM PT, verified): paper desk $4,896.03 of $5,000, week P/L -$103.97 (paper); Stocks Edge closed TWLO, holds ZS. Needs order unchanged (1-23); decisions unchanged. Next 72h: Tue Oct 13 Tools Competition abstract due 8:59 PM PT, Airbnb EEA VAT change, week-2 kit pin queue blocked on the Pinterest check; ~Wed Oct 14 UK FBA auction 14374265 ends (watch only)."
   },
   "budget": {
     "starting_capital": 1000,
@@ -82,7 +82,7 @@
       "type": "For-moms print-on-demand gifts: mom shirts, teacher shirts, kids stickers, holiday party items, ornaments",
       "platform": "Etsy + Printful",
       "status": "live",
-      "status_note": "Shop Manager Oct 12 ~8:49 AM PT: 80 active / 1 draft / 2 inactive / 0 expired / 0 sold out (unchanged). Last 7 days: 8 views / 8 visits, 0 orders, $0 (down from 16 / 10 on Oct 11 as older days roll out of the 7-day window). Traffic sources and top viewed not re-read today (Oct 10: mostly direct/referral and the Etsy app; top viewed pet name mug, From Santa gift tags). Etsy: New 0, overdue 0, unread messages 0, no warning banner. Printful (8:48 AM order check): all statuses 0. Oct 12 AM polish loop (~5:51–6:00 AM PT): 54/54 Printful sync OK; personalization fixed and verified on P8/P5/P7 (capitals rollout; P7 limit/desc aligned). Finances shows nothing due for October. Build hold still on (K6/K7 unpublished). Etsy Ads planned Oct 16. Offsite Ads off. $0 revenue.",
+      "status_note": "Shop Manager Oct 12 ~8:49 AM PT: 80 active / 1 draft / 2 inactive / 0 expired / 0 sold out (unchanged). Last 7 days: 8 views / 8 visits, 0 orders, $0 (down from 16 / 10 on Oct 11 as older days roll out of the 7-day window). Traffic sources and top viewed not re-read today (Oct 10: mostly direct/referral and the Etsy app; top viewed pet name mug, From Santa gift tags). Etsy: New 0, overdue 0, unread messages 0, no warning banner. Printful (8:48 AM order check): all statuses 0. Oct 12 AM polish loop (~5:51–6:00 AM PT): 54/54 Printful sync OK; personalization fixed and verified on P8/P5/P7 (capitals rollout; P7 limit/desc aligned). Finances shows nothing due for October. Build hold still on (K6/K7 unpublished). Etsy Ads planned Oct 16. Offsite Ads off. $0 revenue. Oct 12 PM loop (~8:48-8:58 PM PT): 54/54 Printful sync OK, 0 orders; personalization wording fixed on P6, TC9, TC10. Morning order check now runs in the 8:07 AM PT slot.",
       "url": "https://www.etsy.com/shop/PrintPlzShop",
       "orders": 0,
       "revenue": 0,
@@ -1679,9 +1679,9 @@
     {
       "date": "2026-10-13",
       "date_display": "Tue Oct 13, 2026 · 8:59 PM PT",
-      "event": "Tools Competition abstract deadline (classroom-tools / Ms. Gold)",
+      "event": "Tools Competition abstract deadline (classroom-tools lane)",
       "details": "Joshua decides go/no-go and submits the abstract by 8:59 PM PT; NSF SBIR pitch follows. Incubator FYI: GO with changes on teacher-first freemium plan.",
-      "source": "Gold HQ Sync 2026-10-12_0638_incubator_update_ms-gold-classroom-hub.md · open-tasks AM Oct 12",
+      "source": "Gold HQ Sync 2026-10-12_0638 classroom-hub update · open-tasks AM Oct 12",
       "account": "This account"
     },
     {
@@ -1751,8 +1751,8 @@
   ],
   "other_account": {
     "label": "Other account (Grok Bot)",
-    "as_of": "Verified roll-up 2026-10-11_2028 (33aac716a07f, as of Oct 11 8:28 PM PT); numbers unchanged. Paper-lane numbers below are as of that roll-up (desk shelf last updated Oct 9 1:12 PM PT; no desk re-sync). Oct 12 AM Gold HQ Sync: Ms. Gold classroom-hub FYI + one-pager packet only (no new verified numbers roll-up). Family Gem Etsy stats are paused, pending cutover. Nothing was traded, published, spent or turned on.",
-    "source_note": "Latest verified roll-up 2026-10-11_2028_incubator_rollup.md (33aac716a07f). Real numbers only; \"unknown\" means not verified. Paper lanes are paper only. Nothing was traded, published, spent, or turned on. None of these numbers count toward this account's totals.",
+    "as_of": "Verified roll-up 2026-10-12_2024 (d028b83fecf5, as of Oct 12 8:24 PM PT). Paper-lane numbers below are as of that roll-up (desk shelf last updated Oct 12 1:09 PM PT). Family Gem Etsy stats are paused, pending cutover. Nothing was traded, published, spent or turned on.",
+    "source_note": "Latest verified roll-up 2026-10-12_2024_incubator_rollup.md (d028b83fecf5). Real numbers only; \"unknown\" means not verified. Paper lanes are paper only. Nothing was traded, published, spent, or turned on. None of these numbers count toward this account's totals.",
     "shops": [
       {
         "name": "MoonletterMira",
@@ -1788,7 +1788,7 @@
         "one_liner": "Not open · $0 spent · catalog waiting on Joshua"
       }
     ],
-    "paper_lanes_note": "Paper only, no real money. Numbers from the Oct 11 8:28 PM PT roll-up (unchanged from Oct 10). Per the usage-cut result (Oct 8 6:02 PM PT), Politics, Sports and Polymarket are paused and the Moon scalper paused after its RIOT paper stop (Oct 8 9:31 AM PT); Stocks Edge still holds ZS and TWLO on paper.",
+    "paper_lanes_note": "Paper only, no real money. Numbers from the Oct 12 8:24 PM PT roll-up. Per the usage-cut result (Oct 8 6:02 PM PT), Politics, Sports and Polymarket are paused and the Moon scalper paused after its RIOT paper stop (Oct 8 9:31 AM PT); Stocks Edge still holds ZS and TWLO on paper.",
     "paper_lanes": [
       {
         "lane": "Politics",
@@ -1803,12 +1803,12 @@
       {
         "lane": "Stocks Edge",
         "bankroll": "$1,000 paper",
-        "equity": "$1,012.77 (+$12.77)",
-        "note": "Week two closed Sat Oct 10 ~5:54 PM PT; ZS and TWLO kept open (paper).",
+        "equity": "$1,005.02 (+$5.02)",
+        "note": "Open: ZS (paper); TWLO closed Oct 12; watching VG. Realized -$12.02.",
         "start_balance": 1000,
-        "current_balance": 1012.77,
-        "week_pnl": 12.77,
-        "open_positions": 2
+        "current_balance": 1005.02,
+        "week_pnl": 5.02,
+        "open_positions": 1
       },
       {
         "lane": "Stocks Moon",
@@ -1843,11 +1843,11 @@
       {
         "lane": "Desk total",
         "bankroll": "$5,000 paper",
-        "equity": "$4,903.78 (-$96.22)",
+        "equity": "$4,896.03 (-$103.97)",
         "note": "All paper lanes; paper money, not real.",
         "start_balance": 5000,
-        "current_balance": 4903.78,
-        "week_pnl": -96.22,
+        "current_balance": 4896.03,
+        "week_pnl": -103.97,
         "open_positions": null
       }
     ],
@@ -1943,11 +1943,11 @@
       }
     ],
     "combined_ads_note": "Combined Etsy Ads (both accounts): PrintPlz ~$3/day from Fri Oct 16, capped at $100/month, plus ML-01 ~$5/day from ~Oct 11 only if Joshua enables it (off now).",
-    "as_of_date": "2026-10-11",
+    "as_of_date": "2026-10-12",
     "revenue": 0,
     "spend_total": 40.48,
-    "paper_pnl": -96.22,
-    "paper_pnl_note": "Paper desk $4,903.78 of $5,000.00 start; week P/L -$96.22 (paper money, not real; Oct 11 8:28 PM PT roll-up, unchanged)",
+    "paper_pnl": -103.97,
+    "paper_pnl_note": "Paper desk $4,896.03 of $5,000.00 start; week P/L -$103.97 (paper money, not real; Oct 12 8:24 PM PT roll-up)",
     "spend_note": "Family Gem $40.48 ($29 Etsy setup + $11.48 domain); MoonletterMira unknown in full; Help4U $0; today $0",
     "decisions_pending": [
       {
