@@ -3,7 +3,7 @@
     "title": "Fresh $$ Control Center",
     "owner": "Joshua",
     "assistant": "Fresh $$",
-    "last_updated": "2026-10-13T08:57:08-07:00",
+    "last_updated": "2026-10-13T08:58:37-07:00",
     "status_note": "Morning refresh Tue Oct 13, 2026 ~9:00 AM PT. Revenue $0 every lane. PrintPlz (Shop Manager 8:28 AM): 80 active / 1 draft / 2 inactive, 0 orders, 4 views / 4 visits last 7 days (down from 8 / 8); AM polish loop failed at ~6:02 AM (order check covered orders; wording batch moves to PM). HostFees: 30 of 49 pins, drip paused on purpose until Joshua checks the Pinterest account; Cloudflare 7d 70 visits / 79 views. WebsitePlz: 107 visits / 113 views 7d; Oct 12 audit clean. Deal Scout Oct 13: no change; top small pick still SEO Supremacy. Other account (latest verified roll-up Oct 12 8:24 PM PT): paper desk $4,896.03 of $5,000 (paper); Tools Competition reported skipped by Joshua. New on Needs: confirm this morning's Google sign-in notice (#3). Next 72h: tonight 8:59 PM PT Tools Competition go/no-go or confirm skip; ~Wed Oct 14 upsmiledirect + UK FBA auctions end (watch only); week-2 kit pins blocked on the Pinterest check; Fri Oct 16 Etsy Ads start."
   },
   "budget": {
@@ -959,7 +959,7 @@
       "done": false,
       "deadline": "2026-10-12 (morning)",
       "added": "2026-10-09",
-      "rank": 1
+      "rank": 2
     },
     {
       "task": "Glance at the 'Welcome to Cloudflare' email (7:10 AM PT Oct 10): did you sign up for a new Cloudflare account?",
@@ -1025,7 +1025,7 @@
       "done": false,
       "deadline": "2026-10-13 8:59 PM PT",
       "added": "2026-10-12",
-      "rank": 2
+      "rank": 3
     },
     {
       "task": "Review the Cursor GitHub App's request for updated permissions (accept or ignore under GitHub Apps installations)",
@@ -1035,12 +1035,13 @@
       "rank": 7
     },
     {
-      "task": "Confirm this morning's 'Sign in with Google' notice (7:35 AM PT Oct 13, a gift-card resale site) was you",
-      "why": "Account-security notice from this morning's email sweep. If it wasn't you, remove that site under third-party connections in your Google Account security settings.",
+      "task": "Confirm the Google sign-in to a third-party shopping site at 7:35 AM PT today was you; if not, review third-party connections in your Google Account",
+      "why": "Google account-security notice in the Oct 13 AM email sweep",
       "priority": "high",
       "done": false,
       "added": "2026-10-13",
-      "rank": 3
+      "rank": 1,
+      "deadline": "2026-10-13"
     }
   ],
   "projects": [
