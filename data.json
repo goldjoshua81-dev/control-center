@@ -3,7 +3,7 @@
     "title": "Fresh $$ Control Center",
     "owner": "Joshua",
     "assistant": "Fresh $$",
-    "last_updated": "2026-10-13T08:58:37-07:00",
+    "last_updated": "2026-10-13T12:37:57-07:00",
     "status_note": "Morning refresh Tue Oct 13, 2026 ~9:00 AM PT. Revenue $0 every lane. PrintPlz (Shop Manager 8:28 AM): 80 active / 1 draft / 2 inactive, 0 orders, 4 views / 4 visits last 7 days (down from 8 / 8); AM polish loop failed at ~6:02 AM (order check covered orders; wording batch moves to PM). HostFees: 30 of 49 pins, drip paused on purpose until Joshua checks the Pinterest account; Cloudflare 7d 70 visits / 79 views. WebsitePlz: 107 visits / 113 views 7d; Oct 12 audit clean. Deal Scout Oct 13: no change; top small pick still SEO Supremacy. Other account (latest verified roll-up Oct 12 8:24 PM PT): paper desk $4,896.03 of $5,000 (paper); Tools Competition reported skipped by Joshua. New on Needs: confirm this morning's Google sign-in notice (#3). Next 72h: tonight 8:59 PM PT Tools Competition go/no-go or confirm skip; ~Wed Oct 14 upsmiledirect + UK FBA auctions end (watch only); week-2 kit pins blocked on the Pinterest check; Fri Oct 16 Etsy Ads start."
   },
   "budget": {
@@ -567,7 +567,7 @@
           "price": "see listing"
         }
       ],
-      "one_liner": "Live · 80 active (Oct 12 8:49 AM) · 0 orders · 8 views / 8 visits (7d) · 54/54 Printful sync (AM) · hold still on"
+      "one_liner": "Live · 80 active (Oct 13 8:28 AM) · 0 orders · 4 views / 4 visits (7d) · hold still on"
     },
     {
       "id": "shop-2",
@@ -1060,7 +1060,7 @@
       "revenue": 0,
       "profit": 0,
       "pins_published": 30,
-      "pin_routine": "Paused since Oct 10 10:07 AM PT (Pinterest Access Denied); normally 3 each morning at 10:06 AM PT",
+      "pin_routine": "Paused since Oct 10 10:07 AM PT (Pinterest Access Denied; waiting on Joshua). posted.md still 30 (last activity Oct 9). Original kit-pin drip calendar ended ~Oct 13 while paused; week-2 kit pins (staged-wk2 / Needs #31) stay blocked until Joshua confirms Pinterest is fine. Normally 3 each morning at 10:06 AM PT.",
       "pinterest_claimed": true,
       "turno_status": "live; affiliate link on hostfees.com (https://share.turno.com/69pllwz)",
       "hostaway_status": "declined for now; revisit in 4–6 weeks with traffic numbers",
@@ -1783,9 +1783,9 @@
         "status": "vacation",
         "type": "Loose gemstones on Etsy",
         "url": "https://www.etsy.com/shop/TheFamilyGemShop",
-        "note": "Owner: Family Gem bot (ac4794e0) on the main account runs the shop and thefamilygems.com; reports to Fresh $$. Etsy access for the bot not set up yet (cutover pending). Vacation mode ON, 0 live listings, 0 orders, $0 revenue. SF-001 photographed, NOT listed; its 6 original photos and 2 videos arrived on this account Oct 9 8:05 AM PT. Etsy stats: paused, pending cutover (the other account paused its Etsy check Oct 10 7:48 AM PT until the Family Gem bot is signed in here). Last read Oct 6: 0 visits. Site: HTTPS OK, all 8 sitemap pages plus robots and sitemap return 200 (checked Oct 12 12:27 PM PT, 0.05-0.11 s; sitemap 8 URLs, lastmod still Oct 5). Search Console: DNS verification record not added yet (DNS shows only the email SPF record, Oct 12 12:27 PM PT). Mahenge spinel photos + lab scan: not on this account yet. Family Gem bot daily pulse Oct 11 7:38 PM PT confirmed site OK and A4/F5 still open; /workspace/familygem/ unchanged since Oct 8 4:29 PM PT.",
+        "note": "Owner: Family Gem bot (ac4794e0) on the main account runs the shop and thefamilygems.com; reports to Fresh $$. Etsy access for the bot not set up yet (cutover pending). Vacation mode ON, 0 live listings, 0 orders, $0 revenue. SF-001 photographed, NOT listed; its 6 original photos and 2 videos arrived on this account Oct 9 8:05 AM PT. Etsy stats: paused, pending cutover (the other account paused its Etsy check Oct 10 7:48 AM PT until the Family Gem bot is signed in here). Last read Oct 6: 0 visits. Site: HTTPS OK; home, shop, about, guides, tsavorite guide, faq, contact, privacy, robots, sitemap, and IndexNow key all return 200 (checked Oct 13 ~12:40 PM PT, ~0.07–0.26 s; sitemap 8 URLs, lastmod still Oct 5). Search Console: DNS verification record not added yet (DNS TXT shows only the email SPF record via Google DoH, Oct 13 ~12:40 PM PT). Mahenge spinel photos + lab scan: not on this account yet. Family Gem bot daily pulse Oct 12 7:35 PM PT confirmed site OK and A4/F5 still open; /workspace/familygem/ unchanged since Oct 8 4:29 PM PT.",
         "listings": [],
-        "one_liner": "Vacation · 0 listings · Etsy stats paused, pending cutover · site 200 on all pages (Oct 12 12:27 PM) · SF-001 media on this account · Search Console + Etsy access not set up"
+        "one_liner": "Vacation · 0 listings · Etsy stats paused, pending cutover · site 200 on all pages (Oct 13 ~12:40 PM) · SF-001 media on this account · Search Console + Etsy access not set up"
       },
       {
         "name": "Help4U",
@@ -2105,7 +2105,7 @@
       "account": "Other bots",
       "primary": "visits",
       "secondary": "views",
-      "status": "Site HTTPS OK, home + 7 pages + privacy 200 at 0.05-0.11 s (Oct 12 12:27 PM PT); sitemap 8 URLs, lastmod still Oct 5 (no site changes since); Etsy vacation, 0 listings (last known); Etsy stats paused, pending cutover (last read Oct 6: 0 visits); Search Console DNS record still not added (checked Oct 12 12:27 PM PT); Family Gem bot pulse Oct 11 PM, A4/F5 still open",
+      "status": "Site HTTPS OK, home + 7 pages + privacy + tsavorite guide + IndexNow key 200 at ~0.07–0.26 s (Oct 13 ~12:40 PM PT); sitemap 8 URLs, lastmod still Oct 5 (no site changes since); Etsy vacation, 0 listings (last known); Etsy stats paused, pending cutover (last read Oct 6: 0 visits); Search Console DNS record still not added (Google DoH SPF-only, Oct 13 ~12:40 PM PT); Family Gem bot pulse Oct 12 7:35 PM, A4/F5 still open",
       "needs": "Joshua: Search Console domain property + DNS verification record; Family Gem bot: Etsy access not set up yet (cutover pending)"
     }
   ],
