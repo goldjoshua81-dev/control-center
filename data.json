@@ -3,8 +3,8 @@
     "title": "Fresh $$ Control Center",
     "owner": "Joshua",
     "assistant": "Fresh $$",
-    "last_updated": "2026-10-13T21:14:06-07:00",
-    "status_note": "Evening update Tue Oct 13, 2026 ~9:15 PM PT (Chief of Staff evening summary). Revenue $0 every lane. Missed runs today: journey video script (~8:26 AM PT) and the PrintPlz AM pass (~6:02 AM PT, covered by the PM pass). Tools Competition abstract: closed; deadline passed 8:59 PM PT, not submitted. PrintPlz: 0 orders; PM pass fixed instructions on X16, X21 and TF6; X21 materials still show the old value on the public page (likely cache), re-check Oct 14 AM. HostFees: 30 of 49 pins, drip paused on purpose until Joshua checks the Pinterest account. Deal Scout: no change; top small pick still SEO Supremacy. Other account (Oct 13 8:19 PM PT, verified): paper desk $4,897.48 of $5,000, week P/L -$102.52 (paper). Needs: new #1 confirm tonight's declined bank debit in the app; #2 confirm this morning's Google sign-in. Next 72h: ~Wed Oct 14 upsmiledirect + UK FBA auctions end (watch only); week-2 kit pins blocked on the Pinterest check; Fri Oct 16 Etsy Ads start."
+    "last_updated": "2026-10-14T08:49:31-07:00",
+    "status_note": "Morning refresh Wed Oct 14, 2026 ~8:50 AM PT. Revenue $0 every lane. PrintPlz (Shop Manager 8:13 AM): 80 active / 1 draft / 2 inactive, 0 orders, 5 views / 2 visits last 7 days (views up from 4, visits down from 4); AM polish loop ran ~5:41 AM (54/54 OK; X21 materials PASS; X27/X28/P5 materials filled; capitals on X28/X26). HostFees: 30 of 49 pins, drip still paused on purpose until Joshua checks Pinterest; week-2 kit08 due today and blocked; Cloudflare 7d 35 visits / 42 views. WebsitePlz: Cloudflare 7d 85 visits / 91 views; Oct 13 audit clean; today's daily audit in progress. Deal Scout Oct 14: 308 cards, 11 new none standout; top small pick still SEO Supremacy; upsmiledirect extended (~3 days left, unranked). Other account (latest verified roll-up Oct 13 8:19 PM PT): paper desk $4,897.48 of $5,000, week P/L -$102.52 (paper). Needs top: confirm last night's bank decline + app balance; confirm Oct 13 Google sign-in; journey YouTube channel; Pinterest check. Next 72h: Gem Rock Paraiba watch-only auction tonight 7:30 PM PT; week-2 kit pins blocked on Pinterest; Fri Oct 16 Etsy Ads start + WebsitePlz forced re-check."
   },
   "budget": {
     "starting_capital": 1000,
@@ -82,13 +82,13 @@
       "type": "For-moms print-on-demand gifts: mom shirts, teacher shirts, kids stickers, holiday party items, ornaments",
       "platform": "Etsy + Printful",
       "status": "live",
-      "status_note": "Shop Manager Oct 13 ~8:28 AM PT: 80 active / 1 draft / 2 inactive / 0 expired / 0 sold out (unchanged). Last 7 days: 4 views / 4 visits, 0 orders, $0 (down from 8 / 8 on Oct 12 as older days roll out of the 7-day window). Traffic sources and top viewed not re-read (still from Oct 10). Etsy: New 0, overdue 0, unread messages 0, no warning banner. Printful (8:26 AM order check): all statuses 0. Oct 13 AM polish loop failed at ~6:02 AM PT before doing any work; orders were still covered by the order check, and the wording batch (TC1, TC3, X9, X16, X21, TF6) moves to the PM run. Oct 12 PM loop: 54/54 Printful sync OK, 0 orders. Build hold still on (K6/K7 unpublished). Etsy Ads planned Oct 16. Offsite Ads off. $0 revenue. Oct 13 PM loop: instruction fixes on X16, X21 and TF6 pass. X21 materials pass in the editor, but the public listing page still shows the old value (likely cache); re-check Oct 14 AM.",
+      "status_note": "Shop Manager Oct 14 ~8:13 AM PT: 80 active / 1 draft / 2 inactive / 0 expired / 0 sold out (unchanged). Last 7 days: 5 views / 2 visits, 0 orders, $0 (views up from 4 on Oct 13; visits down from 4). Traffic sources and top viewed not re-read (still from Oct 10). Etsy: New 0, overdue 0, unread messages 0, no warning banner. Printful (8:12 AM order check): all statuses 0. Oct 14 AM polish loop (~5:41–5:51 AM PT): 54/54 Printful sync OK; X21 public materials PASS (Cypress, wood); materials filled on X27 (Glass), X28 (Acrylic), P5 (Ceramic); capitals microcopy updated on X28 and X26. Build hold still on (K6/K7 unpublished). Etsy Ads planned Oct 16. Offsite Ads off. $0 revenue.",
       "url": "https://www.etsy.com/shop/PrintPlzShop",
       "orders": 0,
       "revenue": 0,
       "profit": 0,
-      "views": 4,
-      "visits": 4,
+      "views": 5,
+      "visits": 2,
       "listings_live": 80,
       "listings_drafted": 1,
       "top_products": [
@@ -567,7 +567,8 @@
           "price": "see listing"
         }
       ],
-      "one_liner": "Live · 80 active (Oct 13 8:28 AM) · 0 orders · 4 views / 4 visits (7d) · hold still on"
+      "one_liner": "Live · 80 active (Oct 14 8:13 AM) · 0 orders · 5 views / 2 visits (7d) · hold still on",
+      "active_count": 80
     },
     {
       "id": "shop-2",
@@ -739,8 +740,8 @@
     }
   ],
   "acquisitions": {
-    "note": "Watch only. Figures are seller/listing claims or research notes, not verified by us. No accounts, bids, offers, seller contact, purchases or acquisitions. Latest Deal Scout run Tue Oct 13: no change (303 cards, 7 new all rejected, no triggers); top small pick still SEO Supremacy 12248731; RedSnout $2,690 (watch only). Earn-in ideas are in 'Prospective acquisition ideas: ON HOLD' below.",
-    "source": "Deal Scout run files 2026-10-01 to 10-13 (latest: 2026-10-13-run.md, ~8:15–8:25 AM PT)",
+    "note": "Watch only. Figures are seller/listing claims or research notes, not verified by us. No accounts, bids, offers, seller contact, purchases or acquisitions. Latest Deal Scout run Wed Oct 14: 308 cards (11 new none standout, 6 gone); top small pick still SEO Supremacy 12248731; RedSnout $2,690 (watch only); Viral Info + Inspire Pearls watch-tier for Thursday; upsmiledirect extended ~3 days (unranked). Earn-in ideas are in 'Prospective acquisition ideas: ON HOLD' below.",
+    "source": "Deal Scout run files 2026-10-01 to 10-14 (latest: 2026-10-14-run.md, ~8:02–8:10 AM PT)",
     "watchlist": [
       {
         "name": "SEO Supremacy",
@@ -1050,7 +1051,7 @@
       "type": "Short-term-rental fee calculators, explainers, and gift guides",
       "status": "live",
       "url": "https://hostfees.com",
-      "status_note": "LIVE at hostfees.com. Kit links live since Oct 10 ~8:40 AM PT (Joshua said ship it): prod 06f7fa08, rollback 3550b015; the 9:20-9:55 AM PT end-to-end check found nothing broken (43/43 sitemap URLs and 16/16 pin URLs return 200) and says traffic, not the site, is the limit. First internal kit click recorded (Oct 10). Pinterest still paused (Oct 12 AM). Pins: 30 of 49 live (posted-pins log, last post Oct 9 10:25 AM PT). Pinterest blocked (Access Denied at 10:07 AM PT Oct 10), drip paused on purpose, 4 pins queued (27, 28, 29, kit04); waiting on Joshua's account check. Not a stuck job: nothing posted, posted log correct at 30. Week-2 kit pins (approved for Oct 14) depend on the account check. Associates live: Store ID hostfees-20, tax validated, account Unblocked, 5 tracking IDs. 28 of 51 SiteStripe slots still on tagged-search fallback (needs Joshua's Sites list + SiteStripe links). Cloudflare 7d (Oct 13 8:56 AM PT): 70 visits / 79 views (Oct 12: 81 / 90; raw, includes bots). Lodgify affiliate pending. $0 revenue. 3 qualifying Associates sales needed by Apr 4, 2027.",
+      "status_note": "LIVE at hostfees.com. Kit links live since Oct 10 ~8:40 AM PT (Joshua said ship it): prod 06f7fa08, rollback 3550b015; the 9:20-9:55 AM PT end-to-end check found nothing broken (43/43 sitemap URLs and 16/16 pin URLs return 200) and says traffic, not the site, is the limit. First internal kit click recorded (Oct 10). Pinterest still paused (Oct 12 AM). Pins: 30 of 49 live (posted-pins log, last post Oct 9 10:25 AM PT). Pinterest blocked (Access Denied at 10:07 AM PT Oct 10), drip paused on purpose, 4 pins queued (27, 28, 29, kit04); waiting on Joshua's account check. Not a stuck job: nothing posted, posted log correct at 30. Week-2 kit pins: kit08-hub-winter due Wed Oct 14 and blocked until drip resumes (queue ready since Oct 13 ~6:30 PM PT). Associates live: Store ID hostfees-20, tax validated, account Unblocked, 5 tracking IDs. 28 of 51 SiteStripe slots still on tagged-search fallback (needs Joshua's Sites list + SiteStripe links). Cloudflare 7d (Oct 14 8:48 AM PT): 35 visits / 42 views (Oct 13: 70 / 79; raw, includes bots). Lodgify affiliate pending. $0 revenue. 3 qualifying Associates sales needed by Apr 4, 2027.",
       "pages": 27,
       "calculators": 5,
       "gift_guides": 3,
@@ -1063,7 +1064,7 @@
       "pinterest_claimed": true,
       "turno_status": "live; affiliate link on hostfees.com (https://share.turno.com/69pllwz)",
       "hostaway_status": "declined for now; revisit in 4–6 weeks with traffic numbers",
-      "one_liner": "Live · kit links live (prod 06f7fa08) · first internal kit click recorded · Pinterest paused, 4 pins queued · 30 of 49 pins · waiting on Joshua's account check · $0 revenue"
+      "one_liner": "Live · kit links live (prod 06f7fa08) · first internal kit click recorded · Pinterest paused, 4 pins queued · 30 of 49 pins · week-2 kit08 blocked today · waiting on Joshua's account check · $0 revenue"
     },
     {
       "id": "deal-scout",
@@ -1071,11 +1072,11 @@
       "type": "Business acquisition research",
       "status": "research only",
       "url": "",
-      "status_note": "Research only. Latest run Tue Oct 13 (~8:15–8:25 AM PT, Flippa + tracked checks): 303 Flippa cards (7 new, 10 gone), all 7 new rejected, no price-watch triggers, shortlist unchanged. Top small pick still SEO Supremacy 12248731 ($3,000). RedSnout $2,690 (watch only). upsmiledirect ends ~Wed Oct 14 AM PT (unranked, no alert). Website Properties #13779 unchanged ($400,000 ask; watch/conditional). No accounts, contact, bids or offers.",
+      "status_note": "Research only. Latest run Wed Oct 14 (~8:02–8:10 AM PT, Flippa + tracked checks): 308 Flippa cards (11 new, 6 gone), no NEW standouts, no price-watch triggers, shortlist unchanged. Top small pick still SEO Supremacy 12248731 ($3,000). RedSnout $2,690 (watch only). Watch-tier notes: Viral Info 14446126 and Inspire Pearls 14447876 (carry into Thursday sweep). upsmiledirect 14374265 did not close — page now shows ~3 days left (relisted/extended), still unranked. Passaporto del Pellegrino 12244495 marked SOLD. Website Properties #13779 unchanged. No accounts, contact, bids or offers.",
       "budget_limit": "$5,000",
       "revenue": 0,
       "profit": 0,
-      "one_liner": "Research only · SEO Supremacy top small pick · RedSnout $2,690 watch only · WP #13779 wristbands earn-in 5.1 watch/conditional · letters on hold · $0"
+      "one_liner": "Research only · SEO Supremacy top small pick · RedSnout $2,690 watch only · Viral Info + Inspire Pearls watch-tier · letters on hold · $0"
     },
     {
       "id": "websiteplz",
@@ -1083,7 +1084,7 @@
       "type": "Websites for local trades (HVAC, plumbing, electric, pressure washing, house cleaning)",
       "status": "live",
       "url": "https://websiteplz.com",
-      "status_note": "websiteplz.com live; sitesplz.com redirects. Reassurance line live; audit clean; Search Console collecting since Oct 5. Contra profile ~89%. Fiverr: W-9 submitted; gig blocked only on Joshua's ID verification + phone confirm, then publish. Still waiting on Joshua: Terms/Privacy/Refunds review, 3 Stripe deposit links, hello inbox. Cloudflare 7d (Oct 13 8:56 AM PT): 107 visits / 113 views (Oct 12: 112 / 115; raw, includes bots). Oct 9 evening: skip-gate fixed; site healthy. Oct 10–11 evening: OK. Oct 12: Search Console 'Page with redirect' notice for websiteplz.com checked; the redirects are intentional, nothing to fix. $0 revenue. Oct 12 daily audit (9:49 AM PT): site unchanged, nothing to fix; 8:45 PM PT live check all 200. Forced full re-check due by Oct 16. Daily audit for Oct 13: in progress.",
+      "status_note": "websiteplz.com live; sitesplz.com redirects. Reassurance line live; audit clean; Search Console collecting since Oct 5. Contra profile ~89%. Fiverr: W-9 submitted; gig blocked only on Joshua's ID verification + phone confirm, then publish. Still waiting on Joshua: Terms/Privacy/Refunds review, 3 Stripe deposit links, hello inbox. Cloudflare 7d (Oct 14 8:48 AM PT): 85 visits / 91 views (Oct 13: 107 / 113; raw, includes bots). Oct 13 daily audit 9:49–10:05 AM PT succeeded (unchanged since Oct 9); 8:46 PM PT live check all 200. Forced full re-check due by ~10:12 AM Fri Oct 16. Oct 14 daily audit: in progress. $0 revenue.",
       "one_liner": "Live · reassurance line live · audit clean · Search Console collecting · Fiverr gig waiting on Joshua ID verification · $0 revenue",
       "bot": "WebsitePlz",
       "bot_id": "e58826be-250d-4953-b472-9f0e1836bd42",
@@ -1700,6 +1701,20 @@
       "source": "Deal Scout 2026-10-11-run.md"
     },
     {
+      "date": "2026-10-14",
+      "date_display": "Wed Oct 14, 2026 · 7:30 PM PT",
+      "event": "Gem Rock / The Gem Portal: 8.314ct Paraiba $1 no-reserve live (watch only)",
+      "details": "Bidders must be verified; watch only unless Joshua decides otherwise. Carry-forward from Oct 14 AM email sweep.",
+      "source": "email-sweep-2026-10-14-am.md"
+    },
+    {
+      "date": "2026-10-14",
+      "date_display": "Wed Oct 14, 2026",
+      "event": "HostFees week-2 kit pin drip start (kit08) — blocked",
+      "details": "kit08–kit14 queued Oct 13 ~6:30 PM PT for Oct 14–20. Drip still paused (Pinterest Access Denied since Oct 10) until Joshua confirms the account is fine.",
+      "source": "hostfees-nightly-rollup-2026-10-13.md · lane_pauses"
+    },
+    {
       "date": "2026-10-16",
       "date_display": "Fri Oct 16, 2026",
       "event": "Etsy Ads start + Halloween order-by",
@@ -2182,6 +2197,14 @@
       "method": "Cloudflare Web Analytics (GraphQL)"
     },
     {
+      "date": "2026-10-14T08:48:37-07:00",
+      "source": "hostfees-site",
+      "metric": "views",
+      "value": 42,
+      "window": "7d",
+      "method": "Cloudflare Web Analytics (GraphQL)"
+    },
+    {
       "date": "2026-10-06T10:50:42-07:00",
       "source": "hostfees-site",
       "metric": "visits",
@@ -2242,6 +2265,14 @@
       "source": "hostfees-site",
       "metric": "visits",
       "value": 70,
+      "window": "7d",
+      "method": "Cloudflare Web Analytics (GraphQL)"
+    },
+    {
+      "date": "2026-10-14T08:48:37-07:00",
+      "source": "hostfees-site",
+      "metric": "visits",
+      "value": 35,
       "window": "7d",
       "method": "Cloudflare Web Analytics (GraphQL)"
     },
@@ -2334,6 +2365,14 @@
       "method": "Etsy Shop Manager stats (snapshot data/printplz-live-listings.json)"
     },
     {
+      "date": "2026-10-14T08:13:51-07:00",
+      "source": "printplz",
+      "metric": "views",
+      "value": 5,
+      "window": "7d",
+      "method": "Etsy Shop Manager stats (snapshot data/printplz-live-listings.json)"
+    },
+    {
       "date": "2026-10-02T07:52:16-07:00",
       "source": "printplz",
       "metric": "visits",
@@ -2422,6 +2461,14 @@
       "method": "Etsy Shop Manager stats (snapshot data/printplz-live-listings.json)"
     },
     {
+      "date": "2026-10-14T08:13:51-07:00",
+      "source": "printplz",
+      "metric": "visits",
+      "value": 2,
+      "window": "7d",
+      "method": "Etsy Shop Manager stats (snapshot data/printplz-live-listings.json)"
+    },
+    {
       "date": "2026-10-06T10:50:42-07:00",
       "source": "websiteplz-site",
       "metric": "views",
@@ -2486,6 +2533,14 @@
       "method": "Cloudflare Web Analytics (GraphQL)"
     },
     {
+      "date": "2026-10-14T08:48:37-07:00",
+      "source": "websiteplz-site",
+      "metric": "views",
+      "value": 91,
+      "window": "7d",
+      "method": "Cloudflare Web Analytics (GraphQL)"
+    },
+    {
       "date": "2026-10-06T10:50:42-07:00",
       "source": "websiteplz-site",
       "metric": "visits",
@@ -2546,6 +2601,14 @@
       "source": "websiteplz-site",
       "metric": "visits",
       "value": 107,
+      "window": "7d",
+      "method": "Cloudflare Web Analytics (GraphQL)"
+    },
+    {
+      "date": "2026-10-14T08:48:37-07:00",
+      "source": "websiteplz-site",
+      "metric": "visits",
+      "value": 85,
       "window": "7d",
       "method": "Cloudflare Web Analytics (GraphQL)"
     }
@@ -2743,7 +2806,9 @@
       "decision": "Tools Competition: skip",
       "lane": "Classroom tools",
       "recommended": "Skip",
-      "note": "Deadline passed Oct 13 8:59 PM PT; nothing submitted."
+      "note": "Deadline passed Oct 13 8:59 PM PT; nothing submitted.",
+      "done": true,
+      "status": "skipped"
     }
   ],
   "decisions_source": "Chief of Staff evening summary, Tue Oct 13, 2026 (recommended defaults are Chief of Staff's; nothing changes until Joshua decides)",
