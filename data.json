@@ -3,8 +3,8 @@
     "title": "Fresh $$ Control Center",
     "owner": "Joshua",
     "assistant": "Fresh $$",
-    "last_updated": "2026-10-13T21:00:38-07:00",
-    "status_note": "Morning refresh Tue Oct 13, 2026 ~9:00 AM PT. Revenue $0 every lane. PrintPlz (Shop Manager 8:28 AM): 80 active / 1 draft / 2 inactive, 0 orders, 4 views / 4 visits last 7 days (down from 8 / 8); AM polish loop failed at ~6:02 AM (order check covered orders; wording batch moves to PM). HostFees: 30 of 49 pins, drip paused on purpose until Joshua checks the Pinterest account; Cloudflare 7d 70 visits / 79 views. WebsitePlz: 107 visits / 113 views 7d; Oct 12 audit clean. Deal Scout Oct 13: no change; top small pick still SEO Supremacy. Other account (latest verified roll-up Oct 12 8:24 PM PT): paper desk $4,896.03 of $5,000 (paper); Tools Competition reported skipped by Joshua. New on Needs: confirm this morning's Google sign-in notice (#3). Next 72h: tonight 8:59 PM PT Tools Competition go/no-go or confirm skip; ~Wed Oct 14 upsmiledirect + UK FBA auctions end (watch only); week-2 kit pins blocked on the Pinterest check; Fri Oct 16 Etsy Ads start. 9:00 PM PT: Tools Competition abstract deadline passed, not submitted (closed); new #1: confirm tonight's declined bank debit in the app."
+    "last_updated": "2026-10-13T21:14:06-07:00",
+    "status_note": "Evening update Tue Oct 13, 2026 ~9:15 PM PT (Chief of Staff evening summary). Revenue $0 every lane. Missed runs today: journey video script (~8:26 AM PT) and the PrintPlz AM pass (~6:02 AM PT, covered by the PM pass). Tools Competition abstract: closed; deadline passed 8:59 PM PT, not submitted. PrintPlz: 0 orders; PM pass fixed instructions on X16, X21 and TF6; X21 materials still show the old value on the public page (likely cache), re-check Oct 14 AM. HostFees: 30 of 49 pins, drip paused on purpose until Joshua checks the Pinterest account. Deal Scout: no change; top small pick still SEO Supremacy. Other account (Oct 13 8:19 PM PT, verified): paper desk $4,897.48 of $5,000, week P/L -$102.52 (paper). Needs: new #1 confirm tonight's declined bank debit in the app; #2 confirm this morning's Google sign-in. Next 72h: ~Wed Oct 14 upsmiledirect + UK FBA auctions end (watch only); week-2 kit pins blocked on the Pinterest check; Fri Oct 16 Etsy Ads start."
   },
   "budget": {
     "starting_capital": 1000,
@@ -82,7 +82,7 @@
       "type": "For-moms print-on-demand gifts: mom shirts, teacher shirts, kids stickers, holiday party items, ornaments",
       "platform": "Etsy + Printful",
       "status": "live",
-      "status_note": "Shop Manager Oct 13 ~8:28 AM PT: 80 active / 1 draft / 2 inactive / 0 expired / 0 sold out (unchanged). Last 7 days: 4 views / 4 visits, 0 orders, $0 (down from 8 / 8 on Oct 12 as older days roll out of the 7-day window). Traffic sources and top viewed not re-read (still from Oct 10). Etsy: New 0, overdue 0, unread messages 0, no warning banner. Printful (8:26 AM order check): all statuses 0. Oct 13 AM polish loop failed at ~6:02 AM PT before doing any work; orders were still covered by the order check, and the wording batch (TC1, TC3, X9, X16, X21, TF6) moves to the PM run. Oct 12 PM loop: 54/54 Printful sync OK, 0 orders. Build hold still on (K6/K7 unpublished). Etsy Ads planned Oct 16. Offsite Ads off. $0 revenue.",
+      "status_note": "Shop Manager Oct 13 ~8:28 AM PT: 80 active / 1 draft / 2 inactive / 0 expired / 0 sold out (unchanged). Last 7 days: 4 views / 4 visits, 0 orders, $0 (down from 8 / 8 on Oct 12 as older days roll out of the 7-day window). Traffic sources and top viewed not re-read (still from Oct 10). Etsy: New 0, overdue 0, unread messages 0, no warning banner. Printful (8:26 AM order check): all statuses 0. Oct 13 AM polish loop failed at ~6:02 AM PT before doing any work; orders were still covered by the order check, and the wording batch (TC1, TC3, X9, X16, X21, TF6) moves to the PM run. Oct 12 PM loop: 54/54 Printful sync OK, 0 orders. Build hold still on (K6/K7 unpublished). Etsy Ads planned Oct 16. Offsite Ads off. $0 revenue. Oct 13 PM loop: instruction fixes on X16, X21 and TF6 pass. X21 materials pass in the editor, but the public listing page still shows the old value (likely cache); re-check Oct 14 AM.",
       "url": "https://www.etsy.com/shop/PrintPlzShop",
       "orders": 0,
       "revenue": 0,
@@ -1759,8 +1759,8 @@
   ],
   "other_account": {
     "label": "Other account (Grok Bot)",
-    "as_of": "Verified roll-up 2026-10-12_2024 (d028b83fecf5, as of Oct 12 8:24 PM PT). Paper-lane numbers below are as of that roll-up (desk shelf last updated Oct 12 1:09 PM PT). Family Gem Etsy stats are paused, pending cutover. Nothing was traded, published, spent or turned on.",
-    "source_note": "Latest verified roll-up 2026-10-12_2024_incubator_rollup.md (d028b83fecf5). Real numbers only; \"unknown\" means not verified. Paper lanes are paper only. Nothing was traded, published, spent, or turned on. None of these numbers count toward this account's totals.",
+    "as_of": "Verified roll-up 2026-10-13_2019 (619e85e3dc1d, as of Oct 13 8:19 PM PT). Paper-lane numbers below are as of that roll-up (desk shelf last updated Oct 13 1:06 PM PT). Family Gem Etsy stats are paused, pending cutover. Nothing was traded, published, spent or turned on.",
+    "source_note": "Latest verified roll-up 2026-10-13_2019_incubator_rollup.md (619e85e3dc1d). Real numbers only; \"unknown\" means not verified. Paper lanes are paper only. Nothing was traded, published, spent, or turned on. None of these numbers count toward this account's totals.",
     "shops": [
       {
         "name": "MoonletterMira",
@@ -1796,7 +1796,7 @@
         "one_liner": "Not open · $0 spent · catalog waiting on Joshua"
       }
     ],
-    "paper_lanes_note": "Paper only, no real money. Numbers from the Oct 12 8:24 PM PT roll-up. Per the usage-cut result (Oct 8 6:02 PM PT), Politics, Sports and Polymarket are paused and the Moon scalper paused after its RIOT paper stop (Oct 8 9:31 AM PT); Stocks Edge still holds ZS and TWLO on paper.",
+    "paper_lanes_note": "Paper only, no real money. Numbers from the Oct 13 8:19 PM PT roll-up. Per the usage-cut result (Oct 8 6:02 PM PT), Politics, Sports and Polymarket are paused and the Moon scalper paused after its RIOT paper stop (Oct 8 9:31 AM PT); Stocks Edge still holds ZS and TWLO on paper.",
     "paper_lanes": [
       {
         "lane": "Politics",
@@ -1811,11 +1811,11 @@
       {
         "lane": "Stocks Edge",
         "bankroll": "$1,000 paper",
-        "equity": "$1,005.02 (+$5.02)",
-        "note": "Open: ZS (paper); TWLO closed Oct 12; watching VG. Realized -$12.02.",
+        "equity": "$1,006.47 (+$6.47)",
+        "note": "Open: ZS (paper, holding); watching VG. Realized -$12.02.",
         "start_balance": 1000,
-        "current_balance": 1005.02,
-        "week_pnl": 5.02,
+        "current_balance": 1006.47,
+        "week_pnl": 6.47,
         "open_positions": 1
       },
       {
@@ -1851,11 +1851,11 @@
       {
         "lane": "Desk total",
         "bankroll": "$5,000 paper",
-        "equity": "$4,896.03 (-$103.97)",
+        "equity": "$4,897.48 (-$102.52)",
         "note": "All paper lanes; paper money, not real.",
         "start_balance": 5000,
-        "current_balance": 4896.03,
-        "week_pnl": -103.97,
+        "current_balance": 4897.48,
+        "week_pnl": -102.52,
         "open_positions": null
       }
     ],
@@ -1951,11 +1951,11 @@
       }
     ],
     "combined_ads_note": "Combined Etsy Ads (both accounts): PrintPlz ~$3/day from Fri Oct 16, capped at $100/month, plus ML-01 ~$5/day from ~Oct 11 only if Joshua enables it (off now).",
-    "as_of_date": "2026-10-12",
+    "as_of_date": "2026-10-13",
     "revenue": 0,
     "spend_total": 40.48,
-    "paper_pnl": -103.97,
-    "paper_pnl_note": "Paper desk $4,896.03 of $5,000.00 start; week P/L -$103.97 (paper money, not real; Oct 12 8:24 PM PT roll-up)",
+    "paper_pnl": -102.52,
+    "paper_pnl_note": "Paper desk $4,897.48 of $5,000.00 start; week P/L -$102.52 (paper money, not real; Oct 13 8:19 PM PT roll-up)",
     "spend_note": "Family Gem $40.48 ($29 Etsy setup + $11.48 domain); MoonletterMira unknown in full; Help4U $0; today $0",
     "decisions_pending": [
       {
@@ -2732,9 +2732,21 @@
       "lane": "Gold Ventures",
       "recommended": "Your call (with Scott Bot's walkthrough)",
       "note": "Arcade preview reviewed Oct 10, 9:58 PM PT. Buying the domain is still open: Joshua's call with Scott Bot's walkthrough. Nothing bought."
+    },
+    {
+      "decision": "Restart the HostFees Pinterest pins after Joshua's account check",
+      "lane": "HostFees",
+      "recommended": "Restart once Joshua confirms the account is fine",
+      "note": "Drip paused since Oct 10 (Access Denied); 4 pins queued and week-2 kit pins wait on this."
+    },
+    {
+      "decision": "Tools Competition: skip",
+      "lane": "Classroom tools",
+      "recommended": "Skip",
+      "note": "Deadline passed Oct 13 8:59 PM PT; nothing submitted."
     }
   ],
-  "decisions_source": "Chief of Staff evening summary, Sat Oct 10, 2026 (recommended defaults are Chief of Staff's; nothing changes until Joshua decides)",
+  "decisions_source": "Chief of Staff evening summary, Tue Oct 13, 2026 (recommended defaults are Chief of Staff's; nothing changes until Joshua decides)",
   "priority_projects": [
     {
       "id": "app-store-apps",
