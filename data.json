@@ -3,7 +3,7 @@
     "title": "Fresh $$ Control Center",
     "owner": "Joshua",
     "assistant": "Fresh $$",
-    "last_updated": "2026-10-14T09:09:46-07:00",
+    "last_updated": "2026-10-14T12:20:39-07:00",
     "status_note": "Morning refresh Wed Oct 14, 2026 ~8:50 AM PT. Revenue $0 every lane. PrintPlz (Shop Manager 8:13 AM): 80 active / 1 draft / 2 inactive, 0 orders, 5 views / 2 visits last 7 days (views up from 4, visits down from 4); AM polish loop ran ~5:41 AM (54/54 OK; X21 materials PASS; X27/X28/P5 materials filled; capitals on X28/X26). HostFees: 30 of 49 pins, drip still paused on purpose until Joshua checks Pinterest; week-2 kit08 due today and blocked; Cloudflare 7d 35 visits / 42 views. WebsitePlz: Cloudflare 7d 85 visits / 91 views; Oct 13 audit clean; today's daily audit in progress. Deal Scout Oct 14: 308 cards, 11 new none standout; top small pick still SEO Supremacy; upsmiledirect extended (~3 days left, unranked). Other account (latest verified roll-up Oct 13 8:19 PM PT): paper desk $4,897.48 of $5,000, week P/L -$102.52 (paper). Needs top: confirm last night's bank decline + app balance; confirm Oct 13 Google sign-in; journey YouTube channel; Pinterest check. Next 72h: Gem Rock Paraiba watch-only auction tonight 7:30 PM PT; week-2 kit pins blocked on Pinterest; Fri Oct 16 Etsy Ads start + WebsitePlz forced re-check. 9:08 AM PT, Joshua's 9:02 AM focus decision: Active = WebsitePlz (#1), Family Gem (#2), PrintPlz holiday sprint through Nov 30; Background = HostFees (autopilot); Retired = MoonletterMira (shop untouched); Paused = Deal Scout, paper desk, incubator research queue, Easy $$ Monitor, Creator Growth, classroom tools. PrintPlz Etsy Ads approved at $10/day for 14 days on 7 listings (premium listing check first, final OK before spend). Website ads for thefamilygems.com and websiteplz.com ON HOLD."
   },
   "budget": {
@@ -1821,9 +1821,9 @@
         "status": "vacation",
         "type": "Loose gemstones on Etsy",
         "url": "https://www.etsy.com/shop/TheFamilyGemShop",
-        "note": "Owner: Family Gem bot (ac4794e0) on the main account runs the shop and thefamilygems.com; reports to Fresh $$. Etsy access for the bot not set up yet (cutover pending). Vacation mode ON, 0 live listings, 0 orders, $0 revenue. SF-001 photographed, NOT listed; its 6 original photos and 2 videos arrived on this account Oct 9 8:05 AM PT. Etsy stats: paused, pending cutover (the other account paused its Etsy check Oct 10 7:48 AM PT until the Family Gem bot is signed in here). Last read Oct 6: 0 visits. Site: HTTPS OK; home, shop, about, guides, tsavorite guide, faq, contact, privacy, robots, sitemap, and IndexNow key all return 200 (checked Oct 13 ~12:40 PM PT, ~0.07–0.26 s; sitemap 8 URLs, lastmod still Oct 5). Search Console: DNS verification record not added yet (DNS TXT shows only the email SPF record via Google DoH, Oct 13 ~12:40 PM PT). Mahenge spinel photos + lab scan: not on this account yet. Family Gem bot daily pulse Oct 12 7:35 PM PT confirmed site OK and A4/F5 still open; /workspace/familygem/ unchanged since Oct 8 4:29 PM PT.",
+        "note": "Owner: Family Gem bot (ac4794e0) on the main account runs the shop and thefamilygems.com; reports to Fresh $$. Etsy access for the bot not set up yet (cutover pending). Vacation mode ON, 0 live listings (last known), 0 orders, $0 revenue. SF-001 photographed, NOT listed; its 6 original photos and 2 videos arrived on this account Oct 9 8:05 AM PT. Etsy stats: paused, pending cutover (last real read Oct 6 8:37 AM PT: vacation, 0 visits, 0 orders, $0). Site live check Oct 14, 2026 ~12:20 PM PT: home, shop, about, guides, tsavorite-garnet-buying-guide, faq, contact, privacy, robots, sitemap, IndexNow key all HTTP 200 (~0.16–0.25 s); sitemap still 8 URLs, lastmod 2026-10-05; DNS TXT SPF only (no google-site-verification). Family Gem bot activity Oct 14 ~7:40 AM PT: F5 'tsavorite vs emerald' DRAFT written (/workspace/familygem/listings/F5-tsavorite-vs-emerald-DRAFT-2026-10-13.md, not published); tsavorite KB conflicts resolved (TSAVORITE-CONFLICTS-RESOLVED-2026-10-14.md); intake/LISTING-UPLOAD-PLAN.md + empty intake/2026-10-14 inbox ready for stone videos. A4 stale-name fixes in migration copy still open (MJ Gem / Gem Pathway). Waiting on Joshua: F1 Search Console TXT at Namecheap, A2 Etsy sign-in (separate browser profile), B1 SF-001 price/treatment/mm, Mahenge spinel photos + AIG scan.",
         "listings": [],
-        "one_liner": "Vacation · 0 listings · Etsy stats paused, pending cutover · site 200 on all pages (Oct 13 ~12:40 PM) · SF-001 media on this account · Search Console + Etsy access not set up"
+        "one_liner": "Vacation · 0 listings · Etsy stats paused, pending cutover · site 200 on all 8 sitemap pages (Oct 14, 2026 ~12:20 PM PT) · F5 draft on disk Oct 14 · Search Console + Etsy access not set up"
       },
       {
         "name": "Help4U",
@@ -2143,8 +2143,8 @@
       "account": "Other bots",
       "primary": "visits",
       "secondary": "views",
-      "status": "Site HTTPS OK, home + 7 pages + privacy + tsavorite guide + IndexNow key 200 at ~0.07–0.26 s (Oct 13 ~12:40 PM PT); sitemap 8 URLs, lastmod still Oct 5 (no site changes since); Etsy vacation, 0 listings (last known); Etsy stats paused, pending cutover (last read Oct 6: 0 visits); Search Console DNS record still not added (Google DoH SPF-only, Oct 13 ~12:40 PM PT); Family Gem bot pulse Oct 12 7:35 PM, A4/F5 still open",
-      "needs": "Joshua: Search Console domain property + DNS verification record; Family Gem bot: Etsy access not set up yet (cutover pending)"
+      "status": "Site HTTPS OK, all 8 sitemap pages + privacy + tsavorite guide + IndexNow key 200 at ~0.16–0.25 s (Oct 14, 2026 ~12:20 PM PT); sitemap 8 URLs, lastmod still Oct 5 (no site changes since); Etsy vacation, 0 listings (last known); Etsy stats paused, pending cutover (last read Oct 6: 0 visits); Search Console DNS record still not added (Google DoH SPF-only, Oct 14, 2026 ~12:20 PM PT); Family Gem bot wrote F5 draft + conflicts memo + intake plan Oct 14 ~7:40 AM; A4 migration name-swap still open",
+      "needs": "Joshua: Search Console domain property + DNS verification record; Family Gem bot: Etsy access not set up yet (cutover pending); A4 name fixes in migration copy"
     }
   ],
   "traffic_history": [
