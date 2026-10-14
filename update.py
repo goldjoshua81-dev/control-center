@@ -146,7 +146,8 @@ EXPECT_DAY = {"Nightly roll-up": -1, "Emergency backup": -1}
 
 def cmd_lanes(as_json=False):
     st = lane_status()
-    PAUSES = (load().get("lane_pauses") or {})
+    _D = load(); PAUSES = (_D.get("lane_pauses") or {})
+    SKIP = set((_D.get("lanes") or {}).get("not_expected", []))   # removed from the expected-run (LATE) check
     if as_json: print(json.dumps(st, indent=2, ensure_ascii=False)); return
     now = datetime.datetime.now(PT)
     for lane, s in st.items():
@@ -155,14 +156,18 @@ def cmd_lanes(as_json=False):
         if s["latest"] >= want: flag = "RAN TODAY" if off == 0 else f"OK ({want} file present)"
         else: flag = "last " + s["latest"] if s["latest"] else "no file yet"
         due = EXPECTED_BY.get(lane)
-        if due and s["latest"] < want and now.time() >= datetime.time(*due):
+        if due and lane not in SKIP and s["latest"] < want and now.time() >= datetime.time(*due):
             if off == 0: flag += f" · LATE (usually done by {datetime.time(*due).strftime('%-I:%M %p')} PT; check the routine)"
             else: flag += f" · LATE ({want} file missing; check the routine)"
         pause = PAUSES.get(lane)   # data.json "lane_pauses": a deliberate pause shows PAUSED instead of LATE
-        if pause and s["latest"] < want:
+        if pause:
             flag = f"last {s['latest'] or 'none'} · PAUSED since {pause.get('since', '?')} (on purpose: {pause.get('reason', 'paused')}; not a failure)"
         extra = "".join(f" · {k}={v}" for k, v in s.items() if k in ("posted", "top_pick", "runs"))
         print(f"{lane}: {flag} ({s['at']}) {s['file']}{extra}")
+    L = _D.get("lanes") or {}
+    for k in ("active", "background", "retired", "paused"):
+        if L.get(k): print(f"[{k}] " + " · ".join(x if isinstance(x, str) else x.get("name", "?") for x in L[k]))
+    if SKIP: print("[not expected in the run check] " + " · ".join(sorted(SKIP)))
 
 STALE_RUN = re.compile(r"\bno (?:new )?(?:overnight )?(?:(?:\w{3} )?\w{3} \d{1,2} )?(?:Deal Scout )?run\b", re.I)
 def freshness_problems():
