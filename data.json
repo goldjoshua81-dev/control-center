@@ -2002,11 +2002,6 @@
         "decision": "When SF-001 may be listed, and its price",
         "lane": "Family Gem",
         "note": "No price on file."
-      },
-      {
-        "decision": "One Etsy-help store or two",
-        "lane": "Help4U",
-        "note": "Help4U vs audit4u/For You overlap."
       }
     ],
     "cross_account_items": [
@@ -3046,7 +3041,7 @@
       "status": "approved",
       "done_at": "2026-10-14T21:14:00-07:00",
       "done_display": "Oct 14, 2026 · 9:14 PM PT",
-      "note": "Approved: one Etsy-help store instead of two.",
+      "note": "Approved: one Etsy-help store instead of two. Help4U was already folded into WebsitePlz; the shop never opened and no setup fee was paid.",
       "source": "Joshua tapped APPROVED (relayed by Chief of Staff)"
     }
   ],
