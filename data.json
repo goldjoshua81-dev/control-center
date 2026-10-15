@@ -3,8 +3,8 @@
     "title": "Fresh $$ Control Center",
     "owner": "Joshua",
     "assistant": "Fresh $$",
-    "last_updated": "2026-10-14T12:20:39-07:00",
-    "status_note": "Morning refresh Wed Oct 14, 2026 ~8:50 AM PT. Revenue $0 every lane. PrintPlz (Shop Manager 8:13 AM): 80 active / 1 draft / 2 inactive, 0 orders, 5 views / 2 visits last 7 days (views up from 4, visits down from 4); AM polish loop ran ~5:41 AM (54/54 OK; X21 materials PASS; X27/X28/P5 materials filled; capitals on X28/X26). HostFees: 30 of 49 pins, drip still paused on purpose until Joshua checks Pinterest; week-2 kit08 due today and blocked; Cloudflare 7d 35 visits / 42 views. WebsitePlz: Cloudflare 7d 85 visits / 91 views; Oct 13 audit clean; today's daily audit in progress. Deal Scout Oct 14: 308 cards, 11 new none standout; top small pick still SEO Supremacy; upsmiledirect extended (~3 days left, unranked). Other account (latest verified roll-up Oct 13 8:19 PM PT): paper desk $4,897.48 of $5,000, week P/L -$102.52 (paper). Needs top: confirm last night's bank decline + app balance; confirm Oct 13 Google sign-in; journey YouTube channel; Pinterest check. Next 72h: Gem Rock Paraiba watch-only auction tonight 7:30 PM PT; week-2 kit pins blocked on Pinterest; Fri Oct 16 Etsy Ads start + WebsitePlz forced re-check. 9:08 AM PT, Joshua's 9:02 AM focus decision: Active = WebsitePlz (#1), Family Gem (#2), PrintPlz holiday sprint through Nov 30; Background = HostFees (autopilot); Retired = MoonletterMira (shop untouched); Paused = Deal Scout, paper desk, incubator research queue, Easy $$ Monitor, Creator Growth, classroom tools. PrintPlz Etsy Ads approved at $10/day for 14 days on 7 listings (premium listing check first, final OK before spend). Website ads for thefamilygems.com and websiteplz.com ON HOLD."
+    "last_updated": "2026-10-14T21:08:11-07:00",
+    "status_note": "Evening update Wed Oct 14, 2026 ~9:10 PM PT (Chief of Staff evening summary). Revenue $0 every lane. Focus lineup applied: Active = WebsitePlz (#1), Family Gem (#2), PrintPlz holiday sprint through Nov 30; Background = HostFees (autopilot); Retired = MoonletterMira (shop untouched); Paused = Deal Scout, paper desk, incubator research queue, Easy $$ Monitor, Creator Growth, classroom tools. All ads ON HOLD at $0 (Etsy Ads included, plus website ads for thefamilygems.com and websiteplz.com) until Joshua revisits. PrintPlz: 54/54 Printful sync; 7 holiday listings prepped for ads (ads off); new decision: Etsy Cyber Specials opt-in closes Oct 27, nothing opted in. HostFees: 30 of 49 pins, drip paused until Joshua checks the Pinterest account. Other account (Oct 14 8:22 PM PT, verified): paper desk $4,894.64 of $5,000, week P/L -$105.36 (paper, PAUSED). Next 72h: week-2 kit pins blocked on the Pinterest check; Fri Oct 16 journey video test week ends and Halloween order-by; Tue Oct 27 Cyber Specials opt-in closes."
   },
   "budget": {
     "starting_capital": 1000,
@@ -82,7 +82,7 @@
       "type": "For-moms print-on-demand gifts: mom shirts, teacher shirts, kids stickers, holiday party items, ornaments",
       "platform": "Etsy + Printful",
       "status": "live",
-      "status_note": "Shop Manager Oct 14 ~8:13 AM PT: 80 active / 1 draft / 2 inactive / 0 expired / 0 sold out (unchanged). Last 7 days: 5 views / 2 visits, 0 orders, $0 (views up from 4 on Oct 13; visits down from 4). Traffic sources and top viewed not re-read (still from Oct 10). Etsy: New 0, overdue 0, unread messages 0, no warning banner. Printful (8:12 AM order check): all statuses 0. Oct 14 AM polish loop (~5:41–5:51 AM PT): 54/54 Printful sync OK; X21 public materials PASS (Cypress, wood); materials filled on X27 (Glass), X28 (Acrylic), P5 (Ceramic); capitals microcopy updated on X28 and X26. Build hold still on (K6/K7 unpublished). Etsy Ads planned Oct 16. Offsite Ads off. $0 revenue.",
+      "status_note": "Shop Manager Oct 14 ~8:13 AM PT: 80 active / 1 draft / 2 inactive / 0 expired / 0 sold out (unchanged). Last 7 days: 5 views / 2 visits, 0 orders, $0 (views up from 4 on Oct 13; visits down from 4). Traffic sources and top viewed not re-read (still from Oct 10). Etsy: New 0, overdue 0, unread messages 0, no warning banner. Printful (8:12 AM order check): all statuses 0. Oct 14 AM polish loop (~5:41–5:51 AM PT): 54/54 Printful sync OK; X21 public materials PASS (Cypress, wood); materials filled on X27 (Glass), X28 (Acrylic), P5 (Ceramic); capitals microcopy updated on X28 and X26. Build hold still on (K6/K7 unpublished). Etsy Ads ON HOLD (Oct 14). Offsite Ads off. $0 revenue.",
       "url": "https://www.etsy.com/shop/PrintPlzShop",
       "orders": 0,
       "revenue": 0,
@@ -610,11 +610,11 @@
   "ads": [
     {
       "channel": "Etsy Ads",
-      "status": "approved, not started",
+      "status": "on hold",
       "spend": 0,
       "attributed_revenue": 0,
       "orders": 0,
-      "plan": "Approved Oct 14: $10/day for 14 days on X3, X22, X2P, X4, X23, X24, X17. Premium listing check first; Joshua OKs the final setup before any spend. $0 spent."
+      "plan": "ON HOLD (Joshua, later Oct 14): all ads paused, Etsy Ads included. The earlier approval ($10/day for 14 days on X3, X22, X2P, X4, X23, X24, X17) is not starting Oct 16. Nothing turns on until Joshua revisits and says so. $0 spent."
     },
     {
       "channel": "Etsy Offsite Ads",
@@ -626,7 +626,7 @@
     },
     {
       "channel": "Pinterest (organic)",
-      "status": "live",
+      "status": "paused",
       "spend": 0,
       "attributed_revenue": 0,
       "orders": 0,
@@ -959,7 +959,7 @@
       "why": "websiteplz.com is done (Oct 3-4, per WebsitePlz). hostfees.com is reported already collecting (per HostFees Control, not verified here), so it needs only a sitemap check. thefamilygems.com still needs setup (no Google verification record on its DNS yet); that unblocks indexing for The Family Gem Shop's site.",
       "priority": "medium",
       "done": false,
-      "rank": 6
+      "rank": 5
     },
     {
       "task": "Mahenge spinel photos + AIG lab scan for Family Gem: sent by Joshua (tapped Completed Oct 9, 8:47 AM PT); waiting to arrive on this side",
@@ -984,7 +984,7 @@
       "priority": "medium",
       "done": false,
       "added": "2026-10-10",
-      "rank": 7
+      "rank": 6
     },
     {
       "task": "Read the paid-ads reference guide when convenient (research only)",
@@ -992,7 +992,7 @@
       "priority": "low",
       "done": false,
       "added": "2026-10-10",
-      "rank": 23
+      "rank": 24
     },
     {
       "task": "Start the HostFees Facebook-group posts from a re-dated calendar",
@@ -1015,7 +1015,7 @@
       "why": "Keeps your own visits out of the HostFees counts.",
       "priority": "low",
       "done": false,
-      "rank": 24,
+      "rank": 25,
       "added": "2026-10-10"
     },
     {
@@ -1033,17 +1033,17 @@
       "done": false,
       "optional": true,
       "added": "2026-10-10",
-      "rank": 25
+      "rank": 26
     },
     {
       "task": "Review the Cursor GitHub App's request for updated permissions (accept or ignore under GitHub Apps installations)",
       "why": "Two email notices Oct 12 (3:07 PM and 6:49 PM PT); only Joshua can approve",
       "priority": "medium",
       "done": false,
-      "rank": 8
+      "rank": 7
     },
     {
-      "task": "Confirm the Google sign-in to a third-party shopping site at 7:35 AM PT today was you; if not, review third-party connections in your Google Account",
+      "task": "Confirm the Google sign-in to a third-party shopping site at 7:35 AM PT on Oct 13 was you; if not, review third-party connections in your Google Account",
       "why": "Likely your own order this morning; tap Completed to confirm",
       "priority": "high",
       "done": false,
@@ -1052,20 +1052,29 @@
       "deadline": "2026-10-13"
     },
     {
-      "task": "Confirm tonight's declined bank debit was yours and check your available balance in the bank app",
-      "why": "Bank decline notice 8:02 PM PT Oct 13",
+      "task": "Confirm the declined bank debit on Oct 13 8:02 PM PT was yours and check your available balance in the bank app",
+      "why": "Bank decline notice, Oct 13 8:02 PM PT.",
       "priority": "high",
       "done": false,
       "added": "2026-10-13",
       "rank": 1
     },
     {
-      "task": "OK the final PrintPlz Etsy Ads setup ($10/day, 14 days, 7 listings) before any spend",
-      "why": "Approved Oct 14; the premium listing check runs first, then you OK the final setup. Nothing is spent until then.",
-      "priority": "high",
+      "task": "PrintPlz Etsy Ads: ON HOLD with all ads; OK the final setup only when you revisit ads",
+      "why": "Approved Oct 14 AM ($10/day, 14 days, 7 listings), then put on hold later Oct 14 with all ads. Nothing to do until you revisit; $0 spent.",
+      "priority": "low",
       "done": false,
       "added": "2026-10-14",
-      "rank": 5
+      "rank": 23,
+      "on_hold": true
+    },
+    {
+      "task": "Pause Edge Desk routines on the other account",
+      "why": "Paper desk is paused per the Oct 14 focus decision; the routine pause has to be done on the other account (from Scott Bot).",
+      "priority": "medium",
+      "done": false,
+      "added": "2026-10-14",
+      "rank": 8
     }
   ],
   "projects": [
@@ -1742,8 +1751,15 @@
       "date": "2026-10-16",
       "date_display": "Fri Oct 16, 2026",
       "event": "Halloween order-by (PrintPlz Etsy Ads start after final OK)",
-      "details": "Halloween last order-by date. Etsy Ads approved Oct 14 at $10/day for 14 days on 7 listings (X3, X22, X2P, X4, X23, X24, X17); start only after the premium listing check and Joshua's OK on the final setup. Replaces the old ~$3/day plan.",
+      "details": "Halloween last order-by date. Etsy Ads are ON HOLD (Joshua paused all ads later on Oct 14); the approved $10/day test does not start until he revisits.",
       "source": "Joshua's Oct 14 9:02 AM PT decision (via Scott Bot)"
+    },
+    {
+      "date": "2026-10-27",
+      "date_display": "Tue Oct 27, 2026",
+      "event": "Etsy Cyber Specials opt-in closes (PrintPlz)",
+      "details": "Needs Joshua's yes to opt in; nothing opted in yet.",
+      "source": "Chief of Staff Oct 14 evening summary"
     },
     {
       "date": "2026-11-01",
@@ -1798,8 +1814,8 @@
   ],
   "other_account": {
     "label": "Other account (Grok Bot)",
-    "as_of": "Verified roll-up 2026-10-13_2019 (619e85e3dc1d, as of Oct 13 8:19 PM PT). Paper-lane numbers below are as of that roll-up (desk shelf last updated Oct 13 1:06 PM PT). Family Gem Etsy stats are paused, pending cutover. Nothing was traded, published, spent or turned on.",
-    "source_note": "Latest verified roll-up 2026-10-13_2019_incubator_rollup.md (619e85e3dc1d). Real numbers only; \"unknown\" means not verified. Paper lanes are paper only. Nothing was traded, published, spent, or turned on. None of these numbers count toward this account's totals.",
+    "as_of": "Verified roll-up 2026-10-14_2022 (af7a8e97f160, as of Oct 14 8:22 PM PT). Paper desk PAUSED (Oct 14 focus decision); numbers below are as of that roll-up (desk shelf last updated Oct 14 11:05 AM PT). Family Gem Etsy stats are paused, pending cutover. Nothing was traded, published, spent or turned on.",
+    "source_note": "Latest verified roll-up 2026-10-14_2022_incubator_rollup.md (af7a8e97f160). Real numbers only; \"unknown\" means not verified. Paper lanes are paper only. Nothing was traded, published, spent, or turned on. None of these numbers count toward this account's totals.",
     "shops": [
       {
         "name": "MoonletterMira",
@@ -1835,7 +1851,7 @@
         "one_liner": "Not open · $0 spent · catalog waiting on Joshua"
       }
     ],
-    "paper_lanes_note": "Paper desk PAUSED Oct 14 (Joshua's focus decision). Paper only, no real money. Numbers from the Oct 13 8:19 PM PT roll-up. Per the usage-cut result (Oct 8 6:02 PM PT), Politics, Sports and Polymarket are paused and the Moon scalper paused after its RIOT paper stop (Oct 8 9:31 AM PT); Stocks Edge still holds ZS and TWLO on paper.",
+    "paper_lanes_note": "Paper desk PAUSED Oct 14 (Joshua's focus decision); all Edge/Moon, Politics, Sports and Polymarket routines paused; resting Polymarket paper orders untouched. Paper only, no real money. Numbers from the Oct 14 8:22 PM PT roll-up.",
     "paper_lanes": [
       {
         "lane": "Politics",
@@ -1850,12 +1866,12 @@
       {
         "lane": "Stocks Edge",
         "bankroll": "$1,000 paper",
-        "equity": "$1,006.47 (+$6.47)",
-        "note": "Open: ZS (paper, holding); watching VG. Realized -$12.02.",
+        "equity": "$1,003.63 (+$3.63)",
+        "note": "Flat: ZS closed Oct 14 (paper); watching VG. Routines paused.",
         "start_balance": 1000,
-        "current_balance": 1006.47,
-        "week_pnl": 6.47,
-        "open_positions": 1
+        "current_balance": 1003.63,
+        "week_pnl": 3.63,
+        "open_positions": 0
       },
       {
         "lane": "Stocks Moon",
@@ -1890,11 +1906,11 @@
       {
         "lane": "Desk total",
         "bankroll": "$5,000 paper",
-        "equity": "$4,897.48 (-$102.52)",
-        "note": "All paper lanes; paper money, not real.",
+        "equity": "$4,894.64 (-$105.36)",
+        "note": "All paper lanes; paper money, not real. PAUSED.",
         "start_balance": 5000,
-        "current_balance": 4897.48,
-        "week_pnl": -102.52,
+        "current_balance": 4894.64,
+        "week_pnl": -105.36,
         "open_positions": null
       }
     ],
@@ -1990,11 +2006,11 @@
       }
     ],
     "combined_ads_note": "Combined Etsy Ads (both accounts): PrintPlz ~$3/day from Fri Oct 16, capped at $100/month, plus ML-01 ~$5/day from ~Oct 11 only if Joshua enables it (off now).",
-    "as_of_date": "2026-10-13",
+    "as_of_date": "2026-10-14",
     "revenue": 0,
     "spend_total": 40.48,
-    "paper_pnl": -102.52,
-    "paper_pnl_note": "Paper desk $4,897.48 of $5,000.00 start; week P/L -$102.52 (paper money, not real; Oct 13 8:19 PM PT roll-up)",
+    "paper_pnl": -105.36,
+    "paper_pnl_note": "Paper desk $4,894.64 of $5,000.00 start; week P/L -$105.36 (paper money, not real; PAUSED; Oct 14 8:22 PM PT roll-up)",
     "spend_note": "Family Gem $40.48 ($29 Etsy setup + $11.48 domain); MoonletterMira unknown in full; Help4U $0; today $0",
     "decisions_pending": [
       {
@@ -2832,12 +2848,18 @@
       "decision": "PrintPlz Etsy Ads: $10/day for 14 days on X3, X22, X2P, X4, X23, X24, X17",
       "lane": "PrintPlz",
       "recommended": "Yes",
-      "note": "Approved Oct 14, 9:02 AM PT. Premium listing check first; Joshua OKs the final setup before any spend. $0 spent so far.",
+      "note": "Approved Oct 14 AM, then put ON HOLD later Oct 14 with all ads. Nothing starts until Joshua revisits. Approved Oct 14, 9:02 AM PT. Premium listing check first; Joshua OKs the final setup before any spend. $0 spent so far.",
       "done": true,
       "status": "approved"
+    },
+    {
+      "decision": "PrintPlz: opt in to Etsy Cyber Specials (opt-in closes Oct 27)",
+      "lane": "PrintPlz",
+      "recommended": "Your call (needs your yes by Oct 27)",
+      "note": "Nothing opted in yet. Etsy's Cyber Week runs Nov 23 – Dec 1."
     }
   ],
-  "decisions_source": "Chief of Staff evening summary, Tue Oct 13, 2026 (recommended defaults are Chief of Staff's; nothing changes until Joshua decides)",
+  "decisions_source": "Chief of Staff evening summary, Wed Oct 14, 2026 (recommended defaults are Chief of Staff's; nothing changes until Joshua decides)",
   "priority_projects": [
     {
       "id": "app-store-apps",
