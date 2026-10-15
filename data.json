@@ -3,8 +3,8 @@
     "title": "Fresh $$ Control Center",
     "owner": "Joshua",
     "assistant": "Fresh $$",
-    "last_updated": "2026-10-14T21:08:11-07:00",
-    "status_note": "Evening update Wed Oct 14, 2026 ~9:10 PM PT (Chief of Staff evening summary). Revenue $0 every lane. Focus lineup applied: Active = WebsitePlz (#1), Family Gem (#2), PrintPlz holiday sprint through Nov 30; Background = HostFees (autopilot); Retired = MoonletterMira (shop untouched); Paused = Deal Scout, paper desk, incubator research queue, Easy $$ Monitor, Creator Growth, classroom tools. All ads ON HOLD at $0 (Etsy Ads included, plus website ads for thefamilygems.com and websiteplz.com) until Joshua revisits. PrintPlz: 54/54 Printful sync; 7 holiday listings prepped for ads (ads off); new decision: Etsy Cyber Specials opt-in closes Oct 27, nothing opted in. HostFees: 30 of 49 pins, drip paused until Joshua checks the Pinterest account. Other account (Oct 14 8:22 PM PT, verified): paper desk $4,894.64 of $5,000, week P/L -$105.36 (paper, PAUSED). Next 72h: week-2 kit pins blocked on the Pinterest check; Fri Oct 16 journey video test week ends and Halloween order-by; Tue Oct 27 Cyber Specials opt-in closes."
+    "last_updated": "2026-10-14T21:14:37-07:00",
+    "status_note": "Evening update Wed Oct 14, 2026 ~9:10 PM PT (Chief of Staff evening summary). Revenue $0 every lane. Focus lineup applied: Active = WebsitePlz (#1), Family Gem (#2), PrintPlz holiday sprint through Nov 30; Background = HostFees (autopilot); Retired = MoonletterMira (shop untouched); Paused = Deal Scout, paper desk, incubator research queue, Easy $$ Monitor, Creator Growth, classroom tools. All ads ON HOLD at $0 (Etsy Ads included, plus website ads for thefamilygems.com and websiteplz.com) until Joshua revisits. PrintPlz: 54/54 Printful sync; 7 holiday listings prepped for ads (ads off); new decision: Etsy Cyber Specials opt-in closes Oct 27, nothing opted in. HostFees: 30 of 49 pins, drip paused until Joshua checks the Pinterest account. Other account (Oct 14 8:22 PM PT, verified): paper desk $4,894.64 of $5,000, week P/L -$105.36 (paper, PAUSED). Next 72h: week-2 kit pins blocked on the Pinterest check; Fri Oct 16 journey video test week ends and Halloween order-by; Tue Oct 27 Cyber Specials opt-in closes. 9:14 PM PT taps: bank decline confirmed as his (balance checked), Oct 13 Google sign-in was him, Edge Desk routines paused, one Etsy-help store approved. Still open: journey YouTube channel, Pinterest check."
   },
   "budget": {
     "starting_capital": 1000,
@@ -811,7 +811,7 @@
       "priority": "low",
       "done": false,
       "bot_work": true,
-      "rank": 21
+      "rank": 18
     },
     {
       "task": "Use Etsy Shop Manager for future live-listing counts",
@@ -825,7 +825,7 @@
       "priority": "medium",
       "done": false,
       "optional": true,
-      "rank": 19
+      "rank": 16
     },
     {
       "task": "Get a P.O. Box for HostFees",
@@ -833,7 +833,7 @@
       "priority": "medium",
       "done": false,
       "optional": true,
-      "rank": 16
+      "rank": 13
     },
     {
       "task": "Change the Turno temporary password",
@@ -853,7 +853,7 @@
       "priority": "low",
       "done": false,
       "optional": true,
-      "rank": 17
+      "rank": 14
     },
     {
       "task": "Complete the Amazon Associates application",
@@ -866,7 +866,7 @@
       "why": "Finish ID verification and confirm the phone number, then publish the WebsitePlz gig. W-9 submitted; Contra ~89%.",
       "priority": "high",
       "done": false,
-      "rank": 9
+      "rank": 6
     },
     {
       "task": "Optional: apply to the OwnerRez affiliate program",
@@ -874,7 +874,7 @@
       "priority": "low",
       "done": false,
       "optional": true,
-      "rank": 22
+      "rank": 19
     },
     {
       "task": "Unlock the traffic tiles",
@@ -887,28 +887,28 @@
       "why": "50% deposits are live on the site; buttons switch to \"Pay $X to start\" once the links are pasted in. Also 3 Care links and the customer portal (WebsitePlz README).",
       "priority": "medium",
       "done": false,
-      "rank": 13
+      "rank": 10
     },
     {
       "task": "Relay $300 for PrintPlz",
       "why": "On Chief of Staff's waiting-on-Joshua list (Oct 3).",
       "priority": "medium",
       "done": false,
-      "rank": 18
+      "rank": 15
     },
     {
       "task": "Set up the WebsitePlz contact inbox",
       "why": "Contact address for WebsitePlz buyers. Chief of Staff list, Oct 3.",
       "priority": "medium",
       "done": false,
-      "rank": 14
+      "rank": 11
     },
     {
       "task": "Review the WebsitePlz legal pages (Terms, Privacy, Refunds)",
       "why": "Plain-English drafts are live at websiteplz.com/terms, /privacy and /refunds. Review before Stripe goes live (Stripe's terms checkbox points at /terms/).",
       "priority": "high",
       "done": false,
-      "rank": 11
+      "rank": 8
     },
     {
       "task": "CANCELLED: Cat Bundle Flippa follow-up (PASSED Oct 6)",
@@ -940,7 +940,7 @@
       "why": "Add hostfees.com to the Associates Sites list and make SiteStripe links for the empty kit slots: 28 of 51 slots still fall back to tagged searches.",
       "priority": "high",
       "done": false,
-      "rank": 10
+      "rank": 7
     },
     {
       "task": "OK to deploy the HostFees staged kits (before Thu Oct 8)",
@@ -959,14 +959,14 @@
       "why": "websiteplz.com is done (Oct 3-4, per WebsitePlz). hostfees.com is reported already collecting (per HostFees Control, not verified here), so it needs only a sitemap check. thefamilygems.com still needs setup (no Google verification record on its DNS yet); that unblocks indexing for The Family Gem Shop's site.",
       "priority": "medium",
       "done": false,
-      "rank": 5
+      "rank": 3
     },
     {
       "task": "Mahenge spinel photos + AIG lab scan for Family Gem: sent by Joshua (tapped Completed Oct 9, 8:47 AM PT); waiting to arrive on this side",
       "why": "Nothing more needed from you. Stays on the list until the files arrive and verify here; needed before the first Family Gem listing.",
       "priority": "medium",
       "done": false,
-      "rank": 12,
+      "rank": 9,
       "status": "sent, waiting to arrive"
     },
     {
@@ -976,7 +976,7 @@
       "done": false,
       "deadline": "2026-10-16",
       "added": "2026-10-09",
-      "rank": 3
+      "rank": 1
     },
     {
       "task": "Glance at the 'Welcome to Cloudflare' email (7:10 AM PT Oct 10): did you sign up for a new Cloudflare account?",
@@ -984,7 +984,7 @@
       "priority": "medium",
       "done": false,
       "added": "2026-10-10",
-      "rank": 6
+      "rank": 4
     },
     {
       "task": "Read the paid-ads reference guide when convenient (research only)",
@@ -992,14 +992,14 @@
       "priority": "low",
       "done": false,
       "added": "2026-10-10",
-      "rank": 24
+      "rank": 21
     },
     {
       "task": "Start the HostFees Facebook-group posts from a re-dated calendar",
       "why": "HostFees' Oct 10 sales-path report calls this the biggest near-term traffic lever (groups with 560K+ members vs about 0 Pinterest visits so far); no Facebook-tagged visits yet. Lead with the cleaning-kit and linen-kit posts. HostFees Control can re-date the calendar first (internal, nothing posted).",
       "priority": "medium",
       "done": false,
-      "rank": 15,
+      "rank": 12,
       "added": "2026-10-10"
     },
     {
@@ -1007,7 +1007,7 @@
       "why": "Lets HostFees Control finish the winter checklist upgrade before the Oct 15 winter pin and fix the smart-lock kit's Start-here match (or retitle that heading). Pick before Thu Oct 15.",
       "priority": "low",
       "done": false,
-      "rank": 20,
+      "rank": 17,
       "added": "2026-10-10"
     },
     {
@@ -1015,7 +1015,7 @@
       "why": "Keeps your own visits out of the HostFees counts.",
       "priority": "low",
       "done": false,
-      "rank": 25,
+      "rank": 22,
       "added": "2026-10-10"
     },
     {
@@ -1024,7 +1024,7 @@
       "priority": "high",
       "done": false,
       "added": "2026-10-10",
-      "rank": 4
+      "rank": 2
     },
     {
       "task": "Optional: confirm hostfees.com as the website link on your X profile (@TheJoshuaGold) until the Gold Ventures page is live.",
@@ -1033,31 +1033,14 @@
       "done": false,
       "optional": true,
       "added": "2026-10-10",
-      "rank": 26
+      "rank": 23
     },
     {
       "task": "Review the Cursor GitHub App's request for updated permissions (accept or ignore under GitHub Apps installations)",
       "why": "Two email notices Oct 12 (3:07 PM and 6:49 PM PT); only Joshua can approve",
       "priority": "medium",
       "done": false,
-      "rank": 7
-    },
-    {
-      "task": "Confirm the Google sign-in to a third-party shopping site at 7:35 AM PT on Oct 13 was you; if not, review third-party connections in your Google Account",
-      "why": "Likely your own order this morning; tap Completed to confirm",
-      "priority": "high",
-      "done": false,
-      "added": "2026-10-13",
-      "rank": 2,
-      "deadline": "2026-10-13"
-    },
-    {
-      "task": "Confirm the declined bank debit on Oct 13 8:02 PM PT was yours and check your available balance in the bank app",
-      "why": "Bank decline notice, Oct 13 8:02 PM PT.",
-      "priority": "high",
-      "done": false,
-      "added": "2026-10-13",
-      "rank": 1
+      "rank": 5
     },
     {
       "task": "PrintPlz Etsy Ads: ON HOLD with all ads; OK the final setup only when you revisit ads",
@@ -1065,16 +1048,8 @@
       "priority": "low",
       "done": false,
       "added": "2026-10-14",
-      "rank": 23,
+      "rank": 20,
       "on_hold": true
-    },
-    {
-      "task": "Pause Edge Desk routines on the other account",
-      "why": "Paper desk is paused per the Oct 14 focus decision; the routine pause has to be done on the other account (from Scott Bot).",
-      "priority": "medium",
-      "done": false,
-      "added": "2026-10-14",
-      "rank": 8
     }
   ],
   "projects": [
@@ -2749,12 +2724,6 @@
       "done": true
     },
     {
-      "decision": "One Etsy-help store instead of two (Help4U vs audit4u/For You)",
-      "lane": "Other account",
-      "recommended": "Yes",
-      "note": "Chief of Staff default (Oct 10 evening): yes, one store."
-    },
-    {
       "decision": "Start a new Politics paper week",
       "lane": "Other account (paper)",
       "recommended": "Yes",
@@ -3047,6 +3016,38 @@
       "done_display": "Oct 14, 2026 · 9:02 AM PT",
       "note": "Approved on X3, X22, X2P, X4, X23, X24, X17. Premium listing check first; final setup still needs Joshua's OK before any spend.",
       "source": "Joshua's decision (relayed by Scott Bot)"
+    },
+    {
+      "task": "Declined bank debit (Oct 13) confirmed as his; balance checked in the app",
+      "status": "done",
+      "done_at": "2026-10-14T21:14:00-07:00",
+      "done_display": "Oct 14, 2026 · 9:14 PM PT",
+      "note": "Done. No amounts published.",
+      "source": "Joshua tapped COMPLETED (relayed by Chief of Staff)"
+    },
+    {
+      "task": "Google sign-in to a third-party shopping site (Oct 13) confirmed as his",
+      "status": "done",
+      "done_at": "2026-10-14T21:14:00-07:00",
+      "done_display": "Oct 14, 2026 · 9:14 PM PT",
+      "note": "Done: it was him; nothing to remove.",
+      "source": "Joshua tapped COMPLETED (relayed by Chief of Staff)"
+    },
+    {
+      "task": "Pause Edge Desk routines on the other account",
+      "status": "done",
+      "done_at": "2026-10-14T21:14:00-07:00",
+      "done_display": "Oct 14, 2026 · 9:14 PM PT",
+      "note": "Done: paper desk routines paused per the Oct 14 focus decision.",
+      "source": "Joshua tapped COMPLETED (relayed by Chief of Staff)"
+    },
+    {
+      "task": "One Etsy-help store instead of two (Help4U vs audit4u/For You)",
+      "status": "approved",
+      "done_at": "2026-10-14T21:14:00-07:00",
+      "done_display": "Oct 14, 2026 · 9:14 PM PT",
+      "note": "Approved: one Etsy-help store instead of two.",
+      "source": "Joshua tapped APPROVED (relayed by Chief of Staff)"
     }
   ],
   "acquisition_ideas": {
