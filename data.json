@@ -3,8 +3,8 @@
     "title": "Fresh $$ Control Center",
     "owner": "Joshua",
     "assistant": "Fresh $$",
-    "last_updated": "2026-10-15T21:11:21-07:00",
-    "status_note": "Evening update Thu Oct 15, 2026 ~9:15 PM PT (Chief of Staff evening summary). Revenue $0 every lane. Focus lineup unchanged: Active = WebsitePlz (#1), Family Gem (#2), PrintPlz holiday sprint through Nov 30; Background = HostFees (autopilot); Paused = Deal Scout, paper desk, incubator research queue, Easy $$ Monitor, Creator Growth, classroom tools. All ads ON HOLD at $0, except PrintPlz joined Etsy Cyber Specials (25% off Nov 23 – Dec 1; an Etsy sale, not ad spend). PrintPlz: X20 +$2 per size; holiday SEO batches start Oct 16. Missed run today: GemRock fetch_event.py overslept; the Gem Rock live event window passed 7:30 PM PT with no result recorded. HostFees: 30 of 49 pins, drip paused until Joshua checks the Pinterest account. Other account (Oct 15 8:24 PM PT, verified): paper desk $4,894.64 of $5,000 (paper, PAUSED, unchanged). Next 72h: Fri Oct 16 journey video test week ends, Halloween order-by, holiday SEO batches start; Oct 31 early .com renew window (hostfees.com) closes."
+    "last_updated": "2026-10-16T08:45:44-07:00",
+    "status_note": "Morning refresh Fri Oct 16, 2026 ~8:45 AM PT. Revenue $0 every lane. Focus lineup unchanged: Active = WebsitePlz (#1), Family Gem (#2), PrintPlz holiday sprint through Nov 30; Background = HostFees (autopilot); Retired = MoonletterMira (shop untouched); Paused = Deal Scout, paper desk, incubator research queue, Easy $$ Monitor, Creator Growth, classroom tools. All ads ON HOLD at $0. PrintPlz (Shop Manager 8:17 AM, fresh JSON): 80 active / 1 draft / 2 inactive, 0 orders, 3 views / 3 visits last 7 days; AM polish loop ran (~6:07 AM, 54/54 OK; capitals on X13/X14/X15). HostFees: 30 of 49 pins, drip still paused until Joshua checks Pinterest; week-2 kit pins still blocked. WebsitePlz: forced full re-check due ~10:12 AM PT today (in progress / not done yet this morning). Family Gem: Etsy cutover still pending; site was 200 on all 8 sitemap pages (last pulse Oct 15 ~7:40 PM). Gem-close-logger ran this morning (~7:19–7:41 AM PT). Other account: verified roll-up 2026-10-15_2024_incubator_rollup.md (49209b59395b, as of Oct 15 8:24 PM PT); no Oct 16 incubator roll-up yet (expected evening). Paper desk PAUSED. New Needs today: Gem Rock cert invoice (order held), thegemportal live tonight 7:30 PM PT."
   },
   "budget": {
     "starting_capital": 1000,
@@ -82,7 +82,7 @@
       "type": "For-moms print-on-demand gifts: mom shirts, teacher shirts, kids stickers, holiday party items, ornaments",
       "platform": "Etsy + Printful",
       "status": "live",
-      "status_note": "Shop Manager Oct 15 ~8:19 AM PT: 80 active / 1 draft / 2 inactive / 0 expired / 0 sold out (unchanged). Last 7 days: 3 views / 3 visits, 0 orders, $0 (views down from 5 on Oct 14 AM; visits up from 2). Traffic sources and top viewed not re-read (still from Oct 10). Etsy: New 0, overdue 0, unread messages 0, no warning banner. Printful (8:17 AM order check): all statuses 0. Oct 15 AM polish loop (~6:01–6:11 AM PT): 54/54 Printful sync OK; materials filled on P10 (Recycled polyester) and X25 (Glass); capitals microcopy live on P9, P10, X25; X2P instructions/description confirmed. Build hold still on (K6/K7 unpublished). Etsy Ads ON HOLD (all ads). Offsite Ads off. Cyber Specials joined (25% off Nov 23 – Dec 1, on Joshua's yes). Shop advisor: Customize shop 4/5 (seller photo missing). $0 revenue. Oct 15 evening: X20 +$2 per size; holiday SEO batches start Oct 16.",
+      "status_note": "Shop Manager Oct 16 ~8:17 AM PT (printplz-live-listings.json, fresh <60m): 80 active / 1 draft / 2 inactive / 0 expired / 0 sold out (unchanged). Last 7 days: 3 views / 3 visits, 0 orders, $0 (unchanged from Oct 15 AM). Etsy: New 0, overdue 0, unread messages 0, no warning banner. Printful (8:15–8:17 AM order check): all statuses 0. Oct 16 AM polish loop (~5:54–6:07 AM PT): 54/54 final_verify OK; Printful retail now matches Etsy on prior TC*/TB*/TG*/TF*/X9/P3 diffs; capitals instructions live on X13/X14/X15. Build hold still on (K6/K7 unpublished). Etsy Ads ON HOLD (all ads). Offsite Ads off. Cyber Specials joined (25% off Nov 23 – Dec 1; Etsy sale, not ad spend). Shop advisor still surfaces Cyber tip / Gen Z replay. $0 revenue.",
       "url": "https://www.etsy.com/shop/PrintPlzShop",
       "orders": 0,
       "revenue": 0,
@@ -811,7 +811,7 @@
       "priority": "low",
       "done": false,
       "bot_work": true,
-      "rank": 19
+      "rank": 22
     },
     {
       "task": "Use Etsy Shop Manager for future live-listing counts",
@@ -825,14 +825,14 @@
       "priority": "medium",
       "done": false,
       "optional": true,
-      "rank": 17
+      "rank": 20
     },
     {
       "task": "Get a P.O. box / mailing address for CAN-SPAM compliance before email outreach",
       "why": "Commercial emails need a valid postal address (CAN-SPAM); needed before any email outreach (Supreme Sales 2.0). Also serves HostFees site and affiliate mail. No address goes on this page.",
       "priority": "medium",
       "done": false,
-      "rank": 14
+      "rank": 17
     },
     {
       "task": "Change the Turno temporary password",
@@ -852,7 +852,7 @@
       "priority": "low",
       "done": false,
       "optional": true,
-      "rank": 15
+      "rank": 18
     },
     {
       "task": "Complete the Amazon Associates application",
@@ -865,7 +865,7 @@
       "why": "Finish ID verification and confirm the phone number, then publish the WebsitePlz gig. W-9 submitted; Contra ~89%.",
       "priority": "high",
       "done": false,
-      "rank": 7
+      "rank": 10
     },
     {
       "task": "Optional: apply to the OwnerRez affiliate program",
@@ -873,7 +873,7 @@
       "priority": "low",
       "done": false,
       "optional": true,
-      "rank": 20
+      "rank": 23
     },
     {
       "task": "Unlock the traffic tiles",
@@ -886,28 +886,28 @@
       "why": "50% deposits are live on the site; buttons switch to \"Pay $X to start\" once the links are pasted in. Also 3 Care links and the customer portal (WebsitePlz README).",
       "priority": "medium",
       "done": false,
-      "rank": 11
+      "rank": 14
     },
     {
       "task": "Relay $300 for PrintPlz",
       "why": "On Chief of Staff's waiting-on-Joshua list (Oct 3).",
       "priority": "medium",
       "done": false,
-      "rank": 16
+      "rank": 19
     },
     {
       "task": "Set up the WebsitePlz contact inbox",
       "why": "Contact address for WebsitePlz buyers. Chief of Staff list, Oct 3.",
       "priority": "medium",
       "done": false,
-      "rank": 12
+      "rank": 15
     },
     {
       "task": "Review the WebsitePlz legal pages (Terms, Privacy, Refunds)",
       "why": "Plain-English drafts are live at websiteplz.com/terms, /privacy and /refunds. Review before Stripe goes live (Stripe's terms checkbox points at /terms/).",
       "priority": "high",
       "done": false,
-      "rank": 9
+      "rank": 12
     },
     {
       "task": "CANCELLED: Cat Bundle Flippa follow-up (PASSED Oct 6)",
@@ -939,7 +939,7 @@
       "why": "Add hostfees.com to the Associates Sites list and make SiteStripe links for the empty kit slots: 28 of 51 slots still fall back to tagged searches.",
       "priority": "high",
       "done": false,
-      "rank": 8
+      "rank": 11
     },
     {
       "task": "OK to deploy the HostFees staged kits (before Thu Oct 8)",
@@ -958,14 +958,14 @@
       "why": "websiteplz.com is done (Oct 3-4, per WebsitePlz). hostfees.com is reported already collecting (per HostFees Control, not verified here), so it needs only a sitemap check. thefamilygems.com still needs setup (no Google verification record on its DNS yet); that unblocks indexing for The Family Gem Shop's site.",
       "priority": "medium",
       "done": false,
-      "rank": 3
+      "rank": 6
     },
     {
       "task": "Mahenge spinel photos + AIG lab scan for Family Gem: sent by Joshua (tapped Completed Oct 9, 8:47 AM PT); waiting to arrive on this side",
       "why": "Nothing more needed from you. Stays on the list until the files arrive and verify here; needed before the first Family Gem listing.",
       "priority": "medium",
       "done": false,
-      "rank": 10,
+      "rank": 13,
       "status": "sent, waiting to arrive"
     },
     {
@@ -975,7 +975,7 @@
       "done": false,
       "deadline": "2026-10-16",
       "added": "2026-10-09",
-      "rank": 1
+      "rank": 2
     },
     {
       "task": "Glance at the 'Welcome to Cloudflare' email (7:10 AM PT Oct 10): did you sign up for a new Cloudflare account?",
@@ -983,7 +983,7 @@
       "priority": "medium",
       "done": false,
       "added": "2026-10-10",
-      "rank": 4
+      "rank": 7
     },
     {
       "task": "Read the paid-ads reference guide when convenient (research only)",
@@ -991,14 +991,14 @@
       "priority": "low",
       "done": false,
       "added": "2026-10-10",
-      "rank": 22
+      "rank": 25
     },
     {
       "task": "Start the HostFees Facebook-group posts from a re-dated calendar",
       "why": "HostFees' Oct 10 sales-path report calls this the biggest near-term traffic lever (groups with 560K+ members vs about 0 Pinterest visits so far); no Facebook-tagged visits yet. Lead with the cleaning-kit and linen-kit posts. HostFees Control can re-date the calendar first (internal, nothing posted).",
       "priority": "medium",
       "done": false,
-      "rank": 13,
+      "rank": 16,
       "added": "2026-10-10"
     },
     {
@@ -1006,7 +1006,7 @@
       "why": "Lets HostFees Control finish the winter checklist upgrade before the Oct 15 winter pin and fix the smart-lock kit's Start-here match (or retitle that heading). Pick before Thu Oct 15.",
       "priority": "low",
       "done": false,
-      "rank": 18,
+      "rank": 21,
       "added": "2026-10-10"
     },
     {
@@ -1014,7 +1014,7 @@
       "why": "Keeps your own visits out of the HostFees counts.",
       "priority": "low",
       "done": false,
-      "rank": 23,
+      "rank": 26,
       "added": "2026-10-10"
     },
     {
@@ -1023,7 +1023,7 @@
       "priority": "high",
       "done": false,
       "added": "2026-10-10",
-      "rank": 2
+      "rank": 5
     },
     {
       "task": "Optional: confirm hostfees.com as the website link on your X profile (@TheJoshuaGold) until the Gold Ventures page is live.",
@@ -1032,14 +1032,14 @@
       "done": false,
       "optional": true,
       "added": "2026-10-10",
-      "rank": 24
+      "rank": 27
     },
     {
       "task": "Review the Cursor GitHub App's request for updated permissions (accept or ignore under GitHub Apps installations)",
       "why": "Two email notices Oct 12 (3:07 PM and 6:49 PM PT); only Joshua can approve",
       "priority": "medium",
       "done": false,
-      "rank": 5
+      "rank": 8
     },
     {
       "task": "PrintPlz Etsy Ads: ON HOLD with all ads; OK the final setup only when you revisit ads",
@@ -1047,7 +1047,7 @@
       "priority": "low",
       "done": false,
       "added": "2026-10-14",
-      "rank": 21,
+      "rank": 24,
       "on_hold": true
     },
     {
@@ -1058,7 +1058,34 @@
       "deadline": "2026-10-31",
       "added": "2026-10-15",
       "optional": false,
-      "rank": 6
+      "rank": 9
+    },
+    {
+      "task": "[removed]",
+      "why": "[removed]",
+      "priority": "high",
+      "done": false,
+      "deadline": "2026-10-16",
+      "added": "2026-10-16",
+      "rank": 1
+    },
+    {
+      "task": "Gem Rock Auctions / thegemportal cert invoice — seller (Jake) says an invoice for lab-cert fees was sent; order is held pending Joshua's yes/no (pay certs, or tell them to ship without). Reply on Gem Rock Auctions only; do not auto-reply.",
+      "why": "Order held pending reply (email-sweep-2026-10-16-am.md + open-tasks-2026-10-16-am.md).",
+      "priority": "high",
+      "done": false,
+      "deadline": "2026-10-16",
+      "added": "2026-10-16",
+      "rank": 3
+    },
+    {
+      "task": "thegemportal live event tonight Fri Oct 16, 7:30pm PT — watch or bid? (GemRock Intel comps only, never bids)",
+      "why": "Same-day live-event notice (email-sweep-2026-10-16-am.md). Thu Oct 15 Show 175 passed with no result recorded.",
+      "priority": "high",
+      "done": false,
+      "deadline": "2026-10-16",
+      "added": "2026-10-16",
+      "rank": 4
     }
   ],
   "projects": [
@@ -1121,7 +1148,8 @@
       "profit": 0,
       "package_names": {
         "cleaning_pressure_washing": "Booking-ready"
-      }
+      },
+      "note": "Focus #1 since Oct 14. websiteplz.com live; sitesplz.com redirects. Reassurance line live; audit clean; Search Console collecting since Oct 5. Contra profile ~89%. Fiverr: W-9 submitted; gig blocked only on Joshua's ID verification + phone confirm, then publish. Still waiting on Joshua: Terms/Privacy/Refunds review, 3 Stripe deposit links, hello inbox. Cloudflare 7d (Oct 15 8:50 AM PT): 72 visits / 78 views (Oct 14: 85 / 91; raw, includes bots). Oct 14 daily audit ~9:49–9:57 AM PT succeeded (unchanged since Oct 9); 8:46 PM PT live check all 200. Forced full re-check due by ~10:12 AM Fri Oct 16. Website ads ON HOLD. $0 revenue. Morning Oct 16: forced full re-check still due ~10:12 AM PT (not completed yet as of morning refresh ~8:45 AM)."
     }
   ],
   "printplz_margins": [
@@ -1812,7 +1840,7 @@
   ],
   "other_account": {
     "label": "Other account (Grok Bot)",
-    "as_of": "Verified roll-up 2026-10-15_2024_incubator_rollup.md (49209b59395b, as of Oct 15 8:24 PM PT). Paper desk PAUSED; numbers unchanged since Oct 14 (desk shelf last updated Oct 14 11:05 AM PT). Family Gem Etsy stats are paused, pending cutover. Nothing was traded, published, spent or turned on.",
+    "as_of": "Verified roll-up 2026-10-15_2024_incubator_rollup.md (49209b59395b, as of Oct 15 8:24 PM PT). No Oct 16 incubator roll-up yet (expected evening). Paper desk PAUSED; numbers unchanged since Oct 14 (desk shelf last updated Oct 14 11:05 AM PT). Family Gem Etsy stats are paused, pending cutover. Nothing was traded, published, spent or turned on.",
     "source_note": "Latest verified roll-up 2026-10-15_2024_incubator_rollup.md (49209b59395b). Real numbers only; \"unknown\" means not verified. Paper lanes are paper only. Nothing was traded, published, spent, or turned on. None of these numbers count toward this account's totals.",
     "shops": [
       {
@@ -2918,6 +2946,18 @@
       "lane": "WebsitePlz",
       "recommended": "Your call",
       "note": "Lead from Supreme Sales 2.0; nothing sent."
+    },
+    {
+      "decision": "Gem Rock / thegemportal cert invoice: pay lab-cert fees, or tell them to ship without",
+      "lane": "GemRock",
+      "recommended": "Your call (reply on Gem Rock Auctions only; do not auto-reply)",
+      "note": "Order held pending Joshua's yes/no. From email-sweep-2026-10-16-am.md / open-tasks-2026-10-16-am.md."
+    },
+    {
+      "decision": "thegemportal live event Fri Oct 16, 7:30pm PT — watch or bid?",
+      "lane": "GemRock",
+      "recommended": "Your call (GemRock Intel comps only; never bids)",
+      "note": "Scheduled-notice 11:25pm PT Oct 15. Thu Oct 15 Show 175 passed with no result on hub."
     }
   ],
   "decisions_source": "Chief of Staff evening summary, Thu Oct 15, 2026 (recommended defaults are Chief of Staff's; nothing changes until Joshua decides)",
