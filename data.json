@@ -3,7 +3,7 @@
     "title": "Fresh $$ Control Center",
     "owner": "Joshua",
     "assistant": "Fresh $$",
-    "last_updated": "2026-10-16T08:45:44-07:00",
+    "last_updated": "2026-10-16T08:48:03-07:00",
     "status_note": "Morning refresh Fri Oct 16, 2026 ~8:45 AM PT. Revenue $0 every lane. Focus lineup unchanged: Active = WebsitePlz (#1), Family Gem (#2), PrintPlz holiday sprint through Nov 30; Background = HostFees (autopilot); Retired = MoonletterMira (shop untouched); Paused = Deal Scout, paper desk, incubator research queue, Easy $$ Monitor, Creator Growth, classroom tools. All ads ON HOLD at $0. PrintPlz (Shop Manager 8:17 AM, fresh JSON): 80 active / 1 draft / 2 inactive, 0 orders, 3 views / 3 visits last 7 days; AM polish loop ran (~6:07 AM, 54/54 OK; capitals on X13/X14/X15). HostFees: 30 of 49 pins, drip still paused until Joshua checks Pinterest; week-2 kit pins still blocked. WebsitePlz: forced full re-check due ~10:12 AM PT today (in progress / not done yet this morning). Family Gem: Etsy cutover still pending; site was 200 on all 8 sitemap pages (last pulse Oct 15 ~7:40 PM). Gem-close-logger ran this morning (~7:19–7:41 AM PT). Other account: verified roll-up 2026-10-15_2024_incubator_rollup.md (49209b59395b, as of Oct 15 8:24 PM PT); no Oct 16 incubator roll-up yet (expected evening). Paper desk PAUSED. New Needs today: Gem Rock cert invoice (order held), thegemportal live tonight 7:30 PM PT."
   },
   "budget": {
@@ -811,7 +811,7 @@
       "priority": "low",
       "done": false,
       "bot_work": true,
-      "rank": 22
+      "rank": 21
     },
     {
       "task": "Use Etsy Shop Manager for future live-listing counts",
@@ -825,14 +825,14 @@
       "priority": "medium",
       "done": false,
       "optional": true,
-      "rank": 20
+      "rank": 19
     },
     {
       "task": "Get a P.O. box / mailing address for CAN-SPAM compliance before email outreach",
       "why": "Commercial emails need a valid postal address (CAN-SPAM); needed before any email outreach (Supreme Sales 2.0). Also serves HostFees site and affiliate mail. No address goes on this page.",
       "priority": "medium",
       "done": false,
-      "rank": 17
+      "rank": 16
     },
     {
       "task": "Change the Turno temporary password",
@@ -852,7 +852,7 @@
       "priority": "low",
       "done": false,
       "optional": true,
-      "rank": 18
+      "rank": 17
     },
     {
       "task": "Complete the Amazon Associates application",
@@ -865,7 +865,7 @@
       "why": "Finish ID verification and confirm the phone number, then publish the WebsitePlz gig. W-9 submitted; Contra ~89%.",
       "priority": "high",
       "done": false,
-      "rank": 10
+      "rank": 9
     },
     {
       "task": "Optional: apply to the OwnerRez affiliate program",
@@ -873,7 +873,7 @@
       "priority": "low",
       "done": false,
       "optional": true,
-      "rank": 23
+      "rank": 22
     },
     {
       "task": "Unlock the traffic tiles",
@@ -886,28 +886,28 @@
       "why": "50% deposits are live on the site; buttons switch to \"Pay $X to start\" once the links are pasted in. Also 3 Care links and the customer portal (WebsitePlz README).",
       "priority": "medium",
       "done": false,
-      "rank": 14
+      "rank": 13
     },
     {
       "task": "Relay $300 for PrintPlz",
       "why": "On Chief of Staff's waiting-on-Joshua list (Oct 3).",
       "priority": "medium",
       "done": false,
-      "rank": 19
+      "rank": 18
     },
     {
       "task": "Set up the WebsitePlz contact inbox",
       "why": "Contact address for WebsitePlz buyers. Chief of Staff list, Oct 3.",
       "priority": "medium",
       "done": false,
-      "rank": 15
+      "rank": 14
     },
     {
       "task": "Review the WebsitePlz legal pages (Terms, Privacy, Refunds)",
       "why": "Plain-English drafts are live at websiteplz.com/terms, /privacy and /refunds. Review before Stripe goes live (Stripe's terms checkbox points at /terms/).",
       "priority": "high",
       "done": false,
-      "rank": 12
+      "rank": 11
     },
     {
       "task": "CANCELLED: Cat Bundle Flippa follow-up (PASSED Oct 6)",
@@ -939,7 +939,7 @@
       "why": "Add hostfees.com to the Associates Sites list and make SiteStripe links for the empty kit slots: 28 of 51 slots still fall back to tagged searches.",
       "priority": "high",
       "done": false,
-      "rank": 11
+      "rank": 10
     },
     {
       "task": "OK to deploy the HostFees staged kits (before Thu Oct 8)",
@@ -958,14 +958,14 @@
       "why": "websiteplz.com is done (Oct 3-4, per WebsitePlz). hostfees.com is reported already collecting (per HostFees Control, not verified here), so it needs only a sitemap check. thefamilygems.com still needs setup (no Google verification record on its DNS yet); that unblocks indexing for The Family Gem Shop's site.",
       "priority": "medium",
       "done": false,
-      "rank": 6
+      "rank": 5
     },
     {
       "task": "Mahenge spinel photos + AIG lab scan for Family Gem: sent by Joshua (tapped Completed Oct 9, 8:47 AM PT); waiting to arrive on this side",
       "why": "Nothing more needed from you. Stays on the list until the files arrive and verify here; needed before the first Family Gem listing.",
       "priority": "medium",
       "done": false,
-      "rank": 13,
+      "rank": 12,
       "status": "sent, waiting to arrive"
     },
     {
@@ -975,7 +975,7 @@
       "done": false,
       "deadline": "2026-10-16",
       "added": "2026-10-09",
-      "rank": 2
+      "rank": 1
     },
     {
       "task": "Glance at the 'Welcome to Cloudflare' email (7:10 AM PT Oct 10): did you sign up for a new Cloudflare account?",
@@ -983,7 +983,7 @@
       "priority": "medium",
       "done": false,
       "added": "2026-10-10",
-      "rank": 7
+      "rank": 6
     },
     {
       "task": "Read the paid-ads reference guide when convenient (research only)",
@@ -991,14 +991,14 @@
       "priority": "low",
       "done": false,
       "added": "2026-10-10",
-      "rank": 25
+      "rank": 24
     },
     {
       "task": "Start the HostFees Facebook-group posts from a re-dated calendar",
       "why": "HostFees' Oct 10 sales-path report calls this the biggest near-term traffic lever (groups with 560K+ members vs about 0 Pinterest visits so far); no Facebook-tagged visits yet. Lead with the cleaning-kit and linen-kit posts. HostFees Control can re-date the calendar first (internal, nothing posted).",
       "priority": "medium",
       "done": false,
-      "rank": 16,
+      "rank": 15,
       "added": "2026-10-10"
     },
     {
@@ -1006,7 +1006,7 @@
       "why": "Lets HostFees Control finish the winter checklist upgrade before the Oct 15 winter pin and fix the smart-lock kit's Start-here match (or retitle that heading). Pick before Thu Oct 15.",
       "priority": "low",
       "done": false,
-      "rank": 21,
+      "rank": 20,
       "added": "2026-10-10"
     },
     {
@@ -1014,7 +1014,7 @@
       "why": "Keeps your own visits out of the HostFees counts.",
       "priority": "low",
       "done": false,
-      "rank": 26,
+      "rank": 25,
       "added": "2026-10-10"
     },
     {
@@ -1023,7 +1023,7 @@
       "priority": "high",
       "done": false,
       "added": "2026-10-10",
-      "rank": 5
+      "rank": 4
     },
     {
       "task": "Optional: confirm hostfees.com as the website link on your X profile (@TheJoshuaGold) until the Gold Ventures page is live.",
@@ -1032,14 +1032,14 @@
       "done": false,
       "optional": true,
       "added": "2026-10-10",
-      "rank": 27
+      "rank": 26
     },
     {
       "task": "Review the Cursor GitHub App's request for updated permissions (accept or ignore under GitHub Apps installations)",
       "why": "Two email notices Oct 12 (3:07 PM and 6:49 PM PT); only Joshua can approve",
       "priority": "medium",
       "done": false,
-      "rank": 8
+      "rank": 7
     },
     {
       "task": "PrintPlz Etsy Ads: ON HOLD with all ads; OK the final setup only when you revisit ads",
@@ -1047,7 +1047,7 @@
       "priority": "low",
       "done": false,
       "added": "2026-10-14",
-      "rank": 24,
+      "rank": 23,
       "on_hold": true
     },
     {
@@ -1058,34 +1058,25 @@
       "deadline": "2026-10-31",
       "added": "2026-10-15",
       "optional": false,
-      "rank": 9
+      "rank": 8
     },
     {
-      "task": "[removed]",
-      "why": "[removed]",
+      "task": "Gem Rock / thegemportal cert invoice: decide pay for certs or ship without (reply on Gem Rock only)",
+      "why": "The seller says a lab-cert invoice was sent and the order is held until you answer. Reply on Gem Rock Auctions only; no auto-reply.",
       "priority": "high",
       "done": false,
       "deadline": "2026-10-16",
       "added": "2026-10-16",
-      "rank": 1
+      "rank": 2
     },
     {
-      "task": "Gem Rock Auctions / thegemportal cert invoice — seller (Jake) says an invoice for lab-cert fees was sent; order is held pending Joshua's yes/no (pay certs, or tell them to ship without). Reply on Gem Rock Auctions only; do not auto-reply.",
-      "why": "Order held pending reply (email-sweep-2026-10-16-am.md + open-tasks-2026-10-16-am.md).",
+      "task": "thegemportal live event tonight Fri Oct 16 7:30 PM PT: watch or bid?",
+      "why": "Same-day live-event notice (Oct 16 AM email sweep). GemRock Intel pulls comps only and never bids. The Thu Oct 15 Show 175 is closed (passed with no result recorded).",
       "priority": "high",
       "done": false,
       "deadline": "2026-10-16",
       "added": "2026-10-16",
       "rank": 3
-    },
-    {
-      "task": "thegemportal live event tonight Fri Oct 16, 7:30pm PT — watch or bid? (GemRock Intel comps only, never bids)",
-      "why": "Same-day live-event notice (email-sweep-2026-10-16-am.md). Thu Oct 15 Show 175 passed with no result recorded.",
-      "priority": "high",
-      "done": false,
-      "deadline": "2026-10-16",
-      "added": "2026-10-16",
-      "rank": 4
     }
   ],
   "projects": [
