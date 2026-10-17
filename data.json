@@ -3,7 +3,7 @@
     "title": "Fresh $$ Control Center",
     "owner": "Joshua",
     "assistant": "Fresh $$",
-    "last_updated": "2026-10-17T08:48:59-07:00",
+    "last_updated": "2026-10-17T12:21:45-07:00",
     "status_note": "Morning refresh Sat Oct 17, 2026 ~8:55 AM PT. Revenue $0 every lane; all ads ON HOLD at $0. PrintPlz (Shop Manager 8:18 AM PT): 80 active / 1 draft / 2 inactive, 0 orders, 7-day views 1 / visits 1 (down from 3/3); AM polish loop OK (Materials fixed on 2 listings, capitals on 3 more); Halloween takedowns run 9:27 AM PT (in progress). Family Gem: thefamilygems.com redesign live since ~9:50 PM PT Oct 16 and verified in Search Console; Etsy launch still needs prices + mm, shipping/returns OK and the bot's Etsy sign-in. WebsitePlz: live site fine; last site files Oct 16 evening. HostFees: 30 pins, drip paused until the Pinterest account check. Deal Scout, paper desk paused on purpose. Other account (verified roll-up 2026-10-16_2026_incubator_rollup.md, Oct 16 8:26 PM PT): paper desk $4,894.64 of $5,000 (paper, PAUSED, unchanged); no newer roll-up yet. Today: Gem Rock live shows tonight 7:30 PM PT (your call). Next: bank cutoff Mon Oct 19 8:59 PM PT; early .com renew window closes Oct 31."
   },
   "budget": {
@@ -82,14 +82,14 @@
       "type": "For-moms print-on-demand gifts: mom shirts, teacher shirts, kids stickers, holiday party items, ornaments",
       "platform": "Etsy + Printful",
       "status": "live",
-      "status_note": "Shop Manager Sat Oct 17 8:18 AM PT (printplz-live-listings.json, fresh): 80 active / 1 draft / 2 inactive / 0 expired / 0 sold out. Last 7 days: 1 view / 1 visit, 0 orders, $0 (down from 3/3 on Oct 16). Morning order check 8:18 AM PT: 0 new/unshipped orders, 0 messages, Printful all statuses 0. Oct 17 AM polish loop (~5:59–6:08 AM PT): 54/54 final_verify OK; Materials (Cypress, Wood) filled on X1P and P2P; capitals instructions live on X19/M4/M5; search-visibility notice is the 'needs 5+ orders' service standard, nothing to fix. Halloween listing takedowns scheduled 9:27 AM and W4 labels 9:45 AM PT today: in progress. Build hold still on (K6/K7 unpublished). Etsy Ads ON HOLD (all ads). Offsite Ads off. Cyber Specials joined (25% off Nov 23 – Dec 1; Etsy sale, not ad spend). Shop advisor still surfaces Cyber tip / Gen Z replay. $0 revenue. Holiday SEO batch 1 is 5 of 9 done (part B runs 10:15 AM PT today).",
+      "status_note": "Shop Manager Sat Oct 17 9:36 AM PT (printplz-live-listings.json, after Halloween retirement): 74 active / 1 draft / 8 inactive / 0 expired. Halloween retirement done 9:36 AM PT: TB1, TG1, TF1, W1, W2, W4 deactivated; TC1 kept active with Halloween text removed. 8:18 AM read was 80 active / 2 inactive. Last 7 days: 1 view / 1 visit, 0 orders, $0 (down from 3/3 on Oct 16). Morning order check 8:18 AM PT: 0 new/unshipped orders, 0 messages, Printful all statuses 0. Oct 17 AM polish loop (~5:59–6:08 AM PT): 54/54 final_verify OK; Materials (Cypress, Wood) filled on X1P and P2P; capitals instructions live on X19/M4/M5; search-visibility notice is the 'needs 5+ orders' service standard, nothing to fix. Build hold still on (K6/K7 unpublished). Etsy Ads ON HOLD (all ads). Offsite Ads off. Cyber Specials joined (25% off Nov 23 – Dec 1; Etsy sale, not ad spend). Shop advisor still surfaces Cyber tip / Gen Z replay. $0 revenue. Holiday SEO batch 1 is 5 of 9 done (part B runs 10:15 AM PT today).",
       "url": "https://www.etsy.com/shop/PrintPlzShop",
       "orders": 0,
       "revenue": 0,
       "profit": 0,
       "views": 1,
       "visits": 1,
-      "listings_live": 80,
+      "listings_live": 74,
       "listings_drafted": 1,
       "top_products": [
         {
@@ -2227,7 +2227,7 @@
       "account": "This account",
       "primary": "views",
       "secondary": "visits",
-      "status": "launching Oct 17",
+      "status": "launch waiting on Joshua (Etsy sign-in, prices + mm, shipping/returns OK)",
       "pending_label": "first read pending",
       "extras": [
         {
@@ -2239,7 +2239,7 @@
           "pending": "—"
         }
       ],
-      "needs": "First Etsy Shop Manager read pending (shop launching Oct 17). Daily numbers: read the Family Gem bot's own daily reports/files (/workspace/familygem/ and /workspace/handoffs/, e.g. a dated Family Gem report or nightly roll-up) and record them with traffic.py add. Never reuse readings from Oct 6 or earlier."
+      "needs": "First Etsy Shop Manager read pending: the Family Gem bot has no Etsy access yet (checked Oct 17 ~12:25 PM PT). Etsy SEO drafts for 5 stones are ready (DRAFT, Oct 17), blocked on price, mm, shipping/returns and Joshua's yes. Daily numbers: read the Family Gem bot's own daily reports/files (/workspace/familygem/ and /workspace/handoffs/, e.g. a dated Family Gem report or nightly roll-up) and record them with traffic.py add. Never reuse readings from Oct 6 or earlier."
     },
     {
       "id": "familygem-site",
@@ -2261,7 +2261,7 @@
           "pending": "pending — property just verified"
         }
       ],
-      "tile_note": "Live since Oct 16 (per Family Gem)",
+      "tile_note": "Live since Oct 16; SEO pass live Oct 17 (per Family Gem)",
       "needs": "Visits/views pending: no Cloudflare Web Analytics site exists for thefamilygems.com yet (checked Oct 17 ~8:16 AM PT); traffic.py collect picks it up automatically once one is added. Search Console clicks/impressions pending (Domain property verified Oct 16 ~9:51 PM PT). Daily numbers: read the Family Gem bot's own daily reports/files (/workspace/familygem/ and /workspace/handoffs/, e.g. a dated Family Gem report or nightly roll-up) and record them with traffic.py add. Never reuse readings from Oct 6 or earlier."
     }
   ],
