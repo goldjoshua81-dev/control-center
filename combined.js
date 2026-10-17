@@ -72,12 +72,15 @@ loadData(D => {
     const tiles = TS.map((s, i) => {
       const p = series(s.id, s.primary), q = s.secondary ? series(s.id, s.secondary) : [];
       const head = `<div class="l">${esc(s.name)}</div>`;
-      if (!p.length) return `<div class="kpi ${colors[i % colors.length]} tr-off">${head}<div class="v tr-na">${esc(s.status === "relayed manually" ? "no data yet" : "not tracked yet")}</div><div class="s">${esc(s.account)}${s.status === "relayed manually" ? " · relayed manually" : ""}</div></div>`;
+      // extras: optional [{metric, pending}] shown under the tile; real values come only from traffic_history
+      const extras = (s.extras || []).map(x => { const r = series(s.id, x.metric); return `<div class="s">${esc(x.metric)}: ${r.length ? (+r[r.length - 1].value).toLocaleString() : esc(x.pending || "—")}</div>`; }).join("");
+      const note = s.tile_note ? `<div class="s muted">${esc(s.tile_note)}</div>` : "";
+      if (!p.length) return `<div class="kpi ${colors[i % colors.length]} tr-off">${head}<div class="v tr-na">${esc(s.pending_label || (s.status === "relayed manually" ? "no data yet" : "not tracked yet"))}</div><div class="s">${esc(s.account)}${s.status === "relayed manually" ? " · relayed manually" : ""}${s.pending_label ? " · " + esc(s.status) : ""}</div>${s.pending_label ? `<div class="s">${esc(s.primary)}: —${s.secondary ? " · " + esc(s.secondary) + ": —" : ""}</div>` : ""}${extras}${note}</div>`;
       const last = p[p.length - 1], d = delta(p);
       inc++; total += +last.value; if (d != null) { totalPrev += +p[p.length - 2].value; totalHasPrev = true; } else totalPrev += +last.value;
       const sec = q.length ? `<div class="s">${(+q[q.length - 1].value).toLocaleString()} ${esc(s.secondary)}${delta(q) != null ? ` (${delta(q) >= 0 ? "+" : ""}${delta(q)})` : ""}</div>` : "";
       return `<div class="kpi ${colors[i % colors.length]}">${head}<div class="v">${(+last.value).toLocaleString()} <small class="tr-m">${esc(s.primary)} · ${esc(last.window)}</small></div>
-        <div class="s">${dtxt(d, p)}</div>${sec}${spark(p)}<div class="s tr-asof">as of ${shortDate(last.date)}</div></div>`;
+        <div class="s">${dtxt(d, p)}</div>${sec}${spark(p)}${extras}${note}<div class="s tr-asof">as of ${shortDate(last.date)}</div></div>`;
     });
     const tdelta = totalHasPrev ? total - totalPrev : null;
     const totalTile = `<div class="kpi k-asphalt"><div class="l">🌐 Combined total</div><div class="v">${total.toLocaleString()}</div>

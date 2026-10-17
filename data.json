@@ -3,7 +3,7 @@
     "title": "Fresh $$ Control Center",
     "owner": "Joshua",
     "assistant": "Fresh $$",
-    "last_updated": "2026-10-16T21:05:44-07:00",
+    "last_updated": "2026-10-17T08:16:45-07:00",
     "status_note": "Evening update Fri Oct 16, 2026 ~9:10 PM PT (Chief of Staff evening summary). Revenue $0 every lane. All ads ON HOLD at $0 (PrintPlz Cyber Specials is an Etsy sale, not ad spend). No missed runs. Focus lineup unchanged: Active = WebsitePlz (#1), Family Gem (#2), PrintPlz holiday sprint through Nov 30; Background = HostFees (autopilot); Paused = Deal Scout, paper desk, incubator research queue, Easy $$ Monitor, Creator Growth, classroom tools. Family Gem: per-stone layer done for 5 stones; trade names applied; redesign on a draft branch, nothing live, all prices TBD; push on hold until Joshua reviews the home + shop views. PrintPlz: holiday SEO batch 1 is 5 of 9 done; Etsy access restricted, so Saturday's Halloween takedowns may slip. WebsitePlz: the box restarted this evening; site files restoring locally; live site fine. HostFees: 30 of 49 pins, drip paused until Joshua checks the Pinterest account. thegemportal live event passed 7:30 PM PT with no win or invoice recorded. Other account (Oct 16 8:26 PM PT, verified): paper desk $4,894.64 of $5,000 (paper, PAUSED, unchanged). Next 72h: Sat Oct 17 Halloween listing takedowns (may slip); Oct 31 early .com renew window closes."
   },
   "budget": {
@@ -811,7 +811,7 @@
       "priority": "low",
       "done": false,
       "bot_work": true,
-      "rank": 22
+      "rank": 24
     },
     {
       "task": "Use Etsy Shop Manager for future live-listing counts",
@@ -825,14 +825,14 @@
       "priority": "medium",
       "done": false,
       "optional": true,
-      "rank": 20
+      "rank": 22
     },
     {
       "task": "Get a P.O. box / mailing address for CAN-SPAM compliance before email outreach",
       "why": "Commercial emails need a valid postal address (CAN-SPAM); needed before any email outreach (Supreme Sales 2.0). Also serves HostFees site and affiliate mail. No address goes on this page.",
       "priority": "medium",
       "done": false,
-      "rank": 17
+      "rank": 19
     },
     {
       "task": "Change the Turno temporary password",
@@ -852,7 +852,7 @@
       "priority": "low",
       "done": false,
       "optional": true,
-      "rank": 18
+      "rank": 20
     },
     {
       "task": "Complete the Amazon Associates application",
@@ -865,7 +865,7 @@
       "why": "Finish ID verification and confirm the phone number, then publish the WebsitePlz gig. W-9 submitted; Contra ~89%.",
       "priority": "high",
       "done": false,
-      "rank": 10
+      "rank": 12
     },
     {
       "task": "Optional: apply to the OwnerRez affiliate program",
@@ -873,7 +873,7 @@
       "priority": "low",
       "done": false,
       "optional": true,
-      "rank": 23
+      "rank": 25
     },
     {
       "task": "Unlock the traffic tiles",
@@ -886,28 +886,28 @@
       "why": "50% deposits are live on the site; buttons switch to \"Pay $X to start\" once the links are pasted in. Also 3 Care links and the customer portal (WebsitePlz README).",
       "priority": "medium",
       "done": false,
-      "rank": 14
+      "rank": 16
     },
     {
       "task": "Relay $300 for PrintPlz",
       "why": "On Chief of Staff's waiting-on-Joshua list (Oct 3).",
       "priority": "medium",
       "done": false,
-      "rank": 19
+      "rank": 21
     },
     {
       "task": "Set up the WebsitePlz contact inbox",
       "why": "Contact address for WebsitePlz buyers. Chief of Staff list, Oct 3.",
       "priority": "medium",
       "done": false,
-      "rank": 15
+      "rank": 17
     },
     {
       "task": "Review the WebsitePlz legal pages (Terms, Privacy, Refunds)",
       "why": "Plain-English drafts are live at websiteplz.com/terms, /privacy and /refunds. Review before Stripe goes live (Stripe's terms checkbox points at /terms/).",
       "priority": "high",
       "done": false,
-      "rank": 12
+      "rank": 14
     },
     {
       "task": "CANCELLED: Cat Bundle Flippa follow-up (PASSED Oct 6)",
@@ -939,7 +939,7 @@
       "why": "Add hostfees.com to the Associates Sites list and make SiteStripe links for the empty kit slots: 28 of 51 slots still fall back to tagged searches.",
       "priority": "high",
       "done": false,
-      "rank": 11
+      "rank": 13
     },
     {
       "task": "OK to deploy the HostFees staged kits (before Thu Oct 8)",
@@ -954,18 +954,18 @@
       "done": true
     },
     {
-      "task": "Search Console: confirm the hostfees.com sitemap; set up thefamilygems.com",
-      "why": "websiteplz.com is done (Oct 3-4, per WebsitePlz). hostfees.com is reported already collecting (per HostFees Control, not verified here), so it needs only a sitemap check. thefamilygems.com still needs setup (no Google verification record on its DNS yet); that unblocks indexing for The Family Gem Shop's site.",
+      "task": "Search Console: confirm the hostfees.com sitemap",
+      "why": "thefamilygems.com part done per Family Gem: Domain property verified Oct 16 ~9:51 PM PT; Joshua submitting its sitemap. Still open: confirm the hostfees.com sitemap.",
       "priority": "medium",
       "done": false,
-      "rank": 4
+      "rank": 7
     },
     {
       "task": "Mahenge spinel photos + AIG lab scan for Family Gem: sent by Joshua (tapped Completed Oct 9, 8:47 AM PT); waiting to arrive on this side",
       "why": "Nothing more needed from you. Stays on the list until the files arrive and verify here; needed before the first Family Gem listing.",
       "priority": "medium",
       "done": false,
-      "rank": 13,
+      "rank": 15,
       "status": "sent, waiting to arrive"
     },
     {
@@ -983,7 +983,7 @@
       "priority": "medium",
       "done": false,
       "added": "2026-10-10",
-      "rank": 6
+      "rank": 8
     },
     {
       "task": "Read the paid-ads reference guide when convenient (research only)",
@@ -991,14 +991,14 @@
       "priority": "low",
       "done": false,
       "added": "2026-10-10",
-      "rank": 25
+      "rank": 27
     },
     {
       "task": "Start the HostFees Facebook-group posts from a re-dated calendar",
       "why": "HostFees' Oct 10 sales-path report calls this the biggest near-term traffic lever (groups with 560K+ members vs about 0 Pinterest visits so far); no Facebook-tagged visits yet. Lead with the cleaning-kit and linen-kit posts. HostFees Control can re-date the calendar first (internal, nothing posted).",
       "priority": "medium",
       "done": false,
-      "rank": 16,
+      "rank": 18,
       "added": "2026-10-10"
     },
     {
@@ -1006,7 +1006,7 @@
       "why": "Lets HostFees Control finish the winter checklist upgrade before the Oct 15 winter pin and fix the smart-lock kit's Start-here match (or retitle that heading). Pick before Thu Oct 15.",
       "priority": "low",
       "done": false,
-      "rank": 21,
+      "rank": 23,
       "added": "2026-10-10"
     },
     {
@@ -1014,7 +1014,7 @@
       "why": "Keeps your own visits out of the HostFees counts.",
       "priority": "low",
       "done": false,
-      "rank": 26,
+      "rank": 28,
       "added": "2026-10-10"
     },
     {
@@ -1032,14 +1032,14 @@
       "done": false,
       "optional": true,
       "added": "2026-10-10",
-      "rank": 27
+      "rank": 29
     },
     {
       "task": "Review the Cursor GitHub App's request for updated permissions (accept or ignore under GitHub Apps installations)",
       "why": "Two email notices Oct 12 (3:07 PM and 6:49 PM PT); only Joshua can approve",
       "priority": "medium",
       "done": false,
-      "rank": 7
+      "rank": 9
     },
     {
       "task": "PrintPlz Etsy Ads: ON HOLD with all ads; OK the final setup only when you revisit ads",
@@ -1047,7 +1047,7 @@
       "priority": "low",
       "done": false,
       "added": "2026-10-14",
-      "rank": 24,
+      "rank": 26,
       "on_hold": true
     },
     {
@@ -1058,7 +1058,7 @@
       "deadline": "2026-10-31",
       "added": "2026-10-15",
       "optional": false,
-      "rank": 8
+      "rank": 10
     },
     {
       "task": "Gem Rock / thegemportal cert invoice: decide pay for certs or ship without (reply on Gem Rock only)",
@@ -1070,20 +1070,36 @@
       "rank": 2
     },
     {
-      "task": "Family Gem: review the home + shop views, then give the push yes",
-      "why": "The stone-page look is approved (per Family Gem). The redesign sits on a draft branch and nothing goes live until you say yes.",
-      "priority": "high",
-      "done": false,
-      "added": "2026-10-16",
-      "rank": 5
-    },
-    {
       "task": "Family Gem: Banner C v2 yes/no + logo crest (at Etsy shop setup)",
       "why": "One pick for when the Etsy shop is set up; no separate A/B/C choice needed.",
       "priority": "medium",
       "done": false,
       "added": "2026-10-16",
-      "rank": 9
+      "rank": 11
+    },
+    {
+      "task": "Family Gem: set prices + mm measurements for the stones",
+      "why": "Every stone is still Price TBD; Etsy listings need a price and size in mm.",
+      "priority": "high",
+      "done": false,
+      "added": "2026-10-17",
+      "rank": 4
+    },
+    {
+      "task": "Family Gem: OK the shipping + returns policy",
+      "why": "Needed before the Etsy shop can take orders.",
+      "priority": "high",
+      "done": false,
+      "added": "2026-10-17",
+      "rank": 5
+    },
+    {
+      "task": "Family Gem: Etsy sign-in for the Family Gem bot",
+      "why": "The bot needs Etsy access to launch the shop (launching Oct 17) and read stats.",
+      "priority": "high",
+      "done": false,
+      "added": "2026-10-17",
+      "rank": 6
     }
   ],
   "projects": [
@@ -1861,9 +1877,9 @@
         "status": "vacation",
         "type": "Loose gemstones on Etsy",
         "url": "https://www.etsy.com/shop/TheFamilyGemShop",
-        "note": "Owner: Family Gem bot (ac4794e0) on the main account runs the shop and thefamilygems.com; reports to Fresh $$. Etsy access for the bot not set up yet (cutover pending). Vacation mode ON, 0 live listings (last known), 0 orders, $0 revenue. SF-001 photographed, NOT listed; its 6 original photos and 2 videos arrived on this account Oct 9 8:05 AM PT. Etsy stats: paused, pending cutover (last real read Oct 6 8:37 AM PT: vacation, 0 visits, 0 orders, $0). Site live check Oct 16, 2026 ~12:20 PM PT: home, shop, about, guides, tsavorite-garnet-buying-guide, faq, contact, robots, sitemap all HTTP 200 (~0.07–0.16 s); www 301s to apex; sitemap still 8 URLs, lastmod 2026-10-05; DNS TXT SPF only (no google-site-verification). Family Gem bot pulse Oct 15 ~7:40 PM PT: nothing new on disk since Oct 14, nothing needs Joshua that night. Oct 14 pulse: F5 'tsavorite vs emerald' DRAFT ready (not published; needs Joshua's yes); tsavorite KB conflicts resolved; A4 name swap done in the migration copy Oct 13 (only stale 'swap needed' notes left in README/WEBSITE.md); intake/LISTING-UPLOAD-PLAN.md ready, intake inbox empty. Waiting on Joshua: F1 Search Console TXT at Namecheap, A2 Etsy sign-in (separate browser profile), B1 SF-001 price/treatment/mm, Mahenge spinel photos + AIG scan, F5 publish yes. Oct 16 evening (per Family Gem): per-stone layer done for 5 stones (4 photos, a soft-music video, history/facts each); trade names applied; redesign on a draft branch, nothing live; all prices TBD. Stone-page look approved; push on hold until Joshua reviews the home + shop views.",
+        "note": "Owner: Family Gem bot (ac4794e0) on the main account runs the shop and thefamilygems.com; reports to Fresh $$. Etsy access for the bot not set up yet (cutover pending). Vacation mode ON, 0 live listings (last known), 0 orders, $0 revenue. SF-001 photographed, NOT listed; its 6 original photos and 2 videos arrived on this account Oct 9 8:05 AM PT. Etsy stats: paused, pending cutover (last real read Oct 6 8:37 AM PT: vacation, 0 visits, 0 orders, $0). Site live check Oct 16, 2026 ~12:20 PM PT: home, shop, about, guides, tsavorite-garnet-buying-guide, faq, contact, robots, sitemap all HTTP 200 (~0.07–0.16 s); www 301s to apex; sitemap still 8 URLs, lastmod 2026-10-05; DNS TXT SPF only (no google-site-verification). Family Gem bot pulse Oct 15 ~7:40 PM PT: nothing new on disk since Oct 14, nothing needs Joshua that night. Oct 14 pulse: F5 'tsavorite vs emerald' DRAFT ready (not published; needs Joshua's yes); tsavorite KB conflicts resolved; A4 name swap done in the migration copy Oct 13 (only stale 'swap needed' notes left in README/WEBSITE.md); intake/LISTING-UPLOAD-PLAN.md ready, intake inbox empty. Waiting on Joshua: F1 Search Console TXT at Namecheap, A2 Etsy sign-in (separate browser profile), B1 SF-001 price/treatment/mm, Mahenge spinel photos + AIG scan, F5 publish yes. Oct 16 evening (per Family Gem): per-stone layer done for 5 stones (4 photos, a soft-music video, history/facts each); trade names applied; redesign on a draft branch, nothing live; all prices TBD. Stone-page look approved; push on hold until Joshua reviews the home + shop views. Oct 17 AM: thefamilygems.com went live Oct 16 ~9:50 PM PT (main fc52596, direction F) per Family Gem on Joshua's yes; confirmed 200 Oct 17 ~8:16 AM PT. Search Console Domain property verified per Family Gem; Joshua submitting the sitemap. Etsy shop launching Oct 17. Still open: prices + mm measurements, shipping/returns, Etsy sign-in, Banner C v2 yes/no at Etsy setup.",
         "listings": [],
-        "one_liner": "Vacation · 0 listings · per-stone layer done for 5 stones · redesign on draft branch, nothing live · Price TBD · push on hold · Search Console + Etsy access not set up"
+        "one_liner": "Site LIVE since Oct 16 (per Family Gem) · Etsy launching Oct 17 · Search Console verified · prices TBD · needs prices/mm, shipping/returns, Etsy sign-in"
       },
       {
         "name": "Help4U",
@@ -2172,14 +2188,48 @@
       "needs": "Not tracked: the Etsy login that owns MoonletterMira isn't identified yet (other account's Oct 8 catch-up roll-up). Needs that login or a paste of Shop Manager 7d views/visits."
     },
     {
-      "id": "familygem",
-      "name": "The Family Gem Shop",
+      "id": "familygem-etsy",
+      "name": "The Family Gem Shop on Etsy",
       "venture": "Etsy shop",
-      "account": "Other bots",
+      "account": "This account",
+      "primary": "views",
+      "secondary": "visits",
+      "status": "launching Oct 17",
+      "pending_label": "first read pending",
+      "extras": [
+        {
+          "metric": "active listings",
+          "pending": "—"
+        },
+        {
+          "metric": "orders",
+          "pending": "—"
+        }
+      ],
+      "needs": "First Etsy Shop Manager read pending (shop launching Oct 17). Daily numbers: read the Family Gem bot's own daily reports/files (/workspace/familygem/ and /workspace/handoffs/, e.g. a dated Family Gem report or nightly roll-up) and record them with traffic.py add. Never reuse readings from Oct 6 or earlier."
+    },
+    {
+      "id": "familygem-site",
+      "name": "thefamilygems.com website",
+      "venture": "thefamilygems.com",
+      "account": "This account",
       "primary": "visits",
       "secondary": "views",
-      "status": "Site HTTPS OK, 8 sitemap pages + tsavorite guide 200 at ~0.07–0.16 s (Oct 16, 2026 ~12:20 PM PT); sitemap 8 URLs, lastmod still Oct 5 (no site publish since); Etsy vacation, 0 listings (last known); Etsy stats paused, pending cutover (last read Oct 6: 0 visits); Search Console not set up (DNS TXT SPF only, Oct 16 ~12:20 PM PT).",
-      "needs": "Joshua: Search Console DNS verification record at Namecheap, Etsy sign-in for the Family Gem bot, SF-001 price/treatment/size, F5 publish yes"
+      "status": "live since Oct 16 (per Family Gem)",
+      "pending_label": "pending",
+      "cf_host": "thefamilygems.com",
+      "extras": [
+        {
+          "metric": "Search Console clicks",
+          "pending": "pending — property just verified"
+        },
+        {
+          "metric": "Search Console impressions",
+          "pending": "pending — property just verified"
+        }
+      ],
+      "tile_note": "Live since Oct 16 (per Family Gem)",
+      "needs": "Visits/views pending: no Cloudflare Web Analytics site exists for thefamilygems.com yet (checked Oct 17 ~8:16 AM PT); traffic.py collect picks it up automatically once one is added. Search Console clicks/impressions pending (Domain property verified Oct 16 ~9:51 PM PT). Daily numbers: read the Family Gem bot's own daily reports/files (/workspace/familygem/ and /workspace/handoffs/, e.g. a dated Family Gem report or nightly roll-up) and record them with traffic.py add. Never reuse readings from Oct 6 or earlier."
     }
   ],
   "traffic_history": [
@@ -2963,7 +3013,9 @@
       "decision": "Family Gem push (take the redesign live)",
       "lane": "Family Gem",
       "recommended": "Hold",
-      "note": "Redesign is on a draft branch; nothing live; all prices TBD. Joshua reviews the home + shop views first."
+      "note": "Yes. Site live Oct 16 ~9:50 PM PT, per Family Gem on Joshua's yes.",
+      "done": true,
+      "status": "decided"
     }
   ],
   "decisions_source": "Chief of Staff evening summary, Fri Oct 16, 2026 (recommended defaults are Chief of Staff's; nothing changes until Joshua decides)",
@@ -3202,6 +3254,30 @@
       "done_display": "Oct 16, 2026 · 7:30 PM PT",
       "note": "Closed: passed 7:30 PM PT, no win or invoice recorded.",
       "source": "Chief of Staff Oct 16 evening summary"
+    },
+    {
+      "task": "Family Gem: review home + shop views, then give the push yes",
+      "status": "done",
+      "done_at": "2026-10-16T21:50:00-07:00",
+      "done_display": "Oct 16, 2026 · ~9:50 PM PT",
+      "note": "Site live Oct 16 ~9:50 PM PT, per Family Gem on Joshua's yes (main fc52596, direction F). Confirmed thefamilygems.com returns 200 on Oct 17 ~8:16 AM PT.",
+      "source": "Family Gem 9:51 PM Oct 16 update (relayed by Scott Bot)"
+    },
+    {
+      "task": "Family Gem push (take the redesign live)",
+      "status": "decided",
+      "done_at": "2026-10-16T21:50:00-07:00",
+      "done_display": "Oct 16, 2026 · ~9:50 PM PT",
+      "note": "Site live Oct 16 ~9:50 PM PT, per Family Gem on Joshua's yes.",
+      "source": "Family Gem 9:51 PM Oct 16 update (relayed by Scott Bot)"
+    },
+    {
+      "task": "Search Console: set up thefamilygems.com",
+      "status": "done",
+      "done_at": "2026-10-16T21:51:00-07:00",
+      "done_display": "Oct 16, 2026 · 9:51 PM PT",
+      "note": "Domain property verified per Family Gem; Joshua submitting the sitemap.",
+      "source": "Family Gem 9:51 PM Oct 16 update (relayed by Scott Bot)"
     }
   ],
   "acquisition_ideas": {

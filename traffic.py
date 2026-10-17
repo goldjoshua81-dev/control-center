@@ -14,6 +14,17 @@ Usage:
         - PrintPlz: data/printplz-live-listings.json (views_7d / visits_7d written by the Shop Manager refresh)
         - HostFees / WebsitePlz: Cloudflare Web Analytics via GraphQL, if CLOUDFLARE_API_TOKEN has Account Analytics: Read
   python3 traffic.py collect --publish                      # ... then git commit + push (GitHub Pages redeploys)
+
+Family Gem (split Oct 17, 2026 into two tiles; keep both ids):
+  familygem-etsy  - Etsy shop: views (primary), visits, plus "active listings" and "orders" extras.
+  familygem-site  - thefamilygems.com: visits/views via Cloudflare (cf_host; auto once a Web Analytics
+                    site exists), plus "Search Console clicks" / "Search Console impressions" extras.
+  Morning refresh: read the Family Gem bot's daily reports/files under /workspace/familygem/ and
+  /workspace/handoffs/ and record only real dated readings, e.g.
+    python3 traffic.py add familygem-etsy views 12 --window 7d --method "Family Gem daily report <file>"
+    python3 traffic.py add familygem-etsy "active listings" 5 --method "Family Gem daily report <file>"
+    python3 traffic.py add familygem-site "Search Console clicks" 0 --window 7d --method "Family Gem report <file>"
+  Never reuse the retired 'familygem' readings (Oct 6 or older). Tiles show dashes/'pending' until then.
 A reading is skipped if the same source+metric+date already exists, so collect is safe to run repeatedly.
 """
 import argparse, datetime, json, os, sys, urllib.request, urllib.error
